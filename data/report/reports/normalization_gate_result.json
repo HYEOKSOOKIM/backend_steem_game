@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-04-13T11:25:15.398293+09:00",
+  "baseline_path": "apps\\review-insights\\data\\reports\\batch_quality_report.v3.baseline.json",
+  "current_path": "apps\\review-insights\\data\\reports\\batch_quality_report.json",
+  "thresholds": {
+    "max_included_drop_rate": 0.1,
+    "require_unc_improvement": true
+  },
+  "metrics": {
+    "baseline_included_count": 5243,
+    "current_included_count": 5243,
+    "included_drop_rate": 0.0,
+    "baseline_unclassified_ratio": 0.5371,
+    "current_unclassified_ratio": 0.5371,
+    "unc_ratio_delta": 0.0
+  },
+  "gate": {
+    "included_drop_pass": true,
+    "unc_improvement_pass": false,
+    "gate_pass": false
+  },
+  "rollback": {
+    "required": true,
+    "baseline_restore_source": "apps\\review-insights\\data\\reports\\batch_quality_report.v3.baseline.json",
+    "criteria": "included_drop_rate > threshold OR unc_ratio_delta >= 0"
+  }
+}

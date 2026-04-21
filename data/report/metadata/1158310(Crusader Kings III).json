@@ -1,0 +1,14 @@
+{
+  "appid": 1158310,
+  "name": "Crusader Kings III",
+  "genres": [
+    "RPG",
+    "시뮬레이션",
+    "전략"
+  ],
+  "price_model": "paid",
+  "release_stage": "released",
+  "release_date_text": "2020년 9월 1일",
+  "is_free": false,
+  "coming_soon": false
+}

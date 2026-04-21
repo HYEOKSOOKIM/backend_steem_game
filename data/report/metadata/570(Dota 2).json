@@ -1,0 +1,14 @@
+{
+  "appid": 570,
+  "name": "Dota 2",
+  "genres": [
+    "액션",
+    "전략",
+    "무료 플레이"
+  ],
+  "price_model": "free_to_play",
+  "release_stage": "released",
+  "release_date_text": "2013년 7월 9일",
+  "is_free": true,
+  "coming_soon": false
+}

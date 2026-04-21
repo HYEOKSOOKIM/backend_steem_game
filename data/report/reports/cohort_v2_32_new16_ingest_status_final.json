@@ -1,0 +1,119 @@
+{
+  "cohort_name": "cohort_v2_32",
+  "new16_count": 16,
+  "target_cap": 1200,
+  "rows": [
+    {
+      "appid": 440,
+      "game_name": "Team Fortress 2",
+      "included_count": 2009,
+      "target_cap": 1200,
+      "status": "satisfied"
+    },
+    {
+      "appid": 570,
+      "game_name": "Dota 2",
+      "included_count": 1261,
+      "target_cap": 1200,
+      "status": "satisfied"
+    },
+    {
+      "appid": 105600,
+      "game_name": "Terraria",
+      "included_count": 2234,
+      "target_cap": 1200,
+      "status": "satisfied"
+    },
+    {
+      "appid": 236850,
+      "game_name": "Europa Universalis IV",
+      "included_count": 1132,
+      "target_cap": 1200,
+      "status": "exhausted"
+    },
+    {
+      "appid": 271590,
+      "game_name": "Grand Theft Auto V",
+      "included_count": 1466,
+      "target_cap": 1200,
+      "status": "satisfied"
+    },
+    {
+      "appid": 292030,
+      "game_name": "The Witcher 3: Wild Hunt",
+      "included_count": 2625,
+      "target_cap": 1200,
+      "status": "satisfied"
+    },
+    {
+      "appid": 346110,
+      "game_name": "ARK: Survival Evolved",
+      "included_count": 2040,
+      "target_cap": 1200,
+      "status": "satisfied"
+    },
+    {
+      "appid": 359550,
+      "game_name": "Tom Clancy's Rainbow Six Siege",
+      "included_count": 2358,
+      "target_cap": 1200,
+      "status": "satisfied"
+    },
+    {
+      "appid": 374320,
+      "game_name": "DARK SOULS III",
+      "included_count": 2614,
+      "target_cap": 1200,
+      "status": "satisfied"
+    },
+    {
+      "appid": 548430,
+      "game_name": "Deep Rock Galactic",
+      "included_count": 2282,
+      "target_cap": 1200,
+      "status": "satisfied"
+    },
+    {
+      "appid": 582010,
+      "game_name": "Monster Hunter: World",
+      "included_count": 2431,
+      "target_cap": 1200,
+      "status": "satisfied"
+    },
+    {
+      "appid": 648800,
+      "game_name": "Raft",
+      "included_count": 2589,
+      "target_cap": 1200,
+      "status": "satisfied"
+    },
+    {
+      "appid": 814380,
+      "game_name": "Sekiro: Shadows Die Twice",
+      "included_count": 2729,
+      "target_cap": 1200,
+      "status": "satisfied"
+    },
+    {
+      "appid": 1158310,
+      "game_name": "Crusader Kings III",
+      "included_count": 1409,
+      "target_cap": 1200,
+      "status": "satisfied"
+    },
+    {
+      "appid": 1222670,
+      "game_name": "The Sims 4",
+      "included_count": 1695,
+      "target_cap": 1200,
+      "status": "satisfied"
+    },
+    {
+      "appid": 1966720,
+      "game_name": "Lethal Company",
+      "included_count": 2339,
+      "target_cap": 1200,
+      "status": "satisfied"
+    }
+  ]
+}

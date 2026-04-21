@@ -1,0 +1,230 @@
+{
+  "cohort_name": "cohort_v2_32",
+  "game_count": 32,
+  "results": [
+    {
+      "appid": 1245620,
+      "raw_review_count": 7998,
+      "included_review_count": 4675,
+      "unclassified_included_count": 2815,
+      "unclassified_included_ratio": 0.6021
+    },
+    {
+      "appid": 1627720,
+      "raw_review_count": 3999,
+      "included_review_count": 3147,
+      "unclassified_included_count": 1224,
+      "unclassified_included_ratio": 0.3889
+    },
+    {
+      "appid": 1174180,
+      "raw_review_count": 7999,
+      "included_review_count": 4652,
+      "unclassified_included_count": 2516,
+      "unclassified_included_ratio": 0.5408
+    },
+    {
+      "appid": 1091500,
+      "raw_review_count": 7998,
+      "included_review_count": 5158,
+      "unclassified_included_count": 2350,
+      "unclassified_included_ratio": 0.4556
+    },
+    {
+      "appid": 578080,
+      "raw_review_count": 11999,
+      "included_review_count": 4056,
+      "unclassified_included_count": 2405,
+      "unclassified_included_ratio": 0.5929
+    },
+    {
+      "appid": 730,
+      "raw_review_count": 7996,
+      "included_review_count": 3225,
+      "unclassified_included_count": 1807,
+      "unclassified_included_ratio": 0.5603
+    },
+    {
+      "appid": 252490,
+      "raw_review_count": 8000,
+      "included_review_count": 4789,
+      "unclassified_included_count": 2829,
+      "unclassified_included_ratio": 0.5907
+    },
+    {
+      "appid": 892970,
+      "raw_review_count": 7542,
+      "included_review_count": 5062,
+      "unclassified_included_count": 2426,
+      "unclassified_included_ratio": 0.4793
+    },
+    {
+      "appid": 413150,
+      "raw_review_count": 7998,
+      "included_review_count": 4791,
+      "unclassified_included_count": 2943,
+      "unclassified_included_ratio": 0.6143
+    },
+    {
+      "appid": 2456740,
+      "raw_review_count": 1526,
+      "included_review_count": 1306,
+      "unclassified_included_count": 447,
+      "unclassified_included_ratio": 0.3423
+    },
+    {
+      "appid": 230410,
+      "raw_review_count": 8000,
+      "included_review_count": 5480,
+      "unclassified_included_count": 3375,
+      "unclassified_included_ratio": 0.6159
+    },
+    {
+      "appid": 1085660,
+      "raw_review_count": 8000,
+      "included_review_count": 5098,
+      "unclassified_included_count": 2768,
+      "unclassified_included_ratio": 0.543
+    },
+    {
+      "appid": 289070,
+      "raw_review_count": 8000,
+      "included_review_count": 5142,
+      "unclassified_included_count": 2849,
+      "unclassified_included_ratio": 0.5541
+    },
+    {
+      "appid": 294100,
+      "raw_review_count": 7904,
+      "included_review_count": 5531,
+      "unclassified_included_count": 3181,
+      "unclassified_included_ratio": 0.5751
+    },
+    {
+      "appid": 381210,
+      "raw_review_count": 8000,
+      "included_review_count": 5204,
+      "unclassified_included_count": 3374,
+      "unclassified_included_ratio": 0.6483
+    },
+    {
+      "appid": 553850,
+      "raw_review_count": 7999,
+      "included_review_count": 5470,
+      "unclassified_included_count": 2461,
+      "unclassified_included_ratio": 0.4499
+    },
+    {
+      "appid": 814380,
+      "raw_review_count": 4000,
+      "included_review_count": 2729,
+      "unclassified_included_count": 1514,
+      "unclassified_included_ratio": 0.5548
+    },
+    {
+      "appid": 374320,
+      "raw_review_count": 4000,
+      "included_review_count": 2614,
+      "unclassified_included_count": 1663,
+      "unclassified_included_ratio": 0.6362
+    },
+    {
+      "appid": 292030,
+      "raw_review_count": 3999,
+      "included_review_count": 2625,
+      "unclassified_included_count": 1087,
+      "unclassified_included_ratio": 0.4141
+    },
+    {
+      "appid": 271590,
+      "raw_review_count": 3999,
+      "included_review_count": 1466,
+      "unclassified_included_count": 913,
+      "unclassified_included_ratio": 0.6228
+    },
+    {
+      "appid": 359550,
+      "raw_review_count": 3999,
+      "included_review_count": 2358,
+      "unclassified_included_count": 1438,
+      "unclassified_included_ratio": 0.6098
+    },
+    {
+      "appid": 440,
+      "raw_review_count": 4000,
+      "included_review_count": 2009,
+      "unclassified_included_count": 1298,
+      "unclassified_included_ratio": 0.6461
+    },
+    {
+      "appid": 648800,
+      "raw_review_count": 4000,
+      "included_review_count": 2589,
+      "unclassified_included_count": 1226,
+      "unclassified_included_ratio": 0.4735
+    },
+    {
+      "appid": 346110,
+      "raw_review_count": 4000,
+      "included_review_count": 2040,
+      "unclassified_included_count": 1075,
+      "unclassified_included_ratio": 0.527
+    },
+    {
+      "appid": 1222670,
+      "raw_review_count": 2666,
+      "included_review_count": 1695,
+      "unclassified_included_count": 814,
+      "unclassified_included_ratio": 0.4802
+    },
+    {
+      "appid": 105600,
+      "raw_review_count": 3999,
+      "included_review_count": 2234,
+      "unclassified_included_count": 1334,
+      "unclassified_included_ratio": 0.5971
+    },
+    {
+      "appid": 570,
+      "raw_review_count": 2400,
+      "included_review_count": 1261,
+      "unclassified_included_count": 722,
+      "unclassified_included_ratio": 0.5726
+    },
+    {
+      "appid": 582010,
+      "raw_review_count": 3999,
+      "included_review_count": 2431,
+      "unclassified_included_count": 1444,
+      "unclassified_included_ratio": 0.594
+    },
+    {
+      "appid": 1158310,
+      "raw_review_count": 2099,
+      "included_review_count": 1409,
+      "unclassified_included_count": 832,
+      "unclassified_included_ratio": 0.5905
+    },
+    {
+      "appid": 236850,
+      "raw_review_count": 1537,
+      "included_review_count": 1132,
+      "unclassified_included_count": 599,
+      "unclassified_included_ratio": 0.5292
+    },
+    {
+      "appid": 1966720,
+      "raw_review_count": 4000,
+      "included_review_count": 2339,
+      "unclassified_included_count": 1303,
+      "unclassified_included_ratio": 0.5571
+    },
+    {
+      "appid": 548430,
+      "raw_review_count": 3426,
+      "included_review_count": 2282,
+      "unclassified_included_count": 1221,
+      "unclassified_included_ratio": 0.5351
+    }
+  ]
+}

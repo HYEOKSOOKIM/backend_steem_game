@@ -1,0 +1,9 @@
+﻿[
+  {
+    "appid": 2456740,
+    "game_name": "inZOI",
+    "primary_bucket": "시뮬레이션 / 라이프심",
+    "secondary_tags": ["얼리액세스"],
+    "expected_failure_pattern": "건축, 커스터마이징, 콘텐츠 부족 표현이 겹치는 경우"
+  }
+]

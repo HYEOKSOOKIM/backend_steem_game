@@ -1,0 +1,14 @@
+{
+  "appid": 1085660,
+  "name": "데스티니 가디언즈",
+  "genres": [
+    "액션",
+    "어드벤처",
+    "무료 플레이"
+  ],
+  "price_model": "free_to_play",
+  "release_stage": "released",
+  "release_date_text": "2019년 10월 1일",
+  "is_free": true,
+  "coming_soon": false
+}

@@ -1,0 +1,14 @@
+{
+  "appid": 294100,
+  "name": "RimWorld",
+  "genres": [
+    "인디",
+    "시뮬레이션",
+    "전략"
+  ],
+  "price_model": "paid",
+  "release_stage": "released",
+  "release_date_text": "2018년 10월 17일",
+  "is_free": false,
+  "coming_soon": false
+}

@@ -1,0 +1,15 @@
+{
+  "appid": 578080,
+  "name": "PUBG: BATTLEGROUNDS",
+  "genres": [
+    "액션",
+    "어드벤처",
+    "대규모 멀티플레이어",
+    "무료 플레이"
+  ],
+  "price_model": "free_to_play",
+  "release_stage": "released",
+  "release_date_text": "2017년 12월 21일",
+  "is_free": true,
+  "coming_soon": false
+}

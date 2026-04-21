@@ -1,0 +1,16 @@
+{
+  "appid": 346110,
+  "name": "ARK: Survival Evolved",
+  "genres": [
+    "액션",
+    "어드벤처",
+    "인디",
+    "대규모 멀티플레이어",
+    "RPG"
+  ],
+  "price_model": "paid",
+  "release_stage": "released",
+  "release_date_text": "2017년 8월 27일",
+  "is_free": false,
+  "coming_soon": false
+}

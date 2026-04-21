@@ -1,0 +1,13 @@
+{
+  "appid": 440,
+  "name": "Team Fortress 2",
+  "genres": [
+    "액션",
+    "무료 플레이"
+  ],
+  "price_model": "free_to_play",
+  "release_stage": "released",
+  "release_date_text": "2007년 10월 10일",
+  "is_free": true,
+  "coming_soon": false
+}

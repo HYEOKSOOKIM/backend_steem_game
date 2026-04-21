@@ -1,0 +1,52 @@
+{
+  "results": [
+    {
+      "appid": 2456740,
+      "game_name": "inZOI (인조이)",
+      "raw_review_count": 1526,
+      "processed_review_count": 1526,
+      "included_review_count": 1306,
+      "pipeline_run_id": "raw-rebuild-2456740-20260416T055543Z"
+    },
+    {
+      "appid": 1174180,
+      "game_name": "Red Dead Redemption 2",
+      "raw_review_count": 7999,
+      "processed_review_count": 7999,
+      "included_review_count": 4652,
+      "pipeline_run_id": "raw-rebuild-1174180-20260416T055544Z"
+    },
+    {
+      "appid": 1245620,
+      "game_name": "ELDEN RING",
+      "raw_review_count": 7998,
+      "processed_review_count": 7998,
+      "included_review_count": 4675,
+      "pipeline_run_id": "raw-rebuild-1245620-20260416T055545Z"
+    },
+    {
+      "appid": 578080,
+      "game_name": "PUBG: BATTLEGROUNDS",
+      "raw_review_count": 11999,
+      "processed_review_count": 11999,
+      "included_review_count": 4056,
+      "pipeline_run_id": "raw-rebuild-578080-20260416T055547Z"
+    },
+    {
+      "appid": 413150,
+      "game_name": "Stardew Valley",
+      "raw_review_count": 7998,
+      "processed_review_count": 7998,
+      "included_review_count": 4791,
+      "pipeline_run_id": "raw-rebuild-413150-20260416T055548Z"
+    },
+    {
+      "appid": 3551340,
+      "game_name": "Football Manager 26",
+      "raw_review_count": 1875,
+      "processed_review_count": 1875,
+      "included_review_count": 1482,
+      "pipeline_run_id": "raw-rebuild-3551340-20260416T055549Z"
+    }
+  ]
+}

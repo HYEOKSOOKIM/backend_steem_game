@@ -1,0 +1,12 @@
+{
+  "appid": 582010,
+  "name": "Monster Hunter: World",
+  "genres": [
+    "액션"
+  ],
+  "price_model": "paid",
+  "release_stage": "released",
+  "release_date_text": "2018년 8월 8일",
+  "is_free": false,
+  "coming_soon": false
+}

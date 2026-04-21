@@ -1,0 +1,13 @@
+{
+  "appid": 1245620,
+  "name": "ELDEN RING",
+  "genres": [
+    "액션",
+    "RPG"
+  ],
+  "price_model": "paid",
+  "release_stage": "released",
+  "release_date_text": "2022년 2월 24일",
+  "is_free": false,
+  "coming_soon": false
+}

@@ -1,0 +1,81 @@
+{
+  "generated_at": "2026-04-16T15:22:37.009660+09:00",
+  "appids": [
+    2456740,
+    1174180,
+    1245620,
+    578080,
+    413150,
+    3551340
+  ],
+  "openai_key_set": false,
+  "judge_available": false,
+  "judge_off": {
+    "avg_unknown_rate": 0.1044,
+    "avg_mismatch_rate": 0.0
+  },
+  "judge_on": {
+    "avg_unknown_rate": 0.1044,
+    "avg_mismatch_rate": 0.0
+  },
+  "delta": {
+    "avg_unknown_rate": 0.0,
+    "avg_mismatch_rate": 0.0
+  },
+  "by_app": [
+    {
+      "appid": 2456740,
+      "unknown_rate_off": 0.1818,
+      "unknown_rate_on": 0.1818,
+      "unknown_rate_delta": 0.0,
+      "mismatch_rate_off": 0.0,
+      "mismatch_rate_on": 0.0,
+      "mismatch_rate_delta": 0.0
+    },
+    {
+      "appid": 1174180,
+      "unknown_rate_off": 0.0,
+      "unknown_rate_on": 0.0,
+      "unknown_rate_delta": 0.0,
+      "mismatch_rate_off": 0.0,
+      "mismatch_rate_on": 0.0,
+      "mismatch_rate_delta": 0.0
+    },
+    {
+      "appid": 1245620,
+      "unknown_rate_off": 0.1111,
+      "unknown_rate_on": 0.1111,
+      "unknown_rate_delta": 0.0,
+      "mismatch_rate_off": 0.0,
+      "mismatch_rate_on": 0.0,
+      "mismatch_rate_delta": 0.0
+    },
+    {
+      "appid": 578080,
+      "unknown_rate_off": 0.0,
+      "unknown_rate_on": 0.0,
+      "unknown_rate_delta": 0.0,
+      "mismatch_rate_off": 0.0,
+      "mismatch_rate_on": 0.0,
+      "mismatch_rate_delta": 0.0
+    },
+    {
+      "appid": 413150,
+      "unknown_rate_off": 0.0,
+      "unknown_rate_on": 0.0,
+      "unknown_rate_delta": 0.0,
+      "mismatch_rate_off": 0.0,
+      "mismatch_rate_on": 0.0,
+      "mismatch_rate_delta": 0.0
+    },
+    {
+      "appid": 3551340,
+      "unknown_rate_off": 0.3333,
+      "unknown_rate_on": 0.3333,
+      "unknown_rate_delta": 0.0,
+      "mismatch_rate_off": 0.0,
+      "mismatch_rate_on": 0.0,
+      "mismatch_rate_delta": 0.0
+    }
+  ]
+}

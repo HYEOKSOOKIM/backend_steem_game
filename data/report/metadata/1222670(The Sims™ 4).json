@@ -1,0 +1,15 @@
+{
+  "appid": 1222670,
+  "name": "The Sims™ 4",
+  "genres": [
+    "어드벤처",
+    "캐주얼",
+    "시뮬레이션",
+    "무료 플레이"
+  ],
+  "price_model": "free_to_play",
+  "release_stage": "released",
+  "release_date_text": "2020년 6월 18일",
+  "is_free": true,
+  "coming_soon": false
+}

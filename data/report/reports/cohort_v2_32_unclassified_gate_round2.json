@@ -1,0 +1,205 @@
+{
+  "cohort_name": "cohort_v2_32",
+  "metric": "unclassified_ratio_capped_1200",
+  "baseline_source": "C:\\Users\\rubys\\OneDrive\\문서\\IntelAI\\NLP_PJ\\apps\\review-insights\\data\\reports\\cohort_v2_32_metrics_comparison.json",
+  "baseline_ratio": 0.5763,
+  "current_ratio": 0.5449,
+  "delta": -0.0314,
+  "gate_passed": true,
+  "included_capped_total": 38332,
+  "unclassified_capped_total": 20889,
+  "per_game": [
+    {
+      "appid": 1245620,
+      "included_capped": 1200,
+      "unclassified_capped": 726,
+      "unclassified_ratio": 0.605
+    },
+    {
+      "appid": 1627720,
+      "included_capped": 1200,
+      "unclassified_capped": 437,
+      "unclassified_ratio": 0.3642
+    },
+    {
+      "appid": 1174180,
+      "included_capped": 1200,
+      "unclassified_capped": 651,
+      "unclassified_ratio": 0.5425
+    },
+    {
+      "appid": 1091500,
+      "included_capped": 1200,
+      "unclassified_capped": 515,
+      "unclassified_ratio": 0.4292
+    },
+    {
+      "appid": 578080,
+      "included_capped": 1200,
+      "unclassified_capped": 710,
+      "unclassified_ratio": 0.5917
+    },
+    {
+      "appid": 730,
+      "included_capped": 1200,
+      "unclassified_capped": 672,
+      "unclassified_ratio": 0.56
+    },
+    {
+      "appid": 252490,
+      "included_capped": 1200,
+      "unclassified_capped": 743,
+      "unclassified_ratio": 0.6192
+    },
+    {
+      "appid": 892970,
+      "included_capped": 1200,
+      "unclassified_capped": 594,
+      "unclassified_ratio": 0.495
+    },
+    {
+      "appid": 413150,
+      "included_capped": 1200,
+      "unclassified_capped": 746,
+      "unclassified_ratio": 0.6217
+    },
+    {
+      "appid": 2456740,
+      "included_capped": 1200,
+      "unclassified_capped": 401,
+      "unclassified_ratio": 0.3342
+    },
+    {
+      "appid": 230410,
+      "included_capped": 1200,
+      "unclassified_capped": 739,
+      "unclassified_ratio": 0.6158
+    },
+    {
+      "appid": 1085660,
+      "included_capped": 1200,
+      "unclassified_capped": 641,
+      "unclassified_ratio": 0.5342
+    },
+    {
+      "appid": 289070,
+      "included_capped": 1200,
+      "unclassified_capped": 656,
+      "unclassified_ratio": 0.5467
+    },
+    {
+      "appid": 294100,
+      "included_capped": 1200,
+      "unclassified_capped": 735,
+      "unclassified_ratio": 0.6125
+    },
+    {
+      "appid": 381210,
+      "included_capped": 1200,
+      "unclassified_capped": 815,
+      "unclassified_ratio": 0.6792
+    },
+    {
+      "appid": 553850,
+      "included_capped": 1200,
+      "unclassified_capped": 514,
+      "unclassified_ratio": 0.4283
+    },
+    {
+      "appid": 814380,
+      "included_capped": 1200,
+      "unclassified_capped": 602,
+      "unclassified_ratio": 0.5017
+    },
+    {
+      "appid": 374320,
+      "included_capped": 1200,
+      "unclassified_capped": 766,
+      "unclassified_ratio": 0.6383
+    },
+    {
+      "appid": 292030,
+      "included_capped": 1200,
+      "unclassified_capped": 507,
+      "unclassified_ratio": 0.4225
+    },
+    {
+      "appid": 271590,
+      "included_capped": 1200,
+      "unclassified_capped": 746,
+      "unclassified_ratio": 0.6217
+    },
+    {
+      "appid": 359550,
+      "included_capped": 1200,
+      "unclassified_capped": 716,
+      "unclassified_ratio": 0.5967
+    },
+    {
+      "appid": 440,
+      "included_capped": 1200,
+      "unclassified_capped": 762,
+      "unclassified_ratio": 0.635
+    },
+    {
+      "appid": 648800,
+      "included_capped": 1200,
+      "unclassified_capped": 545,
+      "unclassified_ratio": 0.4542
+    },
+    {
+      "appid": 346110,
+      "included_capped": 1200,
+      "unclassified_capped": 592,
+      "unclassified_ratio": 0.4933
+    },
+    {
+      "appid": 1222670,
+      "included_capped": 1200,
+      "unclassified_capped": 577,
+      "unclassified_ratio": 0.4808
+    },
+    {
+      "appid": 105600,
+      "included_capped": 1200,
+      "unclassified_capped": 711,
+      "unclassified_ratio": 0.5925
+    },
+    {
+      "appid": 570,
+      "included_capped": 1200,
+      "unclassified_capped": 715,
+      "unclassified_ratio": 0.5958
+    },
+    {
+      "appid": 582010,
+      "included_capped": 1200,
+      "unclassified_capped": 688,
+      "unclassified_ratio": 0.5733
+    },
+    {
+      "appid": 1158310,
+      "included_capped": 1200,
+      "unclassified_capped": 730,
+      "unclassified_ratio": 0.6083
+    },
+    {
+      "appid": 236850,
+      "included_capped": 1132,
+      "unclassified_capped": 599,
+      "unclassified_ratio": 0.5292
+    },
+    {
+      "appid": 1966720,
+      "included_capped": 1200,
+      "unclassified_capped": 654,
+      "unclassified_ratio": 0.545
+    },
+    {
+      "appid": 548430,
+      "included_capped": 1200,
+      "unclassified_capped": 684,
+      "unclassified_ratio": 0.57
+    }
+  ]
+}

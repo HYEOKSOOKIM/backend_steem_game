@@ -1,0 +1,167 @@
+{
+  "cohort_name": "cohort_v2_32",
+  "cohort_size": 32,
+  "created_at": "2026-04-16",
+  "cohort": [
+    {
+      "appid": 1245620,
+      "game_name": "ELDEN RING",
+      "primary_bucket": "소울라이크/하드코어 액션"
+    },
+    {
+      "appid": 1627720,
+      "game_name": "Lies of P",
+      "primary_bucket": "소울라이크/하드코어 액션"
+    },
+    {
+      "appid": 1174180,
+      "game_name": "Red Dead Redemption 2",
+      "primary_bucket": "오픈월드 스토리형"
+    },
+    {
+      "appid": 1091500,
+      "game_name": "Cyberpunk 2077",
+      "primary_bucket": "오픈월드 스토리형"
+    },
+    {
+      "appid": 578080,
+      "game_name": "PUBG: BATTLEGROUNDS",
+      "primary_bucket": "경쟁 FPS/PVP"
+    },
+    {
+      "appid": 730,
+      "game_name": "Counter-Strike 2",
+      "primary_bucket": "경쟁 FPS/PVP"
+    },
+    {
+      "appid": 252490,
+      "game_name": "Rust",
+      "primary_bucket": "생존/크래프팅"
+    },
+    {
+      "appid": 892970,
+      "game_name": "Valheim",
+      "primary_bucket": "생존/크래프팅"
+    },
+    {
+      "appid": 413150,
+      "game_name": "Stardew Valley",
+      "primary_bucket": "라이프/시뮬레이션"
+    },
+    {
+      "appid": 2456740,
+      "game_name": "inZOI",
+      "primary_bucket": "라이프/시뮬레이션"
+    },
+    {
+      "appid": 230410,
+      "game_name": "Warframe",
+      "primary_bucket": "라이브서비스/MMO"
+    },
+    {
+      "appid": 1085660,
+      "game_name": "Destiny 2",
+      "primary_bucket": "라이브서비스/MMO"
+    },
+    {
+      "appid": 289070,
+      "game_name": "Sid Meier's Civilization VI",
+      "primary_bucket": "전략/경영"
+    },
+    {
+      "appid": 294100,
+      "game_name": "RimWorld",
+      "primary_bucket": "전략/경영"
+    },
+    {
+      "appid": 381210,
+      "game_name": "Dead by Daylight",
+      "primary_bucket": "협동/비대칭 멀티"
+    },
+    {
+      "appid": 553850,
+      "game_name": "HELLDIVERS 2",
+      "primary_bucket": "협동/비대칭 멀티"
+    },
+    {
+      "appid": 814380,
+      "game_name": "Sekiro: Shadows Die Twice",
+      "primary_bucket": "소울라이크/하드코어 액션"
+    },
+    {
+      "appid": 374320,
+      "game_name": "DARK SOULS III",
+      "primary_bucket": "소울라이크/하드코어 액션"
+    },
+    {
+      "appid": 292030,
+      "game_name": "The Witcher 3: Wild Hunt",
+      "primary_bucket": "오픈월드 스토리형"
+    },
+    {
+      "appid": 271590,
+      "game_name": "Grand Theft Auto V",
+      "primary_bucket": "오픈월드 스토리형"
+    },
+    {
+      "appid": 359550,
+      "game_name": "Tom Clancy's Rainbow Six Siege",
+      "primary_bucket": "경쟁 FPS/PVP"
+    },
+    {
+      "appid": 440,
+      "game_name": "Team Fortress 2",
+      "primary_bucket": "경쟁 FPS/PVP"
+    },
+    {
+      "appid": 648800,
+      "game_name": "Raft",
+      "primary_bucket": "생존/크래프팅"
+    },
+    {
+      "appid": 346110,
+      "game_name": "ARK: Survival Evolved",
+      "primary_bucket": "생존/크래프팅"
+    },
+    {
+      "appid": 1222670,
+      "game_name": "The Sims 4",
+      "primary_bucket": "라이프/시뮬레이션"
+    },
+    {
+      "appid": 105600,
+      "game_name": "Terraria",
+      "primary_bucket": "라이프/시뮬레이션"
+    },
+    {
+      "appid": 570,
+      "game_name": "Dota 2",
+      "primary_bucket": "라이브서비스/MMO"
+    },
+    {
+      "appid": 582010,
+      "game_name": "Monster Hunter: World",
+      "primary_bucket": "라이브서비스/MMO"
+    },
+    {
+      "appid": 1158310,
+      "game_name": "Crusader Kings III",
+      "primary_bucket": "전략/경영"
+    },
+    {
+      "appid": 236850,
+      "game_name": "Europa Universalis IV",
+      "primary_bucket": "전략/경영"
+    },
+    {
+      "appid": 1966720,
+      "game_name": "Lethal Company",
+      "primary_bucket": "협동/비대칭 멀티"
+    },
+    {
+      "appid": 548430,
+      "game_name": "Deep Rock Galactic",
+      "primary_bucket": "협동/비대칭 멀티"
+    }
+  ]
+}

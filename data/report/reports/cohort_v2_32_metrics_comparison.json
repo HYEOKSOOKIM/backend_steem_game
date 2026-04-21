@@ -1,0 +1,576 @@
+{
+  "metric_definition": {
+    "unclassified_ratio": "included_in_analysis ?? ? category_tags=[] ?? (cap 1200, ?? ??)",
+    "title_evidence_alignment": "evidence snippet? ?? ??/stance ?? ?? ?? (0~1)",
+    "banned_label_exposure_rate": "?? ??(top_strengths/top_risks/evidence title) ? ?? ?? ?? ??"
+  },
+  "before_cohort": "cohort_v1 (16)",
+  "after_cohort": "cohort_v2_32 (32)",
+  "before": {
+    "game_count": 16,
+    "included_cap": 1200,
+    "games_with_data": 16,
+    "unclassified_ratio": 0.5349,
+    "title_evidence_alignment": 0.6584,
+    "banned_label_exposure_rate": 0.0,
+    "totals": {
+      "included_capped": 19200,
+      "unclassified_capped": 10271,
+      "title_count": 138,
+      "banned_title_count": 0,
+      "alignment_snippet_count": 161
+    },
+    "per_game": [
+      {
+        "appid": 1245620,
+        "game_name": "ELDEN RING",
+        "included_capped": 1200,
+        "unclassified_capped": 703,
+        "unclassified_ratio": 0.5858,
+        "title_count": 9,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.6333,
+        "status": "ok"
+      },
+      {
+        "appid": 1627720,
+        "game_name": "Lies of P",
+        "included_capped": 1200,
+        "unclassified_capped": 443,
+        "unclassified_ratio": 0.3692,
+        "title_count": 10,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.68,
+        "status": "ok"
+      },
+      {
+        "appid": 1174180,
+        "game_name": "Red Dead Redemption 2",
+        "included_capped": 1200,
+        "unclassified_capped": 669,
+        "unclassified_ratio": 0.5575,
+        "title_count": 10,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.4833,
+        "status": "ok"
+      },
+      {
+        "appid": 1091500,
+        "game_name": "Cyberpunk 2077",
+        "included_capped": 1200,
+        "unclassified_capped": 563,
+        "unclassified_ratio": 0.4692,
+        "title_count": 10,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.6727,
+        "status": "ok"
+      },
+      {
+        "appid": 578080,
+        "game_name": "PUBG: BATTLEGROUNDS",
+        "included_capped": 1200,
+        "unclassified_capped": 747,
+        "unclassified_ratio": 0.6225,
+        "title_count": 8,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.7455,
+        "status": "ok"
+      },
+      {
+        "appid": 730,
+        "game_name": "Counter-Strike 2",
+        "included_capped": 1200,
+        "unclassified_capped": 716,
+        "unclassified_ratio": 0.5967,
+        "title_count": 4,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.6,
+        "status": "ok"
+      },
+      {
+        "appid": 252490,
+        "game_name": "Rust",
+        "included_capped": 1200,
+        "unclassified_capped": 738,
+        "unclassified_ratio": 0.615,
+        "title_count": 6,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.65,
+        "status": "ok"
+      },
+      {
+        "appid": 892970,
+        "game_name": "Valheim",
+        "included_capped": 1200,
+        "unclassified_capped": 697,
+        "unclassified_ratio": 0.5808,
+        "title_count": 10,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.6667,
+        "status": "ok"
+      },
+      {
+        "appid": 413150,
+        "game_name": "Stardew Valley",
+        "included_capped": 1200,
+        "unclassified_capped": 773,
+        "unclassified_ratio": 0.6442,
+        "title_count": 8,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.6444,
+        "status": "ok"
+      },
+      {
+        "appid": 2456740,
+        "game_name": "inZOI",
+        "included_capped": 1200,
+        "unclassified_capped": 437,
+        "unclassified_ratio": 0.3642,
+        "title_count": 10,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.6667,
+        "status": "ok"
+      },
+      {
+        "appid": 230410,
+        "game_name": "Warframe",
+        "included_capped": 1200,
+        "unclassified_capped": 601,
+        "unclassified_ratio": 0.5008,
+        "title_count": 10,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.6444,
+        "status": "ok"
+      },
+      {
+        "appid": 1085660,
+        "game_name": "Destiny 2",
+        "included_capped": 1200,
+        "unclassified_capped": 668,
+        "unclassified_ratio": 0.5567,
+        "title_count": 10,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.7333,
+        "status": "ok"
+      },
+      {
+        "appid": 289070,
+        "game_name": "Sid Meier's Civilization VI",
+        "included_capped": 1200,
+        "unclassified_capped": 664,
+        "unclassified_ratio": 0.5533,
+        "title_count": 9,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.7,
+        "status": "ok"
+      },
+      {
+        "appid": 294100,
+        "game_name": "RimWorld",
+        "included_capped": 1200,
+        "unclassified_capped": 740,
+        "unclassified_ratio": 0.6167,
+        "title_count": 8,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.6444,
+        "status": "ok"
+      },
+      {
+        "appid": 381210,
+        "game_name": "Dead by Daylight",
+        "included_capped": 1200,
+        "unclassified_capped": 561,
+        "unclassified_ratio": 0.4675,
+        "title_count": 8,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.6364,
+        "status": "ok"
+      },
+      {
+        "appid": 553850,
+        "game_name": "HELLDIVERS 2",
+        "included_capped": 1200,
+        "unclassified_capped": 551,
+        "unclassified_ratio": 0.4592,
+        "title_count": 8,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.7091,
+        "status": "ok"
+      }
+    ]
+  },
+  "after": {
+    "game_count": 32,
+    "included_cap": 1200,
+    "games_with_data": 32,
+    "unclassified_ratio": 0.5763,
+    "title_evidence_alignment": 0.6495,
+    "banned_label_exposure_rate": 0.0,
+    "totals": {
+      "included_capped": 38332,
+      "unclassified_capped": 22090,
+      "title_count": 267,
+      "banned_title_count": 0,
+      "alignment_snippet_count": 303
+    },
+    "per_game": [
+      {
+        "appid": 1245620,
+        "game_name": "ELDEN RING",
+        "included_capped": 1200,
+        "unclassified_capped": 703,
+        "unclassified_ratio": 0.5858,
+        "title_count": 9,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.6333,
+        "status": "ok"
+      },
+      {
+        "appid": 1627720,
+        "game_name": "Lies of P",
+        "included_capped": 1200,
+        "unclassified_capped": 443,
+        "unclassified_ratio": 0.3692,
+        "title_count": 10,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.68,
+        "status": "ok"
+      },
+      {
+        "appid": 1174180,
+        "game_name": "Red Dead Redemption 2",
+        "included_capped": 1200,
+        "unclassified_capped": 669,
+        "unclassified_ratio": 0.5575,
+        "title_count": 10,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.4833,
+        "status": "ok"
+      },
+      {
+        "appid": 1091500,
+        "game_name": "Cyberpunk 2077",
+        "included_capped": 1200,
+        "unclassified_capped": 563,
+        "unclassified_ratio": 0.4692,
+        "title_count": 10,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.6727,
+        "status": "ok"
+      },
+      {
+        "appid": 578080,
+        "game_name": "PUBG: BATTLEGROUNDS",
+        "included_capped": 1200,
+        "unclassified_capped": 747,
+        "unclassified_ratio": 0.6225,
+        "title_count": 8,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.7455,
+        "status": "ok"
+      },
+      {
+        "appid": 730,
+        "game_name": "Counter-Strike 2",
+        "included_capped": 1200,
+        "unclassified_capped": 716,
+        "unclassified_ratio": 0.5967,
+        "title_count": 4,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.6,
+        "status": "ok"
+      },
+      {
+        "appid": 252490,
+        "game_name": "Rust",
+        "included_capped": 1200,
+        "unclassified_capped": 738,
+        "unclassified_ratio": 0.615,
+        "title_count": 6,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.65,
+        "status": "ok"
+      },
+      {
+        "appid": 892970,
+        "game_name": "Valheim",
+        "included_capped": 1200,
+        "unclassified_capped": 697,
+        "unclassified_ratio": 0.5808,
+        "title_count": 10,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.6667,
+        "status": "ok"
+      },
+      {
+        "appid": 413150,
+        "game_name": "Stardew Valley",
+        "included_capped": 1200,
+        "unclassified_capped": 773,
+        "unclassified_ratio": 0.6442,
+        "title_count": 8,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.6444,
+        "status": "ok"
+      },
+      {
+        "appid": 2456740,
+        "game_name": "inZOI",
+        "included_capped": 1200,
+        "unclassified_capped": 437,
+        "unclassified_ratio": 0.3642,
+        "title_count": 10,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.6667,
+        "status": "ok"
+      },
+      {
+        "appid": 230410,
+        "game_name": "Warframe",
+        "included_capped": 1200,
+        "unclassified_capped": 601,
+        "unclassified_ratio": 0.5008,
+        "title_count": 10,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.6444,
+        "status": "ok"
+      },
+      {
+        "appid": 1085660,
+        "game_name": "Destiny 2",
+        "included_capped": 1200,
+        "unclassified_capped": 668,
+        "unclassified_ratio": 0.5567,
+        "title_count": 10,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.7333,
+        "status": "ok"
+      },
+      {
+        "appid": 289070,
+        "game_name": "Sid Meier's Civilization VI",
+        "included_capped": 1200,
+        "unclassified_capped": 664,
+        "unclassified_ratio": 0.5533,
+        "title_count": 9,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.7,
+        "status": "ok"
+      },
+      {
+        "appid": 294100,
+        "game_name": "RimWorld",
+        "included_capped": 1200,
+        "unclassified_capped": 740,
+        "unclassified_ratio": 0.6167,
+        "title_count": 8,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.6444,
+        "status": "ok"
+      },
+      {
+        "appid": 381210,
+        "game_name": "Dead by Daylight",
+        "included_capped": 1200,
+        "unclassified_capped": 561,
+        "unclassified_ratio": 0.4675,
+        "title_count": 8,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.6364,
+        "status": "ok"
+      },
+      {
+        "appid": 553850,
+        "game_name": "HELLDIVERS 2",
+        "included_capped": 1200,
+        "unclassified_capped": 551,
+        "unclassified_ratio": 0.4592,
+        "title_count": 8,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.7091,
+        "status": "ok"
+      },
+      {
+        "appid": 814380,
+        "game_name": "Sekiro: Shadows Die Twice",
+        "included_capped": 1200,
+        "unclassified_capped": 680,
+        "unclassified_ratio": 0.5667,
+        "title_count": 10,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.6,
+        "status": "ok"
+      },
+      {
+        "appid": 374320,
+        "game_name": "DARK SOULS III",
+        "included_capped": 1200,
+        "unclassified_capped": 792,
+        "unclassified_ratio": 0.66,
+        "title_count": 9,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.65,
+        "status": "ok"
+      },
+      {
+        "appid": 292030,
+        "game_name": "The Witcher 3: Wild Hunt",
+        "included_capped": 1200,
+        "unclassified_capped": 539,
+        "unclassified_ratio": 0.4492,
+        "title_count": 10,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.6,
+        "status": "ok"
+      },
+      {
+        "appid": 271590,
+        "game_name": "Grand Theft Auto V",
+        "included_capped": 1200,
+        "unclassified_capped": 804,
+        "unclassified_ratio": 0.67,
+        "title_count": 9,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.7333,
+        "status": "ok"
+      },
+      {
+        "appid": 359550,
+        "game_name": "Tom Clancy's Rainbow Six Siege",
+        "included_capped": 1200,
+        "unclassified_capped": 754,
+        "unclassified_ratio": 0.6283,
+        "title_count": 6,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.7143,
+        "status": "ok"
+      },
+      {
+        "appid": 440,
+        "game_name": "Team Fortress 2",
+        "included_capped": 1200,
+        "unclassified_capped": 852,
+        "unclassified_ratio": 0.71,
+        "title_count": 6,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.68,
+        "status": "ok"
+      },
+      {
+        "appid": 648800,
+        "game_name": "Raft",
+        "included_capped": 1200,
+        "unclassified_capped": 640,
+        "unclassified_ratio": 0.5333,
+        "title_count": 9,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.6,
+        "status": "ok"
+      },
+      {
+        "appid": 346110,
+        "game_name": "ARK: Survival Evolved",
+        "included_capped": 1200,
+        "unclassified_capped": 712,
+        "unclassified_ratio": 0.5933,
+        "title_count": 6,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.65,
+        "status": "ok"
+      },
+      {
+        "appid": 1222670,
+        "game_name": "The Sims 4",
+        "included_capped": 1200,
+        "unclassified_capped": 619,
+        "unclassified_ratio": 0.5158,
+        "title_count": 10,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.6,
+        "status": "ok"
+      },
+      {
+        "appid": 105600,
+        "game_name": "Terraria",
+        "included_capped": 1200,
+        "unclassified_capped": 790,
+        "unclassified_ratio": 0.6583,
+        "title_count": 8,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.65,
+        "status": "ok"
+      },
+      {
+        "appid": 570,
+        "game_name": "Dota 2",
+        "included_capped": 1200,
+        "unclassified_capped": 944,
+        "unclassified_ratio": 0.7867,
+        "title_count": 3,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.8667,
+        "status": "ok"
+      },
+      {
+        "appid": 582010,
+        "game_name": "Monster Hunter: World",
+        "included_capped": 1200,
+        "unclassified_capped": 710,
+        "unclassified_ratio": 0.5917,
+        "title_count": 10,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.6,
+        "status": "ok"
+      },
+      {
+        "appid": 1158310,
+        "game_name": "Crusader Kings III",
+        "included_capped": 1200,
+        "unclassified_capped": 750,
+        "unclassified_ratio": 0.625,
+        "title_count": 9,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.6,
+        "status": "ok"
+      },
+      {
+        "appid": 236850,
+        "game_name": "Europa Universalis IV",
+        "included_capped": 1132,
+        "unclassified_capped": 611,
+        "unclassified_ratio": 0.5398,
+        "title_count": 9,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.7,
+        "status": "ok"
+      },
+      {
+        "appid": 1966720,
+        "game_name": "Lethal Company",
+        "included_capped": 1200,
+        "unclassified_capped": 846,
+        "unclassified_ratio": 0.705,
+        "title_count": 7,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.6,
+        "status": "ok"
+      },
+      {
+        "appid": 548430,
+        "game_name": "Deep Rock Galactic",
+        "included_capped": 1200,
+        "unclassified_capped": 776,
+        "unclassified_ratio": 0.6467,
+        "title_count": 8,
+        "banned_title_count": 0,
+        "title_evidence_alignment": 0.6,
+        "status": "ok"
+      }
+    ]
+  },
+  "delta": {
+    "unclassified_ratio": 0.0414,
+    "title_evidence_alignment": -0.0089,
+    "banned_label_exposure_rate": 0.0
+  }
+}

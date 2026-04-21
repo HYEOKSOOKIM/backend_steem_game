@@ -1,0 +1,15 @@
+{
+  "appid": 1966720,
+  "name": "Lethal Company",
+  "genres": [
+    "액션",
+    "어드벤처",
+    "인디",
+    "앞서 해보기"
+  ],
+  "price_model": "paid",
+  "release_stage": "early_access",
+  "release_date_text": "2023년 10월 23일",
+  "is_free": false,
+  "coming_soon": false
+}

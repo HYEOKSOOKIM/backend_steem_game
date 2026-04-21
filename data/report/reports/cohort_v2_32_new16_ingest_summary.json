@@ -1,0 +1,303 @@
+{
+  "cohort_name": "cohort_v2_32",
+  "new_game_count": 16,
+  "target_cap": 1200,
+  "page_plan": [
+    40,
+    80,
+    120,
+    160,
+    200
+  ],
+  "runs": [
+    {
+      "appid": 814380,
+      "game_name": "Sekiro: Shadows Die Twice",
+      "primary_bucket": "소울라이크/하드코어 액션",
+      "target_cap": 1200,
+      "status": "satisfied",
+      "final_included": 2729,
+      "final_raw": 4000,
+      "attempts": [
+        {
+          "review_pages": 40,
+          "included_review_count": 2729,
+          "raw_review_count": 4000,
+          "elapsed_seconds": 21.6,
+          "pipeline_run_id": "814380-20260416T033149Z"
+        }
+      ]
+    },
+    {
+      "appid": 374320,
+      "game_name": "DARK SOULS III",
+      "primary_bucket": "소울라이크/하드코어 액션",
+      "target_cap": 1200,
+      "status": "satisfied",
+      "final_included": 2614,
+      "final_raw": 4000,
+      "attempts": [
+        {
+          "review_pages": 40,
+          "included_review_count": 2614,
+          "raw_review_count": 4000,
+          "elapsed_seconds": 23.2,
+          "pipeline_run_id": "374320-20260416T033211Z"
+        }
+      ]
+    },
+    {
+      "appid": 292030,
+      "game_name": "The Witcher 3: Wild Hunt",
+      "primary_bucket": "오픈월드 스토리형",
+      "target_cap": 1200,
+      "status": "satisfied",
+      "final_included": 2625,
+      "final_raw": 3999,
+      "attempts": [
+        {
+          "review_pages": 40,
+          "included_review_count": 2625,
+          "raw_review_count": 3999,
+          "elapsed_seconds": 20.8,
+          "pipeline_run_id": "292030-20260416T033234Z"
+        }
+      ]
+    },
+    {
+      "appid": 271590,
+      "game_name": "Grand Theft Auto V",
+      "primary_bucket": "오픈월드 스토리형",
+      "target_cap": 1200,
+      "status": "satisfied",
+      "final_included": 1466,
+      "final_raw": 3999,
+      "attempts": [
+        {
+          "review_pages": 40,
+          "included_review_count": 1466,
+          "raw_review_count": 3999,
+          "elapsed_seconds": 29.3,
+          "pipeline_run_id": "271590-20260416T033255Z"
+        }
+      ]
+    },
+    {
+      "appid": 359550,
+      "game_name": "Tom Clancy's Rainbow Six Siege",
+      "primary_bucket": "경쟁 FPS/PVP",
+      "target_cap": 1200,
+      "status": "satisfied",
+      "final_included": 2358,
+      "final_raw": 3999,
+      "attempts": [
+        {
+          "review_pages": 40,
+          "included_review_count": 2358,
+          "raw_review_count": 3999,
+          "elapsed_seconds": 22.0,
+          "pipeline_run_id": "359550-20260416T033324Z"
+        }
+      ]
+    },
+    {
+      "appid": 440,
+      "game_name": "Team Fortress 2",
+      "primary_bucket": "경쟁 FPS/PVP",
+      "target_cap": 1200,
+      "status": "satisfied",
+      "final_included": 2009,
+      "final_raw": 4000,
+      "attempts": [
+        {
+          "review_pages": 40,
+          "included_review_count": 2009,
+          "raw_review_count": 4000,
+          "elapsed_seconds": 22.9,
+          "pipeline_run_id": "440-20260416T033346Z"
+        }
+      ]
+    },
+    {
+      "appid": 648800,
+      "game_name": "Raft",
+      "primary_bucket": "생존/크래프팅",
+      "target_cap": 1200,
+      "status": "satisfied",
+      "final_included": 2589,
+      "final_raw": 4000,
+      "attempts": [
+        {
+          "review_pages": 40,
+          "included_review_count": 2589,
+          "raw_review_count": 4000,
+          "elapsed_seconds": 27.3,
+          "pipeline_run_id": "648800-20260416T033409Z"
+        }
+      ]
+    },
+    {
+      "appid": 346110,
+      "game_name": "ARK: Survival Evolved",
+      "primary_bucket": "생존/크래프팅",
+      "target_cap": 1200,
+      "status": "satisfied",
+      "final_included": 2040,
+      "final_raw": 4000,
+      "attempts": [
+        {
+          "review_pages": 40,
+          "included_review_count": 2040,
+          "raw_review_count": 4000,
+          "elapsed_seconds": 25.5,
+          "pipeline_run_id": "346110-20260416T033436Z"
+        }
+      ]
+    },
+    {
+      "appid": 1222670,
+      "game_name": "The Sims 4",
+      "primary_bucket": "라이프/시뮬레이션",
+      "target_cap": 1200,
+      "status": "satisfied",
+      "final_included": 1695,
+      "final_raw": 2666,
+      "attempts": [
+        {
+          "review_pages": 40,
+          "included_review_count": 1695,
+          "raw_review_count": 2666,
+          "elapsed_seconds": 14.3,
+          "pipeline_run_id": "1222670-20260416T033502Z"
+        }
+      ]
+    },
+    {
+      "appid": 105600,
+      "game_name": "Terraria",
+      "primary_bucket": "라이프/시뮬레이션",
+      "target_cap": 1200,
+      "status": "satisfied",
+      "final_included": 2234,
+      "final_raw": 3999,
+      "attempts": [
+        {
+          "review_pages": 40,
+          "included_review_count": 2234,
+          "raw_review_count": 3999,
+          "elapsed_seconds": 25.4,
+          "pipeline_run_id": "105600-20260416T033516Z"
+        }
+      ]
+    },
+    {
+      "appid": 570,
+      "game_name": "Dota 2",
+      "primary_bucket": "라이브서비스/MMO",
+      "target_cap": 1200,
+      "status": "satisfied",
+      "final_included": 1261,
+      "final_raw": 2400,
+      "attempts": [
+        {
+          "review_pages": 40,
+          "included_review_count": 1261,
+          "raw_review_count": 2400,
+          "elapsed_seconds": 18.8,
+          "pipeline_run_id": "570-20260416T033541Z"
+        }
+      ]
+    },
+    {
+      "appid": 582010,
+      "game_name": "Monster Hunter: World",
+      "primary_bucket": "라이브서비스/MMO",
+      "target_cap": 1200,
+      "status": "satisfied",
+      "final_included": 2431,
+      "final_raw": 3999,
+      "attempts": [
+        {
+          "review_pages": 40,
+          "included_review_count": 2431,
+          "raw_review_count": 3999,
+          "elapsed_seconds": 26.8,
+          "pipeline_run_id": "582010-20260416T033600Z"
+        }
+      ]
+    },
+    {
+      "appid": 1158310,
+      "game_name": "Crusader Kings III",
+      "primary_bucket": "전략/경영",
+      "target_cap": 1200,
+      "status": "satisfied",
+      "final_included": 1409,
+      "final_raw": 2099,
+      "attempts": [
+        {
+          "review_pages": 40,
+          "included_review_count": 1409,
+          "raw_review_count": 2099,
+          "elapsed_seconds": 12.3,
+          "pipeline_run_id": "1158310-20260416T033627Z"
+        }
+      ]
+    },
+    {
+      "appid": 236850,
+      "game_name": "Europa Universalis IV",
+      "primary_bucket": "전략/경영",
+      "target_cap": 1200,
+      "status": "exhausted",
+      "final_included": 1132,
+      "final_raw": 1537,
+      "attempts": [
+        {
+          "review_pages": 40,
+          "included_review_count": 1132,
+          "raw_review_count": 1537,
+          "elapsed_seconds": 12.5,
+          "pipeline_run_id": "236850-20260416T033639Z"
+        }
+      ]
+    },
+    {
+      "appid": 1966720,
+      "game_name": "Lethal Company",
+      "primary_bucket": "협동/비대칭 멀티",
+      "target_cap": 1200,
+      "status": "satisfied",
+      "final_included": 2339,
+      "final_raw": 4000,
+      "attempts": [
+        {
+          "review_pages": 40,
+          "included_review_count": 2339,
+          "raw_review_count": 4000,
+          "elapsed_seconds": 26.4,
+          "pipeline_run_id": "1966720-20260416T033652Z"
+        }
+      ]
+    },
+    {
+      "appid": 548430,
+      "game_name": "Deep Rock Galactic",
+      "primary_bucket": "협동/비대칭 멀티",
+      "target_cap": 1200,
+      "status": "satisfied",
+      "final_included": 2282,
+      "final_raw": 3426,
+      "attempts": [
+        {
+          "review_pages": 40,
+          "included_review_count": 2282,
+          "raw_review_count": 3426,
+          "elapsed_seconds": 21.2,
+          "pipeline_run_id": "548430-20260416T033718Z"
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

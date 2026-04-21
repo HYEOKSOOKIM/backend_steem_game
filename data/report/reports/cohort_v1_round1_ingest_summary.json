@@ -1,0 +1,187 @@
+{
+  "cohort_name": "cohort_v1",
+  "round": 1,
+  "policy": {
+    "review_pages": 40,
+    "use_llm_fallback": false,
+    "included_cap_target": 1200
+  },
+  "results": [
+    {
+      "appid": 1245620,
+      "game_name": "ELDEN RING",
+      "primary_bucket": "소울라이크/하드코어 액션",
+      "round": 1,
+      "review_pages": 40,
+      "raw_review_count": 4000,
+      "included_review_count": 2303,
+      "elapsed_seconds": 23.3,
+      "pipeline_run_id": "1245620-20260416T025445Z"
+    },
+    {
+      "appid": 1627720,
+      "game_name": "Lies of P",
+      "primary_bucket": "소울라이크/하드코어 액션",
+      "round": 1,
+      "review_pages": 40,
+      "raw_review_count": 3999,
+      "included_review_count": 3147,
+      "elapsed_seconds": 24.8,
+      "pipeline_run_id": "1627720-20260416T025508Z"
+    },
+    {
+      "appid": 1174180,
+      "game_name": "Red Dead Redemption 2",
+      "primary_bucket": "오픈월드 스토리형",
+      "round": 1,
+      "review_pages": 40,
+      "raw_review_count": 3999,
+      "included_review_count": 2365,
+      "elapsed_seconds": 23.9,
+      "pipeline_run_id": "1174180-20260416T025533Z"
+    },
+    {
+      "appid": 1091500,
+      "game_name": "Cyberpunk 2077",
+      "primary_bucket": "오픈월드 스토리형",
+      "round": 1,
+      "review_pages": 40,
+      "raw_review_count": 3999,
+      "included_review_count": 2571,
+      "elapsed_seconds": 21.6,
+      "pipeline_run_id": "1091500-20260416T025557Z"
+    },
+    {
+      "appid": 578080,
+      "game_name": "PUBG: BATTLEGROUNDS",
+      "primary_bucket": "경쟁 FPS/PVP",
+      "round": 1,
+      "review_pages": 40,
+      "raw_review_count": 4000,
+      "included_review_count": 1422,
+      "elapsed_seconds": 29.1,
+      "pipeline_run_id": "578080-20260416T025618Z"
+    },
+    {
+      "appid": 730,
+      "game_name": "Counter-Strike 2",
+      "primary_bucket": "경쟁 FPS/PVP",
+      "round": 1,
+      "review_pages": 40,
+      "raw_review_count": 3998,
+      "included_review_count": 1582,
+      "elapsed_seconds": 26.1,
+      "pipeline_run_id": "730-20260416T025647Z"
+    },
+    {
+      "appid": 252490,
+      "game_name": "Rust",
+      "primary_bucket": "생존/크래프팅",
+      "round": 1,
+      "review_pages": 40,
+      "raw_review_count": 4000,
+      "included_review_count": 2230,
+      "elapsed_seconds": 25.7,
+      "pipeline_run_id": "252490-20260416T025713Z"
+    },
+    {
+      "appid": 892970,
+      "game_name": "Valheim",
+      "primary_bucket": "생존/크래프팅",
+      "round": 1,
+      "review_pages": 40,
+      "raw_review_count": 4000,
+      "included_review_count": 2685,
+      "elapsed_seconds": 22.6,
+      "pipeline_run_id": "892970-20260416T025739Z"
+    },
+    {
+      "appid": 413150,
+      "game_name": "Stardew Valley",
+      "primary_bucket": "라이프/시뮬레이션",
+      "round": 1,
+      "review_pages": 40,
+      "raw_review_count": 2000,
+      "included_review_count": 1227,
+      "elapsed_seconds": 12.5,
+      "pipeline_run_id": "413150-20260416T025802Z"
+    },
+    {
+      "appid": 2456740,
+      "game_name": "inZOI",
+      "primary_bucket": "라이프/시뮬레이션",
+      "round": 1,
+      "review_pages": 40,
+      "raw_review_count": 1526,
+      "included_review_count": 1306,
+      "elapsed_seconds": 11.4,
+      "pipeline_run_id": "2456740-20260416T025814Z"
+    },
+    {
+      "appid": 230410,
+      "game_name": "Warframe",
+      "primary_bucket": "라이브서비스/MMO",
+      "round": 1,
+      "review_pages": 40,
+      "raw_review_count": 4000,
+      "included_review_count": 2672,
+      "elapsed_seconds": 21.8,
+      "pipeline_run_id": "230410-20260416T025826Z"
+    },
+    {
+      "appid": 289070,
+      "game_name": "Sid Meier's Civilization VI",
+      "primary_bucket": "전략/경영",
+      "round": 1,
+      "review_pages": 40,
+      "raw_review_count": 4000,
+      "included_review_count": 2556,
+      "elapsed_seconds": 17.4,
+      "pipeline_run_id": "289070-20260416T025850Z"
+    },
+    {
+      "appid": 294100,
+      "game_name": "RimWorld",
+      "primary_bucket": "전략/경영",
+      "round": 1,
+      "review_pages": 40,
+      "raw_review_count": 4000,
+      "included_review_count": 2719,
+      "elapsed_seconds": 18.0,
+      "pipeline_run_id": "294100-20260416T025907Z"
+    },
+    {
+      "appid": 381210,
+      "game_name": "Dead by Daylight",
+      "primary_bucket": "협동/비대칭 멀티",
+      "round": 1,
+      "review_pages": 40,
+      "raw_review_count": 4000,
+      "included_review_count": 2645,
+      "elapsed_seconds": 17.5,
+      "pipeline_run_id": "381210-20260416T025925Z"
+    },
+    {
+      "appid": 553850,
+      "game_name": "HELLDIVERS 2",
+      "primary_bucket": "협동/비대칭 멀티",
+      "round": 1,
+      "review_pages": 40,
+      "raw_review_count": 3999,
+      "included_review_count": 2827,
+      "elapsed_seconds": 18.4,
+      "pipeline_run_id": "553850-20260416T025943Z"
+    }
+  ],
+  "errors": [
+    {
+      "appid": 1599340,
+      "game_name": "Lost Ark",
+      "primary_bucket": "라이브서비스/MMO",
+      "round": 1,
+      "review_pages": 40,
+      "elapsed_seconds": 2.4,
+      "error": "Steam appdetails response did not report success"
+    }
+  ]
+}

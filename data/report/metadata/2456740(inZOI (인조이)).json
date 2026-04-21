@@ -1,0 +1,15 @@
+{
+  "appid": 2456740,
+  "name": "inZOI (인조이)",
+  "genres": [
+    "어드벤처",
+    "캐주얼",
+    "시뮬레이션",
+    "앞서 해보기"
+  ],
+  "price_model": "paid",
+  "release_stage": "early_access",
+  "release_date_text": "2025년 3월 27일",
+  "is_free": false,
+  "coming_soon": false
+}

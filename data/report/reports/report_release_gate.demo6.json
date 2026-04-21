@@ -1,0 +1,305 @@
+{
+  "generated_at": "2026-04-16T15:24:45.993330+09:00",
+  "cohort_file": "apps\\review-insights\\data\\reports\\_tmp_demo6_cohort.json",
+  "min_score": 4,
+  "max_unknown_snippet_rate": 0.4,
+  "evaluated_game_count": 6,
+  "missing_report_count": 0,
+  "missing_reports": [],
+  "gate_passed": true,
+  "evidence_quality_level_distribution": {
+    "total_blocks": 24,
+    "strength_blocks": 12,
+    "risk_blocks": 12,
+    "all": {
+      "strict": {
+        "count": 11,
+        "ratio": 0.4583
+      },
+      "relaxed": {
+        "count": 11,
+        "ratio": 0.4583
+      },
+      "guaranteed_fill": {
+        "count": 2,
+        "ratio": 0.0833
+      },
+      "unknown": {
+        "count": 0,
+        "ratio": 0.0
+      }
+    },
+    "strengths": {
+      "strict": {
+        "count": 7,
+        "ratio": 0.5833
+      },
+      "relaxed": {
+        "count": 4,
+        "ratio": 0.3333
+      },
+      "guaranteed_fill": {
+        "count": 1,
+        "ratio": 0.0833
+      },
+      "unknown": {
+        "count": 0,
+        "ratio": 0.0
+      }
+    },
+    "risks": {
+      "strict": {
+        "count": 4,
+        "ratio": 0.3333
+      },
+      "relaxed": {
+        "count": 7,
+        "ratio": 0.5833
+      },
+      "guaranteed_fill": {
+        "count": 1,
+        "ratio": 0.0833
+      },
+      "unknown": {
+        "count": 0,
+        "ratio": 0.0
+      }
+    }
+  },
+  "results": [
+    {
+      "appid": 2456740,
+      "game_name": "inZOI (인조이)",
+      "decision_core_ready": true,
+      "fit_ready": true,
+      "evidence_ready": true,
+      "forbidden_label_exposure_count": 0,
+      "forbidden_label_hits_sample": [],
+      "quick_decision_score_4": 4,
+      "evidence_checked_snippet_count": 9,
+      "evidence_unknown_snippet_count": 2,
+      "evidence_unknown_snippet_rate": 0.1818,
+      "evidence_mismatch_count": 0,
+      "evidence_mismatch_rate": 0.0,
+      "evidence_mismatch_samples": [],
+      "evidence_quality_level_counts": {
+        "strict": 3,
+        "relaxed": 1,
+        "guaranteed_fill": 0,
+        "unknown": 0
+      },
+      "evidence_quality_level_counts_by_section": {
+        "strengths": {
+          "strict": 2,
+          "relaxed": 0,
+          "guaranteed_fill": 0,
+          "unknown": 0
+        },
+        "risks": {
+          "strict": 1,
+          "relaxed": 1,
+          "guaranteed_fill": 0,
+          "unknown": 0
+        }
+      },
+      "report_path": "C:\\Users\\rubys\\OneDrive\\문서\\IntelAI\\NLP_PJ\\apps\\review-insights\\data\\report\\2456740(inZOI (인조이)).json",
+      "unknown_snippet_rate_exceeded": false,
+      "passed": true
+    },
+    {
+      "appid": 1174180,
+      "game_name": "Red Dead Redemption 2",
+      "decision_core_ready": true,
+      "fit_ready": true,
+      "evidence_ready": true,
+      "forbidden_label_exposure_count": 0,
+      "forbidden_label_hits_sample": [],
+      "quick_decision_score_4": 4,
+      "evidence_checked_snippet_count": 12,
+      "evidence_unknown_snippet_count": 0,
+      "evidence_unknown_snippet_rate": 0.0,
+      "evidence_mismatch_count": 0,
+      "evidence_mismatch_rate": 0.0,
+      "evidence_mismatch_samples": [],
+      "evidence_quality_level_counts": {
+        "strict": 2,
+        "relaxed": 2,
+        "guaranteed_fill": 0,
+        "unknown": 0
+      },
+      "evidence_quality_level_counts_by_section": {
+        "strengths": {
+          "strict": 2,
+          "relaxed": 0,
+          "guaranteed_fill": 0,
+          "unknown": 0
+        },
+        "risks": {
+          "strict": 0,
+          "relaxed": 2,
+          "guaranteed_fill": 0,
+          "unknown": 0
+        }
+      },
+      "report_path": "C:\\Users\\rubys\\OneDrive\\문서\\IntelAI\\NLP_PJ\\apps\\review-insights\\data\\report\\1174180(Red Dead Redemption 2).json",
+      "unknown_snippet_rate_exceeded": false,
+      "passed": true
+    },
+    {
+      "appid": 1245620,
+      "game_name": "ELDEN RING",
+      "decision_core_ready": true,
+      "fit_ready": true,
+      "evidence_ready": true,
+      "forbidden_label_exposure_count": 0,
+      "forbidden_label_hits_sample": [],
+      "quick_decision_score_4": 4,
+      "evidence_checked_snippet_count": 8,
+      "evidence_unknown_snippet_count": 1,
+      "evidence_unknown_snippet_rate": 0.1111,
+      "evidence_mismatch_count": 0,
+      "evidence_mismatch_rate": 0.0,
+      "evidence_mismatch_samples": [],
+      "evidence_quality_level_counts": {
+        "strict": 3,
+        "relaxed": 1,
+        "guaranteed_fill": 0,
+        "unknown": 0
+      },
+      "evidence_quality_level_counts_by_section": {
+        "strengths": {
+          "strict": 3,
+          "relaxed": 0,
+          "guaranteed_fill": 0,
+          "unknown": 0
+        },
+        "risks": {
+          "strict": 0,
+          "relaxed": 1,
+          "guaranteed_fill": 0,
+          "unknown": 0
+        }
+      },
+      "report_path": "C:\\Users\\rubys\\OneDrive\\문서\\IntelAI\\NLP_PJ\\apps\\review-insights\\data\\report\\1245620(ELDEN RING).json",
+      "unknown_snippet_rate_exceeded": false,
+      "passed": true
+    },
+    {
+      "appid": 578080,
+      "game_name": "PUBG: BATTLEGROUNDS",
+      "decision_core_ready": true,
+      "fit_ready": true,
+      "evidence_ready": true,
+      "forbidden_label_exposure_count": 0,
+      "forbidden_label_hits_sample": [],
+      "quick_decision_score_4": 4,
+      "evidence_checked_snippet_count": 10,
+      "evidence_unknown_snippet_count": 0,
+      "evidence_unknown_snippet_rate": 0.0,
+      "evidence_mismatch_count": 0,
+      "evidence_mismatch_rate": 0.0,
+      "evidence_mismatch_samples": [],
+      "evidence_quality_level_counts": {
+        "strict": 1,
+        "relaxed": 3,
+        "guaranteed_fill": 0,
+        "unknown": 0
+      },
+      "evidence_quality_level_counts_by_section": {
+        "strengths": {
+          "strict": 0,
+          "relaxed": 1,
+          "guaranteed_fill": 0,
+          "unknown": 0
+        },
+        "risks": {
+          "strict": 1,
+          "relaxed": 2,
+          "guaranteed_fill": 0,
+          "unknown": 0
+        }
+      },
+      "report_path": "C:\\Users\\rubys\\OneDrive\\문서\\IntelAI\\NLP_PJ\\apps\\review-insights\\data\\report\\578080(PUBG_ BATTLEGROUNDS).json",
+      "unknown_snippet_rate_exceeded": false,
+      "passed": true
+    },
+    {
+      "appid": 413150,
+      "game_name": "Stardew Valley",
+      "decision_core_ready": true,
+      "fit_ready": true,
+      "evidence_ready": true,
+      "forbidden_label_exposure_count": 0,
+      "forbidden_label_hits_sample": [],
+      "quick_decision_score_4": 4,
+      "evidence_checked_snippet_count": 10,
+      "evidence_unknown_snippet_count": 0,
+      "evidence_unknown_snippet_rate": 0.0,
+      "evidence_mismatch_count": 0,
+      "evidence_mismatch_rate": 0.0,
+      "evidence_mismatch_samples": [],
+      "evidence_quality_level_counts": {
+        "strict": 0,
+        "relaxed": 3,
+        "guaranteed_fill": 1,
+        "unknown": 0
+      },
+      "evidence_quality_level_counts_by_section": {
+        "strengths": {
+          "strict": 0,
+          "relaxed": 3,
+          "guaranteed_fill": 0,
+          "unknown": 0
+        },
+        "risks": {
+          "strict": 0,
+          "relaxed": 0,
+          "guaranteed_fill": 1,
+          "unknown": 0
+        }
+      },
+      "report_path": "C:\\Users\\rubys\\OneDrive\\문서\\IntelAI\\NLP_PJ\\apps\\review-insights\\data\\report\\413150(Stardew Valley).json",
+      "unknown_snippet_rate_exceeded": false,
+      "passed": true
+    },
+    {
+      "appid": 3551340,
+      "game_name": "Football Manager 26",
+      "decision_core_ready": true,
+      "fit_ready": true,
+      "evidence_ready": true,
+      "forbidden_label_exposure_count": 0,
+      "forbidden_label_hits_sample": [],
+      "quick_decision_score_4": 4,
+      "evidence_checked_snippet_count": 8,
+      "evidence_unknown_snippet_count": 4,
+      "evidence_unknown_snippet_rate": 0.3333,
+      "evidence_mismatch_count": 0,
+      "evidence_mismatch_rate": 0.0,
+      "evidence_mismatch_samples": [],
+      "evidence_quality_level_counts": {
+        "strict": 2,
+        "relaxed": 1,
+        "guaranteed_fill": 1,
+        "unknown": 0
+      },
+      "evidence_quality_level_counts_by_section": {
+        "strengths": {
+          "strict": 0,
+          "relaxed": 0,
+          "guaranteed_fill": 1,
+          "unknown": 0
+        },
+        "risks": {
+          "strict": 2,
+          "relaxed": 1,
+          "guaranteed_fill": 0,
+          "unknown": 0
+        }
+      },
+      "report_path": "C:\\Users\\rubys\\OneDrive\\문서\\IntelAI\\NLP_PJ\\apps\\review-insights\\data\\report\\3551340(Football Manager 26).json",
+      "unknown_snippet_rate_exceeded": false,
+      "passed": true
+    }
+  ]
+}

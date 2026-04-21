@@ -1,0 +1,14 @@
+{
+  "appid": 413150,
+  "name": "Stardew Valley",
+  "genres": [
+    "인디",
+    "RPG",
+    "시뮬레이션"
+  ],
+  "price_model": "paid",
+  "release_stage": "released",
+  "release_date_text": "2016년 2월 26일",
+  "is_free": false,
+  "coming_soon": false
+}

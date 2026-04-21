@@ -1,0 +1,12 @@
+{
+  "appid": 292030,
+  "name": "The Witcher 3: Wild Hunt",
+  "genres": [
+    "RPG"
+  ],
+  "price_model": "paid",
+  "release_stage": "released",
+  "release_date_text": "2015년 5월 18일",
+  "is_free": false,
+  "coming_soon": false
+}

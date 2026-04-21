@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-04-16T14:44:08.545828+09:00",
+  "cohort_file": "apps\\review-insights\\data\\reports\\_tmp_cohort_2456740.json",
+  "min_score": 4,
+  "evaluated_game_count": 1,
+  "missing_report_count": 0,
+  "missing_reports": [],
+  "gate_passed": true,
+  "results": [
+    {
+      "appid": 2456740,
+      "game_name": "inZOI (인조이)",
+      "decision_core_ready": true,
+      "fit_ready": true,
+      "evidence_ready": true,
+      "forbidden_label_exposure_count": 0,
+      "forbidden_label_hits_sample": [],
+      "quick_decision_score_4": 4,
+      "report_path": "C:\\Users\\rubys\\OneDrive\\문서\\IntelAI\\NLP_PJ\\apps\\review-insights\\data\\report\\2456740(inZOI (인조이)).json",
+      "passed": true
+    }
+  ]
+}

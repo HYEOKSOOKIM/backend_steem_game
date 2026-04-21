@@ -1,0 +1,12 @@
+{
+  "appid": 381210,
+  "name": "Dead by Daylight",
+  "genres": [
+    "액션"
+  ],
+  "price_model": "paid",
+  "release_stage": "released",
+  "release_date_text": "2016년 6월 14일",
+  "is_free": false,
+  "coming_soon": false
+}

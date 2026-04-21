@@ -1,0 +1,14 @@
+{
+  "appid": 648800,
+  "name": "Raft",
+  "genres": [
+    "어드벤처",
+    "인디",
+    "시뮬레이션"
+  ],
+  "price_model": "paid",
+  "release_stage": "released",
+  "release_date_text": "2022년 6월 20일",
+  "is_free": false,
+  "coming_soon": false
+}

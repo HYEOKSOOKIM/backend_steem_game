@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-04-16T14:48:34.191702+09:00",
+  "cohort_file": "apps\\review-insights\\data\\reports\\_tmp_cohort_1174180.json",
+  "min_score": 4,
+  "evaluated_game_count": 1,
+  "missing_report_count": 0,
+  "missing_reports": [],
+  "gate_passed": true,
+  "results": [
+    {
+      "appid": 1174180,
+      "game_name": "Red Dead Redemption 2",
+      "decision_core_ready": true,
+      "fit_ready": true,
+      "evidence_ready": true,
+      "forbidden_label_exposure_count": 0,
+      "forbidden_label_hits_sample": [],
+      "quick_decision_score_4": 4,
+      "report_path": "C:\\Users\\rubys\\OneDrive\\문서\\IntelAI\\NLP_PJ\\apps\\review-insights\\data\\report\\1174180(Red Dead Redemption 2).json",
+      "passed": true
+    }
+  ]
+}

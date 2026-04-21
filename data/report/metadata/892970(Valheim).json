@@ -1,0 +1,16 @@
+{
+  "appid": 892970,
+  "name": "Valheim",
+  "genres": [
+    "액션",
+    "어드벤처",
+    "인디",
+    "RPG",
+    "앞서 해보기"
+  ],
+  "price_model": "paid",
+  "release_stage": "early_access",
+  "release_date_text": "2021년 2월 2일",
+  "is_free": false,
+  "coming_soon": false
+}

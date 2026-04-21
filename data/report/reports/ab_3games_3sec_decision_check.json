@@ -1,0 +1,88 @@
+{
+  "metric": "3sec_quick_decision_score_4",
+  "definition": [
+    "???? ??",
+    "?? ??/?? ?? ??",
+    "??/??? ?? ??",
+    "??? ?? ?? 0"
+  ],
+  "appids": [
+    1245620,
+    578080,
+    413150
+  ],
+  "results": [
+    {
+      "appid": 1245620,
+      "game_name": "ELDEN RING",
+      "file": "1245620(ELDEN RING).json",
+      "A": {
+        "decision_core_ready": true,
+        "fit_ready": true,
+        "evidence_ready": true,
+        "jargon_exposure_count": 0,
+        "quick_decision_score_4": 4,
+        "headline_len": 61,
+        "jargon_hits_sample": []
+      },
+      "B": {
+        "decision_core_ready": true,
+        "fit_ready": true,
+        "evidence_ready": true,
+        "jargon_exposure_count": 0,
+        "quick_decision_score_4": 4,
+        "headline_len": 61,
+        "jargon_hits_sample": []
+      },
+      "delta_score": 0
+    },
+    {
+      "appid": 578080,
+      "game_name": "PUBG: BATTLEGROUNDS",
+      "file": "578080(PUBG_ BATTLEGROUNDS).json",
+      "A": {
+        "decision_core_ready": true,
+        "fit_ready": true,
+        "evidence_ready": true,
+        "jargon_exposure_count": 0,
+        "quick_decision_score_4": 4,
+        "headline_len": 49,
+        "jargon_hits_sample": []
+      },
+      "B": {
+        "decision_core_ready": true,
+        "fit_ready": true,
+        "evidence_ready": true,
+        "jargon_exposure_count": 0,
+        "quick_decision_score_4": 4,
+        "headline_len": 49,
+        "jargon_hits_sample": []
+      },
+      "delta_score": 0
+    },
+    {
+      "appid": 413150,
+      "game_name": "Stardew Valley",
+      "file": "413150(Stardew Valley).json",
+      "A": {
+        "decision_core_ready": true,
+        "fit_ready": true,
+        "evidence_ready": false,
+        "jargon_exposure_count": 0,
+        "quick_decision_score_4": 3,
+        "headline_len": 42,
+        "jargon_hits_sample": []
+      },
+      "B": {
+        "decision_core_ready": true,
+        "fit_ready": true,
+        "evidence_ready": false,
+        "jargon_exposure_count": 0,
+        "quick_decision_score_4": 3,
+        "headline_len": 42,
+        "jargon_hits_sample": []
+      },
+      "delta_score": 0
+    }
+  ]
+}

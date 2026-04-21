@@ -1,0 +1,254 @@
+{
+  "round": 2,
+  "policy": {
+    "page_plan": [
+      80,
+      120,
+      160,
+      200
+    ],
+    "use_llm_fallback": false
+  },
+  "rows": [
+    {
+      "appid": 1245620,
+      "game_name": "ELDEN RING",
+      "target_cap": 3000,
+      "status": "satisfied",
+      "final_included": 4675,
+      "attempts": [
+        {
+          "review_pages": 80,
+          "included_review_count": 4675,
+          "raw_review_count": 7998,
+          "elapsed_seconds": 38.8,
+          "pipeline_run_id": "1245620-20260416T030127Z"
+        }
+      ]
+    },
+    {
+      "appid": 1627720,
+      "game_name": "Lies of P",
+      "target_cap": 2000,
+      "status": "already_satisfied",
+      "final_included": 3147,
+      "attempts": []
+    },
+    {
+      "appid": 1174180,
+      "game_name": "Red Dead Redemption 2",
+      "target_cap": 3000,
+      "status": "satisfied",
+      "final_included": 4652,
+      "attempts": [
+        {
+          "review_pages": 80,
+          "included_review_count": 4652,
+          "raw_review_count": 7999,
+          "elapsed_seconds": 41.7,
+          "pipeline_run_id": "1174180-20260416T030206Z"
+        }
+      ]
+    },
+    {
+      "appid": 1091500,
+      "game_name": "Cyberpunk 2077",
+      "target_cap": 3000,
+      "status": "satisfied",
+      "final_included": 5158,
+      "attempts": [
+        {
+          "review_pages": 80,
+          "included_review_count": 5158,
+          "raw_review_count": 7998,
+          "elapsed_seconds": 43.1,
+          "pipeline_run_id": "1091500-20260416T030248Z"
+        }
+      ]
+    },
+    {
+      "appid": 578080,
+      "game_name": "PUBG: BATTLEGROUNDS",
+      "target_cap": 3000,
+      "status": "satisfied",
+      "final_included": 4056,
+      "attempts": [
+        {
+          "review_pages": 80,
+          "included_review_count": 2733,
+          "raw_review_count": 8000,
+          "elapsed_seconds": 49.1,
+          "pipeline_run_id": "578080-20260416T030331Z"
+        },
+        {
+          "review_pages": 120,
+          "included_review_count": 4056,
+          "raw_review_count": 11999,
+          "elapsed_seconds": 47.5,
+          "pipeline_run_id": "578080-20260416T030420Z"
+        }
+      ]
+    },
+    {
+      "appid": 730,
+      "game_name": "Counter-Strike 2",
+      "target_cap": 3000,
+      "status": "satisfied",
+      "final_included": 3225,
+      "attempts": [
+        {
+          "review_pages": 80,
+          "included_review_count": 3225,
+          "raw_review_count": 7996,
+          "elapsed_seconds": 32.3,
+          "pipeline_run_id": "730-20260416T030508Z"
+        }
+      ]
+    },
+    {
+      "appid": 252490,
+      "game_name": "Rust",
+      "target_cap": 3000,
+      "status": "satisfied",
+      "final_included": 4789,
+      "attempts": [
+        {
+          "review_pages": 80,
+          "included_review_count": 4789,
+          "raw_review_count": 8000,
+          "elapsed_seconds": 38.6,
+          "pipeline_run_id": "252490-20260416T030540Z"
+        }
+      ]
+    },
+    {
+      "appid": 892970,
+      "game_name": "Valheim",
+      "target_cap": 3000,
+      "status": "satisfied",
+      "final_included": 5062,
+      "attempts": [
+        {
+          "review_pages": 80,
+          "included_review_count": 5062,
+          "raw_review_count": 7542,
+          "elapsed_seconds": 29.3,
+          "pipeline_run_id": "892970-20260416T030618Z"
+        }
+      ]
+    },
+    {
+      "appid": 413150,
+      "game_name": "Stardew Valley",
+      "target_cap": 3000,
+      "status": "satisfied",
+      "final_included": 4791,
+      "attempts": [
+        {
+          "review_pages": 80,
+          "included_review_count": 4791,
+          "raw_review_count": 7998,
+          "elapsed_seconds": 37.0,
+          "pipeline_run_id": "413150-20260416T030648Z"
+        }
+      ]
+    },
+    {
+      "appid": 2456740,
+      "game_name": "inZOI",
+      "target_cap": 2000,
+      "status": "exhausted",
+      "final_included": 1306,
+      "attempts": [
+        {
+          "review_pages": 80,
+          "included_review_count": 1306,
+          "raw_review_count": 1526,
+          "elapsed_seconds": 5.9,
+          "pipeline_run_id": "2456740-20260416T030725Z"
+        }
+      ]
+    },
+    {
+      "appid": 230410,
+      "game_name": "Warframe",
+      "target_cap": 3000,
+      "status": "satisfied",
+      "final_included": 5480,
+      "attempts": [
+        {
+          "review_pages": 80,
+          "included_review_count": 5480,
+          "raw_review_count": 8000,
+          "elapsed_seconds": 42.1,
+          "pipeline_run_id": "230410-20260416T030731Z"
+        }
+      ]
+    },
+    {
+      "appid": 289070,
+      "game_name": "Sid Meier's Civilization VI",
+      "target_cap": 3000,
+      "status": "satisfied",
+      "final_included": 5142,
+      "attempts": [
+        {
+          "review_pages": 80,
+          "included_review_count": 5142,
+          "raw_review_count": 8000,
+          "elapsed_seconds": 43.2,
+          "pipeline_run_id": "289070-20260416T030813Z"
+        }
+      ]
+    },
+    {
+      "appid": 294100,
+      "game_name": "RimWorld",
+      "target_cap": 3000,
+      "status": "satisfied",
+      "final_included": 5531,
+      "attempts": [
+        {
+          "review_pages": 80,
+          "included_review_count": 5531,
+          "raw_review_count": 7904,
+          "elapsed_seconds": 37.1,
+          "pipeline_run_id": "294100-20260416T030856Z"
+        }
+      ]
+    },
+    {
+      "appid": 381210,
+      "game_name": "Dead by Daylight",
+      "target_cap": 3000,
+      "status": "satisfied",
+      "final_included": 5204,
+      "attempts": [
+        {
+          "review_pages": 80,
+          "included_review_count": 5204,
+          "raw_review_count": 8000,
+          "elapsed_seconds": 46.8,
+          "pipeline_run_id": "381210-20260416T030933Z"
+        }
+      ]
+    },
+    {
+      "appid": 553850,
+      "game_name": "HELLDIVERS 2",
+      "target_cap": 3000,
+      "status": "satisfied",
+      "final_included": 5470,
+      "attempts": [
+        {
+          "review_pages": 80,
+          "included_review_count": 5470,
+          "raw_review_count": 7999,
+          "elapsed_seconds": 37.0,
+          "pipeline_run_id": "553850-20260416T031020Z"
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

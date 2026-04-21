@@ -1,0 +1,291 @@
+{
+  "generated_at": "2026-04-13T14:16:33.826464+09:00",
+  "top_k": 20,
+  "cohort_size": 16,
+  "cohort": [
+    {
+      "appid": 413150,
+      "game_name": "스타듀 밸리",
+      "primary_bucket": "미분류"
+    },
+    {
+      "appid": 2379780,
+      "game_name": "발라트로",
+      "primary_bucket": "미분류"
+    },
+    {
+      "appid": 367520,
+      "game_name": "할로우 나이트",
+      "primary_bucket": "미분류"
+    },
+    {
+      "appid": 1030300,
+      "game_name": "할로우 나이트 실크송",
+      "primary_bucket": "미분류"
+    },
+    {
+      "appid": 1145360,
+      "game_name": "하데스",
+      "primary_bucket": "미분류"
+    },
+    {
+      "appid": 1086940,
+      "game_name": "발더스 게이트 3",
+      "primary_bucket": "미분류"
+    },
+    {
+      "appid": 1794680,
+      "game_name": "뱀파이어 서바이버즈",
+      "primary_bucket": "미분류"
+    },
+    {
+      "appid": 1623730,
+      "game_name": "팰월드",
+      "primary_bucket": "미분류"
+    },
+    {
+      "appid": 1245620,
+      "game_name": "엘든 링",
+      "primary_bucket": "미분류"
+    },
+    {
+      "appid": 1868140,
+      "game_name": "데이브 더 다이버",
+      "primary_bucket": "미분류"
+    },
+    {
+      "appid": 1942280,
+      "game_name": "브로타토",
+      "primary_bucket": "미분류"
+    },
+    {
+      "appid": 227300,
+      "game_name": "유로 트럭 시뮬레이터 2",
+      "primary_bucket": "미분류"
+    },
+    {
+      "appid": 588650,
+      "game_name": "데드 셀",
+      "primary_bucket": "미분류"
+    },
+    {
+      "appid": 881100,
+      "game_name": "노이타",
+      "primary_bucket": "미분류"
+    },
+    {
+      "appid": 250900,
+      "game_name": "아이작의 번제 리버스",
+      "primary_bucket": "미분류"
+    },
+    {
+      "appid": 1687950,
+      "game_name": "페르소나 5 더 로열",
+      "primary_bucket": "미분류"
+    }
+  ],
+  "bucket_samples": {
+    "미분류": [
+      {
+        "count": 19,
+        "appid": 413150,
+        "game_name": "스타듀 밸리",
+        "review_id": "221380549",
+        "text": "개재밌음",
+        "ambiguity_flags": [
+          "unclassified_included"
+        ]
+      },
+      {
+        "count": 5,
+        "appid": 367520,
+        "game_name": "할로우 나이트",
+        "review_id": "206249370",
+        "text": "명불허전",
+        "ambiguity_flags": [
+          "unclassified_included"
+        ]
+      },
+      {
+        "count": 5,
+        "appid": 367520,
+        "game_name": "할로우 나이트",
+        "review_id": "212388420",
+        "text": "할만해요",
+        "ambiguity_flags": [
+          "unclassified_included"
+        ]
+      },
+      {
+        "count": 4,
+        "appid": 1145360,
+        "game_name": "하데스",
+        "review_id": "187635335",
+        "text": "이게 게임이지",
+        "ambiguity_flags": [
+          "unclassified_included"
+        ]
+      },
+      {
+        "count": 4,
+        "appid": 2379780,
+        "game_name": "발라트로",
+        "review_id": "193108778",
+        "text": "개재밌다",
+        "ambiguity_flags": [
+          "unclassified_included"
+        ]
+      },
+      {
+        "count": 4,
+        "appid": 2379780,
+        "game_name": "발라트로",
+        "review_id": "196907431",
+        "text": "미친게임",
+        "ambiguity_flags": [
+          "unclassified_included"
+        ]
+      },
+      {
+        "count": 4,
+        "appid": 413150,
+        "game_name": "스타듀 밸리",
+        "review_id": "218837737",
+        "text": "뭐야 내 시간 돌려줘요",
+        "ambiguity_flags": [
+          "unclassified_included"
+        ]
+      },
+      {
+        "count": 3,
+        "appid": 1145360,
+        "game_name": "하데스",
+        "review_id": "171716479",
+        "text": "최고의 로그라이크 게임",
+        "ambiguity_flags": [
+          "unclassified_included"
+        ]
+      },
+      {
+        "count": 3,
+        "appid": 1794680,
+        "game_name": "뱀파이어 서바이버즈",
+        "review_id": "201980581",
+        "text": "개재밌네",
+        "ambiguity_flags": [
+          "unclassified_included"
+        ]
+      },
+      {
+        "count": 3,
+        "appid": 1942280,
+        "game_name": "브로타토",
+        "review_id": "206648322",
+        "text": "로그라이크 명작",
+        "ambiguity_flags": [
+          "unclassified_included"
+        ]
+      },
+      {
+        "count": 3,
+        "appid": 367520,
+        "game_name": "할로우 나이트",
+        "review_id": "212027677",
+        "text": "존나재밌음",
+        "ambiguity_flags": [
+          "unclassified_included"
+        ]
+      },
+      {
+        "count": 3,
+        "appid": 367520,
+        "game_name": "할로우 나이트",
+        "review_id": "215639389",
+        "text": "어디로 가야하오",
+        "ambiguity_flags": [
+          "unclassified_included"
+        ]
+      },
+      {
+        "count": 3,
+        "appid": 1086940,
+        "game_name": "발더스 게이트 3",
+        "review_id": "218548050",
+        "text": "그럭저럭 할만함",
+        "ambiguity_flags": [
+          "unclassified_included"
+        ]
+      },
+      {
+        "count": 3,
+        "appid": 1245620,
+        "game_name": "엘든 링",
+        "review_id": "218825598",
+        "text": "어려운데 재밌음",
+        "ambiguity_flags": [
+          "unclassified_included"
+        ]
+      },
+      {
+        "count": 2,
+        "appid": 588650,
+        "game_name": "데드 셀",
+        "review_id": "105571460",
+        "text": "개재밌노",
+        "ambiguity_flags": [
+          "unclassified_included"
+        ]
+      },
+      {
+        "count": 2,
+        "appid": 1942280,
+        "game_name": "브로타토",
+        "review_id": "152377975",
+        "text": "간단하게 즐기기 좋은 게임",
+        "ambiguity_flags": [
+          "unclassified_included"
+        ]
+      },
+      {
+        "count": 2,
+        "appid": 1942280,
+        "game_name": "브로타토",
+        "review_id": "166385283",
+        "text": "간단하고 재미있음",
+        "ambiguity_flags": [
+          "unclassified_included"
+        ]
+      },
+      {
+        "count": 2,
+        "appid": 1794680,
+        "game_name": "뱀파이어 서바이버즈",
+        "review_id": "170143321",
+        "text": "시간가는줄 모름",
+        "ambiguity_flags": [
+          "unclassified_included"
+        ]
+      },
+      {
+        "count": 2,
+        "appid": 1145360,
+        "game_name": "하데스",
+        "review_id": "171409264",
+        "text": "로그라이크의 정점",
+        "ambiguity_flags": [
+          "unclassified_included"
+        ]
+      },
+      {
+        "count": 2,
+        "appid": 1145360,
+        "game_name": "하데스",
+        "review_id": "179351021",
+        "text": "압도적으로 긍정적",
+        "ambiguity_flags": [
+          "unclassified_included"
+        ]
+      }
+    ]
+  }
+}

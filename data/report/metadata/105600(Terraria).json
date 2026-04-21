@@ -1,0 +1,15 @@
+{
+  "appid": 105600,
+  "name": "Terraria",
+  "genres": [
+    "액션",
+    "어드벤처",
+    "인디",
+    "RPG"
+  ],
+  "price_model": "paid",
+  "release_stage": "released",
+  "release_date_text": "2011년 5월 16일",
+  "is_free": false,
+  "coming_soon": false
+}
