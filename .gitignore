@@ -1,0 +1,26 @@
+# env
+.env
+.env.*
+!.env.example
+
+# python
+__pycache__/
+*.py[cod]
+
+# virtual env
+.venv/
+venv/
+
+# test/cache
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# logs
+*.log
+
+# local runtime data
+data/steam_mvp.db
+data/steam_mvp.db-shm
+data/steam_mvp.db-wal
+data/chroma/
