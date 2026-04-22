@@ -244,7 +244,7 @@ def _build_name_index(conn, model: SentenceTransformer) -> tuple[list[int], list
         return cached
     rows = conn.execute(
         """
-        SELECT g.app_id, g.name
+        SELECT g.app_id, COALESCE(NULLIF(g.name_ko, ''), NULLIF(g.name_en, ''), g.name) AS name
         FROM games g
         JOIN game_profiles p ON p.app_id = g.app_id
         """
@@ -399,13 +399,15 @@ def _resolve_reference_game(
 
         rows = conn.execute(
             """
-            SELECT g.app_id, g.name
+            SELECT g.app_id, COALESCE(NULLIF(g.name_ko, ''), NULLIF(g.name_en, ''), g.name) AS name
             FROM games g
             JOIN game_profiles p ON p.app_id = g.app_id
-            WHERE LOWER(g.name) LIKE ?
+            WHERE LOWER(COALESCE(g.name_ko, '')) LIKE ?
+               OR LOWER(COALESCE(g.name_en, '')) LIKE ?
+               OR LOWER(g.name) LIKE ?
             LIMIT 120
             """,
-            (f"%{key}%",),
+            (f"%{key}%", f"%{key}%", f"%{key}%"),
         ).fetchall()
         if not rows:
             continue
