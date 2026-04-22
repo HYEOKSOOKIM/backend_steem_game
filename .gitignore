@@ -24,3 +24,9 @@ data/steam_mvp.db
 data/steam_mvp.db-shm
 data/steam_mvp.db-wal
 data/chroma/
+data/recommender/steam_mvp.db
+data/recommender/steam_mvp.db-shm
+data/recommender/steam_mvp.db-wal
+data/recommender/chroma/
+data/recommender/chroma_v2/
+data/recommender/chroma_backup_*/
