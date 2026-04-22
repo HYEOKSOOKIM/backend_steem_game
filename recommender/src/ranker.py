@@ -82,9 +82,25 @@ EXCLUDED_SIGNAL_TERMS = {
 def _get_model(model_name: str) -> SentenceTransformer:
     model = _MODEL_CACHE.get(model_name)
     if model is None:
+        local_only_first = (os.getenv("EMBEDDING_LOCAL_ONLY_FIRST") or "1").strip() == "1"
+        allow_download = (os.getenv("EMBEDDING_ALLOW_DOWNLOAD") or "0").strip() == "1"
         offline = os.getenv("HF_HUB_OFFLINE", "").strip() == "1" or os.getenv(
             "TRANSFORMERS_OFFLINE", ""
         ).strip() == "1"
+
+        if local_only_first:
+            try:
+                model = SentenceTransformer(model_name, local_files_only=True)
+                _MODEL_CACHE[model_name] = model
+                return model
+            except Exception as exc:
+                if not allow_download:
+                    raise RuntimeError(
+                        f"local_embedding_model_missing: {model_name}. "
+                        "Run scripts/preload_embedding_model.py once on this server/image, "
+                        "or set EMBEDDING_ALLOW_DOWNLOAD=1 temporarily."
+                    ) from exc
+
         try:
             if offline:
                 model = SentenceTransformer(model_name)

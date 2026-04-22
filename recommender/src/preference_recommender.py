@@ -488,183 +488,37 @@ def recommend_from_preferences(
         liked_resolved, liked_unresolved = _resolve_games(conn, liked_games)
         disliked_resolved, disliked_unresolved = _resolve_games(conn, disliked_games)
 
-        like_ids = [x.app_id for x in liked_resolved]
-        dislike_ids = [x.app_id for x in disliked_resolved]
-        vectors = _load_profile_vectors(conn, like_ids + dislike_ids)
-        disliked_genres, disliked_tags = _load_game_topics(conn, dislike_ids)
-
-    like_vectors = [vectors[x.app_id] for x in liked_resolved if x.app_id in vectors]
-    dislike_vectors = [vectors[x.app_id] for x in disliked_resolved if x.app_id in vectors]
-
-    runtime_errors: list[str] = []
-    mode = "preference_profile"
-
-    query_vec: np.ndarray
-    if like_vectors:
-        # Step 1: rank candidates only by liked-game preference.
-        query_vec = _build_like_vector(like_vectors)
-
-        # Optional minor blend for unresolved liked names.
-        if liked_unresolved:
-            try:
-                text_vec = _build_text_like_vector(liked_unresolved, embedding_model)
-                query_vec = (0.9 * query_vec) + (0.1 * text_vec)
-                norm = float(np.linalg.norm(query_vec))
-                if norm > 0:
-                    query_vec = query_vec / norm
-                mode = "preference_profile_blended"
-            except Exception as exc:
-                runtime_errors.append(f"preference_text_blend_skipped: {exc}")
-    else:
-        # If no liked game can be resolved in DB, fallback to text-liked intent.
-        try:
-            query_vec = _build_text_like_vector(liked_unresolved or liked_games, embedding_model)
-            mode = "preference_text_fallback"
-            runtime_errors.append("preference_fallback_used: no_liked_game_embedding")
-        except Exception:
-            from .ranker import recommend_games
-
-            like_text = ", ".join(x.strip() for x in (liked_games or []) if str(x).strip())
-            dislike_text = ", ".join(x.strip() for x in (disliked_games or []) if str(x).strip())
-            if dislike_text:
-                query_text = (
-                    f"I liked games such as {like_text}. "
-                    f"I disliked games such as {dislike_text}. Recommend similar games."
-                )
-            else:
-                query_text = f"I liked games such as {like_text}. Recommend similar games."
-
-            fallback_result = recommend_games(
-                db_path=Path(db_path),
-                query=query_text,
-                top_k=top_k,
-                openai_api_key=openai_api_key,
-                openai_model=openai_model,
-            )
-            fallback_errors = list(fallback_result.get("llm_errors", []) or [])
-            fallback_errors.append("preference_fallback_used: natural_query_mode")
-            fallback_result["llm_errors"] = fallback_errors
-            fallback_result["mode"] = "preference_query_fallback"
-            fallback_result["resolved"] = {
-                "liked": [{"app_id": x.app_id, "name": x.name} for x in liked_resolved],
-                "disliked": [{"app_id": x.app_id, "name": x.name} for x in disliked_resolved],
-                "liked_unresolved": liked_unresolved,
-                "disliked_unresolved": disliked_unresolved,
-            }
-            return fallback_result
-
-    rows = query_profiles_from_chroma(
-        db_path=Path(db_path),
-        query_vector=query_vec,
-        n_results=max(top_k * 20, 160),
-        chroma_path=chroma_path,
-        collection_name=chroma_collection,
-    )
-
-    exclude_ids = {x.app_id for x in liked_resolved}.union({x.app_id for x in disliked_resolved})
-    dislike_sim_threshold = float(os.getenv("PREFERENCE_DISLIKE_EXCLUDE_SIM") or 0.62)
-
-    ranked: list[dict[str, Any]] = []
-    relaxed_ranked: list[dict[str, Any]] = []
-    for row in rows:
-        app_id = int(row.get("app_id") or 0)
-        if app_id <= 0 or app_id in exclude_ids:
-            continue
-
-        genres = [str(x) for x in (row.get("genres") or [])]
-        tags = [str(x) for x in (row.get("tags") or [])]
-        cand_genres = {_norm_token(x) for x in genres if _norm_token(x)}
-        cand_tags = {_norm_token(x) for x in tags if _norm_token(x)}
-
-        overlap_genres = cand_genres.intersection(disliked_genres)
-        overlap_tags = cand_tags.intersection(disliked_tags)
-
-        # Step 2: remove candidates close to disliked games.
-        dislike_sim = 0.0
-        vec = row.get("vector")
-        if dislike_vectors and isinstance(vec, np.ndarray):
-            c_vec = np.asarray(vec, dtype=np.float32)
-            c_norm = float(np.linalg.norm(c_vec))
-            if c_norm > 0:
-                c_vec = c_vec / c_norm
-                dislike_sim = max(float(np.dot(c_vec, d_vec)) for d_vec in dislike_vectors)
-
-        recent_count = int(row.get("recent_review_count") or 0)
-        median_playtime = float(row.get("median_playtime_1y") or 0.0)
-        like_similarity = float(row.get("similarity") or 0.0)
-
-        penalty = (0.30 * dislike_sim) + (0.02 * len(overlap_genres)) + (0.04 * len(overlap_tags))
-        final_score = like_similarity - penalty
-        item = {
-            "app_id": app_id,
-            "name": str(row.get("name") or ""),
-            "steam_url": f"https://store.steampowered.com/app/{app_id}/",
-            "image_url": f"https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/{app_id}/header.jpg",
-            "genres": genres,
-            "tags": tags,
-            "similarity": round(like_similarity, 4),
-            "recent_review_count": recent_count,
-            "positive_ratio_1y": round(float(row.get("positive_ratio_1y") or 0.0), 4),
-            "median_playtime_1y": round(median_playtime, 1),
-            "confidence": _confidence_label(recent_count, median_playtime),
-            "reason_ko": "좋아한 게임 기준 추천 결과에서 비선호 게임과 겹치는 특성을 제외한 결과입니다.",
-            "one_liner_ko": "",
-            "evidence_reviews": [],
-            "_final_score": final_score,
-        }
-        relaxed_ranked.append(item)
-
-        if dislike_sim >= dislike_sim_threshold:
-            continue
-        if len(overlap_tags) >= 2:
-            continue
-        ranked.append(item)
-
-    ranked.sort(
-        key=lambda x: (
-            float(x.get("_final_score", 0.0)),
-            float(x.get("similarity", 0.0)),
-            int(x.get("recent_review_count", 0)),
-        ),
-        reverse=True,
-    )
-
-    results = ranked[:top_k]
-    if not results and relaxed_ranked:
-        # Keep UX stable: if strict dislike filtering removes everything,
-        # fall back to a relaxed list rather than returning an empty screen.
-        runtime_errors.append("preference_filter_relaxed: strict_dislike_filter_removed_all")
-        relaxed_ranked.sort(
-            key=lambda x: (
-                float(x.get("_final_score", 0.0)),
-                float(x.get("similarity", 0.0)),
-                int(x.get("recent_review_count", 0)),
-            ),
-            reverse=True,
+    liked_text = ", ".join(x.strip() for x in liked_games if str(x).strip())
+    disliked_text = ", ".join(x.strip() for x in disliked_games if str(x).strip())
+    if disliked_text:
+        query_text = (
+            f"좋아했던 게임: {liked_text}. "
+            f"비선호 게임: {disliked_text}. "
+            "이 취향을 반영해서 스팀 게임을 추천해줘."
         )
-        results = relaxed_ranked[:top_k]
-    for item in results:
-        item.pop("_final_score", None)
+    else:
+        query_text = f"좋아했던 게임: {liked_text}. 이 취향을 반영해서 스팀 게임을 추천해줘."
 
-    return {
-        "query": "",
-        "normalized_input_query": "",
-        "rewritten_query": "",
-        "effective_query": "",
-        "mode": mode,
-        "reference_game": None,
-        "similar_to_fallback": None,
-        "parsed_query": None,
-        "results": results,
-        "llm_errors": runtime_errors,
-        "generated_at": datetime.now(timezone.utc).isoformat(),
-        "resolved": {
-            "liked": [{"app_id": x.app_id, "name": x.name} for x in liked_resolved],
-            "disliked": [{"app_id": x.app_id, "name": x.name} for x in disliked_resolved],
-            "liked_unresolved": liked_unresolved,
-            "disliked_unresolved": disliked_unresolved,
-        },
+    from .ranker import recommend_games
+
+    result = recommend_games(
+        db_path=Path(db_path),
+        query=query_text,
+        top_k=top_k,
+        openai_api_key=openai_api_key,
+        openai_model=openai_model,
+    )
+
+    base_mode = str(result.get("mode") or "query")
+    result["mode"] = f"preference_nlq::{base_mode}"
+    result["query"] = query_text
+    result["resolved"] = {
+        "liked": [{"app_id": x.app_id, "name": x.name} for x in liked_resolved],
+        "disliked": [{"app_id": x.app_id, "name": x.name} for x in disliked_resolved],
+        "liked_unresolved": liked_unresolved,
+        "disliked_unresolved": disliked_unresolved,
     }
+    return result
 
 
 def suggest_games(
