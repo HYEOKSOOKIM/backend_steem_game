@@ -50,6 +50,25 @@ if APIRouter is not None:
     def recommend_health() -> dict[str, Any]:
         return {"status": "ok", "db_ready": _is_db_ready()}
 
+    @recommend_router.get("/suggest")
+    def recommend_suggest(q: str = "", limit: int = 10) -> JSONResponse:
+        if not _is_db_ready():
+            raise HTTPException(
+                status_code=503,
+                detail="Recommendation DB is not ready. Check backend/data/recommender.",
+            )
+        try:
+            from recommender.src.preference_recommender import suggest_games
+
+            rows = suggest_games(
+                db_path=_resolve_db_path(),
+                query=q,
+                limit=limit,
+            )
+            return JSONResponse({"query": q, "count": len(rows), "items": rows})
+        except Exception as exc:
+            raise HTTPException(status_code=500, detail=str(exc)) from exc
+
     @recommend_router.post("")
     def recommend(req: RecommendRequest) -> JSONResponse:
         if not _is_db_ready():

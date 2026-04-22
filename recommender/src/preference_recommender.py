@@ -2,19 +2,27 @@
 
 import json
 import os
+import re
+import time
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from difflib import SequenceMatcher
 from pathlib import Path
 from typing import Any
+from urllib.error import HTTPError, URLError
+from urllib.parse import urlencode
+from urllib.request import urlopen
 
 import numpy as np
-from sentence_transformers import SentenceTransformer
 
 from .chroma_store import query_profiles_from_chroma
 from .db import get_connection
 
-_MODEL_CACHE: dict[str, SentenceTransformer] = {}
+_MODEL_CACHE: dict[str, Any] = {}
+_SEM_NAME_INDEX_CACHE: dict[str, tuple[list[int], list[str], np.ndarray]] = {}
+_NON_WORD_RE = re.compile(r"[^0-9a-z가-힣]+", flags=re.IGNORECASE)
+APP_ID_RE = re.compile(r'data-ds-appid="(\d+)"')
+STEAM_SEARCH_RESULTS_URL = "https://store.steampowered.com/search/results/"
 
 
 @dataclass
@@ -31,6 +39,167 @@ def _norm_token(text: str) -> str:
     return " ".join((text or "").strip().lower().split())
 
 
+def _compact_token(text: str) -> str:
+    return _NON_WORD_RE.sub("", _norm_token(text))
+
+
+def _build_query_forms(token: str) -> list[str]:
+    base = _norm_token(token)
+    compact = _compact_token(token)
+    out: list[str] = []
+    if base:
+        out.append(base)
+    if compact and compact not in out:
+        out.append(compact)
+    # Expand trailing numeric versions: e.g. "gta5" -> "gta 5", "gta v"
+    m = re.match(r"^([a-z가-힣]+)(\d+)$", compact)
+    if m:
+        head, num = m.groups()
+        spaced = f"{head} {num}"
+        if spaced not in out:
+            out.append(spaced)
+        roman_map = {
+            "1": "i",
+            "2": "ii",
+            "3": "iii",
+            "4": "iv",
+            "5": "v",
+            "6": "vi",
+            "7": "vii",
+            "8": "viii",
+            "9": "ix",
+            "10": "x",
+        }
+        roman = roman_map.get(num)
+        if roman:
+            roman_form = f"{head} {roman}"
+            if roman_form not in out:
+                out.append(roman_form)
+    # Include compact variants too (e.g. "gta v" -> "gtav")
+    compact_forms = [_compact_token(x) for x in out]
+    for c in compact_forms:
+        if c and c not in out:
+            out.append(c)
+    return out
+
+
+def _name_acronym(text: str) -> str:
+    parts = [p for p in _NON_WORD_RE.split(_norm_token(text)) if p]
+    if not parts:
+        return ""
+    return "".join(p[0] for p in parts if p and p[0].isalnum())
+
+
+def _semantic_name_index(conn, model_name: str) -> tuple[list[int], list[str], np.ndarray]:
+    key = model_name
+    cached = _SEM_NAME_INDEX_CACHE.get(key)
+    if cached is not None:
+        return cached
+    model = _get_model(model_name)
+    rows = conn.execute(
+        """
+        SELECT g.app_id, COALESCE(NULLIF(g.name_ko, ''), NULLIF(g.name_en, ''), g.name) AS name
+        FROM games g
+        JOIN game_profiles p ON p.app_id = g.app_id
+        """
+    ).fetchall()
+    app_ids = [int(r["app_id"]) for r in rows]
+    names = [str(r["name"] or "") for r in rows]
+    if names:
+        vecs = model.encode(
+            names,
+            convert_to_numpy=True,
+            normalize_embeddings=True,
+            show_progress_bar=False,
+        )
+        mat = np.asarray(vecs, dtype=np.float32)
+    else:
+        mat = np.zeros((0, 384), dtype=np.float32)
+    out = (app_ids, names, mat)
+    _SEM_NAME_INDEX_CACHE[key] = out
+    return out
+
+
+def _semantic_resolve_single_game(
+    conn,
+    token: str,
+    model_name: str = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    threshold: float = 0.54,
+) -> ResolvedGame | None:
+    text = (token or "").strip()
+    if not text:
+        return None
+    try:
+        model = _get_model(model_name)
+        app_ids, names, mat = _semantic_name_index(conn, model_name=model_name)
+        if mat.shape[0] == 0:
+            return None
+        q = model.encode([text], convert_to_numpy=True, normalize_embeddings=True, show_progress_bar=False)[0]
+        sims = np.dot(mat, np.asarray(q, dtype=np.float32))
+        best_idx = int(np.argmax(sims))
+        best_sim = float(sims[best_idx])
+        if best_sim < threshold:
+            return None
+        return ResolvedGame(app_id=int(app_ids[best_idx]), name=str(names[best_idx]))
+    except Exception:
+        return None
+
+
+def _http_get_json(url: str, params: dict[str, Any], retries: int = 3) -> dict[str, Any]:
+    full_url = f"{url}?{urlencode(params)}"
+    backoff = 0.8
+    for attempt in range(retries):
+        try:
+            with urlopen(full_url, timeout=10) as response:
+                return json.loads(response.read().decode("utf-8"))
+        except HTTPError as exc:
+            if exc.code == 429 and attempt < retries - 1:
+                time.sleep(backoff)
+                backoff *= 1.8
+                continue
+            raise
+        except URLError:
+            if attempt < retries - 1:
+                time.sleep(backoff)
+                backoff *= 1.6
+                continue
+            raise
+    return {}
+
+
+def _search_steam_app_ids(query: str, limit: int = 10) -> list[int]:
+    q = (query or "").strip()
+    if not q:
+        return []
+    try:
+        payload = _http_get_json(
+            STEAM_SEARCH_RESULTS_URL,
+            {
+                "query": q,
+                "start": 0,
+                "count": 25,
+                "dynamic_data": "",
+                "sort_by": "_ASC",
+                "supportedlang": "koreana,english",
+                "infinite": 1,
+            },
+        )
+    except Exception:
+        return []
+    html = str(payload.get("results_html") or "")
+    ids: list[int] = []
+    for m in APP_ID_RE.findall(html):
+        try:
+            app_id = int(m)
+        except Exception:
+            continue
+        if app_id not in ids:
+            ids.append(app_id)
+        if len(ids) >= limit:
+            break
+    return ids
+
+
 def _confidence_label(recent_count: int, median_playtime: float) -> str:
     if recent_count >= 80 and median_playtime >= 120:
         return "high"
@@ -39,7 +208,10 @@ def _confidence_label(recent_count: int, median_playtime: float) -> str:
     return "low"
 
 
-def _get_model(model_name: str) -> SentenceTransformer:
+def _get_model(model_name: str):
+    # Lazy import so lightweight endpoints (e.g. /suggest) stay fast.
+    from sentence_transformers import SentenceTransformer
+
     model = _MODEL_CACHE.get(model_name)
     if model is None:
         local_only_first = (os.getenv("PREFERENCE_FALLBACK_LOCAL_ONLY") or "1").strip() == "1"
@@ -89,49 +261,110 @@ def _resolve_single_game(conn, raw: str) -> ResolvedGame | None:
         if row is not None:
             return ResolvedGame(app_id=int(row["app_id"]), name=str(row["name"] or ""))
 
-    lower = token.lower()
-    exact = conn.execute(
-        """
-        SELECT g.app_id, COALESCE(NULLIF(g.name_ko, ''), NULLIF(g.name_en, ''), g.name) AS name
-        FROM games g
-        JOIN game_profiles p ON p.app_id = g.app_id
-        WHERE LOWER(COALESCE(g.name_ko, '')) = ?
-           OR LOWER(COALESCE(g.name_en, '')) = ?
-           OR LOWER(g.name) = ?
-        LIMIT 1
-        """,
-        (lower, lower, lower),
-    ).fetchone()
-    if exact is not None:
-        return ResolvedGame(app_id=int(exact["app_id"]), name=str(exact["name"] or ""))
+    candidates = _build_query_forms(token)
 
-    rows = conn.execute(
-        """
-        SELECT g.app_id, COALESCE(NULLIF(g.name_ko, ''), NULLIF(g.name_en, ''), g.name) AS name
-        FROM games g
-        JOIN game_profiles p ON p.app_id = g.app_id
-        WHERE LOWER(COALESCE(g.name_ko, '')) LIKE ?
-           OR LOWER(COALESCE(g.name_en, '')) LIKE ?
-           OR LOWER(g.name) LIKE ?
-        LIMIT 120
-        """,
-        (f"%{lower}%", f"%{lower}%", f"%{lower}%"),
-    ).fetchall()
+    for cand in candidates:
+        exact = conn.execute(
+            """
+            SELECT g.app_id, COALESCE(NULLIF(g.name_ko, ''), NULLIF(g.name_en, ''), g.name) AS name
+            FROM games g
+            JOIN game_profiles p ON p.app_id = g.app_id
+            WHERE LOWER(COALESCE(g.name_ko, '')) = ?
+               OR LOWER(COALESCE(g.name_en, '')) = ?
+               OR LOWER(g.name) = ?
+            LIMIT 1
+            """,
+            (cand, cand, cand),
+        ).fetchone()
+        if exact is not None:
+            return ResolvedGame(app_id=int(exact["app_id"]), name=str(exact["name"] or ""))
+
+    rows: list[Any] = []
+    seen_ids: set[int] = set()
+    for cand in candidates:
+        part = conn.execute(
+            """
+            SELECT g.app_id, COALESCE(NULLIF(g.name_ko, ''), NULLIF(g.name_en, ''), g.name) AS name
+            FROM games g
+            JOIN game_profiles p ON p.app_id = g.app_id
+            WHERE LOWER(COALESCE(g.name_ko, '')) LIKE ?
+               OR LOWER(COALESCE(g.name_en, '')) LIKE ?
+               OR LOWER(g.name) LIKE ?
+            LIMIT 120
+            """,
+            (f"%{cand}%", f"%{cand}%", f"%{cand}%"),
+        ).fetchall()
+        for row in part:
+            app_id = int(row["app_id"])
+            if app_id in seen_ids:
+                continue
+            seen_ids.add(app_id)
+            rows.append(row)
+
     if not rows:
+        # Remote safety-net first: search Steam by query and map app_id back into local DB.
+        for q in candidates:
+            app_ids = _search_steam_app_ids(q, limit=8)
+            for app_id in app_ids:
+                row = conn.execute(
+                    """
+                    SELECT g.app_id, COALESCE(NULLIF(g.name_ko, ''), NULLIF(g.name_en, ''), g.name) AS name
+                    FROM games g
+                    JOIN game_profiles p ON p.app_id = g.app_id
+                    WHERE g.app_id = ?
+                    LIMIT 1
+                    """,
+                    (app_id,),
+                ).fetchone()
+                if row is not None:
+                    return ResolvedGame(app_id=int(row["app_id"]), name=str(row["name"] or ""))
+
+        # Final local safety-net: broad fuzzy scan across all indexed game names.
+        rows = conn.execute(
+            """
+            SELECT g.app_id, COALESCE(NULLIF(g.name_ko, ''), NULLIF(g.name_en, ''), g.name) AS name
+            FROM games g
+            JOIN game_profiles p ON p.app_id = g.app_id
+            """
+        ).fetchall()
+        if not rows:
+            return None
+
+    query_compact = _compact_token(token)
+    query_compact_forms = {_compact_token(x) for x in candidates if _compact_token(x)}
+    if not query_compact:
         return None
 
     best = None
     best_score = -1.0
     for row in rows:
         name = str(row["name"] or "")
-        score = SequenceMatcher(None, lower, name.lower()).ratio()
-        if lower in name.lower():
+        name_norm = _norm_token(name)
+        name_compact = _compact_token(name)
+        name_acro = _name_acronym(name)
+        score = SequenceMatcher(None, query_compact, name_compact).ratio()
+        if any(f and (name_acro == f or name_acro.startswith(f)) for f in query_compact_forms):
+            score = max(score, 1.2)
+        if query_compact and query_compact in name_compact:
             score += 0.35
+        if name_acro:
+            if name_acro in query_compact_forms or query_compact in name_acro:
+                score += 0.45
+            if any(f in name_acro for f in query_compact_forms):
+                score += 0.20
+        # Keep a light signal from space-preserved normalization as tie-breaker.
+        score += 0.05 * SequenceMatcher(None, _norm_token(token), name_norm).ratio()
         if score > best_score:
             best_score = score
             best = row
 
     if best is None:
+        sem = _semantic_resolve_single_game(conn, token)
+        return sem
+    if best_score < 0.74:
+        sem = _semantic_resolve_single_game(conn, token)
+        if sem is not None:
+            return sem
         return None
     return ResolvedGame(app_id=int(best["app_id"]), name=str(best["name"] or ""))
 
@@ -332,6 +565,7 @@ def recommend_from_preferences(
     dislike_sim_threshold = float(os.getenv("PREFERENCE_DISLIKE_EXCLUDE_SIM") or 0.62)
 
     ranked: list[dict[str, Any]] = []
+    relaxed_ranked: list[dict[str, Any]] = []
     for row in rows:
         app_id = int(row.get("app_id") or 0)
         if app_id <= 0 or app_id in exclude_ids:
@@ -355,37 +589,36 @@ def recommend_from_preferences(
                 c_vec = c_vec / c_norm
                 dislike_sim = max(float(np.dot(c_vec, d_vec)) for d_vec in dislike_vectors)
 
-        if dislike_sim >= dislike_sim_threshold:
-            continue
-        if len(overlap_tags) >= 2:
-            continue
-
         recent_count = int(row.get("recent_review_count") or 0)
         median_playtime = float(row.get("median_playtime_1y") or 0.0)
         like_similarity = float(row.get("similarity") or 0.0)
 
         penalty = (0.30 * dislike_sim) + (0.02 * len(overlap_genres)) + (0.04 * len(overlap_tags))
         final_score = like_similarity - penalty
+        item = {
+            "app_id": app_id,
+            "name": str(row.get("name") or ""),
+            "steam_url": f"https://store.steampowered.com/app/{app_id}/",
+            "image_url": f"https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/{app_id}/header.jpg",
+            "genres": genres,
+            "tags": tags,
+            "similarity": round(like_similarity, 4),
+            "recent_review_count": recent_count,
+            "positive_ratio_1y": round(float(row.get("positive_ratio_1y") or 0.0), 4),
+            "median_playtime_1y": round(median_playtime, 1),
+            "confidence": _confidence_label(recent_count, median_playtime),
+            "reason_ko": "좋아한 게임 기준 추천 결과에서 비선호 게임과 겹치는 특성을 제외한 결과입니다.",
+            "one_liner_ko": "",
+            "evidence_reviews": [],
+            "_final_score": final_score,
+        }
+        relaxed_ranked.append(item)
 
-        ranked.append(
-            {
-                "app_id": app_id,
-                "name": str(row.get("name") or ""),
-                "steam_url": f"https://store.steampowered.com/app/{app_id}/",
-                "image_url": f"https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/{app_id}/header.jpg",
-                "genres": genres,
-                "tags": tags,
-                "similarity": round(like_similarity, 4),
-                "recent_review_count": recent_count,
-                "positive_ratio_1y": round(float(row.get("positive_ratio_1y") or 0.0), 4),
-                "median_playtime_1y": round(median_playtime, 1),
-                "confidence": _confidence_label(recent_count, median_playtime),
-                "reason_ko": "좋아한 게임 기준 추천 결과에서 비선호 게임과 겹치는 특성을 제외한 결과입니다.",
-                "one_liner_ko": "",
-                "evidence_reviews": [],
-                "_final_score": final_score,
-            }
-        )
+        if dislike_sim >= dislike_sim_threshold:
+            continue
+        if len(overlap_tags) >= 2:
+            continue
+        ranked.append(item)
 
     ranked.sort(
         key=lambda x: (
@@ -397,6 +630,19 @@ def recommend_from_preferences(
     )
 
     results = ranked[:top_k]
+    if not results and relaxed_ranked:
+        # Keep UX stable: if strict dislike filtering removes everything,
+        # fall back to a relaxed list rather than returning an empty screen.
+        runtime_errors.append("preference_filter_relaxed: strict_dislike_filter_removed_all")
+        relaxed_ranked.sort(
+            key=lambda x: (
+                float(x.get("_final_score", 0.0)),
+                float(x.get("similarity", 0.0)),
+                int(x.get("recent_review_count", 0)),
+            ),
+            reverse=True,
+        )
+        results = relaxed_ranked[:top_k]
     for item in results:
         item.pop("_final_score", None)
 
@@ -419,3 +665,127 @@ def recommend_from_preferences(
             "disliked_unresolved": disliked_unresolved,
         },
     }
+
+
+def suggest_games(
+    db_path: Path,
+    query: str,
+    limit: int = 10,
+) -> list[dict[str, Any]]:
+    q = _norm_token(query)
+    compact = _compact_token(query)
+    limit = max(1, min(30, int(limit)))
+
+    with get_connection(Path(db_path), readonly=True) as conn:
+        if not q and not compact:
+            rows = conn.execute(
+                """
+                SELECT g.app_id,
+                       COALESCE(NULLIF(g.name_ko, ''), NULLIF(g.name_en, ''), g.name) AS display_name,
+                       g.name_en,
+                       g.name_ko,
+                       p.recent_review_count
+                FROM games g
+                JOIN game_profiles p ON p.app_id = g.app_id
+                ORDER BY COALESCE(p.recent_review_count, 0) DESC, g.app_id DESC
+                LIMIT ?
+                """,
+                (limit,),
+            ).fetchall()
+        else:
+            prefix = f"{q}%"
+            contains = f"%{q}%"
+            cprefix = f"{compact}%"
+            ccontains = f"%{compact}%"
+            rows = conn.execute(
+                """
+                SELECT g.app_id,
+                       COALESCE(NULLIF(g.name_ko, ''), NULLIF(g.name_en, ''), g.name) AS display_name,
+                       g.name_en,
+                       g.name_ko,
+                       p.recent_review_count,
+                       CASE
+                         WHEN LOWER(COALESCE(g.name_ko, '')) LIKE ? THEN 8
+                         WHEN LOWER(COALESCE(g.name_en, '')) LIKE ? THEN 7
+                         WHEN LOWER(g.name) LIKE ? THEN 6
+                         WHEN REPLACE(LOWER(COALESCE(g.name_ko, '')), ' ', '') LIKE ? THEN 5
+                         WHEN REPLACE(LOWER(COALESCE(g.name_en, '')), ' ', '') LIKE ? THEN 4
+                         WHEN LOWER(COALESCE(g.name_ko, '')) LIKE ? THEN 3
+                         WHEN LOWER(COALESCE(g.name_en, '')) LIKE ? THEN 2
+                         WHEN LOWER(g.name) LIKE ? THEN 1
+                         WHEN REPLACE(LOWER(COALESCE(g.name_ko, '')), ' ', '') LIKE ? THEN 1
+                         WHEN REPLACE(LOWER(COALESCE(g.name_en, '')), ' ', '') LIKE ? THEN 1
+                         ELSE 0
+                       END AS score
+                FROM games g
+                JOIN game_profiles p ON p.app_id = g.app_id
+                WHERE (
+                    LOWER(COALESCE(g.name_ko, '')) LIKE ?
+                 OR LOWER(COALESCE(g.name_en, '')) LIKE ?
+                 OR LOWER(g.name) LIKE ?
+                 OR REPLACE(LOWER(COALESCE(g.name_ko, '')), ' ', '') LIKE ?
+                 OR REPLACE(LOWER(COALESCE(g.name_en, '')), ' ', '') LIKE ?
+                )
+                ORDER BY score DESC, COALESCE(p.recent_review_count, 0) DESC, g.app_id DESC
+                LIMIT ?
+                """,
+                (
+                    prefix,
+                    prefix,
+                    prefix,
+                    cprefix,
+                    cprefix,
+                    contains,
+                    contains,
+                    contains,
+                    ccontains,
+                    ccontains,
+                    contains,
+                    contains,
+                    contains,
+                    ccontains,
+                    ccontains,
+                    limit,
+                ),
+            ).fetchall()
+
+            if not rows and compact:
+                # Acronym fallback for short aliases like "gta", "rdr", etc.
+                all_rows = conn.execute(
+                    """
+                    SELECT g.app_id,
+                           COALESCE(NULLIF(g.name_ko, ''), NULLIF(g.name_en, ''), g.name) AS display_name,
+                           g.name_en,
+                           g.name_ko,
+                           p.recent_review_count
+                    FROM games g
+                    JOIN game_profiles p ON p.app_id = g.app_id
+                    """
+                ).fetchall()
+                scored: list[tuple[int, int, Any]] = []
+                for row in all_rows:
+                    display = str(row["display_name"] or "")
+                    acro = _name_acronym(display)
+                    if not acro:
+                        continue
+                    if acro.startswith(compact):
+                        score = 2
+                    elif compact in acro:
+                        score = 1
+                    else:
+                        continue
+                    scored.append((score, int(row["recent_review_count"] or 0), row))
+                scored.sort(key=lambda x: (x[0], x[1]), reverse=True)
+                rows = [x[2] for x in scored[:limit]]
+
+    out: list[dict[str, Any]] = []
+    for row in rows:
+        out.append(
+            {
+                "app_id": int(row["app_id"]),
+                "name": str(row["display_name"] or ""),
+                "name_en": str(row["name_en"] or ""),
+                "name_ko": str(row["name_ko"] or ""),
+            }
+        )
+    return out
