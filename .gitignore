@@ -30,3 +30,4 @@ data/recommender/steam_mvp.db-wal
 data/recommender/chroma/
 data/recommender/chroma_v2/
 data/recommender/chroma_backup_*/
+data/recommender/recommender_eval/
