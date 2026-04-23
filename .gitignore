@@ -24,3 +24,6 @@ data/steam_mvp.db
 data/steam_mvp.db-shm
 data/steam_mvp.db-wal
 data/chroma/
+
+# 문서 파일
+*.md
