@@ -14,6 +14,18 @@ def _deserialize_vector(blob: bytes) -> np.ndarray:
     return np.frombuffer(blob, dtype=np.float32)
 
 
+def _build_persistent_client(chromadb_module: Any, persist_path: Path):
+    try:
+        from chromadb.config import Settings
+
+        return chromadb_module.PersistentClient(
+            path=str(persist_path),
+            settings=Settings(anonymized_telemetry=False),
+        )
+    except Exception:
+        return chromadb_module.PersistentClient(path=str(persist_path))
+
+
 def _resolve_chroma_path(db_path: Path, chroma_path: str | None = None) -> Path:
     if chroma_path:
         return Path(chroma_path)
@@ -60,7 +72,7 @@ def sync_game_profiles_to_chroma(
             """
         ).fetchall()
 
-    client = chromadb.PersistentClient(path=str(persist_path))
+    client = _build_persistent_client(chromadb, persist_path)
     collection = client.get_or_create_collection(
         name=resolved_collection,
         metadata={"hnsw:space": "cosine"},
@@ -120,7 +132,7 @@ def query_profiles_from_chroma(
     persist_path = _resolve_chroma_path(db_path, chroma_path)
     resolved_collection = _resolve_collection_name(collection_name)
 
-    client = chromadb.PersistentClient(path=str(persist_path))
+    client = _build_persistent_client(chromadb, persist_path)
     collection = client.get_or_create_collection(
         name=resolved_collection,
         metadata={"hnsw:space": "cosine"},

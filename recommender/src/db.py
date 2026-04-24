@@ -8,6 +8,8 @@ SCHEMA_SQL = """
 CREATE TABLE IF NOT EXISTS games (
   app_id INTEGER PRIMARY KEY,
   name TEXT NOT NULL,
+  name_en TEXT,
+  name_ko TEXT,
   release_date TEXT,
   genres TEXT,
   tags TEXT,
@@ -68,6 +70,16 @@ CREATE TABLE IF NOT EXISTS eval_results (
   FOREIGN KEY (eval_query_id) REFERENCES eval_queries(id),
   FOREIGN KEY (app_id) REFERENCES games(app_id)
 );
+
+-- Query acceleration indexes (no behavioral change).
+CREATE INDEX IF NOT EXISTS idx_reviews_app_recent
+ON reviews(app_id, review_date DESC);
+
+CREATE INDEX IF NOT EXISTS idx_reviews_app_vote_trust_recent
+ON reviews(app_id, voted_up, trust_label, review_date DESC);
+
+CREATE INDEX IF NOT EXISTS idx_reviews_app_vote_recent
+ON reviews(app_id, voted_up, review_date DESC);
 """
 
 
@@ -89,7 +101,19 @@ def init_db(db_path: Path) -> None:
         conn.execute("PRAGMA journal_mode=WAL;")
         conn.execute("PRAGMA synchronous=NORMAL;")
         conn.executescript(SCHEMA_SQL)
+        _ensure_games_name_columns(conn)
         conn.commit()
+
+
+def _ensure_games_name_columns(conn: sqlite3.Connection) -> None:
+    cols = {
+        str(row[1]).lower()
+        for row in conn.execute("PRAGMA table_info(games)").fetchall()
+    }
+    if "name_en" not in cols:
+        conn.execute("ALTER TABLE games ADD COLUMN name_en TEXT;")
+    if "name_ko" not in cols:
+        conn.execute("ALTER TABLE games ADD COLUMN name_ko TEXT;")
 
 
 def reset_db_data(db_path: Path) -> None:

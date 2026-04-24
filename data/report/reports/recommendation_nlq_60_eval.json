@@ -1,0 +1,1480 @@
+{
+  "report": {
+    "summary": {
+      "total_cases": 60,
+      "ok_cases": 60,
+      "failed_cases": 0,
+      "flagged_cases": 0,
+      "elapsed_total_sec": 547.72,
+      "avg_elapsed_sec": 9.129,
+      "p95_elapsed_sec": 15.337
+    },
+    "by_category": {
+      "simple": {
+        "count": 20,
+        "avg_sec": 7.919,
+        "empty_results": 0,
+        "llm_error_rows": 0,
+        "flagged_rows": 0
+      },
+      "complex": {
+        "count": 20,
+        "avg_sec": 11.252,
+        "empty_results": 0,
+        "llm_error_rows": 0,
+        "flagged_rows": 0
+      },
+      "similar": {
+        "count": 20,
+        "avg_sec": 8.215,
+        "empty_results": 0,
+        "llm_error_rows": 0,
+        "flagged_rows": 0
+      }
+    },
+    "flagged_examples": [],
+    "failed_examples": []
+  },
+  "rows": [
+    {
+      "idx": 1,
+      "category": "simple",
+      "query": "???? ?? ?? ????",
+      "ok": true,
+      "elapsed_sec": 12.585,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "ROUNDS",
+        "PowerWash Simulator",
+        "The Forest"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 5051.25,
+        "model_load_ms": 1242.03,
+        "chroma_query_ms": 1034.67,
+        "retrieval_rank_ms": 1375.72,
+        "llm_postprocess_ms": 4908.39,
+        "total_ms": 12584.8
+      }
+    },
+    {
+      "idx": 2,
+      "category": "simple",
+      "query": "??? ?? RPG ??",
+      "ok": true,
+      "elapsed_sec": 6.916,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Monster Hunter: World",
+        "Tabletop Simulator",
+        "MiSide"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 1716.41,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 111.75,
+        "retrieval_rank_ms": 256.12,
+        "llm_postprocess_ms": 4933.09,
+        "total_ms": 6915.59
+      }
+    },
+    {
+      "idx": 3,
+      "category": "simple",
+      "query": "?? ?? ? ?? ?? ??",
+      "ok": true,
+      "elapsed_sec": 12.837,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Forza Horizon 5",
+        "Cry of Fear",
+        "ASTRONEER"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 1559.98,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 114.03,
+        "retrieval_rank_ms": 344.0,
+        "llm_postprocess_ms": 10923.3,
+        "total_ms": 12836.46
+      }
+    },
+    {
+      "idx": 4,
+      "category": "simple",
+      "query": "?? ?? ?? ????",
+      "ok": true,
+      "elapsed_sec": 6.655,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "ROUNDS",
+        "PowerWash Simulator",
+        "The Forest"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 1885.39,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 95.63,
+        "retrieval_rank_ms": 173.4,
+        "llm_postprocess_ms": 4589.52,
+        "total_ms": 6655.27
+      }
+    },
+    {
+      "idx": 5,
+      "category": "simple",
+      "query": "??? ?? ?? ??",
+      "ok": true,
+      "elapsed_sec": 5.777,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Totally Accurate Battle Simulator",
+        "우리는 여기에 있었다",
+        "ROUNDS"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 1908.95,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 102.98,
+        "retrieval_rank_ms": 238.82,
+        "llm_postprocess_ms": 3621.51,
+        "total_ms": 5776.39
+      }
+    },
+    {
+      "idx": 6,
+      "category": "simple",
+      "query": "?? ?? ?? ??",
+      "ok": true,
+      "elapsed_sec": 6.387,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Totally Accurate Battle Simulator",
+        "우리는 여기에 있었다",
+        "ROUNDS"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 1672.52,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 125.94,
+        "retrieval_rank_ms": 190.09,
+        "llm_postprocess_ms": 4517.64,
+        "total_ms": 6386.99
+      }
+    },
+    {
+      "idx": 7,
+      "category": "simple",
+      "query": "?? ?? ????",
+      "ok": true,
+      "elapsed_sec": 5.83,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "ROUNDS",
+        "PowerWash Simulator",
+        "The Forest"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 1576.69,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 92.78,
+        "retrieval_rank_ms": 187.43,
+        "llm_postprocess_ms": 4054.37,
+        "total_ms": 5829.82
+      }
+    },
+    {
+      "idx": 8,
+      "category": "simple",
+      "query": "?? ?? ??",
+      "ok": true,
+      "elapsed_sec": 7.121,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Gunfire Reborn",
+        "용과 같이0  맹세의 장소",
+        "Forza Horizon 5"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 2819.3,
+        "model_load_ms": 0.01,
+        "chroma_query_ms": 167.47,
+        "retrieval_rank_ms": 271.01,
+        "llm_postprocess_ms": 4024.95,
+        "total_ms": 7120.35
+      }
+    },
+    {
+      "idx": 9,
+      "category": "simple",
+      "query": "?? ?? ?? ??",
+      "ok": true,
+      "elapsed_sec": 5.987,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Totally Accurate Battle Simulator",
+        "우리는 여기에 있었다",
+        "ROUNDS"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 1926.53,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 118.46,
+        "retrieval_rank_ms": 196.87,
+        "llm_postprocess_ms": 3850.88,
+        "total_ms": 5986.26
+      }
+    },
+    {
+      "idx": 10,
+      "category": "simple",
+      "query": "?? ?? ??",
+      "ok": true,
+      "elapsed_sec": 8.271,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Gunfire Reborn",
+        "용과 같이0  맹세의 장소",
+        "Forza Horizon 5"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 2422.62,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 154.8,
+        "retrieval_rank_ms": 230.33,
+        "llm_postprocess_ms": 5604.81,
+        "total_ms": 8270.39
+      }
+    },
+    {
+      "idx": 11,
+      "category": "simple",
+      "query": "?? ?? ?? ??",
+      "ok": true,
+      "elapsed_sec": 6.339,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Gunfire Reborn",
+        "용과 같이0  맹세의 장소",
+        "Forza Horizon 5"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 1726.75,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 99.29,
+        "retrieval_rank_ms": 178.64,
+        "llm_postprocess_ms": 4422.58,
+        "total_ms": 6338.83
+      }
+    },
+    {
+      "idx": 12,
+      "category": "simple",
+      "query": "?? ?? FPS ??",
+      "ok": true,
+      "elapsed_sec": 6.944,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Battlefield™ V",
+        "Counter-Strike",
+        "Agony Increment"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 1439.97,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 147.12,
+        "retrieval_rank_ms": 306.81,
+        "llm_postprocess_ms": 5189.83,
+        "total_ms": 6943.82
+      }
+    },
+    {
+      "idx": 13,
+      "category": "simple",
+      "query": "???? ??? ????? ??",
+      "ok": true,
+      "elapsed_sec": 6.7,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Totally Accurate Battle Simulator",
+        "Buckshot Roulette",
+        "The Forest"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 2006.15,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 118.97,
+        "retrieval_rank_ms": 170.11,
+        "llm_postprocess_ms": 4514.34,
+        "total_ms": 6699.43
+      }
+    },
+    {
+      "idx": 14,
+      "category": "simple",
+      "query": "?? RPG ????",
+      "ok": true,
+      "elapsed_sec": 9.601,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "7 Days to Die",
+        "호그와트 레거시",
+        "Cyberpunk 2077"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 1919.61,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 116.1,
+        "retrieval_rank_ms": 456.81,
+        "llm_postprocess_ms": 7213.45,
+        "total_ms": 9600.83
+      }
+    },
+    {
+      "idx": 15,
+      "category": "simple",
+      "query": "???? ?? ?? ??",
+      "ok": true,
+      "elapsed_sec": 7.945,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "ROUNDS",
+        "PowerWash Simulator",
+        "The Forest"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 1642.04,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 212.91,
+        "retrieval_rank_ms": 313.25,
+        "llm_postprocess_ms": 5981.6,
+        "total_ms": 7944.89
+      }
+    },
+    {
+      "idx": 16,
+      "category": "simple",
+      "query": "??? ? ??? ?? ??",
+      "ok": true,
+      "elapsed_sec": 8.649,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "용과 같이0  맹세의 장소",
+        "For The King",
+        "Tribes of Midgard"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 2233.25,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 165.02,
+        "retrieval_rank_ms": 632.64,
+        "llm_postprocess_ms": 5766.35,
+        "total_ms": 8648.38
+      }
+    },
+    {
+      "idx": 17,
+      "category": "simple",
+      "query": "?? ?? ?? ?? ??",
+      "ok": true,
+      "elapsed_sec": 8.287,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Totally Accurate Battle Simulator",
+        "우리는 여기에 있었다",
+        "ROUNDS"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 2802.43,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 138.0,
+        "retrieval_rank_ms": 793.28,
+        "llm_postprocess_ms": 4670.33,
+        "total_ms": 8286.9
+      }
+    },
+    {
+      "idx": 18,
+      "category": "simple",
+      "query": "?? ??? ??? ?? ??",
+      "ok": true,
+      "elapsed_sec": 11.716,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Muse Dash",
+        "우리는 여기에 있었다",
+        "Buckshot Roulette"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 2693.1,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 112.72,
+        "retrieval_rank_ms": 367.48,
+        "llm_postprocess_ms": 8631.02,
+        "total_ms": 11715.8
+      }
+    },
+    {
+      "idx": 19,
+      "category": "simple",
+      "query": "?? ?? ?? ?? ??",
+      "ok": true,
+      "elapsed_sec": 6.897,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "ROUNDS",
+        "PowerWash Simulator",
+        "The Forest"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 2275.9,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 138.06,
+        "retrieval_rank_ms": 368.3,
+        "llm_postprocess_ms": 4245.21,
+        "total_ms": 6897.12
+      }
+    },
+    {
+      "idx": 20,
+      "category": "simple",
+      "query": "??? ??? ?? ??",
+      "ok": true,
+      "elapsed_sec": 6.931,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "ROUNDS",
+        "PowerWash Simulator",
+        "The Forest"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 1952.99,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 123.35,
+        "retrieval_rank_ms": 249.82,
+        "llm_postprocess_ms": 4713.03,
+        "total_ms": 6930.41
+      }
+    },
+    {
+      "idx": 21,
+      "category": "complex",
+      "query": "??? ?? ?? RPG ??? ?? ?? ?? 1?? ??? ???? ?? ?? ????",
+      "ok": true,
+      "elapsed_sec": 9.612,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Cyberpunk 2077",
+        "호그와트 레거시",
+        "The Witcher 3: Wild Hunt"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 2101.47,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 119.0,
+        "retrieval_rank_ms": 450.34,
+        "llm_postprocess_ms": 7053.05,
+        "total_ms": 9611.87
+      }
+    },
+    {
+      "idx": 22,
+      "category": "complex",
+      "query": "?? 3??? ??? ? ?? ???? ?? ?? ???? ?? ?? ?? ?? ?? ??",
+      "ok": true,
+      "elapsed_sec": 6.261,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "R.E.P.O.",
+        "Human Fall Flat",
+        "PUBG: BATTLEGROUNDS"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 1569.29,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 114.01,
+        "retrieval_rank_ms": 223.66,
+        "llm_postprocess_ms": 4462.02,
+        "total_ms": 6260.89
+      }
+    },
+    {
+      "idx": 23,
+      "category": "complex",
+      "query": "?? ??? ??? ???? ?? ?? ?? ???? ??? ?? ?? ????",
+      "ok": true,
+      "elapsed_sec": 17.299,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Forza Horizon 5",
+        "Cry of Fear",
+        "ASTRONEER"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 2583.38,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 115.55,
+        "retrieval_rank_ms": 420.66,
+        "llm_postprocess_ms": 14284.52,
+        "total_ms": 17298.47
+      }
+    },
+    {
+      "idx": 24,
+      "category": "complex",
+      "query": "?? ????? ??? ???? ?? ??? ?? ?? ?? ??",
+      "ok": true,
+      "elapsed_sec": 15.337,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Forza Horizon 5",
+        "Cry of Fear",
+        "ASTRONEER"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 2126.56,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 114.6,
+        "retrieval_rank_ms": 232.53,
+        "llm_postprocess_ms": 12965.56,
+        "total_ms": 15337.03
+      }
+    },
+    {
+      "idx": 25,
+      "category": "complex",
+      "query": "??? ????? ?? ???? ???? ???? ?? ?? ??",
+      "ok": true,
+      "elapsed_sec": 12.093,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Forza Horizon 5",
+        "Cry of Fear",
+        "ASTRONEER"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 1636.93,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 136.63,
+        "retrieval_rank_ms": 262.2,
+        "llm_postprocess_ms": 10180.96,
+        "total_ms": 12092.58
+      }
+    },
+    {
+      "idx": 26,
+      "category": "complex",
+      "query": "?? ?? ?? ?? ??? ???? ?? ?? RPG ??",
+      "ok": true,
+      "elapsed_sec": 5.919,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Tabletop Simulator",
+        "용과 같이0  맹세의 장소",
+        "Core Keeper"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 1808.19,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 156.51,
+        "retrieval_rank_ms": 332.51,
+        "llm_postprocess_ms": 3773.26,
+        "total_ms": 5918.42
+      }
+    },
+    {
+      "idx": 27,
+      "category": "complex",
+      "query": "????? ??? ??? ?? ?? ?? ? ? ???? ???? ? ??",
+      "ok": true,
+      "elapsed_sec": 11.881,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Forza Horizon 5",
+        "Cry of Fear",
+        "ASTRONEER"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 2444.73,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 241.75,
+        "retrieval_rank_ms": 417.31,
+        "llm_postprocess_ms": 8999.66,
+        "total_ms": 11880.59
+      }
+    },
+    {
+      "idx": 28,
+      "category": "complex",
+      "query": "??? ??? ?? ??? ??? ???? ?? ??, ??? ??",
+      "ok": true,
+      "elapsed_sec": 7.291,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "용과 같이0  맹세의 장소",
+        "For The King",
+        "MiSide"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 1866.91,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 209.97,
+        "retrieval_rank_ms": 433.21,
+        "llm_postprocess_ms": 4967.35,
+        "total_ms": 7290.86
+      }
+    },
+    {
+      "idx": 29,
+      "category": "complex",
+      "query": "?? ????? ? ???/??? ??? ? ?? ????",
+      "ok": true,
+      "elapsed_sec": 10.772,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Forza Horizon 5",
+        "Cry of Fear",
+        "ASTRONEER"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 1871.09,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 211.87,
+        "retrieval_rank_ms": 383.23,
+        "llm_postprocess_ms": 8496.33,
+        "total_ms": 10771.4
+      }
+    },
+    {
+      "idx": 30,
+      "category": "complex",
+      "query": "?? ????? ??? ???? ?? ?? ?? ??",
+      "ok": true,
+      "elapsed_sec": 30.575,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Forza Horizon 5",
+        "Cry of Fear",
+        "ASTRONEER"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 1863.27,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 283.6,
+        "retrieval_rank_ms": 470.22,
+        "llm_postprocess_ms": 28218.26,
+        "total_ms": 30574.57
+      }
+    },
+    {
+      "idx": 31,
+      "category": "complex",
+      "query": "??? ???? ??? ?? ???? ?? ?? ??",
+      "ok": true,
+      "elapsed_sec": 10.142,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Forza Horizon 5",
+        "Cry of Fear",
+        "ASTRONEER"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 1734.87,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 255.9,
+        "retrieval_rank_ms": 442.63,
+        "llm_postprocess_ms": 7943.22,
+        "total_ms": 10141.3
+      }
+    },
+    {
+      "idx": 32,
+      "category": "complex",
+      "query": "??? ?? ??? FPS ? ?? ?? ?? ???? ?? ?? ??",
+      "ok": true,
+      "elapsed_sec": 6.477,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Half-Life",
+        "Counter-Strike",
+        "Half-Life 2: Deathmatch"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 2174.13,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 269.43,
+        "retrieval_rank_ms": 410.51,
+        "llm_postprocess_ms": 3882.33,
+        "total_ms": 6476.48
+      }
+    },
+    {
+      "idx": 33,
+      "category": "complex",
+      "query": "???? ???? ?? ??? ????? ???? RPG ??",
+      "ok": true,
+      "elapsed_sec": 6.02,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "용과 같이0  맹세의 장소",
+        "Tabletop Simulator",
+        "For The King"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 1789.13,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 264.17,
+        "retrieval_rank_ms": 388.01,
+        "llm_postprocess_ms": 3836.39,
+        "total_ms": 6019.38
+      }
+    },
+    {
+      "idx": 34,
+      "category": "complex",
+      "query": "????? ??? ??? ???? ?? ??? ? ?? ??",
+      "ok": true,
+      "elapsed_sec": 13.933,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Forza Horizon 5",
+        "Cry of Fear",
+        "ASTRONEER"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 2018.48,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 275.54,
+        "retrieval_rank_ms": 468.19,
+        "llm_postprocess_ms": 11425.34,
+        "total_ms": 13932.77
+      }
+    },
+    {
+      "idx": 35,
+      "category": "complex",
+      "query": "??/?? ?? ???? ?? ? ?? ???? ?? ?? ??",
+      "ok": true,
+      "elapsed_sec": 13.348,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Forza Horizon 5",
+        "Cry of Fear",
+        "ASTRONEER"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 2096.84,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 239.5,
+        "retrieval_rank_ms": 419.4,
+        "llm_postprocess_ms": 10810.07,
+        "total_ms": 13347.45
+      }
+    },
+    {
+      "idx": 36,
+      "category": "complex",
+      "query": "??? ?? ?? UI ???? ?? ?? ?? ??",
+      "ok": true,
+      "elapsed_sec": 6.746,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "KuloNiku: Bowl Up!",
+        "My Little Someone",
+        "Chessman Adventures Demo"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 2126.58,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 275.93,
+        "retrieval_rank_ms": 575.95,
+        "llm_postprocess_ms": 4016.08,
+        "total_ms": 6745.68
+      }
+    },
+    {
+      "idx": 37,
+      "category": "complex",
+      "query": "?????? ??? ???? ?? ??? ?? ???? ?? ??",
+      "ok": true,
+      "elapsed_sec": 12.708,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Forza Horizon 5",
+        "Cry of Fear",
+        "ASTRONEER"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 2728.26,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 285.34,
+        "retrieval_rank_ms": 472.41,
+        "llm_postprocess_ms": 9484.93,
+        "total_ms": 12707.46
+      }
+    },
+    {
+      "idx": 38,
+      "category": "complex",
+      "query": "?? ???? ???? ???? ?? ? ?? ?? ?? ??",
+      "ok": true,
+      "elapsed_sec": 12.002,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Forza Horizon 5",
+        "Cry of Fear",
+        "ASTRONEER"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 1770.72,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 274.54,
+        "retrieval_rank_ms": 465.81,
+        "llm_postprocess_ms": 9744.88,
+        "total_ms": 12002.02
+      }
+    },
+    {
+      "idx": 39,
+      "category": "complex",
+      "query": "????? ?? ??, ??? ?? ??? ??? ?? ??",
+      "ok": true,
+      "elapsed_sec": 6.395,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "용과 같이0  맹세의 장소",
+        "For The King",
+        "MiSide"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 2081.62,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 177.58,
+        "retrieval_rank_ms": 359.49,
+        "llm_postprocess_ms": 3931.83,
+        "total_ms": 6394.68
+      }
+    },
+    {
+      "idx": 40,
+      "category": "complex",
+      "query": "?? ?? ?? ??? ????? ??? ???? ?? ??",
+      "ok": true,
+      "elapsed_sec": 10.229,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Forza Horizon 5",
+        "Cry of Fear",
+        "ASTRONEER"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 1945.35,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 240.06,
+        "retrieval_rank_ms": 425.58,
+        "llm_postprocess_ms": 7836.92,
+        "total_ms": 10228.26
+      }
+    },
+    {
+      "idx": 41,
+      "category": "similar",
+      "query": "??? ?? ?? ??",
+      "ok": true,
+      "elapsed_sec": 5.679,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Totally Accurate Battle Simulator",
+        "우리는 여기에 있었다",
+        "ROUNDS"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 2166.22,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 183.44,
+        "retrieval_rank_ms": 375.01,
+        "llm_postprocess_ms": 3113.32,
+        "total_ms": 5678.86
+      }
+    },
+    {
+      "idx": 42,
+      "category": "similar",
+      "query": "???? ?? ?? ??",
+      "ok": true,
+      "elapsed_sec": 5.749,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Totally Accurate Battle Simulator",
+        "우리는 여기에 있었다",
+        "ROUNDS"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 1873.36,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 250.07,
+        "retrieval_rank_ms": 442.35,
+        "llm_postprocess_ms": 3409.63,
+        "total_ms": 5748.44
+      }
+    },
+    {
+      "idx": 43,
+      "category": "similar",
+      "query": "????? ?? ?? ??",
+      "ok": true,
+      "elapsed_sec": 6.96,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "ROUNDS",
+        "PowerWash Simulator",
+        "The Forest"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 1775.73,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 235.81,
+        "retrieval_rank_ms": 428.93,
+        "llm_postprocess_ms": 4738.6,
+        "total_ms": 6959.73
+      }
+    },
+    {
+      "idx": 44,
+      "category": "similar",
+      "query": "????? 2077 ?? ?? ??",
+      "ok": true,
+      "elapsed_sec": 15.386,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Cyberpunk 2077",
+        "The Witcher 3: Wild Hunt",
+        "Fallout 4"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 3327.89,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 230.97,
+        "retrieval_rank_ms": 889.73,
+        "llm_postprocess_ms": 11156.33,
+        "total_ms": 15384.72
+      }
+    },
+    {
+      "idx": 45,
+      "category": "similar",
+      "query": "??? ?? ?? ??",
+      "ok": true,
+      "elapsed_sec": 7.563,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Totally Accurate Battle Simulator",
+        "우리는 여기에 있었다",
+        "ROUNDS"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 3801.39,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 240.21,
+        "retrieval_rank_ms": 444.92,
+        "llm_postprocess_ms": 3295.39,
+        "total_ms": 7561.92
+      }
+    },
+    {
+      "idx": 46,
+      "category": "similar",
+      "query": "?? ?? ??? 2 ?? ?? ??",
+      "ok": true,
+      "elapsed_sec": 7.551,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Human Fall Flat",
+        "PUBG: BATTLEGROUNDS",
+        "Stumble Guys"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 2526.64,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 235.32,
+        "retrieval_rank_ms": 409.88,
+        "llm_postprocess_ms": 4610.13,
+        "total_ms": 7550.7
+      }
+    },
+    {
+      "idx": 47,
+      "category": "similar",
+      "query": "??6 ?? ?? ??",
+      "ok": true,
+      "elapsed_sec": 14.487,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "데이브 더 다이버",
+        "Restore Your Island",
+        "Machine Child"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 2179.23,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 279.42,
+        "retrieval_rank_ms": 577.99,
+        "llm_postprocess_ms": 11710.85,
+        "total_ms": 14486.39
+      }
+    },
+    {
+      "idx": 48,
+      "category": "similar",
+      "query": "????3 ?? ?? ??",
+      "ok": true,
+      "elapsed_sec": 14.233,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Brawlhalla",
+        "Wordy Online - Classic Word Games",
+        "Warhammer 40,000: Rogue Trader"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 2168.9,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 235.24,
+        "retrieval_rank_ms": 520.64,
+        "llm_postprocess_ms": 11522.11,
+        "total_ms": 14232.16
+      }
+    },
+    {
+      "idx": 49,
+      "category": "similar",
+      "query": "?? ?? ?? ?? ??",
+      "ok": true,
+      "elapsed_sec": 5.682,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Totally Accurate Battle Simulator",
+        "우리는 여기에 있었다",
+        "ROUNDS"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 1817.84,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 182.72,
+        "retrieval_rank_ms": 369.2,
+        "llm_postprocess_ms": 3471.35,
+        "total_ms": 5681.66
+      }
+    },
+    {
+      "idx": 50,
+      "category": "similar",
+      "query": "??? ?? ?? ??",
+      "ok": true,
+      "elapsed_sec": 8.04,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Gunfire Reborn",
+        "용과 같이0  맹세의 장소",
+        "Forza Horizon 5"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 2867.82,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 193.16,
+        "retrieval_rank_ms": 406.51,
+        "llm_postprocess_ms": 4740.26,
+        "total_ms": 8039.17
+      }
+    },
+    {
+      "idx": 51,
+      "category": "similar",
+      "query": "???? ?? ?? ??",
+      "ok": true,
+      "elapsed_sec": 7.847,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Totally Accurate Battle Simulator",
+        "우리는 여기에 있었다",
+        "ROUNDS"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 3551.87,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 175.06,
+        "retrieval_rank_ms": 343.68,
+        "llm_postprocess_ms": 3934.1,
+        "total_ms": 7846.43
+      }
+    },
+    {
+      "idx": 52,
+      "category": "similar",
+      "query": "??? ?? ?? ??",
+      "ok": true,
+      "elapsed_sec": 5.959,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Totally Accurate Battle Simulator",
+        "우리는 여기에 있었다",
+        "ROUNDS"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 1678.61,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 240.69,
+        "retrieval_rank_ms": 430.61,
+        "llm_postprocess_ms": 3823.9,
+        "total_ms": 5958.32
+      }
+    },
+    {
+      "idx": 53,
+      "category": "similar",
+      "query": "?????? ?? ?? ?? ??",
+      "ok": true,
+      "elapsed_sec": 6.157,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Totally Accurate Battle Simulator",
+        "PUBG: BATTLEGROUNDS",
+        "Forza Horizon 4"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 1409.14,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 254.15,
+        "retrieval_rank_ms": 427.5,
+        "llm_postprocess_ms": 4291.98,
+        "total_ms": 6156.11
+      }
+    },
+    {
+      "idx": 54,
+      "category": "similar",
+      "query": "??? ?? ?? ??",
+      "ok": true,
+      "elapsed_sec": 6.138,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Gunfire Reborn",
+        "용과 같이0  맹세의 장소",
+        "Forza Horizon 5"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 1790.62,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 259.45,
+        "retrieval_rank_ms": 470.14,
+        "llm_postprocess_ms": 3855.27,
+        "total_ms": 6137.59
+      }
+    },
+    {
+      "idx": 55,
+      "category": "similar",
+      "query": "??? ?? ?? ??",
+      "ok": true,
+      "elapsed_sec": 6.188,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Totally Accurate Battle Simulator",
+        "우리는 여기에 있었다",
+        "ROUNDS"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 2352.33,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 182.31,
+        "retrieval_rank_ms": 367.06,
+        "llm_postprocess_ms": 3446.37,
+        "total_ms": 6187.52
+      }
+    },
+    {
+      "idx": 56,
+      "category": "similar",
+      "query": "??3 ?? ?? ??",
+      "ok": true,
+      "elapsed_sec": 11.88,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Brawlhalla",
+        "Wordy Online - Classic Word Games",
+        "Warhammer 40,000: Rogue Trader"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 1814.83,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 180.38,
+        "retrieval_rank_ms": 313.21,
+        "llm_postprocess_ms": 9741.67,
+        "total_ms": 11879.58
+      }
+    },
+    {
+      "idx": 57,
+      "category": "similar",
+      "query": "GTA5 ?? ?? ??",
+      "ok": true,
+      "elapsed_sec": 9.658,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Cyberpunk 2077",
+        "The Witcher 3: Wild Hunt",
+        "Fallout 4"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 3365.6,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 214.86,
+        "retrieval_rank_ms": 660.35,
+        "llm_postprocess_ms": 5618.8,
+        "total_ms": 9656.97
+      }
+    },
+    {
+      "idx": 58,
+      "category": "similar",
+      "query": "???? ???? ?? ?? ??",
+      "ok": true,
+      "elapsed_sec": 4.87,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Totally Accurate Battle Simulator",
+        "우리는 여기에 있었다",
+        "ROUNDS"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 1325.86,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 259.36,
+        "retrieval_rank_ms": 453.3,
+        "llm_postprocess_ms": 3066.93,
+        "total_ms": 4868.98
+      }
+    },
+    {
+      "idx": 59,
+      "category": "similar",
+      "query": "????? ?? ?? ??",
+      "ok": true,
+      "elapsed_sec": 8.43,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Totally Accurate Battle Simulator",
+        "PUBG: BATTLEGROUNDS",
+        "Forza Horizon 4"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 1128.49,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 242.82,
+        "retrieval_rank_ms": 423.21,
+        "llm_postprocess_ms": 6855.02,
+        "total_ms": 8429.67
+      }
+    },
+    {
+      "idx": 60,
+      "category": "similar",
+      "query": "??????? ?? ?? ??",
+      "ok": true,
+      "elapsed_sec": 5.843,
+      "mode": "query",
+      "result_count": 5,
+      "top3": [
+        "Gunfire Reborn",
+        "용과 같이0  맹세의 장소",
+        "Forza Horizon 5"
+      ],
+      "llm_error_count": 0,
+      "issue_flags": [],
+      "perf": {
+        "parse_ms": 1656.67,
+        "model_load_ms": 0.0,
+        "chroma_query_ms": 289.27,
+        "retrieval_rank_ms": 502.41,
+        "llm_postprocess_ms": 3658.77,
+        "total_ms": 5842.37
+      }
+    }
+  ]
+}

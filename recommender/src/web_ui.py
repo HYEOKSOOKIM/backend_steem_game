@@ -88,7 +88,8 @@ def _prepare_result_payload(result: dict, query: str, top_k: int) -> dict:
             {
                 "app_id": app_id,
                 "name": str(item.get("name") or "Unknown"),
-                "display_name": translate_en_to_ko(str(item.get("name") or "Unknown")),
+                # Keep titles stable; only evidence text should be localized.
+                "display_name": str(item.get("display_name") or item.get("name") or "Unknown"),
                 "genres": [str(g) for g in (item.get("genres") or [])],
                 "genres_ko": [genre_to_ko(str(g)) for g in (item.get("genres") or [])],
                 "categories": _normalize_categories(item.get("genres", []) or [], evidence),
