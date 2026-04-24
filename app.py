@@ -6,6 +6,10 @@ import logging
 import os
 import time
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 try:
     from fastapi import FastAPI
     from fastapi.middleware.cors import CORSMiddleware
