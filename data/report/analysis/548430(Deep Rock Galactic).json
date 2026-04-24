@@ -8,10 +8,10 @@
   ],
   "issue_signals": {
     "balance": {
-      "mention_count": 67,
-      "negative_ratio": 0.05970149253731343,
+      "mention_count": 68,
+      "negative_ratio": 0.058823529411764705,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9701492537313433,
+      "experienced_player_share": 0.9705882352941176,
       "themes": [
         "밸런스 불만"
       ],
@@ -50,18 +50,18 @@
       ]
     },
     "content_depth": {
-      "mention_count": 308,
-      "negative_ratio": 0.05844155844155844,
+      "mention_count": 309,
+      "negative_ratio": 0.05825242718446602,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9707792207792207,
+      "experienced_player_share": 0.970873786407767,
       "themes": [
         "콘텐츠 부족",
         "반복 / 목적성 부족",
         "중독성 / 시간순삭"
       ],
       "sample_reviews": [
-        "진짜? 안할거라고? 후회는 안하지만 갓겜 손해는 본다.\n개발사가 워낙 진득하게 붙잡고 손대줘서 고맙지만, 유일한 단점은 업데이트 주기가 반년에 한번이라는 거임...",
-        "재미있습니다.\r\n근데 질려요.\r\n게임이 변수가 적어서 계속 똑같은 걸 반복하는 느낌이 강합니다.\r\n할인 때 친구들과 같이 하면 재밌을 겁니다."
+        "자유도가 어느정도 있는데 목표도 있고 컨텐츠도 생각보다 잘 짜여있고\n직업 활용이나 업그레이드 방면에서 재미를 찾기 쉬웠음\n\n근데 별 하나만 달아도 생각보다 반복이 너무 많고 효율만 추구하게 되면서 하기 흥미가 확 떨어져버림",
+        "진짜? 안할거라고? 후회는 안하지만 갓겜 손해는 본다.\n개발사가 워낙 진득하게 붙잡고 손대줘서 고맙지만, 유일한 단점은 업데이트 주기가 반년에 한번이라는 거임..."
       ]
     },
     "controls": {
@@ -110,18 +110,18 @@
       ]
     },
     "gameplay": {
-      "mention_count": 181,
-      "negative_ratio": 0.055248618784530384,
+      "mention_count": 183,
+      "negative_ratio": 0.0546448087431694,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9558011049723757,
+      "experienced_player_share": 0.9562841530054644,
       "themes": [
         "빌드 / 무기 다양성",
         "전투 손맛 / 액션 호평",
         "탐험 / 월드 경험"
       ],
       "sample_reviews": [
-        "혼자하면 곰보겜, 둘이하면 탐험겜, 넷이하면 떡닢마을 방범대 체험기\r\n 4게의 클래스가 각자 할일을 해야 게임이 순조롭게 풀려나가는데 랜쿼드는 생각보다 괜찮음.\r\n오히려 친구들학소 하면 트롤짓 하는놈때매 재밋음\r\n",
-        "이런사람에게 추천\n협동 / 역할 분담 / 보물찾기 / 초반 보물탐색은 느리지만 중반부 전투와 후반부 탈출 좋아하는사람\n스킬 및 장비 구입을 좋아하는사람\n\n이런사람에게 비추천\n스피드한 게임에 킬링플로우 처럼 전투를 통해서 경험치 먹는거 좋아하는사람\n느린 게임 싫어하는사람 / 불친절하고 맵에서 즉각적으로 위치 파악 되는거 좋아하고 안되면 싫어하는사람\n\n비추천은 참고로 저기서 2개만이라도 해당되면 안하는거 추천 오래되서 환불도 못하네 ㅋㅋㅋ"
+        "자유도가 어느정도 있는데 목표도 있고 컨텐츠도 생각보다 잘 짜여있고\n직업 활용이나 업그레이드 방면에서 재미를 찾기 쉬웠음\n\n근데 별 하나만 달아도 생각보다 반복이 너무 많고 효율만 추구하게 되면서 하기 흥미가 확 떨어져버림",
+        "혼자하면 곰보겜, 둘이하면 탐험겜, 넷이하면 떡닢마을 방범대 체험기\r\n 4게의 클래스가 각자 할일을 해야 게임이 순조롭게 풀려나가는데 랜쿼드는 생각보다 괜찮음.\r\n오히려 친구들학소 하면 트롤짓 하는놈때매 재밋음\r\n"
       ]
     },
     "graphics": {
@@ -178,18 +178,18 @@
       ]
     },
     "multiplayer": {
-      "mention_count": 673,
-      "negative_ratio": 0.041604754829123326,
+      "mention_count": 675,
+      "negative_ratio": 0.04148148148148148,
       "recent_trend": "down",
-      "experienced_player_share": 0.9598811292719168,
+      "experienced_player_share": 0.96,
       "themes": [
         "멀티플레이 경험",
         "매칭 / 서버 문제",
         "부정행위 / 보안 이슈"
       ],
       "sample_reviews": [
-        "아직 더 해봐야 겠지만, 수다쟁이 드워프 만나면 재밌음\n난 친구가 없어서 혼자했지만,  취향 맞는 친구와 함께하면 2배로 재밌음 개추",
-        "광산에 제 친구들이 정말 많네요 ㅎㅎ 곡괭이로 제 친구 때리면 광석 많이 주더라고요 ㅎㅎ"
+        "Rock and stone!!\n친구들이랑 하기 좋았음",
+        "롹앤씈똔@@!!\nㅈㄹ 재밌음. 서버에 사람 많아서 바로바로 게임 잡힘. 어글리 차이니즈 없음. 게임성 ㅈㄴ 좋음.\n걍 하세용☆☆"
       ]
     },
     "performance": {
@@ -241,5 +241,41 @@
     "recent_change": "최근 기간에는 특정 카테고리의 급격한 변화보다 전반적인 유지 신호가 보입니다.",
     "fit_for": "초반 진입 장벽이나 조작 적응 여부를 중요하게 보는 플레이어는 사전 확인이 필요합니다.",
     "risks": "multiplayer 관련 이슈는 반복적으로 언급되지만 최근 급격한 악화 신호는 제한적입니다."
+  },
+  "pipeline_run_id": "548430-20260424T071816Z",
+  "generated_at": "2026-04-24T07:20:34.379268+00:00",
+  "source_review_count": 3432,
+  "review_pages": "all",
+  "fetched_pages": 36,
+  "fetched_review_count": 3432,
+  "fetch_timeout_seconds": 20,
+  "fetch_filter": "recent",
+  "all_mode_page_cap": 200,
+  "all_mode_cap_reached": false,
+  "llm_stats": {
+    "considered": 2286,
+    "selected": 50,
+    "invoked": 50,
+    "success": 50,
+    "schema_invalid": 0,
+    "low_confidence": 0,
+    "cache_hits": 0,
+    "fallback_used": 0
+  },
+  "report_material_refiner": {
+    "enabled": true,
+    "max_llm_reviews": 50,
+    "llm_min_confidence": 0.7,
+    "material_count": 50,
+    "stats": {
+      "considered": 2286,
+      "selected": 50,
+      "invoked": 50,
+      "success": 50,
+      "schema_invalid": 0,
+      "low_confidence": 0,
+      "cache_hits": 0,
+      "fallback_used": 0
+    }
   }
 }

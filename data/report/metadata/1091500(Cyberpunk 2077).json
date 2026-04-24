@@ -7,6 +7,16 @@
   "price_model": "paid",
   "release_stage": "released",
   "release_date_text": "2020년 12월 9일",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/26b96fa9c8af43189cbecbbc329ade29d9c9cf3e/header_koreana.jpg?t=1769690377",
+  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/b1b2dce17e7d3adabcfa0cbb6cbda8cf861badc3/capsule_231x87_koreana.jpg?t=1769690377",
+  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/b1b2dce17e7d3adabcfa0cbb6cbda8cf861badc3/capsule_184x69_koreana.jpg?t=1769690377",
+  "short_description": "사이버펑크 2077은 권력과 돈, 끝없는 신체 개조에 집착하는 어두운 미래의 위험천만한 메갈로폴리스, '나이트 시티'를 배경으로 한 오픈 월드 액션 어드벤처 RPG입니다.",
+  "steam_store_url": "https://store.steampowered.com/app/1091500",
+  "steam_recommendation_count": 844326,
+  "steam_review_score_desc": "Mostly Positive",
+  "steam_total_positive": 18927,
+  "steam_total_negative": 5590,
+  "steam_total_reviews": 24517,
   "is_free": false,
   "coming_soon": false
 }

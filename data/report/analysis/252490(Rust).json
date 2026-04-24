@@ -8,10 +8,10 @@
   ],
   "issue_signals": {
     "balance": {
-      "mention_count": 39,
-      "negative_ratio": 0.4358974358974359,
+      "mention_count": 47,
+      "negative_ratio": 0.44680851063829785,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9487179487179487,
+      "experienced_player_share": 0.9361702127659575,
       "themes": [
         "밸런스 불만"
       ],
@@ -21,10 +21,10 @@
       ]
     },
     "bugs": {
-      "mention_count": 179,
-      "negative_ratio": 0.6256983240223464,
+      "mention_count": 237,
+      "negative_ratio": 0.5949367088607594,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9385474860335196,
+      "experienced_player_share": 0.9324894514767933,
       "themes": [
         "계정 / 제재 이슈",
         "일반 버그",
@@ -36,8 +36,8 @@
       ]
     },
     "building_ux": {
-      "mention_count": 48,
-      "negative_ratio": 0.22916666666666666,
+      "mention_count": 63,
+      "negative_ratio": 0.23809523809523808,
       "recent_trend": "flat",
       "experienced_player_share": 1.0,
       "themes": [
@@ -50,10 +50,10 @@
       ]
     },
     "content_depth": {
-      "mention_count": 432,
-      "negative_ratio": 0.22453703703703703,
+      "mention_count": 539,
+      "negative_ratio": 0.23562152133580705,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9768518518518519,
+      "experienced_player_share": 0.9758812615955473,
       "themes": [
         "반복 / 목적성 부족",
         "콘텐츠 부족",
@@ -65,10 +65,10 @@
       ]
     },
     "controls": {
-      "mention_count": 29,
-      "negative_ratio": 0.41379310344827586,
+      "mention_count": 37,
+      "negative_ratio": 0.43243243243243246,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9655172413793104,
+      "experienced_player_share": 0.9459459459459459,
       "themes": [
         "조작감 문제",
         "UI / 입력 불편"
@@ -79,10 +79,10 @@
       ]
     },
     "customization": {
-      "mention_count": 40,
-      "negative_ratio": 0.35,
+      "mention_count": 43,
+      "negative_ratio": 0.37209302325581395,
       "recent_trend": "flat",
-      "experienced_player_share": 0.95,
+      "experienced_player_share": 0.9534883720930233,
       "themes": [
         "스킨 / 외형 요소",
         "헤어 / 의상 옵션 부족",
@@ -94,10 +94,10 @@
       ]
     },
     "difficulty": {
-      "mention_count": 153,
-      "negative_ratio": 0.3202614379084967,
+      "mention_count": 182,
+      "negative_ratio": 0.3241758241758242,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9281045751633987,
+      "experienced_player_share": 0.9230769230769231,
       "themes": [
         "난이도 / 진입장벽",
         "조작 / 규칙 학습 난이도",
@@ -109,10 +109,10 @@
       ]
     },
     "gameplay": {
-      "mention_count": 159,
-      "negative_ratio": 0.18238993710691823,
+      "mention_count": 193,
+      "negative_ratio": 0.18652849740932642,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9874213836477987,
+      "experienced_player_share": 0.9844559585492227,
       "themes": [
         "빌드 / 무기 다양성",
         "전투 손맛 / 액션 호평",
@@ -124,10 +124,10 @@
       ]
     },
     "graphics": {
-      "mention_count": 61,
-      "negative_ratio": 0.22950819672131148,
+      "mention_count": 78,
+      "negative_ratio": 0.24358974358974358,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9508196721311475,
+      "experienced_player_share": 0.9230769230769231,
       "themes": [
         "그래픽 / 비주얼 호평"
       ],
@@ -137,10 +137,10 @@
       ]
     },
     "localization": {
-      "mention_count": 12,
-      "negative_ratio": 0.3333333333333333,
+      "mention_count": 15,
+      "negative_ratio": 0.4666666666666667,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9166666666666666,
+      "experienced_player_share": 0.9333333333333333,
       "themes": [
         "번역 / 현지화 이슈"
       ],
@@ -150,10 +150,10 @@
       ]
     },
     "mod_support": {
-      "mention_count": 82,
-      "negative_ratio": 0.2926829268292683,
+      "mention_count": 104,
+      "negative_ratio": 0.2692307692307692,
       "recent_trend": "flat",
-      "experienced_player_share": 1.0,
+      "experienced_player_share": 0.9807692307692307,
       "themes": [
         "모드 지원 / 호환 문제"
       ],
@@ -163,10 +163,10 @@
       ]
     },
     "monetization": {
-      "mention_count": 196,
-      "negative_ratio": 0.4744897959183674,
+      "mention_count": 218,
+      "negative_ratio": 0.46788990825688076,
       "recent_trend": "flat",
-      "experienced_player_share": 0.8571428571428571,
+      "experienced_player_share": 0.8486238532110092,
       "themes": [
         "가격 / 과금 불만",
         "DLC / 확장팩 언급"
@@ -177,10 +177,10 @@
       ]
     },
     "multiplayer": {
-      "mention_count": 1147,
-      "negative_ratio": 0.33565823888404533,
+      "mention_count": 1415,
+      "negative_ratio": 0.34063604240282686,
       "recent_trend": "flat",
-      "experienced_player_share": 0.955536181342633,
+      "experienced_player_share": 0.9540636042402827,
       "themes": [
         "매칭 / 서버 문제",
         "부정행위 / 보안 이슈",
@@ -192,10 +192,10 @@
       ]
     },
     "performance": {
-      "mention_count": 266,
-      "negative_ratio": 0.518796992481203,
+      "mention_count": 327,
+      "negative_ratio": 0.5045871559633027,
       "recent_trend": "flat",
-      "experienced_player_share": 0.868421052631579,
+      "experienced_player_share": 0.8746177370030581,
       "themes": [
         "최적화 문제",
         "로딩 / 발열 문제",
@@ -207,10 +207,10 @@
       ]
     },
     "save_progression": {
-      "mention_count": 40,
-      "negative_ratio": 0.375,
+      "mention_count": 47,
+      "negative_ratio": 0.40425531914893614,
       "recent_trend": "flat",
-      "experienced_player_share": 0.975,
+      "experienced_player_share": 0.9574468085106383,
       "themes": [
         "저장 / 세이브 손실"
       ],
@@ -220,10 +220,10 @@
       ]
     },
     "story": {
-      "mention_count": 93,
-      "negative_ratio": 0.3118279569892473,
+      "mention_count": 110,
+      "negative_ratio": 0.3,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9032258064516129,
+      "experienced_player_share": 0.9181818181818182,
       "themes": [
         "스토리 / 서사 몰입",
         "캐릭터 / 연출 인상"
@@ -240,5 +240,41 @@
     "recent_change": "최근 기간에는 특정 카테고리의 급격한 변화보다 전반적인 유지 신호가 보입니다.",
     "fit_for": "초반 진입 장벽이나 조작 적응 여부를 중요하게 보는 플레이어는 사전 확인이 필요합니다.",
     "risks": "multiplayer 관련 이슈는 반복적으로 언급되지만 최근 급격한 악화 신호는 제한적입니다."
+  },
+  "pipeline_run_id": "252490-20260424T071815Z",
+  "generated_at": "2026-04-24T07:21:09.970502+00:00",
+  "source_review_count": 9306,
+  "review_pages": "all",
+  "fetched_pages": 95,
+  "fetched_review_count": 9306,
+  "fetch_timeout_seconds": 20,
+  "fetch_filter": "recent",
+  "all_mode_page_cap": 200,
+  "all_mode_cap_reached": false,
+  "llm_stats": {
+    "considered": 5607,
+    "selected": 50,
+    "invoked": 50,
+    "success": 50,
+    "schema_invalid": 0,
+    "low_confidence": 0,
+    "cache_hits": 0,
+    "fallback_used": 0
+  },
+  "report_material_refiner": {
+    "enabled": true,
+    "max_llm_reviews": 50,
+    "llm_min_confidence": 0.7,
+    "material_count": 50,
+    "stats": {
+      "considered": 5607,
+      "selected": 50,
+      "invoked": 50,
+      "success": 50,
+      "schema_invalid": 0,
+      "low_confidence": 0,
+      "cache_hits": 0,
+      "fallback_used": 0
+    }
   }
 }

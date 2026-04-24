@@ -1,10 +1,912 @@
 {
   "report_version": "v4-planned-sections",
   "appid": 252490,
-  "pipeline_run_id": "252490-snapshot-regen",
-  "generated_at": "2026-04-16T05:28:19.720991+00:00",
-  "source_review_count": 8000,
-  "included_review_count": 4789,
+  "pipeline_run_id": "252490-20260424T071815Z",
+  "generated_at": "2026-04-24T07:22:36.429761+00:00",
+  "source_review_count": 9306,
+  "included_review_count": 5607,
+  "min_report_review_count": 100,
+  "report_state": "ready",
+  "review_trend": {
+    "granularity": "month",
+    "metric": "positive_ratio",
+    "points": [
+      {
+        "month": "2013-12",
+        "positive_count": 86,
+        "review_count": 101,
+        "positive_ratio": 0.8515
+      },
+      {
+        "month": "2014-01",
+        "positive_count": 148,
+        "review_count": 184,
+        "positive_ratio": 0.8043
+      },
+      {
+        "month": "2014-02",
+        "positive_count": 121,
+        "review_count": 148,
+        "positive_ratio": 0.8176
+      },
+      {
+        "month": "2014-03",
+        "positive_count": 43,
+        "review_count": 65,
+        "positive_ratio": 0.6615
+      },
+      {
+        "month": "2014-04",
+        "positive_count": 28,
+        "review_count": 37,
+        "positive_ratio": 0.7568
+      },
+      {
+        "month": "2014-05",
+        "positive_count": 36,
+        "review_count": 46,
+        "positive_ratio": 0.7826
+      },
+      {
+        "month": "2014-06",
+        "positive_count": 38,
+        "review_count": 49,
+        "positive_ratio": 0.7755
+      },
+      {
+        "month": "2014-07",
+        "positive_count": 36,
+        "review_count": 47,
+        "positive_ratio": 0.766
+      },
+      {
+        "month": "2014-08",
+        "positive_count": 28,
+        "review_count": 37,
+        "positive_ratio": 0.7568
+      },
+      {
+        "month": "2014-09",
+        "positive_count": 16,
+        "review_count": 22,
+        "positive_ratio": 0.7273
+      },
+      {
+        "month": "2014-10",
+        "positive_count": 24,
+        "review_count": 37,
+        "positive_ratio": 0.6486
+      },
+      {
+        "month": "2014-11",
+        "positive_count": 19,
+        "review_count": 34,
+        "positive_ratio": 0.5588
+      },
+      {
+        "month": "2014-12",
+        "positive_count": 20,
+        "review_count": 28,
+        "positive_ratio": 0.7143
+      },
+      {
+        "month": "2015-01",
+        "positive_count": 29,
+        "review_count": 45,
+        "positive_ratio": 0.6444
+      },
+      {
+        "month": "2015-02",
+        "positive_count": 35,
+        "review_count": 50,
+        "positive_ratio": 0.7
+      },
+      {
+        "month": "2015-03",
+        "positive_count": 10,
+        "review_count": 18,
+        "positive_ratio": 0.5556
+      },
+      {
+        "month": "2015-04",
+        "positive_count": 6,
+        "review_count": 12,
+        "positive_ratio": 0.5
+      },
+      {
+        "month": "2015-05",
+        "positive_count": 34,
+        "review_count": 43,
+        "positive_ratio": 0.7907
+      },
+      {
+        "month": "2015-06",
+        "positive_count": 35,
+        "review_count": 50,
+        "positive_ratio": 0.7
+      },
+      {
+        "month": "2015-07",
+        "positive_count": 23,
+        "review_count": 32,
+        "positive_ratio": 0.7188
+      },
+      {
+        "month": "2015-08",
+        "positive_count": 20,
+        "review_count": 26,
+        "positive_ratio": 0.7692
+      },
+      {
+        "month": "2015-09",
+        "positive_count": 17,
+        "review_count": 21,
+        "positive_ratio": 0.8095
+      },
+      {
+        "month": "2015-10",
+        "positive_count": 23,
+        "review_count": 28,
+        "positive_ratio": 0.8214
+      },
+      {
+        "month": "2015-11",
+        "positive_count": 36,
+        "review_count": 57,
+        "positive_ratio": 0.6316
+      },
+      {
+        "month": "2015-12",
+        "positive_count": 95,
+        "review_count": 123,
+        "positive_ratio": 0.7724
+      },
+      {
+        "month": "2016-01",
+        "positive_count": 108,
+        "review_count": 129,
+        "positive_ratio": 0.8372
+      },
+      {
+        "month": "2016-02",
+        "positive_count": 87,
+        "review_count": 120,
+        "positive_ratio": 0.725
+      },
+      {
+        "month": "2016-03",
+        "positive_count": 50,
+        "review_count": 63,
+        "positive_ratio": 0.7937
+      },
+      {
+        "month": "2016-04",
+        "positive_count": 24,
+        "review_count": 32,
+        "positive_ratio": 0.75
+      },
+      {
+        "month": "2016-05",
+        "positive_count": 41,
+        "review_count": 49,
+        "positive_ratio": 0.8367
+      },
+      {
+        "month": "2016-06",
+        "positive_count": 23,
+        "review_count": 30,
+        "positive_ratio": 0.7667
+      },
+      {
+        "month": "2016-07",
+        "positive_count": 36,
+        "review_count": 50,
+        "positive_ratio": 0.72
+      },
+      {
+        "month": "2016-08",
+        "positive_count": 38,
+        "review_count": 55,
+        "positive_ratio": 0.6909
+      },
+      {
+        "month": "2016-09",
+        "positive_count": 36,
+        "review_count": 48,
+        "positive_ratio": 0.75
+      },
+      {
+        "month": "2016-10",
+        "positive_count": 39,
+        "review_count": 48,
+        "positive_ratio": 0.8125
+      },
+      {
+        "month": "2016-11",
+        "positive_count": 82,
+        "review_count": 94,
+        "positive_ratio": 0.8723
+      },
+      {
+        "month": "2016-12",
+        "positive_count": 72,
+        "review_count": 93,
+        "positive_ratio": 0.7742
+      },
+      {
+        "month": "2017-01",
+        "positive_count": 75,
+        "review_count": 99,
+        "positive_ratio": 0.7576
+      },
+      {
+        "month": "2017-02",
+        "positive_count": 85,
+        "review_count": 114,
+        "positive_ratio": 0.7456
+      },
+      {
+        "month": "2017-03",
+        "positive_count": 53,
+        "review_count": 67,
+        "positive_ratio": 0.791
+      },
+      {
+        "month": "2017-04",
+        "positive_count": 31,
+        "review_count": 40,
+        "positive_ratio": 0.775
+      },
+      {
+        "month": "2017-05",
+        "positive_count": 28,
+        "review_count": 42,
+        "positive_ratio": 0.6667
+      },
+      {
+        "month": "2017-06",
+        "positive_count": 43,
+        "review_count": 66,
+        "positive_ratio": 0.6515
+      },
+      {
+        "month": "2017-07",
+        "positive_count": 51,
+        "review_count": 75,
+        "positive_ratio": 0.68
+      },
+      {
+        "month": "2017-08",
+        "positive_count": 41,
+        "review_count": 57,
+        "positive_ratio": 0.7193
+      },
+      {
+        "month": "2017-09",
+        "positive_count": 31,
+        "review_count": 42,
+        "positive_ratio": 0.7381
+      },
+      {
+        "month": "2017-10",
+        "positive_count": 36,
+        "review_count": 51,
+        "positive_ratio": 0.7059
+      },
+      {
+        "month": "2017-11",
+        "positive_count": 69,
+        "review_count": 97,
+        "positive_ratio": 0.7113
+      },
+      {
+        "month": "2017-12",
+        "positive_count": 49,
+        "review_count": 73,
+        "positive_ratio": 0.6712
+      },
+      {
+        "month": "2018-01",
+        "positive_count": 57,
+        "review_count": 78,
+        "positive_ratio": 0.7308
+      },
+      {
+        "month": "2018-02",
+        "positive_count": 67,
+        "review_count": 95,
+        "positive_ratio": 0.7053
+      },
+      {
+        "month": "2018-03",
+        "positive_count": 18,
+        "review_count": 26,
+        "positive_ratio": 0.6923
+      },
+      {
+        "month": "2018-04",
+        "positive_count": 19,
+        "review_count": 30,
+        "positive_ratio": 0.6333
+      },
+      {
+        "month": "2018-05",
+        "positive_count": 23,
+        "review_count": 32,
+        "positive_ratio": 0.7188
+      },
+      {
+        "month": "2018-06",
+        "positive_count": 30,
+        "review_count": 39,
+        "positive_ratio": 0.7692
+      },
+      {
+        "month": "2018-07",
+        "positive_count": 34,
+        "review_count": 52,
+        "positive_ratio": 0.6538
+      },
+      {
+        "month": "2018-08",
+        "positive_count": 30,
+        "review_count": 35,
+        "positive_ratio": 0.8571
+      },
+      {
+        "month": "2018-09",
+        "positive_count": 30,
+        "review_count": 38,
+        "positive_ratio": 0.7895
+      },
+      {
+        "month": "2018-10",
+        "positive_count": 21,
+        "review_count": 34,
+        "positive_ratio": 0.6176
+      },
+      {
+        "month": "2018-11",
+        "positive_count": 83,
+        "review_count": 110,
+        "positive_ratio": 0.7545
+      },
+      {
+        "month": "2018-12",
+        "positive_count": 37,
+        "review_count": 58,
+        "positive_ratio": 0.6379
+      },
+      {
+        "month": "2019-01",
+        "positive_count": 31,
+        "review_count": 44,
+        "positive_ratio": 0.7045
+      },
+      {
+        "month": "2019-02",
+        "positive_count": 35,
+        "review_count": 58,
+        "positive_ratio": 0.6034
+      },
+      {
+        "month": "2019-03",
+        "positive_count": 16,
+        "review_count": 27,
+        "positive_ratio": 0.5926
+      },
+      {
+        "month": "2019-04",
+        "positive_count": 19,
+        "review_count": 28,
+        "positive_ratio": 0.6786
+      },
+      {
+        "month": "2019-05",
+        "positive_count": 14,
+        "review_count": 18,
+        "positive_ratio": 0.7778
+      },
+      {
+        "month": "2019-06",
+        "positive_count": 44,
+        "review_count": 57,
+        "positive_ratio": 0.7719
+      },
+      {
+        "month": "2019-07",
+        "positive_count": 102,
+        "review_count": 136,
+        "positive_ratio": 0.75
+      },
+      {
+        "month": "2019-08",
+        "positive_count": 39,
+        "review_count": 58,
+        "positive_ratio": 0.6724
+      },
+      {
+        "month": "2019-09",
+        "positive_count": 24,
+        "review_count": 33,
+        "positive_ratio": 0.7273
+      },
+      {
+        "month": "2019-10",
+        "positive_count": 33,
+        "review_count": 43,
+        "positive_ratio": 0.7674
+      },
+      {
+        "month": "2019-11",
+        "positive_count": 164,
+        "review_count": 193,
+        "positive_ratio": 0.8497
+      },
+      {
+        "month": "2019-12",
+        "positive_count": 139,
+        "review_count": 169,
+        "positive_ratio": 0.8225
+      },
+      {
+        "month": "2020-01",
+        "positive_count": 133,
+        "review_count": 164,
+        "positive_ratio": 0.811
+      },
+      {
+        "month": "2020-02",
+        "positive_count": 103,
+        "review_count": 122,
+        "positive_ratio": 0.8443
+      },
+      {
+        "month": "2020-03",
+        "positive_count": 112,
+        "review_count": 140,
+        "positive_ratio": 0.8
+      },
+      {
+        "month": "2020-04",
+        "positive_count": 64,
+        "review_count": 73,
+        "positive_ratio": 0.8767
+      },
+      {
+        "month": "2020-05",
+        "positive_count": 56,
+        "review_count": 72,
+        "positive_ratio": 0.7778
+      },
+      {
+        "month": "2020-06",
+        "positive_count": 56,
+        "review_count": 67,
+        "positive_ratio": 0.8358
+      },
+      {
+        "month": "2020-07",
+        "positive_count": 68,
+        "review_count": 88,
+        "positive_ratio": 0.7727
+      },
+      {
+        "month": "2020-08",
+        "positive_count": 65,
+        "review_count": 91,
+        "positive_ratio": 0.7143
+      },
+      {
+        "month": "2020-09",
+        "positive_count": 41,
+        "review_count": 50,
+        "positive_ratio": 0.82
+      },
+      {
+        "month": "2020-10",
+        "positive_count": 49,
+        "review_count": 60,
+        "positive_ratio": 0.8167
+      },
+      {
+        "month": "2020-11",
+        "positive_count": 75,
+        "review_count": 95,
+        "positive_ratio": 0.7895
+      },
+      {
+        "month": "2020-12",
+        "positive_count": 97,
+        "review_count": 123,
+        "positive_ratio": 0.7886
+      },
+      {
+        "month": "2021-01",
+        "positive_count": 102,
+        "review_count": 130,
+        "positive_ratio": 0.7846
+      },
+      {
+        "month": "2021-02",
+        "positive_count": 76,
+        "review_count": 90,
+        "positive_ratio": 0.8444
+      },
+      {
+        "month": "2021-03",
+        "positive_count": 55,
+        "review_count": 63,
+        "positive_ratio": 0.873
+      },
+      {
+        "month": "2021-04",
+        "positive_count": 33,
+        "review_count": 47,
+        "positive_ratio": 0.7021
+      },
+      {
+        "month": "2021-05",
+        "positive_count": 41,
+        "review_count": 49,
+        "positive_ratio": 0.8367
+      },
+      {
+        "month": "2021-06",
+        "positive_count": 46,
+        "review_count": 59,
+        "positive_ratio": 0.7797
+      },
+      {
+        "month": "2021-07",
+        "positive_count": 76,
+        "review_count": 93,
+        "positive_ratio": 0.8172
+      },
+      {
+        "month": "2021-08",
+        "positive_count": 57,
+        "review_count": 66,
+        "positive_ratio": 0.8636
+      },
+      {
+        "month": "2021-09",
+        "positive_count": 45,
+        "review_count": 65,
+        "positive_ratio": 0.6923
+      },
+      {
+        "month": "2021-10",
+        "positive_count": 43,
+        "review_count": 60,
+        "positive_ratio": 0.7167
+      },
+      {
+        "month": "2021-11",
+        "positive_count": 72,
+        "review_count": 87,
+        "positive_ratio": 0.8276
+      },
+      {
+        "month": "2021-12",
+        "positive_count": 64,
+        "review_count": 74,
+        "positive_ratio": 0.8649
+      },
+      {
+        "month": "2022-01",
+        "positive_count": 60,
+        "review_count": 72,
+        "positive_ratio": 0.8333
+      },
+      {
+        "month": "2022-02",
+        "positive_count": 50,
+        "review_count": 58,
+        "positive_ratio": 0.8621
+      },
+      {
+        "month": "2022-03",
+        "positive_count": 33,
+        "review_count": 47,
+        "positive_ratio": 0.7021
+      },
+      {
+        "month": "2022-04",
+        "positive_count": 44,
+        "review_count": 57,
+        "positive_ratio": 0.7719
+      },
+      {
+        "month": "2022-05",
+        "positive_count": 41,
+        "review_count": 54,
+        "positive_ratio": 0.7593
+      },
+      {
+        "month": "2022-06",
+        "positive_count": 55,
+        "review_count": 72,
+        "positive_ratio": 0.7639
+      },
+      {
+        "month": "2022-07",
+        "positive_count": 55,
+        "review_count": 73,
+        "positive_ratio": 0.7534
+      },
+      {
+        "month": "2022-08",
+        "positive_count": 106,
+        "review_count": 131,
+        "positive_ratio": 0.8092
+      },
+      {
+        "month": "2022-09",
+        "positive_count": 119,
+        "review_count": 151,
+        "positive_ratio": 0.7881
+      },
+      {
+        "month": "2022-10",
+        "positive_count": 73,
+        "review_count": 88,
+        "positive_ratio": 0.8295
+      },
+      {
+        "month": "2022-11",
+        "positive_count": 88,
+        "review_count": 98,
+        "positive_ratio": 0.898
+      },
+      {
+        "month": "2022-12",
+        "positive_count": 55,
+        "review_count": 70,
+        "positive_ratio": 0.7857
+      },
+      {
+        "month": "2023-01",
+        "positive_count": 58,
+        "review_count": 76,
+        "positive_ratio": 0.7632
+      },
+      {
+        "month": "2023-02",
+        "positive_count": 88,
+        "review_count": 99,
+        "positive_ratio": 0.8889
+      },
+      {
+        "month": "2023-03",
+        "positive_count": 41,
+        "review_count": 49,
+        "positive_ratio": 0.8367
+      },
+      {
+        "month": "2023-04",
+        "positive_count": 39,
+        "review_count": 48,
+        "positive_ratio": 0.8125
+      },
+      {
+        "month": "2023-05",
+        "positive_count": 34,
+        "review_count": 41,
+        "positive_ratio": 0.8293
+      },
+      {
+        "month": "2023-06",
+        "positive_count": 29,
+        "review_count": 40,
+        "positive_ratio": 0.725
+      },
+      {
+        "month": "2023-07",
+        "positive_count": 52,
+        "review_count": 68,
+        "positive_ratio": 0.7647
+      },
+      {
+        "month": "2023-08",
+        "positive_count": 52,
+        "review_count": 68,
+        "positive_ratio": 0.7647
+      },
+      {
+        "month": "2023-09",
+        "positive_count": 31,
+        "review_count": 46,
+        "positive_ratio": 0.6739
+      },
+      {
+        "month": "2023-10",
+        "positive_count": 34,
+        "review_count": 44,
+        "positive_ratio": 0.7727
+      },
+      {
+        "month": "2023-11",
+        "positive_count": 46,
+        "review_count": 55,
+        "positive_ratio": 0.8364
+      },
+      {
+        "month": "2023-12",
+        "positive_count": 73,
+        "review_count": 96,
+        "positive_ratio": 0.7604
+      },
+      {
+        "month": "2024-01",
+        "positive_count": 49,
+        "review_count": 65,
+        "positive_ratio": 0.7538
+      },
+      {
+        "month": "2024-02",
+        "positive_count": 34,
+        "review_count": 43,
+        "positive_ratio": 0.7907
+      },
+      {
+        "month": "2024-03",
+        "positive_count": 27,
+        "review_count": 35,
+        "positive_ratio": 0.7714
+      },
+      {
+        "month": "2024-04",
+        "positive_count": 28,
+        "review_count": 37,
+        "positive_ratio": 0.7568
+      },
+      {
+        "month": "2024-05",
+        "positive_count": 37,
+        "review_count": 44,
+        "positive_ratio": 0.8409
+      },
+      {
+        "month": "2024-06",
+        "positive_count": 42,
+        "review_count": 52,
+        "positive_ratio": 0.8077
+      },
+      {
+        "month": "2024-07",
+        "positive_count": 52,
+        "review_count": 57,
+        "positive_ratio": 0.9123
+      },
+      {
+        "month": "2024-08",
+        "positive_count": 31,
+        "review_count": 40,
+        "positive_ratio": 0.775
+      },
+      {
+        "month": "2024-09",
+        "positive_count": 27,
+        "review_count": 34,
+        "positive_ratio": 0.7941
+      },
+      {
+        "month": "2024-10",
+        "positive_count": 27,
+        "review_count": 34,
+        "positive_ratio": 0.7941
+      },
+      {
+        "month": "2024-11",
+        "positive_count": 23,
+        "review_count": 27,
+        "positive_ratio": 0.8519
+      },
+      {
+        "month": "2024-12",
+        "positive_count": 36,
+        "review_count": 51,
+        "positive_ratio": 0.7059
+      },
+      {
+        "month": "2025-01",
+        "positive_count": 38,
+        "review_count": 48,
+        "positive_ratio": 0.7917
+      },
+      {
+        "month": "2025-02",
+        "positive_count": 37,
+        "review_count": 51,
+        "positive_ratio": 0.7255
+      },
+      {
+        "month": "2025-03",
+        "positive_count": 31,
+        "review_count": 39,
+        "positive_ratio": 0.7949
+      },
+      {
+        "month": "2025-04",
+        "positive_count": 33,
+        "review_count": 44,
+        "positive_ratio": 0.75
+      },
+      {
+        "month": "2025-05",
+        "positive_count": 36,
+        "review_count": 41,
+        "positive_ratio": 0.878
+      },
+      {
+        "month": "2025-06",
+        "positive_count": 25,
+        "review_count": 36,
+        "positive_ratio": 0.6944
+      },
+      {
+        "month": "2025-07",
+        "positive_count": 39,
+        "review_count": 50,
+        "positive_ratio": 0.78
+      },
+      {
+        "month": "2025-08",
+        "positive_count": 25,
+        "review_count": 41,
+        "positive_ratio": 0.6098
+      },
+      {
+        "month": "2025-09",
+        "positive_count": 19,
+        "review_count": 24,
+        "positive_ratio": 0.7917
+      },
+      {
+        "month": "2025-10",
+        "positive_count": 20,
+        "review_count": 26,
+        "positive_ratio": 0.7692
+      },
+      {
+        "month": "2025-11",
+        "positive_count": 31,
+        "review_count": 39,
+        "positive_ratio": 0.7949
+      },
+      {
+        "month": "2025-12",
+        "positive_count": 25,
+        "review_count": 31,
+        "positive_ratio": 0.8065
+      },
+      {
+        "month": "2026-01",
+        "positive_count": 35,
+        "review_count": 47,
+        "positive_ratio": 0.7447
+      },
+      {
+        "month": "2026-02",
+        "positive_count": 27,
+        "review_count": 37,
+        "positive_ratio": 0.7297
+      },
+      {
+        "month": "2026-03",
+        "positive_count": 22,
+        "review_count": 26,
+        "positive_ratio": 0.8462
+      },
+      {
+        "month": "2026-04",
+        "positive_count": 9,
+        "review_count": 13,
+        "positive_ratio": 0.6923
+      }
+    ]
+  },
   "game": {
     "name": "Rust",
     "genres": [
@@ -16,16 +918,27 @@
     ],
     "price_model": "paid",
     "is_free": false,
-    "release_stage": "released"
+    "release_stage": "released",
+    "release_date_text": "2018년 2월 8일",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg?t=1776257232",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/21aac0b6e20e1ba12f635e7deb730e32a51afbd5/capsule_231x87.jpg?t=1776257232",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/21aac0b6e20e1ba12f635e7deb730e32a51afbd5/capsule_184x69.jpg?t=1776257232",
+    "short_description": "Rust에서의 목표는 오직 하나, 바로 살아남는 것입니다. 섬의 야생 동물, 다른 주민, 환경, 다른 생존자 모두가 여러분의 목숨을 노립니다. 하루 더 살아남을 수 있다면 수단과 방법을 가리지 마세요.",
+    "steam_store_url": "https://store.steampowered.com/app/252490",
+    "steam_recommendation_count": 1127683,
+    "steam_review_score_desc": "Mostly Positive",
+    "steam_total_positive": 7195,
+    "steam_total_negative": 2113,
+    "steam_total_reviews": 9308
   },
   "report_plan": {
     "decision_anchor": {
-      "buy_recommendation": "buy_on_sale",
+      "buy_recommendation": "not_recommended",
       "primary_reason_ids": [
         "risk_1",
         "risk_2"
       ],
-      "rationale_short": "매칭 / 서버 문제 불편을 감수해야 할 수 있어 가격 메리트가 있는 시점이 더 낫습니다."
+      "rationale_short": "게임은 재미있지만, 진입 장벽이 높고 핵 사용자와 서버 문제로 인해 초보자에게는 매우 힘든 경험이 될 수 있습니다."
     },
     "section_blueprint": {
       "strength_block_count": 3,
@@ -60,86 +973,129 @@
     }
   },
   "report_display": {
-    "headline": "빌드 / 무기 다양성 장점은 분명하지만 매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크가 거슬릴 수 있어 할인 시점이 더 안전합니다.",
+    "headline": "진입 장벽과 핵 사용자 문제로 초보자에게는 쉽지 않은 생존 게임입니다.",
     "buy_recommendation": "buy_on_sale",
-    "buy_timing_summary": "매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크 불편을 감수해야 할 수 있어 가격 메리트가 있는 시점이 더 낫습니다.",
+    "buy_timing_summary": "팀 플레이 스트레스와 서버 문제를 고려하면 할인 시점에 시작하는 것이 좋습니다.",
     "good_for": [
-      "긴 보스전에서 패턴을 익히고 반복 트라이를 즐기는 플레이어"
+      "반복 도전 속에서 패턴을 익히는 재미를 좋아하는 플레이어"
     ],
     "not_good_for": [
-      "팀플레이 품질과 소통 스트레스를 크게 받는 플레이어",
-      "진행 중 오류나 예기치 않은 끊김을 거의 허용하지 않는 플레이어"
+      "팀플레이 소통 피로를 크게 느끼는 플레이어",
+      "반복 구간에 쉽게 지루해지는 플레이어",
+      "진행 중 오류나 끊김을 거의 허용하지 않는 플레이어"
     ],
     "top_strengths": [
       {
-        "title": "빌드 / 무기 다양성",
-        "summary": "빌드 / 무기 다양성 체감이 좋아 한 판 더 하게 되는 흐름이 잘 만들어집니다."
+        "title": "긴장감 넘치는 생존과 PvP 경험",
+        "summary": "언제든 다른 플레이어에게 습격당할 수 있어 긴장감이 극에 달하며, 직접 지은 기지를 방어하거나 공격하는 대규모 전투가 게임의 핵심 재미를 선사합니다."
+      },
+      {
+        "title": "깊이 있는 성장과 성취감",
+        "summary": "수많은 노력을 통해 고성능 장비를 만들고 기지를 완성했을 때 느끼는 성취감이 매우 크며, 친구들과 함께하면 더욱 즐거운 경험이 됩니다."
+      },
+      {
+        "title": "다양한 빌드와 무기 커스터마이징",
+        "summary": "자동차, 헬기, 전기 회로 등 최신 문물과 다양한 무기 종류, 그리고 총기 커스터마이징이 플레이에 신선함과 재미를 더해 줍니다."
       }
     ],
     "top_risks": [
       {
-        "title": "매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크",
-        "summary": "매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크가 플레이 경험의 만족도를 낮출 수 있어 주의가 필요합니다."
+        "title": "초보자에게 너무 가혹한 환경",
+        "summary": "초보자는 고인물과 핵 사용자들 사이에서 지속적으로 공격받아 성장하기 매우 어렵고, 반복되는 죽음과 자원 손실로 인해 쉽게 지치고 포기할 수 있습니다."
       },
       {
-        "title": "중후반 반복감이 커지면 동기 유지가 떨어질 수 있는 리스크",
-        "summary": "중후반 반복감이 커지면 동기 유지가 떨어질 수 있는 리스크이 플레이 경험의 만족도를 낮출 수 있어 주의가 필요합니다."
+        "title": "불안정한 서버와 잦은 접속 문제",
+        "summary": "DDOS 공격과 서버 불안정으로 인해 정상적인 플레이가 어려우며, 긴 로딩 시간과 빈번한 튕김 현상으로 게임 흐름이 자주 끊깁니다."
       },
       {
-        "title": "예상치 못한 오류가 플레이 리듬을 끊을 수 있는 리스크",
-        "summary": "예상치 못한 오류가 플레이 리듬을 끊을 수 있는 리스크가 진행 리듬을 자주 끊어 플레이 피로를 높일 수 있습니다."
+        "title": "핵 사용자와 보안 문제",
+        "summary": "핵 사용자가 많아 공정한 경쟁이 어렵고, 해킹 피해 시 계정 정지에 대한 대응이 미흡하여 억울한 피해자가 발생할 수 있습니다."
       }
     ],
     "recent_state": {
-      "status": "mixed",
-      "summary": "만족 포인트와 불편 포인트가 함께 보여 체감 평가가 갈리는 상태입니다."
+      "status": "declining",
+      "summary": "러스트는 핵 사용자와 서버 문제, 긴 로딩 시간으로 인해 초보자가 적응하기 어려운 상황입니다."
     }
   },
   "evidence_sections": {
     "strengths": [
       {
         "block_id": "str_1",
-        "title": "빌드 / 무기 다양성이 실제 플레이 만족으로 이어진다는 반응",
+        "title": "반복 도전이 재미로 바뀐다는 반응",
         "theme": "빌드 / 무기 다양성",
-        "why_it_matters": "전투/핵심 플레이에서 빌드 / 무기 다양성 체감이 좋으면 초반부터 몰입이 붙어 장시간 플레이 만족으로 이어질 가능성이 큽니다.",
-        "explanation": "전투/핵심 플레이에서 빌드 / 무기 다양성 체감이 좋으면 초반부터 몰입이 붙어 장시간 플레이 만족으로 이어질 가능성이 큽니다.",
+        "why_it_matters": "전투를 익혀가는 재미를 좋게 본 리뷰가 많아, 도전형 전투를 좋아한다면 만족도가 높은 편입니다.",
+        "explanation": "전투를 익혀가는 재미를 좋게 본 리뷰가 많아, 도전형 전투를 좋아한다면 만족도가 높은 편입니다.",
         "aspect_keys": [
           "gameplay"
         ],
         "stance": "positive",
         "consensus_level": "medium",
-        "mention_count": 159,
+        "mention_count": 193,
         "evidence_quality_level": "guaranteed_fill",
         "evidence_candidate_snippets": [
           "초반에 죽으면서 하는겜입니다.이게임 할거면 플레이타임 최소 55시간은 할거라 생각하고 하세요.친구랑 하면 물론 더 재밌습니다 원래 천천히 성장하는 게임이니 초반에 죽었다고 화내진 마세요~",
           "첨하는사람은 외국섭 가서 야생의 무서움을 한번 느낀 다음에 한국 사설 pve섭 가서 게임 컨텐츠좀 뜯어먹다가 숙련되었을때쯤 pvp 가서 노세요 개추 ㅋㅋ",
           "뉴비 진입장벽이 높은 건 맞지만, PVE 서버 (플레이어간 pvp가 금지인 서버) 들어가서 기본적인 개념을 익혀보다가, 공식 서버에서 시골동네에 집짓고 살면 충분히 적응하고 재밌게 할 수 있습니다. 마인크래프트 느낌으로 돌아다니면서 돌, 나무, 광석 파밍하고 집 짓고.. 파밍지에선 배틀그라운드 느낌으로 싸우고.. 템 먹어도 이스케이프 프롬 타르코프처럼 안전하게 집으로 돌아갈 때까진 내 것이 아닌 것이 너무 쫄깃하고 재밌어요.",
           "평소 PVP 게임 잘 안함 약탈당하고 내 케릭 죽는 것 몹시 싫어해서 안했었는데 할인해서 알아보니까 PVE 섭도 있다고 해서 구매함. 갓겜 초갓겜",
-          "쓰잘데기 없는 업데이트 하지 말고 최적화나 손봐라",
           "인생을 게임에 올인하고 싶을때 하는게임 파밍 지옥을 맛보고 싶다면 당장 이게임을 사라",
-          "똥내나는최적화 똥내나는핑 인생역전한방만 아니여도.....",
-          "시간 빌게이츠 들의 게임 최적화 반영, 현생을 살고 싶으면 게임 비추."
+          "ㅈ같음 열심히 집지으면 보고있어도털리고 안봐도 털리고 내가 털려고하면 뒤지고 파밍좀 하려하니 뒤지고 그냥 걸어가니 뒤지고 뭘하든 일단 뒤지는데 레이드 제대로 한번 성공하면 기분 ㅈㄴ 좋아져서 접으려해도 접을수가 없음",
+          "게임 성은 좋은데 너무 잘 튕기잖아! ㅋㅋㅋㅋㅋ",
+          "게임은 재밌는데 싱글이 없음 필연적으로 사람들과 부딪히다보면 화딱지남 러스트만이 줄 수 있는 재미는 레이드인데 이 부분이 필연적으로 사람과 맞닿고 부딪혀야 함 거기서 fps 장르 자체를 못하는 손병신은 이게임을 즐길 수 없다는 걸 깨닫고 나면 이제 이 게임 진입장벽을 깨닫고 포기하는 식으로 굴러감 싱글 나올 때까지 숨 참는다"
         ],
         "evidence_snippets": [
-          "초반에 죽으면서 하는겜입니다. 이게임 할거면 플레이타임 최소 55시간은 할거라 생각하고 하세요. 친구랑 하면 물론 더 재밌습니다 원래 천천히 성장하는 게임이니 초반에 죽었다고 화내진 마세요~",
-          "첨하는사람은 외국섭 가서 야생의 무서움을 한번 느낀 다음에 한국 사설 pve섭 가서 게임 컨텐츠좀 뜯어먹다가 숙련되었을때쯤 pvp 가서 노세요 개추 ㅋㅋ",
-          "뉴비 진입장벽이 높은 건 맞지만, PVE 서버 (플레이어간 pvp가 금지인 서버) 들어가서 기본적인 개념을 익혀보다가, 공식 서버에서 시골동네에 집짓고 살면 충분히 적응하고 재밌게 할 수 있습니다. 마인크래프트 느낌으로 돌아다니면서 돌, 나무, 광석 파밍하고 집 짓고.. 파밍지에선 배틀그라운드 느낌으로 싸우고.. 템 먹어도 이스케이프 프롬 타르코프처럼 안전하게 집으로 돌아갈 때까진 내 것이 아닌 것이 너무 쫄깃하고 재밌어요."
+          "뉴비 진입장벽이 높은 건 맞지만, PVE 서버 (플레이어간 pvp가 금지인 서버) 들어가서 기본적인 개념을 익혀보다가, 공식 서버에서 시골동네에 집짓고 살면 충분히 적응하고 재밌게 할 수 있습니다. 마인크래프트 느낌으로 돌아다니면서 돌, 나무, 광석 파밍하고 집 짓고.. 파밍지에선 배틀그라운드 느낌으로 싸우고.. 템 먹어도 이스케이프 프롬 타르코프처럼 안전하게 집으로 돌아갈 때까진 내 것이 아닌 것이 너무 쫄깃하고 재밌어요.",
+          "평소 PVP 게임 잘 안함 약탈당하고 내 케릭 죽는 것 몹시 싫어해서 안했었는데 할인해서 알아보니까 PVE 섭도 있다고 해서 구매함. 갓겜 초갓겜",
+          "게임은 재밌는데 싱글이 없음 필연적으로 사람들과 부딪히다보면 화딱지남 러스트만이 줄 수 있는 재미는 레이드인데 이 부분이 필연적으로 사람과 맞닿고 부딪혀야 함 거기서 fps 장르 자체를 못하는 손병신은 이게임을 즐길 수 없다는 걸 깨닫고 나면 이제 이 게임 진입장벽을 깨닫고 포기하는 식으로 굴러감 싱글 나올 때까지 숨 참는다"
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-positive-1-1-4214404524218823134",
+            "text": "초반에 죽으면서 하는겜입니다.이게임 할거면 플레이타임 최소 55시간은 할거라 생각하고 하세요.친구랑 하면 물론 더 재밌습니다 원래 천천히 성장하는 게임이니 초반에 죽었다고 화내진 마세요~"
+          },
+          {
+            "review_id": "compress-v3-positive-1-2-4541639583142417760",
+            "text": "첨하는사람은 외국섭 가서 야생의 무서움을 한번 느낀 다음에 한국 사설 pve섭 가서 게임 컨텐츠좀 뜯어먹다가 숙련되었을때쯤 pvp 가서 노세요 개추 ㅋㅋ"
+          },
+          {
+            "review_id": "compress-v3-positive-1-3-1247647526660429371",
+            "text": "뉴비 진입장벽이 높은 건 맞지만, PVE 서버 (플레이어간 pvp가 금지인 서버) 들어가서 기본적인 개념을 익혀보다가, 공식 서버에서 시골동네에 집짓고 살면 충분히 적응하고 재밌게 할 수 있습니다. 마인크래프트 느낌으로 돌아다니면서 돌, 나무, 광석 파밍하고 집 짓고.. 파밍지에선 배틀그라운드 느낌으로 싸우고.. 템 먹어도 이스케이프 프롬 타르코프처럼 안전하게 집으로 돌아갈 때까진 내 것이 아닌 것이 너무 쫄깃하고 재밌어요."
+          },
+          {
+            "review_id": "compress-v3-positive-1-4-2625956763976550933",
+            "text": "평소 PVP 게임 잘 안함 약탈당하고 내 케릭 죽는 것 몹시 싫어해서 안했었는데 할인해서 알아보니까 PVE 섭도 있다고 해서 구매함. 갓겜 초갓겜"
+          },
+          {
+            "review_id": "compress-v3-positive-1-5-5168273730503039397",
+            "text": "인생을 게임에 올인하고 싶을때 하는게임 파밍 지옥을 맛보고 싶다면 당장 이게임을 사라"
+          },
+          {
+            "review_id": "compress-v3-positive-1-6-4488423471448011921",
+            "text": "ㅈ같음 열심히 집지으면 보고있어도털리고 안봐도 털리고 내가 털려고하면 뒤지고 파밍좀 하려하니 뒤지고 그냥 걸어가니 뒤지고 뭘하든 일단 뒤지는데 레이드 제대로 한번 성공하면 기분 ㅈㄴ 좋아져서 접으려해도 접을수가 없음"
+          },
+          {
+            "review_id": "compress-v3-positive-1-7-6338688138105941537",
+            "text": "게임 성은 좋은데 너무 잘 튕기잖아! ㅋㅋㅋㅋㅋ"
+          },
+          {
+            "review_id": "compress-v3-positive-1-8-4605661918387276566",
+            "text": "게임은 재밌는데 싱글이 없음 필연적으로 사람들과 부딪히다보면 화딱지남 러스트만이 줄 수 있는 재미는 레이드인데 이 부분이 필연적으로 사람과 맞닿고 부딪혀야 함 거기서 fps 장르 자체를 못하는 손병신은 이게임을 즐길 수 없다는 걸 깨닫고 나면 이제 이 게임 진입장벽을 깨닫고 포기하는 식으로 굴러감 싱글 나올 때까지 숨 참는다"
+          }
         ]
       }
     ],
     "risks": [
       {
         "block_id": "risk_1",
-        "title": "매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크 때문에 플레이 흐름이 끊긴다는 반응",
+        "title": "팀플레이 피로가 크다는 반응이다.",
         "theme": "매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크",
-        "why_it_matters": "멀티플레이에서 매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크 불편가 반복되면 초반 만족도가 크게 떨어질 수 있어 구매 전 감수 여부 확인가 필요합니다.",
-        "explanation": "멀티플레이에서 매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크 불편가 반복되면 초반 만족도가 크게 떨어질 수 있어 구매 전 감수 여부 확인가 필요합니다.",
+        "why_it_matters": "팀 플레이 피로를 말하는 리뷰가 있어, 소통과 팀 분위기에 민감하면 스트레스를 받을 수 있습니다.",
+        "explanation": "팀 플레이 피로를 말하는 리뷰가 있어, 소통과 팀 분위기에 민감하면 스트레스를 받을 수 있습니다.",
         "aspect_keys": [
           "multiplayer"
         ],
         "stance": "negative",
         "consensus_level": "high",
-        "mention_count": 1147,
+        "mention_count": 1415,
         "evidence_quality_level": "strict",
         "evidence_candidate_snippets": [
           "잠시 휴가 갔다온 사이 해외에서 해킹 해서 털고 서버 들어가서 핵써가지고 정지 당했네요.. 조심하세요 다들 안풀어줍니다 그 누구든지 핵을 쓰면 보안 책임을 지라네요.",
@@ -148,114 +1104,183 @@
         ],
         "evidence_snippets": [
           "잠시 휴가 갔다온 사이 해외에서 해킹 해서 털고 서버 들어가서 핵써가지고 정지 당했네요.. 조심하세요 다들 안풀어줍니다 그 누구든지 핵을 쓰면 보안 책임을 지라네요.",
-          "예전에는 원래 혼자라도 적당한 인원 수의 서버에서 굳이 파밍지를 가지 않더라도, 천천히 성장할 수 있었는데 블루프린트 조각 추가 후 혼자서는 파밍지 털기가 쉽지 않습니다. 원래도 다인큐가 유리하긴 했는데 개고인물이 아닌 일반적인 솔로 유저라면 플레이 자체가 거의 불가능한 느낌을 받아서 비추합니다.",
           "정신병자 시발 존나 많네 고인물들 많고 핵쟁이도 많아 개쓰레기고 그것보다는 짱깨새기들이 30명 넘게 같이 파티 만들어서 레이드 하는데 어떡하라는거임 시이발"
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-negative-1-1-2970593816206638050",
+            "text": "잠시 휴가 갔다온 사이 해외에서 해킹 해서 털고 서버 들어가서 핵써가지고 정지 당했네요.. 조심하세요 다들 안풀어줍니다 그 누구든지 핵을 쓰면 보안 책임을 지라네요."
+          },
+          {
+            "review_id": "compress-v3-negative-1-2-8460523415581869860",
+            "text": "예전에는 원래 혼자라도 적당한 인원 수의 서버에서 굳이 파밍지를 가지 않더라도, 천천히 성장할 수 있었는데 블루프린트 조각 추가 후 혼자서는 파밍지 털기가 쉽지 않습니다. 원래도 다인큐가 유리하긴 했는데 개고인물이 아닌 일반적인 솔로 유저라면 플레이 자체가 거의 불가능한 느낌을 받아서 비추합니다."
+          },
+          {
+            "review_id": "compress-v3-negative-1-3-2843106797239976081",
+            "text": "정신병자 시발 존나 많네 고인물들 많고 핵쟁이도 많아 개쓰레기고 그것보다는 짱깨새기들이 30명 넘게 같이 파티 만들어서 레이드 하는데 어떡하라는거임 시이발"
+          }
         ]
       },
       {
         "block_id": "risk_2",
-        "title": "중후반 반복감이 커지면 동기 유지가 떨어질 수 있는 리스크 때문에 플레이 흐름이 끊긴다는 반응",
+        "title": "반복감 때문에 중후반에 동력이 떨어진다는 반응",
         "theme": "중후반 반복감이 커지면 동기 유지가 떨어질 수 있는 리스크",
-        "why_it_matters": "콘텐츠 볼륨에서 중후반 반복감이 커지면 동기 유지가 떨어질 수 있는 리스크 불편가 반복되면 초반 만족도가 크게 떨어질 수 있어 구매 전 감수 여부 확인가 필요합니다.",
-        "explanation": "콘텐츠 볼륨에서 중후반 반복감이 커지면 동기 유지가 떨어질 수 있는 리스크 불편가 반복되면 초반 만족도가 크게 떨어질 수 있어 구매 전 감수 여부 확인가 필요합니다.",
+        "why_it_matters": "반복감 이야기가 모여 있어 새로움이 빠르게 줄어들면 동력이 떨어질 수 있습니다.",
+        "explanation": "반복감 이야기가 모여 있어 새로움이 빠르게 줄어들면 동력이 떨어질 수 있습니다.",
         "aspect_keys": [
           "content_depth"
         ],
         "stance": "negative",
         "consensus_level": "high",
-        "mention_count": 432,
+        "mention_count": 539,
         "evidence_quality_level": "strict",
         "evidence_candidate_snippets": [
           "예전에는 원래 혼자라도 적당한 인원 수의 서버에서 굳이 파밍지를 가지 않더라도, 천천히 성장할 수 있었는데 블루프린트 조각 추가 후 혼자서는 파밍지 털기가 쉽지 않습니다. 원래도 다인큐가 유리하긴 했는데 개고인물이 아닌 일반적인 솔로 유저라면 플레이 자체가 거의 불가능한 느낌을 받아서 비추합니다.",
           "이 게임 절대 구매하면 안됩니다 군대 전역하고 해봤는데 인생이 망가져요 초반에는 아무것도 몰라서 전기배선 연결방법 찾아보고 집 짓는거 영상도 찾아보고 했는데 그런거 다 소용 없습니다 뭘해도 털려요 하루종일 도망다니면서 40시간 동안 파밍한게 한 순간에 사리지는걸 보니깐 화도 안나고 허탈함에 의욕을 상실합니다 사실 방금 털렸는데 스팀에 글 처음 쓸 정도로 화가 나서 참을수가 없습니다 저희 집을 털어간 러시아놈 때문에 우크라이나 용병 마렵네요 하,,,,, 혹여나 이 글을 보시는 분들은 제발 구매하지 마세요",
-          "이 게임 사지마세요. 1900시간 했지만 개시발 좆같은 게임임 예전에 비해서 ㅈ같은 패치가 너무 많이 됐음 특히 발사기지외에도 생성되는 브래들리 너무 ㅈ같음 파밍지 카운터 가면 갑자기 뜬금없는 곳에서 내 시야에 보이지도 않는데 브래들리가 쳐쏘니까 적한테 위치 들키고 뒤져버리기 일쑤임. 그러니까 이제는 파밍지에서 교전을 하는게 아니라 브래들리 피하기 해야함 씨1발 이런 좆같은 기분을 느끼게 하는 패치를 여러가지 하다보니까 뉴비들은 진입장벽이 높을 수 밖에 없음. 그리고 이 게임을 솔로로 플레이 하시려는거면 더더욱 사지마세요. 애초에 러스트는 인원이 많을수록 극도로 유리해지는 게임이고, 개발진들도 저그들을 위한 패치만 함. 시발 개좆망겜 서버 들어가면 튕기고 다시 들어가면 또 튕기고 개지랄하네",
-          "89시간동안 배운게 집 털리기랑 파밍한거 다 뺏기기 뿐이라 서러워 죽겠네"
+          "이 게임 사지마세요. 1900시간 했지만 개시발 좆같은 게임임 예전에 비해서 ㅈ같은 패치가 너무 많이 됐음 특히 발사기지외에도 생성되는 브래들리 너무 ㅈ같음 파밍지 카운터 가면 갑자기 뜬금없는 곳에서 내 시야에 보이지도 않는데 브래들리가 쳐쏘니까 적한테 위치 들키고 뒤져버리기 일쑤임. 그러니까 이제는 파밍지에서 교전을 하는게 아니라 브래들리 피하기 해야함 씨1발 이런 좆같은 기분을 느끼게 하는 패치를 여러가지 하다보니까 뉴비들은 진입장벽이 높을 수 밖에 없음. 그리고 이 게임을 솔로로 플레이 하시려는거면 더더욱 사지마세요. 애초에 러스트는 인원이 많을수록 극도로 유리해지는 게임이고, 개발진들도 저그들을 위한 패치만 함. 시발 개좆망겜 서버 들어가면 튕기고 다시 들어가면 또 튕기고 개지랄하네"
         ],
         "evidence_snippets": [
-          "예전에는 원래 혼자라도 적당한 인원 수의 서버에서 굳이 파밍지를 가지 않더라도, 천천히 성장할 수 있었는데 블루프린트 조각 추가 후 혼자서는 파밍지 털기가 쉽지 않습니다. 원래도 다인큐가 유리하긴 했는데 개고인물이 아닌 일반적인 솔로 유저라면 플레이 자체가 거의 불가능한 느낌을 받아서 비추합니다.",
           "이 게임 절대 구매하면 안됩니다 군대 전역하고 해봤는데 인생이 망가져요 초반에는 아무것도 몰라서 전기배선 연결방법 찾아보고 집 짓는거 영상도 찾아보고 했는데 그런거 다 소용 없습니다 뭘해도 털려요 하루종일 도망다니면서 40시간 동안 파밍한게 한 순간에 사리지는걸 보니깐 화도 안나고 허탈함에 의욕을 상실합니다 사실 방금 털렸는데 스팀에 글 처음 쓸 정도로 화가 나서 참을수가 없습니다 저희 집을 털어간 러시아놈 때문에 우크라이나 용병 마렵네요 하,,,,, 혹여나 이 글을 보시는 분들은 제발 구매하지 마세요",
-          "89시간동안 배운게 집 털리기랑 파밍한거 다 뺏기기 뿐이라 서러워 죽겠네"
+          "예전에는 원래 혼자라도 적당한 인원 수의 서버에서 굳이 파밍지를 가지 않더라도, 천천히 성장할 수 있었는데 블루프린트 조각 추가 후 혼자서는 파밍지 털기가 쉽지 않습니다. 원래도 다인큐가 유리하긴 했는데 개고인물이 아닌 일반적인 솔로 유저라면 플레이 자체가 거의 불가능한 느낌을 받아서 비추합니다.",
+          "이 게임 사지마세요. 1900시간 했지만 개시발 좆같은 게임임 예전에 비해서 ㅈ같은 패치가 너무 많이 됐음 특히 발사기지외에도 생성되는 브래들리 너무 ㅈ같음 파밍지 카운터 가면 갑자기 뜬금없는 곳에서 내 시야에 보이지도 않는데 브래들리가 쳐쏘니까 적한테 위치 들키고 뒤져버리기 일쑤임. 그러니까 이제는 파밍지에서 교전을 하는게 아니라 브래들리 피하기 해야함 씨1발 이런 좆같은 기분을 느끼게 하는 패치를 여러가지 하다보니까 뉴비들은 진입장벽이 높을 수 밖에 없음. 그리고 이 게임을 솔로로 플레이 하시려는거면 더더욱 사지마세요. 애초에 러스트는 인원이 많을수록 극도로 유리해지는 게임이고, 개발진들도 저그들을 위한 패치만 함. 시발 개좆망겜 서버 들어가면 튕기고 다시 들어가면 또 튕기고 개지랄하네"
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-negative-2-1-8460523415581869860",
+            "text": "예전에는 원래 혼자라도 적당한 인원 수의 서버에서 굳이 파밍지를 가지 않더라도, 천천히 성장할 수 있었는데 블루프린트 조각 추가 후 혼자서는 파밍지 털기가 쉽지 않습니다. 원래도 다인큐가 유리하긴 했는데 개고인물이 아닌 일반적인 솔로 유저라면 플레이 자체가 거의 불가능한 느낌을 받아서 비추합니다."
+          },
+          {
+            "review_id": "compress-v3-negative-2-2-3833928693102224391",
+            "text": "이 게임 절대 구매하면 안됩니다 군대 전역하고 해봤는데 인생이 망가져요 초반에는 아무것도 몰라서 전기배선 연결방법 찾아보고 집 짓는거 영상도 찾아보고 했는데 그런거 다 소용 없습니다 뭘해도 털려요 하루종일 도망다니면서 40시간 동안 파밍한게 한 순간에 사리지는걸 보니깐 화도 안나고 허탈함에 의욕을 상실합니다 사실 방금 털렸는데 스팀에 글 처음 쓸 정도로 화가 나서 참을수가 없습니다 저희 집을 털어간 러시아놈 때문에 우크라이나 용병 마렵네요 하,,,,, 혹여나 이 글을 보시는 분들은 제발 구매하지 마세요"
+          },
+          {
+            "review_id": "compress-v3-negative-2-3-3687000186949359882",
+            "text": "이 게임 사지마세요. 1900시간 했지만 개시발 좆같은 게임임 예전에 비해서 ㅈ같은 패치가 너무 많이 됐음 특히 발사기지외에도 생성되는 브래들리 너무 ㅈ같음 파밍지 카운터 가면 갑자기 뜬금없는 곳에서 내 시야에 보이지도 않는데 브래들리가 쳐쏘니까 적한테 위치 들키고 뒤져버리기 일쑤임. 그러니까 이제는 파밍지에서 교전을 하는게 아니라 브래들리 피하기 해야함 씨1발 이런 좆같은 기분을 느끼게 하는 패치를 여러가지 하다보니까 뉴비들은 진입장벽이 높을 수 밖에 없음. 그리고 이 게임을 솔로로 플레이 하시려는거면 더더욱 사지마세요. 애초에 러스트는 인원이 많을수록 극도로 유리해지는 게임이고, 개발진들도 저그들을 위한 패치만 함. 시발 개좆망겜 서버 들어가면 튕기고 다시 들어가면 또 튕기고 개지랄하네"
+          }
         ]
       }
     ]
   },
-  "disclaimer": "이 리포트는 반복적으로 관찰된 고합의 리뷰 신호를 구매 판단 관점으로 재해석한 결과입니다.",
-  "headline": "빌드 / 무기 다양성 장점은 분명하지만 매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크가 거슬릴 수 있어 할인 시점이 더 안전합니다.",
+  "disclaimer": "여러 유저 리뷰를 바탕으로 정리했어요. 플레이 경험은 사람마다 다를 수 있어요.",
+  "headline": "진입 장벽과 핵 사용자 문제로 초보자에게는 쉽지 않은 생존 게임입니다.",
   "buy_recommendation": "buy_on_sale",
-  "buy_timing_summary": "매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크 불편을 감수해야 할 수 있어 가격 메리트가 있는 시점이 더 낫습니다.",
+  "buy_timing_summary": "팀 플레이 스트레스와 서버 문제를 고려하면 할인 시점에 시작하는 것이 좋습니다.",
   "good_for": [
-    "긴 보스전에서 패턴을 익히고 반복 트라이를 즐기는 플레이어"
+    "반복 도전 속에서 패턴을 익히는 재미를 좋아하는 플레이어"
   ],
   "not_good_for": [
-    "팀플레이 품질과 소통 스트레스를 크게 받는 플레이어",
-    "진행 중 오류나 예기치 않은 끊김을 거의 허용하지 않는 플레이어"
+    "팀플레이 소통 피로를 크게 느끼는 플레이어",
+    "반복 구간에 쉽게 지루해지는 플레이어",
+    "진행 중 오류나 끊김을 거의 허용하지 않는 플레이어"
   ],
   "top_strengths": [
     {
-      "title": "빌드 / 무기 다양성",
-      "summary": "빌드 / 무기 다양성 체감이 좋아 한 판 더 하게 되는 흐름이 잘 만들어집니다."
+      "title": "긴장감 넘치는 생존과 PvP 경험",
+      "summary": "언제든 다른 플레이어에게 습격당할 수 있어 긴장감이 극에 달하며, 직접 지은 기지를 방어하거나 공격하는 대규모 전투가 게임의 핵심 재미를 선사합니다."
+    },
+    {
+      "title": "깊이 있는 성장과 성취감",
+      "summary": "수많은 노력을 통해 고성능 장비를 만들고 기지를 완성했을 때 느끼는 성취감이 매우 크며, 친구들과 함께하면 더욱 즐거운 경험이 됩니다."
+    },
+    {
+      "title": "다양한 빌드와 무기 커스터마이징",
+      "summary": "자동차, 헬기, 전기 회로 등 최신 문물과 다양한 무기 종류, 그리고 총기 커스터마이징이 플레이에 신선함과 재미를 더해 줍니다."
     }
   ],
   "top_risks": [
     {
-      "title": "매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크",
-      "summary": "매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크가 플레이 경험의 만족도를 낮출 수 있어 주의가 필요합니다."
+      "title": "초보자에게 너무 가혹한 환경",
+      "summary": "초보자는 고인물과 핵 사용자들 사이에서 지속적으로 공격받아 성장하기 매우 어렵고, 반복되는 죽음과 자원 손실로 인해 쉽게 지치고 포기할 수 있습니다."
     },
     {
-      "title": "중후반 반복감이 커지면 동기 유지가 떨어질 수 있는 리스크",
-      "summary": "중후반 반복감이 커지면 동기 유지가 떨어질 수 있는 리스크이 플레이 경험의 만족도를 낮출 수 있어 주의가 필요합니다."
+      "title": "불안정한 서버와 잦은 접속 문제",
+      "summary": "DDOS 공격과 서버 불안정으로 인해 정상적인 플레이가 어려우며, 긴 로딩 시간과 빈번한 튕김 현상으로 게임 흐름이 자주 끊깁니다."
     },
     {
-      "title": "예상치 못한 오류가 플레이 리듬을 끊을 수 있는 리스크",
-      "summary": "예상치 못한 오류가 플레이 리듬을 끊을 수 있는 리스크가 진행 리듬을 자주 끊어 플레이 피로를 높일 수 있습니다."
+      "title": "핵 사용자와 보안 문제",
+      "summary": "핵 사용자가 많아 공정한 경쟁이 어렵고, 해킹 피해 시 계정 정지에 대한 대응이 미흡하여 억울한 피해자가 발생할 수 있습니다."
     }
   ],
   "recent_state": {
-    "status": "mixed",
-    "summary": "만족 포인트와 불편 포인트가 함께 보여 체감 평가가 갈리는 상태입니다."
+    "status": "declining",
+    "summary": "러스트는 핵 사용자와 서버 문제, 긴 로딩 시간으로 인해 초보자가 적응하기 어려운 상황입니다."
   },
   "evidence_reviews": [
     {
       "block_id": "str_1",
-      "title": "빌드 / 무기 다양성이 실제 플레이 만족으로 이어진다는 반응",
+      "title": "반복 도전이 재미로 바뀐다는 반응",
       "theme": "빌드 / 무기 다양성",
-      "why_it_matters": "전투/핵심 플레이에서 빌드 / 무기 다양성 체감이 좋으면 초반부터 몰입이 붙어 장시간 플레이 만족으로 이어질 가능성이 큽니다.",
-      "explanation": "전투/핵심 플레이에서 빌드 / 무기 다양성 체감이 좋으면 초반부터 몰입이 붙어 장시간 플레이 만족으로 이어질 가능성이 큽니다.",
+      "why_it_matters": "전투를 익혀가는 재미를 좋게 본 리뷰가 많아, 도전형 전투를 좋아한다면 만족도가 높은 편입니다.",
+      "explanation": "전투를 익혀가는 재미를 좋게 본 리뷰가 많아, 도전형 전투를 좋아한다면 만족도가 높은 편입니다.",
       "aspect_keys": [
         "gameplay"
       ],
       "stance": "positive",
       "consensus_level": "medium",
-      "mention_count": 159,
+      "mention_count": 193,
       "evidence_quality_level": "guaranteed_fill",
       "evidence_candidate_snippets": [
         "초반에 죽으면서 하는겜입니다.이게임 할거면 플레이타임 최소 55시간은 할거라 생각하고 하세요.친구랑 하면 물론 더 재밌습니다 원래 천천히 성장하는 게임이니 초반에 죽었다고 화내진 마세요~",
         "첨하는사람은 외국섭 가서 야생의 무서움을 한번 느낀 다음에 한국 사설 pve섭 가서 게임 컨텐츠좀 뜯어먹다가 숙련되었을때쯤 pvp 가서 노세요 개추 ㅋㅋ",
         "뉴비 진입장벽이 높은 건 맞지만, PVE 서버 (플레이어간 pvp가 금지인 서버) 들어가서 기본적인 개념을 익혀보다가, 공식 서버에서 시골동네에 집짓고 살면 충분히 적응하고 재밌게 할 수 있습니다. 마인크래프트 느낌으로 돌아다니면서 돌, 나무, 광석 파밍하고 집 짓고.. 파밍지에선 배틀그라운드 느낌으로 싸우고.. 템 먹어도 이스케이프 프롬 타르코프처럼 안전하게 집으로 돌아갈 때까진 내 것이 아닌 것이 너무 쫄깃하고 재밌어요.",
         "평소 PVP 게임 잘 안함 약탈당하고 내 케릭 죽는 것 몹시 싫어해서 안했었는데 할인해서 알아보니까 PVE 섭도 있다고 해서 구매함. 갓겜 초갓겜",
-        "쓰잘데기 없는 업데이트 하지 말고 최적화나 손봐라",
         "인생을 게임에 올인하고 싶을때 하는게임 파밍 지옥을 맛보고 싶다면 당장 이게임을 사라",
-        "똥내나는최적화 똥내나는핑 인생역전한방만 아니여도.....",
-        "시간 빌게이츠 들의 게임 최적화 반영, 현생을 살고 싶으면 게임 비추."
+        "ㅈ같음 열심히 집지으면 보고있어도털리고 안봐도 털리고 내가 털려고하면 뒤지고 파밍좀 하려하니 뒤지고 그냥 걸어가니 뒤지고 뭘하든 일단 뒤지는데 레이드 제대로 한번 성공하면 기분 ㅈㄴ 좋아져서 접으려해도 접을수가 없음",
+        "게임 성은 좋은데 너무 잘 튕기잖아! ㅋㅋㅋㅋㅋ",
+        "게임은 재밌는데 싱글이 없음 필연적으로 사람들과 부딪히다보면 화딱지남 러스트만이 줄 수 있는 재미는 레이드인데 이 부분이 필연적으로 사람과 맞닿고 부딪혀야 함 거기서 fps 장르 자체를 못하는 손병신은 이게임을 즐길 수 없다는 걸 깨닫고 나면 이제 이 게임 진입장벽을 깨닫고 포기하는 식으로 굴러감 싱글 나올 때까지 숨 참는다"
       ],
       "evidence_snippets": [
-        "초반에 죽으면서 하는겜입니다. 이게임 할거면 플레이타임 최소 55시간은 할거라 생각하고 하세요. 친구랑 하면 물론 더 재밌습니다 원래 천천히 성장하는 게임이니 초반에 죽었다고 화내진 마세요~",
-        "첨하는사람은 외국섭 가서 야생의 무서움을 한번 느낀 다음에 한국 사설 pve섭 가서 게임 컨텐츠좀 뜯어먹다가 숙련되었을때쯤 pvp 가서 노세요 개추 ㅋㅋ",
-        "뉴비 진입장벽이 높은 건 맞지만, PVE 서버 (플레이어간 pvp가 금지인 서버) 들어가서 기본적인 개념을 익혀보다가, 공식 서버에서 시골동네에 집짓고 살면 충분히 적응하고 재밌게 할 수 있습니다. 마인크래프트 느낌으로 돌아다니면서 돌, 나무, 광석 파밍하고 집 짓고.. 파밍지에선 배틀그라운드 느낌으로 싸우고.. 템 먹어도 이스케이프 프롬 타르코프처럼 안전하게 집으로 돌아갈 때까진 내 것이 아닌 것이 너무 쫄깃하고 재밌어요."
+        "뉴비 진입장벽이 높은 건 맞지만, PVE 서버 (플레이어간 pvp가 금지인 서버) 들어가서 기본적인 개념을 익혀보다가, 공식 서버에서 시골동네에 집짓고 살면 충분히 적응하고 재밌게 할 수 있습니다. 마인크래프트 느낌으로 돌아다니면서 돌, 나무, 광석 파밍하고 집 짓고.. 파밍지에선 배틀그라운드 느낌으로 싸우고.. 템 먹어도 이스케이프 프롬 타르코프처럼 안전하게 집으로 돌아갈 때까진 내 것이 아닌 것이 너무 쫄깃하고 재밌어요.",
+        "평소 PVP 게임 잘 안함 약탈당하고 내 케릭 죽는 것 몹시 싫어해서 안했었는데 할인해서 알아보니까 PVE 섭도 있다고 해서 구매함. 갓겜 초갓겜",
+        "게임은 재밌는데 싱글이 없음 필연적으로 사람들과 부딪히다보면 화딱지남 러스트만이 줄 수 있는 재미는 레이드인데 이 부분이 필연적으로 사람과 맞닿고 부딪혀야 함 거기서 fps 장르 자체를 못하는 손병신은 이게임을 즐길 수 없다는 걸 깨닫고 나면 이제 이 게임 진입장벽을 깨닫고 포기하는 식으로 굴러감 싱글 나올 때까지 숨 참는다"
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-positive-1-1-4214404524218823134",
+          "text": "초반에 죽으면서 하는겜입니다.이게임 할거면 플레이타임 최소 55시간은 할거라 생각하고 하세요.친구랑 하면 물론 더 재밌습니다 원래 천천히 성장하는 게임이니 초반에 죽었다고 화내진 마세요~"
+        },
+        {
+          "review_id": "compress-v3-positive-1-2-4541639583142417760",
+          "text": "첨하는사람은 외국섭 가서 야생의 무서움을 한번 느낀 다음에 한국 사설 pve섭 가서 게임 컨텐츠좀 뜯어먹다가 숙련되었을때쯤 pvp 가서 노세요 개추 ㅋㅋ"
+        },
+        {
+          "review_id": "compress-v3-positive-1-3-1247647526660429371",
+          "text": "뉴비 진입장벽이 높은 건 맞지만, PVE 서버 (플레이어간 pvp가 금지인 서버) 들어가서 기본적인 개념을 익혀보다가, 공식 서버에서 시골동네에 집짓고 살면 충분히 적응하고 재밌게 할 수 있습니다. 마인크래프트 느낌으로 돌아다니면서 돌, 나무, 광석 파밍하고 집 짓고.. 파밍지에선 배틀그라운드 느낌으로 싸우고.. 템 먹어도 이스케이프 프롬 타르코프처럼 안전하게 집으로 돌아갈 때까진 내 것이 아닌 것이 너무 쫄깃하고 재밌어요."
+        },
+        {
+          "review_id": "compress-v3-positive-1-4-2625956763976550933",
+          "text": "평소 PVP 게임 잘 안함 약탈당하고 내 케릭 죽는 것 몹시 싫어해서 안했었는데 할인해서 알아보니까 PVE 섭도 있다고 해서 구매함. 갓겜 초갓겜"
+        },
+        {
+          "review_id": "compress-v3-positive-1-5-5168273730503039397",
+          "text": "인생을 게임에 올인하고 싶을때 하는게임 파밍 지옥을 맛보고 싶다면 당장 이게임을 사라"
+        },
+        {
+          "review_id": "compress-v3-positive-1-6-4488423471448011921",
+          "text": "ㅈ같음 열심히 집지으면 보고있어도털리고 안봐도 털리고 내가 털려고하면 뒤지고 파밍좀 하려하니 뒤지고 그냥 걸어가니 뒤지고 뭘하든 일단 뒤지는데 레이드 제대로 한번 성공하면 기분 ㅈㄴ 좋아져서 접으려해도 접을수가 없음"
+        },
+        {
+          "review_id": "compress-v3-positive-1-7-6338688138105941537",
+          "text": "게임 성은 좋은데 너무 잘 튕기잖아! ㅋㅋㅋㅋㅋ"
+        },
+        {
+          "review_id": "compress-v3-positive-1-8-4605661918387276566",
+          "text": "게임은 재밌는데 싱글이 없음 필연적으로 사람들과 부딪히다보면 화딱지남 러스트만이 줄 수 있는 재미는 레이드인데 이 부분이 필연적으로 사람과 맞닿고 부딪혀야 함 거기서 fps 장르 자체를 못하는 손병신은 이게임을 즐길 수 없다는 걸 깨닫고 나면 이제 이 게임 진입장벽을 깨닫고 포기하는 식으로 굴러감 싱글 나올 때까지 숨 참는다"
+        }
       ]
     },
     {
       "block_id": "risk_1",
-      "title": "매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크 때문에 플레이 흐름이 끊긴다는 반응",
+      "title": "팀플레이 피로가 크다는 반응이다.",
       "theme": "매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크",
-      "why_it_matters": "멀티플레이에서 매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크 불편가 반복되면 초반 만족도가 크게 떨어질 수 있어 구매 전 감수 여부 확인가 필요합니다.",
-      "explanation": "멀티플레이에서 매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크 불편가 반복되면 초반 만족도가 크게 떨어질 수 있어 구매 전 감수 여부 확인가 필요합니다.",
+      "why_it_matters": "팀 플레이 피로를 말하는 리뷰가 있어, 소통과 팀 분위기에 민감하면 스트레스를 받을 수 있습니다.",
+      "explanation": "팀 플레이 피로를 말하는 리뷰가 있어, 소통과 팀 분위기에 민감하면 스트레스를 받을 수 있습니다.",
       "aspect_keys": [
         "multiplayer"
       ],
       "stance": "negative",
       "consensus_level": "high",
-      "mention_count": 1147,
+      "mention_count": 1415,
       "evidence_quality_level": "strict",
       "evidence_candidate_snippets": [
         "잠시 휴가 갔다온 사이 해외에서 해킹 해서 털고 서버 들어가서 핵써가지고 정지 당했네요.. 조심하세요 다들 안풀어줍니다 그 누구든지 핵을 쓰면 보안 책임을 지라네요.",
@@ -264,33 +1289,59 @@
       ],
       "evidence_snippets": [
         "잠시 휴가 갔다온 사이 해외에서 해킹 해서 털고 서버 들어가서 핵써가지고 정지 당했네요.. 조심하세요 다들 안풀어줍니다 그 누구든지 핵을 쓰면 보안 책임을 지라네요.",
-        "예전에는 원래 혼자라도 적당한 인원 수의 서버에서 굳이 파밍지를 가지 않더라도, 천천히 성장할 수 있었는데 블루프린트 조각 추가 후 혼자서는 파밍지 털기가 쉽지 않습니다. 원래도 다인큐가 유리하긴 했는데 개고인물이 아닌 일반적인 솔로 유저라면 플레이 자체가 거의 불가능한 느낌을 받아서 비추합니다.",
         "정신병자 시발 존나 많네 고인물들 많고 핵쟁이도 많아 개쓰레기고 그것보다는 짱깨새기들이 30명 넘게 같이 파티 만들어서 레이드 하는데 어떡하라는거임 시이발"
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-negative-1-1-2970593816206638050",
+          "text": "잠시 휴가 갔다온 사이 해외에서 해킹 해서 털고 서버 들어가서 핵써가지고 정지 당했네요.. 조심하세요 다들 안풀어줍니다 그 누구든지 핵을 쓰면 보안 책임을 지라네요."
+        },
+        {
+          "review_id": "compress-v3-negative-1-2-8460523415581869860",
+          "text": "예전에는 원래 혼자라도 적당한 인원 수의 서버에서 굳이 파밍지를 가지 않더라도, 천천히 성장할 수 있었는데 블루프린트 조각 추가 후 혼자서는 파밍지 털기가 쉽지 않습니다. 원래도 다인큐가 유리하긴 했는데 개고인물이 아닌 일반적인 솔로 유저라면 플레이 자체가 거의 불가능한 느낌을 받아서 비추합니다."
+        },
+        {
+          "review_id": "compress-v3-negative-1-3-2843106797239976081",
+          "text": "정신병자 시발 존나 많네 고인물들 많고 핵쟁이도 많아 개쓰레기고 그것보다는 짱깨새기들이 30명 넘게 같이 파티 만들어서 레이드 하는데 어떡하라는거임 시이발"
+        }
       ]
     },
     {
       "block_id": "risk_2",
-      "title": "중후반 반복감이 커지면 동기 유지가 떨어질 수 있는 리스크 때문에 플레이 흐름이 끊긴다는 반응",
+      "title": "반복감 때문에 중후반에 동력이 떨어진다는 반응",
       "theme": "중후반 반복감이 커지면 동기 유지가 떨어질 수 있는 리스크",
-      "why_it_matters": "콘텐츠 볼륨에서 중후반 반복감이 커지면 동기 유지가 떨어질 수 있는 리스크 불편가 반복되면 초반 만족도가 크게 떨어질 수 있어 구매 전 감수 여부 확인가 필요합니다.",
-      "explanation": "콘텐츠 볼륨에서 중후반 반복감이 커지면 동기 유지가 떨어질 수 있는 리스크 불편가 반복되면 초반 만족도가 크게 떨어질 수 있어 구매 전 감수 여부 확인가 필요합니다.",
+      "why_it_matters": "반복감 이야기가 모여 있어 새로움이 빠르게 줄어들면 동력이 떨어질 수 있습니다.",
+      "explanation": "반복감 이야기가 모여 있어 새로움이 빠르게 줄어들면 동력이 떨어질 수 있습니다.",
       "aspect_keys": [
         "content_depth"
       ],
       "stance": "negative",
       "consensus_level": "high",
-      "mention_count": 432,
+      "mention_count": 539,
       "evidence_quality_level": "strict",
       "evidence_candidate_snippets": [
         "예전에는 원래 혼자라도 적당한 인원 수의 서버에서 굳이 파밍지를 가지 않더라도, 천천히 성장할 수 있었는데 블루프린트 조각 추가 후 혼자서는 파밍지 털기가 쉽지 않습니다. 원래도 다인큐가 유리하긴 했는데 개고인물이 아닌 일반적인 솔로 유저라면 플레이 자체가 거의 불가능한 느낌을 받아서 비추합니다.",
         "이 게임 절대 구매하면 안됩니다 군대 전역하고 해봤는데 인생이 망가져요 초반에는 아무것도 몰라서 전기배선 연결방법 찾아보고 집 짓는거 영상도 찾아보고 했는데 그런거 다 소용 없습니다 뭘해도 털려요 하루종일 도망다니면서 40시간 동안 파밍한게 한 순간에 사리지는걸 보니깐 화도 안나고 허탈함에 의욕을 상실합니다 사실 방금 털렸는데 스팀에 글 처음 쓸 정도로 화가 나서 참을수가 없습니다 저희 집을 털어간 러시아놈 때문에 우크라이나 용병 마렵네요 하,,,,, 혹여나 이 글을 보시는 분들은 제발 구매하지 마세요",
-        "이 게임 사지마세요. 1900시간 했지만 개시발 좆같은 게임임 예전에 비해서 ㅈ같은 패치가 너무 많이 됐음 특히 발사기지외에도 생성되는 브래들리 너무 ㅈ같음 파밍지 카운터 가면 갑자기 뜬금없는 곳에서 내 시야에 보이지도 않는데 브래들리가 쳐쏘니까 적한테 위치 들키고 뒤져버리기 일쑤임. 그러니까 이제는 파밍지에서 교전을 하는게 아니라 브래들리 피하기 해야함 씨1발 이런 좆같은 기분을 느끼게 하는 패치를 여러가지 하다보니까 뉴비들은 진입장벽이 높을 수 밖에 없음. 그리고 이 게임을 솔로로 플레이 하시려는거면 더더욱 사지마세요. 애초에 러스트는 인원이 많을수록 극도로 유리해지는 게임이고, 개발진들도 저그들을 위한 패치만 함. 시발 개좆망겜 서버 들어가면 튕기고 다시 들어가면 또 튕기고 개지랄하네",
-        "89시간동안 배운게 집 털리기랑 파밍한거 다 뺏기기 뿐이라 서러워 죽겠네"
+        "이 게임 사지마세요. 1900시간 했지만 개시발 좆같은 게임임 예전에 비해서 ㅈ같은 패치가 너무 많이 됐음 특히 발사기지외에도 생성되는 브래들리 너무 ㅈ같음 파밍지 카운터 가면 갑자기 뜬금없는 곳에서 내 시야에 보이지도 않는데 브래들리가 쳐쏘니까 적한테 위치 들키고 뒤져버리기 일쑤임. 그러니까 이제는 파밍지에서 교전을 하는게 아니라 브래들리 피하기 해야함 씨1발 이런 좆같은 기분을 느끼게 하는 패치를 여러가지 하다보니까 뉴비들은 진입장벽이 높을 수 밖에 없음. 그리고 이 게임을 솔로로 플레이 하시려는거면 더더욱 사지마세요. 애초에 러스트는 인원이 많을수록 극도로 유리해지는 게임이고, 개발진들도 저그들을 위한 패치만 함. 시발 개좆망겜 서버 들어가면 튕기고 다시 들어가면 또 튕기고 개지랄하네"
       ],
       "evidence_snippets": [
-        "예전에는 원래 혼자라도 적당한 인원 수의 서버에서 굳이 파밍지를 가지 않더라도, 천천히 성장할 수 있었는데 블루프린트 조각 추가 후 혼자서는 파밍지 털기가 쉽지 않습니다. 원래도 다인큐가 유리하긴 했는데 개고인물이 아닌 일반적인 솔로 유저라면 플레이 자체가 거의 불가능한 느낌을 받아서 비추합니다.",
         "이 게임 절대 구매하면 안됩니다 군대 전역하고 해봤는데 인생이 망가져요 초반에는 아무것도 몰라서 전기배선 연결방법 찾아보고 집 짓는거 영상도 찾아보고 했는데 그런거 다 소용 없습니다 뭘해도 털려요 하루종일 도망다니면서 40시간 동안 파밍한게 한 순간에 사리지는걸 보니깐 화도 안나고 허탈함에 의욕을 상실합니다 사실 방금 털렸는데 스팀에 글 처음 쓸 정도로 화가 나서 참을수가 없습니다 저희 집을 털어간 러시아놈 때문에 우크라이나 용병 마렵네요 하,,,,, 혹여나 이 글을 보시는 분들은 제발 구매하지 마세요",
-        "89시간동안 배운게 집 털리기랑 파밍한거 다 뺏기기 뿐이라 서러워 죽겠네"
+        "예전에는 원래 혼자라도 적당한 인원 수의 서버에서 굳이 파밍지를 가지 않더라도, 천천히 성장할 수 있었는데 블루프린트 조각 추가 후 혼자서는 파밍지 털기가 쉽지 않습니다. 원래도 다인큐가 유리하긴 했는데 개고인물이 아닌 일반적인 솔로 유저라면 플레이 자체가 거의 불가능한 느낌을 받아서 비추합니다.",
+        "이 게임 사지마세요. 1900시간 했지만 개시발 좆같은 게임임 예전에 비해서 ㅈ같은 패치가 너무 많이 됐음 특히 발사기지외에도 생성되는 브래들리 너무 ㅈ같음 파밍지 카운터 가면 갑자기 뜬금없는 곳에서 내 시야에 보이지도 않는데 브래들리가 쳐쏘니까 적한테 위치 들키고 뒤져버리기 일쑤임. 그러니까 이제는 파밍지에서 교전을 하는게 아니라 브래들리 피하기 해야함 씨1발 이런 좆같은 기분을 느끼게 하는 패치를 여러가지 하다보니까 뉴비들은 진입장벽이 높을 수 밖에 없음. 그리고 이 게임을 솔로로 플레이 하시려는거면 더더욱 사지마세요. 애초에 러스트는 인원이 많을수록 극도로 유리해지는 게임이고, 개발진들도 저그들을 위한 패치만 함. 시발 개좆망겜 서버 들어가면 튕기고 다시 들어가면 또 튕기고 개지랄하네"
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-negative-2-1-8460523415581869860",
+          "text": "예전에는 원래 혼자라도 적당한 인원 수의 서버에서 굳이 파밍지를 가지 않더라도, 천천히 성장할 수 있었는데 블루프린트 조각 추가 후 혼자서는 파밍지 털기가 쉽지 않습니다. 원래도 다인큐가 유리하긴 했는데 개고인물이 아닌 일반적인 솔로 유저라면 플레이 자체가 거의 불가능한 느낌을 받아서 비추합니다."
+        },
+        {
+          "review_id": "compress-v3-negative-2-2-3833928693102224391",
+          "text": "이 게임 절대 구매하면 안됩니다 군대 전역하고 해봤는데 인생이 망가져요 초반에는 아무것도 몰라서 전기배선 연결방법 찾아보고 집 짓는거 영상도 찾아보고 했는데 그런거 다 소용 없습니다 뭘해도 털려요 하루종일 도망다니면서 40시간 동안 파밍한게 한 순간에 사리지는걸 보니깐 화도 안나고 허탈함에 의욕을 상실합니다 사실 방금 털렸는데 스팀에 글 처음 쓸 정도로 화가 나서 참을수가 없습니다 저희 집을 털어간 러시아놈 때문에 우크라이나 용병 마렵네요 하,,,,, 혹여나 이 글을 보시는 분들은 제발 구매하지 마세요"
+        },
+        {
+          "review_id": "compress-v3-negative-2-3-3687000186949359882",
+          "text": "이 게임 사지마세요. 1900시간 했지만 개시발 좆같은 게임임 예전에 비해서 ㅈ같은 패치가 너무 많이 됐음 특히 발사기지외에도 생성되는 브래들리 너무 ㅈ같음 파밍지 카운터 가면 갑자기 뜬금없는 곳에서 내 시야에 보이지도 않는데 브래들리가 쳐쏘니까 적한테 위치 들키고 뒤져버리기 일쑤임. 그러니까 이제는 파밍지에서 교전을 하는게 아니라 브래들리 피하기 해야함 씨1발 이런 좆같은 기분을 느끼게 하는 패치를 여러가지 하다보니까 뉴비들은 진입장벽이 높을 수 밖에 없음. 그리고 이 게임을 솔로로 플레이 하시려는거면 더더욱 사지마세요. 애초에 러스트는 인원이 많을수록 극도로 유리해지는 게임이고, 개발진들도 저그들을 위한 패치만 함. 시발 개좆망겜 서버 들어가면 튕기고 다시 들어가면 또 튕기고 개지랄하네"
+        }
       ]
     }
   ]
