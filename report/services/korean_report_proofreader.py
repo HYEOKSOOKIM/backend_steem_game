@@ -70,7 +70,7 @@ class KoreanReportProofreader:
         max_llm_texts: int | None = None,
     ) -> None:
         self.api_key = api_key or os.getenv("OPENAI_API_KEY")
-        self.model = model or os.getenv("OPENAI_MODEL", "gpt-4o-mini")
+        self.model = model or os.getenv("OPENAI_REPORT_PROOFREADER_MODEL", "gpt-4o-mini")
         self.max_llm_texts = max_llm_texts or int(os.getenv("REPORT_PROOFREAD_MAX_LLM_TEXTS", "24"))
         self._client = (
             OpenAI(api_key=self.api_key)

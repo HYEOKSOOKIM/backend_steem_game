@@ -1,0 +1,25 @@
+{
+  "appid": 3269810,
+  "name": "KNOCKOFF",
+  "genres": [
+    "액션",
+    "어드벤처",
+    "인디",
+    "RPG"
+  ],
+  "price_model": "paid",
+  "release_stage": "released",
+  "release_date_text": "2026년 4월 21일",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3269810/4155d36610c3751de69cb9fc4341ecc4ba9ae953/header.jpg?t=1776828946",
+  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3269810/80d43d9ef9b63bfc7980c1b6c0c6a23eebc086f5/capsule_231x87.jpg?t=1776828946",
+  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3269810/80d43d9ef9b63bfc7980c1b6c0c6a23eebc086f5/capsule_184x69.jpg?t=1776828946",
+  "short_description": "It's ~KNOCKOFF~! Fight through a haunted mall in this isometric brawler that combines bullet hell with combo heavy combat!",
+  "steam_store_url": "https://store.steampowered.com/app/3269810",
+  "steam_recommendation_count": null,
+  "steam_review_score_desc": "No user reviews",
+  "steam_total_positive": 0,
+  "steam_total_negative": 0,
+  "steam_total_reviews": 0,
+  "is_free": false,
+  "coming_soon": false
+}

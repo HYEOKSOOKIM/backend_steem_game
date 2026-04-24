@@ -9,6 +9,16 @@
   "price_model": "paid",
   "release_stage": "released",
   "release_date_text": "2025년 11월 4일",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3551340/7d28b9aa8dcfcd96593d112736f58b4b1d3cc7a4/header.jpg?t=1775667513",
+  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3551340/89a157ed8100b4c8fa49de9fda0b3a83aece1f5e/capsule_231x87.jpg?t=1775667513",
+  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3551340/89a157ed8100b4c8fa49de9fda0b3a83aece1f5e/capsule_184x69.jpg?t=1775667513",
+  "short_description": "지금 필드로 향해, 축구 클럽 경영의 미래를 경험해 보세요.",
+  "steam_store_url": "https://store.steampowered.com/app/3551340",
+  "steam_recommendation_count": 18659,
+  "steam_review_score_desc": "Overwhelmingly Negative",
+  "steam_total_positive": 250,
+  "steam_total_negative": 1664,
+  "steam_total_reviews": 1914,
   "is_free": false,
   "coming_soon": false
 }

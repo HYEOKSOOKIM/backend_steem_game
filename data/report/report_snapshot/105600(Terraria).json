@@ -1,0 +1,428 @@
+{
+  "schema_version": "report.v1",
+  "app_id": 105600,
+  "snapshot_at": "2026-04-22T02:17:13.957704+00:00",
+  "window_days": 90,
+  "data_quality": {
+    "review_count_total": 17679,
+    "review_count_eligible": 10317,
+    "confidence": 85.0,
+    "flags": [
+      "ok"
+    ]
+  },
+  "snapshot": {
+    "decision_label": "buy_now",
+    "decision_score": 96.5,
+    "decision_confidence": 85.0,
+    "key_drivers": [
+      {
+        "type": "benefit",
+        "category": "content_depth",
+        "strength": 0.1629
+      },
+      {
+        "type": "benefit",
+        "category": "multiplayer",
+        "strength": 0.1374
+      },
+      {
+        "type": "benefit",
+        "category": "mod_support",
+        "strength": 0.0814
+      }
+    ]
+  },
+  "category_distribution": [
+    {
+      "category": "content_depth",
+      "share": 0.2283,
+      "mentions": 1743
+    },
+    {
+      "category": "multiplayer",
+      "share": 0.2017,
+      "mentions": 1540
+    },
+    {
+      "category": "mod_support",
+      "share": 0.1134,
+      "mentions": 866
+    },
+    {
+      "category": "gameplay",
+      "share": 0.108,
+      "mentions": 825
+    },
+    {
+      "category": "difficulty",
+      "share": 0.0808,
+      "mentions": 617
+    },
+    {
+      "category": "monetization",
+      "share": 0.0625,
+      "mentions": 477
+    },
+    {
+      "category": "story",
+      "share": 0.0398,
+      "mentions": 304
+    },
+    {
+      "category": "save_progression",
+      "share": 0.0338,
+      "mentions": 258
+    },
+    {
+      "category": "graphics",
+      "share": 0.0334,
+      "mentions": 255
+    },
+    {
+      "category": "building_ux",
+      "share": 0.0325,
+      "mentions": 248
+    },
+    {
+      "category": "bugs",
+      "share": 0.0168,
+      "mentions": 128
+    },
+    {
+      "category": "localization",
+      "share": 0.0148,
+      "mentions": 113
+    },
+    {
+      "category": "controls",
+      "share": 0.0141,
+      "mentions": 108
+    },
+    {
+      "category": "performance",
+      "share": 0.0075,
+      "mentions": 57
+    },
+    {
+      "category": "balance",
+      "share": 0.0068,
+      "mentions": 52
+    },
+    {
+      "category": "customization",
+      "share": 0.0059,
+      "mentions": 45
+    }
+  ],
+  "sentiment_x_category": [
+    {
+      "category": "content_depth",
+      "positive": 0.9822,
+      "negative": 0.0178,
+      "net": 0.9644,
+      "impact_rank": 1
+    },
+    {
+      "category": "multiplayer",
+      "positive": 0.9604,
+      "negative": 0.0396,
+      "net": 0.9208,
+      "impact_rank": 2
+    },
+    {
+      "category": "mod_support",
+      "positive": 0.985,
+      "negative": 0.015,
+      "net": 0.97,
+      "impact_rank": 3
+    },
+    {
+      "category": "gameplay",
+      "positive": 0.9758,
+      "negative": 0.0242,
+      "net": 0.9515,
+      "impact_rank": 4
+    },
+    {
+      "category": "difficulty",
+      "positive": 0.966,
+      "negative": 0.034,
+      "net": 0.9319,
+      "impact_rank": 5
+    },
+    {
+      "category": "monetization",
+      "positive": 0.9539,
+      "negative": 0.0461,
+      "net": 0.9078,
+      "impact_rank": 6
+    },
+    {
+      "category": "story",
+      "positive": 0.9342,
+      "negative": 0.0658,
+      "net": 0.8684,
+      "impact_rank": 7
+    },
+    {
+      "category": "building_ux",
+      "positive": 0.9879,
+      "negative": 0.0121,
+      "net": 0.9758,
+      "impact_rank": 8
+    },
+    {
+      "category": "graphics",
+      "positive": 0.9686,
+      "negative": 0.0314,
+      "net": 0.9373,
+      "impact_rank": 9
+    },
+    {
+      "category": "save_progression",
+      "positive": 0.9225,
+      "negative": 0.0775,
+      "net": 0.845,
+      "impact_rank": 10
+    },
+    {
+      "category": "localization",
+      "positive": 0.9823,
+      "negative": 0.0177,
+      "net": 0.9646,
+      "impact_rank": 11
+    },
+    {
+      "category": "controls",
+      "positive": 0.9074,
+      "negative": 0.0926,
+      "net": 0.8148,
+      "impact_rank": 12
+    },
+    {
+      "category": "bugs",
+      "positive": 0.8281,
+      "negative": 0.1719,
+      "net": 0.6562,
+      "impact_rank": 13
+    },
+    {
+      "category": "balance",
+      "positive": 0.9615,
+      "negative": 0.0385,
+      "net": 0.9231,
+      "impact_rank": 14
+    },
+    {
+      "category": "customization",
+      "positive": 0.9778,
+      "negative": 0.0222,
+      "net": 0.9556,
+      "impact_rank": 15
+    },
+    {
+      "category": "performance",
+      "positive": 0.807,
+      "negative": 0.193,
+      "net": 0.614,
+      "impact_rank": 16
+    }
+  ],
+  "top_themes": [
+    {
+      "theme_code": "콘텐츠_부족",
+      "label": "콘텐츠 부족",
+      "category": "content_depth",
+      "polarity": "positive",
+      "coverage": 0.1689,
+      "impact": 0.1659
+    },
+    {
+      "theme_code": "반복_목적성_부족",
+      "label": "반복 / 목적성 부족",
+      "category": "content_depth",
+      "polarity": "positive",
+      "coverage": 0.1689,
+      "impact": 0.1659
+    },
+    {
+      "theme_code": "중독성_시간순삭",
+      "label": "중독성 / 시간순삭",
+      "category": "content_depth",
+      "polarity": "positive",
+      "coverage": 0.1689,
+      "impact": 0.1659
+    },
+    {
+      "theme_code": "멀티플레이_경험",
+      "label": "멀티플레이 경험",
+      "category": "multiplayer",
+      "polarity": "positive",
+      "coverage": 0.1493,
+      "impact": 0.1434
+    },
+    {
+      "theme_code": "매칭_서버_문제",
+      "label": "매칭 / 서버 문제",
+      "category": "multiplayer",
+      "polarity": "positive",
+      "coverage": 0.1493,
+      "impact": 0.1434
+    },
+    {
+      "theme_code": "부정행위_보안_이슈",
+      "label": "부정행위 / 보안 이슈",
+      "category": "multiplayer",
+      "polarity": "positive",
+      "coverage": 0.1493,
+      "impact": 0.1434
+    },
+    {
+      "theme_code": "모드_지원_호환_문제",
+      "label": "모드 지원 / 호환 문제",
+      "category": "mod_support",
+      "polarity": "positive",
+      "coverage": 0.0839,
+      "impact": 0.0827
+    },
+    {
+      "theme_code": "전투_손맛_액션_호평",
+      "label": "전투 손맛 / 액션 호평",
+      "category": "gameplay",
+      "polarity": "positive",
+      "coverage": 0.08,
+      "impact": 0.078
+    }
+  ],
+  "evidence_blocks": [
+    {
+      "id": "ev_001",
+      "category": "content_depth",
+      "theme_code": "콘텐츠_부족",
+      "polarity": "negative",
+      "quote": "크래프팅이랑 건축 요소가 강한 액션 게임. 잘 만들었고 재밌긴 한데, 몇몇 문제가 플레이 경험에 있어 좀 치명적이라 쌩 바닐라 기준으로는 일반적으로 추천하긴 좀 애매\n\n1. 마스터 기준 보스전 난이도가 상당한데, 게임 시스템이 보스전 무한 리트 박을 수가 없음. 보스 한 번 소환하는 데에 이것저것 해야 돼서 무의미하게 날리는 시간이 어마어마하게 많음. 엄청 넓은 지역에 어디에 있을지 모를 것",
+      "review_meta": {
+        "created_at": "2024-10-12",
+        "playtime_minutes": 3480,
+        "votes_up": 163
+      },
+      "evidence_score": 3.0
+    },
+    {
+      "id": "ev_002",
+      "category": "content_depth",
+      "theme_code": "콘텐츠_부족",
+      "polarity": "positive",
+      "quote": "이게 진짜 마지막 업데이트야...",
+      "review_meta": {
+        "created_at": "2026-04-13",
+        "playtime_minutes": 57334,
+        "votes_up": 26
+      },
+      "evidence_score": 3.0
+    },
+    {
+      "id": "ev_003",
+      "category": "multiplayer",
+      "theme_code": "멀티플레이_경험",
+      "polarity": "negative",
+      "quote": "친구랑 하지마세요친구랑 하지마세요친구랑 하지마세요친구랑 하지마세요친구랑 하지마세요친구랑 하지마세요친구랑 하지마세요친구랑 하지마세요친구랑 하지마세요친구랑 하지마세요친구랑 하지마세요친구랑 하지마세요친구랑 하지마세요친구랑 하지마세요친구랑 하지마세요친구랑 하지마세요친구랑 하지마세요친구랑 하지마세요친구랑 하지마세요친구랑 하지마세요친구랑 하지마세요친구랑 하지마세요친구랑 하지마세요친구랑 하지마세요친구랑 ",
+      "review_meta": {
+        "created_at": "2025-04-21",
+        "playtime_minutes": 8365,
+        "votes_up": 22
+      },
+      "evidence_score": 3.0
+    },
+    {
+      "id": "ev_004",
+      "category": "multiplayer",
+      "theme_code": "멀티플레이_경험",
+      "polarity": "positive",
+      "quote": "어릴 적 친구들과 웃음으로 밤을 새우게 해준,\n함께한다는 즐거움의 첫 문장.\n지금은 나는 훌쩍 커서 어른이 되어버렸지만\n아직도 친구들과 함께 웃을 수 있어",
+      "review_meta": {
+        "created_at": "2026-03-03",
+        "playtime_minutes": 4461,
+        "votes_up": 66
+      },
+      "evidence_score": 3.0
+    },
+    {
+      "id": "ev_005",
+      "category": "mod_support",
+      "theme_code": "모드_지원_호환_문제",
+      "polarity": "negative",
+      "quote": "크래프팅이랑 건축 요소가 강한 액션 게임. 잘 만들었고 재밌긴 한데, 몇몇 문제가 플레이 경험에 있어 좀 치명적이라 쌩 바닐라 기준으로는 일반적으로 추천하긴 좀 애매\n\n1. 마스터 기준 보스전 난이도가 상당한데, 게임 시스템이 보스전 무한 리트 박을 수가 없음. 보스 한 번 소환하는 데에 이것저것 해야 돼서 무의미하게 날리는 시간이 어마어마하게 많음. 엄청 넓은 지역에 어디에 있을지 모를 것",
+      "review_meta": {
+        "created_at": "2024-10-12",
+        "playtime_minutes": 3480,
+        "votes_up": 163
+      },
+      "evidence_score": 3.0
+    },
+    {
+      "id": "ev_006",
+      "category": "mod_support",
+      "theme_code": "모드_지원_호환_문제",
+      "polarity": "positive",
+      "quote": "국밥의 시초\n모드가 많아서 낫베드 점점 강해지는 나\n하지만 한없ㅇ ㅣ무너진다...",
+      "review_meta": {
+        "created_at": "2026-04-16",
+        "playtime_minutes": 7290,
+        "votes_up": 40
+      },
+      "evidence_score": 3.0
+    }
+  ],
+  "trend": {
+    "summary": {
+      "direction": "improving",
+      "up_categories": 0,
+      "down_categories": 2,
+      "flat_categories": 14,
+      "limited_categories": 0
+    },
+    "spikes": []
+  },
+  "reviewer_segment": [
+    {
+      "segment": "new",
+      "segment_label": "0-5h",
+      "sample": 751,
+      "net_sentiment": 0.5792,
+      "top_risk": "multiplayer"
+    },
+    {
+      "segment": "mid",
+      "segment_label": "5-20h",
+      "sample": 1318,
+      "net_sentiment": 0.8164,
+      "top_risk": "multiplayer"
+    },
+    {
+      "segment": "core",
+      "segment_label": "20h+",
+      "sample": 8251,
+      "net_sentiment": 0.9564,
+      "top_risk": "multiplayer"
+    }
+  ],
+  "final_recommendation": {
+    "label": "buy_now",
+    "reason_summary": "Positive signals are dominant in content_depth.",
+    "conditions_to_buy": [
+      "Purchase can be considered at the current price."
+    ],
+    "watch_items": [
+      "content_depth",
+      "multiplayer",
+      "mod_support"
+    ],
+    "inputs": {
+      "risk_index": 0.035,
+      "confidence": 85.0,
+      "trend_direction": "improving"
+    }
+  }
+}

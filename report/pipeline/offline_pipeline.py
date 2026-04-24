@@ -22,6 +22,7 @@ from report.services.steam_reviews import (
     fetch_steam_game_metadata,
     fetch_steam_reviews,
     normalize_steam_game_metadata,
+    normalize_steam_review_summary,
     normalize_steam_reviews,
 )
 from report.storage.file_store import FileStore
@@ -61,6 +62,8 @@ def run_offline_pipeline_for_appid(
     metadata_payload = fetch_steam_game_metadata(appid)
 
     metadata = normalize_steam_game_metadata(appid, metadata_payload)
+    for key, value in normalize_steam_review_summary(steam_payload).items():
+        setattr(metadata, key, value)
     # Keep saved filenames aligned with Steam appdetails name by default.
     # Use manual name only when Steam metadata name is unavailable.
     output_game_name = metadata.name or game_name

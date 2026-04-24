@@ -31,6 +31,22 @@ Rules:
 - Do not mention counts, ratios, or signal terminology.
 - Make it readable in a few seconds.
 - If game_context.is_free is true, prefer free_play_recommended/play_now/try_lightly.
+- Write like polished in-product UX copy for a game report, not like an analyst report.
+- Keep each field short and natural in Korean UI.
+- The headline is the main takeaway. The buy_timing_summary should complement it, not repeat it.
+- Focus on player experience and purchase context.
+- Avoid abstract analysis wording and internal framing.
+- Prefer short, direct, buyer-facing sentences.
+- One key idea per sentence.
+- Keep genre context aligned with the game. Do not introduce genre-specific metaphors that the game does not support.
+- If the game is a shooter, battle royale, sports, simulation, or management title, avoid boss-fight / pattern-learning phrasing unless the provided evidence clearly supports it.
+- Keep good_for and not_good_for close to the provided seed persona items and player_fit_signals.
+- Each good_for / not_good_for item must be a short noun phrase for a player type, not a sentence.
+- End each persona item as a compact phrase such as "...플레이어", "...유저", or "...분".
+- Do not end persona items with sentence endings such as "이다", "입니다", "좋아요", or "필요합니다".
+- Do not invent a new player persona if the provided seed already gives a genre-safe one.
+- Avoid expressions like:
+  "지적이 있습니다", "불만이 많습니다", "가능성이 큽니다", "체감", "포인트", "리스크", "반복되면", "지원합니다", "이어집니다"
 - JSON only.
 """.strip()
 
@@ -41,6 +57,15 @@ Rules:
 - Use high-consensus positive signals first.
 - Describe player experience, not categories or metrics.
 - Return 2~3 concise items.
+- Write like polished in-product UX copy for a game report.
+- Each title should feel like a short, scan-friendly card heading.
+- Each summary should be 1~2 short sentences max.
+- Explain why this feels good to play in plain language.
+- Do not restate the title in the summary.
+- Do not describe analysis logic, metrics, consensus, or category labels.
+- Keep genre context aligned with the game. Avoid importing boss-fight, raid, farming, or management language unless the provided evidence supports it.
+- Avoid analyst/report phrasing such as:
+  "지적이 있습니다", "불만이 많습니다", "가능성이 큽니다", "체감", "포인트", "리스크", "이어집니다"
 - JSON only.
 """.strip()
 
@@ -51,6 +76,15 @@ Rules:
 - Use high-consensus negative signals first.
 - Describe buyer-facing pain points, not category labels.
 - Return 2~3 concise items.
+- Write like polished in-product UX copy for a game report.
+- Each title should feel like a short, scan-friendly card heading.
+- Each summary should be 1~2 short sentences max.
+- State what may feel disappointing, tiring, or frustrating in real play.
+- Keep the tone calm and practical, not alarmist or academic.
+- Do not restate the title in the summary.
+- Keep genre context aligned with the game. Avoid dragging in genre-specific pain points that do not match the provided evidence.
+- Avoid analyst/report phrasing such as:
+  "지적이 있습니다", "불만이 많습니다", "가능성이 큽니다", "체감", "포인트", "리스크", "이어집니다"
 - JSON only.
 """.strip()
 
@@ -61,6 +95,13 @@ Rules:
 - Reflect recent trend from provided signals only.
 - Keep one concise buyer-facing summary without metric wording.
 - Return one clear status + one short summary.
+- Write like polished in-product UX copy for a game report.
+- The summary should describe the recent mood of reviews in plain Korean.
+- Keep it to one short, natural sentence.
+- Do not explain the analysis or mention counts/ratios.
+- Keep the wording aligned with the game's genre and actual play context.
+- Avoid analyst/report phrasing such as:
+  "지적이 있습니다", "불만이 많습니다", "가능성이 큽니다", "체감", "포인트", "리스크", "이어집니다"
 - JSON only.
 """.strip()
 
@@ -86,9 +127,13 @@ class OpenAIReportWriter:
         *,
         api_key: str | None = None,
         model: str | None = None,
+        plan_model: str | None = None,
+        display_model: str | None = None,
     ) -> None:
         self.api_key = api_key or os.getenv("OPENAI_API_KEY")
-        self.model = model or os.getenv("OPENAI_MODEL", "gpt-4o-mini")
+        fallback_model = model or os.getenv("OPENAI_MODEL", "gpt-4o-mini")
+        self.plan_model = plan_model or os.getenv("OPENAI_REPORT_PLAN_MODEL", fallback_model)
+        self.display_model = display_model or os.getenv("OPENAI_REPORT_DISPLAY_MODEL", "gpt-4.1-mini")
         self._client = (
             OpenAI(api_key=self.api_key)
             if OpenAI is not None and self.api_key
@@ -133,6 +178,7 @@ class OpenAIReportWriter:
             },
         }
         candidate = self._chat_json(
+            model=self.plan_model,
             system_prompt=PLAN_SYSTEM_PROMPT,
             user_payload=user_payload,
             timeout_seconds=timeout_seconds,
@@ -215,6 +261,7 @@ class OpenAIReportWriter:
                 "buy_timing_summary": seed_display.get("buy_timing_summary"),
                 "good_for": seed_display.get("good_for", []),
                 "not_good_for": seed_display.get("not_good_for", []),
+                "player_fit_signals": seed_display.get("player_fit_signals", {}),
             },
             "consensus_payload": consensus_payload,
             "output_contract": {
@@ -226,6 +273,7 @@ class OpenAIReportWriter:
             },
         }
         candidate = self._chat_json(
+            model=self.display_model,
             system_prompt=CORE_SYSTEM_PROMPT,
             user_payload=user_payload,
             timeout_seconds=timeout_seconds,
@@ -254,6 +302,7 @@ class OpenAIReportWriter:
             },
         }
         candidate = self._chat_json(
+            model=self.display_model,
             system_prompt=STRENGTHS_SYSTEM_PROMPT,
             user_payload=user_payload,
             timeout_seconds=timeout_seconds,
@@ -282,6 +331,7 @@ class OpenAIReportWriter:
             },
         }
         candidate = self._chat_json(
+            model=self.display_model,
             system_prompt=RISKS_SYSTEM_PROMPT,
             user_payload=user_payload,
             timeout_seconds=timeout_seconds,
@@ -313,6 +363,7 @@ class OpenAIReportWriter:
             },
         }
         candidate = self._chat_json(
+            model=self.display_model,
             system_prompt=RECENT_STATE_SYSTEM_PROMPT,
             user_payload=user_payload,
             timeout_seconds=timeout_seconds,
@@ -325,6 +376,7 @@ class OpenAIReportWriter:
     def _chat_json(
         self,
         *,
+        model: str,
         system_prompt: str,
         user_payload: dict[str, Any],
         timeout_seconds: int,
@@ -340,7 +392,7 @@ class OpenAIReportWriter:
         for _ in range(retry_limit + 1):
             try:
                 response = self._client.chat.completions.create(
-                    model=self.model,
+                    model=model,
                     messages=[
                         {"role": "system", "content": system_prompt},
                         {"role": "user", "content": prompt},
