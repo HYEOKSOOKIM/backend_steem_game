@@ -20,6 +20,7 @@ venv/
 *.log
 
 # local runtime data
+.hf_cache/
 data/steam_mvp.db
 data/steam_mvp.db-shm
 data/steam_mvp.db-wal

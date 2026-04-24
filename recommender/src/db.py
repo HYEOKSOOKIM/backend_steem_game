@@ -70,6 +70,16 @@ CREATE TABLE IF NOT EXISTS eval_results (
   FOREIGN KEY (eval_query_id) REFERENCES eval_queries(id),
   FOREIGN KEY (app_id) REFERENCES games(app_id)
 );
+
+-- Query acceleration indexes (no behavioral change).
+CREATE INDEX IF NOT EXISTS idx_reviews_app_recent
+ON reviews(app_id, review_date DESC);
+
+CREATE INDEX IF NOT EXISTS idx_reviews_app_vote_trust_recent
+ON reviews(app_id, voted_up, trust_label, review_date DESC);
+
+CREATE INDEX IF NOT EXISTS idx_reviews_app_vote_recent
+ON reviews(app_id, voted_up, review_date DESC);
 """
 
 

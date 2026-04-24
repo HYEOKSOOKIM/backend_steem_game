@@ -1,7 +1,9 @@
 ﻿from __future__ import annotations
 
+import os
 import re
 from functools import lru_cache
+from pathlib import Path
 
 
 CONFIDENCE_KO = {
@@ -28,6 +30,7 @@ GENRE_KO = {
 }
 
 _EN_RE = re.compile(r"[A-Za-z]")
+_DEFAULT_TRANSLATION_MODEL = "Helsinki-NLP/opus-mt-tc-big-en-ko"
 
 
 def confidence_to_ko(label: str) -> str:
@@ -45,9 +48,18 @@ def _looks_english(text: str) -> bool:
 @lru_cache(maxsize=1)
 def _load_translator():
     # Lazy-load translator only when needed.
+    model_name = (os.getenv("TRANSLATION_MODEL") or _DEFAULT_TRANSLATION_MODEL).strip()
+    cache_dir = os.getenv("HF_HOME")
+    if not cache_dir:
+        # Keep model cache inside project to avoid user-profile cache lock/permission issues.
+        cache_dir = str(Path(__file__).resolve().parents[2] / ".hf_cache")
+    Path(cache_dir).mkdir(parents=True, exist_ok=True)
+    os.environ["HF_HOME"] = cache_dir
+    os.environ["HUGGINGFACE_HUB_CACHE"] = str(Path(cache_dir) / "hub")
+    os.environ["TRANSFORMERS_CACHE"] = str(Path(cache_dir) / "transformers")
     from transformers import pipeline
 
-    return pipeline("translation_en_to_ko", model="Helsinki-NLP/opus-mt-en-ko")
+    return pipeline("translation_en_to_ko", model=model_name)
 
 
 def translate_en_to_ko(text: str) -> str:

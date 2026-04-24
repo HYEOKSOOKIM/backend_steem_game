@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import time
 from pathlib import Path
 from typing import Any
 
@@ -34,12 +35,22 @@ def _resolve_db_path() -> Path:
     return LEGACY_DB_PATH
 
 
+def _ensure_db_schema_ready() -> None:
+    if not _is_db_ready():
+        return
+    from recommender.src.db import init_db
+
+    init_db(_resolve_db_path())
+
+
 if APIRouter is not None:
     recommend_router = APIRouter(prefix="/api/recommend")
 
     class RecommendRequest(BaseModel):
         query: str
         top_k: int = 5
+        played_games: list[str] = []
+        played_app_ids: list[int] = []
 
     class PreferenceRecommendRequest(BaseModel):
         liked_games: list[str]
@@ -57,6 +68,7 @@ if APIRouter is not None:
                 status_code=503,
                 detail="Recommendation DB is not ready. Check backend/data/recommender.",
             )
+        _ensure_db_schema_ready()
         try:
             from recommender.src.preference_recommender import suggest_games
 
@@ -71,24 +83,43 @@ if APIRouter is not None:
 
     @recommend_router.post("")
     def recommend(req: RecommendRequest) -> JSONResponse:
+        route_start = time.perf_counter()
         if not _is_db_ready():
             raise HTTPException(
                 status_code=503,
                 detail="Recommendation DB is not ready. Check backend/data/recommender.",
             )
+        _ensure_db_schema_ready()
 
         try:
             from recommender.src.config import load_settings
+            from recommender.src.db import get_connection
+            from recommender.src.preference_recommender import _resolve_games
             from recommender.src.ranker import recommend_games
             from recommender.src.web_ui import _prepare_result_payload
 
             settings = load_settings()
+            exclude_app_ids: set[int] = {
+                int(x)
+                for x in list(req.played_app_ids or [])
+                if str(x).strip().isdigit()
+            }
+            played_resolved: list[dict[str, Any]] = []
+            played_unresolved: list[str] = []
+            if req.played_games:
+                with get_connection(_resolve_db_path(), readonly=True) as conn:
+                    resolved, unresolved = _resolve_games(conn, list(req.played_games or []))
+                exclude_app_ids.update(int(x.app_id) for x in resolved)
+                played_resolved = [{"app_id": int(x.app_id), "name": str(x.name)} for x in resolved]
+                played_unresolved = [str(x) for x in unresolved]
+
             result = recommend_games(
                 db_path=_resolve_db_path(),
                 query=req.query,
                 top_k=req.top_k,
                 openai_api_key=settings.openai_api_key,
                 openai_model=settings.openai_model,
+                exclude_app_ids=sorted(exclude_app_ids),
             )
             payload = _prepare_result_payload(result, query=req.query, top_k=req.top_k)
 
@@ -112,6 +143,11 @@ if APIRouter is not None:
                 "reference_game": result.get("reference_game"),
                 "similar_to_fallback": result.get("similar_to_fallback"),
                 "parsed_query": result.get("parsed_query"),
+                "excluded_app_ids": sorted(exclude_app_ids),
+                "played_resolved": played_resolved,
+                "played_unresolved": played_unresolved,
+                "perf": result.get("perf") or {},
+                "route_total_ms": round((time.perf_counter() - route_start) * 1000.0, 2),
                 "generated_at": result.get("generated_at"),
             }
             return JSONResponse(payload)
@@ -125,6 +161,7 @@ if APIRouter is not None:
                 status_code=503,
                 detail="Recommendation DB is not ready. Check backend/data/recommender.",
             )
+        _ensure_db_schema_ready()
 
         try:
             import os
