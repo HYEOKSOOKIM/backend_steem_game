@@ -96,18 +96,33 @@ def _normalize_genres(genres: list[str], tags: list[str]) -> list[str]:
 
 
 def _fetch_app_metadata(app_id: int) -> dict[str, Any] | None:
-    data = _http_get_json(APP_DETAILS_URL, {"appids": app_id, "l": "english"})
-    item = data.get(str(app_id), {})
-    if not item.get("success"):
+    data_en = _http_get_json(APP_DETAILS_URL, {"appids": app_id, "l": "english"})
+    item_en = data_en.get(str(app_id), {})
+    if not item_en.get("success"):
         return None
-    payload = item.get("data") or {}
-    genres = [g.get("description") for g in payload.get("genres", []) if g.get("description")]
+    payload_en = item_en.get("data") or {}
+
+    # Best-effort Korean metadata fetch. Keep service resilient if this call fails.
+    name_ko = ""
+    try:
+        data_ko = _http_get_json(APP_DETAILS_URL, {"appids": app_id, "l": "koreana"})
+        item_ko = data_ko.get(str(app_id), {})
+        payload_ko = item_ko.get("data") or {}
+        name_ko = str(payload_ko.get("name") or "").strip()
+    except Exception:
+        name_ko = ""
+
+    name_en = str(payload_en.get("name") or f"app_{app_id}").strip()
+    genres = [g.get("description") for g in payload_en.get("genres", []) if g.get("description")]
     tags = _fetch_steamspy_tags(app_id)
     normalized_genres = _normalize_genres(genres, tags)
     return {
         "app_id": app_id,
-        "name": payload.get("name") or f"app_{app_id}",
-        "release_date": (payload.get("release_date") or {}).get("date"),
+        # Keep legacy `name` as the default display slot.
+        "name": name_ko or name_en,
+        "name_en": name_en,
+        "name_ko": name_ko,
+        "release_date": (payload_en.get("release_date") or {}).get("date"),
         "genres": json.dumps(normalized_genres, ensure_ascii=False),
         "tags": json.dumps(tags, ensure_ascii=False),
     }
@@ -252,10 +267,14 @@ def _upsert_game(db_path: Path, game: dict[str, Any]) -> None:
     with get_connection(db_path) as conn:
         conn.execute(
             """
-            INSERT INTO games (app_id, name, release_date, genres, tags, positive_ratio, review_count, updated_at)
-            VALUES (?, ?, ?, ?, ?, NULL, NULL, ?)
+            INSERT INTO games (
+              app_id, name, name_en, name_ko, release_date, genres, tags, positive_ratio, review_count, updated_at
+            )
+            VALUES (?, ?, ?, ?, ?, ?, ?, NULL, NULL, ?)
             ON CONFLICT(app_id) DO UPDATE SET
               name=excluded.name,
+              name_en=excluded.name_en,
+              name_ko=excluded.name_ko,
               release_date=excluded.release_date,
               genres=excluded.genres,
               tags=excluded.tags,
@@ -264,6 +283,8 @@ def _upsert_game(db_path: Path, game: dict[str, Any]) -> None:
             (
                 game["app_id"],
                 game["name"],
+                game.get("name_en"),
+                game.get("name_ko"),
                 game["release_date"],
                 game["genres"],
                 game["tags"],

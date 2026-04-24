@@ -24,3 +24,16 @@ Copy `.env.example` to `.env` and set values:
 
 - Backend should be deployed independently (EC2/ECS/Lambda).
 - Set `BACKEND_CORS_ORIGINS` to your Vercel frontend URL(s).
+
+## Embedding Model Preload (Production)
+
+To avoid runtime delays from outbound model downloads, preload the embedding model once during build/deploy:
+
+```powershell
+.\.venv\Scripts\python scripts\preload_embedding_model.py
+```
+
+Then run with local-only inference defaults:
+
+- `EMBEDDING_LOCAL_ONLY_FIRST=1`
+- `EMBEDDING_ALLOW_DOWNLOAD=0`

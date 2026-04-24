@@ -1,5 +1,6 @@
 ﻿from __future__ import annotations
 
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import json
 import os
 import re
@@ -82,9 +83,25 @@ EXCLUDED_SIGNAL_TERMS = {
 def _get_model(model_name: str) -> SentenceTransformer:
     model = _MODEL_CACHE.get(model_name)
     if model is None:
+        local_only_first = (os.getenv("EMBEDDING_LOCAL_ONLY_FIRST") or "1").strip() == "1"
+        allow_download = (os.getenv("EMBEDDING_ALLOW_DOWNLOAD") or "0").strip() == "1"
         offline = os.getenv("HF_HUB_OFFLINE", "").strip() == "1" or os.getenv(
             "TRANSFORMERS_OFFLINE", ""
         ).strip() == "1"
+
+        if local_only_first:
+            try:
+                model = SentenceTransformer(model_name, local_files_only=True)
+                _MODEL_CACHE[model_name] = model
+                return model
+            except Exception as exc:
+                if not allow_download:
+                    raise RuntimeError(
+                        f"local_embedding_model_missing: {model_name}. "
+                        "Run scripts/preload_embedding_model.py once on this server/image, "
+                        "or set EMBEDDING_ALLOW_DOWNLOAD=1 temporarily."
+                    ) from exc
+
         try:
             if offline:
                 model = SentenceTransformer(model_name)
@@ -244,7 +261,7 @@ def _build_name_index(conn, model: SentenceTransformer) -> tuple[list[int], list
         return cached
     rows = conn.execute(
         """
-        SELECT g.app_id, g.name
+        SELECT g.app_id, COALESCE(NULLIF(g.name_ko, ''), NULLIF(g.name_en, ''), g.name) AS name
         FROM games g
         JOIN game_profiles p ON p.app_id = g.app_id
         """
@@ -399,13 +416,15 @@ def _resolve_reference_game(
 
         rows = conn.execute(
             """
-            SELECT g.app_id, g.name
+            SELECT g.app_id, COALESCE(NULLIF(g.name_ko, ''), NULLIF(g.name_en, ''), g.name) AS name
             FROM games g
             JOIN game_profiles p ON p.app_id = g.app_id
-            WHERE LOWER(g.name) LIKE ?
+            WHERE LOWER(COALESCE(g.name_ko, '')) LIKE ?
+               OR LOWER(COALESCE(g.name_en, '')) LIKE ?
+               OR LOWER(g.name) LIKE ?
             LIMIT 120
             """,
-            (f"%{key}%",),
+            (f"%{key}%", f"%{key}%", f"%{key}%"),
         ).fetchall()
         if not rows:
             continue
@@ -919,18 +938,31 @@ def recommend_games(
     model_name: str = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
     openai_api_key: str | None = None,
     openai_model: str = "gpt-4.1-mini",
+    exclude_app_ids: list[int] | None = None,
 ) -> dict:
+    total_start = time.perf_counter()
+    perf: dict[str, float] = {}
+
+    def _stamp(name: str, started_at: float) -> None:
+        perf[name] = round((time.perf_counter() - started_at) * 1000.0, 2)
+
     original_query = query
     query = sanitize_user_query(query)
     runtime_errors: list[str] = []
     similar_to_fallback: dict | None = None
     no_fallback = os.getenv("STRICT_NO_FALLBACK", "").strip() == "1"
+    excluded_app_ids_set = {
+        int(x)
+        for x in (exclude_app_ids or [])
+        if isinstance(x, int) or (isinstance(x, str) and str(x).strip().isdigit())
+    }
 
     def _fail_result(message: str, mode: str = "strict_no_fallback") -> dict:
         errs = [message]
         if llm is not None:
             errs = list(llm.errors) + errs
         errs = errs + runtime_errors
+        perf["total_ms"] = round((time.perf_counter() - total_start) * 1000.0, 2)
         return {
             "query": original_query,
             "normalized_input_query": query,
@@ -942,9 +974,11 @@ def recommend_games(
             "parsed_query": parse_query(effective_query).to_dict(),
             "results": [],
             "llm_errors": errs,
+            "perf": perf,
             "generated_at": datetime.now(timezone.utc).isoformat(),
         }
 
+    t_parse = time.perf_counter()
     llm: OpenAILLM | None = OpenAILLM(api_key=openai_api_key, model=openai_model) if openai_api_key else None
     rewritten_query = ""
     effective_query = query
@@ -1019,9 +1053,11 @@ def recommend_games(
         parsed = _merge_parsed_llm_primary(rule_parsed, llm_parsed) if not llm_parse_failed else rule_parsed
     else:
         parsed = rule_parsed
+    _stamp("parse_ms", t_parse)
 
     model: SentenceTransformer | None = None
     model_load_error = ""
+    t_model = time.perf_counter()
     try:
         model = _get_model(model_name)
     except Exception as exc:
@@ -1032,9 +1068,11 @@ def recommend_games(
             llm.errors.append(model_load_error)
         if no_fallback:
             return _fail_result("fallback_disabled: embedding_model_unavailable")
+    _stamp("model_load_ms", t_model)
     mode = "query"
     reference_game: dict | None = None
 
+    t_retrieval = time.perf_counter()
     candidates: list[Candidate] = []
     with get_connection(db_path) as conn:
         q_vec: np.ndarray | None = None
@@ -1126,6 +1164,7 @@ def recommend_games(
         )
         if profile_index is None:
             return _fail_result("chroma_required: query_failed_or_empty_collection", mode="chroma_required")
+        _stamp("chroma_query_ms", t_retrieval)
 
         app_ids = profile_index["app_ids"]
         names = profile_index["names"]
@@ -1143,6 +1182,9 @@ def recommend_games(
             name = names[i]
             genres = genres_list[i]
             tags = tags_list[i]
+
+            if app_id in excluded_app_ids_set:
+                continue
 
             if reference_game is not None:
                 if app_id == int(reference_game["app_id"]):
@@ -1271,12 +1313,19 @@ def recommend_games(
                     + (0.08 * float(x["soft_match_count"]))
                     + (0.06 * min(float(x["recent_review_count"]) / 300.0, 1.0))
                 )
+    _stamp("retrieval_rank_ms", t_retrieval)
 
     diverse = _select_diverse_results(reranked, top_k=max(top_k * 3, top_k), diversity_weight=0.22)
     final_results: list[dict] = []
     if llm is not None:
-        for item in diverse:
-            combined = llm.summarize_and_reason_ko(
+        t_llm = time.perf_counter()
+        max_workers = max(2, min(8, top_k))
+
+        def _enrich_llm_row(indexed_row: tuple[int, dict]) -> tuple[int, dict | None, list[str]]:
+            idx, src_item = indexed_row
+            local_llm = OpenAILLM(api_key=openai_api_key or "", model=openai_model)
+            item = dict(src_item)
+            combined = local_llm.summarize_and_reason_ko(
                 query=effective_query,
                 game_name=item.get("name", ""),
                 genres=item.get("genres", []),
@@ -1284,21 +1333,42 @@ def recommend_games(
             )
             summaries = list(combined.get("summaries", []))
             reason = str(combined.get("reason", "")).strip()
-            # If LLM emits a contradictory reason, drop this candidate entirely.
             if reason and _reason_has_contradiction(reason, parsed):
-                continue
+                return idx, None, list(local_llm.errors)
+
             item["evidence_summaries_ko"] = summaries
             item["reason_ko"] = reason
-            one_liner = llm.generate_one_liner_ko(
+            item["one_liner_ko"] = local_llm.generate_one_liner_ko(
                 query=effective_query,
                 game_name=item.get("name", ""),
                 reason_ko=reason,
                 caution_notes=list(item.get("caution_notes", []) or []),
             )
-            item["one_liner_ko"] = one_liner
-            final_results.append(item)
+            return idx, item, list(local_llm.errors)
+
+        indexed_rows = list(enumerate(diverse))
+        for batch_start in range(0, len(indexed_rows), max_workers):
+            batch = indexed_rows[batch_start : batch_start + max_workers]
+            enriched_by_index: dict[int, dict] = {}
+            with ThreadPoolExecutor(max_workers=max_workers) as pool:
+                futures = [pool.submit(_enrich_llm_row, indexed_row) for indexed_row in batch]
+                for fut in as_completed(futures):
+                    idx, enriched_item, llm_errs = fut.result()
+                    if llm_errs:
+                        runtime_errors.extend(llm_errs)
+                    if enriched_item is not None:
+                        enriched_by_index[idx] = enriched_item
+
+            for idx, _ in batch:
+                item = enriched_by_index.get(idx)
+                if item is None:
+                    continue
+                final_results.append(item)
+                if len(final_results) >= top_k:
+                    break
             if len(final_results) >= top_k:
                 break
+        _stamp("llm_postprocess_ms", t_llm)
         if len(final_results) < top_k:
             used = {int(x.get("app_id", -1)) for x in final_results}
             for item in diverse:
@@ -1316,6 +1386,34 @@ def recommend_games(
         item.pop("_vector", None)
         item.pop("final_score", None)
 
+    # Use DB-native display names (Korean first) instead of runtime title translation.
+    if final_results:
+        app_ids_for_display = [int(x.get("app_id", 0) or 0) for x in final_results if int(x.get("app_id", 0) or 0) > 0]
+        if app_ids_for_display:
+            placeholders = ",".join("?" for _ in app_ids_for_display)
+            with get_connection(Path(db_path), readonly=True) as conn:
+                rows = conn.execute(
+                    f"""
+                    SELECT app_id, COALESCE(NULLIF(name_ko, ''), NULLIF(name_en, ''), name) AS display_name
+                    FROM games
+                    WHERE app_id IN ({placeholders})
+                    """,
+                    tuple(app_ids_for_display),
+                ).fetchall()
+            display_name_map = {int(r["app_id"]): str(r["display_name"] or "") for r in rows}
+            for item in final_results:
+                app_id = int(item.get("app_id", 0) or 0)
+                display_name = display_name_map.get(app_id, "").strip()
+                if display_name:
+                    item["display_name"] = display_name
+
+    perf["total_ms"] = round((time.perf_counter() - total_start) * 1000.0, 2)
+    if (os.getenv("RECOMMENDER_PERF_LOG") or "1").strip() == "1":
+        print(
+            "[perf] recommend_games "
+            + " ".join(f"{k}={v}ms" for k, v in sorted(perf.items()))
+        )
+
     return {
         "query": original_query,
         "normalized_input_query": query,
@@ -1327,6 +1425,8 @@ def recommend_games(
         "parsed_query": parsed.to_dict(),
         "results": final_results,
         "llm_errors": ((llm.errors if llm is not None else []) + runtime_errors),
+        "perf": perf,
         "generated_at": datetime.now(timezone.utc).isoformat(),
     }
+
 

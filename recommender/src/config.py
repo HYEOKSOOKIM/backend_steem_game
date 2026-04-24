@@ -39,6 +39,7 @@ def _parse_app_ids(raw: str | None) -> list[int]:
 
 def load_settings() -> Settings:
     _load_env_file(Path(".env"))
+    _ensure_hf_cache_env()
     db_raw = os.getenv("STEAM_DB_PATH", "data/steam_mvp.db")
     app_ids_raw = os.getenv("STEAM_APP_IDS")
     openai_api_key = (
@@ -74,3 +75,15 @@ def _load_env_file(env_path: Path) -> None:
         # If an env var exists but is empty, allow .env value to fill it.
         if key and (key not in os.environ or not (os.environ.get(key) or "").strip()):
             os.environ[key] = value
+
+
+def _ensure_hf_cache_env() -> None:
+    project_root = Path(__file__).resolve().parents[2]
+    hf_home = (os.getenv("HF_HOME") or "").strip()
+    if not hf_home:
+        hf_home = str(project_root / ".hf_cache")
+        os.environ["HF_HOME"] = hf_home
+    hf_home_path = Path(hf_home)
+    hf_home_path.mkdir(parents=True, exist_ok=True)
+    os.environ.setdefault("HUGGINGFACE_HUB_CACHE", str(hf_home_path / "hub"))
+    os.environ.setdefault("TRANSFORMERS_CACHE", str(hf_home_path / "transformers"))

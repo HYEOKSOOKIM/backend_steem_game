@@ -20,10 +20,15 @@ venv/
 *.log
 
 # local runtime data
+.hf_cache/
 data/steam_mvp.db
 data/steam_mvp.db-shm
 data/steam_mvp.db-wal
 data/chroma/
-
-# 문서 파일
-*.md
+data/recommender/steam_mvp.db
+data/recommender/steam_mvp.db-shm
+data/recommender/steam_mvp.db-wal
+data/recommender/chroma/
+data/recommender/chroma_v2/
+data/recommender/chroma_backup_*/
+data/recommender/recommender_eval/
