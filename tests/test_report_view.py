@@ -11,7 +11,13 @@ BACKEND_DIR = Path(__file__).resolve().parents[1]
 if str(BACKEND_DIR) not in sys.path:
     sys.path.insert(0, str(BACKEND_DIR))
 
-from report.services.report_view import _select_evidence_snippets_for_block, build_consumer_report_from_snapshot
+from report.services.report_view import (
+    _apply_final_language_polish,
+    _normalize_card_title,
+    _select_evidence_snippets_for_block,
+    _stabilize_player_fit_list,
+    build_consumer_report_from_snapshot,
+)
 
 
 def sentence_count(text: str) -> int:
@@ -20,6 +26,198 @@ def sentence_count(text: str) -> int:
 
 
 class ReportViewTests(unittest.TestCase):
+    def test_apply_final_language_polish_normalizes_titles_and_player_fit_like_ui_copy(self):
+        payload = {
+            "report_plan": {
+                "decision_anchor": {
+                    "buy_recommendation": "buy_now",
+                    "primary_reason_ids": ["str_1"],
+                    "rationale_short": "핵심 재미가 분명합니다.",
+                }
+            },
+            "report_display": {
+                "headline": "전투와 탐험의 재미가 좋습니다.",
+                "buy_timing_summary": "지금 구매하셔도 좋습니다.",
+                "good_for": ["플레이할 수 있는 상황의 플레이어"],
+                "not_good_for": ["진행 중 오류나 끊김을 거의 허용하지 않는 플레이어입니다."],
+                "top_strengths": [
+                    {"title": "세계관과 연출 덕분에 플레이를 계속하게 되는 몰입 경험이다.", "summary": "분위기와 서사가 오래 붙잡게 합니다."},
+                ],
+                "top_risks": [
+                    {"title": "초반 적응은 필요하지만 익숙해지면 손맛이 살아나는 플레이 구조이다.", "summary": "처음에는 적응이 필요합니다."},
+                ],
+                "recent_state": {"status": "stable", "summary": "최근 분위기는 비슷한 편입니다."},
+            },
+            "evidence_sections": {"strengths": [], "risks": []},
+        }
+        seed_display = {
+            "good_for": ["하루 루틴을 천천히 쌓아가는 플레이를 좋아하는 플레이어"],
+            "not_good_for": ["진행 중 오류나 끊김을 거의 허용하지 않는 플레이어"],
+        }
+
+        polished = _apply_final_language_polish(
+            payload=payload,
+            allow_llm=False,
+            is_free_game=False,
+            seed_display=seed_display,
+        )
+
+        self.assertEqual(
+            polished["report_display"]["good_for"][0],
+            "하루 루틴을 천천히 쌓아가는 플레이를 좋아하는 플레이어",
+        )
+        self.assertEqual(
+            polished["report_display"]["not_good_for"][0],
+            "진행 중 오류나 끊김을 거의 허용하지 않는 플레이어",
+        )
+        self.assertFalse(polished["report_display"]["top_strengths"][0]["title"].endswith("이다"))
+        self.assertFalse(polished["report_display"]["top_risks"][0]["title"].endswith("이다"))
+
+    def test_apply_final_language_polish_preserves_non_generic_player_fit(self):
+        payload = {
+            "report_plan": {
+                "decision_anchor": {
+                    "buy_recommendation": "wait",
+                    "primary_reason_ids": ["risk_1"],
+                    "rationale_short": "조금 더 지켜보는 편이 좋습니다.",
+                }
+            },
+            "report_display": {
+                "headline": "관망이 더 나은 상태입니다.",
+                "buy_timing_summary": "패치 흐름을 보는 편이 안전합니다.",
+                "good_for": ["짧고 강한 교전 템포를 좋아하는 플레이어"],
+                "not_good_for": ["팀플레이 소통 피로를 크게 느끼는 플레이어"],
+                "top_strengths": [],
+                "top_risks": [],
+                "recent_state": {"status": "declining", "summary": "최근에는 불편 후기가 늘었습니다."},
+            },
+            "evidence_sections": {"strengths": [], "risks": []},
+        }
+
+        polished = _apply_final_language_polish(
+            payload=payload,
+            allow_llm=False,
+            is_free_game=False,
+            seed_display={},
+        )
+
+        self.assertEqual(
+            polished["report_display"]["good_for"][0],
+            "짧고 강한 교전 템포를 좋아하는 플레이어",
+        )
+        self.assertEqual(
+            polished["report_display"]["not_good_for"][0],
+            "팀플레이 소통 피로를 크게 느끼는 플레이어",
+        )
+
+    def test_apply_final_language_polish_uses_seed_when_visual_novel_copy_drift_contains_combat_terms(self):
+        payload = {
+            "report_plan": {"decision_anchor": {"buy_recommendation": "play_now", "primary_reason_ids": ["str_1"]}},
+            "report_display": {
+                "headline": "이야기 몰입이 좋습니다.",
+                "buy_timing_summary": "지금 시작해도 좋습니다.",
+                "good_for": ["핵심 플레이를 반복하며 손에 익혀가는 재미를 즐기는 플레이어"],
+                "not_good_for": ["매칭과 서버 상태 변화에 스트레스를 크게 받는 플레이어"],
+                "top_strengths": [
+                    {"title": "전투 손맛이 살아 있는 핵심 플레이", "summary": "손맛과 교전 템포가 좋습니다."},
+                ],
+                "top_risks": [],
+                "recent_state": {"status": "stable", "summary": "최근 분위기는 안정적입니다."},
+            },
+            "evidence_sections": {"strengths": [], "risks": []},
+        }
+        seed_display = {
+            "good_for": ["서사와 감정선에 깊게 몰입하는 플레이어"],
+            "not_good_for": ["텍스트와 번역 품질에 민감한 플레이어"],
+            "top_strengths": [
+                {"title": "감정선이 오래 남는 서사 몰입", "summary": "감정선과 전개에 깊게 빠져드는 흐름이 강합니다."},
+            ],
+        }
+
+        polished = _apply_final_language_polish(
+            payload=payload,
+            allow_llm=False,
+            is_free_game=False,
+            seed_display=seed_display,
+            genres=["Visual Novel", "Story Rich"],
+        )
+
+        self.assertEqual(polished["report_display"]["good_for"][0], "서사와 감정선에 깊게 몰입하는 플레이어")
+        self.assertEqual(polished["report_display"]["not_good_for"][0], "텍스트와 번역 품질에 민감한 플레이어")
+        self.assertEqual(polished["report_display"]["top_strengths"][0]["title"], "감정선이 오래 남는 서사 몰입")
+
+    def test_apply_final_language_polish_uses_seed_when_city_builder_copy_mentions_combat(self):
+        payload = {
+            "report_plan": {"decision_anchor": {"buy_recommendation": "wait", "primary_reason_ids": ["risk_1"]}},
+            "report_display": {
+                "headline": "도시 운영의 재미가 있습니다.",
+                "buy_timing_summary": "상황을 보고 결정하는 편이 좋습니다.",
+                "good_for": ["핵심 플레이를 반복하며 손에 익혀가는 재미를 즐기는 플레이어"],
+                "not_good_for": ["전투 흐름이 끊기는 것을 싫어하는 플레이어"],
+                "top_strengths": [
+                    {"title": "전투와 이동 흐름이 매끄러운 운영 경험", "summary": "전투 흐름이 자연스럽게 이어집니다."},
+                ],
+                "top_risks": [
+                    {"title": "전투/이동 흐름이 자주 끊기는 구간", "summary": "교전 감각이 불안정할 수 있습니다."},
+                ],
+                "recent_state": {"status": "mixed", "summary": "평가는 갈리는 편입니다."},
+            },
+            "evidence_sections": {"strengths": [], "risks": []},
+        }
+        seed_display = {
+            "good_for": ["도시를 키우며 흐름을 다듬는 운영형 플레이어"],
+            "not_good_for": ["배치와 관리 피로에 민감한 플레이어"],
+            "top_strengths": [
+                {"title": "도시 흐름을 다듬는 운영의 재미", "summary": "도시를 확장하고 균형을 맞추는 과정이 핵심 재미로 이어집니다."},
+            ],
+            "top_risks": [
+                {"title": "배치와 관리 부담이 커질 수 있는 구간", "summary": "규모가 커질수록 관리 피로가 빠르게 쌓일 수 있습니다."},
+            ],
+        }
+
+        polished = _apply_final_language_polish(
+            payload=payload,
+            allow_llm=False,
+            is_free_game=False,
+            seed_display=seed_display,
+            genres=["Simulation", "City Builder"],
+        )
+
+        self.assertEqual(polished["report_display"]["good_for"][0], "도시를 키우며 흐름을 다듬는 운영형 플레이어")
+        self.assertEqual(polished["report_display"]["top_strengths"][0]["title"], "도시 흐름을 다듬는 운영의 재미")
+        self.assertEqual(polished["report_display"]["top_risks"][0]["title"], "배치와 관리 부담이 커질 수 있는 구간")
+
+    def test_normalize_card_title_trims_sentence_ending_but_keeps_core_noun(self):
+        self.assertEqual(
+            _normalize_card_title("초반 적응은 필요하지만 익숙해지면 손맛이 살아나는 플레이 구조이다."),
+            "초반 적응은 필요하지만 익숙해지면 손맛이 살아나는 플레이 구조",
+        )
+        self.assertEqual(
+            _normalize_card_title("팀 플레이"),
+            "팀 플레이",
+        )
+
+    def test_stabilize_player_fit_list_prefers_seed_for_generic_or_malformed_values(self):
+        values = [
+            "플레이할 수 있는 상황의 플레이어",
+            "짧고 강한 교전 템포를 좋아하는 플레이어",
+            "",
+        ]
+        seed_values = [
+            "하루 루틴을 천천히 쌓아가는 플레이를 좋아하는 플레이어",
+            "짧고 강한 교전 템포를 좋아하는 플레이어",
+            "진행 중 오류나 끊김을 거의 허용하지 않는 플레이어",
+        ]
+
+        stabilized = _stabilize_player_fit_list(values, seed_values)
+
+        self.assertEqual(
+            stabilized[0],
+            "하루 루틴을 천천히 쌓아가는 플레이를 좋아하는 플레이어",
+        )
+        self.assertIn("짧고 강한 교전 템포", stabilized[1])
+        self.assertIn("진행 중 오류나 끊김", stabilized[2])
+
     def test_evidence_reviews_are_grouped_insight_blocks(self):
         metadata = {
             "appid": 2456740,

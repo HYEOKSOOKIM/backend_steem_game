@@ -489,6 +489,7 @@ def _build_structured_report_bundle(
             allow_llm=bool(enable_llm_sections),
             is_free_game=_is_free_game(consensus_payload),
             seed_display=seed_display,
+            genres=list((consensus_payload.get("game_context", {}) or {}).get("genres", []) or []),
         )
         if validate_structured_report_payload(finalized):
             return finalized
@@ -511,6 +512,7 @@ def _build_structured_report_bundle(
         allow_llm=False,
         is_free_game=_is_free_game(consensus_payload),
         seed_display=seed_display,
+        genres=list((consensus_payload.get("game_context", {}) or {}).get("genres", []) or []),
     )
     return fallback
 
@@ -741,6 +743,7 @@ def _apply_final_language_polish(
     allow_llm: bool,
     is_free_game: bool,
     seed_display: dict[str, Any] | None = None,
+    genres: list[str] | None = None,
 ) -> dict[str, Any]:
     report_plan = dict(payload.get("report_plan", {}) or {})
     report_display = dict(payload.get("report_display", {}) or {})
@@ -778,40 +781,68 @@ def _apply_final_language_polish(
     good_for = []
     for item in list(report_display.get("good_for", []) or []):
         good_for.append(_fix(str(item), allow_llm_override=False))
-    report_display["good_for"] = _stabilize_player_fit_list(
-        good_for,
+    report_display["good_for"] = _guard_player_fit_list_by_genre(
+        _stabilize_player_fit_list(
+            good_for,
+            list(seed_display.get("good_for", []) or []),
+        ),
         list(seed_display.get("good_for", []) or []),
+        genres or [],
     )
 
     not_good_for = []
     for item in list(report_display.get("not_good_for", []) or []):
         not_good_for.append(_fix(str(item), allow_llm_override=False))
-    report_display["not_good_for"] = _stabilize_player_fit_list(
-        not_good_for,
+    report_display["not_good_for"] = _guard_player_fit_list_by_genre(
+        _stabilize_player_fit_list(
+            not_good_for,
+            list(seed_display.get("not_good_for", []) or []),
+        ),
         list(seed_display.get("not_good_for", []) or []),
+        genres or [],
     )
 
     top_strengths = []
-    for item in list(report_display.get("top_strengths", []) or []):
+    seed_strengths = list(seed_display.get("top_strengths", []) or [])
+    for index, item in enumerate(list(report_display.get("top_strengths", []) or [])):
         if not isinstance(item, dict):
             continue
         next_item = dict(item)
+        seed_item = seed_strengths[index] if index < len(seed_strengths) and isinstance(seed_strengths[index], dict) else {}
         if isinstance(next_item.get("title"), str):
-            next_item["title"] = _normalize_card_title(_fix(str(next_item.get("title", ""))))
+            next_item["title"] = _guard_copy_text_by_genre(
+                _normalize_card_title(_fix(str(next_item.get("title", "")))),
+                genres or [],
+                fallback=_normalize_card_title(str(seed_item.get("title", ""))),
+            )
         if isinstance(next_item.get("summary"), str):
-            next_item["summary"] = _fix(str(next_item.get("summary", "")))
+            next_item["summary"] = _guard_copy_text_by_genre(
+                _fix(str(next_item.get("summary", ""))),
+                genres or [],
+                fallback=str(seed_item.get("summary", "")),
+            )
         top_strengths.append(next_item)
     report_display["top_strengths"] = top_strengths
 
     top_risks = []
-    for item in list(report_display.get("top_risks", []) or []):
+    seed_risks = list(seed_display.get("top_risks", []) or [])
+    for index, item in enumerate(list(report_display.get("top_risks", []) or [])):
         if not isinstance(item, dict):
             continue
         next_item = dict(item)
+        seed_item = seed_risks[index] if index < len(seed_risks) and isinstance(seed_risks[index], dict) else {}
         if isinstance(next_item.get("title"), str):
-            next_item["title"] = _normalize_card_title(_fix(str(next_item.get("title", ""))))
+            next_item["title"] = _guard_copy_text_by_genre(
+                _normalize_card_title(_fix(str(next_item.get("title", "")))),
+                genres or [],
+                fallback=_normalize_card_title(str(seed_item.get("title", ""))),
+            )
         if isinstance(next_item.get("summary"), str):
-            next_item["summary"] = _fix(str(next_item.get("summary", "")))
+            next_item["summary"] = _guard_copy_text_by_genre(
+                _fix(str(next_item.get("summary", ""))),
+                genres or [],
+                fallback=str(seed_item.get("summary", "")),
+            )
         top_risks.append(next_item)
     report_display["top_risks"] = top_risks
 
@@ -827,11 +858,23 @@ def _apply_final_language_polish(
                 continue
             next_block = dict(block)
             if isinstance(next_block.get("title"), str):
-                next_block["title"] = _fix(str(next_block.get("title", "")))
+                next_block["title"] = _guard_copy_text_by_genre(
+                    _fix(str(next_block.get("title", ""))),
+                    genres or [],
+                    fallback=str(next_block.get("theme", "")),
+                )
             if isinstance(next_block.get("why_it_matters"), str):
-                next_block["why_it_matters"] = _fix(str(next_block.get("why_it_matters", "")))
+                next_block["why_it_matters"] = _guard_copy_text_by_genre(
+                    _fix(str(next_block.get("why_it_matters", ""))),
+                    genres or [],
+                    fallback=str(next_block.get("explanation", "")),
+                )
             if isinstance(next_block.get("explanation"), str):
-                next_block["explanation"] = _fix(str(next_block.get("explanation", "")))
+                next_block["explanation"] = _guard_copy_text_by_genre(
+                    _fix(str(next_block.get("explanation", ""))),
+                    genres or [],
+                    fallback=str(next_block.get("explanation", "")),
+                )
             snippets: list[str] = []
             for snippet in list(next_block.get("evidence_snippets", []) or []):
                 # Evidence snippet is kept as rule-only polish to preserve original user wording.
@@ -850,6 +893,50 @@ def _apply_final_language_polish(
     merged["report_display"] = report_display
     merged["evidence_sections"] = next_sections
     return merged
+
+
+def _guard_player_fit_list_by_genre(values: list[str], seed_values: list[Any], genres: list[str]) -> list[str]:
+    guarded: list[str] = []
+    for index, value in enumerate(values):
+        seed = _normalize_player_fit_phrase(seed_values[index]) if index < len(seed_values) else ""
+        final = _guard_copy_text_by_genre(value, genres, fallback=seed)
+        if final and final not in guarded:
+            guarded.append(final)
+    return guarded
+
+
+def _guard_copy_text_by_genre(text: str, genres: list[str], *, fallback: str = "") -> str:
+    value = " ".join(str(text or "").split()).strip()
+    if not value:
+        return fallback.strip()
+
+    lowered = value.lower()
+    genre_text = _normalized_genre_text(genres)
+
+    def _has_any(*fragments: str) -> bool:
+        return any(fragment in lowered for fragment in fragments)
+
+    if any(token in genre_text for token in ("visual novel", "비주얼", "novel", "story rich")):
+        if _has_any("전투", "교전", "손맛", "매칭", "서버", "핵심 플레이", "성장 루프", "보스"):
+            return fallback.strip() or value
+
+    if any(token in genre_text for token in ("city builder", "city-building", "도시 건설", "urban")):
+        if _has_any("전투", "교전", "보스", "패턴", "이동 흐름", "핵심 플레이를 반복하며"):
+            return fallback.strip() or value
+
+    if any(token in genre_text for token in ("automation", "factory", "factorio", "자동화", "공장")):
+        if _has_any("매칭", "서버", "보스", "보스전", "교전 손맛", "핵심 플레이를 반복하며"):
+            return fallback.strip() or value
+
+    if any(token in genre_text for token in ("deckbuilding", "deck builder", "card", "카드", "덱빌딩")):
+        if _has_any("오픈월드", "탐험", "교전 손맛", "서사와 분위기"):
+            return fallback.strip() or value
+
+    if any(token in genre_text for token in ("turn-based", "turn based", "턴제", "tactical", "전술")):
+        if _has_any("오픈월드", "탐험", "실시간", "손맛") and "턴" not in lowered:
+            return fallback.strip() or value
+
+    return value
 
 
 def _replace_forbidden_labels(text: str) -> str:
@@ -1455,10 +1542,11 @@ def _build_good_for(selected_strengths: list[dict[str, Any]], *, genres: list[st
             result.append(phrase)
     if not result:
         fallback_source = _default_positive_fit_source(genres)
+        fallback_theme = _choose_positive_theme(list(fallback_source.get("themes", []) or []))
         result.append(
             build_player_fit_phrase(
                 aspect=str(fallback_source.get("aspect", "")),
-                theme=None,
+                theme=fallback_theme,
                 genres=genres,
                 negative=False,
             )
@@ -1480,10 +1568,11 @@ def _build_not_good_for(selected_risks: list[dict[str, Any]], *, genres: list[st
             result.append(phrase)
     if not result:
         fallback_source = _default_negative_fit_source(genres)
+        fallback_theme = _choose_negative_theme(list(fallback_source.get("themes", []) or []))
         result.append(
             build_player_fit_phrase(
                 aspect=str(fallback_source.get("aspect", "")),
-                theme=None,
+                theme=fallback_theme,
                 genres=genres,
                 negative=True,
             )
@@ -1530,13 +1619,39 @@ def _normalized_genre_text(genres: list[str]) -> str:
 
 def _default_positive_fit_source(genres: list[str]) -> dict[str, Any]:
     genre_text = _normalized_genre_text(genres)
-    if any(token in genre_text for token in ("simulation", "management", "sports", "sport", "strategy", "전략", "경영")):
+    if any(token in genre_text for token in ("visual novel", "비주얼", "novel", "story rich")):
+        return {"aspect": "story", "themes": ["감정선", "서사 몰입"]}
+    if any(token in genre_text for token in ("city builder", "city-building", "도시 건설", "urban")):
+        return {"aspect": "gameplay", "themes": ["도시 운영", "교통 흐름"]}
+    if any(token in genre_text for token in ("automation", "factory", "factorio", "자동화", "공장")):
+        return {"aspect": "gameplay", "themes": ["자동화 라인", "병목 해소"]}
+    if any(token in genre_text for token in ("deckbuilding", "deck builder", "card", "cards", "카드", "덱빌딩")):
+        return {"aspect": "gameplay", "themes": ["덱 구성", "카드 선택"]}
+    if any(token in genre_text for token in ("turn-based", "turn based", "턴제", "tactical")):
+        return {"aspect": "gameplay", "themes": ["한 턴의 판단", "병력 손실 압박"]}
+    if any(token in genre_text for token in ("management", "sports", "sport", "strategy", "전략", "경영")):
         return {"aspect": "content_depth", "themes": []}
+    if any(token in genre_text for token in ("farming", "cozy", "life sim", "농장", "힐링", "생활")):
+        return {"aspect": "gameplay", "themes": ["하루 루틴", "농장 성장"]}
+    if any(token in genre_text for token in ("survival", "생존", "raid", "loot", "craft", "crafting")):
+        return {"aspect": "gameplay", "themes": ["파밍과 생존", "거점 운영"]}
+    if any(token in genre_text for token in ("co-op", "coop", "cooperative", "협동", "파티", "team")):
+        return {"aspect": "multiplayer", "themes": ["협동 임무", "팀 호흡"]}
     return {"aspect": "gameplay", "themes": []}
 
 
 def _default_negative_fit_source(genres: list[str]) -> dict[str, Any]:
     genre_text = _normalized_genre_text(genres)
+    if any(token in genre_text for token in ("visual novel", "비주얼", "novel", "story rich")):
+        return {"aspect": "localization", "themes": ["텍스트 흐름", "감정선 전달"]}
+    if any(token in genre_text for token in ("city builder", "city-building", "도시 건설", "urban")):
+        return {"aspect": "building_ux", "themes": ["배치 피로", "도시 관리 부담"]}
+    if any(token in genre_text for token in ("automation", "factory", "factorio", "자동화", "공장")):
+        return {"aspect": "building_ux", "themes": ["병목 관리", "복잡한 동선"]}
+    if any(token in genre_text for token in ("deckbuilding", "deck builder", "card", "cards", "카드", "덱빌딩")):
+        return {"aspect": "content_depth", "themes": ["반복 전개", "운 의존"]}
+    if any(token in genre_text for token in ("turn-based", "turn based", "턴제", "tactical")):
+        return {"aspect": "difficulty", "themes": ["한 턴 실수 부담", "초반 적응"]}
     if any(
         token in genre_text
         for token in ("multiplayer", "대규모 멀티플레이어", "battle royale", "battlegrounds", "shooter", "fps", "tps")

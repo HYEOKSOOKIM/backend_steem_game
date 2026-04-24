@@ -98,6 +98,9 @@ class FileStore:
     def write_report_view(self, appid: int, payload: Any, game_name: str | None = None) -> Path:
         return self.write_json(Path("report") / self._build_appid_filename(appid, game_name), payload)
 
+    def write_report_jobs(self, payload: Any) -> Path:
+        return self.write_json(Path("jobs") / "report_jobs.json", payload)
+
     def read_raw_reviews(self, appid: int) -> Any:
         return json.loads(self._resolve_appid_file_path("raw", appid).read_text(encoding="utf-8"))
 
@@ -112,3 +115,6 @@ class FileStore:
 
     def read_report_view(self, appid: int) -> Any:
         return json.loads(self._resolve_appid_file_path("report", appid).read_text(encoding="utf-8"))
+
+    def read_report_jobs(self) -> Any:
+        return self.read_json(Path("jobs") / "report_jobs.json")
