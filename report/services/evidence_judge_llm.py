@@ -42,7 +42,7 @@ class OpenAIEvidenceJudge:
         model: str | None = None,
     ) -> None:
         self.api_key = api_key or os.getenv("OPENAI_API_KEY")
-        self.model = model or os.getenv("OPENAI_MODEL", "gpt-4o-mini")
+        self.model = model or os.getenv("OPENAI_EVIDENCE_JUDGE_MODEL", "gpt-4o-mini")
         self._client = (
             OpenAI(api_key=self.api_key)
             if OpenAI is not None and self.api_key

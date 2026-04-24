@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import re
 from pathlib import Path
 from typing import Any
 
@@ -14,7 +15,10 @@ except ImportError:  # pragma: no cover - exercised only when FastAPI is missing
 from report.pipeline.offline_pipeline import run_offline_pipeline_for_appid
 from report.services.demo_catalog import build_demo_game_index, load_demo_games
 from report.services.report_view import (
+    build_game_context_payload,
     build_consumer_report_from_snapshot,
+    enrich_report_state,
+    enrich_review_trend,
     is_consumer_report_payload,
 )
 from report.storage.file_store import FileStore
@@ -37,7 +41,57 @@ def _catalog_path(data_root: str | Path) -> Path:
 
 def _load_demo_game_index(data_root: str | Path = DEFAULT_DATA_ROOT) -> dict[int, dict[str, Any]]:
     games = load_demo_games(_catalog_path(data_root))
-    return build_demo_game_index(games)
+    merged_games = list(games)
+    known_appids = {
+        int(item["appid"])
+        for item in merged_games
+        if isinstance(item, dict) and isinstance(item.get("appid"), int)
+    }
+    for discovered in _discover_report_games(data_root):
+        appid = int(discovered["appid"])
+        if appid in known_appids:
+            continue
+        merged_games.append(discovered)
+        known_appids.add(appid)
+    return build_demo_game_index(merged_games)
+
+
+def _discover_report_games(data_root: str | Path) -> list[dict[str, Any]]:
+    base = Path(data_root)
+    report_dir = base / "report"
+    if not report_dir.exists():
+        return []
+
+    store = FileStore(data_root, fallback_root_dir=LEGACY_DATA_ROOT)
+    discovered: list[dict[str, Any]] = []
+    seen: set[int] = set()
+
+    for path in sorted(report_dir.glob("*.json")):
+        match = re.match(r"^(?P<appid>\d+)", path.stem)
+        if match is None:
+            continue
+        appid = int(match.group("appid"))
+        if appid in seen:
+            continue
+        seen.add(appid)
+
+        metadata = _safe_read(lambda: store.read_game_metadata(appid), {})
+        discovered.append(
+            {
+                "appid": appid,
+                "name": metadata.get("name") or _name_from_report_filename(path.stem, appid),
+                "enabled_for_demo": True,
+            }
+        )
+
+    return discovered
+
+
+def _name_from_report_filename(stem: str, appid: int) -> str:
+    prefix = f"{appid}("
+    if stem.startswith(prefix) and stem.endswith(")"):
+        return stem[len(prefix) : -1] or f"appid-{appid}"
+    return stem or f"appid-{appid}"
 
 
 def _ensure_demo_game(appid: int, data_root: str | Path = DEFAULT_DATA_ROOT) -> dict[str, Any]:
@@ -60,6 +114,7 @@ def list_demo_games(data_root: str | Path = DEFAULT_DATA_ROOT) -> list[dict[str,
         analysis_ready = _artifact_exists(lambda: store.read_analysis_result(appid))
         report_ready = _artifact_exists(lambda: store.read_report_view(appid)) or analysis_ready
         metadata = _safe_read(lambda: store.read_game_metadata(appid), {})
+        game_context = build_game_context_payload(appid, metadata)
         result.append(
             {
                 "appid": appid,
@@ -67,6 +122,7 @@ def list_demo_games(data_root: str | Path = DEFAULT_DATA_ROOT) -> list[dict[str,
                 "enabled_for_demo": True,
                 "analysis_ready": analysis_ready,
                 "report_ready": report_ready,
+                "game": game_context,
             }
         )
     return result
@@ -79,7 +135,10 @@ def load_report(appid: int, data_root: str | Path = DEFAULT_DATA_ROOT) -> dict[s
 
     report_payload = _safe_read(lambda: store.read_report_view(appid))
     if is_consumer_report_payload(report_payload):
-        return report_payload
+        metadata = _safe_read(lambda: store.read_game_metadata(appid), {})
+        processed = _safe_read(lambda: store.read_processed_reviews(appid), [])
+        payload = _enrich_report_payload_game_context(appid, report_payload, metadata)
+        return enrich_review_trend(payload, processed)
 
     analysis = store.read_analysis_result(appid)
     metadata = _safe_read(lambda: store.read_game_metadata(appid), {})
@@ -93,6 +152,26 @@ def load_report(appid: int, data_root: str | Path = DEFAULT_DATA_ROOT) -> dict[s
         pipeline_run_id=analysis.get("pipeline_run_id"),
         source_review_count=analysis.get("source_review_count"),
     )
+
+
+def _enrich_report_payload_game_context(
+    appid: int,
+    report_payload: dict[str, Any],
+    metadata: dict[str, Any] | None,
+) -> dict[str, Any]:
+    """Add current metadata context to stored reports without rewriting artifacts."""
+    payload = dict(report_payload)
+    existing_game = payload.get("game") if isinstance(payload.get("game"), dict) else {}
+    enriched_game = build_game_context_payload(appid, metadata or {})
+    enriched_game.update({key: value for key, value in existing_game.items() if value not in (None, "", [])})
+
+    # Keep image/description fallbacks from build_game_context_payload when old reports lack them.
+    for key, value in build_game_context_payload(appid, metadata or {}).items():
+        if enriched_game.get(key) in (None, "", []):
+            enriched_game[key] = value
+
+    payload["game"] = enriched_game
+    return enrich_report_state(payload)
 
 
 def load_analysis_result(appid: int, data_root: str | Path = DEFAULT_DATA_ROOT) -> dict[str, Any]:

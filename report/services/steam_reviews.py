@@ -44,6 +44,20 @@ def normalize_steam_reviews(appid: int, payload: dict[str, Any]) -> list[RawRevi
     return [normalize_steam_review(appid, review) for review in reviews]
 
 
+def normalize_steam_review_summary(payload: dict[str, Any]) -> dict[str, Any]:
+    """Normalize Steam appreviews query summary for game-level display."""
+    summary = payload.get("query_summary") if isinstance(payload, dict) else {}
+    if not isinstance(summary, dict):
+        summary = {}
+
+    return {
+        "steam_review_score_desc": _clean_optional_string(summary.get("review_score_desc")),
+        "steam_total_positive": _safe_int(summary.get("total_positive")),
+        "steam_total_negative": _safe_int(summary.get("total_negative")),
+        "steam_total_reviews": _safe_int(summary.get("total_reviews")),
+    }
+
+
 def normalize_steam_game_metadata(appid: int, payload: dict[str, Any]) -> GameMetadata:
     """Normalize Steam appdetails payload into report-context metadata."""
     app_data = _extract_appdetails_data(appid, payload)
@@ -61,6 +75,7 @@ def normalize_steam_game_metadata(appid: int, payload: dict[str, Any]) -> GameMe
     ]
     release_date = app_data.get("release_date") or {}
     coming_soon = bool(release_date.get("coming_soon", False))
+    recommendations = app_data.get("recommendations") or {}
 
     return GameMetadata(
         appid=appid,
@@ -77,9 +92,20 @@ def normalize_steam_game_metadata(appid: int, payload: dict[str, Any]) -> GameMe
             if release_date.get("date")
             else None
         ),
+        header_image=_clean_optional_string(app_data.get("header_image")),
+        capsule_image=_clean_optional_string(app_data.get("capsule_image")),
+        capsule_imagev5=_clean_optional_string(app_data.get("capsule_imagev5")),
+        short_description=_clean_optional_string(app_data.get("short_description")),
+        steam_store_url=f"https://store.steampowered.com/app/{appid}",
+        steam_recommendation_count=_safe_int(recommendations.get("total")),
         is_free=bool(is_free) if is_free is not None else None,
         coming_soon=coming_soon,
     )
+
+
+def _clean_optional_string(value: Any) -> str | None:
+    text = str(value or "").strip()
+    return text or None
 
 
 def fetch_steam_reviews(

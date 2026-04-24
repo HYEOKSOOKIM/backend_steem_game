@@ -8,10 +8,10 @@
   ],
   "issue_signals": {
     "balance": {
-      "mention_count": 45,
-      "negative_ratio": 0.24444444444444444,
+      "mention_count": 103,
+      "negative_ratio": 0.3300970873786408,
       "recent_trend": "flat",
-      "experienced_player_share": 1.0,
+      "experienced_player_share": 0.9902912621359223,
       "themes": [
         "밸런스 불만"
       ],
@@ -21,10 +21,10 @@
       ]
     },
     "bugs": {
-      "mention_count": 161,
-      "negative_ratio": 0.5962732919254659,
+      "mention_count": 292,
+      "negative_ratio": 0.5582191780821918,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9627329192546584,
+      "experienced_player_share": 0.9691780821917808,
       "themes": [
         "일반 버그",
         "충돌 / 크래시",
@@ -36,42 +36,42 @@
       ]
     },
     "building_ux": {
-      "mention_count": 75,
-      "negative_ratio": 0.2,
+      "mention_count": 176,
+      "negative_ratio": 0.26704545454545453,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9866666666666667,
+      "experienced_player_share": 0.9829545454545454,
       "themes": [
         "건축 조작 불편",
         "부지 / 구조 제약"
       ],
       "sample_reviews": [
-        "그냥 재미있음...건설이나 발전 관련 게임 굿",
-        "5때도 막 나올때 반쯤 작살난 채로 수정 패치로 날아올랐듯이 이것도 시작은 미약했으나 끝은 창대... 어 점마 왜 7내노??하....\r\n그 7도 희대의 저점을 자랑하고 기존 팬들이 옹호하는 여론을 본 적이 없을 정도로 작살을 내놨습니다.\r\n5를 즐기던 분들은 건물 배치가 상당히 낯설게 느껴질테지만 그냥 방향성이 다르고 끝은 만류귀종으로 끝났으니 \r\n5하시던 분들 중 새로운 도전을 원하신다면 하셔도 좋습니다.\r\n그러나 7은 아주 오랜 기간 패치를 해야 할 만해 질 것 같습니다."
+        "심시티나 문명류 같이 전략 또는 도시 건설 게임을 좋아함. 문명은 5부터 즐겼는데 5탄에 문제점은 cpu를 많이 타는 게임이라 그 당시 pc방 컴터 에서도 게임 후반은 버벅임이 심해서 게임을 못할 정도였음.\r\n그래서 후반엔 한 턴 기다리는데 한 세월이라 게임성이나 중독성이 대단했지만 미완성에 가까움이라고 해야하나 최적화가 안되어 있었음. 지금은 cpu 성능도 월등하고, 패치로 인해 고쳤겠지만 문명5는 나에겐 좋은 게임이지만 끝마침을 못한 게임이였음. \r\n문명6은 문명5보단 재미는 떨어지는 것 같은데 완성도 면에서 5보단 좋다고 생각함. 사람들은 5랑6을 비교 많이 하는데 전투나 다른 몇몇 부분이 5가 더 잼있었던 것 같음. 하지만6은 게임 최적화 문제나 다른 부분의 단점이 보이지 않음. 재미는 문명5가 더 나을지 모르지만 문명6은 단점을 많이 극복한 수작이라고 생각함.\r\n그리고 문명5에 비해서 6이 재미가 떨어진다고 말하지만 문명 시리즈는 다 잼있고, 중독성이 강함.\r\n문명6을 사고자 하시는 분은 저녁에 게임 시작했는데, 새벽 해뜰 때 까지 하고 있는 자신을 볼 것입니다.",
+        "그냥 재미있음...건설이나 발전 관련 게임 굿"
       ]
     },
     "content_depth": {
-      "mention_count": 711,
-      "negative_ratio": 0.0829817158931083,
+      "mention_count": 1177,
+      "negative_ratio": 0.10365335598980459,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9873417721518988,
+      "experienced_player_share": 0.9872557349192863,
       "themes": [
         "중독성 / 시간순삭",
         "반복 / 목적성 부족",
         "콘텐츠 부족"
       ],
       "sample_reviews": [
-        "진짜 파면 팔수록 개재미있는게임 // 솔직히 모르고 막누르면서 하면 하루 시간 순삭하고 현타와서 안하게 되는데 이게 제대로 알고 파면 시간은 많이 잡아 먹지만 걔획대로 진행시키는 뽕맛이있음.. 이것저것 알아보고 하시면 더 재밌을 거임",
-        "시간 순삭. 인생 덧없다."
+        "심시티나 문명류 같이 전략 또는 도시 건설 게임을 좋아함. 문명은 5부터 즐겼는데 5탄에 문제점은 cpu를 많이 타는 게임이라 그 당시 pc방 컴터 에서도 게임 후반은 버벅임이 심해서 게임을 못할 정도였음.\r\n그래서 후반엔 한 턴 기다리는데 한 세월이라 게임성이나 중독성이 대단했지만 미완성에 가까움이라고 해야하나 최적화가 안되어 있었음. 지금은 cpu 성능도 월등하고, 패치로 인해 고쳤겠지만 문명5는 나에겐 좋은 게임이지만 끝마침을 못한 게임이였음. \r\n문명6은 문명5보단 재미는 떨어지는 것 같은데 완성도 면에서 5보단 좋다고 생각함. 사람들은 5랑6을 비교 많이 하는데 전투나 다른 몇몇 부분이 5가 더 잼있었던 것 같음. 하지만6은 게임 최적화 문제나 다른 부분의 단점이 보이지 않음. 재미는 문명5가 더 나을지 모르지만 문명6은 단점을 많이 극복한 수작이라고 생각함.\r\n그리고 문명5에 비해서 6이 재미가 떨어진다고 말하지만 문명 시리즈는 다 잼있고, 중독성이 강함.\r\n문명6을 사고자 하시는 분은 저녁에 게임 시작했는데, 새벽 해뜰 때 까지 하고 있는 자신을 볼 것입니다.",
+        "진짜 파면 팔수록 개재미있는게임 // 솔직히 모르고 막누르면서 하면 하루 시간 순삭하고 현타와서 안하게 되는데 이게 제대로 알고 파면 시간은 많이 잡아 먹지만 걔획대로 진행시키는 뽕맛이있음.. 이것저것 알아보고 하시면 더 재밌을 거임"
       ]
     },
     "controls": {
-      "mention_count": 52,
-      "negative_ratio": 0.46153846153846156,
+      "mention_count": 177,
+      "negative_ratio": 0.4406779661016949,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9230769230769231,
+      "experienced_player_share": 0.9378531073446328,
       "themes": [
-        "조작감 문제",
-        "UI / 입력 불편"
+        "UI / 입력 불편",
+        "조작감 문제"
       ],
       "sample_reviews": [
         "유명한 고트게임 할인세일하길래 한번 해봤는데 게임이 취향 호불호가 확실한 게임인거 같다.. 1시간도못넘기고환불함\n\n온라인 NPC 게임 이나 싱글류는 타격감 있는 게임 스텔라블레이드 , 다크소울 등의 게임을 좋아하는 사람과는 절대 맞지 않는 게임임.\n\n위에 내가 설명한 장르의 게임은 안좋아하고 자신이 직접플레이 하는것보다 3인칭 시점으로 자신이 선택하는것에 따라 상황이 변하는 약간 드라마보는거 같은느낌을 좋아하며 시간적여유 있는사람들이 좋아할만한 게임인거 같음\n\n예를들면 인터랙티브 장르의 드라마나 스팀게임중에 그런식으로 출시된 ' 비주얼 노벨 ' 이라 불리는 게임들 좋아하는 사람들한테는 정말 잘맞을거 같고 실제로 이 게임을 플레이하는 유저층도 그런쪽으로만 구성되어 있을거라 확신함. 그게아니라면 이게임의 리뷰나 평점이 좋은방향으로 갈수가 없을것이고...\n\n나는 이런게 취향이 아니라 못하겠음 차라리 붉은사막을 하는게 더 낫지.",
@@ -79,10 +79,10 @@
       ]
     },
     "customization": {
-      "mention_count": 14,
-      "negative_ratio": 0.2857142857142857,
+      "mention_count": 25,
+      "negative_ratio": 0.28,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9285714285714286,
+      "experienced_player_share": 0.96,
       "themes": [
         "헤어 / 의상 옵션 부족",
         "커스터마이징 호평",
@@ -94,10 +94,10 @@
       ]
     },
     "difficulty": {
-      "mention_count": 324,
-      "negative_ratio": 0.12654320987654322,
+      "mention_count": 559,
+      "negative_ratio": 0.17173524150268335,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9629629629629629,
+      "experienced_player_share": 0.964221824686941,
       "themes": [
         "난이도 / 진입장벽",
         "튜토리얼 / 온보딩 부족",
@@ -109,25 +109,25 @@
       ]
     },
     "gameplay": {
-      "mention_count": 870,
-      "negative_ratio": 0.12183908045977011,
+      "mention_count": 1804,
+      "negative_ratio": 0.15299334811529933,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9735632183908046,
+      "experienced_player_share": 0.9733924611973392,
       "themes": [
         "전투 손맛 / 액션 호평",
         "빌드 / 무기 다양성",
         "탐험 / 월드 경험"
       ],
       "sample_reviews": [
-        "문명조아",
-        "문명 6는 정말 최고의 게임입니다. 이 게임의 현실기반 사회시스템의 디테일과 인류에 대한 사랑은 끝이 없습니다. 교육용으로도 최고이며 플레이어의 국제적인 시각을 확장시키기에도 이만한 게임은 없을 것 입니다."
+        "심시티나 문명류 같이 전략 또는 도시 건설 게임을 좋아함. 문명은 5부터 즐겼는데 5탄에 문제점은 cpu를 많이 타는 게임이라 그 당시 pc방 컴터 에서도 게임 후반은 버벅임이 심해서 게임을 못할 정도였음.\r\n그래서 후반엔 한 턴 기다리는데 한 세월이라 게임성이나 중독성이 대단했지만 미완성에 가까움이라고 해야하나 최적화가 안되어 있었음. 지금은 cpu 성능도 월등하고, 패치로 인해 고쳤겠지만 문명5는 나에겐 좋은 게임이지만 끝마침을 못한 게임이였음. \r\n문명6은 문명5보단 재미는 떨어지는 것 같은데 완성도 면에서 5보단 좋다고 생각함. 사람들은 5랑6을 비교 많이 하는데 전투나 다른 몇몇 부분이 5가 더 잼있었던 것 같음. 하지만6은 게임 최적화 문제나 다른 부분의 단점이 보이지 않음. 재미는 문명5가 더 나을지 모르지만 문명6은 단점을 많이 극복한 수작이라고 생각함.\r\n그리고 문명5에 비해서 6이 재미가 떨어진다고 말하지만 문명 시리즈는 다 잼있고, 중독성이 강함.\r\n문명6을 사고자 하시는 분은 저녁에 게임 시작했는데, 새벽 해뜰 때 까지 하고 있는 자신을 볼 것입니다.",
+        "문명조아"
       ]
     },
     "graphics": {
-      "mention_count": 70,
-      "negative_ratio": 0.2714285714285714,
+      "mention_count": 203,
+      "negative_ratio": 0.2561576354679803,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9285714285714286,
+      "experienced_player_share": 0.9655172413793104,
       "themes": [
         "그래픽 / 비주얼 호평"
       ],
@@ -137,10 +137,10 @@
       ]
     },
     "localization": {
-      "mention_count": 19,
-      "negative_ratio": 0.21052631578947367,
+      "mention_count": 43,
+      "negative_ratio": 0.18604651162790697,
       "recent_trend": "flat",
-      "experienced_player_share": 1.0,
+      "experienced_player_share": 0.8837209302325582,
       "themes": [
         "번역 / 현지화 이슈"
       ],
@@ -150,10 +150,10 @@
       ]
     },
     "mod_support": {
-      "mention_count": 99,
-      "negative_ratio": 0.2222222222222222,
+      "mention_count": 154,
+      "negative_ratio": 0.24675324675324675,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9696969696969697,
+      "experienced_player_share": 0.9805194805194806,
       "themes": [
         "모드 지원 / 호환 문제"
       ],
@@ -163,10 +163,10 @@
       ]
     },
     "monetization": {
-      "mention_count": 419,
-      "negative_ratio": 0.21241050119331742,
+      "mention_count": 929,
+      "negative_ratio": 0.2303552206673843,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9355608591885441,
+      "experienced_player_share": 0.9515608180839612,
       "themes": [
         "DLC / 확장팩 언급",
         "가격 / 과금 불만"
@@ -177,13 +177,13 @@
       ]
     },
     "multiplayer": {
-      "mention_count": 195,
-      "negative_ratio": 0.14871794871794872,
+      "mention_count": 325,
+      "negative_ratio": 0.18153846153846154,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9948717948717949,
+      "experienced_player_share": 0.9876923076923076,
       "themes": [
-        "부정행위 / 보안 이슈",
         "멀티플레이 경험",
+        "부정행위 / 보안 이슈",
         "모드 / 큐 구성 이슈"
       ],
       "sample_reviews": [
@@ -192,25 +192,25 @@
       ]
     },
     "performance": {
-      "mention_count": 88,
-      "negative_ratio": 0.48863636363636365,
+      "mention_count": 163,
+      "negative_ratio": 0.4785276073619632,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9318181818181818,
+      "experienced_player_share": 0.9325153374233128,
       "themes": [
         "최적화 문제",
         "실행 불가 / 튕김",
         "로딩 / 발열 문제"
       ],
       "sample_reviews": [
-        "게임은 재미진데...\n\nCPU를 왜 이렇게 갈구는 건지 온도가 장난 아니게 올라간다. 발적화가 아직도 심한 듯...\n그리고 macOS랑 Windows 크로스플레이는 원래는 지원이 되야 하는데, 얘네가 업데이트하면서 건드린 건지 순정으로는 작동을 안 해서 Reddit서 미봉책 찾아서 겨우 해결...\n\n5도 2k 런처니 뭐니 뻘짓하다가 호환성 개판된 걸로 아는데 얘네 도대체 왜 이러냐.",
-        "문명하셨습니다라는 말이 있는 이유가 있음. 시간 떼우기 굉장히 좋음. 대체역사 뽕도 있고. 다만 초대형 기준 후반부에는 턴 넘길 때 로딩이 너무 길어서 조금 슬픔..."
+        "심시티나 문명류 같이 전략 또는 도시 건설 게임을 좋아함. 문명은 5부터 즐겼는데 5탄에 문제점은 cpu를 많이 타는 게임이라 그 당시 pc방 컴터 에서도 게임 후반은 버벅임이 심해서 게임을 못할 정도였음.\r\n그래서 후반엔 한 턴 기다리는데 한 세월이라 게임성이나 중독성이 대단했지만 미완성에 가까움이라고 해야하나 최적화가 안되어 있었음. 지금은 cpu 성능도 월등하고, 패치로 인해 고쳤겠지만 문명5는 나에겐 좋은 게임이지만 끝마침을 못한 게임이였음. \r\n문명6은 문명5보단 재미는 떨어지는 것 같은데 완성도 면에서 5보단 좋다고 생각함. 사람들은 5랑6을 비교 많이 하는데 전투나 다른 몇몇 부분이 5가 더 잼있었던 것 같음. 하지만6은 게임 최적화 문제나 다른 부분의 단점이 보이지 않음. 재미는 문명5가 더 나을지 모르지만 문명6은 단점을 많이 극복한 수작이라고 생각함.\r\n그리고 문명5에 비해서 6이 재미가 떨어진다고 말하지만 문명 시리즈는 다 잼있고, 중독성이 강함.\r\n문명6을 사고자 하시는 분은 저녁에 게임 시작했는데, 새벽 해뜰 때 까지 하고 있는 자신을 볼 것입니다.",
+        "게임은 재미진데...\n\nCPU를 왜 이렇게 갈구는 건지 온도가 장난 아니게 올라간다. 발적화가 아직도 심한 듯...\n그리고 macOS랑 Windows 크로스플레이는 원래는 지원이 되야 하는데, 얘네가 업데이트하면서 건드린 건지 순정으로는 작동을 안 해서 Reddit서 미봉책 찾아서 겨우 해결...\n\n5도 2k 런처니 뭐니 뻘짓하다가 호환성 개판된 걸로 아는데 얘네 도대체 왜 이러냐."
       ]
     },
     "save_progression": {
-      "mention_count": 46,
-      "negative_ratio": 0.30434782608695654,
+      "mention_count": 78,
+      "negative_ratio": 0.2948717948717949,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9347826086956522,
+      "experienced_player_share": 0.9487179487179487,
       "themes": [
         "저장 / 세이브 손실"
       ],
@@ -220,10 +220,10 @@
       ]
     },
     "story": {
-      "mention_count": 80,
-      "negative_ratio": 0.1125,
+      "mention_count": 138,
+      "negative_ratio": 0.2028985507246377,
       "recent_trend": "flat",
-      "experienced_player_share": 1.0,
+      "experienced_player_share": 0.9927536231884058,
       "themes": [
         "스토리 / 서사 몰입",
         "캐릭터 / 연출 인상"
@@ -240,5 +240,41 @@
     "recent_change": "최근 기간에는 특정 카테고리의 급격한 변화보다 전반적인 유지 신호가 보입니다.",
     "fit_for": "초반 진입 장벽이나 조작 적응 여부를 중요하게 보는 플레이어는 사전 확인이 필요합니다.",
     "risks": "gameplay 관련 이슈는 반복적으로 언급되지만 최근 급격한 악화 신호는 제한적입니다."
+  },
+  "pipeline_run_id": "289070-20260424T070952Z",
+  "generated_at": "2026-04-24T07:12:40.823410+00:00",
+  "source_review_count": 12232,
+  "review_pages": "all",
+  "fetched_pages": 124,
+  "fetched_review_count": 12232,
+  "fetch_timeout_seconds": 20,
+  "fetch_filter": "recent",
+  "all_mode_page_cap": 200,
+  "all_mode_cap_reached": false,
+  "llm_stats": {
+    "considered": 8151,
+    "selected": 50,
+    "invoked": 50,
+    "success": 50,
+    "schema_invalid": 0,
+    "low_confidence": 0,
+    "cache_hits": 0,
+    "fallback_used": 0
+  },
+  "report_material_refiner": {
+    "enabled": true,
+    "max_llm_reviews": 50,
+    "llm_min_confidence": 0.7,
+    "material_count": 50,
+    "stats": {
+      "considered": 8151,
+      "selected": 50,
+      "invoked": 50,
+      "success": 50,
+      "schema_invalid": 0,
+      "low_confidence": 0,
+      "cache_hits": 0,
+      "fallback_used": 0
+    }
   }
 }

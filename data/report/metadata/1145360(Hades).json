@@ -1,0 +1,24 @@
+{
+  "appid": 1145360,
+  "name": "Hades",
+  "genres": [
+    "액션",
+    "인디",
+    "RPG"
+  ],
+  "price_model": "paid",
+  "release_stage": "released",
+  "release_date_text": "2020년 9월 17일",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/header.jpg?t=1758127023",
+  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/capsule_231x87.jpg?t=1758127023",
+  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/capsule_184x69.jpg?t=1758127023",
+  "short_description": "Bastion, Transistor, Pyre의 제작사에서 선보이는 이 로그라이크 던전 탐색형 게임에서 핵 앤 슬래시로 지하 세계를 탈출하고 죽음의 신에게 도전하세요.",
+  "steam_store_url": "https://store.steampowered.com/app/1145360",
+  "steam_recommendation_count": 279222,
+  "steam_review_score_desc": "Overwhelmingly Positive",
+  "steam_total_positive": 6550,
+  "steam_total_negative": 210,
+  "steam_total_reviews": 6760,
+  "is_free": false,
+  "coming_soon": false
+}

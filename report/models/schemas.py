@@ -35,6 +35,16 @@ class GameMetadata:
     price_model: str = "unknown"
     release_stage: str = "unknown"
     release_date_text: str | None = None
+    header_image: str | None = None
+    capsule_image: str | None = None
+    capsule_imagev5: str | None = None
+    short_description: str | None = None
+    steam_store_url: str | None = None
+    steam_recommendation_count: int | None = None
+    steam_review_score_desc: str | None = None
+    steam_total_positive: int | None = None
+    steam_total_negative: int | None = None
+    steam_total_reviews: int | None = None
     is_free: bool | None = None
     coming_soon: bool | None = None
 

@@ -2,7 +2,9 @@
 
 from __future__ import annotations
 
+from collections import defaultdict
 from difflib import SequenceMatcher
+import logging
 import os
 import re
 from datetime import datetime, timezone
@@ -12,7 +14,22 @@ from report.analysis.rules import clean_markup_text
 from report.models.schemas import AnalysisResult, GameMetadata, ProcessedReview, RawReview
 from report.services.evidence_judge_llm import OpenAIEvidenceJudge
 from report.services.korean_report_proofreader import KoreanReportProofreader
+from report.services.player_fit_mapper import (
+    build_display_theme,
+    build_evidence_title,
+    build_evidence_why_it_matters,
+    build_experience_summary,
+    build_fit_signal,
+    build_headline_theme,
+    build_player_fit_phrase,
+)
 from report.services.report_writer_llm import OpenAIReportWriter, validate_structured_report_payload
+
+logger = logging.getLogger(__name__)
+
+MIN_REPORT_REVIEW_COUNT = 100
+REPORT_STATE_READY = "ready"
+REPORT_STATE_INSUFFICIENT_REVIEWS = "insufficient_reviews"
 
 CATEGORY_DISPLAY = {
     "balance": "밸런스",
@@ -146,27 +163,6 @@ ASPECT_EVIDENCE_HINTS = {
     "localization": ("번역", "로컬", "자막", "텍스트", "오역"),
 }
 
-GOOD_FOR_SCENARIOS = {
-    "gameplay": "긴 보스전에서 패턴을 익히고 반복 트라이를 즐기는 플레이어",
-    "story": "전투 속도보다 서사와 분위기 몰입을 우선하는 플레이어",
-    "graphics": "시각 연출과 월드 분위기를 천천히 감상하며 플레이하는 플레이어",
-    "customization": "캐릭터 외형과 빌드를 오래 만지며 플레이하는 플레이어",
-    "content_depth": "하루에 오래 붙잡고 성장 루프를 깊게 파는 플레이어",
-    "difficulty": "난관을 반복 시도하며 실력을 올리는 과정 자체를 즐기는 플레이어",
-}
-
-NOT_GOOD_FOR_SCENARIOS = {
-    "performance": "짧은 플레이 시간에도 프레임 안정성이 꼭 필요한 환경에서 즐기려는 플레이어",
-    "bugs": "진행 중 오류나 예기치 않은 끊김을 거의 허용하지 않는 플레이어",
-    "difficulty": "초반부터 편하게 진행되는 난이도를 기대하는 플레이어",
-    "difficulty_onboarding": "튜토리얼 안내가 충분해야 시작할 수 있는 플레이어",
-    "save_progression": "플레이 기록 보존을 최우선으로 보는 플레이어",
-    "matchmaking": "멀티 매칭 품질이 낮으면 즉시 이탈하는 플레이어",
-    "multiplayer": "팀플레이 품질과 소통 스트레스를 크게 받는 플레이어",
-    "balance": "메타 변동에 민감해 작은 밸런스 변화도 피로하게 느끼는 플레이어",
-    "monetization": "가격 대비 체감 만족을 매우 엄격하게 따지는 플레이어",
-}
-
 PAID_RECOMMENDATIONS = {"buy_now", "buy_on_sale", "wait", "not_recommended"}
 FREE_RECOMMENDATIONS = {"free_play_recommended", "play_now", "try_lightly", "wait", "not_recommended"}
 ALL_RECOMMENDATIONS = PAID_RECOMMENDATIONS | FREE_RECOMMENDATIONS
@@ -191,6 +187,112 @@ FORBIDDEN_LABEL_REPLACEMENTS: dict[str, str] = {
     "콘텐츠 부족": "플레이 시간이 누적될수록 새로움이 빨리 소진될 수 있는 리스크",
     "세이브 / 진행 유실": "진행 데이터 안정성이 만족도를 크게 좌우하는 리스크",
 }
+
+
+def build_game_context_payload(appid: int, metadata: dict[str, Any] | None) -> dict[str, Any]:
+    """Build consumer-facing game context with stable image fallbacks."""
+    metadata_payload = metadata or {}
+    header_image = _metadata_text(metadata_payload.get("header_image"))
+    capsule_image = _metadata_text(metadata_payload.get("capsule_image"))
+    capsule_imagev5 = _metadata_text(metadata_payload.get("capsule_imagev5"))
+
+    return {
+        "name": metadata_payload.get("name"),
+        "genres": list(metadata_payload.get("genres", []) or []),
+        "price_model": metadata_payload.get("price_model"),
+        "is_free": metadata_payload.get("is_free"),
+        "release_stage": metadata_payload.get("release_stage"),
+        "release_date_text": metadata_payload.get("release_date_text"),
+        "header_image": header_image or f"https://cdn.akamai.steamstatic.com/steam/apps/{appid}/header.jpg",
+        "capsule_image": capsule_image or f"https://cdn.akamai.steamstatic.com/steam/apps/{appid}/capsule_616x353.jpg",
+        "capsule_imagev5": capsule_imagev5 or f"https://cdn.akamai.steamstatic.com/steam/apps/{appid}/library_600x900.jpg",
+        "short_description": _metadata_text(metadata_payload.get("short_description")),
+        "steam_store_url": _metadata_text(metadata_payload.get("steam_store_url"))
+        or f"https://store.steampowered.com/app/{appid}",
+        "steam_recommendation_count": metadata_payload.get("steam_recommendation_count"),
+        "steam_review_score_desc": _metadata_text(metadata_payload.get("steam_review_score_desc")),
+        "steam_total_positive": metadata_payload.get("steam_total_positive"),
+        "steam_total_negative": metadata_payload.get("steam_total_negative"),
+        "steam_total_reviews": metadata_payload.get("steam_total_reviews"),
+    }
+
+
+def _metadata_text(value: Any) -> str | None:
+    text = str(value or "").strip()
+    return text or None
+
+
+def _report_state_for_review_count(source_review_count: Any) -> str:
+    try:
+        count = int(source_review_count or 0)
+    except (TypeError, ValueError):
+        count = 0
+    if count < MIN_REPORT_REVIEW_COUNT:
+        return REPORT_STATE_INSUFFICIENT_REVIEWS
+    return REPORT_STATE_READY
+
+
+def enrich_report_state(payload: dict[str, Any]) -> dict[str, Any]:
+    """Attach the current report availability policy to an existing payload."""
+    next_payload = dict(payload)
+    source_count = next_payload.get("source_review_count")
+    next_payload["min_report_review_count"] = MIN_REPORT_REVIEW_COUNT
+    next_payload["report_state"] = _report_state_for_review_count(source_count)
+    return next_payload
+
+
+def enrich_review_trend(payload: dict[str, Any], processed_reviews: list[dict[str, Any]] | None) -> dict[str, Any]:
+    """Attach monthly review sentiment trend when old report snapshots lack it."""
+    existing_trend = payload.get("review_trend")
+    if isinstance(existing_trend, dict) and existing_trend.get("granularity") == "month":
+        return payload
+    next_payload = dict(payload)
+    next_payload["review_trend"] = build_review_trend_payload(processed_reviews or [])
+    return next_payload
+
+
+def build_review_trend_payload(processed_reviews: list[dict[str, Any]] | None) -> dict[str, Any]:
+    """Build monthly positive-ratio points from processed Steam reviews."""
+    buckets: dict[str, dict[str, int]] = defaultdict(lambda: {"positive": 0, "total": 0})
+    for review in processed_reviews or []:
+        timestamp = _safe_int(review.get("timestamp_created"))
+        if timestamp is None or timestamp <= 0:
+            continue
+        bucket = _month_bucket_from_timestamp(timestamp)
+        buckets[bucket]["total"] += 1
+        if bool(review.get("voted_up")):
+            buckets[bucket]["positive"] += 1
+
+    points: list[dict[str, Any]] = []
+    for bucket in sorted(buckets):
+        total = buckets[bucket]["total"]
+        positive = buckets[bucket]["positive"]
+        points.append(
+            {
+                "month": bucket,
+                "positive_count": positive,
+                "review_count": total,
+                "positive_ratio": round(positive / total, 4) if total > 0 else None,
+            }
+        )
+
+    return {
+        "granularity": "month",
+        "metric": "positive_ratio",
+        "points": points,
+    }
+
+
+def _month_bucket_from_timestamp(timestamp_created: int) -> str:
+    dt = datetime.fromtimestamp(timestamp_created, tz=timezone.utc)
+    return f"{dt.year}-{dt.month:02d}"
+
+
+def _safe_int(value: Any) -> int | None:
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return None
 
 
 def is_consumer_report_payload(payload: Any) -> bool:
@@ -236,15 +338,12 @@ def build_report_ready_data(
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "source_review_count": len(raw_reviews),
         "included_review_count": included_count,
-        "game": {
-            "name": metadata_payload.get("name"),
-            "genres": list(metadata_payload.get("genres", []) or []),
-            "price_model": metadata_payload.get("price_model"),
-            "is_free": metadata_payload.get("is_free"),
-            "release_stage": metadata_payload.get("release_stage"),
-        },
+        "min_report_review_count": MIN_REPORT_REVIEW_COUNT,
+        "report_state": _report_state_for_review_count(len(raw_reviews)),
+        "review_trend": build_review_trend_payload(processed_payload),
+        "game": build_game_context_payload(appid, metadata_payload),
         **structured_report,
-        "disclaimer": "이 리포트는 반복적으로 관찰된 고합의 리뷰 신호를 구매 판단 관점으로 재해석한 결과입니다.",
+        "disclaimer": "여러 유저 리뷰를 바탕으로 정리했어요. 플레이 경험은 사람마다 다를 수 있어요.",
     }
     return _attach_legacy_flat_fields(payload)
 
@@ -286,15 +385,12 @@ def build_consumer_report_from_snapshot(
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "source_review_count": source_review_count,
         "included_review_count": included_count,
-        "game": {
-            "name": metadata_payload.get("name"),
-            "genres": list(metadata_payload.get("genres", []) or []),
-            "price_model": metadata_payload.get("price_model"),
-            "is_free": metadata_payload.get("is_free"),
-            "release_stage": metadata_payload.get("release_stage"),
-        },
+        "min_report_review_count": MIN_REPORT_REVIEW_COUNT,
+        "report_state": _report_state_for_review_count(source_review_count),
+        "review_trend": build_review_trend_payload(processed_payload),
+        "game": build_game_context_payload(appid, metadata_payload),
         **structured_report,
-        "disclaimer": "이 리포트는 반복적으로 관찰된 고합의 리뷰 신호를 구매 판단 관점으로 재해석한 결과입니다.",
+        "disclaimer": "여러 유저 리뷰를 바탕으로 정리했어요. 플레이 경험은 사람마다 다를 수 있어요.",
     }
     return _attach_legacy_flat_fields(payload)
 
@@ -352,6 +448,11 @@ def _build_structured_report_bundle(
     writer = OpenAIReportWriter()
 
     if enable_llm_sections and _should_use_llm_report_writer() and writer.available:
+        logger.info(
+            "report_llm_writer enabled plan_model=%s display_model=%s",
+            writer.plan_model,
+            writer.display_model,
+        )
         llm_plan = writer.generate_report_plan(
             consensus_payload=consensus_payload,
             seed_plan=seed_plan,
@@ -387,6 +488,8 @@ def _build_structured_report_bundle(
             payload=finalized,
             allow_llm=bool(enable_llm_sections),
             is_free_game=_is_free_game(consensus_payload),
+            seed_display=seed_display,
+            genres=list((consensus_payload.get("game_context", {}) or {}).get("genres", []) or []),
         )
         if validate_structured_report_payload(finalized):
             return finalized
@@ -408,6 +511,8 @@ def _build_structured_report_bundle(
         payload=fallback,
         allow_llm=False,
         is_free_game=_is_free_game(consensus_payload),
+        seed_display=seed_display,
+        genres=list((consensus_payload.get("game_context", {}) or {}).get("genres", []) or []),
     )
     return fallback
 
@@ -555,15 +660,95 @@ def _rewrite_free_game_text(text: str) -> str:
     return result
 
 
+_PLAYER_FIT_BAD_FRAGMENTS = (
+    "상황의 플레이어",
+    "상황의 유저",
+    "플레이할 수 있는 상황",
+    "즐길 수 있는 상황",
+)
+
+
+def _normalize_player_fit_phrase(text: str) -> str:
+    value = re.sub(r"\s+", " ", str(text or "")).strip()
+    if not value:
+        return ""
+    value = value.rstrip(".!?。！？ ")
+    replacements = (
+        ("플레이어이다", "플레이어"),
+        ("플레이어입니다", "플레이어"),
+        ("플레이어예요", "플레이어"),
+        ("플레이어에요", "플레이어"),
+        ("플레이어는", "플레이어"),
+        ("플레이어은", "플레이어"),
+        ("유저이다", "유저"),
+        ("유저입니다", "유저"),
+        ("유저예요", "유저"),
+        ("유저에요", "유저"),
+        ("유저는", "유저"),
+        ("분입니다", "분"),
+        ("분이에요", "분"),
+        ("분이에용", "분"),
+        ("분은", "분"),
+    )
+    for before, after in replacements:
+        if value.endswith(before):
+            value = value[: -len(before)] + after
+            break
+    value = re.sub(r"(플레이어|유저|분)(?:[는은이가]|이다|입니다|이에요|예요)$", r"\1", value)
+    return value.strip(" ,")
+
+
+def _normalize_card_title(text: str) -> str:
+    value = re.sub(r"\s+", " ", str(text or "")).strip()
+    if not value:
+        return ""
+    value = value.rstrip(".!?。！？ ")
+    if len(value) >= 10 and value.endswith(("이다", "입니다", "예요", "이에요")):
+        value = re.sub(r"(이다|입니다|예요|이에요)$", "", value).strip()
+    if len(value) >= 10 and value.endswith(("는", "은")):
+        value = value[:-1].strip()
+    return value
+
+
+def _looks_generic_player_fit_phrase(text: str) -> bool:
+    value = str(text or "")
+    if not value:
+        return True
+    if any(fragment in value for fragment in _PLAYER_FIT_BAD_FRAGMENTS):
+        return True
+    if len(value) >= 44:
+        return True
+    return False
+
+
+def _stabilize_player_fit_list(values: list[Any], seed_values: list[Any]) -> list[str]:
+    stabilized: list[str] = []
+    max_items = max(len(values), len(seed_values))
+    for index in range(max_items):
+        candidate = _normalize_player_fit_phrase(values[index]) if index < len(values) else ""
+        seed = _normalize_player_fit_phrase(seed_values[index]) if index < len(seed_values) else ""
+        final = candidate
+        if not final:
+            final = seed
+        elif _looks_generic_player_fit_phrase(final) and seed:
+            final = seed
+        if final and final not in stabilized:
+            stabilized.append(final)
+    return stabilized
+
+
 def _apply_final_language_polish(
     *,
     payload: dict[str, Any],
     allow_llm: bool,
     is_free_game: bool,
+    seed_display: dict[str, Any] | None = None,
+    genres: list[str] | None = None,
 ) -> dict[str, Any]:
     report_plan = dict(payload.get("report_plan", {}) or {})
     report_display = dict(payload.get("report_display", {}) or {})
     evidence_sections = payload.get("evidence_sections", {}) or {}
+    seed_display = dict(seed_display or {})
 
     # Apply forbidden-label replacement first (title/theme only),
     # then run proofreading on the final wording.
@@ -572,6 +757,11 @@ def _apply_final_language_polish(
 
     proofreader = KoreanReportProofreader()
     llm_enabled = bool(allow_llm and _is_llm_proofread_enabled() and proofreader.available)
+    logger.info(
+        "report_llm_proofreader enabled=%s model=%s",
+        llm_enabled,
+        proofreader.model,
+    )
 
     def _fix(text: str, *, allow_llm_override: bool | None = None) -> str:
         source = _rewrite_free_game_text(text) if is_free_game else str(text or "")
@@ -590,35 +780,69 @@ def _apply_final_language_polish(
 
     good_for = []
     for item in list(report_display.get("good_for", []) or []):
-        good_for.append(_fix(str(item)))
-    report_display["good_for"] = good_for
+        good_for.append(_fix(str(item), allow_llm_override=False))
+    report_display["good_for"] = _guard_player_fit_list_by_genre(
+        _stabilize_player_fit_list(
+            good_for,
+            list(seed_display.get("good_for", []) or []),
+        ),
+        list(seed_display.get("good_for", []) or []),
+        genres or [],
+    )
 
     not_good_for = []
     for item in list(report_display.get("not_good_for", []) or []):
-        not_good_for.append(_fix(str(item)))
-    report_display["not_good_for"] = not_good_for
+        not_good_for.append(_fix(str(item), allow_llm_override=False))
+    report_display["not_good_for"] = _guard_player_fit_list_by_genre(
+        _stabilize_player_fit_list(
+            not_good_for,
+            list(seed_display.get("not_good_for", []) or []),
+        ),
+        list(seed_display.get("not_good_for", []) or []),
+        genres or [],
+    )
 
     top_strengths = []
-    for item in list(report_display.get("top_strengths", []) or []):
+    seed_strengths = list(seed_display.get("top_strengths", []) or [])
+    for index, item in enumerate(list(report_display.get("top_strengths", []) or [])):
         if not isinstance(item, dict):
             continue
         next_item = dict(item)
+        seed_item = seed_strengths[index] if index < len(seed_strengths) and isinstance(seed_strengths[index], dict) else {}
         if isinstance(next_item.get("title"), str):
-            next_item["title"] = _fix(str(next_item.get("title", "")))
+            next_item["title"] = _guard_copy_text_by_genre(
+                _normalize_card_title(_fix(str(next_item.get("title", "")))),
+                genres or [],
+                fallback=_normalize_card_title(str(seed_item.get("title", ""))),
+            )
         if isinstance(next_item.get("summary"), str):
-            next_item["summary"] = _fix(str(next_item.get("summary", "")))
+            next_item["summary"] = _guard_copy_text_by_genre(
+                _fix(str(next_item.get("summary", ""))),
+                genres or [],
+                fallback=str(seed_item.get("summary", "")),
+            )
         top_strengths.append(next_item)
     report_display["top_strengths"] = top_strengths
 
     top_risks = []
-    for item in list(report_display.get("top_risks", []) or []):
+    seed_risks = list(seed_display.get("top_risks", []) or [])
+    for index, item in enumerate(list(report_display.get("top_risks", []) or [])):
         if not isinstance(item, dict):
             continue
         next_item = dict(item)
+        seed_item = seed_risks[index] if index < len(seed_risks) and isinstance(seed_risks[index], dict) else {}
         if isinstance(next_item.get("title"), str):
-            next_item["title"] = _fix(str(next_item.get("title", "")))
+            next_item["title"] = _guard_copy_text_by_genre(
+                _normalize_card_title(_fix(str(next_item.get("title", "")))),
+                genres or [],
+                fallback=_normalize_card_title(str(seed_item.get("title", ""))),
+            )
         if isinstance(next_item.get("summary"), str):
-            next_item["summary"] = _fix(str(next_item.get("summary", "")))
+            next_item["summary"] = _guard_copy_text_by_genre(
+                _fix(str(next_item.get("summary", ""))),
+                genres or [],
+                fallback=str(seed_item.get("summary", "")),
+            )
         top_risks.append(next_item)
     report_display["top_risks"] = top_risks
 
@@ -634,11 +858,23 @@ def _apply_final_language_polish(
                 continue
             next_block = dict(block)
             if isinstance(next_block.get("title"), str):
-                next_block["title"] = _fix(str(next_block.get("title", "")))
+                next_block["title"] = _guard_copy_text_by_genre(
+                    _fix(str(next_block.get("title", ""))),
+                    genres or [],
+                    fallback=str(next_block.get("theme", "")),
+                )
             if isinstance(next_block.get("why_it_matters"), str):
-                next_block["why_it_matters"] = _fix(str(next_block.get("why_it_matters", "")))
+                next_block["why_it_matters"] = _guard_copy_text_by_genre(
+                    _fix(str(next_block.get("why_it_matters", ""))),
+                    genres or [],
+                    fallback=str(next_block.get("explanation", "")),
+                )
             if isinstance(next_block.get("explanation"), str):
-                next_block["explanation"] = _fix(str(next_block.get("explanation", "")))
+                next_block["explanation"] = _guard_copy_text_by_genre(
+                    _fix(str(next_block.get("explanation", ""))),
+                    genres or [],
+                    fallback=str(next_block.get("explanation", "")),
+                )
             snippets: list[str] = []
             for snippet in list(next_block.get("evidence_snippets", []) or []):
                 # Evidence snippet is kept as rule-only polish to preserve original user wording.
@@ -657,6 +893,50 @@ def _apply_final_language_polish(
     merged["report_display"] = report_display
     merged["evidence_sections"] = next_sections
     return merged
+
+
+def _guard_player_fit_list_by_genre(values: list[str], seed_values: list[Any], genres: list[str]) -> list[str]:
+    guarded: list[str] = []
+    for index, value in enumerate(values):
+        seed = _normalize_player_fit_phrase(seed_values[index]) if index < len(seed_values) else ""
+        final = _guard_copy_text_by_genre(value, genres, fallback=seed)
+        if final and final not in guarded:
+            guarded.append(final)
+    return guarded
+
+
+def _guard_copy_text_by_genre(text: str, genres: list[str], *, fallback: str = "") -> str:
+    value = " ".join(str(text or "").split()).strip()
+    if not value:
+        return fallback.strip()
+
+    lowered = value.lower()
+    genre_text = _normalized_genre_text(genres)
+
+    def _has_any(*fragments: str) -> bool:
+        return any(fragment in lowered for fragment in fragments)
+
+    if any(token in genre_text for token in ("visual novel", "비주얼", "novel", "story rich")):
+        if _has_any("전투", "교전", "손맛", "매칭", "서버", "핵심 플레이", "성장 루프", "보스"):
+            return fallback.strip() or value
+
+    if any(token in genre_text for token in ("city builder", "city-building", "도시 건설", "urban")):
+        if _has_any("전투", "교전", "보스", "패턴", "이동 흐름", "핵심 플레이를 반복하며"):
+            return fallback.strip() or value
+
+    if any(token in genre_text for token in ("automation", "factory", "factorio", "자동화", "공장")):
+        if _has_any("매칭", "서버", "보스", "보스전", "교전 손맛", "핵심 플레이를 반복하며"):
+            return fallback.strip() or value
+
+    if any(token in genre_text for token in ("deckbuilding", "deck builder", "card", "카드", "덱빌딩")):
+        if _has_any("오픈월드", "탐험", "교전 손맛", "서사와 분위기"):
+            return fallback.strip() or value
+
+    if any(token in genre_text for token in ("turn-based", "turn based", "턴제", "tactical", "전술")):
+        if _has_any("오픈월드", "탐험", "실시간", "손맛") and "턴" not in lowered:
+            return fallback.strip() or value
+
+    return value
 
 
 def _replace_forbidden_labels(text: str) -> str:
@@ -897,10 +1177,7 @@ def _build_consensus_payload(
     return {
         "game_context": {
             "appid": appid,
-            "name": metadata.get("name"),
-            "genres": list(metadata.get("genres", []) or []),
-            "price_model": metadata.get("price_model"),
-            "is_free": metadata.get("is_free"),
+            **build_game_context_payload(appid, metadata),
             "analysis_window": "latest_snapshot",
             "included_review_count": included_count,
         },
@@ -1029,6 +1306,8 @@ def _build_refined_material_map(report_materials: list[dict[str, Any]]) -> dict[
 
 def _build_report_deterministic(consensus_payload: dict[str, Any]) -> dict[str, Any]:
     aspects = list(consensus_payload.get("consensus_aspects", []) or [])
+    game_context = consensus_payload.get("game_context", {}) or {}
+    genres = list(game_context.get("genres", []) or [])
     high = [item for item in aspects if item.get("consensus_level") == "high"]
     medium = [item for item in aspects if item.get("consensus_level") == "medium"]
 
@@ -1040,15 +1319,15 @@ def _build_report_deterministic(consensus_payload: dict[str, Any]) -> dict[str, 
         paid_recommendation,
         is_free_game=_is_free_game(consensus_payload),
     )
-    headline = _build_headline(recommendation, selected_strengths, selected_risks)
+    headline = _build_headline(recommendation, selected_strengths, selected_risks, genres=genres)
     if recommendation == "buy_on_sale":
         strength_theme = (
-            _experience_theme(selected_strengths[0], positive=True)
+            _experience_theme(selected_strengths[0], positive=True, genres=genres)
             if selected_strengths
             else "핵심 플레이 경험"
         )
         risk_theme = (
-            _experience_theme(selected_risks[0], positive=False)
+            _experience_theme(selected_risks[0], positive=False, genres=genres)
             if selected_risks
             else "기술 안정성 이슈"
         )
@@ -1056,11 +1335,44 @@ def _build_report_deterministic(consensus_payload: dict[str, Any]) -> dict[str, 
             f"{strength_theme} 경험은 분명한 강점입니다. "
             f"다만 {risk_theme} 때문에 할인 시점에 시작하는 편이 더 안전합니다."
         )
-    buy_timing_summary = _build_timing_summary(recommendation, recent_state, selected_risks)
+    buy_timing_summary = _build_timing_summary(
+        recommendation,
+        recent_state,
+        selected_risks,
+        genres=genres,
+    )
     evidence_blocks = _build_evidence_blocks(consensus_payload)
 
-    good_for = _build_good_for(selected_strengths)
-    not_good_for = _build_not_good_for(selected_risks)
+    good_for = _build_good_for(selected_strengths, genres=genres)
+    not_good_for = _build_not_good_for(selected_risks, genres=genres)
+    good_fit_signals = [
+        _build_player_fit_signal(item, genres=genres, negative=False)
+        for item in selected_strengths[:4]
+    ]
+    not_good_fit_signals = [
+        _build_player_fit_signal(item, genres=genres, negative=True)
+        for item in selected_risks[:4]
+    ]
+    if not good_fit_signals:
+        fallback_good_signal = _build_player_fit_signal(
+            _default_positive_fit_source(genres),
+            genres=genres,
+            negative=False,
+        )
+        if fallback_good_signal:
+            good_fit_signals.append(fallback_good_signal)
+    if not not_good_fit_signals:
+        fallback_not_good_signal = _build_player_fit_signal(
+            _default_negative_fit_source(genres),
+            genres=genres,
+            negative=True,
+        )
+        if fallback_not_good_signal:
+            not_good_fit_signals.append(fallback_not_good_signal)
+    player_fit_signals = {
+        "good_for": good_fit_signals,
+        "not_good_for": not_good_fit_signals,
+    }
 
     return {
         "headline": headline,
@@ -1068,8 +1380,9 @@ def _build_report_deterministic(consensus_payload: dict[str, Any]) -> dict[str, 
         "buy_timing_summary": buy_timing_summary,
         "good_for": good_for[:4],
         "not_good_for": not_good_for[:4],
-        "top_strengths": [_to_strength_item(item) for item in selected_strengths[:3]],
-        "top_risks": [_to_risk_item(item) for item in selected_risks[:3]],
+        "player_fit_signals": player_fit_signals,
+        "top_strengths": [_to_strength_item(item, genres=genres) for item in selected_strengths[:3]],
+        "top_risks": [_to_risk_item(item, genres=genres) for item in selected_risks[:3]],
         "recent_state": recent_state,
         "evidence_reviews": evidence_blocks,
     }
@@ -1128,18 +1441,18 @@ def _derive_recent_state(
     medium: list[dict[str, Any]],
 ) -> dict[str, str]:
     if not high and not medium:
-        return {"status": "insufficient_data", "summary": "최근 후기만으로는 체감 변화를 단정하기 어려운 상태입니다."}
+        return {"status": "insufficient_data", "summary": "최근 후기만으로는 분위기 변화를 단정하기 어렵습니다."}
 
     up = sum(1 for item in selected_risks if item.get("recent_trend") == "up")
     down = sum(1 for item in selected_risks if item.get("recent_trend") == "down")
 
     if selected_risks and up >= down + 1:
-        return {"status": "declining", "summary": "최근에는 불편을 호소하는 후기가 늘어 체감 만족도가 내려가는 흐름입니다."}
+        return {"status": "declining", "summary": "최근에는 불편을 말하는 후기가 늘어 분위기가 다소 내려가는 편입니다."}
     if selected_risks and down >= up + 1:
-        return {"status": "improving", "summary": "불편 요소 체감이 완화됐다는 후기가 늘어 플레이 경험이 나아지는 흐름입니다."}
+        return {"status": "improving", "summary": "불편이 줄었다는 후기가 늘어 전반적인 분위기가 나아지는 편입니다."}
     if selected_risks:
-        return {"status": "mixed", "summary": "만족 포인트와 불편 포인트가 함께 보여 체감 평가가 갈리는 상태입니다."}
-    return {"status": "stable", "summary": "최근 후기 체감은 큰 흔들림 없이 비슷한 수준으로 유지되는 편입니다."}
+        return {"status": "mixed", "summary": "좋았다는 반응과 아쉽다는 반응이 함께 보여 평가가 갈리는 편입니다."}
+    return {"status": "stable", "summary": "최근 후기 분위기는 큰 흔들림 없이 비슷한 편입니다."}
 
 
 def _derive_recommendation(selected_risks: list[dict[str, Any]], recent_status: str) -> str:
@@ -1159,9 +1472,19 @@ def _build_headline(
     recommendation: str,
     strengths: list[dict[str, Any]],
     risks: list[dict[str, Any]],
+    *,
+    genres: list[str],
 ) -> str:
-    strength_theme = _experience_theme(strengths[0], positive=True) if strengths else "핵심 플레이 감각"
-    risk_theme = _experience_theme(risks[0], positive=False) if risks else "기술 안정성"
+    strength_theme = (
+        _experience_theme(strengths[0], positive=True, genres=genres)
+        if strengths
+        else "핵심 플레이 감각"
+    )
+    risk_theme = (
+        _experience_theme(risks[0], positive=False, genres=genres)
+        if risks
+        else "기술 안정성"
+    )
 
     if recommendation in {"free_play_recommended", "play_now"}:
         return f"{strength_theme} 체감이 좋아 무료로 지금 시작해보기 좋은 상태입니다."
@@ -1180,8 +1503,14 @@ def _build_timing_summary(
     recommendation: str,
     recent_state: dict[str, str],
     risks: list[dict[str, Any]],
+    *,
+    genres: list[str],
 ) -> str:
-    risk_theme = _experience_theme(risks[0], positive=False) if risks else "핵심 리스크"
+    risk_theme = (
+        _experience_theme(risks[0], positive=False, genres=genres)
+        if risks
+        else "핵심 리스크"
+    )
     status = recent_state.get("status", "mixed")
 
     if recommendation in {"free_play_recommended", "play_now"}:
@@ -1199,28 +1528,72 @@ def _build_timing_summary(
     return f"{risk_theme} 문제가 플레이 몰입을 크게 깰 수 있어, 당장은 관망이 더 안전합니다."
 
 
-def _build_good_for(selected_strengths: list[dict[str, Any]]) -> list[str]:
+def _build_good_for(selected_strengths: list[dict[str, Any]], *, genres: list[str]) -> list[str]:
     result: list[str] = []
     for item in selected_strengths:
-        aspect = str(item.get("aspect", ""))
-        phrase = GOOD_FOR_SCENARIOS.get(aspect)
+        theme = _choose_positive_theme(list(item.get("themes", []) or []))
+        phrase = build_player_fit_phrase(
+            aspect=str(item.get("aspect", "")),
+            theme=theme,
+            genres=genres,
+            negative=False,
+        )
         if phrase and phrase not in result:
             result.append(phrase)
     if not result:
-        result.append("한 번 시작하면 오래 몰입해 플레이할 수 있는 상황의 플레이어")
+        fallback_source = _default_positive_fit_source(genres)
+        fallback_theme = _choose_positive_theme(list(fallback_source.get("themes", []) or []))
+        result.append(
+            build_player_fit_phrase(
+                aspect=str(fallback_source.get("aspect", "")),
+                theme=fallback_theme,
+                genres=genres,
+                negative=False,
+            )
+        )
     return result
 
 
-def _build_not_good_for(selected_risks: list[dict[str, Any]]) -> list[str]:
+def _build_not_good_for(selected_risks: list[dict[str, Any]], *, genres: list[str]) -> list[str]:
     result: list[str] = []
     for item in selected_risks:
-        aspect = str(item.get("aspect", ""))
-        phrase = NOT_GOOD_FOR_SCENARIOS.get(aspect)
+        theme = _choose_negative_theme(list(item.get("themes", []) or []))
+        phrase = build_player_fit_phrase(
+            aspect=str(item.get("aspect", "")),
+            theme=theme,
+            genres=genres,
+            negative=True,
+        )
         if phrase and phrase not in result:
             result.append(phrase)
     if not result:
-        result.append("완성도와 기술 안정성이 조금만 흔들려도 스트레스를 크게 받는 플레이어")
+        fallback_source = _default_negative_fit_source(genres)
+        fallback_theme = _choose_negative_theme(list(fallback_source.get("themes", []) or []))
+        result.append(
+            build_player_fit_phrase(
+                aspect=str(fallback_source.get("aspect", "")),
+                theme=fallback_theme,
+                genres=genres,
+                negative=True,
+            )
+        )
     return result
+
+
+def _build_player_fit_signal(
+    item: dict[str, Any],
+    *,
+    genres: list[str],
+    negative: bool,
+) -> dict[str, Any]:
+    themes = list(item.get("themes", []) or [])
+    theme = _choose_negative_theme(themes) if negative else _choose_positive_theme(themes)
+    return build_fit_signal(
+        aspect=str(item.get("aspect", "")),
+        theme=theme,
+        genres=genres,
+        negative=negative,
+    )
 
 
 def _choose_positive_theme(themes: list[str]) -> str | None:
@@ -1240,73 +1613,154 @@ def _choose_negative_theme(themes: list[str]) -> str | None:
     return themes[0] if themes else None
 
 
-def _to_strength_item(item: dict[str, Any]) -> dict[str, str]:
+def _normalized_genre_text(genres: list[str]) -> str:
+    return " ".join(str(item or "").lower() for item in genres)
+
+
+def _default_positive_fit_source(genres: list[str]) -> dict[str, Any]:
+    genre_text = _normalized_genre_text(genres)
+    if any(token in genre_text for token in ("visual novel", "비주얼", "novel", "story rich")):
+        return {"aspect": "story", "themes": ["감정선", "서사 몰입"]}
+    if any(token in genre_text for token in ("city builder", "city-building", "도시 건설", "urban")):
+        return {"aspect": "gameplay", "themes": ["도시 운영", "교통 흐름"]}
+    if any(token in genre_text for token in ("automation", "factory", "factorio", "자동화", "공장")):
+        return {"aspect": "gameplay", "themes": ["자동화 라인", "병목 해소"]}
+    if any(token in genre_text for token in ("deckbuilding", "deck builder", "card", "cards", "카드", "덱빌딩")):
+        return {"aspect": "gameplay", "themes": ["덱 구성", "카드 선택"]}
+    if any(token in genre_text for token in ("turn-based", "turn based", "턴제", "tactical")):
+        return {"aspect": "gameplay", "themes": ["한 턴의 판단", "병력 손실 압박"]}
+    if any(token in genre_text for token in ("management", "sports", "sport", "strategy", "전략", "경영")):
+        return {"aspect": "content_depth", "themes": []}
+    if any(token in genre_text for token in ("farming", "cozy", "life sim", "농장", "힐링", "생활")):
+        return {"aspect": "gameplay", "themes": ["하루 루틴", "농장 성장"]}
+    if any(token in genre_text for token in ("survival", "생존", "raid", "loot", "craft", "crafting")):
+        return {"aspect": "gameplay", "themes": ["파밍과 생존", "거점 운영"]}
+    if any(token in genre_text for token in ("co-op", "coop", "cooperative", "협동", "파티", "team")):
+        return {"aspect": "multiplayer", "themes": ["협동 임무", "팀 호흡"]}
+    return {"aspect": "gameplay", "themes": []}
+
+
+def _default_negative_fit_source(genres: list[str]) -> dict[str, Any]:
+    genre_text = _normalized_genre_text(genres)
+    if any(token in genre_text for token in ("visual novel", "비주얼", "novel", "story rich")):
+        return {"aspect": "localization", "themes": ["텍스트 흐름", "감정선 전달"]}
+    if any(token in genre_text for token in ("city builder", "city-building", "도시 건설", "urban")):
+        return {"aspect": "building_ux", "themes": ["배치 피로", "도시 관리 부담"]}
+    if any(token in genre_text for token in ("automation", "factory", "factorio", "자동화", "공장")):
+        return {"aspect": "building_ux", "themes": ["병목 관리", "복잡한 동선"]}
+    if any(token in genre_text for token in ("deckbuilding", "deck builder", "card", "cards", "카드", "덱빌딩")):
+        return {"aspect": "content_depth", "themes": ["반복 전개", "운 의존"]}
+    if any(token in genre_text for token in ("turn-based", "turn based", "턴제", "tactical")):
+        return {"aspect": "difficulty", "themes": ["한 턴 실수 부담", "초반 적응"]}
+    if any(
+        token in genre_text
+        for token in ("multiplayer", "대규모 멀티플레이어", "battle royale", "battlegrounds", "shooter", "fps", "tps")
+    ):
+        return {"aspect": "multiplayer", "themes": []}
+    return {"aspect": "performance", "themes": []}
+
+
+def _to_strength_item(item: dict[str, Any], *, genres: list[str]) -> dict[str, str]:
     label = CATEGORY_DISPLAY.get(item["aspect"], item["aspect"])
     themes = list(item.get("themes", []) or [])
     selected_theme = _choose_positive_theme(themes)
     if selected_theme:
         return {
-            "title": selected_theme,
-            "summary": _strength_experience_summary(aspect=str(item.get("aspect", "")), theme=selected_theme),
+            "title": build_display_theme(
+                aspect=str(item.get("aspect", "")),
+                theme=selected_theme,
+                genres=genres,
+                negative=False,
+            ),
+            "summary": _strength_experience_summary(
+                aspect=str(item.get("aspect", "")),
+                theme=selected_theme,
+                genres=genres,
+            ),
         }
     return {
-        "title": label,
-        "summary": _strength_experience_summary(aspect=str(item.get("aspect", "")), theme=label),
+        "title": build_display_theme(
+            aspect=str(item.get("aspect", "")),
+            theme=label,
+            genres=genres,
+            negative=False,
+        ),
+        "summary": _strength_experience_summary(
+            aspect=str(item.get("aspect", "")),
+            theme=label,
+            genres=genres,
+        ),
     }
 
 
-def _to_risk_item(item: dict[str, Any]) -> dict[str, str]:
+def _to_risk_item(item: dict[str, Any], *, genres: list[str]) -> dict[str, str]:
     label = CATEGORY_DISPLAY.get(item["aspect"], item["aspect"])
     themes = list(item.get("themes", []) or [])
     selected_theme = _choose_negative_theme(themes)
     if selected_theme:
         return {
-            "title": selected_theme,
-            "summary": _risk_experience_summary(aspect=str(item.get("aspect", "")), theme=selected_theme),
+            "title": build_display_theme(
+                aspect=str(item.get("aspect", "")),
+                theme=selected_theme,
+                genres=genres,
+                negative=True,
+            ),
+            "summary": _risk_experience_summary(
+                aspect=str(item.get("aspect", "")),
+                theme=selected_theme,
+                genres=genres,
+            ),
         }
     return {
-        "title": label,
-        "summary": _risk_experience_summary(aspect=str(item.get("aspect", "")), theme=label),
+        "title": build_display_theme(
+            aspect=str(item.get("aspect", "")),
+            theme=label,
+            genres=genres,
+            negative=True,
+        ),
+        "summary": _risk_experience_summary(
+            aspect=str(item.get("aspect", "")),
+            theme=label,
+            genres=genres,
+        ),
     }
 
 
-def _experience_theme(item: dict[str, Any], *, positive: bool) -> str:
+def _experience_theme(item: dict[str, Any], *, positive: bool, genres: list[str]) -> str:
     themes = list(item.get("themes", []) or [])
     selected = _choose_positive_theme(themes) if positive else _choose_negative_theme(themes)
-    if selected:
-        return selected
-    return CATEGORY_DISPLAY.get(str(item.get("aspect", "")), "핵심 경험")
+    fallback = CATEGORY_DISPLAY.get(str(item.get("aspect", "")), "핵심 경험")
+    return build_headline_theme(
+        aspect=str(item.get("aspect", "")),
+        theme=selected or fallback,
+        genres=genres,
+        negative=not positive,
+    )
 
 
-def _strength_experience_summary(*, aspect: str, theme: str) -> str:
-    if aspect == "gameplay":
-        return f"{theme} 체감이 좋아 한 판 더 하게 되는 흐름이 잘 만들어집니다."
-    if aspect == "story":
-        return f"{theme} 덕분에 진행을 멈추기 어려울 만큼 몰입감이 유지됩니다."
-    if aspect == "graphics":
-        return f"{theme}이 플레이 분위기를 끌어올려 감상형 플레이 만족도가 높습니다."
-    if aspect == "customization":
-        return f"{theme} 재미가 커서 캐릭터를 만지는 시간 자체가 즐거운 편입니다."
-    if aspect == "content_depth":
-        return f"{theme} 덕분에 장시간 플레이에서도 목표를 잃지 않기 쉽습니다."
-    return f"{theme}이 실제 플레이 만족도로 이어지는 편입니다."
+def _strength_experience_summary(*, aspect: str, theme: str, genres: list[str]) -> str:
+    return build_experience_summary(
+        aspect=aspect,
+        theme=theme,
+        genres=genres,
+        negative=False,
+    )
 
 
-def _risk_experience_summary(*, aspect: str, theme: str) -> str:
-    if aspect == "performance":
-        return f"{theme} 때문에 전투나 이동 흐름이 끊겨 몰입이 쉽게 깨질 수 있습니다."
-    if aspect == "bugs":
-        return f"{theme}이 진행 리듬을 자주 끊어 플레이 피로를 높일 수 있습니다."
-    if aspect in {"difficulty", "difficulty_onboarding"}:
-        return f"{theme} 때문에 초반 적응에서 막히면 이탈 가능성이 커질 수 있습니다."
-    if aspect == "monetization":
-        return f"{theme}이 거슬리면 가격 대비 만족감이 빠르게 떨어질 수 있습니다."
-    return f"{theme}이 플레이 경험의 만족도를 낮출 수 있어 주의가 필요합니다."
+def _risk_experience_summary(*, aspect: str, theme: str, genres: list[str]) -> str:
+    return build_experience_summary(
+        aspect=aspect,
+        theme=theme,
+        genres=genres,
+        negative=True,
+    )
 
 
 def _build_evidence_blocks(consensus_payload: dict[str, Any]) -> list[dict[str, Any]]:
     """Build insight+evidence blocks from high-consensus repeated opinions."""
     aspects = list(consensus_payload.get("consensus_aspects", []) or [])
+    game_context = consensus_payload.get("game_context", {}) or {}
+    genres = list(game_context.get("genres", []) or [])
     high_min = int(
         (consensus_payload.get("consensus_thresholds", {}) or {}).get("high_min_mentions", 12)
     )
@@ -1364,11 +1818,18 @@ def _build_evidence_blocks(consensus_payload: dict[str, Any]) -> list[dict[str, 
         if len(bucket["snippets"]) < 2:
             continue
 
-        title = _build_block_title(bucket["theme"], bucket["stance"])
+        title = _build_block_title(
+            bucket["theme"],
+            bucket["stance"],
+            aspect_keys=list(bucket["aspects"]),
+            genres=genres,
+        )
         why_it_matters = _build_block_why_it_matters(
             stance=bucket["stance"],
             theme=bucket["theme"],
             aspect_labels=bucket["aspect_labels"],
+            aspect_keys=list(bucket["aspects"]),
+            genres=genres,
         )
         blocks.append(
             {
@@ -1412,15 +1873,24 @@ def _build_evidence_blocks(consensus_payload: dict[str, Any]) -> list[dict[str, 
                 continue
             blocks.append(
                 {
-                    "title": _build_block_title(theme, "negative"),
+                    "title": _build_block_title(
+                        theme,
+                        "negative",
+                        aspect_keys=[str(item.get("aspect", ""))],
+                        genres=genres,
+                    ),
                     "theme": theme,
                     "why_it_matters": _build_block_why_it_matters(
                         stance="negative", theme=theme,
                         aspect_labels=[str(item.get("aspect_label", ""))],
+                        aspect_keys=[str(item.get("aspect", ""))],
+                        genres=genres,
                     ),
                     "explanation": _build_block_why_it_matters(
                         stance="negative", theme=theme,
                         aspect_labels=[str(item.get("aspect_label", ""))],
+                        aspect_keys=[str(item.get("aspect", ""))],
+                        genres=genres,
                     ),
                     "aspect_keys": [str(item.get("aspect", ""))],
                     "stance": "negative",
@@ -1441,6 +1911,8 @@ def _build_evidence_blocks_v2(consensus_payload: dict[str, Any]) -> list[dict[st
     Stage 3: guaranteed_fill (global stance pools to avoid empty evidence)
     """
     aspects = list(consensus_payload.get("consensus_aspects", []) or [])
+    game_context = consensus_payload.get("game_context", {}) or {}
+    genres = list(game_context.get("genres", []) or [])
     high_min = int(
         (consensus_payload.get("consensus_thresholds", {}) or {}).get("high_min_mentions", 12)
     )
@@ -1557,11 +2029,18 @@ def _build_evidence_blocks_v2(consensus_payload: dict[str, Any]) -> list[dict[st
         if len(snippets) < 2:
             continue
 
-        title = _build_block_title(str(bucket["theme"]), str(bucket["stance"]))
+        title = _build_block_title(
+            str(bucket["theme"]),
+            str(bucket["stance"]),
+            aspect_keys=list(bucket["aspects"]),
+            genres=genres,
+        )
         why_it_matters = _build_block_why_it_matters(
             stance=str(bucket["stance"]),
             theme=str(bucket["theme"]),
             aspect_labels=list(bucket["aspect_labels"]),
+            aspect_keys=list(bucket["aspects"]),
+            genres=genres,
         )
         blocks.append(
             {
@@ -1587,6 +2066,7 @@ def _build_evidence_blocks_v2(consensus_payload: dict[str, Any]) -> list[dict[st
         source_items=pool_items,
         global_stance_snippets=global_stance_snippets,
         global_material_snippets=global_material_snippets,
+        genres=genres,
     )
     return blocks
 
@@ -1758,6 +2238,7 @@ def _ensure_min_stance_blocks_v2(
     source_items: list[dict[str, Any]],
     global_stance_snippets: dict[str, list[dict[str, str]]],
     global_material_snippets: dict[str, list[dict[str, str]]],
+    genres: list[str],
 ) -> list[dict[str, Any]]:
     result = list(blocks)
     existing = {str(block.get("stance", "")) for block in result}
@@ -1779,10 +2260,17 @@ def _ensure_min_stance_blocks_v2(
             stance=stance,
             theme=theme,
             aspect_labels=[aspect_label] if aspect_label else [],
+            aspect_keys=[str(candidate.get("aspect", ""))],
+            genres=genres,
         )
         result.append(
             {
-                "title": _build_block_title(theme, stance),
+                "title": _build_block_title(
+                    theme,
+                    stance,
+                    aspect_keys=[str(candidate.get("aspect", ""))],
+                    genres=genres,
+                ),
                 "theme": theme,
                 "why_it_matters": why,
                 "explanation": why,
@@ -1850,10 +2338,19 @@ def _pick_block_theme(item: dict[str, Any], stance: str) -> str | None:
     return _choose_positive_theme(themes)
 
 
-def _build_block_title(theme: str, stance: str) -> str:
-    if stance == "positive":
-        return f"{theme}이 실제 플레이 만족으로 이어진다는 반응"
-    return f"{theme} 때문에 플레이 흐름이 끊긴다는 반응"
+def _build_block_title(
+    theme: str,
+    stance: str,
+    *,
+    aspect_keys: list[str],
+    genres: list[str],
+) -> str:
+    return build_evidence_title(
+        theme=theme,
+        stance=stance,
+        aspect_keys=aspect_keys,
+        genres=genres,
+    )
 
 
 def _build_block_why_it_matters(
@@ -1861,12 +2358,15 @@ def _build_block_why_it_matters(
     stance: str,
     theme: str,
     aspect_labels: list[str],
+    aspect_keys: list[str],
+    genres: list[str],
 ) -> str:
-    aspect_text = ", ".join(aspect_labels[:2]) if aspect_labels else "핵심 플레이"
-    if stance == "negative":
-        return f"{aspect_text}에서 {theme} 불편이 반복되면 초반 만족도가 크게 떨어질 수 있어 구매 전 감수 여부 확인이 필요합니다."
-    return (
-        f"{aspect_text}에서 {theme} 체감이 좋으면 초반부터 몰입이 붙어 장시간 플레이 만족으로 이어질 가능성이 큽니다."
+    del aspect_labels  # kept for compatibility with older call sites
+    return build_evidence_why_it_matters(
+        stance=stance,
+        theme=theme,
+        aspect_keys=aspect_keys,
+        genres=genres,
     )
 
 
@@ -2533,6 +3033,11 @@ def _compress_evidence_sections_v3(
         else None
     )
     llm_judge_enabled = bool(judge and judge.available)
+    logger.info(
+        "report_llm_evidence_judge enabled=%s model=%s",
+        llm_judge_enabled,
+        judge.model if judge is not None else None,
+    )
     used_review_ids: set[str] = set()
     used_texts: set[str] = set()
 

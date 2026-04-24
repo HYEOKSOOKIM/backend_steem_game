@@ -31,6 +31,36 @@ Rules:
 - Do not mention counts, ratios, or signal terminology.
 - Make it readable in a few seconds.
 - If game_context.is_free is true, prefer free_play_recommended/play_now/try_lightly.
+- Write like polished in-product UX copy for a game report, not like an analyst report.
+- Keep each field short and natural in Korean UI.
+- The headline is the main takeaway. The buy_timing_summary should complement it, not repeat it.
+- Focus on player experience and purchase context.
+- Avoid abstract analysis wording and internal framing.
+- Prefer short, direct, buyer-facing sentences.
+- One key idea per sentence.
+- Keep genre context aligned with the game. Do not introduce genre-specific metaphors that the game does not support.
+- Genre vocabulary guidance:
+  - shooter / battle royale: 교전, 생존, 팀플레이, 파밍, 짧고 강한 긴장감
+  - soulslike / action RPG: 도전, 패턴 학습, 돌파, 성취감, 탐험
+  - strategy / management / sports management: 전술, 운영, 판단, 시즌 운영, 로스터 관리
+  - cozy / life sim / farming sim: 루틴, 성장, 관계, 생활, 편안한 흐름
+  - visual novel / narrative-only: 서사, 감정선, 관계, 장면 전환, 몰입, 해석
+  - city builder / urban management: 도시 운영, 교통, 배치, 확장, 관리 피로, 균형
+  - automation / factory optimization: 자동화, 생산 라인, 병목, 물류, 확장, 효율
+  - card deckbuilding / run planning: 덱 구성, 카드 선택, 경로 판단, 유물 조합, 한 판 설계
+  - turn-based tactics: 한 턴의 판단, 포지셔닝, 병력 손실 압박, 전술 선택, 엄폐
+- If the game is a shooter, battle royale, sports, simulation, or management title, avoid boss-fight / pattern-learning phrasing unless the provided evidence clearly supports it.
+- If the game is a visual novel or narrative-only title, avoid combat, matchmaking, server, or growth-loop language unless the provided evidence clearly supports it.
+- If the game is a city builder or automation game, avoid combat-flow language such as "전투", "교전", "보스전", or "이동 흐름".
+- If the game is a deckbuilder, avoid open-world exploration or action-handfeel framing unless the provided evidence clearly supports it.
+- If the game is turn-based tactics, avoid real-time combat feel wording such as "손맛", "교전 템포", or "실시간".
+- Keep good_for and not_good_for close to the provided seed persona items and player_fit_signals.
+- Each good_for / not_good_for item must be a short noun phrase for a player type, not a sentence.
+- End each persona item as a compact phrase such as "...플레이어", "...유저", or "...분".
+- Do not end persona items with sentence endings such as "이다", "입니다", "좋아요", or "필요합니다".
+- Do not invent a new player persona if the provided seed already gives a genre-safe one.
+- Avoid expressions like:
+  "지적이 있습니다", "불만이 많습니다", "가능성이 큽니다", "체감", "포인트", "리스크", "반복되면", "지원합니다", "이어집니다"
 - JSON only.
 """.strip()
 
@@ -41,6 +71,31 @@ Rules:
 - Use high-consensus positive signals first.
 - Describe player experience, not categories or metrics.
 - Return 2~3 concise items.
+- Write like polished in-product UX copy for a game report.
+- Each title should feel like a short, scan-friendly card heading.
+- End each title as a compact noun phrase.
+- Do not end a title with dangling particles such as "은", "는", "이", "가", "의", "과", or "와".
+- Each summary should be 1~2 short sentences max.
+- Explain why this feels good to play in plain language.
+- Do not restate the title in the summary.
+- Do not describe analysis logic, metrics, consensus, or category labels.
+- Keep genre context aligned with the game. Avoid importing boss-fight, raid, farming, or management language unless the provided evidence supports it.
+- Genre vocabulary guidance:
+  - shooter / battle royale: 교전, 사격, 생존, 파밍, 팀 합, 템포
+  - soulslike / action RPG: 도전, 패턴 학습, 긴장감, 탐험, 성취감
+  - strategy / management / sports management: 전술, 운영, 판단, 시즌 운영, 로스터 관리
+  - cozy / life sim / farming sim: 루틴, 성장, 관계, 생활, 편안함, 천천히 쌓이는 재미
+  - visual novel / narrative-only: 서사, 감정선, 관계, 장면 전환, 몰입, 해석
+  - city builder / urban management: 도시 운영, 교통 흐름, 배치, 확장, 관리
+  - automation / factory optimization: 자동화, 생산 라인, 병목, 물류, 효율, 확장
+  - card deckbuilding / run planning: 덱 구성, 카드 선택, 경로 판단, 유물 조합, 한 판
+  - turn-based tactics: 한 턴 판단, 전술 선택, 포지셔닝, 엄폐, 병력 손실 압박
+- For visual novel / narrative-only games, do not use combat-handfeel or matchmaking wording.
+- For city builder / automation games, do not use combat-flow language such as "전투", "교전", "보스전", or "이동 흐름".
+- For deckbuilders, prefer deck/run planning language over open-world or action-handfeel language.
+- For turn-based tactics, prefer turn-level decision pressure over real-time action language.
+- Avoid analyst/report phrasing such as:
+  "지적이 있습니다", "불만이 많습니다", "가능성이 큽니다", "체감", "포인트", "리스크", "이어집니다"
 - JSON only.
 """.strip()
 
@@ -51,6 +106,31 @@ Rules:
 - Use high-consensus negative signals first.
 - Describe buyer-facing pain points, not category labels.
 - Return 2~3 concise items.
+- Write like polished in-product UX copy for a game report.
+- Each title should feel like a short, scan-friendly card heading.
+- End each title as a compact noun phrase.
+- Do not end a title with dangling particles such as "은", "는", "이", "가", "의", "과", or "와".
+- Each summary should be 1~2 short sentences max.
+- State what may feel disappointing, tiring, or frustrating in real play.
+- Keep the tone calm and practical, not alarmist or academic.
+- Do not restate the title in the summary.
+- Keep genre context aligned with the game. Avoid dragging in genre-specific pain points that do not match the provided evidence.
+- Genre vocabulary guidance:
+  - shooter / battle royale: 서버, 매칭, 프레임, 팀플레이 피로, 교전 집중도
+  - soulslike / action RPG: 진입 장벽, 재도전 피로, 길 찾기 부담
+  - strategy / management / sports management: 운영 피로, 판단 부담, UI 답답함, 시즌 진행 피로
+  - cozy / life sim / farming sim: 반복 루틴 피로, 속도감 부족, 생활 동선 답답함
+  - visual novel / narrative-only: 텍스트 흐름, 번역, 감정선 전달, 몰입 저하
+  - city builder / urban management: 배치 피로, 교통 관리 부담, 확장 피로, 운영 복잡도
+  - automation / factory optimization: 병목 관리 부담, 동선 복잡도, 생산 흐름 피로
+  - card deckbuilding / run planning: 운 의존, 반복 전개, 빌드 편차, 경로 선택 부담
+  - turn-based tactics: 한 턴 실수 부담, 병력 손실 압박, 적응 장벽, 전술 피로
+- For visual novel / narrative-only games, do not use combat, matchmaking, or core-play-handfeel wording.
+- For city builder / automation games, do not use combat-flow language such as "전투", "교전", "보스전", or "이동 흐름".
+- For deckbuilders, prefer deck/run/planning language over action-handfeel or open-world wording.
+- For turn-based tactics, prefer turn-level pressure and decision-cost language over real-time action wording.
+- Avoid analyst/report phrasing such as:
+  "지적이 있습니다", "불만이 많습니다", "가능성이 큽니다", "체감", "포인트", "리스크", "이어집니다"
 - JSON only.
 """.strip()
 
@@ -61,6 +141,20 @@ Rules:
 - Reflect recent trend from provided signals only.
 - Keep one concise buyer-facing summary without metric wording.
 - Return one clear status + one short summary.
+- Write like polished in-product UX copy for a game report.
+- The summary should describe the recent mood of reviews in plain Korean.
+- Keep it to one short, natural sentence.
+- Do not explain the analysis or mention counts/ratios.
+- Keep the wording aligned with the game's genre and actual play context.
+- Use genre-appropriate mood wording:
+  - visual novel / narrative-only: 서사, 감정선, 몰입
+  - city builder: 운영, 교통, 확장, 관리 피로
+  - automation: 자동화, 병목, 생산 흐름
+  - deckbuilder: 덱 구성, 카드 선택, 반복 루프
+  - turn-based tactics: 턴 판단, 전술 압박, 병력 손실 부담
+- Avoid genre-mismatched wording such as combat-handfeel for visual novels, combat-flow for city builders, or real-time-action language for turn-based tactics.
+- Avoid analyst/report phrasing such as:
+  "지적이 있습니다", "불만이 많습니다", "가능성이 큽니다", "체감", "포인트", "리스크", "이어집니다"
 - JSON only.
 """.strip()
 
@@ -86,9 +180,13 @@ class OpenAIReportWriter:
         *,
         api_key: str | None = None,
         model: str | None = None,
+        plan_model: str | None = None,
+        display_model: str | None = None,
     ) -> None:
         self.api_key = api_key or os.getenv("OPENAI_API_KEY")
-        self.model = model or os.getenv("OPENAI_MODEL", "gpt-4o-mini")
+        fallback_model = model or os.getenv("OPENAI_MODEL", "gpt-4o-mini")
+        self.plan_model = plan_model or os.getenv("OPENAI_REPORT_PLAN_MODEL", fallback_model)
+        self.display_model = display_model or os.getenv("OPENAI_REPORT_DISPLAY_MODEL", "gpt-4.1-mini")
         self._client = (
             OpenAI(api_key=self.api_key)
             if OpenAI is not None and self.api_key
@@ -133,6 +231,7 @@ class OpenAIReportWriter:
             },
         }
         candidate = self._chat_json(
+            model=self.plan_model,
             system_prompt=PLAN_SYSTEM_PROMPT,
             user_payload=user_payload,
             timeout_seconds=timeout_seconds,
@@ -215,6 +314,7 @@ class OpenAIReportWriter:
                 "buy_timing_summary": seed_display.get("buy_timing_summary"),
                 "good_for": seed_display.get("good_for", []),
                 "not_good_for": seed_display.get("not_good_for", []),
+                "player_fit_signals": seed_display.get("player_fit_signals", {}),
             },
             "consensus_payload": consensus_payload,
             "output_contract": {
@@ -226,6 +326,7 @@ class OpenAIReportWriter:
             },
         }
         candidate = self._chat_json(
+            model=self.display_model,
             system_prompt=CORE_SYSTEM_PROMPT,
             user_payload=user_payload,
             timeout_seconds=timeout_seconds,
@@ -254,6 +355,7 @@ class OpenAIReportWriter:
             },
         }
         candidate = self._chat_json(
+            model=self.display_model,
             system_prompt=STRENGTHS_SYSTEM_PROMPT,
             user_payload=user_payload,
             timeout_seconds=timeout_seconds,
@@ -282,6 +384,7 @@ class OpenAIReportWriter:
             },
         }
         candidate = self._chat_json(
+            model=self.display_model,
             system_prompt=RISKS_SYSTEM_PROMPT,
             user_payload=user_payload,
             timeout_seconds=timeout_seconds,
@@ -313,6 +416,7 @@ class OpenAIReportWriter:
             },
         }
         candidate = self._chat_json(
+            model=self.display_model,
             system_prompt=RECENT_STATE_SYSTEM_PROMPT,
             user_payload=user_payload,
             timeout_seconds=timeout_seconds,
@@ -325,6 +429,7 @@ class OpenAIReportWriter:
     def _chat_json(
         self,
         *,
+        model: str,
         system_prompt: str,
         user_payload: dict[str, Any],
         timeout_seconds: int,
@@ -340,7 +445,7 @@ class OpenAIReportWriter:
         for _ in range(retry_limit + 1):
             try:
                 response = self._client.chat.completions.create(
-                    model=self.model,
+                    model=model,
                     messages=[
                         {"role": "system", "content": system_prompt},
                         {"role": "user", "content": prompt},

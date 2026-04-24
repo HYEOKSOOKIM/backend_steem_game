@@ -1,0 +1,1267 @@
+{
+  "report_version": "v4-planned-sections",
+  "appid": 255710,
+  "pipeline_run_id": "255710-20260424T082303Z",
+  "generated_at": "2026-04-24T08:28:17.618653+00:00",
+  "source_review_count": 6539,
+  "included_review_count": 4409,
+  "min_report_review_count": 100,
+  "report_state": "ready",
+  "review_trend": {
+    "granularity": "month",
+    "metric": "positive_ratio",
+    "points": [
+      {
+        "month": "2015-03",
+        "positive_count": 92,
+        "review_count": 94,
+        "positive_ratio": 0.9787
+      },
+      {
+        "month": "2015-04",
+        "positive_count": 27,
+        "review_count": 30,
+        "positive_ratio": 0.9
+      },
+      {
+        "month": "2015-05",
+        "positive_count": 10,
+        "review_count": 10,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2015-06",
+        "positive_count": 9,
+        "review_count": 12,
+        "positive_ratio": 0.75
+      },
+      {
+        "month": "2015-07",
+        "positive_count": 5,
+        "review_count": 5,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2015-08",
+        "positive_count": 12,
+        "review_count": 14,
+        "positive_ratio": 0.8571
+      },
+      {
+        "month": "2015-09",
+        "positive_count": 11,
+        "review_count": 11,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2015-10",
+        "positive_count": 18,
+        "review_count": 20,
+        "positive_ratio": 0.9
+      },
+      {
+        "month": "2015-11",
+        "positive_count": 31,
+        "review_count": 32,
+        "positive_ratio": 0.9688
+      },
+      {
+        "month": "2015-12",
+        "positive_count": 25,
+        "review_count": 26,
+        "positive_ratio": 0.9615
+      },
+      {
+        "month": "2016-01",
+        "positive_count": 25,
+        "review_count": 25,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2016-02",
+        "positive_count": 39,
+        "review_count": 47,
+        "positive_ratio": 0.8298
+      },
+      {
+        "month": "2016-03",
+        "positive_count": 13,
+        "review_count": 15,
+        "positive_ratio": 0.8667
+      },
+      {
+        "month": "2016-04",
+        "positive_count": 11,
+        "review_count": 11,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2016-05",
+        "positive_count": 3,
+        "review_count": 3,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2016-06",
+        "positive_count": 18,
+        "review_count": 22,
+        "positive_ratio": 0.8182
+      },
+      {
+        "month": "2016-07",
+        "positive_count": 8,
+        "review_count": 8,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2016-08",
+        "positive_count": 13,
+        "review_count": 13,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2016-09",
+        "positive_count": 13,
+        "review_count": 15,
+        "positive_ratio": 0.8667
+      },
+      {
+        "month": "2016-10",
+        "positive_count": 12,
+        "review_count": 13,
+        "positive_ratio": 0.9231
+      },
+      {
+        "month": "2016-11",
+        "positive_count": 93,
+        "review_count": 96,
+        "positive_ratio": 0.9688
+      },
+      {
+        "month": "2016-12",
+        "positive_count": 27,
+        "review_count": 30,
+        "positive_ratio": 0.9
+      },
+      {
+        "month": "2017-01",
+        "positive_count": 18,
+        "review_count": 19,
+        "positive_ratio": 0.9474
+      },
+      {
+        "month": "2017-02",
+        "positive_count": 17,
+        "review_count": 19,
+        "positive_ratio": 0.8947
+      },
+      {
+        "month": "2017-03",
+        "positive_count": 8,
+        "review_count": 8,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2017-04",
+        "positive_count": 9,
+        "review_count": 10,
+        "positive_ratio": 0.9
+      },
+      {
+        "month": "2017-05",
+        "positive_count": 22,
+        "review_count": 23,
+        "positive_ratio": 0.9565
+      },
+      {
+        "month": "2017-06",
+        "positive_count": 25,
+        "review_count": 26,
+        "positive_ratio": 0.9615
+      },
+      {
+        "month": "2017-07",
+        "positive_count": 18,
+        "review_count": 21,
+        "positive_ratio": 0.8571
+      },
+      {
+        "month": "2017-08",
+        "positive_count": 39,
+        "review_count": 39,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2017-09",
+        "positive_count": 22,
+        "review_count": 24,
+        "positive_ratio": 0.9167
+      },
+      {
+        "month": "2017-10",
+        "positive_count": 45,
+        "review_count": 50,
+        "positive_ratio": 0.9
+      },
+      {
+        "month": "2017-11",
+        "positive_count": 84,
+        "review_count": 87,
+        "positive_ratio": 0.9655
+      },
+      {
+        "month": "2017-12",
+        "positive_count": 39,
+        "review_count": 41,
+        "positive_ratio": 0.9512
+      },
+      {
+        "month": "2018-01",
+        "positive_count": 36,
+        "review_count": 37,
+        "positive_ratio": 0.973
+      },
+      {
+        "month": "2018-02",
+        "positive_count": 56,
+        "review_count": 63,
+        "positive_ratio": 0.8889
+      },
+      {
+        "month": "2018-03",
+        "positive_count": 39,
+        "review_count": 39,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2018-04",
+        "positive_count": 13,
+        "review_count": 14,
+        "positive_ratio": 0.9286
+      },
+      {
+        "month": "2018-05",
+        "positive_count": 44,
+        "review_count": 50,
+        "positive_ratio": 0.88
+      },
+      {
+        "month": "2018-06",
+        "positive_count": 28,
+        "review_count": 31,
+        "positive_ratio": 0.9032
+      },
+      {
+        "month": "2018-07",
+        "positive_count": 28,
+        "review_count": 32,
+        "positive_ratio": 0.875
+      },
+      {
+        "month": "2018-08",
+        "positive_count": 8,
+        "review_count": 11,
+        "positive_ratio": 0.7273
+      },
+      {
+        "month": "2018-09",
+        "positive_count": 25,
+        "review_count": 28,
+        "positive_ratio": 0.8929
+      },
+      {
+        "month": "2018-10",
+        "positive_count": 33,
+        "review_count": 37,
+        "positive_ratio": 0.8919
+      },
+      {
+        "month": "2018-11",
+        "positive_count": 73,
+        "review_count": 76,
+        "positive_ratio": 0.9605
+      },
+      {
+        "month": "2018-12",
+        "positive_count": 26,
+        "review_count": 29,
+        "positive_ratio": 0.8966
+      },
+      {
+        "month": "2019-01",
+        "positive_count": 40,
+        "review_count": 45,
+        "positive_ratio": 0.8889
+      },
+      {
+        "month": "2019-02",
+        "positive_count": 64,
+        "review_count": 70,
+        "positive_ratio": 0.9143
+      },
+      {
+        "month": "2019-03",
+        "positive_count": 62,
+        "review_count": 69,
+        "positive_ratio": 0.8986
+      },
+      {
+        "month": "2019-04",
+        "positive_count": 31,
+        "review_count": 33,
+        "positive_ratio": 0.9394
+      },
+      {
+        "month": "2019-05",
+        "positive_count": 36,
+        "review_count": 37,
+        "positive_ratio": 0.973
+      },
+      {
+        "month": "2019-06",
+        "positive_count": 37,
+        "review_count": 40,
+        "positive_ratio": 0.925
+      },
+      {
+        "month": "2019-07",
+        "positive_count": 89,
+        "review_count": 92,
+        "positive_ratio": 0.9674
+      },
+      {
+        "month": "2019-08",
+        "positive_count": 22,
+        "review_count": 24,
+        "positive_ratio": 0.9167
+      },
+      {
+        "month": "2019-09",
+        "positive_count": 12,
+        "review_count": 13,
+        "positive_ratio": 0.9231
+      },
+      {
+        "month": "2019-10",
+        "positive_count": 37,
+        "review_count": 41,
+        "positive_ratio": 0.9024
+      },
+      {
+        "month": "2019-11",
+        "positive_count": 167,
+        "review_count": 172,
+        "positive_ratio": 0.9709
+      },
+      {
+        "month": "2019-12",
+        "positive_count": 134,
+        "review_count": 138,
+        "positive_ratio": 0.971
+      },
+      {
+        "month": "2020-01",
+        "positive_count": 132,
+        "review_count": 137,
+        "positive_ratio": 0.9635
+      },
+      {
+        "month": "2020-02",
+        "positive_count": 103,
+        "review_count": 105,
+        "positive_ratio": 0.981
+      },
+      {
+        "month": "2020-03",
+        "positive_count": 141,
+        "review_count": 151,
+        "positive_ratio": 0.9338
+      },
+      {
+        "month": "2020-04",
+        "positive_count": 93,
+        "review_count": 97,
+        "positive_ratio": 0.9588
+      },
+      {
+        "month": "2020-05",
+        "positive_count": 109,
+        "review_count": 118,
+        "positive_ratio": 0.9237
+      },
+      {
+        "month": "2020-06",
+        "positive_count": 71,
+        "review_count": 73,
+        "positive_ratio": 0.9726
+      },
+      {
+        "month": "2020-07",
+        "positive_count": 73,
+        "review_count": 80,
+        "positive_ratio": 0.9125
+      },
+      {
+        "month": "2020-08",
+        "positive_count": 70,
+        "review_count": 72,
+        "positive_ratio": 0.9722
+      },
+      {
+        "month": "2020-09",
+        "positive_count": 58,
+        "review_count": 63,
+        "positive_ratio": 0.9206
+      },
+      {
+        "month": "2020-10",
+        "positive_count": 47,
+        "review_count": 49,
+        "positive_ratio": 0.9592
+      },
+      {
+        "month": "2020-11",
+        "positive_count": 88,
+        "review_count": 92,
+        "positive_ratio": 0.9565
+      },
+      {
+        "month": "2020-12",
+        "positive_count": 175,
+        "review_count": 182,
+        "positive_ratio": 0.9615
+      },
+      {
+        "month": "2021-01",
+        "positive_count": 128,
+        "review_count": 141,
+        "positive_ratio": 0.9078
+      },
+      {
+        "month": "2021-02",
+        "positive_count": 93,
+        "review_count": 96,
+        "positive_ratio": 0.9688
+      },
+      {
+        "month": "2021-03",
+        "positive_count": 50,
+        "review_count": 53,
+        "positive_ratio": 0.9434
+      },
+      {
+        "month": "2021-04",
+        "positive_count": 62,
+        "review_count": 65,
+        "positive_ratio": 0.9538
+      },
+      {
+        "month": "2021-05",
+        "positive_count": 58,
+        "review_count": 62,
+        "positive_ratio": 0.9355
+      },
+      {
+        "month": "2021-06",
+        "positive_count": 46,
+        "review_count": 48,
+        "positive_ratio": 0.9583
+      },
+      {
+        "month": "2021-07",
+        "positive_count": 43,
+        "review_count": 49,
+        "positive_ratio": 0.8776
+      },
+      {
+        "month": "2021-08",
+        "positive_count": 55,
+        "review_count": 55,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2021-09",
+        "positive_count": 54,
+        "review_count": 56,
+        "positive_ratio": 0.9643
+      },
+      {
+        "month": "2021-10",
+        "positive_count": 37,
+        "review_count": 43,
+        "positive_ratio": 0.8605
+      },
+      {
+        "month": "2021-11",
+        "positive_count": 62,
+        "review_count": 66,
+        "positive_ratio": 0.9394
+      },
+      {
+        "month": "2021-12",
+        "positive_count": 81,
+        "review_count": 85,
+        "positive_ratio": 0.9529
+      },
+      {
+        "month": "2022-01",
+        "positive_count": 109,
+        "review_count": 116,
+        "positive_ratio": 0.9397
+      },
+      {
+        "month": "2022-02",
+        "positive_count": 102,
+        "review_count": 107,
+        "positive_ratio": 0.9533
+      },
+      {
+        "month": "2022-03",
+        "positive_count": 96,
+        "review_count": 99,
+        "positive_ratio": 0.9697
+      },
+      {
+        "month": "2022-04",
+        "positive_count": 60,
+        "review_count": 61,
+        "positive_ratio": 0.9836
+      },
+      {
+        "month": "2022-05",
+        "positive_count": 64,
+        "review_count": 64,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2022-06",
+        "positive_count": 45,
+        "review_count": 49,
+        "positive_ratio": 0.9184
+      },
+      {
+        "month": "2022-07",
+        "positive_count": 40,
+        "review_count": 44,
+        "positive_ratio": 0.9091
+      },
+      {
+        "month": "2022-08",
+        "positive_count": 67,
+        "review_count": 71,
+        "positive_ratio": 0.9437
+      },
+      {
+        "month": "2022-09",
+        "positive_count": 69,
+        "review_count": 75,
+        "positive_ratio": 0.92
+      },
+      {
+        "month": "2022-10",
+        "positive_count": 47,
+        "review_count": 56,
+        "positive_ratio": 0.8393
+      },
+      {
+        "month": "2022-11",
+        "positive_count": 84,
+        "review_count": 95,
+        "positive_ratio": 0.8842
+      },
+      {
+        "month": "2022-12",
+        "positive_count": 83,
+        "review_count": 88,
+        "positive_ratio": 0.9432
+      },
+      {
+        "month": "2023-01",
+        "positive_count": 96,
+        "review_count": 107,
+        "positive_ratio": 0.8972
+      },
+      {
+        "month": "2023-02",
+        "positive_count": 70,
+        "review_count": 75,
+        "positive_ratio": 0.9333
+      },
+      {
+        "month": "2023-03",
+        "positive_count": 58,
+        "review_count": 69,
+        "positive_ratio": 0.8406
+      },
+      {
+        "month": "2023-04",
+        "positive_count": 37,
+        "review_count": 39,
+        "positive_ratio": 0.9487
+      },
+      {
+        "month": "2023-05",
+        "positive_count": 43,
+        "review_count": 50,
+        "positive_ratio": 0.86
+      },
+      {
+        "month": "2023-06",
+        "positive_count": 49,
+        "review_count": 50,
+        "positive_ratio": 0.98
+      },
+      {
+        "month": "2023-07",
+        "positive_count": 60,
+        "review_count": 63,
+        "positive_ratio": 0.9524
+      },
+      {
+        "month": "2023-08",
+        "positive_count": 34,
+        "review_count": 37,
+        "positive_ratio": 0.9189
+      },
+      {
+        "month": "2023-09",
+        "positive_count": 44,
+        "review_count": 49,
+        "positive_ratio": 0.898
+      },
+      {
+        "month": "2023-10",
+        "positive_count": 47,
+        "review_count": 51,
+        "positive_ratio": 0.9216
+      },
+      {
+        "month": "2023-11",
+        "positive_count": 43,
+        "review_count": 44,
+        "positive_ratio": 0.9773
+      },
+      {
+        "month": "2023-12",
+        "positive_count": 34,
+        "review_count": 36,
+        "positive_ratio": 0.9444
+      },
+      {
+        "month": "2024-01",
+        "positive_count": 38,
+        "review_count": 43,
+        "positive_ratio": 0.8837
+      },
+      {
+        "month": "2024-02",
+        "positive_count": 43,
+        "review_count": 48,
+        "positive_ratio": 0.8958
+      },
+      {
+        "month": "2024-03",
+        "positive_count": 32,
+        "review_count": 32,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2024-04",
+        "positive_count": 16,
+        "review_count": 18,
+        "positive_ratio": 0.8889
+      },
+      {
+        "month": "2024-05",
+        "positive_count": 32,
+        "review_count": 37,
+        "positive_ratio": 0.8649
+      },
+      {
+        "month": "2024-06",
+        "positive_count": 21,
+        "review_count": 22,
+        "positive_ratio": 0.9545
+      },
+      {
+        "month": "2024-07",
+        "positive_count": 28,
+        "review_count": 30,
+        "positive_ratio": 0.9333
+      },
+      {
+        "month": "2024-08",
+        "positive_count": 24,
+        "review_count": 28,
+        "positive_ratio": 0.8571
+      },
+      {
+        "month": "2024-09",
+        "positive_count": 18,
+        "review_count": 19,
+        "positive_ratio": 0.9474
+      },
+      {
+        "month": "2024-10",
+        "positive_count": 25,
+        "review_count": 27,
+        "positive_ratio": 0.9259
+      },
+      {
+        "month": "2024-11",
+        "positive_count": 39,
+        "review_count": 41,
+        "positive_ratio": 0.9512
+      },
+      {
+        "month": "2024-12",
+        "positive_count": 31,
+        "review_count": 36,
+        "positive_ratio": 0.8611
+      },
+      {
+        "month": "2025-01",
+        "positive_count": 27,
+        "review_count": 31,
+        "positive_ratio": 0.871
+      },
+      {
+        "month": "2025-02",
+        "positive_count": 25,
+        "review_count": 25,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2025-03",
+        "positive_count": 23,
+        "review_count": 31,
+        "positive_ratio": 0.7419
+      },
+      {
+        "month": "2025-04",
+        "positive_count": 20,
+        "review_count": 22,
+        "positive_ratio": 0.9091
+      },
+      {
+        "month": "2025-05",
+        "positive_count": 21,
+        "review_count": 23,
+        "positive_ratio": 0.913
+      },
+      {
+        "month": "2025-06",
+        "positive_count": 29,
+        "review_count": 31,
+        "positive_ratio": 0.9355
+      },
+      {
+        "month": "2025-07",
+        "positive_count": 17,
+        "review_count": 18,
+        "positive_ratio": 0.9444
+      },
+      {
+        "month": "2025-08",
+        "positive_count": 19,
+        "review_count": 21,
+        "positive_ratio": 0.9048
+      },
+      {
+        "month": "2025-09",
+        "positive_count": 10,
+        "review_count": 11,
+        "positive_ratio": 0.9091
+      },
+      {
+        "month": "2025-10",
+        "positive_count": 19,
+        "review_count": 22,
+        "positive_ratio": 0.8636
+      },
+      {
+        "month": "2025-11",
+        "positive_count": 23,
+        "review_count": 23,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2025-12",
+        "positive_count": 28,
+        "review_count": 30,
+        "positive_ratio": 0.9333
+      },
+      {
+        "month": "2026-01",
+        "positive_count": 24,
+        "review_count": 24,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2026-02",
+        "positive_count": 20,
+        "review_count": 21,
+        "positive_ratio": 0.9524
+      },
+      {
+        "month": "2026-03",
+        "positive_count": 29,
+        "review_count": 33,
+        "positive_ratio": 0.8788
+      },
+      {
+        "month": "2026-04",
+        "positive_count": 17,
+        "review_count": 19,
+        "positive_ratio": 0.8947
+      }
+    ]
+  },
+  "game": {
+    "name": "Cities: Skylines",
+    "genres": [
+      "시뮬레이션",
+      "전략"
+    ],
+    "price_model": "paid",
+    "is_free": false,
+    "release_stage": "released",
+    "release_date_text": "2015년 3월 10일",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/255710/header.jpg?t=1774972989",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/255710/4cf458b43b41e4f86d3e4e604e7a7577c7926b01/capsule_231x87.jpg?t=1774972989",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/255710/4cf458b43b41e4f86d3e4e604e7a7577c7926b01/capsule_184x69.jpg?t=1774972989",
+    "short_description": "Cities: Skylines is a modern take on the classic city simulation. The game introduces new game play elements to realize the thrill and hardships of creating and maintaining a real city whilst expanding on some well-established tropes of the city building experience.",
+    "steam_store_url": "https://store.steampowered.com/app/255710",
+    "steam_recommendation_count": 216531,
+    "steam_review_score_desc": "Very Positive",
+    "steam_total_positive": 6109,
+    "steam_total_negative": 430,
+    "steam_total_reviews": 6539
+  },
+  "report_plan": {
+    "decision_anchor": {
+      "buy_recommendation": "buy_now",
+      "primary_reason_ids": [
+        "monetization",
+        "mod_support"
+      ],
+      "rationale_short": "모드 지원과 다양한 DLC로 인해 게임의 깊이와 재미가 증가하며, 도시 건설의 자유도가 높아집니다."
+    },
+    "section_blueprint": {
+      "strength_block_count": 3,
+      "risk_block_count": 3,
+      "evidence_per_block": 3
+    },
+    "theme_priorities": {
+      "strengths": [
+        {
+          "reason_id": "str_1",
+          "aspect": "mod_support",
+          "theme": "모드 지원 / 호환 문제"
+        },
+        {
+          "reason_id": "str_2",
+          "aspect": "monetization",
+          "theme": "DLC / 확장팩 언급"
+        },
+        {
+          "reason_id": "str_3",
+          "aspect": "building_ux",
+          "theme": "중독성 / 시간순삭"
+        }
+      ],
+      "risks": [
+        {
+          "reason_id": "risk_1",
+          "aspect": "bugs",
+          "theme": "일반 버그"
+        },
+        {
+          "reason_id": "risk_2",
+          "aspect": "performance",
+          "theme": "최적화 문제"
+        },
+        {
+          "reason_id": "risk_3",
+          "aspect": "difficulty",
+          "theme": "난이도 / 진입장벽"
+        }
+      ]
+    }
+  },
+  "report_display": {
+    "headline": "모드 지원과 다양한 DLC로 인해 게임의 깊이와 재미가 증가하며, 도시 건설의 자유도가 높아집니다.",
+    "buy_recommendation": "buy_now",
+    "buy_timing_summary": "가격 대비 만족의 편차와 불편을 감수해야 할 수 있어 가격 메리트가 있는 시점이 더 낫습니다.",
+    "good_for": [
+      "핵심 플레이를 반복하며 손에 익혀가는 재미를 즐기는 플레이어",
+      "전술과 운영 판단을 오래 다듬는 플레이를 좋아하는 플레이어"
+    ],
+    "not_good_for": [
+      "가격 대비 만족을 매우 엄격하게 따지는 플레이어",
+      "진행 중 오류나 끊김을 거의 허용하지 않는 플레이어",
+      "프레임과 반응성이 조금만 흔들려도 예민하게 느끼는 플레이어"
+    ],
+    "top_strengths": [
+      {
+        "title": "계속 손에 익어가는 핵심 플레이",
+        "summary": "핵심 플레이가 손에 익을수록 더 편하고 재미있어져, 오래 붙잡기 쉬운 편입니다."
+      },
+      {
+        "title": "전술과 운영 판단의 깊이",
+        "summary": "전술과 운영 판단이 계속 쌓여 생각하면서 오래 붙잡기 좋은 구조입니다."
+      },
+      {
+        "title": "중독성이 있는 도시 성장",
+        "summary": "도시를 성장시키는 과정이 중독성이 강해 시간 가는 줄 모르고 몰입하게 됩니다."
+      }
+    ],
+    "top_risks": [
+      {
+        "title": "예상치 못한 오류가 플레이 리듬을 끊을 수 있는 리스크",
+        "summary": "예상치 못한 오류가 발생하면 도시 운영이 중단되고, 플레이어의 시간과 노력이 낭비될 수 있습니다."
+      },
+      {
+        "title": "프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크",
+        "summary": "프레임 저하와 반응 속도 저하로 인해 도시 규모가 커질수록 원활한 플레이가 어려워질 수 있습니다."
+      },
+      {
+        "title": "DLC 의존성",
+        "summary": "기본 콘텐츠가 부족해 DLC 구매 없이는 게임의 재미가 크게 감소할 수 있습니다."
+      }
+    ],
+    "recent_state": {
+      "status": "mixed",
+      "summary": "좋았다는 반응과 아쉽다는 반응이 함께 보여 평가가 갈리는 편입니다."
+    }
+  },
+  "evidence_sections": {
+    "strengths": [
+      {
+        "block_id": "str_1",
+        "title": "핵심 플레이 감각이 좋다는 반응이다.",
+        "theme": "모드 지원 / 호환 문제",
+        "why_it_matters": "기본 플레이 감각을 좋게 보는 반응이 많아, 핵심 재미가 분명한 편입니다.",
+        "explanation": "기본 플레이 감각을 좋게 보는 반응이 많아, 핵심 재미가 분명한 편입니다.",
+        "aspect_keys": [
+          "mod_support"
+        ],
+        "stance": "positive",
+        "consensus_level": "high",
+        "mention_count": 558,
+        "evidence_quality_level": "strict",
+        "evidence_candidate_snippets": [
+          "갓겜, PS4에서 하다가 스팀에서 모드 이거저거 더 깔고하고싶어서 다시 DLC랑 다 사서 하고있어요. 시티즈 스카이라인이 진짜 도시경영, 제작, 시뮬레이션 원탑. 시티즈 2 는 비추하지만, 1은 강추합니다.",
+          "타이쿤이나 도시 키우기 그런거 좋아하면 개 재밌음 근데 DLC랑 모드 할게 많음"
+        ],
+        "evidence_snippets": [
+          "타이쿤이나 도시 키우기 그런거 좋아하면 개 재밌음 근데 DLC랑 모드 할게 많음",
+          "갓겜, PS4에서 하다가 스팀에서 모드 이거저거 더 깔고하고싶어서 다시 DLC랑 다 사서 하고있어요. 시티즈 스카이라인이 진짜 도시경영, 제작, 시뮬레이션 원탑. 시티즈 2 는 비추하지만, 1은 강추합니다."
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-positive-1-1-2823333757754040668",
+            "text": "갓겜, PS4에서 하다가 스팀에서 모드 이거저거 더 깔고하고싶어서 다시 DLC랑 다 사서 하고있어요. 시티즈 스카이라인이 진짜 도시경영, 제작, 시뮬레이션 원탑. 시티즈 2 는 비추하지만, 1은 강추합니다."
+          },
+          {
+            "review_id": "compress-v3-positive-1-2-1400395177837859502",
+            "text": "타이쿤이나 도시 키우기 그런거 좋아하면 개 재밌음 근데 DLC랑 모드 할게 많음"
+          }
+        ]
+      },
+      {
+        "block_id": "str_2",
+        "title": "핵심 플레이 감각이 좋다는 반응이다.",
+        "theme": "부지 / 구조 제약",
+        "why_it_matters": "기본 플레이 감각을 좋게 보는 반응이 많아, 핵심 재미가 분명한 편입니다.",
+        "explanation": "기본 플레이 감각을 좋게 보는 반응이 많아, 핵심 재미가 분명한 편입니다.",
+        "aspect_keys": [
+          "building_ux"
+        ],
+        "stance": "positive",
+        "consensus_level": "high",
+        "mention_count": 464,
+        "evidence_quality_level": "relaxed",
+        "evidence_candidate_snippets": [
+          "도시 건설게임중 최고의 게임이라 할수 있음. 내 노트북이 내장그래픽인데도 플레이 가능할 정도로 컴퓨터 사양 상관없이 잘 돌아가고, 콘텐츠도 다양해서 매우 좋다. 그러나 단점도 없진 않다. dlc... 이건 패러독스사 게임들의 특징이다. 근데 이건 좀 많이 심각하다. 패러독스는 이건 좀 고쳐야 한다고 생각함. 너무 부담이 심하다.. 할인해도 다 사려면 300000이 넘는다...",
+          "도시 건설 장르는 이거 만한 게임이 없음",
+          "9.5 / 10.0 굉장히 재밌음. -모든 문제는 나로부터 시작되고 나로부터 해결됨. -그래픽은 굉장히 아쉬움. 개인적으로 Simcity의 건물들의 아기자기한 느낌이 더 좋은 것 같음. 건축물을 공부하지 않고 그냥 만들고 컴펌 받은 느낌이 듦.",
+          "2를 구매평 보고 구매 할지 말지 고민중인데 자꾸 1원에서 DLC 내줘서 2 구매 안하게만드는 신기한 게임 , 도시건설의 전설은 심시티가 건설의 시작이라면 시작이였다면 시티즈는 건설시뮬 그자체",
+          "-한줄 평가 심시티 시리즈가 죽은 지금 대체 불가능한 도시건설 시뮬레이션 게임 -자세한 평가 본편+적당한DLC+창작마당으로 내가 원하는 도시를 대규모로 건설할 수 있습니다. 하지만 본편만 놓고 보면 부족한게 많습니다. 발매된지 7년이 지난 오래된 게임으로 창작마당이 없다면 그래픽도 건설 시스템도 시대에 뒤쳐져있습니다. 매 DLC가 나올때 본편의 부족한 부분을 무료로 업데이트 해주는 것은 좋으나 DLC의 구성도 나름 알차서 필수로 구매해야 하는 DLC가 몇개 있습니다. 도시건설 시뮬을 한번도 안해보신분이라면 xbox 패스등 다른 방법으로 체험해 보시고 취향에 맞으면 그때 구매하는것을 추천합니다. 취향에 안맞다면 절대 안하는 게임입니다. -게임플레이 팁 카카오지도/네이버지도 등 지도를 활용하면 좋습니다. 지도 안에 모든 정답이 있습니다. -구매 팁 순정 한글판을 플레이 하려면 다이렉트게임즈에서 본편을 구매해야합니다.",
+          "한때 맥시스사의 심시티가 시티빌더 원탑이였지만 시원하게 말아드시고, 현재 스카이라인이 시티빌더 게임 원탑이 되었습니다. 시장이 되어서 도시를 개발하는 것이 목적인데 도시가 이쁘게 성장하면 엄청난 힐링 되는 게임 하지만... 그렇게 힐링을 받을려면 우선 공부해야하는 게임 단순히 짓고 관상하는 그런 쉬운 게임은 아님 교통 통제는 기본이고 어떻게 배치를 해야하는지 생각해야하는 게임. 시티빌더를 쉽다고 생각하고 구매하시면 한번 플레이하고 말그대로 소장게임이 되어버립니다. 시장이 되고 싶으면 그 만큼 공부하세요. 모르면 유튜브 보시면 고인물들의 강의 영상등이 있으니 참고하시면서 실력 늘리면 되겠습니다."
+        ],
+        "evidence_snippets": [
+          "도시 건설게임중 최고의 게임이라 할수 있음. 내 노트북이 내장그래픽인데도 플레이 가능할 정도로 컴퓨터 사양 상관없이 잘 돌아가고, 콘텐츠도 다양해서 매우 좋다. 그러나 단점도 없진 않다. dlc... 이건 패러독스사 게임들의 특징이다. 근데 이건 좀 많이 심각하다. 패러독스는 이건 좀 고쳐야 한다고 생각함. 너무 부담이 심하다.. 할인해도 다 사려면 300000이 넘는다...",
+          "9. 5 / 10. 0 굉장히 재밌음. -모든 문제는 나로부터 시작되고 나로부터 해결됨. -그래픽은 굉장히 아쉬움. 개인적으로 Simcity의 건물들의 아기자기한 느낌이 더 좋은 것 같음. 건축물을 공부하지 않고 그냥 만들고 컴펌 받은 느낌이 듦.",
+          "-한줄 평가 심시티 시리즈가 죽은 지금 대체 불가능한 도시건설 시뮬레이션 게임 -자세한 평가 본편+적당한DLC+창작마당으로 내가 원하는 도시를 대규모로 건설할 수 있습니다. 하지만 본편만 놓고 보면 부족한게 많습니다. 발매된지 7년이 지난 오래된 게임으로 창작마당이 없다면 그래픽도 건설 시스템도 시대에 뒤쳐져있습니다. 매 DLC가 나올때 본편의 부족한 부분을 무료로 업데이트 해주는 것은 좋으나 DLC의 구성도 나름 알차서 필수로 구매해야 하는 DLC가 몇개 있습니다. 도시건설 시뮬을 한번도 안해보신분이라면 xbox 패스등 다른 방법으로 체험해 보시고 취향에 맞으면 그때 구매하는것을 추천합니다. 취향에 안맞다면 절대 안하는 게임입니다. -게임플레이 팁 카카오지도/네이버지도 등 지도를 활용하면 좋습니다. 지도 안에 모든 정답이 있습니다. -구매 팁 순정 한글판을 플레이 하려면 다이렉트게임즈에서 본편을 구매해야합니다."
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-positive-2-1-3909527823575980176",
+            "text": "도시 건설게임중 최고의 게임이라 할수 있음. 내 노트북이 내장그래픽인데도 플레이 가능할 정도로 컴퓨터 사양 상관없이 잘 돌아가고, 콘텐츠도 다양해서 매우 좋다. 그러나 단점도 없진 않다. dlc... 이건 패러독스사 게임들의 특징이다. 근데 이건 좀 많이 심각하다. 패러독스는 이건 좀 고쳐야 한다고 생각함. 너무 부담이 심하다.. 할인해도 다 사려면 300000이 넘는다..."
+          },
+          {
+            "review_id": "compress-v3-positive-2-2-1108459850550774231",
+            "text": "도시 건설 장르는 이거 만한 게임이 없음"
+          },
+          {
+            "review_id": "compress-v3-positive-2-3-5952240347893871571",
+            "text": "9.5 / 10.0 굉장히 재밌음. -모든 문제는 나로부터 시작되고 나로부터 해결됨. -그래픽은 굉장히 아쉬움. 개인적으로 Simcity의 건물들의 아기자기한 느낌이 더 좋은 것 같음. 건축물을 공부하지 않고 그냥 만들고 컴펌 받은 느낌이 듦."
+          },
+          {
+            "review_id": "compress-v3-positive-2-4-7385001600396254164",
+            "text": "2를 구매평 보고 구매 할지 말지 고민중인데 자꾸 1원에서 DLC 내줘서 2 구매 안하게만드는 신기한 게임 , 도시건설의 전설은 심시티가 건설의 시작이라면 시작이였다면 시티즈는 건설시뮬 그자체"
+          },
+          {
+            "review_id": "compress-v3-positive-2-5-7315508798218157143",
+            "text": "-한줄 평가 심시티 시리즈가 죽은 지금 대체 불가능한 도시건설 시뮬레이션 게임 -자세한 평가 본편+적당한DLC+창작마당으로 내가 원하는 도시를 대규모로 건설할 수 있습니다. 하지만 본편만 놓고 보면 부족한게 많습니다. 발매된지 7년이 지난 오래된 게임으로 창작마당이 없다면 그래픽도 건설 시스템도 시대에 뒤쳐져있습니다. 매 DLC가 나올때 본편의 부족한 부분을 무료로 업데이트 해주는 것은 좋으나 DLC의 구성도 나름 알차서 필수로 구매해야 하는 DLC가 몇개 있습니다. 도시건설 시뮬을 한번도 안해보신분이라면 xbox 패스등 다른 방법으로 체험해 보시고 취향에 맞으면 그때 구매하는것을 추천합니다. 취향에 안맞다면 절대 안하는 게임입니다. -게임플레이 팁 카카오지도/네이버지도 등 지도를 활용하면 좋습니다. 지도 안에 모든 정답이 있습니다. -구매 팁 순정 한글판을 플레이 하려면 다이렉트게임즈에서 본편을 구매해야합니다."
+          },
+          {
+            "review_id": "compress-v3-positive-2-6-4543441571390643897",
+            "text": "한때 맥시스사의 심시티가 시티빌더 원탑이였지만 시원하게 말아드시고, 현재 스카이라인이 시티빌더 게임 원탑이 되었습니다. 시장이 되어서 도시를 개발하는 것이 목적인데 도시가 이쁘게 성장하면 엄청난 힐링 되는 게임 하지만... 그렇게 힐링을 받을려면 우선 공부해야하는 게임 단순히 짓고 관상하는 그런 쉬운 게임은 아님 교통 통제는 기본이고 어떻게 배치를 해야하는지 생각해야하는 게임. 시티빌더를 쉽다고 생각하고 구매하시면 한번 플레이하고 말그대로 소장게임이 되어버립니다. 시장이 되고 싶으면 그 만큼 공부하세요. 모르면 유튜브 보시면 고인물들의 강의 영상등이 있으니 참고하시면서 실력 늘리면 되겠습니다."
+          }
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "block_id": "risk_1",
+        "title": "가격 대비 만족이 갈린다는 반응입니다.",
+        "theme": "가격 대비 만족도가 갈려 구매 타이밍을 따져봐야 하는 포인트",
+        "why_it_matters": "가격 대비 만족이 갈린다는 반응이 있어, 비용 대비 체감에 민감하면 신중하게 보는 편이 좋습니다.",
+        "explanation": "가격 대비 만족이 갈린다는 반응이 있어, 비용 대비 체감에 민감하면 신중하게 보는 편이 좋습니다.",
+        "aspect_keys": [
+          "monetization"
+        ],
+        "stance": "negative",
+        "consensus_level": "high",
+        "mention_count": 648,
+        "evidence_quality_level": "relaxed",
+        "evidence_candidate_snippets": [
+          "🎮 Cities: Skylines ✅ 장점 높은 자유도 도시를 마음대로 설계할 수 있어서 창의력을 발휘하기 좋아. 도로, 전기, 물, 쓰레기, 세금까지 전부 직접 관리할 수 있다. 뛰어난 현실성 교통 체증, 공해, 실업률 같은 문제들이 실제 도시처럼 발생해서 현실감이 있다. 그냥 건물만 짓는 게임이 아니다. 모드(Mod)의 중요성 유저들이 만든 모드를 설치하면 건물이나 시스템을 무한히 추가할 수 있으며, 모드가 제일 중요하다. DLC의 다양성 날씨, 교통, 자연재해, 공공 정책 같은 걸 추가해주는 확장팩이 많아서 질릴 틈이 없다. ❌ 단점 높은 진입장벽 설명이 부족해서 처음 하는 사람은 뭘 해야 할지 모를 수 있다. 그렇기에 초반엔 도시가 망하는 게 순식간이다. 컴퓨터 사양 문제 도시가 커지면 프레임이 떨어지고 로딩도 길어져. 특히 모드 많이 쓰면 더 심하다. UI/UX의 불편함 정보 찾기가 힘들고, 창이 많아서 관리하기 귀찮을 때가 있다. 🏆 총평 Cities: Skylines는 도시 건설 게임 중에서도 완성도가 정말 높은 게임이며, 전략적으로 도시를 키우는 재미가 있어서 시간 가는 줄 모른다. 다만 초보자라면 유튜브나 공략을 좀 참고하는 게 좋다. 평점: ★★★★☆ (4.5/5)",
+          "하 씨발련들아 도시 만들어 놓으면 뭐하냐 dlc 팔이 존나 하고 업뎃을 존나게 해서 애써 가꾼 도시 날려먹고 10년 넘게 이지랄 하다 결국 참다참다 이제 터지네 2나오면 더이상 업뎃 안할줄 알았는데 시발련들아 내가 이겜 때려치우고 만다 2나 잘할것이지 뒤진 겜에 얼마나 더 뽑아먹을려고 시발 이지랄 하는거냐",
+          "심시티 시리즈가 저물고 난 후, 도시 건설 시뮬레이션 장르에서 독보적인 위치를 차지한 작품입니다. 10년이 넘는 기간 동안 축적된 방대한 업데이트와 DLC, 모드 생태계는 후속작이 출시되었음에도 여전히 수많은 유저들을 묶어두고 있으며, 퍼블리셔인 패러독스 역시 이를 선뜻 놔주지 못하고 있습니다. 하지만 그 부작용으로 시스템의 구조적 결함이 누적되어 각종 오류와 버그가 끊임없이 발생하고 있으며, 추가 DLC 발매마저 끝없이 이어지는 기형적인 상황입니다. 이제는 무의미한 생명 연장을 멈추고 제발 게임의 기술적 완성도를 마무리 지어 주었으면 합니다. 도대체 언제까지 이 소모적인 행보를 반복할 생각인지 묻고 싶네요.",
+          "이거 게임 모드 충돌,용량 많이 잡아먹고,DLC구매 해야 즐길수 있는 시나리오 같은 것 등등 문제가 많음 근데 시간은 잘감",
+          "병신같은 게임 이제 한계다 업데이트 이전에는 에셋 문제로 이런일 없었는데 이후에 엄청난 문제가 생겼습니다. 하던 맵 로딩이 에셋이 망가져서 실행이 안돼지 그래서 전반적으로 에셋 정리 겸 문제없는 호환모드 까느라 시간 다 날렸습니다. 이후 할 만 해지고 더는 버그가 안 터지니깐 점차 하려는데 이번에는 세이브 파일을 불러도 실행이 안돼는 또또 괴랄한 버그가 났습니다. 혹시? 클라우드 세이브 원인인가 싶어 컴퓨터내 저장된 세이브 파일 로드 시도해도 아에 실행이 불가능한 지경으로 나버리네요 유저 다 떠나기 전에 기본적인 게임 버그나 문제를 고치시든가 해야지, 디엘씨만 내서 이제 더는 못 참는다",
+          "절대 구입하지 말 것! 제대로 된 시티빌더가 전무해서 이거라도 플레이해야 하는 내 신세가 처량하다. 패러독스 인터렉티브 사 게임 아니랄까봐 껍데기만 있는 게임에 수많은 dlc를 넣어야 완성이 되는 구조이다. 게다가 그 게임 자체도 결함투성이라 정상화 될 가망이 없다. 한 2년 쯤 뒤에는 어찌 될지 모르겠으나, 현재 시점에서 이 게임을 구입하는 것은 돈 낭비이다. 이 게임은 근본적으로 ai와 연산 방식에 결함이 있는데다 치명적인 버그가 있어 정상적인 플레이를 할 수 없다. 1. 경찰차, 소방차 등등의 공공차량과 열차, 화물선, 지하철 등이 스폰되지 않는 버그가 있다. 제정신인지? 2. 교통 ai와 공공 ai는 매우 비효율적인 방식으로 움직인다. 범인을 잡기 위해 경찰차는 온 도시를 한 바퀴 돌아 신고지점에 도착한다. 3. 가장 근본적인 문제... 게임이 정상적으로 작동하지 않게 하는 치명적인 설계 미스. 이를 설명하기 위해서 시티빌더 전설의 레전드인 심시티4의 시스템을 간략히 언급한다. 문돌이라 기술적인 면에 대해서는 자세하지 않으나, 다음과 같이 정리할 수 있겠다. 심시티4에서 심들의 이동은 수치화된 데이터이다. 무슨 뜻인가 하면, A지점에서부터 n명의 심이 어떠한 경로로 B지점으로 이동한다 는 방식으로 연산된다는 것이다. 이것이 간단하면서도 완벽하고 아름답게 작동한 것이 갓겜 심시티4이다. 문제는 심시티(2014)와 시티즈 스카이라인 등의 시티빌더들이 바텀업 방식의 연산을 적용했다는 점이다. 이것은 a라는 심이 A에서 B로 이동한다 는 것을 각각의 요소에 적용했다는 것이다. 제대로 작동된다면야 좋겠지만, 컴퓨터 자원의 문제인지 프로그래밍의 문제인지 결과물은 막장이다. 심시티(2014)가 대차게 망했다는 것을 예구한 나는 알고있다. 시티즈 스카이라인은 심시티(2014)보다 거대한 규모의 도시를 건설할 수 있다는 것을 세일즈 포인트로 삼았다. 물론 광고에는 연산 가능한 요소(미국 포럼에서는 active agents라고 부른다)의 갯수가 65000개로 제한되어 있다는 이야기는 하지 않는다. 여기에는 기능적인 역할은 전혀 하지 않는 나무나 돌멩이, 야생동물의 수도 포함된다. 스팀 워크샵에 들어가보면 나무를 없애는 얼척없는 모드가 있음을 알 수 있을 것이다. 한계점은 생각보다 빨리 찾아와서, 멀쩡하던 도시의 물류가 마비되고 통근은 정지되며 고층건물 앞의 보도는 텅텅 비는 모습을 보여주게 된다."
+        ],
+        "evidence_snippets": [
+          "🎮 Cities: Skylines ✅ 장점 높은 자유도 도시를 마음대로 설계할 수 있어서 창의력을 발휘하기 좋아. 도로, 전기, 물, 쓰레기, 세금까지 전부 직접 관리할 수 있다. 뛰어난 현실성 교통 체증, 공해, 실업률 같은 문제들이 실제 도시처럼 발생해서 현실감이 있다. 그냥 건물만 짓는 게임이 아니다. 모드(Mod)의 중요성 유저들이 만든 모드를 설치하면 건물이나 시스템을 무한히 추가할 수 있으며, 모드가 제일 중요하다. DLC의 다양성 날씨, 교통, 자연재해, 공공 정책 같은 걸 추가해주는 확장팩이 많아서 질릴 틈이 없다. ❌ 단점 높은 진입장벽 설명이 부족해서 처음 하는 사람은 뭘 해야 할지 모를 수 있다. 그렇기에 초반엔 도시가 망하는 게 순식간이다. 컴퓨터 사양 문제 도시가 커지면 프레임이 떨어지고 로딩도 길어져. 특히 모드 많이 쓰면 더 심하다. UI/UX의 불편함 정보 찾기가 힘들고, 창이 많아서 관리하기 귀찮을 때가 있다. 🏆 총평 Cities: Skylines는 도시 건설 게임 중에서도 완성도가 정말 높은 게임이며, 전략적으로 도시를 키우는 재미가 있어서 시간 가는 줄 모른다. 다만 초보자라면 유튜브나 공략을 좀 참고하는 게 좋다. 평점: ★★★★☆ (4. 5/5)",
+          "이거 게임 모드 충돌, 용량 많이 잡아먹고, DLC구매 해야 즐길수 있는 시나리오 같은 것 등등 문제가 많음 근데 시간은 잘감",
+          "심시티 시리즈가 저물고 난 후, 도시 건설 시뮬레이션 장르에서 독보적인 위치를 차지한 작품입니다. 10년이 넘는 기간 동안 축적된 방대한 업데이트와 DLC, 모드 생태계는 후속작이 출시되었음에도 여전히 수많은 유저들을 묶어두고 있으며, 퍼블리셔인 패러독스 역시 이를 선뜻 놔주지 못하고 있습니다. 하지만 그 부작용으로 시스템의 구조적 결함이 누적되어 각종 오류와 버그가 끊임없이 발생하고 있으며, 추가 DLC 발매마저 끝없이 이어지는 기형적인 상황입니다. 이제는 무의미한 생명 연장을 멈추고 제발 게임의 기술적 완성도를 마무리 지어 주었으면 합니다. 도대체 언제까지 이 소모적인 행보를 반복할 생각인지 묻고 싶네요."
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-negative-1-1-4307478277405351689",
+            "text": "🎮 Cities: Skylines ✅ 장점 높은 자유도 도시를 마음대로 설계할 수 있어서 창의력을 발휘하기 좋아. 도로, 전기, 물, 쓰레기, 세금까지 전부 직접 관리할 수 있다. 뛰어난 현실성 교통 체증, 공해, 실업률 같은 문제들이 실제 도시처럼 발생해서 현실감이 있다. 그냥 건물만 짓는 게임이 아니다. 모드(Mod)의 중요성 유저들이 만든 모드를 설치하면 건물이나 시스템을 무한히 추가할 수 있으며, 모드가 제일 중요하다. DLC의 다양성 날씨, 교통, 자연재해, 공공 정책 같은 걸 추가해주는 확장팩이 많아서 질릴 틈이 없다. ❌ 단점 높은 진입장벽 설명이 부족해서 처음 하는 사람은 뭘 해야 할지 모를 수 있다. 그렇기에 초반엔 도시가 망하는 게 순식간이다. 컴퓨터 사양 문제 도시가 커지면 프레임이 떨어지고 로딩도 길어져. 특히 모드 많이 쓰면 더 심하다. UI/UX의 불편함 정보 찾기가 힘들고, 창이 많아서 관리하기 귀찮을 때가 있다. 🏆 총평 Cities: Skylines는 도시 건설 게임 중에서도 완성도가 정말 높은 게임이며, 전략적으로 도시를 키우는 재미가 있어서 시간 가는 줄 모른다. 다만 초보자라면 유튜브나 공략을 좀 참고하는 게 좋다. 평점: ★★★★☆ (4.5/5)"
+          },
+          {
+            "review_id": "compress-v3-negative-1-2-4954749213181737454",
+            "text": "하 씨발련들아 도시 만들어 놓으면 뭐하냐 dlc 팔이 존나 하고 업뎃을 존나게 해서 애써 가꾼 도시 날려먹고 10년 넘게 이지랄 하다 결국 참다참다 이제 터지네 2나오면 더이상 업뎃 안할줄 알았는데 시발련들아 내가 이겜 때려치우고 만다 2나 잘할것이지 뒤진 겜에 얼마나 더 뽑아먹을려고 시발 이지랄 하는거냐"
+          },
+          {
+            "review_id": "compress-v3-negative-1-3-1868721262323009614",
+            "text": "심시티 시리즈가 저물고 난 후, 도시 건설 시뮬레이션 장르에서 독보적인 위치를 차지한 작품입니다. 10년이 넘는 기간 동안 축적된 방대한 업데이트와 DLC, 모드 생태계는 후속작이 출시되었음에도 여전히 수많은 유저들을 묶어두고 있으며, 퍼블리셔인 패러독스 역시 이를 선뜻 놔주지 못하고 있습니다. 하지만 그 부작용으로 시스템의 구조적 결함이 누적되어 각종 오류와 버그가 끊임없이 발생하고 있으며, 추가 DLC 발매마저 끝없이 이어지는 기형적인 상황입니다. 이제는 무의미한 생명 연장을 멈추고 제발 게임의 기술적 완성도를 마무리 지어 주었으면 합니다. 도대체 언제까지 이 소모적인 행보를 반복할 생각인지 묻고 싶네요."
+          },
+          {
+            "review_id": "compress-v3-negative-1-4-4138624687285994542",
+            "text": "이거 게임 모드 충돌,용량 많이 잡아먹고,DLC구매 해야 즐길수 있는 시나리오 같은 것 등등 문제가 많음 근데 시간은 잘감"
+          },
+          {
+            "review_id": "compress-v3-negative-1-5-2727295162822755606",
+            "text": "병신같은 게임 이제 한계다 업데이트 이전에는 에셋 문제로 이런일 없었는데 이후에 엄청난 문제가 생겼습니다. 하던 맵 로딩이 에셋이 망가져서 실행이 안돼지 그래서 전반적으로 에셋 정리 겸 문제없는 호환모드 까느라 시간 다 날렸습니다. 이후 할 만 해지고 더는 버그가 안 터지니깐 점차 하려는데 이번에는 세이브 파일을 불러도 실행이 안돼는 또또 괴랄한 버그가 났습니다. 혹시? 클라우드 세이브 원인인가 싶어 컴퓨터내 저장된 세이브 파일 로드 시도해도 아에 실행이 불가능한 지경으로 나버리네요 유저 다 떠나기 전에 기본적인 게임 버그나 문제를 고치시든가 해야지, 디엘씨만 내서 이제 더는 못 참는다"
+          },
+          {
+            "review_id": "compress-v3-negative-1-6-8468306580845021887",
+            "text": "절대 구입하지 말 것! 제대로 된 시티빌더가 전무해서 이거라도 플레이해야 하는 내 신세가 처량하다. 패러독스 인터렉티브 사 게임 아니랄까봐 껍데기만 있는 게임에 수많은 dlc를 넣어야 완성이 되는 구조이다. 게다가 그 게임 자체도 결함투성이라 정상화 될 가망이 없다. 한 2년 쯤 뒤에는 어찌 될지 모르겠으나, 현재 시점에서 이 게임을 구입하는 것은 돈 낭비이다. 이 게임은 근본적으로 ai와 연산 방식에 결함이 있는데다 치명적인 버그가 있어 정상적인 플레이를 할 수 없다. 1. 경찰차, 소방차 등등의 공공차량과 열차, 화물선, 지하철 등이 스폰되지 않는 버그가 있다. 제정신인지? 2. 교통 ai와 공공 ai는 매우 비효율적인 방식으로 움직인다. 범인을 잡기 위해 경찰차는 온 도시를 한 바퀴 돌아 신고지점에 도착한다. 3. 가장 근본적인 문제... 게임이 정상적으로 작동하지 않게 하는 치명적인 설계 미스. 이를 설명하기 위해서 시티빌더 전설의 레전드인 심시티4의 시스템을 간략히 언급한다. 문돌이라 기술적인 면에 대해서는 자세하지 않으나, 다음과 같이 정리할 수 있겠다. 심시티4에서 심들의 이동은 수치화된 데이터이다. 무슨 뜻인가 하면, A지점에서부터 n명의 심이 어떠한 경로로 B지점으로 이동한다 는 방식으로 연산된다는 것이다. 이것이 간단하면서도 완벽하고 아름답게 작동한 것이 갓겜 심시티4이다. 문제는 심시티(2014)와 시티즈 스카이라인 등의 시티빌더들이 바텀업 방식의 연산을 적용했다는 점이다. 이것은 a라는 심이 A에서 B로 이동한다 는 것을 각각의 요소에 적용했다는 것이다. 제대로 작동된다면야 좋겠지만, 컴퓨터 자원의 문제인지 프로그래밍의 문제인지 결과물은 막장이다. 심시티(2014)가 대차게 망했다는 것을 예구한 나는 알고있다. 시티즈 스카이라인은 심시티(2014)보다 거대한 규모의 도시를 건설할 수 있다는 것을 세일즈 포인트로 삼았다. 물론 광고에는 연산 가능한 요소(미국 포럼에서는 active agents라고 부른다)의 갯수가 65000개로 제한되어 있다는 이야기는 하지 않는다. 여기에는 기능적인 역할은 전혀 하지 않는 나무나 돌멩이, 야생동물의 수도 포함된다. 스팀 워크샵에 들어가보면 나무를 없애는 얼척없는 모드가 있음을 알 수 있을 것이다. 한계점은 생각보다 빨리 찾아와서, 멀쩡하던 도시의 물류가 마비되고 통근은 정지되며 고층건물 앞의 보도는 텅텅 비는 모습을 보여주게 된다."
+          }
+        ]
+      }
+    ]
+  },
+  "disclaimer": "여러 유저 리뷰를 바탕으로 정리했어요. 플레이 경험은 사람마다 다를 수 있어요.",
+  "headline": "모드 지원과 다양한 DLC로 인해 게임의 깊이와 재미가 증가하며, 도시 건설의 자유도가 높아집니다.",
+  "buy_recommendation": "buy_now",
+  "buy_timing_summary": "가격 대비 만족의 편차와 불편을 감수해야 할 수 있어 가격 메리트가 있는 시점이 더 낫습니다.",
+  "good_for": [
+    "핵심 플레이를 반복하며 손에 익혀가는 재미를 즐기는 플레이어",
+    "전술과 운영 판단을 오래 다듬는 플레이를 좋아하는 플레이어"
+  ],
+  "not_good_for": [
+    "가격 대비 만족을 매우 엄격하게 따지는 플레이어",
+    "진행 중 오류나 끊김을 거의 허용하지 않는 플레이어",
+    "프레임과 반응성이 조금만 흔들려도 예민하게 느끼는 플레이어"
+  ],
+  "top_strengths": [
+    {
+      "title": "계속 손에 익어가는 핵심 플레이",
+      "summary": "핵심 플레이가 손에 익을수록 더 편하고 재미있어져, 오래 붙잡기 쉬운 편입니다."
+    },
+    {
+      "title": "전술과 운영 판단의 깊이",
+      "summary": "전술과 운영 판단이 계속 쌓여 생각하면서 오래 붙잡기 좋은 구조입니다."
+    },
+    {
+      "title": "중독성이 있는 도시 성장",
+      "summary": "도시를 성장시키는 과정이 중독성이 강해 시간 가는 줄 모르고 몰입하게 됩니다."
+    }
+  ],
+  "top_risks": [
+    {
+      "title": "예상치 못한 오류가 플레이 리듬을 끊을 수 있는 리스크",
+      "summary": "예상치 못한 오류가 발생하면 도시 운영이 중단되고, 플레이어의 시간과 노력이 낭비될 수 있습니다."
+    },
+    {
+      "title": "프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크",
+      "summary": "프레임 저하와 반응 속도 저하로 인해 도시 규모가 커질수록 원활한 플레이가 어려워질 수 있습니다."
+    },
+    {
+      "title": "DLC 의존성",
+      "summary": "기본 콘텐츠가 부족해 DLC 구매 없이는 게임의 재미가 크게 감소할 수 있습니다."
+    }
+  ],
+  "recent_state": {
+    "status": "mixed",
+    "summary": "좋았다는 반응과 아쉽다는 반응이 함께 보여 평가가 갈리는 편입니다."
+  },
+  "evidence_reviews": [
+    {
+      "block_id": "str_1",
+      "title": "핵심 플레이 감각이 좋다는 반응이다.",
+      "theme": "모드 지원 / 호환 문제",
+      "why_it_matters": "기본 플레이 감각을 좋게 보는 반응이 많아, 핵심 재미가 분명한 편입니다.",
+      "explanation": "기본 플레이 감각을 좋게 보는 반응이 많아, 핵심 재미가 분명한 편입니다.",
+      "aspect_keys": [
+        "mod_support"
+      ],
+      "stance": "positive",
+      "consensus_level": "high",
+      "mention_count": 558,
+      "evidence_quality_level": "strict",
+      "evidence_candidate_snippets": [
+        "갓겜, PS4에서 하다가 스팀에서 모드 이거저거 더 깔고하고싶어서 다시 DLC랑 다 사서 하고있어요. 시티즈 스카이라인이 진짜 도시경영, 제작, 시뮬레이션 원탑. 시티즈 2 는 비추하지만, 1은 강추합니다.",
+        "타이쿤이나 도시 키우기 그런거 좋아하면 개 재밌음 근데 DLC랑 모드 할게 많음"
+      ],
+      "evidence_snippets": [
+        "타이쿤이나 도시 키우기 그런거 좋아하면 개 재밌음 근데 DLC랑 모드 할게 많음",
+        "갓겜, PS4에서 하다가 스팀에서 모드 이거저거 더 깔고하고싶어서 다시 DLC랑 다 사서 하고있어요. 시티즈 스카이라인이 진짜 도시경영, 제작, 시뮬레이션 원탑. 시티즈 2 는 비추하지만, 1은 강추합니다."
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-positive-1-1-2823333757754040668",
+          "text": "갓겜, PS4에서 하다가 스팀에서 모드 이거저거 더 깔고하고싶어서 다시 DLC랑 다 사서 하고있어요. 시티즈 스카이라인이 진짜 도시경영, 제작, 시뮬레이션 원탑. 시티즈 2 는 비추하지만, 1은 강추합니다."
+        },
+        {
+          "review_id": "compress-v3-positive-1-2-1400395177837859502",
+          "text": "타이쿤이나 도시 키우기 그런거 좋아하면 개 재밌음 근데 DLC랑 모드 할게 많음"
+        }
+      ]
+    },
+    {
+      "block_id": "str_2",
+      "title": "핵심 플레이 감각이 좋다는 반응이다.",
+      "theme": "부지 / 구조 제약",
+      "why_it_matters": "기본 플레이 감각을 좋게 보는 반응이 많아, 핵심 재미가 분명한 편입니다.",
+      "explanation": "기본 플레이 감각을 좋게 보는 반응이 많아, 핵심 재미가 분명한 편입니다.",
+      "aspect_keys": [
+        "building_ux"
+      ],
+      "stance": "positive",
+      "consensus_level": "high",
+      "mention_count": 464,
+      "evidence_quality_level": "relaxed",
+      "evidence_candidate_snippets": [
+        "도시 건설게임중 최고의 게임이라 할수 있음. 내 노트북이 내장그래픽인데도 플레이 가능할 정도로 컴퓨터 사양 상관없이 잘 돌아가고, 콘텐츠도 다양해서 매우 좋다. 그러나 단점도 없진 않다. dlc... 이건 패러독스사 게임들의 특징이다. 근데 이건 좀 많이 심각하다. 패러독스는 이건 좀 고쳐야 한다고 생각함. 너무 부담이 심하다.. 할인해도 다 사려면 300000이 넘는다...",
+        "도시 건설 장르는 이거 만한 게임이 없음",
+        "9.5 / 10.0 굉장히 재밌음. -모든 문제는 나로부터 시작되고 나로부터 해결됨. -그래픽은 굉장히 아쉬움. 개인적으로 Simcity의 건물들의 아기자기한 느낌이 더 좋은 것 같음. 건축물을 공부하지 않고 그냥 만들고 컴펌 받은 느낌이 듦.",
+        "2를 구매평 보고 구매 할지 말지 고민중인데 자꾸 1원에서 DLC 내줘서 2 구매 안하게만드는 신기한 게임 , 도시건설의 전설은 심시티가 건설의 시작이라면 시작이였다면 시티즈는 건설시뮬 그자체",
+        "-한줄 평가 심시티 시리즈가 죽은 지금 대체 불가능한 도시건설 시뮬레이션 게임 -자세한 평가 본편+적당한DLC+창작마당으로 내가 원하는 도시를 대규모로 건설할 수 있습니다. 하지만 본편만 놓고 보면 부족한게 많습니다. 발매된지 7년이 지난 오래된 게임으로 창작마당이 없다면 그래픽도 건설 시스템도 시대에 뒤쳐져있습니다. 매 DLC가 나올때 본편의 부족한 부분을 무료로 업데이트 해주는 것은 좋으나 DLC의 구성도 나름 알차서 필수로 구매해야 하는 DLC가 몇개 있습니다. 도시건설 시뮬을 한번도 안해보신분이라면 xbox 패스등 다른 방법으로 체험해 보시고 취향에 맞으면 그때 구매하는것을 추천합니다. 취향에 안맞다면 절대 안하는 게임입니다. -게임플레이 팁 카카오지도/네이버지도 등 지도를 활용하면 좋습니다. 지도 안에 모든 정답이 있습니다. -구매 팁 순정 한글판을 플레이 하려면 다이렉트게임즈에서 본편을 구매해야합니다.",
+        "한때 맥시스사의 심시티가 시티빌더 원탑이였지만 시원하게 말아드시고, 현재 스카이라인이 시티빌더 게임 원탑이 되었습니다. 시장이 되어서 도시를 개발하는 것이 목적인데 도시가 이쁘게 성장하면 엄청난 힐링 되는 게임 하지만... 그렇게 힐링을 받을려면 우선 공부해야하는 게임 단순히 짓고 관상하는 그런 쉬운 게임은 아님 교통 통제는 기본이고 어떻게 배치를 해야하는지 생각해야하는 게임. 시티빌더를 쉽다고 생각하고 구매하시면 한번 플레이하고 말그대로 소장게임이 되어버립니다. 시장이 되고 싶으면 그 만큼 공부하세요. 모르면 유튜브 보시면 고인물들의 강의 영상등이 있으니 참고하시면서 실력 늘리면 되겠습니다."
+      ],
+      "evidence_snippets": [
+        "도시 건설게임중 최고의 게임이라 할수 있음. 내 노트북이 내장그래픽인데도 플레이 가능할 정도로 컴퓨터 사양 상관없이 잘 돌아가고, 콘텐츠도 다양해서 매우 좋다. 그러나 단점도 없진 않다. dlc... 이건 패러독스사 게임들의 특징이다. 근데 이건 좀 많이 심각하다. 패러독스는 이건 좀 고쳐야 한다고 생각함. 너무 부담이 심하다.. 할인해도 다 사려면 300000이 넘는다...",
+        "9. 5 / 10. 0 굉장히 재밌음. -모든 문제는 나로부터 시작되고 나로부터 해결됨. -그래픽은 굉장히 아쉬움. 개인적으로 Simcity의 건물들의 아기자기한 느낌이 더 좋은 것 같음. 건축물을 공부하지 않고 그냥 만들고 컴펌 받은 느낌이 듦.",
+        "-한줄 평가 심시티 시리즈가 죽은 지금 대체 불가능한 도시건설 시뮬레이션 게임 -자세한 평가 본편+적당한DLC+창작마당으로 내가 원하는 도시를 대규모로 건설할 수 있습니다. 하지만 본편만 놓고 보면 부족한게 많습니다. 발매된지 7년이 지난 오래된 게임으로 창작마당이 없다면 그래픽도 건설 시스템도 시대에 뒤쳐져있습니다. 매 DLC가 나올때 본편의 부족한 부분을 무료로 업데이트 해주는 것은 좋으나 DLC의 구성도 나름 알차서 필수로 구매해야 하는 DLC가 몇개 있습니다. 도시건설 시뮬을 한번도 안해보신분이라면 xbox 패스등 다른 방법으로 체험해 보시고 취향에 맞으면 그때 구매하는것을 추천합니다. 취향에 안맞다면 절대 안하는 게임입니다. -게임플레이 팁 카카오지도/네이버지도 등 지도를 활용하면 좋습니다. 지도 안에 모든 정답이 있습니다. -구매 팁 순정 한글판을 플레이 하려면 다이렉트게임즈에서 본편을 구매해야합니다."
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-positive-2-1-3909527823575980176",
+          "text": "도시 건설게임중 최고의 게임이라 할수 있음. 내 노트북이 내장그래픽인데도 플레이 가능할 정도로 컴퓨터 사양 상관없이 잘 돌아가고, 콘텐츠도 다양해서 매우 좋다. 그러나 단점도 없진 않다. dlc... 이건 패러독스사 게임들의 특징이다. 근데 이건 좀 많이 심각하다. 패러독스는 이건 좀 고쳐야 한다고 생각함. 너무 부담이 심하다.. 할인해도 다 사려면 300000이 넘는다..."
+        },
+        {
+          "review_id": "compress-v3-positive-2-2-1108459850550774231",
+          "text": "도시 건설 장르는 이거 만한 게임이 없음"
+        },
+        {
+          "review_id": "compress-v3-positive-2-3-5952240347893871571",
+          "text": "9.5 / 10.0 굉장히 재밌음. -모든 문제는 나로부터 시작되고 나로부터 해결됨. -그래픽은 굉장히 아쉬움. 개인적으로 Simcity의 건물들의 아기자기한 느낌이 더 좋은 것 같음. 건축물을 공부하지 않고 그냥 만들고 컴펌 받은 느낌이 듦."
+        },
+        {
+          "review_id": "compress-v3-positive-2-4-7385001600396254164",
+          "text": "2를 구매평 보고 구매 할지 말지 고민중인데 자꾸 1원에서 DLC 내줘서 2 구매 안하게만드는 신기한 게임 , 도시건설의 전설은 심시티가 건설의 시작이라면 시작이였다면 시티즈는 건설시뮬 그자체"
+        },
+        {
+          "review_id": "compress-v3-positive-2-5-7315508798218157143",
+          "text": "-한줄 평가 심시티 시리즈가 죽은 지금 대체 불가능한 도시건설 시뮬레이션 게임 -자세한 평가 본편+적당한DLC+창작마당으로 내가 원하는 도시를 대규모로 건설할 수 있습니다. 하지만 본편만 놓고 보면 부족한게 많습니다. 발매된지 7년이 지난 오래된 게임으로 창작마당이 없다면 그래픽도 건설 시스템도 시대에 뒤쳐져있습니다. 매 DLC가 나올때 본편의 부족한 부분을 무료로 업데이트 해주는 것은 좋으나 DLC의 구성도 나름 알차서 필수로 구매해야 하는 DLC가 몇개 있습니다. 도시건설 시뮬을 한번도 안해보신분이라면 xbox 패스등 다른 방법으로 체험해 보시고 취향에 맞으면 그때 구매하는것을 추천합니다. 취향에 안맞다면 절대 안하는 게임입니다. -게임플레이 팁 카카오지도/네이버지도 등 지도를 활용하면 좋습니다. 지도 안에 모든 정답이 있습니다. -구매 팁 순정 한글판을 플레이 하려면 다이렉트게임즈에서 본편을 구매해야합니다."
+        },
+        {
+          "review_id": "compress-v3-positive-2-6-4543441571390643897",
+          "text": "한때 맥시스사의 심시티가 시티빌더 원탑이였지만 시원하게 말아드시고, 현재 스카이라인이 시티빌더 게임 원탑이 되었습니다. 시장이 되어서 도시를 개발하는 것이 목적인데 도시가 이쁘게 성장하면 엄청난 힐링 되는 게임 하지만... 그렇게 힐링을 받을려면 우선 공부해야하는 게임 단순히 짓고 관상하는 그런 쉬운 게임은 아님 교통 통제는 기본이고 어떻게 배치를 해야하는지 생각해야하는 게임. 시티빌더를 쉽다고 생각하고 구매하시면 한번 플레이하고 말그대로 소장게임이 되어버립니다. 시장이 되고 싶으면 그 만큼 공부하세요. 모르면 유튜브 보시면 고인물들의 강의 영상등이 있으니 참고하시면서 실력 늘리면 되겠습니다."
+        }
+      ]
+    },
+    {
+      "block_id": "risk_1",
+      "title": "가격 대비 만족이 갈린다는 반응입니다.",
+      "theme": "가격 대비 만족도가 갈려 구매 타이밍을 따져봐야 하는 포인트",
+      "why_it_matters": "가격 대비 만족이 갈린다는 반응이 있어, 비용 대비 체감에 민감하면 신중하게 보는 편이 좋습니다.",
+      "explanation": "가격 대비 만족이 갈린다는 반응이 있어, 비용 대비 체감에 민감하면 신중하게 보는 편이 좋습니다.",
+      "aspect_keys": [
+        "monetization"
+      ],
+      "stance": "negative",
+      "consensus_level": "high",
+      "mention_count": 648,
+      "evidence_quality_level": "relaxed",
+      "evidence_candidate_snippets": [
+        "🎮 Cities: Skylines ✅ 장점 높은 자유도 도시를 마음대로 설계할 수 있어서 창의력을 발휘하기 좋아. 도로, 전기, 물, 쓰레기, 세금까지 전부 직접 관리할 수 있다. 뛰어난 현실성 교통 체증, 공해, 실업률 같은 문제들이 실제 도시처럼 발생해서 현실감이 있다. 그냥 건물만 짓는 게임이 아니다. 모드(Mod)의 중요성 유저들이 만든 모드를 설치하면 건물이나 시스템을 무한히 추가할 수 있으며, 모드가 제일 중요하다. DLC의 다양성 날씨, 교통, 자연재해, 공공 정책 같은 걸 추가해주는 확장팩이 많아서 질릴 틈이 없다. ❌ 단점 높은 진입장벽 설명이 부족해서 처음 하는 사람은 뭘 해야 할지 모를 수 있다. 그렇기에 초반엔 도시가 망하는 게 순식간이다. 컴퓨터 사양 문제 도시가 커지면 프레임이 떨어지고 로딩도 길어져. 특히 모드 많이 쓰면 더 심하다. UI/UX의 불편함 정보 찾기가 힘들고, 창이 많아서 관리하기 귀찮을 때가 있다. 🏆 총평 Cities: Skylines는 도시 건설 게임 중에서도 완성도가 정말 높은 게임이며, 전략적으로 도시를 키우는 재미가 있어서 시간 가는 줄 모른다. 다만 초보자라면 유튜브나 공략을 좀 참고하는 게 좋다. 평점: ★★★★☆ (4.5/5)",
+        "하 씨발련들아 도시 만들어 놓으면 뭐하냐 dlc 팔이 존나 하고 업뎃을 존나게 해서 애써 가꾼 도시 날려먹고 10년 넘게 이지랄 하다 결국 참다참다 이제 터지네 2나오면 더이상 업뎃 안할줄 알았는데 시발련들아 내가 이겜 때려치우고 만다 2나 잘할것이지 뒤진 겜에 얼마나 더 뽑아먹을려고 시발 이지랄 하는거냐",
+        "심시티 시리즈가 저물고 난 후, 도시 건설 시뮬레이션 장르에서 독보적인 위치를 차지한 작품입니다. 10년이 넘는 기간 동안 축적된 방대한 업데이트와 DLC, 모드 생태계는 후속작이 출시되었음에도 여전히 수많은 유저들을 묶어두고 있으며, 퍼블리셔인 패러독스 역시 이를 선뜻 놔주지 못하고 있습니다. 하지만 그 부작용으로 시스템의 구조적 결함이 누적되어 각종 오류와 버그가 끊임없이 발생하고 있으며, 추가 DLC 발매마저 끝없이 이어지는 기형적인 상황입니다. 이제는 무의미한 생명 연장을 멈추고 제발 게임의 기술적 완성도를 마무리 지어 주었으면 합니다. 도대체 언제까지 이 소모적인 행보를 반복할 생각인지 묻고 싶네요.",
+        "이거 게임 모드 충돌,용량 많이 잡아먹고,DLC구매 해야 즐길수 있는 시나리오 같은 것 등등 문제가 많음 근데 시간은 잘감",
+        "병신같은 게임 이제 한계다 업데이트 이전에는 에셋 문제로 이런일 없었는데 이후에 엄청난 문제가 생겼습니다. 하던 맵 로딩이 에셋이 망가져서 실행이 안돼지 그래서 전반적으로 에셋 정리 겸 문제없는 호환모드 까느라 시간 다 날렸습니다. 이후 할 만 해지고 더는 버그가 안 터지니깐 점차 하려는데 이번에는 세이브 파일을 불러도 실행이 안돼는 또또 괴랄한 버그가 났습니다. 혹시? 클라우드 세이브 원인인가 싶어 컴퓨터내 저장된 세이브 파일 로드 시도해도 아에 실행이 불가능한 지경으로 나버리네요 유저 다 떠나기 전에 기본적인 게임 버그나 문제를 고치시든가 해야지, 디엘씨만 내서 이제 더는 못 참는다",
+        "절대 구입하지 말 것! 제대로 된 시티빌더가 전무해서 이거라도 플레이해야 하는 내 신세가 처량하다. 패러독스 인터렉티브 사 게임 아니랄까봐 껍데기만 있는 게임에 수많은 dlc를 넣어야 완성이 되는 구조이다. 게다가 그 게임 자체도 결함투성이라 정상화 될 가망이 없다. 한 2년 쯤 뒤에는 어찌 될지 모르겠으나, 현재 시점에서 이 게임을 구입하는 것은 돈 낭비이다. 이 게임은 근본적으로 ai와 연산 방식에 결함이 있는데다 치명적인 버그가 있어 정상적인 플레이를 할 수 없다. 1. 경찰차, 소방차 등등의 공공차량과 열차, 화물선, 지하철 등이 스폰되지 않는 버그가 있다. 제정신인지? 2. 교통 ai와 공공 ai는 매우 비효율적인 방식으로 움직인다. 범인을 잡기 위해 경찰차는 온 도시를 한 바퀴 돌아 신고지점에 도착한다. 3. 가장 근본적인 문제... 게임이 정상적으로 작동하지 않게 하는 치명적인 설계 미스. 이를 설명하기 위해서 시티빌더 전설의 레전드인 심시티4의 시스템을 간략히 언급한다. 문돌이라 기술적인 면에 대해서는 자세하지 않으나, 다음과 같이 정리할 수 있겠다. 심시티4에서 심들의 이동은 수치화된 데이터이다. 무슨 뜻인가 하면, A지점에서부터 n명의 심이 어떠한 경로로 B지점으로 이동한다 는 방식으로 연산된다는 것이다. 이것이 간단하면서도 완벽하고 아름답게 작동한 것이 갓겜 심시티4이다. 문제는 심시티(2014)와 시티즈 스카이라인 등의 시티빌더들이 바텀업 방식의 연산을 적용했다는 점이다. 이것은 a라는 심이 A에서 B로 이동한다 는 것을 각각의 요소에 적용했다는 것이다. 제대로 작동된다면야 좋겠지만, 컴퓨터 자원의 문제인지 프로그래밍의 문제인지 결과물은 막장이다. 심시티(2014)가 대차게 망했다는 것을 예구한 나는 알고있다. 시티즈 스카이라인은 심시티(2014)보다 거대한 규모의 도시를 건설할 수 있다는 것을 세일즈 포인트로 삼았다. 물론 광고에는 연산 가능한 요소(미국 포럼에서는 active agents라고 부른다)의 갯수가 65000개로 제한되어 있다는 이야기는 하지 않는다. 여기에는 기능적인 역할은 전혀 하지 않는 나무나 돌멩이, 야생동물의 수도 포함된다. 스팀 워크샵에 들어가보면 나무를 없애는 얼척없는 모드가 있음을 알 수 있을 것이다. 한계점은 생각보다 빨리 찾아와서, 멀쩡하던 도시의 물류가 마비되고 통근은 정지되며 고층건물 앞의 보도는 텅텅 비는 모습을 보여주게 된다."
+      ],
+      "evidence_snippets": [
+        "🎮 Cities: Skylines ✅ 장점 높은 자유도 도시를 마음대로 설계할 수 있어서 창의력을 발휘하기 좋아. 도로, 전기, 물, 쓰레기, 세금까지 전부 직접 관리할 수 있다. 뛰어난 현실성 교통 체증, 공해, 실업률 같은 문제들이 실제 도시처럼 발생해서 현실감이 있다. 그냥 건물만 짓는 게임이 아니다. 모드(Mod)의 중요성 유저들이 만든 모드를 설치하면 건물이나 시스템을 무한히 추가할 수 있으며, 모드가 제일 중요하다. DLC의 다양성 날씨, 교통, 자연재해, 공공 정책 같은 걸 추가해주는 확장팩이 많아서 질릴 틈이 없다. ❌ 단점 높은 진입장벽 설명이 부족해서 처음 하는 사람은 뭘 해야 할지 모를 수 있다. 그렇기에 초반엔 도시가 망하는 게 순식간이다. 컴퓨터 사양 문제 도시가 커지면 프레임이 떨어지고 로딩도 길어져. 특히 모드 많이 쓰면 더 심하다. UI/UX의 불편함 정보 찾기가 힘들고, 창이 많아서 관리하기 귀찮을 때가 있다. 🏆 총평 Cities: Skylines는 도시 건설 게임 중에서도 완성도가 정말 높은 게임이며, 전략적으로 도시를 키우는 재미가 있어서 시간 가는 줄 모른다. 다만 초보자라면 유튜브나 공략을 좀 참고하는 게 좋다. 평점: ★★★★☆ (4. 5/5)",
+        "이거 게임 모드 충돌, 용량 많이 잡아먹고, DLC구매 해야 즐길수 있는 시나리오 같은 것 등등 문제가 많음 근데 시간은 잘감",
+        "심시티 시리즈가 저물고 난 후, 도시 건설 시뮬레이션 장르에서 독보적인 위치를 차지한 작품입니다. 10년이 넘는 기간 동안 축적된 방대한 업데이트와 DLC, 모드 생태계는 후속작이 출시되었음에도 여전히 수많은 유저들을 묶어두고 있으며, 퍼블리셔인 패러독스 역시 이를 선뜻 놔주지 못하고 있습니다. 하지만 그 부작용으로 시스템의 구조적 결함이 누적되어 각종 오류와 버그가 끊임없이 발생하고 있으며, 추가 DLC 발매마저 끝없이 이어지는 기형적인 상황입니다. 이제는 무의미한 생명 연장을 멈추고 제발 게임의 기술적 완성도를 마무리 지어 주었으면 합니다. 도대체 언제까지 이 소모적인 행보를 반복할 생각인지 묻고 싶네요."
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-negative-1-1-4307478277405351689",
+          "text": "🎮 Cities: Skylines ✅ 장점 높은 자유도 도시를 마음대로 설계할 수 있어서 창의력을 발휘하기 좋아. 도로, 전기, 물, 쓰레기, 세금까지 전부 직접 관리할 수 있다. 뛰어난 현실성 교통 체증, 공해, 실업률 같은 문제들이 실제 도시처럼 발생해서 현실감이 있다. 그냥 건물만 짓는 게임이 아니다. 모드(Mod)의 중요성 유저들이 만든 모드를 설치하면 건물이나 시스템을 무한히 추가할 수 있으며, 모드가 제일 중요하다. DLC의 다양성 날씨, 교통, 자연재해, 공공 정책 같은 걸 추가해주는 확장팩이 많아서 질릴 틈이 없다. ❌ 단점 높은 진입장벽 설명이 부족해서 처음 하는 사람은 뭘 해야 할지 모를 수 있다. 그렇기에 초반엔 도시가 망하는 게 순식간이다. 컴퓨터 사양 문제 도시가 커지면 프레임이 떨어지고 로딩도 길어져. 특히 모드 많이 쓰면 더 심하다. UI/UX의 불편함 정보 찾기가 힘들고, 창이 많아서 관리하기 귀찮을 때가 있다. 🏆 총평 Cities: Skylines는 도시 건설 게임 중에서도 완성도가 정말 높은 게임이며, 전략적으로 도시를 키우는 재미가 있어서 시간 가는 줄 모른다. 다만 초보자라면 유튜브나 공략을 좀 참고하는 게 좋다. 평점: ★★★★☆ (4.5/5)"
+        },
+        {
+          "review_id": "compress-v3-negative-1-2-4954749213181737454",
+          "text": "하 씨발련들아 도시 만들어 놓으면 뭐하냐 dlc 팔이 존나 하고 업뎃을 존나게 해서 애써 가꾼 도시 날려먹고 10년 넘게 이지랄 하다 결국 참다참다 이제 터지네 2나오면 더이상 업뎃 안할줄 알았는데 시발련들아 내가 이겜 때려치우고 만다 2나 잘할것이지 뒤진 겜에 얼마나 더 뽑아먹을려고 시발 이지랄 하는거냐"
+        },
+        {
+          "review_id": "compress-v3-negative-1-3-1868721262323009614",
+          "text": "심시티 시리즈가 저물고 난 후, 도시 건설 시뮬레이션 장르에서 독보적인 위치를 차지한 작품입니다. 10년이 넘는 기간 동안 축적된 방대한 업데이트와 DLC, 모드 생태계는 후속작이 출시되었음에도 여전히 수많은 유저들을 묶어두고 있으며, 퍼블리셔인 패러독스 역시 이를 선뜻 놔주지 못하고 있습니다. 하지만 그 부작용으로 시스템의 구조적 결함이 누적되어 각종 오류와 버그가 끊임없이 발생하고 있으며, 추가 DLC 발매마저 끝없이 이어지는 기형적인 상황입니다. 이제는 무의미한 생명 연장을 멈추고 제발 게임의 기술적 완성도를 마무리 지어 주었으면 합니다. 도대체 언제까지 이 소모적인 행보를 반복할 생각인지 묻고 싶네요."
+        },
+        {
+          "review_id": "compress-v3-negative-1-4-4138624687285994542",
+          "text": "이거 게임 모드 충돌,용량 많이 잡아먹고,DLC구매 해야 즐길수 있는 시나리오 같은 것 등등 문제가 많음 근데 시간은 잘감"
+        },
+        {
+          "review_id": "compress-v3-negative-1-5-2727295162822755606",
+          "text": "병신같은 게임 이제 한계다 업데이트 이전에는 에셋 문제로 이런일 없었는데 이후에 엄청난 문제가 생겼습니다. 하던 맵 로딩이 에셋이 망가져서 실행이 안돼지 그래서 전반적으로 에셋 정리 겸 문제없는 호환모드 까느라 시간 다 날렸습니다. 이후 할 만 해지고 더는 버그가 안 터지니깐 점차 하려는데 이번에는 세이브 파일을 불러도 실행이 안돼는 또또 괴랄한 버그가 났습니다. 혹시? 클라우드 세이브 원인인가 싶어 컴퓨터내 저장된 세이브 파일 로드 시도해도 아에 실행이 불가능한 지경으로 나버리네요 유저 다 떠나기 전에 기본적인 게임 버그나 문제를 고치시든가 해야지, 디엘씨만 내서 이제 더는 못 참는다"
+        },
+        {
+          "review_id": "compress-v3-negative-1-6-8468306580845021887",
+          "text": "절대 구입하지 말 것! 제대로 된 시티빌더가 전무해서 이거라도 플레이해야 하는 내 신세가 처량하다. 패러독스 인터렉티브 사 게임 아니랄까봐 껍데기만 있는 게임에 수많은 dlc를 넣어야 완성이 되는 구조이다. 게다가 그 게임 자체도 결함투성이라 정상화 될 가망이 없다. 한 2년 쯤 뒤에는 어찌 될지 모르겠으나, 현재 시점에서 이 게임을 구입하는 것은 돈 낭비이다. 이 게임은 근본적으로 ai와 연산 방식에 결함이 있는데다 치명적인 버그가 있어 정상적인 플레이를 할 수 없다. 1. 경찰차, 소방차 등등의 공공차량과 열차, 화물선, 지하철 등이 스폰되지 않는 버그가 있다. 제정신인지? 2. 교통 ai와 공공 ai는 매우 비효율적인 방식으로 움직인다. 범인을 잡기 위해 경찰차는 온 도시를 한 바퀴 돌아 신고지점에 도착한다. 3. 가장 근본적인 문제... 게임이 정상적으로 작동하지 않게 하는 치명적인 설계 미스. 이를 설명하기 위해서 시티빌더 전설의 레전드인 심시티4의 시스템을 간략히 언급한다. 문돌이라 기술적인 면에 대해서는 자세하지 않으나, 다음과 같이 정리할 수 있겠다. 심시티4에서 심들의 이동은 수치화된 데이터이다. 무슨 뜻인가 하면, A지점에서부터 n명의 심이 어떠한 경로로 B지점으로 이동한다 는 방식으로 연산된다는 것이다. 이것이 간단하면서도 완벽하고 아름답게 작동한 것이 갓겜 심시티4이다. 문제는 심시티(2014)와 시티즈 스카이라인 등의 시티빌더들이 바텀업 방식의 연산을 적용했다는 점이다. 이것은 a라는 심이 A에서 B로 이동한다 는 것을 각각의 요소에 적용했다는 것이다. 제대로 작동된다면야 좋겠지만, 컴퓨터 자원의 문제인지 프로그래밍의 문제인지 결과물은 막장이다. 심시티(2014)가 대차게 망했다는 것을 예구한 나는 알고있다. 시티즈 스카이라인은 심시티(2014)보다 거대한 규모의 도시를 건설할 수 있다는 것을 세일즈 포인트로 삼았다. 물론 광고에는 연산 가능한 요소(미국 포럼에서는 active agents라고 부른다)의 갯수가 65000개로 제한되어 있다는 이야기는 하지 않는다. 여기에는 기능적인 역할은 전혀 하지 않는 나무나 돌멩이, 야생동물의 수도 포함된다. 스팀 워크샵에 들어가보면 나무를 없애는 얼척없는 모드가 있음을 알 수 있을 것이다. 한계점은 생각보다 빨리 찾아와서, 멀쩡하던 도시의 물류가 마비되고 통근은 정지되며 고층건물 앞의 보도는 텅텅 비는 모습을 보여주게 된다."
+        }
+      ]
+    }
+  ]
+}

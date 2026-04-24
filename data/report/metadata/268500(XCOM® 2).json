@@ -1,0 +1,22 @@
+{
+  "appid": 268500,
+  "name": "XCOM® 2",
+  "genres": [
+    "전략"
+  ],
+  "price_model": "paid",
+  "release_stage": "released",
+  "release_date_text": "2016년 2월 4일",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268500/header.jpg?t=1772813016",
+  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268500/capsule_231x87.jpg?t=1772813016",
+  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268500/capsule_184x69.jpg?t=1772813016",
+  "short_description": "XCOM 2는 수상 경력이 있는 전략 게임 XCOM: Enemy Unknown의 속편입니다. 인류가 외계인 침략군에게 항복한 지 20년, 이제 지구 상에는 새로운 세계 질서가 존재합니다. 수년간을 어둠 속에서 숨어 있었던 XCOM 부대는 반드시 일어나 외계인의 지배를 무너뜨릴 것입니다.",
+  "steam_store_url": "https://store.steampowered.com/app/268500",
+  "steam_recommendation_count": 78303,
+  "steam_review_score_desc": "Very Positive",
+  "steam_total_positive": 3552,
+  "steam_total_negative": 494,
+  "steam_total_reviews": 4046,
+  "is_free": false,
+  "coming_soon": false
+}

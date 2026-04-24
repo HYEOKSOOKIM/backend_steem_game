@@ -1,0 +1,25 @@
+{
+  "appid": 427520,
+  "name": "Factorio",
+  "genres": [
+    "캐주얼",
+    "인디",
+    "시뮬레이션",
+    "전략"
+  ],
+  "price_model": "paid",
+  "release_stage": "released",
+  "release_date_text": "2020년 8월 14일",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/header.jpg?t=1763986204",
+  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/capsule_231x87.jpg?t=1763986204",
+  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/capsule_184x69.jpg?t=1763986204",
+  "short_description": "Factorio는 무한한 2D 세상에서 복잡성이 증가하는 아이템을 생산하기 위해 자동화 공장을 만드는 게임입니다. - 당신의 상상력으로 공장을 설계, 독창적인 방법으로 간단한 요소를 결합하고 마지막엔 당신을 좋아하지 않는 생물들로 부터 공장을 지키세요.",
+  "steam_store_url": "https://store.steampowered.com/app/427520",
+  "steam_recommendation_count": 190022,
+  "steam_review_score_desc": "Overwhelmingly Positive",
+  "steam_total_positive": 3955,
+  "steam_total_negative": 67,
+  "steam_total_reviews": 4022,
+  "is_free": false,
+  "coming_soon": false
+}

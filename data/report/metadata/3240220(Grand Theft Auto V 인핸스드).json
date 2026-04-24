@@ -1,0 +1,24 @@
+{
+  "appid": 3240220,
+  "name": "Grand Theft Auto V 인핸스드",
+  "genres": [
+    "액션",
+    "어드벤처",
+    "레이싱"
+  ],
+  "price_model": "paid",
+  "release_stage": "released",
+  "release_date_text": "2025년 3월 4일",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header_koreana.jpg?t=1765479644",
+  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/a318bd9affe8eee32984b18794b273c256e9b2d6/capsule_231x87.jpg?t=1765479644",
+  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/a318bd9affe8eee32984b18794b273c256e9b2d6/capsule_184x69.jpg?t=1765479644",
+  "short_description": "엔터테인먼트 블록버스터인 Grand Theft Auto V와 Grand Theft Auto 온라인을 경험해 보십시오. 이제 환상적인 비주얼과 더욱 빠른 로딩, 3D 오디오 등과 함께 차세대 수준으로 업그레이드되었으며, GTA 온라인 플레이어를 위한 특별 콘텐츠 또한 마련되어 있습니다.",
+  "steam_store_url": "https://store.steampowered.com/app/3240220",
+  "steam_recommendation_count": 164390,
+  "steam_review_score_desc": "Very Positive",
+  "steam_total_positive": 2701,
+  "steam_total_negative": 592,
+  "steam_total_reviews": 3293,
+  "is_free": false,
+  "coming_soon": false
+}

@@ -11,6 +11,16 @@
   "price_model": "paid",
   "release_stage": "released",
   "release_date_text": "2018년 2월 8일",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg?t=1776257232",
+  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/21aac0b6e20e1ba12f635e7deb730e32a51afbd5/capsule_231x87.jpg?t=1776257232",
+  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/21aac0b6e20e1ba12f635e7deb730e32a51afbd5/capsule_184x69.jpg?t=1776257232",
+  "short_description": "Rust에서의 목표는 오직 하나, 바로 살아남는 것입니다. 섬의 야생 동물, 다른 주민, 환경, 다른 생존자 모두가 여러분의 목숨을 노립니다. 하루 더 살아남을 수 있다면 수단과 방법을 가리지 마세요.",
+  "steam_store_url": "https://store.steampowered.com/app/252490",
+  "steam_recommendation_count": 1127683,
+  "steam_review_score_desc": "Mostly Positive",
+  "steam_total_positive": 7195,
+  "steam_total_negative": 2113,
+  "steam_total_reviews": 9308,
   "is_free": false,
   "coming_soon": false
 }

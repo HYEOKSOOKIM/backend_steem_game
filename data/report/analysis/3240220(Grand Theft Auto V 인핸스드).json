@@ -1,0 +1,265 @@
+{
+  "appid": 3240220,
+  "sample_size_tier": "large",
+  "trend_status": "ready",
+  "trend_reason": null,
+  "warnings": [
+    "이 결과는 수집된 한국어 리뷰 표본을 기준으로 합니다."
+  ],
+  "issue_signals": {
+    "balance": {
+      "mention_count": 14,
+      "negative_ratio": 0.42857142857142855,
+      "recent_trend": "flat",
+      "experienced_player_share": 0.9285714285714286,
+      "themes": [
+        "밸런스 불만"
+      ],
+      "sample_reviews": [
+        "진심으로 집중해서 해본게임 top3중 하나를 차지할정도로 빠졌던게임\n",
+        "옵투좀 너프좀 ㅈㅂ 날파리좀 처리해"
+      ]
+    },
+    "bugs": {
+      "mention_count": 240,
+      "negative_ratio": 0.7041666666666667,
+      "recent_trend": "flat",
+      "experienced_player_share": 0.7875,
+      "themes": [
+        "일반 버그",
+        "계정 / 제재 이슈"
+      ],
+      "sample_reviews": [
+        "2연속 무한로딩 좆버그는 너무한거 아니냐?  \n제발. 핵쟁이 잡으라는 말은 안할태니까 버그 좀 쳐고치라고 이 무능한 새끼들아.",
+        "왤케 튕김>? 잡히지 마라"
+      ]
+    },
+    "building_ux": {
+      "mention_count": 5,
+      "negative_ratio": 0.4,
+      "recent_trend": "flat",
+      "experienced_player_share": 1.0,
+      "themes": [
+        "부지 / 구조 제약"
+      ],
+      "sample_reviews": [
+        "개재밋음 트레버 내스타일임",
+        "아메리칸스타일"
+      ]
+    },
+    "content_depth": {
+      "mention_count": 109,
+      "negative_ratio": 0.22018348623853212,
+      "recent_trend": "flat",
+      "experienced_player_share": 0.8623853211009175,
+      "themes": [
+        "콘텐츠 부족",
+        "반복 / 목적성 부족",
+        "중독성 / 시간순삭"
+      ],
+      "sample_reviews": [
+        "레거시 하다가 넘어왔는데, 왜 진작 안옮겼을까 싶을 정도로 향상된 그래픽이랑 dlss 이용한 프레임 향상이 기가 막힙니다. 특히 밤에 하늘에서 바라보는 야경이 엄청 이뻐요.\r\n\r\n한가지 오점은 가끔 건물 나갔다가 나오면 DLSS가 꺼져서 FPS로 변경된다는 점인데. .이거는 드라이버 업뎃도 해보고 다 해봤는데 안고쳐지네요.",
+        "2023년 레거시 인텔 i7 4770 1060 3GB로 시작했는데 옵션 타협 잘 돌아갔다. \n2024년 쯤 i5 6세대 1060 6GB 그래픽 중급 정말 잘 돌아갔다.\n2024년 후반에서 2025년 초중반 i5 6세대 2060 6GB 그래픽 높음 정말 잘 돌아갔다.\n2025년 초중반 에서 중반 i5 13세대 2060 6GB 그래픽 매우높음 정말 잘 돌아갔다.\n2025년 중반에서 지금까지 인핸으로 넘어와서 i5 13세대 3060ti 8GB 그래픽 최상 정말 잘 돌아갔다.\n\n\n11년 지난 게임이지만 정말이지 시대를 초월했고, 인핸은 이제 1년 지난 시점이지만 그래픽은 다른 게임에 비해 정말 높았다. \n\n중간 중간 게임사가 사고를 쳐서 화가났고 접을까 생각했지만 너무 정들었다.\n레거시 2600시간 인핸 200시간 총합 2800시간. GTA6 출시까지 계속한다면 3000시간 도달은 가능할 것 같다. \n\n과연 내 컴퓨터로 6을 돌릴 수 있는지 부터 해서 7까지 내가 얼마나 6에 시간을 투자 할 수 있는지 궁금하다.\n가격과 환율로 인해 더 높은 가격은 걱정이 들지만, 높아도 어찌저찌 구매해서 게임 할 것이다.\n\n\"GTA6 출시가 다가오는 이번년도 GTA5를 사는건 좋나요?\"라고 한다면 지금 5를 구매해도 문제가 없다, 아니 오히려 구매해서 보관 해두라고 당부하고 싶다.\n작성자 본인은 가능한 실물 CD를 사서 미개봉, 최소 개봉만 해서 구경만 해본 중고를 내 컬렉션으로 보관 해두고 싶다. \n"
+      ]
+    },
+    "controls": {
+      "mention_count": 23,
+      "negative_ratio": 0.2608695652173913,
+      "recent_trend": "flat",
+      "experienced_player_share": 0.9565217391304348,
+      "themes": [
+        "조작감 문제",
+        "UI / 입력 불편",
+        "시점 / 멀미 이슈"
+      ],
+      "sample_reviews": [
+        "온라인 모드와 마찬가지로 스토리 모드에도 건물 내부 접속을 허용해 주세요.\n내가 구입한 건물 내부 진입은 허용가능하게 해줘야 재밌는데 진입이 안되니까 재미가 조금 떨어지네요\nGTA 산안드레아스는 내부 진입이 가능하던데 왜 GTA5는 막아노은건가요\n\nPlease allow access to building interiors in Story Mode, just like in Online Mode.\n\nIt’s more fun when I can enter the buildings I’ve purchased, but the lack of access makes it a bit less enjoyable.\n\nIn GTA San Andreas, I was able to enter the interiors, so why is it blocked in GTA 5?",
+        "조작감 최악이네요 특히 항공기 조종은 씹"
+      ]
+    },
+    "customization": {
+      "mention_count": 3,
+      "negative_ratio": 0.3333333333333333,
+      "recent_trend": "flat",
+      "experienced_player_share": 1.0,
+      "themes": [
+        "헤어 / 의상 옵션 부족",
+        "스킨 / 외형 요소"
+      ],
+      "sample_reviews": [
+        "레거시에서 인핸스드를 업그레이드한후 서버상태가 쓰레기같음. 3시간정도만 플레이하면 저장실패 락스타 어쩌구 저쩌구 하는 문구를 몇번은 볼수있을것이며, 이 오류가 재수없게 습격 피날레 끝나는 타이밍과 겹치면 돈을 안주는 버그도 생기기도함. 그리고 이 돈을 받아내기 위해서는 고객센터에 어려번 너의 상황에 대해서 설명해야하고 입증해야함. 지들 서버가 오류나서 내 습격로그가 확인하기 힘들다하면 내가 뭘 해야함? 이게 내잘못? 내가 서버관리하냐? 이 쓰레기게임 하려면 항상 게임화면을 녹화하면서 하는걸 추천함. 그래야 게임 오류에대해 입증하기 쉬울테니까. 그게 번거로워서 녹화안하면서 하게된다면 이 쓰레기게임 하면서 스트레스받는일 무조건 꼭 한번은 생길거임. 썩은물들처럼 뭐 몇천시간씩한건 아니여도 나름 레거시에 천시간은 넘게박은 애정유저이고 락스타 신작나오는 족족 다 손대보는 애정유저인데 최근 한 몇일만에 이 게임과 게임사에 정털리고 피로함 존나느낌",
+        "레거시의 상위 호환.\n\n그러나 버그는 고쳐지지 않았다."
+      ]
+    },
+    "difficulty": {
+      "mention_count": 25,
+      "negative_ratio": 0.16,
+      "recent_trend": "flat",
+      "experienced_player_share": 0.92,
+      "themes": [
+        "조작 / 규칙 학습 난이도",
+        "난이도 / 진입장벽",
+        "튜토리얼 / 온보딩 부족"
+      ],
+      "sample_reviews": [
+        "솔직히 초반엔 목표가 있어서 재밌게 했는데 어느순간부터 돈벌고 차사고 뭐 사고 나면 할게 없어서 재미없어짐",
+        "걍 뉴비들이 쉽게 할수있는 기본 튜토리얼\r\n"
+      ]
+    },
+    "gameplay": {
+      "mention_count": 52,
+      "negative_ratio": 0.11538461538461539,
+      "recent_trend": "down",
+      "experienced_player_share": 0.9423076923076923,
+      "themes": [
+        "탐험 / 월드 경험",
+        "빌드 / 무기 다양성",
+        "전투 손맛 / 액션 호평"
+      ],
+      "sample_reviews": [
+        "혹시 저 같은 분들이 있을 수 있으니\n말 하는건데 이 게임은 19금 게임입니다\n잘 알아보고 사야합니다\n제가 안 알아보고 사놓고 욕 하는게 아니라\n유튜브에서 그냥 재밌어 보인다고 사시면 안됀다는 거에요\n이 겜은 일단 잔인한게 많아요 그리고 야한것도 많고요\n그래도 스토리 모드에서 총 쏘면서 적 처치 하는 거랑\n이 ㅁㅊ 그래픽은 대박이니 FPS를 좋아하시거나 오픈월드 게임을 좋아하신다면\n추천합니다\n단 19금 이나 다름없다는 건 알고 사야 됩니다\n저처럼 멍청한 짓 하면\n몸이 고생합니다",
+        "GOAT 인생겜\n자유도 미쳤고 게임 맛있고 그래픽 좋고~~\n제발 친구 4명 모아서 구습격 해보는게 소원임\n\n\n페리코 그만가고싶음\n카지노 그만가고싶음\n신습 그만가고싶음"
+      ]
+    },
+    "graphics": {
+      "mention_count": 183,
+      "negative_ratio": 0.14754098360655737,
+      "recent_trend": "flat",
+      "experienced_player_share": 0.8633879781420765,
+      "themes": [
+        "그래픽 / 비주얼 호평"
+      ],
+      "sample_reviews": [
+        "내가 이 게임을 하다가 접은 이유를 깨달아 버렸네 1명만 게속 죽이는 ㅇㅅㄲ가 ㅈㄴ 많았다는걸 까먹고 있었네 다시 접음\n그래픽이랑 소리는 엄청 좋아졌네",
+        "혹시 저 같은 분들이 있을 수 있으니\n말 하는건데 이 게임은 19금 게임입니다\n잘 알아보고 사야합니다\n제가 안 알아보고 사놓고 욕 하는게 아니라\n유튜브에서 그냥 재밌어 보인다고 사시면 안됀다는 거에요\n이 겜은 일단 잔인한게 많아요 그리고 야한것도 많고요\n그래도 스토리 모드에서 총 쏘면서 적 처치 하는 거랑\n이 ㅁㅊ 그래픽은 대박이니 FPS를 좋아하시거나 오픈월드 게임을 좋아하신다면\n추천합니다\n단 19금 이나 다름없다는 건 알고 사야 됩니다\n저처럼 멍청한 짓 하면\n몸이 고생합니다"
+      ]
+    },
+    "mod_support": {
+      "mention_count": 47,
+      "negative_ratio": 0.2127659574468085,
+      "recent_trend": "flat",
+      "experienced_player_share": 0.9574468085106383,
+      "themes": [
+        "모드 지원 / 호환 문제"
+      ],
+      "sample_reviews": [
+        "온라인 모드와 마찬가지로 스토리 모드에도 건물 내부 접속을 허용해 주세요.\n내가 구입한 건물 내부 진입은 허용가능하게 해줘야 재밌는데 진입이 안되니까 재미가 조금 떨어지네요\nGTA 산안드레아스는 내부 진입이 가능하던데 왜 GTA5는 막아노은건가요\n\nPlease allow access to building interiors in Story Mode, just like in Online Mode.\n\nIt’s more fun when I can enter the buildings I’ve purchased, but the lack of access makes it a bit less enjoyable.\n\nIn GTA San Andreas, I was able to enter the interiors, so why is it blocked in GTA 5?",
+        "혹시 저 같은 분들이 있을 수 있으니\n말 하는건데 이 게임은 19금 게임입니다\n잘 알아보고 사야합니다\n제가 안 알아보고 사놓고 욕 하는게 아니라\n유튜브에서 그냥 재밌어 보인다고 사시면 안됀다는 거에요\n이 겜은 일단 잔인한게 많아요 그리고 야한것도 많고요\n그래도 스토리 모드에서 총 쏘면서 적 처치 하는 거랑\n이 ㅁㅊ 그래픽은 대박이니 FPS를 좋아하시거나 오픈월드 게임을 좋아하신다면\n추천합니다\n단 19금 이나 다름없다는 건 알고 사야 됩니다\n저처럼 멍청한 짓 하면\n몸이 고생합니다"
+      ]
+    },
+    "monetization": {
+      "mention_count": 45,
+      "negative_ratio": 0.15555555555555556,
+      "recent_trend": "down",
+      "experienced_player_share": 0.9555555555555556,
+      "themes": [
+        "가격 / 과금 불만",
+        "DLC / 확장팩 언급"
+      ],
+      "sample_reviews": [
+        "2023년 레거시 인텔 i7 4770 1060 3GB로 시작했는데 옵션 타협 잘 돌아갔다. \n2024년 쯤 i5 6세대 1060 6GB 그래픽 중급 정말 잘 돌아갔다.\n2024년 후반에서 2025년 초중반 i5 6세대 2060 6GB 그래픽 높음 정말 잘 돌아갔다.\n2025년 초중반 에서 중반 i5 13세대 2060 6GB 그래픽 매우높음 정말 잘 돌아갔다.\n2025년 중반에서 지금까지 인핸으로 넘어와서 i5 13세대 3060ti 8GB 그래픽 최상 정말 잘 돌아갔다.\n\n\n11년 지난 게임이지만 정말이지 시대를 초월했고, 인핸은 이제 1년 지난 시점이지만 그래픽은 다른 게임에 비해 정말 높았다. \n\n중간 중간 게임사가 사고를 쳐서 화가났고 접을까 생각했지만 너무 정들었다.\n레거시 2600시간 인핸 200시간 총합 2800시간. GTA6 출시까지 계속한다면 3000시간 도달은 가능할 것 같다. \n\n과연 내 컴퓨터로 6을 돌릴 수 있는지 부터 해서 7까지 내가 얼마나 6에 시간을 투자 할 수 있는지 궁금하다.\n가격과 환율로 인해 더 높은 가격은 걱정이 들지만, 높아도 어찌저찌 구매해서 게임 할 것이다.\n\n\"GTA6 출시가 다가오는 이번년도 GTA5를 사는건 좋나요?\"라고 한다면 지금 5를 구매해도 문제가 없다, 아니 오히려 구매해서 보관 해두라고 당부하고 싶다.\n작성자 본인은 가능한 실물 CD를 사서 미개봉, 최소 개봉만 해서 구경만 해본 중고를 내 컬렉션으로 보관 해두고 싶다. \n",
+        "예전에 GTX1060사양으로 레거시 버전 메인 스토리는 다 깼던거로 기억하는데 인핸스드는 성능이 딸려서 못하다가 이번에 PC 교체하면서 인핸스드 해보니까 광원효과 같은 그래픽이 확실히 좋네요\n스토리모드 처음부터 다시 해보는 중인데 지금 해도 재밌습니다ㅎㅎ\n여기에 실사 모드 같은거 무료로 구할 수 있으면 GTA6 나오기 전까지는 계속 즐길 수 있을거 같아요"
+      ]
+    },
+    "multiplayer": {
+      "mention_count": 287,
+      "negative_ratio": 0.5331010452961672,
+      "recent_trend": "flat",
+      "experienced_player_share": 0.759581881533101,
+      "themes": [
+        "부정행위 / 보안 이슈",
+        "매칭 / 서버 문제",
+        "멀티플레이 경험"
+      ],
+      "sample_reviews": [
+        "핵장이들이 많이 하지만 요줌은 너무 좋았어 했어 혼자서 일 하는 중수 나쁘지 않네요",
+        "2연속 무한로딩 좆버그는 너무한거 아니냐?  \n제발. 핵쟁이 잡으라는 말은 안할태니까 버그 좀 쳐고치라고 이 무능한 새끼들아."
+      ]
+    },
+    "performance": {
+      "mention_count": 171,
+      "negative_ratio": 0.4619883040935672,
+      "recent_trend": "up",
+      "experienced_player_share": 0.8654970760233918,
+      "themes": [
+        "최적화 문제",
+        "로딩 / 발열 문제",
+        "실행 불가 / 튕김"
+      ],
+      "sample_reviews": [
+        "2연속 무한로딩 좆버그는 너무한거 아니냐?  \n제발. 핵쟁이 잡으라는 말은 안할태니까 버그 좀 쳐고치라고 이 무능한 새끼들아.",
+        "왤케 튕김>? 잡히지 마라"
+      ]
+    },
+    "save_progression": {
+      "mention_count": 24,
+      "negative_ratio": 0.4166666666666667,
+      "recent_trend": "flat",
+      "experienced_player_share": 0.75,
+      "themes": [
+        "저장 / 세이브 손실"
+      ],
+      "sample_reviews": [
+        "저 홍재현이 인증하는 재미있는 게임 지금 바로 다운로드",
+        "범죄자가 되고싶나요? 바로 이게임을 다운로드! ㅋㅋ"
+      ]
+    },
+    "story": {
+      "mention_count": 109,
+      "negative_ratio": 0.21100917431192662,
+      "recent_trend": "flat",
+      "experienced_player_share": 0.944954128440367,
+      "themes": [
+        "스토리 / 서사 몰입",
+        "캐릭터 / 연출 인상"
+      ],
+      "sample_reviews": [
+        "스토리만 밀었는데 좋았습니다",
+        "재밌쓴니다. 스토리도 재밌고 미션도 재밌니다. 그대신 핵이많다고 하지많 핵을 본적이 없쓴니다. 추천 합니다"
+      ]
+    }
+  },
+  "summary": {
+    "what_players_like": "상대적으로 긍정 신호가 보이는 영역은 gameplay이며, 대표 테마는 탐험 / 월드 경험, 빌드 / 무기 다양성입니다.",
+    "what_players_dislike": "가장 자주 언급되는 불만 영역은 multiplayer이며, 대표 테마는 부정행위 / 보안 이슈, 매칭 / 서버 문제입니다.",
+    "recent_change": "최근 기간에는 performance 관련 언급이 상대적으로 증가하는 흐름이 보입니다.",
+    "fit_for": "초반 진입 장벽이나 조작 적응 여부를 중요하게 보는 플레이어는 사전 확인이 필요합니다.",
+    "risks": "multiplayer 관련 이슈는 반복적으로 언급되지만 최근 급격한 악화 신호는 제한적입니다."
+  },
+  "pipeline_run_id": "3240220-20260424T030604Z",
+  "generated_at": "2026-04-24T03:08:06.288336+00:00",
+  "source_review_count": 3292,
+  "review_pages": "all",
+  "fetched_pages": 34,
+  "fetched_review_count": 3292,
+  "fetch_timeout_seconds": 20,
+  "fetch_filter": "recent",
+  "all_mode_page_cap": 200,
+  "all_mode_cap_reached": false,
+  "llm_stats": {
+    "considered": 1658,
+    "selected": 50,
+    "invoked": 50,
+    "success": 50,
+    "schema_invalid": 0,
+    "low_confidence": 0,
+    "cache_hits": 0,
+    "fallback_used": 0
+  },
+  "report_material_refiner": {
+    "enabled": true,
+    "max_llm_reviews": 50,
+    "llm_min_confidence": 0.7,
+    "material_count": 50,
+    "stats": {
+      "considered": 1658,
+      "selected": 50,
+      "invoked": 50,
+      "success": 50,
+      "schema_invalid": 0,
+      "low_confidence": 0,
+      "cache_hits": 0,
+      "fallback_used": 0
+    }
+  }
+}
