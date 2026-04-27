@@ -52,7 +52,7 @@
     "content_depth": {
       "mention_count": 414,
       "negative_ratio": 0.07729468599033816,
-      "recent_trend": "flat",
+      "recent_trend": "down",
       "experienced_player_share": 0.9806763285024155,
       "themes": [
         "콘텐츠 부족",
@@ -162,17 +162,17 @@
       ]
     },
     "monetization": {
-      "mention_count": 648,
-      "negative_ratio": 0.12037037037037036,
+      "mention_count": 649,
+      "negative_ratio": 0.12018489984591679,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9629629629629629,
+      "experienced_player_share": 0.963020030816641,
       "themes": [
         "DLC / 확장팩 언급",
         "가격 / 과금 불만"
       ],
       "sample_reviews": [
-        "갓겜, PS4에서 하다가 스팀에서 모드 이거저거 더 깔고하고싶어서 다시 DLC랑 다 사서 하고있어요. 시티즈 스카이라인이 진짜 도시경영, 제작, 시뮬레이션 원탑. 시티즈 2 는 비추하지만, 1은 강추합니다.",
-        "모드,DLC가 있으면 좋아요"
+        "시티즈 스카이라인 2 나왔지만... 싼 가격에 도시조성 기초 익히는것도 좋을듯합니다",
+        "갓겜, PS4에서 하다가 스팀에서 모드 이거저거 더 깔고하고싶어서 다시 DLC랑 다 사서 하고있어요. 시티즈 스카이라인이 진짜 도시경영, 제작, 시뮬레이션 원탑. 시티즈 2 는 비추하지만, 1은 강추합니다."
       ]
     },
     "multiplayer": {
@@ -239,18 +239,18 @@
     "fit_for": "초반 진입 장벽이나 조작 적응 여부를 중요하게 보는 플레이어는 사전 확인이 필요합니다.",
     "risks": "monetization 관련 이슈는 반복적으로 언급되지만 최근 급격한 악화 신호는 제한적입니다."
   },
-  "pipeline_run_id": "255710-20260424T082303Z",
-  "generated_at": "2026-04-24T08:26:27.688037+00:00",
-  "source_review_count": 6539,
+  "pipeline_run_id": "255710-20260427T014652Z",
+  "generated_at": "2026-04-27T01:49:11.005295+00:00",
+  "source_review_count": 6541,
   "review_pages": "all",
   "fetched_pages": 67,
-  "fetched_review_count": 6539,
+  "fetched_review_count": 6541,
   "fetch_timeout_seconds": 20,
   "fetch_filter": "recent",
   "all_mode_page_cap": 200,
   "all_mode_cap_reached": false,
   "llm_stats": {
-    "considered": 4409,
+    "considered": 4410,
     "selected": 50,
     "invoked": 50,
     "success": 50,
@@ -265,7 +265,7 @@
     "llm_min_confidence": 0.7,
     "material_count": 50,
     "stats": {
-      "considered": 4409,
+      "considered": 4410,
       "selected": 50,
       "invoked": 50,
       "success": 50,

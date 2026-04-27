@@ -187,6 +187,151 @@ class ReportViewTests(unittest.TestCase):
         self.assertEqual(polished["report_display"]["top_strengths"][0]["title"], "도시 흐름을 다듬는 운영의 재미")
         self.assertEqual(polished["report_display"]["top_risks"][0]["title"], "배치와 관리 부담이 커질 수 있는 구간")
 
+    def test_apply_final_language_polish_rewrites_generic_strengths_for_automation_deckbuilder_and_turn_based(self):
+        payload = {
+            "report_plan": {"decision_anchor": {"buy_recommendation": "buy_now", "primary_reason_ids": ["str_1"]}},
+            "report_display": {
+                "headline": "핵심 재미가 살아 있습니다.",
+                "buy_timing_summary": "지금 시작해도 좋습니다.",
+                "good_for": [],
+                "not_good_for": [],
+                "top_strengths": [
+                    {"title": "계속 손에 붙는 핵심 플레이 감각", "summary": "기본 플레이 감각이 좋아 손에 익을수록 재미가 커지는 편입니다."},
+                ],
+                "top_risks": [
+                    {"title": "전투/이동 흐름이 자주 끊기는 구간", "summary": "프레임과 반응성이 흔들리면 조작 감각이 무너질 수 있습니다."},
+                ],
+                "recent_state": {"status": "stable", "summary": "최근 분위기는 비슷합니다."},
+            },
+            "evidence_sections": {"strengths": [], "risks": []},
+        }
+
+        factorio = _apply_final_language_polish(
+            payload=payload,
+            allow_llm=False,
+            is_free_game=False,
+            seed_display={},
+            genres=["Simulation", "Automation"],
+        )
+        slay = _apply_final_language_polish(
+            payload=payload,
+            allow_llm=False,
+            is_free_game=False,
+            seed_display={},
+            genres=["Roguelike", "Deckbuilder"],
+        )
+        xcom = _apply_final_language_polish(
+            payload=payload,
+            allow_llm=False,
+            is_free_game=False,
+            seed_display={},
+            genres=["Strategy", "Turn-Based", "Tactical"],
+        )
+
+        self.assertEqual(factorio["report_display"]["top_strengths"][0]["title"], "자동화 흐름을 다듬는 재미")
+        self.assertEqual(slay["report_display"]["top_strengths"][0]["title"], "덱이 손에 맞아가는 한 판 설계")
+        self.assertEqual(xcom["report_display"]["top_strengths"][0]["title"], "턴마다 쌓이는 전술 긴장감")
+        self.assertEqual(xcom["report_display"]["top_risks"][0]["title"], "턴 흐름이 끊기는 구간")
+
+    def test_apply_final_language_polish_softens_price_fit_and_evidence_tone(self):
+        payload = {
+            "report_plan": {"decision_anchor": {"buy_recommendation": "wait", "primary_reason_ids": ["risk_1"]}},
+            "report_display": {
+                "headline": "상황을 보고 결정하는 편이 좋습니다.",
+                "buy_timing_summary": "조금 더 지켜보는 편이 좋습니다.",
+                "good_for": [],
+                "not_good_for": ["가격 대비 만족을 매우 엄격하게 따지는 플레이어"],
+                "top_strengths": [],
+                "top_risks": [],
+                "recent_state": {"status": "mixed", "summary": "평가는 갈립니다."},
+            },
+            "evidence_sections": {
+                "strengths": [
+                    {
+                        "title": "도시를 다듬고 확장하는 재미가 좋다는 반응이다.",
+                        "why_it_matters": "운영의 재미가 강합니다.",
+                        "explanation": "도시 흐름을 오래 만지는 재미가 큽니다.",
+                        "stance": "positive",
+                        "consensus_level": "high",
+                        "mention_count": 12,
+                        "evidence_snippets": ["도시를 키우는 재미가 좋습니다.", "확장할수록 재미가 커집니다."],
+                    }
+                ],
+                "risks": [],
+            },
+        }
+
+        polished = _apply_final_language_polish(
+            payload=payload,
+            allow_llm=False,
+            is_free_game=False,
+            seed_display={},
+            genres=["Simulation", "City Builder"],
+        )
+
+        self.assertEqual(
+            polished["report_display"]["not_good_for"][0],
+            "비용 대비 만족을 꼼꼼하게 따지는 플레이어",
+        )
+        self.assertEqual(
+            polished["evidence_sections"]["strengths"][0]["title"],
+            "도시를 다듬고 확장하는 재미가 좋다는 반응",
+        )
+
+    def test_apply_final_language_polish_rewrites_visual_novel_generic_strength(self):
+        payload = {
+            "report_plan": {"decision_anchor": {"buy_recommendation": "play_now", "primary_reason_ids": ["str_1"]}},
+            "report_display": {
+                "headline": "이야기 몰입이 좋습니다.",
+                "buy_timing_summary": "가볍게 시작해도 좋습니다.",
+                "good_for": [],
+                "not_good_for": [],
+                "top_strengths": [
+                    {"title": "계속 손에 붙는 핵심 플레이 감각", "summary": "기본 플레이 감각이 좋아 손에 익을수록 재미가 커지는 편입니다."},
+                ],
+                "top_risks": [],
+                "recent_state": {"status": "stable", "summary": "최근 분위기는 비슷합니다."},
+            },
+            "evidence_sections": {"strengths": [], "risks": []},
+        }
+
+        polished = _apply_final_language_polish(
+            payload=payload,
+            allow_llm=False,
+            is_free_game=False,
+            seed_display={},
+            genres=["Visual Novel", "Story Rich"],
+        )
+
+        self.assertEqual(polished["report_display"]["top_strengths"][0]["title"], "감정선이 오래 남는 서사 경험")
+
+    def test_apply_final_language_polish_rewrites_city_builder_generic_strength(self):
+        payload = {
+            "report_plan": {"decision_anchor": {"buy_recommendation": "wait", "primary_reason_ids": ["str_1"]}},
+            "report_display": {
+                "headline": "도시 운영의 재미가 있습니다.",
+                "buy_timing_summary": "상황을 보고 결정하는 편이 좋습니다.",
+                "good_for": [],
+                "not_good_for": [],
+                "top_strengths": [
+                    {"title": "계속 손에 붙는 핵심 플레이 감각", "summary": "기본 플레이 감각이 좋아 손에 익을수록 재미가 커지는 편입니다."},
+                ],
+                "top_risks": [],
+                "recent_state": {"status": "stable", "summary": "최근 분위기는 비슷합니다."},
+            },
+            "evidence_sections": {"strengths": [], "risks": []},
+        }
+
+        polished = _apply_final_language_polish(
+            payload=payload,
+            allow_llm=False,
+            is_free_game=False,
+            seed_display={},
+            genres=["Simulation", "City Builder"],
+        )
+
+        self.assertEqual(polished["report_display"]["top_strengths"][0]["title"], "도시 흐름을 다듬는 운영의 재미")
+
     def test_normalize_card_title_trims_sentence_ending_but_keeps_core_noun(self):
         self.assertEqual(
             _normalize_card_title("초반 적응은 필요하지만 익숙해지면 손맛이 살아나는 플레이 구조이다."),

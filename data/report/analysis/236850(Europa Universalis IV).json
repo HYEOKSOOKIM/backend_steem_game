@@ -49,18 +49,18 @@
       ]
     },
     "content_depth": {
-      "mention_count": 126,
-      "negative_ratio": 0.1984126984126984,
+      "mention_count": 127,
+      "negative_ratio": 0.1968503937007874,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9920634920634921,
+      "experienced_player_share": 0.9921259842519685,
       "themes": [
         "콘텐츠 부족",
         "반복 / 목적성 부족",
         "중독성 / 시간순삭"
       ],
       "sample_reviews": [
-        "파고 파도 컨텐츠가 끝이없는게임",
-        "컨텐츠가 부족함\r\ndlc팔이 그만좀해라"
+        "자기가 지도 색칠놀이 땅따먹기를 좋아한다 싶으면 이 게임이 딱입니다. \n다만 DLC의 금전적 압박, 무역 등 각종 어려운 시스템들, 중후반 발생하는 렉, 규모가 커져감에 느낄 굉장한 피로감 등을 견딜 준비는 해두셔야 합니다.",
+        "파고 파도 컨텐츠가 끝이없는게임"
       ]
     },
     "controls": {
@@ -161,17 +161,17 @@
       ]
     },
     "monetization": {
-      "mention_count": 283,
-      "negative_ratio": 0.24028268551236748,
+      "mention_count": 284,
+      "negative_ratio": 0.23943661971830985,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9646643109540636,
+      "experienced_player_share": 0.9647887323943662,
       "themes": [
         "DLC / 확장팩 언급",
         "가격 / 과금 불만"
       ],
       "sample_reviews": [
-        "유로파 유니버셜리스4 평가\r\n\r\n-그래픽 3/5\r\n-스토리 스토리 없음\r\n-UI 편의성 4/5\r\n-몰입도 5/5\r\n-총점 4/5\r\n-한줄평:역설사 게임들 중에선 가장 쉽고 편하다.\r\n\r\n-추천 구입 유형-\r\n풀프라이스 구입시 DLC 전부 포함 10만원대 이하시 구입 추천\r\n",
-        "어렸을때 복돌로 하면서 꼭 나중에 돈 벌면 정품 사야지 했는데 그날이 이렇게 왔네.\n지금은 5 나오고 더이상 추가 패치는 없어서 손이 안가게 되었지만 그럼에도 내 인생게임으로 남아있는 게임.\n필수 DLC만 해도 본편 가격의 몇 배는 달하는자라 구독제 아니면 절대 추천 못할 게임이지만 그럼에도 얘만한 게임 어디 없어서 내 어릴적 추억 한켠에서 가끔 떠올리곤 한다."
+        "자기가 지도 색칠놀이 땅따먹기를 좋아한다 싶으면 이 게임이 딱입니다. \n다만 DLC의 금전적 압박, 무역 등 각종 어려운 시스템들, 중후반 발생하는 렉, 규모가 커져감에 느낄 굉장한 피로감 등을 견딜 준비는 해두셔야 합니다.",
+        "유로파 유니버셜리스4 평가\r\n\r\n-그래픽 3/5\r\n-스토리 스토리 없음\r\n-UI 편의성 4/5\r\n-몰입도 5/5\r\n-총점 4/5\r\n-한줄평:역설사 게임들 중에선 가장 쉽고 편하다.\r\n\r\n-추천 구입 유형-\r\n풀프라이스 구입시 DLC 전부 포함 10만원대 이하시 구입 추천\r\n"
       ]
     },
     "multiplayer": {
@@ -190,8 +190,8 @@
       ]
     },
     "performance": {
-      "mention_count": 28,
-      "negative_ratio": 0.2857142857142857,
+      "mention_count": 29,
+      "negative_ratio": 0.27586206896551724,
       "recent_trend": "flat",
       "experienced_player_share": 1.0,
       "themes": [
@@ -200,8 +200,8 @@
         "로딩 / 발열 문제"
       ],
       "sample_reviews": [
-        "게임은 좋은데 엔진이 구려서 조금만 무거운 모드 돌리면 바로 버벅거림\r\n이제 유로파 5 나왔으니 그거하는게 정신건강에 이로움",
-        "5가 나왔으니까 더이상의 최적화랑 공식한글화는 없겠네...\n스텔라리스처럼 얘도 어떻게 안되려나...\n5출시 앞두고있어도 4나름의 게임성이 맘에들어서 종종 즐길듯"
+        "자기가 지도 색칠놀이 땅따먹기를 좋아한다 싶으면 이 게임이 딱입니다. \n다만 DLC의 금전적 압박, 무역 등 각종 어려운 시스템들, 중후반 발생하는 렉, 규모가 커져감에 느낄 굉장한 피로감 등을 견딜 준비는 해두셔야 합니다.",
+        "게임은 좋은데 엔진이 구려서 조금만 무거운 모드 돌리면 바로 버벅거림\r\n이제 유로파 5 나왔으니 그거하는게 정신건강에 이로움"
       ]
     },
     "save_progression": {
@@ -237,5 +237,41 @@
     "recent_change": "최근 기간에는 특정 카테고리의 급격한 변화보다 전반적인 유지 신호가 보입니다.",
     "fit_for": "초반 진입 장벽이나 조작 적응 여부를 중요하게 보는 플레이어는 사전 확인이 필요합니다.",
     "risks": "monetization 관련 이슈는 반복적으로 언급되지만 최근 급격한 악화 신호는 제한적입니다."
+  },
+  "pipeline_run_id": "236850-20260427T033001Z",
+  "generated_at": "2026-04-27T03:32:09.905242+00:00",
+  "source_review_count": 1539,
+  "review_pages": "all",
+  "fetched_pages": 17,
+  "fetched_review_count": 1539,
+  "fetch_timeout_seconds": 20,
+  "fetch_filter": "recent",
+  "all_mode_page_cap": 200,
+  "all_mode_cap_reached": false,
+  "llm_stats": {
+    "considered": 1134,
+    "selected": 50,
+    "invoked": 50,
+    "success": 50,
+    "schema_invalid": 0,
+    "low_confidence": 0,
+    "cache_hits": 0,
+    "fallback_used": 0
+  },
+  "report_material_refiner": {
+    "enabled": true,
+    "max_llm_reviews": 50,
+    "llm_min_confidence": 0.7,
+    "material_count": 50,
+    "stats": {
+      "considered": 1134,
+      "selected": 50,
+      "invoked": 50,
+      "success": 50,
+      "schema_invalid": 0,
+      "low_confidence": 0,
+      "cache_hits": 0,
+      "fallback_used": 0
+    }
   }
 }

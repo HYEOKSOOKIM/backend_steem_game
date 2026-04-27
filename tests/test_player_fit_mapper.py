@@ -18,6 +18,15 @@ from report.services.player_fit_mapper import (
 
 
 class PlayerFitMapperTests(unittest.TestCase):
+    def test_generic_core_play_phrase_avoids_old_action_flavored_copy(self):
+        phrase = build_player_fit_phrase(
+            aspect="gameplay",
+            theme=None,
+            genres=[],
+            negative=False,
+        )
+        self.assertNotIn("핵심 플레이", phrase)
+        self.assertNotIn("손에 익혀", phrase)
     def test_pubg_like_gameplay_does_not_map_to_boss_pattern(self):
         genres = ["Action", "Shooter", "Battle Royale"]
         subtype = infer_copy_subtype(
@@ -188,6 +197,16 @@ class PlayerFitMapperTests(unittest.TestCase):
             negative=False,
         )
         self.assertIn("턴", phrase)
+
+
+    def test_negative_price_phrase_avoids_overly_harsh_generic_copy(self):
+        phrase = build_player_fit_phrase(
+            aspect="monetization",
+            theme="가격과 dlc 부담",
+            genres=["RPG"],
+            negative=True,
+        )
+        self.assertNotIn("매우 엄격", phrase)
 
 
 if __name__ == "__main__":
