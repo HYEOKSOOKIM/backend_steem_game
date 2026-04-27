@@ -121,10 +121,10 @@
       ]
     },
     "graphics": {
-      "mention_count": 91,
-      "negative_ratio": 0.04395604395604396,
+      "mention_count": 92,
+      "negative_ratio": 0.043478260869565216,
       "recent_trend": "flat",
-      "experienced_player_share": 0.8241758241758241,
+      "experienced_player_share": 0.8260869565217391,
       "themes": [
         "그래픽 / 비주얼 호평"
       ],
@@ -160,10 +160,10 @@
       ]
     },
     "monetization": {
-      "mention_count": 92,
-      "negative_ratio": 0.07608695652173914,
+      "mention_count": 93,
+      "negative_ratio": 0.07526881720430108,
       "recent_trend": "flat",
-      "experienced_player_share": 0.7391304347826086,
+      "experienced_player_share": 0.7419354838709677,
       "themes": [
         "DLC / 확장팩 언급",
         "가격 / 과금 불만"
@@ -237,12 +237,12 @@
     "fit_for": "초반 진입 장벽이나 조작 적응 여부를 중요하게 보는 플레이어는 사전 확인이 필요합니다.",
     "risks": "story 관련 이슈는 반복적으로 언급되지만 최근 급격한 악화 신호는 제한적입니다."
   },
-  "pipeline_run_id": "698780-20260424T082303Z",
-  "generated_at": "2026-04-24T08:25:13.533135+00:00",
-  "source_review_count": 4777,
+  "pipeline_run_id": "698780-20260427T015858Z",
+  "generated_at": "2026-04-27T02:01:23.443782+00:00",
+  "source_review_count": 4778,
   "review_pages": "all",
   "fetched_pages": 49,
-  "fetched_review_count": 4777,
+  "fetched_review_count": 4778,
   "fetch_timeout_seconds": 20,
   "fetch_filter": "recent",
   "all_mode_page_cap": 200,

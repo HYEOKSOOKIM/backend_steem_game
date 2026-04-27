@@ -9,6 +9,16 @@
   "price_model": "paid",
   "release_stage": "released",
   "release_date_text": "2018년 10월 17일",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/76e0613b8197327299d5dbabb0a7fd7828a689a2/header.jpg?t=1776194377",
+  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/a805ac5e3ceb54a2d7d3e1c1049907f1ef8bbb89/capsule_231x87.jpg?t=1776194377",
+  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/a805ac5e3ceb54a2d7d3e1c1049907f1ef8bbb89/capsule_184x69.jpg?t=1776194377",
+  "short_description": "지능형 AI 이야기꾼이 주도하는 공상과학 정착지 시뮬레이터입니다. 심리, 생태, 총격전과 근접전, 날씨, 기후, 외교, 사람 사이의 관계, 예술, 의학, 무역, 그 외 많은 것들을 시뮬레이션하여 이야기를 생성합니다.",
+  "steam_store_url": "https://store.steampowered.com/app/294100",
+  "steam_recommendation_count": 201685,
+  "steam_review_score_desc": "Overwhelmingly Positive",
+  "steam_total_positive": 7809,
+  "steam_total_negative": 153,
+  "steam_total_reviews": 7962,
   "is_free": false,
   "coming_soon": false
 }

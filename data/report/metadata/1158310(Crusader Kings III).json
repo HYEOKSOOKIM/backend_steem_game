@@ -9,6 +9,16 @@
   "price_model": "paid",
   "release_stage": "released",
   "release_date_text": "2020년 9월 1일",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/26512f9fd71590fe280dc7172665d88c20b92a7a/header_alt_assets_15_koreana.jpg?t=1776764652",
+  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/77aa6949129ebac3f9cd21dd4d2efe05a59330b4/capsule_231x87_alt_assets_15_koreana.jpg?t=1776764652",
+  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/77aa6949129ebac3f9cd21dd4d2efe05a59330b4/capsule_184x69_alt_assets_15_koreana.jpg?t=1776764652",
+  "short_description": "사랑하고, 싸우고, 계략을 세우고, 위대함을 쟁취하세요. Crusader Kings III의 마구 뻗어 나가는 대전략 게임에서 귀족 가문의 유산을 결정하세요. 풍부하고 개성 넘치는 중세 시대 시뮬레이션 속 왕조 혈통을 이어나가는 이곳에서, 죽음은 단지 시작일 뿐입니다.",
+  "steam_store_url": "https://store.steampowered.com/app/1158310",
+  "steam_recommendation_count": 93278,
+  "steam_review_score_desc": "Very Positive",
+  "steam_total_positive": 3408,
+  "steam_total_negative": 253,
+  "steam_total_reviews": 3661,
   "is_free": false,
   "coming_soon": false
 }

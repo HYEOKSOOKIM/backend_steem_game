@@ -8,6 +8,16 @@
   "price_model": "paid",
   "release_stage": "released",
   "release_date_text": "2013년 8월 13일",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236850/header.jpg?t=1746720143",
+  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236850/f4e714d0f5a6be6b76e4b7cfddd692ccc689884a/capsule_231x87.jpg?t=1746720143",
+  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236850/f4e714d0f5a6be6b76e4b7cfddd692ccc689884a/capsule_184x69.jpg?t=1746720143",
+  "short_description": "비교할 수 없는 자유도, 깊이 있는 스토리, 정확한 역사적 고증을 즐기며 국토를 다스리고 세계를 정복하세요. 세계 역사를 새롭게 쓰며 시대를 풍미할 제국을 만드세요.",
+  "steam_store_url": "https://store.steampowered.com/app/236850",
+  "steam_recommendation_count": 94856,
+  "steam_review_score_desc": "Very Positive",
+  "steam_total_positive": 1343,
+  "steam_total_negative": 196,
+  "steam_total_reviews": 1539,
   "is_free": false,
   "coming_soon": false
 }

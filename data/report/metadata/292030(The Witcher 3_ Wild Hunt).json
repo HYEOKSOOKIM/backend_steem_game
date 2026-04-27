@@ -7,6 +7,16 @@
   "price_model": "paid",
   "release_stage": "released",
   "release_date_text": "2015년 5월 18일",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ad9240e088f953a84aee814034c50a6a92bf4516/header.jpg?t=1768303991",
+  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/abf6e7b3b01ed20c35a8dc0a009a8f9fc3e57b93/capsule_231x87.jpg?t=1768303991",
+  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/abf6e7b3b01ed20c35a8dc0a009a8f9fc3e57b93/capsule_184x69.jpg?t=1768303991",
+  "short_description": "리비아의 게롤트가 되어 의뢰를 받고 괴물을 사냥하세요. 전쟁의 상처가 가득하고 괴물이 들끓는 대륙을 마음껏 탐험해 보세요. 지금 가장 중요한 일은 대륙의 판도를 뒤바꿀 수도 있는 살아 있는 무기이자 예언의 아이, 시리를 추적하는 것입니다.",
+  "steam_store_url": "https://store.steampowered.com/app/292030",
+  "steam_recommendation_count": 813122,
+  "steam_review_score_desc": "Very Positive",
+  "steam_total_positive": 15695,
+  "steam_total_negative": 950,
+  "steam_total_reviews": 16645,
   "is_free": false,
   "coming_soon": false
 }

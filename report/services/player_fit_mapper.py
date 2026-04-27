@@ -98,7 +98,7 @@ THEME_HINTS: dict[str, tuple[str, ...]] = {
 POSITIVE_PLAYER_FIT = {
     "boss_pattern_mastery": "패턴을 익히며 반복 도전하는 재미를 좋아하는 플레이어",
     "high_tension_melee_combat": "긴장감 있는 근접 전투를 오래 붙잡는 플레이어",
-    "world_lore_discovery": "탐험하며 세계와 단서를 해석하는 재미를 좋아하는 플레이어",
+    "world_lore_discovery": "세계관과 맥락을 스스로 읽어가는 재미를 좋아하는 플레이어",
     "shooter_gunplay": "짧고 강한 교전 템포를 좋아하는 플레이어",
     "cooperative_mission_loop": "팀원과 합을 맞추며 협동 플레이하는 재미를 좋아하는 플레이어",
     "survival_base_building": "거점을 세우고 지켜내는 생존 루프를 좋아하는 플레이어",
@@ -118,8 +118,8 @@ POSITIVE_PLAYER_FIT = {
     "deckbuilding_run_planning": "한 판마다 덱 조합과 경로 선택을 즐기는 플레이어",
     "turn_based_tactical_pressure": "한 턴의 판단 무게를 즐기는 전술형 플레이어",
     "teamplay_synergy": "팀원과 호흡을 맞추는 재미를 중요하게 보는 플레이어",
-    "visual_atmosphere": "배경과 연출까지 천천히 즐기는 플레이어",
-    "core_play_mastery": "핵심 플레이를 반복하며 손에 익혀가는 재미를 즐기는 플레이어",
+    "visual_atmosphere": "배경과 연출이 만드는 분위기를 중요하게 보는 플레이어",
+    "core_play_mastery": "플레이 흐름이 점점 또렷해지는 재미를 좋아하는 플레이어",
 }
 
 
@@ -128,8 +128,8 @@ NEGATIVE_PLAYER_FIT = {
     "stability_interruptions": "진행 중 오류나 끊김을 거의 허용하지 않는 플레이어",
     "performance_instability": "프레임과 반응성에 민감한 플레이어",
     "onboarding_friction": "처음부터 빠르게 적응하고 뛰어들고 싶은 플레이어",
-    "repetition_fatigue": "반복 구간에 쉽게 지루해지는 플레이어",
-    "price_sensitivity": "가격 대비 만족을 매우 엄격하게 따지는 플레이어",
+    "repetition_fatigue": "같은 흐름이 길어지면 피로를 크게 느끼는 플레이어",
+    "price_sensitivity": "비용 대비 만족을 꼼꼼하게 따지는 플레이어",
     "teamplay_stress": "팀플레이 소통 피로를 크게 느끼는 플레이어",
     "balance_swings": "밸런스 변화에 민감하게 반응하는 플레이어",
     "save_safety": "저장과 진행 안정성을 특히 중요하게 보는 플레이어",
@@ -162,7 +162,7 @@ POSITIVE_TITLES = {
     "turn_based_tactical_pressure": "한 턴의 선택이 무거운 전술 압박",
     "teamplay_synergy": "팀 합과 호흡이 살아 있는 멀티플레이 흐름",
     "visual_atmosphere": "분위기를 밀어주는 비주얼과 연출",
-    "core_play_mastery": "계속 손에 붙는 핵심 플레이 감각",
+    "core_play_mastery": "플레이 흐름이 점점 또렷해지는 재미",
 }
 
 
@@ -205,7 +205,7 @@ POSITIVE_SUMMARIES = {
     "turn_based_tactical_pressure": "한 턴의 판단이 크게 작용해 전술 선택의 무게를 즐기는 쪽에 잘 맞습니다.",
     "teamplay_synergy": "팀 합이 맞을수록 재미가 분명해져 함께 호흡을 맞추는 플레이에 잘 맞습니다.",
     "visual_atmosphere": "비주얼과 연출이 분위기를 오래 밀어줘 화면과 감각을 즐기는 플레이에 잘 맞습니다.",
-    "core_play_mastery": "기본 플레이 감각이 좋아 손에 익을수록 재미가 커지는 편입니다.",
+    "core_play_mastery": "기본 흐름이 안정적으로 자리 잡아 익숙해질수록 재미 포인트가 더 분명해집니다.",
 }
 
 
@@ -248,7 +248,7 @@ POSITIVE_HEADLINE_THEMES = {
     "turn_based_tactical_pressure": "한 턴 판단의 압박감",
     "teamplay_synergy": "팀 합과 협업의 재미",
     "visual_atmosphere": "비주얼과 분위기",
-    "core_play_mastery": "핵심 플레이 감각",
+    "core_play_mastery": "플레이 흐름의 안정감",
 }
 
 
@@ -291,7 +291,7 @@ POSITIVE_EVIDENCE_TITLES = {
     "turn_based_tactical_pressure": "한 턴의 선택이 긴장감을 만든다는 반응",
     "teamplay_synergy": "팀 합이 맞을 때 재미가 커진다는 반응",
     "visual_atmosphere": "비주얼과 분위기가 몰입을 끌어준다는 반응",
-    "core_play_mastery": "핵심 플레이 감각이 좋다는 반응",
+    "core_play_mastery": "플레이 흐름이 안정적으로 잡힌다는 반응",
 }
 
 
@@ -334,7 +334,7 @@ POSITIVE_EVIDENCE_SUMMARIES = {
     "turn_based_tactical_pressure": "한 턴의 선택이 크게 작용한다는 반응이 많아, 전술 판단의 압박을 즐기면 잘 맞습니다.",
     "teamplay_synergy": "팀 합이 맞을 때 만족도가 올라간다는 반응이 많아, 함께 맞춰가는 플레이를 좋아하면 잘 맞습니다.",
     "visual_atmosphere": "비주얼과 분위기를 좋게 보는 반응이 많아, 화면과 연출을 중요하게 보면 만족도가 높습니다.",
-    "core_play_mastery": "기본 플레이 감각을 좋게 보는 반응이 많아, 손에 익는 재미가 중요한 쪽에 잘 맞습니다.",
+    "core_play_mastery": "플레이 흐름이 자연스럽게 자리 잡는다는 반응이 많아, 익숙해질수록 재미가 선명해지는 쪽에 잘 맞습니다.",
 }
 
 
@@ -381,6 +381,12 @@ def infer_copy_subtype(
     flags = _genre_flags(genres)
 
     if negative:
+        if flags["automation"] and aspect_key in {"matchmaking", "multiplayer"}:
+            return "control_friction"
+        if flags["deckbuilder"] and aspect_key in {"story", "gameplay", "multiplayer", "matchmaking"}:
+            return "repetition_fatigue"
+        if flags["turn_based"] and aspect_key in {"story", "gameplay"}:
+            return "onboarding_friction"
         if aspect_key == "bugs":
             return "stability_interruptions"
         if aspect_key == "performance":
@@ -438,6 +444,15 @@ def infer_copy_subtype(
     }:
         return "turn_based_tactical_pressure"
 
+    if flags["deckbuilder"] and aspect_key in {"story", "gameplay", "content_depth", "customization"}:
+        return "deckbuilding_run_planning"
+
+    if flags["automation"] and aspect_key in {"story", "gameplay", "content_depth", "building_ux", "multiplayer"}:
+        return "automation_factory_optimization"
+
+    if flags["turn_based"] and aspect_key in {"story", "gameplay", "content_depth", "difficulty"}:
+        return "turn_based_tactical_pressure"
+
     if aspect_key == "story":
         if flags["soulslike"] or _contains_any(theme_blob, THEME_HINTS["world_lore_discovery"]):
             return "world_lore_discovery"
@@ -452,14 +467,16 @@ def infer_copy_subtype(
         return "build_customization"
 
     if aspect_key == "content_depth":
-        if flags["management"] or flags["sports"] or flags["strategy"]:
-            return "management_tactics"
         if flags["city_builder"]:
             return "city_builder_management"
         if flags["automation"]:
             return "automation_factory_optimization"
         if flags["deckbuilder"]:
             return "deckbuilding_run_planning"
+        if flags["turn_based"]:
+            return "turn_based_tactical_pressure"
+        if flags["management"] or flags["sports"] or flags["strategy"]:
+            return "management_tactics"
         if flags["cozy"]:
             return "cozy_growth_loop"
         if flags["survival"]:
@@ -467,6 +484,8 @@ def infer_copy_subtype(
         return "long_term_growth"
 
     if aspect_key == "multiplayer":
+        if flags["automation"]:
+            return "automation_factory_optimization"
         if flags["coop"]:
             return "cooperative_mission_loop"
         if flags["battle_royale"] or flags["shooter"]:
@@ -481,6 +500,12 @@ def infer_copy_subtype(
         return "control_friction"
 
     if aspect_key == "gameplay":
+        if flags["deckbuilder"]:
+            return "deckbuilding_run_planning"
+        if flags["automation"]:
+            return "automation_factory_optimization"
+        if flags["turn_based"]:
+            return "turn_based_tactical_pressure"
         if flags["management"] or flags["sports"] or flags["strategy"]:
             return "management_tactics"
         if flags["cozy"]:
