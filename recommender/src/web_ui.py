@@ -2,12 +2,13 @@
 
 import html
 import json
+import re
 import traceback
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
-from .localize import confidence_to_ko, genre_to_ko, translate_en_to_ko, translate_en_to_ko_many
+from .localize import confidence_to_ko, genre_to_ko
 from .ranker import recommend_games
 
 
@@ -36,6 +37,7 @@ _CATEGORY_ALIAS = {
     "indie": {"indie"},
     "f2p": {"free to play"},
 }
+_KO_RE = re.compile(r"[가-힣]")
 
 
 def _clip_evidence(text: str, max_chars: int = 220) -> str:
@@ -43,6 +45,10 @@ def _clip_evidence(text: str, max_chars: int = 220) -> str:
     if len(t) <= max_chars:
         return t
     return t[: max(40, max_chars - 1)].rstrip() + "…"
+
+
+def _contains_korean(text: str) -> bool:
+    return bool(_KO_RE.search(text or ""))
 
 
 def _normalize_categories(genres: list[str], evidence_texts: list[str]) -> list[str]:
@@ -61,7 +67,8 @@ def _reason_from_item(item: dict) -> str:
         return str(item.get("reason_ko", "")).strip()
     evidence = item.get("evidence_summaries_ko") or item.get("evidence_reviews") or []
     if evidence:
-        line = translate_en_to_ko(str(evidence[0]))
+        ko_candidates = [str(x) for x in evidence if _contains_korean(str(x))]
+        line = str((ko_candidates[0] if ko_candidates else evidence[0]))
         line = _clip_evidence(line, max_chars=140)
         return f"리뷰 근거: {line}"
     conf = confidence_to_ko(item.get("confidence", "unknown"))
@@ -80,8 +87,9 @@ def _prepare_result_payload(result: dict, query: str, top_k: int) -> dict:
     for item in result.get("results", []) or []:
         app_id = int(item.get("app_id", 0) or 0)
         evidence = [str(x) for x in (item.get("evidence_reviews") or [])]
-        translated_evidence = translate_en_to_ko_many(evidence[:4])
-        evidence_ko = [_clip_evidence(ev, max_chars=220) for ev in translated_evidence]
+        ko_evidence = [ev for ev in evidence if _contains_korean(ev)]
+        base_evidence = ko_evidence[:4] if ko_evidence else evidence[:2]
+        evidence_ko = [_clip_evidence(ev, max_chars=220) for ev in base_evidence]
         rows.append(
             {
                 "app_id": app_id,
