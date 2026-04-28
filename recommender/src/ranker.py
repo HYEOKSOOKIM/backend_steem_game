@@ -939,6 +939,9 @@ def recommend_games(
     openai_api_key: str | None = None,
     openai_model: str = "gpt-4.1-mini",
     exclude_app_ids: list[int] | None = None,
+    liked_app_ids: list[int] | None = None,
+    disliked_app_ids: list[int] | None = None,
+    preference_weight: float = 0.10,
 ) -> dict:
     total_start = time.perf_counter()
     perf: dict[str, float] = {}
@@ -954,6 +957,16 @@ def recommend_games(
     excluded_app_ids_set = {
         int(x)
         for x in (exclude_app_ids or [])
+        if isinstance(x, int) or (isinstance(x, str) and str(x).strip().isdigit())
+    }
+    liked_app_ids_set = {
+        int(x)
+        for x in (liked_app_ids or [])
+        if isinstance(x, int) or (isinstance(x, str) and str(x).strip().isdigit())
+    }
+    disliked_app_ids_set = {
+        int(x)
+        for x in (disliked_app_ids or [])
         if isinstance(x, int) or (isinstance(x, str) and str(x).strip().isdigit())
     }
 
@@ -1313,6 +1326,43 @@ def recommend_games(
                     + (0.08 * float(x["soft_match_count"]))
                     + (0.06 * min(float(x["recent_review_count"]) / 300.0, 1.0))
                 )
+
+        # Light hybrid preference adjustment.
+        # Keep this weight low so natural-language intent remains primary.
+        pref_weight = max(0.0, min(0.20, float(preference_weight or 0.0)))
+        if pref_weight > 0.0 and reranked:
+            liked_vecs: list[np.ndarray] = []
+            disliked_vecs: list[np.ndarray] = []
+            for app_id in liked_app_ids_set:
+                vec = vector_by_app_id.get(app_id)
+                if isinstance(vec, np.ndarray) and vec.size:
+                    liked_vecs.append(vec)
+            for app_id in disliked_app_ids_set:
+                vec = vector_by_app_id.get(app_id)
+                if isinstance(vec, np.ndarray) and vec.size:
+                    disliked_vecs.append(vec)
+
+            liked_centroid = np.mean(np.vstack(liked_vecs), axis=0) if liked_vecs else None
+            disliked_centroid = np.mean(np.vstack(disliked_vecs), axis=0) if disliked_vecs else None
+            if isinstance(liked_centroid, np.ndarray):
+                n = float(np.linalg.norm(liked_centroid))
+                if n > 0:
+                    liked_centroid = liked_centroid / n
+            if isinstance(disliked_centroid, np.ndarray):
+                n = float(np.linalg.norm(disliked_centroid))
+                if n > 0:
+                    disliked_centroid = disliked_centroid / n
+
+            for x in reranked:
+                row_vec = x.get("_vector")
+                if not isinstance(row_vec, np.ndarray) or not row_vec.size:
+                    continue
+                pref_signal = 0.0
+                if isinstance(liked_centroid, np.ndarray):
+                    pref_signal += float(np.dot(row_vec, liked_centroid))
+                if isinstance(disliked_centroid, np.ndarray):
+                    pref_signal -= float(np.dot(row_vec, disliked_centroid))
+                x["final_score"] = float(x["final_score"]) + (pref_weight * pref_signal)
     _stamp("retrieval_rank_ms", t_retrieval)
 
     diverse = _select_diverse_results(reranked, top_k=max(top_k * 3, top_k), diversity_weight=0.22)
