@@ -69,7 +69,7 @@ def create_app():
         try:
             from recommender.api.routes import _ensure_db_schema_ready, _is_db_ready, _resolve_db_path
             from recommender.src.config import load_settings
-            from recommender.src.localize import translate_en_to_ko
+            from recommender.src.localize import warmup_translation_checkin
             from recommender.src.ranker import recommend_games
 
             _ensure_db_schema_ready()
@@ -86,10 +86,14 @@ def create_app():
                 openai_api_key=settings.openai_api_key,
                 openai_model=settings.openai_model,
             )
-            # Warm translator cache as well (used for evidence localization in response payload).
-            translate_en_to_ko("Great game with fun gameplay.")
+            # Warm translator cache and run translation readiness check-in.
+            checkin = warmup_translation_checkin()
             elapsed = round((time.perf_counter() - started) * 1000.0, 2)
-            logger.info("[warmup] completed in %sms", elapsed)
+            logger.info(
+                "[warmup] completed in %sms (translation_ready=%s)",
+                elapsed,
+                checkin.get("ready"),
+            )
         except Exception as exc:
             logger.warning("[warmup] failed: %s", exc)
 

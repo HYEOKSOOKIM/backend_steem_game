@@ -2,6 +2,7 @@
 
 import os
 import re
+from datetime import datetime, timezone
 from functools import lru_cache
 from pathlib import Path
 
@@ -31,6 +32,13 @@ GENRE_KO = {
 
 _EN_RE = re.compile(r"[A-Za-z]")
 _DEFAULT_TRANSLATION_MODEL = "Helsinki-NLP/opus-mt-tc-big-en-ko"
+_LAST_CHECKIN: dict[str, object] = {
+    "ready": None,
+    "checked_at": None,
+    "model": None,
+    "cache_dir": None,
+    "error": "",
+}
 
 
 def confidence_to_ko(label: str) -> str:
@@ -45,9 +53,7 @@ def _looks_english(text: str) -> bool:
     return bool(_EN_RE.search(text or ""))
 
 
-@lru_cache(maxsize=1)
-def _load_translator():
-    # Lazy-load translator only when needed.
+def _runtime_info() -> tuple[str, str]:
     model_name = (os.getenv("TRANSLATION_MODEL") or _DEFAULT_TRANSLATION_MODEL).strip()
     cache_dir = os.getenv("HF_HOME")
     if not cache_dir:
@@ -57,9 +63,48 @@ def _load_translator():
     os.environ["HF_HOME"] = cache_dir
     os.environ["HUGGINGFACE_HUB_CACHE"] = str(Path(cache_dir) / "hub")
     os.environ["TRANSFORMERS_CACHE"] = str(Path(cache_dir) / "transformers")
+    return model_name, cache_dir
+
+
+@lru_cache(maxsize=1)
+def _load_translator():
+    # Lazy-load translator only when needed.
+    model_name, _ = _runtime_info()
     from transformers import pipeline
 
     return pipeline("translation_en_to_ko", model=model_name)
+
+
+def warmup_translation_checkin() -> dict[str, object]:
+    model_name, cache_dir = _runtime_info()
+    ready = False
+    error = ""
+    try:
+        translator = _load_translator()
+        out = translator("Great game with fun gameplay.", max_length=64)
+        ready = bool(isinstance(out, list) and out and out[0].get("translation_text"))
+        if not ready:
+            error = "empty_translation_output"
+    except Exception as exc:
+        error = repr(exc)
+
+    _LAST_CHECKIN.update(
+        {
+            "ready": ready,
+            "checked_at": datetime.now(timezone.utc).isoformat(),
+            "model": model_name,
+            "cache_dir": cache_dir,
+            "error": error,
+        }
+    )
+    return dict(_LAST_CHECKIN)
+
+
+def get_translation_checkin_status() -> dict[str, object]:
+    if _LAST_CHECKIN.get("model") is None or _LAST_CHECKIN.get("cache_dir") is None:
+        model_name, cache_dir = _runtime_info()
+        _LAST_CHECKIN.update({"model": model_name, "cache_dir": cache_dir})
+    return dict(_LAST_CHECKIN)
 
 
 def translate_en_to_ko(text: str) -> str:
