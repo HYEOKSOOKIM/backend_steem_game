@@ -1,0 +1,23 @@
+{
+  "appid": 3321460,
+  "name": "붉은사막",
+  "genres": [
+    "액션",
+    "어드벤처"
+  ],
+  "price_model": "paid",
+  "release_stage": "released",
+  "release_date_text": "2026년 3월 19일",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/905a27028fe2cb3bfbffb7ae006847e8ee4eec53/header_koreana.jpg?t=1777016399",
+  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/a4cc912c32cf6c459dd956ee07afe4208b098756/capsule_231x87_koreana.jpg?t=1777016399",
+  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/a4cc912c32cf6c459dd956ee07afe4208b098756/capsule_184x69_koreana.jpg?t=1777016399",
+  "short_description": "파이웰 대륙을 배경으로 펼쳐지는 오픈월드 액션 어드벤쳐 게임, 붉은사막. 여러분은 회색갈기 클리프가 되어, 잃어버린 모든 것을 되찾고 다가오는 위협으로부터 세상을 구하기 위한 여정을 떠나게 됩니다. 광활한 야생, 숨겨진 고대 유적, 신비로운 어비스의 영역을 누비며 싸우고, 탐험하고, 발견하며 자신만의 길을 만들어 가세요.",
+  "steam_store_url": "https://store.steampowered.com/app/3321460",
+  "steam_recommendation_count": 95572,
+  "steam_review_score_desc": "Very Positive",
+  "steam_total_positive": 10106,
+  "steam_total_negative": 2452,
+  "steam_total_reviews": 12558,
+  "is_free": false,
+  "coming_soon": false
+}

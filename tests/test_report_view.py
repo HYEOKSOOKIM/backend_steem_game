@@ -445,6 +445,65 @@ class ReportViewTests(unittest.TestCase):
 
         self.assertEqual(polished["report_display"]["top_strengths"][0]["title"], "장비와 빌드를 오래 다듬는 성장 루프")
 
+    def test_apply_final_language_polish_enforces_live_service_primary_copy(self):
+        payload = {
+            "report_plan": {"decision_anchor": {"buy_recommendation": "free_play_recommended", "primary_reason_ids": ["str_1"]}},
+            "report_display": {
+                "headline": "플레이 흐름의 안정감 체감이 좋아 무료로 지금 시작해 보기 좋은 상태입니다.",
+                "buy_timing_summary": "무료로 지금 시작해 보기 좋은 상태입니다.",
+                "good_for": ["장비와 빌드를 오래 다듬는 플레이어"],
+                "not_good_for": [],
+                "top_strengths": [
+                    {"title": "플레이 흐름의 안정감", "summary": "기본 플레이 흐름이 안정적으로 잡혀 익숙해질수록 리듬이 또렷해지는 편입니다."},
+                ],
+                "top_risks": [],
+                "recent_state": {"status": "stable", "summary": "최근 분위기는 비슷합니다."},
+            },
+            "evidence_sections": {"strengths": [], "risks": []},
+        }
+
+        polished = _apply_final_language_polish(
+            payload=payload,
+            allow_llm=False,
+            is_free_game=True,
+            seed_display={},
+            genres=["액션", "RPG", "무료 플레이", "Warframe"],
+        )
+
+        self.assertIn("장비 파밍과 성장 루프", polished["report_display"]["headline"])
+        self.assertEqual(polished["report_display"]["top_strengths"][0]["title"], "장비와 빌드를 오래 다듬는 성장 루프")
+
+    def test_apply_final_language_polish_enforces_narrative_openworld_primary_copy(self):
+        payload = {
+            "report_plan": {"decision_anchor": {"buy_recommendation": "buy_now", "primary_reason_ids": ["str_1"]}},
+            "report_display": {
+                "headline": "플레이 흐름의 안정감 체감이 좋아 지금 바로 시작해도 만족도가 높은 편입니다.",
+                "buy_timing_summary": "지금 바로 시작해도 만족도가 높은 편입니다.",
+                "good_for": ["사건과 인물의 여운을 오래 가져가는 플레이어"],
+                "not_good_for": [],
+                "top_strengths": [
+                    {"title": "플레이 흐름의 안정감", "summary": "기본 플레이 흐름이 안정적으로 잡혀 익숙해질수록 리듬이 또렷해지는 편입니다."},
+                ],
+                "top_risks": [
+                    {"title": "매칭과 서버 문제", "summary": "매칭과 서버 상태가 흔들리면 한 판의 완성도가 크게 달라질 수 있습니다."},
+                ],
+                "recent_state": {"status": "stable", "summary": "최근 분위기는 비슷합니다."},
+            },
+            "evidence_sections": {"strengths": [], "risks": []},
+        }
+
+        polished = _apply_final_language_polish(
+            payload=payload,
+            allow_llm=False,
+            is_free_game=False,
+            seed_display={},
+            genres=["Action", "Adventure", "Red Dead Redemption 2"],
+        )
+
+        self.assertIn("사건과 인물의 여운", polished["report_display"]["headline"])
+        self.assertEqual(polished["report_display"]["top_strengths"][0]["title"], "사건과 인물이 오래 남는 서사 경험")
+        self.assertEqual(polished["report_display"]["top_risks"][0]["title"], "몰입을 끊는 기술 이슈")
+
     def test_apply_final_language_polish_rewrites_life_sim_and_narrative_openworld_copy(self):
         payload = {
             "report_plan": {"decision_anchor": {"buy_recommendation": "wait", "primary_reason_ids": ["risk_1"]}},
@@ -759,6 +818,152 @@ class ReportViewTests(unittest.TestCase):
         self.assertGreaterEqual(len(selected), 2)
         self.assertIn("총기 손맛", selected[0])
         self.assertTrue(all("불가능" not in snippet for snippet in selected[:2]))
+
+    def test_apply_final_language_polish_enforces_looter_primary_copy_from_good_for(self):
+        payload = {
+            "game": {
+                "genres": ["Action", "RPG"],
+                "name": "Warframe",
+                "short_description": "A free-to-play looter shooter with long-term gear progression.",
+            },
+            "report_display": {
+                "headline": "플레이 흐름의 안정감 체감이 좋아 무료로 지금 시작해 보기 좋은 상태입니다.",
+                "good_for": ["장비와 빌드를 오래 다듬는 플레이어"],
+                "not_good_for": ["같은 흐름이 길어지면 피로를 크게 느끼는 플레이어"],
+                "top_strengths": [
+                    {
+                        "title": "플레이 흐름의 안정감",
+                        "summary": "기본 플레이 흐름이 안정적으로 잡혀 익숙해질수록 리듬이 또렷해지는 편입니다.",
+                    }
+                ],
+                "top_risks": [],
+            },
+        }
+
+        polished = _apply_final_language_polish(
+            payload=payload,
+            allow_llm=False,
+            is_free_game=True,
+            seed_display={"good_for": ["장비와 빌드를 오래 다듬는 플레이어"]},
+            genres=["Action", "RPG"],
+        )
+
+        self.assertIn("장비 파밍", polished["report_display"]["headline"])
+        self.assertIn("장비", polished["report_display"]["top_strengths"][0]["title"])
+        self.assertIn("파밍", polished["report_display"]["top_strengths"][0]["summary"])
+
+    def test_apply_final_language_polish_rewrites_narrative_risk_when_multiplayer_leaks(self):
+        payload = {
+            "game": {
+                "genres": ["Open World", "RPG"],
+                "name": "Red Dead Redemption 2",
+                "short_description": "A story-rich open world western about outlaws and fading ideals.",
+            },
+            "report_display": {
+                "headline": "사건과 인물의 여운 체감이 좋아 지금 바로 시작해도 만족도가 높은 편입니다.",
+                "good_for": ["사건과 인물의 여운을 오래 가져가는 플레이어"],
+                "not_good_for": ["느린 진행 템포에 쉽게 지치는 플레이어"],
+                "top_strengths": [
+                    {
+                        "title": "사건과 인물",
+                        "summary": "사건과 인물의 여운이 길게 남아 세계를 천천히 체험하는 플레이와 잘 맞습니다.",
+                    }
+                ],
+                "top_risks": [
+                    {
+                        "title": "버그와 안정성 문제",
+                        "summary": "게임 중 잦은 튕김과 로딩 문제로 인해 플레이의 흐름이 끊길 수 있습니다. 이는 특히 멀티플레이에서 더욱 두드러집니다.",
+                    }
+                ],
+            },
+        }
+
+        polished = _apply_final_language_polish(
+            payload=payload,
+            allow_llm=False,
+            is_free_game=False,
+            seed_display={"good_for": ["사건과 인물의 여운을 오래 가져가는 플레이어"]},
+            genres=["Open World", "RPG"],
+        )
+
+        self.assertIn("사건과 인물의 여운이 오래 남는 경험", polished["report_display"]["headline"])
+        self.assertEqual(polished["report_display"]["top_risks"][0]["title"], "몰입을 끊는 기술 이슈")
+        self.assertNotIn("멀티플레이", polished["report_display"]["top_risks"][0]["summary"])
+
+    def test_apply_final_language_polish_enforces_soulslike_primary_copy(self):
+        payload = {
+            "game": {
+                "genres": ["Action RPG", "Soulslike"],
+                "name": "ELDEN RING",
+                "short_description": "A soulslike action RPG with challenging bosses and open-world exploration.",
+            },
+            "report_display": {
+                "headline": "핵심 플레이 감각 경험은 분명한 강점입니다. 다만 가격 대비 만족 편차 때문에 할인 시점에 시작하는 편이 더 안전합니다.",
+                "good_for": ["도전적인 전투를 반복하며 손에 익히는 플레이어"],
+                "not_good_for": ["같은 흐름이 길어지면 피로를 크게 느끼는 플레이어"],
+                "top_strengths": [
+                    {
+                        "title": "핵심 플레이 감각이 꾸준히 살아 있는 경험",
+                        "summary": "핵심 플레이가 손에 익을수록 흐름이 좋아져 오래 붙잡기 쉬운 편입니다.",
+                    }
+                ],
+                "top_risks": [
+                    {
+                        "title": "가격 대비 만족감은 취향을 많이 타요",
+                        "summary": "가격 부담이 크면 기대만큼 만족하지 못했다는 반응이 나옵니다.",
+                    },
+                    {
+                        "title": "팀 플레이 피로가 생각보다 크게 느껴질 수 있어요",
+                        "summary": "팀 호흡이 어긋나면 재미보다 피로가 먼저 올라올 수 있습니다.",
+                    },
+                ],
+            },
+        }
+
+        polished = _apply_final_language_polish(
+            payload=payload,
+            allow_llm=False,
+            is_free_game=False,
+            seed_display={"good_for": ["도전적인 전투를 반복하며 손에 익히는 플레이어"]},
+            genres=["Action RPG", "Soulslike"],
+        )
+
+        self.assertIn("보스 패턴", polished["report_display"]["headline"])
+        self.assertIn("성취감", polished["report_display"]["top_strengths"][0]["title"])
+        self.assertEqual(polished["report_display"]["top_risks"][0]["title"], "진입 장벽이 높은 초반")
+        self.assertEqual(polished["report_display"]["top_risks"][1]["title"], "반복 트라이에서 오는 피로")
+
+    def test_apply_final_language_polish_enforces_openworld_crime_sandbox_copy(self):
+        payload = {
+            "game": {
+                "genres": ["Open World", "Action"],
+                "name": "Grand Theft Auto V Enhanced",
+                "short_description": "An open world crime sandbox with a three-protagonist story and GTA Online.",
+            },
+            "report_display": {
+                "headline": "그래픽과 스토리는 뛰어나지만, 일반 버그와 핵 문제로 인해 구매는 업데이트 후가 좋습니다.",
+                "good_for": ["넓은 오픈월드에서 자유롭게 돌아다니는 플레이어"],
+                "not_good_for": ["온라인 불안정에 쉽게 지치는 플레이어"],
+                "top_strengths": [
+                    {
+                        "title": "그래픽/비주얼 호평",
+                        "summary": "현대 게임과 견주어도 손색없는 뛰어난 그래픽이 몰입감을 높여 줍니다.",
+                    }
+                ],
+                "top_risks": [],
+            },
+        }
+
+        polished = _apply_final_language_polish(
+            payload=payload,
+            allow_llm=False,
+            is_free_game=False,
+            seed_display={"good_for": ["넓은 오픈월드에서 자유롭게 돌아다니는 플레이어"]},
+            genres=["Open World", "Action"],
+        )
+
+        self.assertIn("오픈월드 자유도", polished["report_display"]["headline"])
+        self.assertIn("범죄 서사", polished["report_display"]["top_strengths"][0]["title"])
 
 
 if __name__ == "__main__":
