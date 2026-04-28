@@ -876,6 +876,89 @@ def _apply_final_language_polish(
         top_risks.append(next_item)
     report_display["top_risks"] = top_risks
 
+    fit_blob = " ".join(str(item or "") for item in list(report_display.get("good_for", []) or []))
+    looter_fit = any(token in fit_blob for token in ("장비", "파밍", "빌드", "성장 루프"))
+    coop_fit = any(token in fit_blob for token in ("분대", "협동", "임무", "역할"))
+    narrative_fit = any(token in fit_blob for token in ("사건", "인물", "서사", "여운"))
+
+    if _is_looter_shooter_context(genres or [], context_text) or looter_fit:
+        headline = " ".join(str(report_display.get("headline", "") or "").split()).strip()
+        if headline and not any(token in headline for token in ("장비", "파밍", "성장", "빌드")):
+            report_display["headline"] = "장비 파밍과 성장 루프의 장점이 보여 무료로 가볍게 시작해보고 맞는지 판단하기 좋습니다."
+        if report_display["top_strengths"]:
+            first_strength = report_display["top_strengths"][0]
+            title = " ".join(str(first_strength.get("title", "") or "").split()).strip()
+            if title and not any(token in title for token in ("장비", "파밍", "성장", "빌드")):
+                first_strength["title"] = "장비와 빌드를 오래 다듬는 성장 루프"
+                first_strength["summary"] = "장비를 파밍하고 세팅을 맞춰 가며 강해지는 과정이 반복 임무의 동력으로 잘 이어집니다."
+
+    if _is_coop_live_service_shooter_context(genres or [], context_text) or coop_fit:
+        headline = " ".join(str(report_display.get("headline", "") or "").split()).strip()
+        if headline and not any(token in headline for token in ("분대", "협동", "임무")):
+            report_display["headline"] = "분대 협동과 임무 수행의 재미는 분명하지만 밸런스와 안정성 변수는 함께 감수해야 합니다."
+        if report_display["top_strengths"]:
+            first_strength = report_display["top_strengths"][0]
+            title = " ".join(str(first_strength.get("title", "") or "").split()).strip()
+            if title and not any(token in title for token in ("분대", "협동", "임무")):
+                first_strength["title"] = "분대 합이 살아나는 협동 임무"
+                first_strength["summary"] = "역할을 나눠 임무를 밀어붙일수록 분대 플레이의 손발이 맞는 재미가 살아납니다."
+
+    if _is_narrative_openworld_context(genres or [], context_text) or narrative_fit:
+        headline = " ".join(str(report_display.get("headline", "") or "").split()).strip()
+        if headline and (
+            not any(token in headline for token in ("사건", "인물", "서사", "여운"))
+            or "체감" in headline
+        ):
+            report_display["headline"] = "사건과 인물의 여운이 오래 남는 경험은 분명한 강점이지만 긴 호흡의 진행 템포는 취향을 탈 수 있습니다."
+        if report_display["top_strengths"]:
+            first_strength = report_display["top_strengths"][0]
+            title = " ".join(str(first_strength.get("title", "") or "").split()).strip()
+            if title and not any(token in title for token in ("사건", "인물", "서사", "여운")):
+                first_strength["title"] = "사건과 인물이 오래 남는 서사 경험"
+                first_strength["summary"] = "사건과 인물의 여운이 길게 남아 세계를 천천히 체험하는 몰입감이 또렷합니다."
+        for next_item in report_display["top_risks"]:
+            title = " ".join(str(next_item.get("title", "") or "").split()).strip()
+            summary = " ".join(str(next_item.get("summary", "") or "").split()).strip()
+            blob = f"{title} {summary}"
+            if title == "몰입을 끊는 기술 이슈" or any(token in blob for token in ("매칭", "서버 상태", "멀티플레이")):
+                next_item["title"] = "몰입을 끊는 기술 이슈"
+                next_item["summary"] = "기술적인 끊김이나 거슬림이 길게 이어지면 서사와 장면의 몰입이 쉽게 흐트러질 수 있습니다."
+
+    if _is_soulslike_context(genres or [], context_text):
+        headline = " ".join(str(report_display.get("headline", "") or "").split()).strip()
+        if headline and (
+            any(token in headline for token in ("핵심 플레이", "가격 대비", "팀 플레이"))
+            or not any(token in headline for token in ("보스", "패턴", "도전", "돌파", "성취"))
+        ):
+            report_display["headline"] = "보스 패턴을 익히며 돌파하는 성취감은 분명하지만 초반 진입 장벽과 반복 트라이 피로는 감수해야 합니다."
+        if report_display["top_strengths"]:
+            first_strength = report_display["top_strengths"][0]
+            title = " ".join(str(first_strength.get("title", "") or "").split()).strip()
+            if title and not any(token in title for token in ("보스", "패턴", "도전", "돌파", "성취")):
+                first_strength["title"] = "보스 패턴을 익히며 돌파하는 성취감"
+                first_strength["summary"] = "실패를 거듭하며 패턴을 읽고 결국 돌파하는 과정이 강한 긴장감과 성취감으로 이어집니다."
+        for next_item in report_display["top_risks"]:
+            title = " ".join(str(next_item.get("title", "") or "").split()).strip()
+            summary = " ".join(str(next_item.get("summary", "") or "").split()).strip()
+            blob = f"{title} {summary}"
+            if any(token in blob for token in ("가격", "과금")):
+                next_item["title"] = "진입 장벽이 높은 초반"
+                next_item["summary"] = "초반에 길 찾기와 전투 리듬을 익히기까지 시간이 걸려 첫인상이 꽤 거칠게 느껴질 수 있습니다."
+            elif any(token in blob for token in ("팀 플레이", "팀 호흡")):
+                next_item["title"] = "반복 트라이에서 오는 피로"
+                next_item["summary"] = "막히는 구간을 여러 번 다시 시도해야 해서 긴장감이 큰 만큼 피로도 빠르게 쌓일 수 있습니다."
+
+    if _is_openworld_crime_sandbox_context(genres or [], context_text):
+        headline = " ".join(str(report_display.get("headline", "") or "").split()).strip()
+        if headline and any(token in headline for token in ("그래픽과 스토리", "업데이트 후가 좋습니다")):
+            report_display["headline"] = "세 주인공 서사와 오픈월드 자유도는 분명한 강점이지만 온라인 안정성과 핵 문제는 함께 감수해야 합니다."
+        if report_display["top_strengths"]:
+            first_strength = report_display["top_strengths"][0]
+            title = " ".join(str(first_strength.get("title", "") or "").split()).strip()
+            if title and not any(token in title for token in ("서사", "자유도", "오픈월드", "범죄")):
+                first_strength["title"] = "세 주인공이 끌고 가는 범죄 서사"
+                first_strength["summary"] = "세 주인공의 시선이 엮이며 범죄극의 리듬이 살아나서 스토리 몰입감이 오래 이어집니다."
+
     recent_state = dict(report_display.get("recent_state", {}) or {})
     if isinstance(recent_state.get("summary"), str):
         recent_state["summary"] = _fix(str(recent_state.get("summary", "")))
@@ -974,6 +1057,16 @@ def _rewrite_generic_strength_for_context(
             return (
                 "사건과 인물이 오래 남는 서사 경험",
                 "사건과 인물의 여운이 길게 남아 세계를 천천히 체험하는 몰입감이 또렷합니다.",
+            )
+        if _is_soulslike_context(genres, context_text):
+            return (
+                "보스 패턴을 익히며 돌파하는 성취감",
+                "실패를 거듭하며 패턴을 읽고 결국 돌파하는 과정이 강한 긴장감과 성취감으로 이어집니다.",
+            )
+        if _is_openworld_crime_sandbox_context(genres, context_text):
+            return (
+                "세 주인공이 끌고 가는 범죄 서사",
+                "세 주인공의 시선이 엮이며 범죄극의 리듬이 살아나서 스토리 몰입감이 오래 이어집니다.",
             )
         if _is_life_sim_context(genres, context_text):
             return (
@@ -1076,6 +1169,11 @@ def _rewrite_headline_for_context(
     ):
         return "사건과 인물의 여운이 오래 남는 경험은 분명한 강점이지만 긴 호흡의 진행 템포는 취향을 탈 수 있습니다."
 
+    if _is_soulslike_context(genres, context_text) and any(
+        token in value for token in ("핵심 플레이", "가격 대비", "팀 플레이", "플레이 흐름")
+    ):
+        return "보스 패턴을 익히며 돌파하는 성취감은 분명하지만 초반 진입 장벽과 반복 트라이 피로는 감수해야 합니다."
+
     return value
 
 
@@ -1124,6 +1222,10 @@ def _guard_copy_text_by_genre(
 
     if _is_narrative_openworld_context(genres, context_text):
         if _has_any("매칭", "서버 상태", "팀플레이", "짧고 강한 교전 템포", "패턴을 익히며 반복 도전", "플레이 흐름이 점점 또렷해지는 재미", "핵심 플레이를 반복하며", "핵심 플레이 감각"):
+            return fallback.strip() or value
+
+    if _is_soulslike_context(genres, context_text):
+        if _has_any("가격 대비 만족", "팀 플레이", "핵심 플레이", "플레이 흐름", "한 판이 금방 지나", "매칭", "서버"):
             return fallback.strip() or value
 
     if _is_life_sim_context(genres, context_text):
@@ -2019,6 +2121,37 @@ def _is_narrative_openworld_context(genres: list[str], context_text: str = "") -
             "red dead redemption 2",
             "story rich open world",
             "open world rpg",
+        )
+    )
+
+
+def _is_soulslike_context(genres: list[str], context_text: str = "") -> bool:
+    blob = _genre_signal_blob(genres, context_text)
+    return any(
+        token in blob
+        for token in (
+            "elden ring",
+            "dark souls",
+            "sekiro",
+            "lies of p",
+            "soulslike",
+            "souls-like",
+            "소울",
+        )
+    )
+
+
+def _is_openworld_crime_sandbox_context(genres: list[str], context_text: str = "") -> bool:
+    blob = _genre_signal_blob(genres, context_text)
+    return any(
+        token in blob
+        for token in (
+            "grand theft auto v",
+            "gta v",
+            "gta online",
+            "crime sandbox",
+            "open world crime",
+            "rockstar games",
         )
     )
 

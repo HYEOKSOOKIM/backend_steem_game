@@ -24,9 +24,24 @@ These games are currently safe to expose in the public demo list.
 - `236850` Europa Universalis IV
 - `1222670` The Sims 4
 - `2456740` inZOI
+- `1085660` Destiny 2
+- `553850` HELLDIVERS 2
+- `292030` The Witcher 3: Wild Hunt
+- `1174180` Red Dead Redemption 2
+- `230410` Warframe
+- `289070` Sid Meier's Civilization VI
+- `1245620` ELDEN RING
+- `3240220` Grand Theft Auto V Enhanced
+- `3321460` 붉은사막
 
 Notes:
 - `The Sims 4` and `inZOI` were promoted after the life-sim / social-sim tuning round.
+- `Destiny 2` and `HELLDIVERS 2` were promoted after the live-service shooter tuning round.
+- `The Witcher 3` was promoted after the narrative open-world tuning round.
+- `Red Dead Redemption 2` was promoted after the narrative open-world risk wording cleanup.
+- `Warframe` was promoted after the looter-shooter headline and primary-strength polish.
+- `Sid Meier's Civilization VI`, `ELDEN RING`, and `Grand Theft Auto V Enhanced` were promoted after the 4.1-mini final-generation round plus last-mile public-report polish.
+- `붉은사막` was promoted after a fresh report-generation round showed stable open-world action-adventure copy without the old genre-mismatch fallback patterns.
 - These reports are not perfect, but they are stable enough that genre mismatch is no longer the main concern.
 
 ## Partial / Hold
@@ -35,7 +50,6 @@ These games are usable as internal candidates, but they still show enough generi
 
 - `1145360` Hades
 - `1091500` Cyberpunk 2077
-- `289070` Sid Meier's Civilization VI
 - `892970` Valheim
 - `582010` Monster Hunter: World
 - `1966720` Lethal Company
@@ -44,15 +58,9 @@ These games are usable as internal candidates, but they still show enough generi
 - `548430` Deep Rock Galactic
 - `413150` Stardew Valley
 - `252490` Rust
-- `1085660` Destiny 2
-- `230410` Warframe
-- `553850` HELLDIVERS 2
-- `1174180` Red Dead Redemption 2
-- `292030` The Witcher 3: Wild Hunt
 
 Notes:
-- `Destiny 2`, `Warframe`, and `HELLDIVERS 2` improved after the live-service tuning round, but they still need stronger headline / strength prioritization.
-- `Red Dead Redemption 2` and `The Witcher 3` now read closer to narrative open-world games, but they still retain some generic or mismatched risk/headline phrasing.
+- The remaining hold set is now mostly waiting on broader genre-family rounds rather than one-line cleanup.
 
 ## Do Not Adopt Yet
 
@@ -66,8 +74,6 @@ These reports still show structural genre-family gaps and should stay out of the
 - `440` Team Fortress 2
 - `814380` Sekiro: Shadows Die Twice
 - `1627720` Lies of P
-- `1245620` ELDEN RING
-- `3240220` Grand Theft Auto V Enhanced
 - `271590` Grand Theft Auto V Legacy
 - `346110` ARK: Survival Evolved
 

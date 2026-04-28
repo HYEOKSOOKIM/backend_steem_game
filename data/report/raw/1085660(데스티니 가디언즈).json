@@ -1,5 +1,17 @@
 [
   {
+    "review_id": "224211012",
+    "appid": 1085660,
+    "review_text": "하지마십시오",
+    "voted_up": false,
+    "timestamp_created": 1777293317,
+    "timestamp_updated": 1777293317,
+    "playtime_forever": 5372.9,
+    "playtime_at_review_hours": 5372.9,
+    "num_reviews": 1,
+    "author_steamid": "76561198419107902"
+  },
+  {
     "review_id": "224046482",
     "appid": 1085660,
     "review_text": "다 망햇다",
@@ -54,7 +66,7 @@
     "voted_up": false,
     "timestamp_created": 1776587446,
     "timestamp_updated": 1776587446,
-    "playtime_forever": 200.47,
+    "playtime_forever": 200.7,
     "playtime_at_review_hours": 192.65,
     "num_reviews": 3,
     "author_steamid": "76561199151810784"
@@ -558,7 +570,7 @@
     "voted_up": true,
     "timestamp_created": 1772628939,
     "timestamp_updated": 1772628939,
-    "playtime_forever": 208.62,
+    "playtime_forever": 213.13,
     "playtime_at_review_hours": 182.45,
     "num_reviews": 12,
     "author_steamid": "76561199272419492"
@@ -596,7 +608,7 @@
     "timestamp_updated": 1772021637,
     "playtime_forever": 15.07,
     "playtime_at_review_hours": 15.07,
-    "num_reviews": 7,
+    "num_reviews": 8,
     "author_steamid": "76561198866369187"
   },
   {
@@ -702,7 +714,7 @@
     "voted_up": true,
     "timestamp_created": 1771227488,
     "timestamp_updated": 1771227488,
-    "playtime_forever": 6803.28,
+    "playtime_forever": 6803.68,
     "playtime_at_review_hours": 6694.53,
     "num_reviews": 2,
     "author_steamid": "76561198899586255"
@@ -1038,7 +1050,7 @@
     "voted_up": true,
     "timestamp_created": 1768278703,
     "timestamp_updated": 1768278703,
-    "playtime_forever": 701.5,
+    "playtime_forever": 701.75,
     "playtime_at_review_hours": 421.25,
     "num_reviews": 1,
     "author_steamid": "76561198041240835"
@@ -1770,7 +1782,7 @@
     "voted_up": false,
     "timestamp_created": 1763731391,
     "timestamp_updated": 1773922969,
-    "playtime_forever": 1592.87,
+    "playtime_forever": 1593.58,
     "playtime_at_review_hours": 1539.33,
     "num_reviews": 1,
     "author_steamid": "76561199240428169"
@@ -2250,7 +2262,7 @@
     "voted_up": false,
     "timestamp_created": 1760182767,
     "timestamp_updated": 1760182767,
-    "playtime_forever": 3937.35,
+    "playtime_forever": 3939.38,
     "playtime_at_review_hours": 3120.87,
     "num_reviews": 14,
     "author_steamid": "76561198036254983"
@@ -2826,7 +2838,7 @@
     "voted_up": false,
     "timestamp_created": 1759047188,
     "timestamp_updated": 1759047188,
-    "playtime_forever": 5273.02,
+    "playtime_forever": 5274.57,
     "playtime_at_review_hours": 5088.73,
     "num_reviews": 3,
     "author_steamid": "76561198931233611"
@@ -3126,7 +3138,7 @@
     "voted_up": false,
     "timestamp_created": 1757522185,
     "timestamp_updated": 1757522185,
-    "playtime_forever": 5188.0,
+    "playtime_forever": 5188.3,
     "playtime_at_review_hours": 4716.47,
     "num_reviews": 4,
     "author_steamid": "76561199066851022"
@@ -3690,7 +3702,7 @@
     "voted_up": false,
     "timestamp_created": 1754704149,
     "timestamp_updated": 1754704149,
-    "playtime_forever": 841.37,
+    "playtime_forever": 843.7,
     "playtime_at_review_hours": 685.07,
     "num_reviews": 1,
     "author_steamid": "76561199575427558"
@@ -4434,7 +4446,7 @@
     "voted_up": false,
     "timestamp_created": 1751888075,
     "timestamp_updated": 1751888075,
-    "playtime_forever": 5046.62,
+    "playtime_forever": 5047.33,
     "playtime_at_review_hours": 4601.0,
     "num_reviews": 1,
     "author_steamid": "76561198137002040"
@@ -4458,7 +4470,7 @@
     "voted_up": false,
     "timestamp_created": 1751793287,
     "timestamp_updated": 1751793503,
-    "playtime_forever": 5183.38,
+    "playtime_forever": 5187.38,
     "playtime_at_review_hours": 4966.85,
     "num_reviews": 2,
     "author_steamid": "76561198122053736"
@@ -4626,7 +4638,7 @@
     "voted_up": false,
     "timestamp_created": 1750520759,
     "timestamp_updated": 1762009176,
-    "playtime_forever": 3508.2,
+    "playtime_forever": 3508.77,
     "playtime_at_review_hours": 3068.98,
     "num_reviews": 2,
     "author_steamid": "76561199223258394"
@@ -4698,7 +4710,7 @@
     "voted_up": true,
     "timestamp_created": 1749790551,
     "timestamp_updated": 1749790551,
-    "playtime_forever": 1017.27,
+    "playtime_forever": 1018.82,
     "playtime_at_review_hours": 37.67,
     "num_reviews": 2,
     "author_steamid": "76561199646172010"
@@ -4722,7 +4734,7 @@
     "voted_up": true,
     "timestamp_created": 1749649438,
     "timestamp_updated": 1751423951,
-    "playtime_forever": 10642.92,
+    "playtime_forever": 10643.85,
     "playtime_at_review_hours": 8839.95,
     "num_reviews": 2,
     "author_steamid": "76561199239405955"
@@ -4830,7 +4842,7 @@
     "voted_up": false,
     "timestamp_created": 1749085537,
     "timestamp_updated": 1749085537,
-    "playtime_forever": 4589.62,
+    "playtime_forever": 4594.62,
     "playtime_at_review_hours": 4349.05,
     "num_reviews": 8,
     "author_steamid": "76561198088863839"
@@ -4842,7 +4854,7 @@
     "voted_up": true,
     "timestamp_created": 1748936195,
     "timestamp_updated": 1748936195,
-    "playtime_forever": 1557.37,
+    "playtime_forever": 1558.88,
     "playtime_at_review_hours": 369.67,
     "num_reviews": 1,
     "author_steamid": "76561198963607192"
@@ -4878,7 +4890,7 @@
     "voted_up": false,
     "timestamp_created": 1748824240,
     "timestamp_updated": 1749168568,
-    "playtime_forever": 370.83,
+    "playtime_forever": 373.83,
     "playtime_at_review_hours": 342.02,
     "num_reviews": 5,
     "author_steamid": "76561198146587657"
@@ -5166,7 +5178,7 @@
     "voted_up": true,
     "timestamp_created": 1746981036,
     "timestamp_updated": 1746981036,
-    "playtime_forever": 272.77,
+    "playtime_forever": 273.23,
     "playtime_at_review_hours": 117.5,
     "num_reviews": 3,
     "author_steamid": "76561198109506928"
@@ -5274,7 +5286,7 @@
     "voted_up": false,
     "timestamp_created": 1746806469,
     "timestamp_updated": 1746806469,
-    "playtime_forever": 2885.08,
+    "playtime_forever": 2887.93,
     "playtime_at_review_hours": 2761.4,
     "num_reviews": 2,
     "author_steamid": "76561198013779019"
@@ -5598,7 +5610,7 @@
     "voted_up": false,
     "timestamp_created": 1744378972,
     "timestamp_updated": 1765199926,
-    "playtime_forever": 1472.85,
+    "playtime_forever": 1475.03,
     "playtime_at_review_hours": 1086.67,
     "num_reviews": 3,
     "author_steamid": "76561199741901269"
@@ -6306,7 +6318,7 @@
     "voted_up": true,
     "timestamp_created": 1739873978,
     "timestamp_updated": 1739873978,
-    "playtime_forever": 6647.03,
+    "playtime_forever": 6656.62,
     "playtime_at_review_hours": 4629.48,
     "num_reviews": 1,
     "author_steamid": "76561199007193812"
@@ -6618,7 +6630,7 @@
     "voted_up": true,
     "timestamp_created": 1738566139,
     "timestamp_updated": 1738566139,
-    "playtime_forever": 639.55,
+    "playtime_forever": 639.67,
     "playtime_at_review_hours": 104.55,
     "num_reviews": 3,
     "author_steamid": "76561198839039239"
@@ -6726,7 +6738,7 @@
     "voted_up": true,
     "timestamp_created": 1738043011,
     "timestamp_updated": 1767156314,
-    "playtime_forever": 3065.37,
+    "playtime_forever": 3065.55,
     "playtime_at_review_hours": 2955.3,
     "num_reviews": 4,
     "author_steamid": "76561199207552400"
@@ -7014,7 +7026,7 @@
     "voted_up": true,
     "timestamp_created": 1736602747,
     "timestamp_updated": 1736602747,
-    "playtime_forever": 2560.87,
+    "playtime_forever": 2561.43,
     "playtime_at_review_hours": 856.98,
     "num_reviews": 1,
     "author_steamid": "76561199483959295"
@@ -7050,7 +7062,7 @@
     "voted_up": true,
     "timestamp_created": 1736527866,
     "timestamp_updated": 1736527866,
-    "playtime_forever": 5477.92,
+    "playtime_forever": 5489.17,
     "playtime_at_review_hours": 4504.78,
     "num_reviews": 1,
     "author_steamid": "76561199230572573"
@@ -7074,7 +7086,7 @@
     "voted_up": false,
     "timestamp_created": 1736230477,
     "timestamp_updated": 1736230477,
-    "playtime_forever": 2591.6,
+    "playtime_forever": 2593.5,
     "playtime_at_review_hours": 2238.13,
     "num_reviews": 1,
     "author_steamid": "76561199268233195"
@@ -7434,7 +7446,7 @@
     "voted_up": true,
     "timestamp_created": 1734267363,
     "timestamp_updated": 1734267363,
-    "playtime_forever": 2447.83,
+    "playtime_forever": 2447.93,
     "playtime_at_review_hours": 1899.33,
     "num_reviews": 2,
     "author_steamid": "76561198446320602"
@@ -8178,7 +8190,7 @@
     "voted_up": true,
     "timestamp_created": 1730214956,
     "timestamp_updated": 1730214956,
-    "playtime_forever": 11379.38,
+    "playtime_forever": 11379.5,
     "playtime_at_review_hours": 10183.93,
     "num_reviews": 23,
     "author_steamid": "76561198439990679"
@@ -8394,7 +8406,7 @@
     "voted_up": false,
     "timestamp_created": 1729438713,
     "timestamp_updated": 1729438713,
-    "playtime_forever": 7254.32,
+    "playtime_forever": 7255.75,
     "playtime_at_review_hours": 5449.65,
     "num_reviews": 2,
     "author_steamid": "76561199066832141"
@@ -9858,7 +9870,7 @@
     "voted_up": false,
     "timestamp_created": 1722674705,
     "timestamp_updated": 1722674705,
-    "playtime_forever": 6015.8,
+    "playtime_forever": 6018.75,
     "playtime_at_review_hours": 4553.97,
     "num_reviews": 6,
     "author_steamid": "76561198985191509"
@@ -10052,7 +10064,7 @@
     "timestamp_updated": 1721637153,
     "playtime_forever": 1.03,
     "playtime_at_review_hours": 1.03,
-    "num_reviews": 25,
+    "num_reviews": 26,
     "author_steamid": "76561198085388257"
   },
   {
@@ -10410,7 +10422,7 @@
     "voted_up": true,
     "timestamp_created": 1720358052,
     "timestamp_updated": 1720358052,
-    "playtime_forever": 5088.73,
+    "playtime_forever": 5089.77,
     "playtime_at_review_hours": 3588.67,
     "num_reviews": 3,
     "author_steamid": "76561199114448636"
@@ -10544,7 +10556,7 @@
     "timestamp_updated": 1720200660,
     "playtime_forever": 23.28,
     "playtime_at_review_hours": 23.28,
-    "num_reviews": 235,
+    "num_reviews": 243,
     "author_steamid": "76561198139501708"
   },
   {
@@ -11088,18 +11100,6 @@
     "author_steamid": "76561198294312547"
   },
   {
-    "review_id": "167553412",
-    "appid": 1085660,
-    "review_text": "분명 복합적이었던거같은데?",
-    "voted_up": true,
-    "timestamp_created": 1718618954,
-    "timestamp_updated": 1718618954,
-    "playtime_forever": 499.62,
-    "playtime_at_review_hours": 498.17,
-    "num_reviews": 5,
-    "author_steamid": "76561198093089373"
-  },
-  {
     "review_id": "167547470",
     "appid": 1085660,
     "review_text": "널 사랑한걸 후회한적없어..",
@@ -11394,7 +11394,7 @@
     "voted_up": true,
     "timestamp_created": 1718117460,
     "timestamp_updated": 1718117460,
-    "playtime_forever": 187.65,
+    "playtime_forever": 188.45,
     "playtime_at_review_hours": 45.22,
     "num_reviews": 3,
     "author_steamid": "76561199001362126"
@@ -11982,7 +11982,7 @@
     "voted_up": false,
     "timestamp_created": 1717552916,
     "timestamp_updated": 1717552916,
-    "playtime_forever": 4192.13,
+    "playtime_forever": 4192.47,
     "playtime_at_review_hours": 3585.0,
     "num_reviews": 3,
     "author_steamid": "76561198127981811"
@@ -12704,7 +12704,7 @@
     "timestamp_updated": 1714997472,
     "playtime_forever": 2732.72,
     "playtime_at_review_hours": 1713.9,
-    "num_reviews": 7,
+    "num_reviews": 5,
     "author_steamid": "76561198436402690"
   },
   {
@@ -31184,7 +31184,7 @@
     "timestamp_updated": 1666519574,
     "playtime_forever": 658.73,
     "playtime_at_review_hours": 444.48,
-    "num_reviews": 4,
+    "num_reviews": 5,
     "author_steamid": "76561198100680161"
   },
   {
@@ -36164,7 +36164,7 @@
     "timestamp_updated": 1658357598,
     "playtime_forever": 0.8,
     "playtime_at_review_hours": 0.8,
-    "num_reviews": 286,
+    "num_reviews": 287,
     "author_steamid": "76561198078833835"
   },
   {
@@ -42128,7 +42128,7 @@
     "timestamp_updated": 1647682084,
     "playtime_forever": 5.77,
     "playtime_at_review_hours": 5.77,
-    "num_reviews": 127,
+    "num_reviews": 128,
     "author_steamid": "76561198272756639"
   },
   {
@@ -49520,7 +49520,7 @@
     "timestamp_updated": 1638643457,
     "playtime_forever": 4.18,
     "playtime_at_review_hours": 3.3,
-    "num_reviews": 239,
+    "num_reviews": 242,
     "author_steamid": "76561198015911184"
   },
   {
@@ -53300,7 +53300,7 @@
     "timestamp_updated": 1633752335,
     "playtime_forever": 110.88,
     "playtime_at_review_hours": 33.07,
-    "num_reviews": 11,
+    "num_reviews": 12,
     "author_steamid": "76561199047621452"
   },
   {
@@ -92552,7 +92552,7 @@
     "timestamp_updated": 1600789355,
     "playtime_forever": 261.05,
     "playtime_at_review_hours": 254.0,
-    "num_reviews": 1,
+    "num_reviews": 2,
     "author_steamid": "76561198008942364"
   },
   {
@@ -98792,7 +98792,7 @@
     "timestamp_updated": 1741601480,
     "playtime_forever": 1013.68,
     "playtime_at_review_hours": 1010.95,
-    "num_reviews": 90,
+    "num_reviews": 91,
     "author_steamid": "76561198959342020"
   },
   {
@@ -107504,7 +107504,7 @@
     "timestamp_updated": 1609336154,
     "playtime_forever": 320.67,
     "playtime_at_review_hours": 291.33,
-    "num_reviews": 13,
+    "num_reviews": 14,
     "author_steamid": "76561198951226636"
   },
   {
@@ -112436,7 +112436,7 @@
     "timestamp_updated": 1693181808,
     "playtime_forever": 2881.6,
     "playtime_at_review_hours": 2773.35,
-    "num_reviews": 8,
+    "num_reviews": 12,
     "author_steamid": "76561198121260912"
   },
   {
@@ -158864,7 +158864,7 @@
     "timestamp_updated": 1720058754,
     "playtime_forever": 606.32,
     "playtime_at_review_hours": 243.42,
-    "num_reviews": 7,
+    "num_reviews": 8,
     "author_steamid": "76561198230894564"
   },
   {
@@ -161456,7 +161456,7 @@
     "timestamp_updated": 1572491774,
     "playtime_forever": 232.12,
     "playtime_at_review_hours": 87.07,
-    "num_reviews": 65,
+    "num_reviews": 66,
     "author_steamid": "76561198044107655"
   },
   {
@@ -162716,7 +162716,7 @@
     "timestamp_updated": 1691826749,
     "playtime_forever": 1010.62,
     "playtime_at_review_hours": 0.3,
-    "num_reviews": 26,
+    "num_reviews": 27,
     "author_steamid": "76561198003655297"
   },
   {
@@ -164936,7 +164936,7 @@
     "timestamp_updated": 1689093560,
     "playtime_forever": 76.5,
     "playtime_at_review_hours": 0.67,
-    "num_reviews": 22,
+    "num_reviews": 23,
     "author_steamid": "76561198415373004"
   },
   {
@@ -168450,7 +168450,7 @@
     "voted_up": false,
     "timestamp_created": 1570273511,
     "timestamp_updated": 1728209844,
-    "playtime_forever": 5696.07,
+    "playtime_forever": 5697.25,
     "playtime_at_review_hours": 5404.75,
     "num_reviews": 5,
     "author_steamid": "76561198340759900"
@@ -168680,7 +168680,7 @@
     "timestamp_updated": 1570246299,
     "playtime_forever": 1.87,
     "playtime_at_review_hours": 1.47,
-    "num_reviews": 130,
+    "num_reviews": 131,
     "author_steamid": "76561198136264484"
   },
   {

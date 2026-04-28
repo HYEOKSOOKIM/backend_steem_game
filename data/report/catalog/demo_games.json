@@ -48,5 +48,50 @@
     "appid": 2456740,
     "name": "inZOI",
     "enabled_for_demo": true
+  },
+  {
+    "appid": 1085660,
+    "name": "Destiny 2",
+    "enabled_for_demo": true
+  },
+  {
+    "appid": 553850,
+    "name": "HELLDIVERS 2",
+    "enabled_for_demo": true
+  },
+  {
+    "appid": 292030,
+    "name": "The Witcher 3: Wild Hunt",
+    "enabled_for_demo": true
+  },
+  {
+    "appid": 1174180,
+    "name": "Red Dead Redemption 2",
+    "enabled_for_demo": true
+  },
+  {
+    "appid": 230410,
+    "name": "Warframe",
+    "enabled_for_demo": true
+  },
+  {
+    "appid": 289070,
+    "name": "Sid Meier's Civilization VI",
+    "enabled_for_demo": true
+  },
+  {
+    "appid": 1245620,
+    "name": "ELDEN RING",
+    "enabled_for_demo": true
+  },
+  {
+    "appid": 3240220,
+    "name": "Grand Theft Auto V Enhanced",
+    "enabled_for_demo": true
+  },
+  {
+    "appid": 3321460,
+    "name": "붉은사막",
+    "enabled_for_demo": true
   }
 ]
