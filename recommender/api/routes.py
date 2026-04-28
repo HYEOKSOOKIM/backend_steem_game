@@ -59,7 +59,13 @@ if APIRouter is not None:
 
     @recommend_router.get("/health")
     def recommend_health() -> dict[str, Any]:
-        return {"status": "ok", "db_ready": _is_db_ready()}
+        from recommender.src.localize import get_translation_checkin_status
+
+        return {
+            "status": "ok",
+            "db_ready": _is_db_ready(),
+            "translation_checkin": get_translation_checkin_status(),
+        }
 
     @recommend_router.get("/suggest")
     def recommend_suggest(q: str = "", limit: int = 10) -> JSONResponse:
