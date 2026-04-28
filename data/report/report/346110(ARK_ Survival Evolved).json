@@ -1,10 +1,618 @@
 {
   "report_version": "v4-planned-sections",
   "appid": 346110,
-  "pipeline_run_id": "346110-snapshot-regen",
-  "generated_at": "2026-04-16T05:28:21.978733+00:00",
-  "source_review_count": 4000,
-  "included_review_count": 2040,
+  "pipeline_run_id": "346110-20260427T061254Z",
+  "generated_at": "2026-04-27T06:16:34.165084+00:00",
+  "source_review_count": 19999,
+  "included_review_count": 10847,
+  "min_report_review_count": 100,
+  "report_state": "ready",
+  "review_trend": {
+    "granularity": "month",
+    "metric": "positive_ratio",
+    "points": [
+      {
+        "month": "2018-01",
+        "positive_count": 8,
+        "review_count": 9,
+        "positive_ratio": 0.8889
+      },
+      {
+        "month": "2018-02",
+        "positive_count": 78,
+        "review_count": 111,
+        "positive_ratio": 0.7027
+      },
+      {
+        "month": "2018-03",
+        "positive_count": 36,
+        "review_count": 52,
+        "positive_ratio": 0.6923
+      },
+      {
+        "month": "2018-04",
+        "positive_count": 28,
+        "review_count": 35,
+        "positive_ratio": 0.8
+      },
+      {
+        "month": "2018-05",
+        "positive_count": 28,
+        "review_count": 39,
+        "positive_ratio": 0.7179
+      },
+      {
+        "month": "2018-06",
+        "positive_count": 68,
+        "review_count": 99,
+        "positive_ratio": 0.6869
+      },
+      {
+        "month": "2018-07",
+        "positive_count": 38,
+        "review_count": 49,
+        "positive_ratio": 0.7755
+      },
+      {
+        "month": "2018-08",
+        "positive_count": 32,
+        "review_count": 41,
+        "positive_ratio": 0.7805
+      },
+      {
+        "month": "2018-09",
+        "positive_count": 27,
+        "review_count": 38,
+        "positive_ratio": 0.7105
+      },
+      {
+        "month": "2018-10",
+        "positive_count": 23,
+        "review_count": 33,
+        "positive_ratio": 0.697
+      },
+      {
+        "month": "2018-11",
+        "positive_count": 114,
+        "review_count": 151,
+        "positive_ratio": 0.755
+      },
+      {
+        "month": "2018-12",
+        "positive_count": 111,
+        "review_count": 181,
+        "positive_ratio": 0.6133
+      },
+      {
+        "month": "2019-01",
+        "positive_count": 123,
+        "review_count": 198,
+        "positive_ratio": 0.6212
+      },
+      {
+        "month": "2019-02",
+        "positive_count": 193,
+        "review_count": 295,
+        "positive_ratio": 0.6542
+      },
+      {
+        "month": "2019-03",
+        "positive_count": 98,
+        "review_count": 144,
+        "positive_ratio": 0.6806
+      },
+      {
+        "month": "2019-04",
+        "positive_count": 66,
+        "review_count": 98,
+        "positive_ratio": 0.6735
+      },
+      {
+        "month": "2019-05",
+        "positive_count": 49,
+        "review_count": 73,
+        "positive_ratio": 0.6712
+      },
+      {
+        "month": "2019-06",
+        "positive_count": 101,
+        "review_count": 132,
+        "positive_ratio": 0.7652
+      },
+      {
+        "month": "2019-07",
+        "positive_count": 130,
+        "review_count": 162,
+        "positive_ratio": 0.8025
+      },
+      {
+        "month": "2019-08",
+        "positive_count": 78,
+        "review_count": 112,
+        "positive_ratio": 0.6964
+      },
+      {
+        "month": "2019-09",
+        "positive_count": 57,
+        "review_count": 80,
+        "positive_ratio": 0.7125
+      },
+      {
+        "month": "2019-10",
+        "positive_count": 93,
+        "review_count": 126,
+        "positive_ratio": 0.7381
+      },
+      {
+        "month": "2019-11",
+        "positive_count": 691,
+        "review_count": 782,
+        "positive_ratio": 0.8836
+      },
+      {
+        "month": "2019-12",
+        "positive_count": 519,
+        "review_count": 604,
+        "positive_ratio": 0.8593
+      },
+      {
+        "month": "2020-01",
+        "positive_count": 500,
+        "review_count": 589,
+        "positive_ratio": 0.8489
+      },
+      {
+        "month": "2020-02",
+        "positive_count": 447,
+        "review_count": 538,
+        "positive_ratio": 0.8309
+      },
+      {
+        "month": "2020-03",
+        "positive_count": 557,
+        "review_count": 703,
+        "positive_ratio": 0.7923
+      },
+      {
+        "month": "2020-04",
+        "positive_count": 362,
+        "review_count": 457,
+        "positive_ratio": 0.7921
+      },
+      {
+        "month": "2020-05",
+        "positive_count": 292,
+        "review_count": 347,
+        "positive_ratio": 0.8415
+      },
+      {
+        "month": "2020-06",
+        "positive_count": 270,
+        "review_count": 326,
+        "positive_ratio": 0.8282
+      },
+      {
+        "month": "2020-07",
+        "positive_count": 246,
+        "review_count": 306,
+        "positive_ratio": 0.8039
+      },
+      {
+        "month": "2020-08",
+        "positive_count": 195,
+        "review_count": 245,
+        "positive_ratio": 0.7959
+      },
+      {
+        "month": "2020-09",
+        "positive_count": 242,
+        "review_count": 299,
+        "positive_ratio": 0.8094
+      },
+      {
+        "month": "2020-10",
+        "positive_count": 220,
+        "review_count": 266,
+        "positive_ratio": 0.8271
+      },
+      {
+        "month": "2020-11",
+        "positive_count": 296,
+        "review_count": 368,
+        "positive_ratio": 0.8043
+      },
+      {
+        "month": "2020-12",
+        "positive_count": 291,
+        "review_count": 362,
+        "positive_ratio": 0.8039
+      },
+      {
+        "month": "2021-01",
+        "positive_count": 281,
+        "review_count": 344,
+        "positive_ratio": 0.8169
+      },
+      {
+        "month": "2021-02",
+        "positive_count": 252,
+        "review_count": 309,
+        "positive_ratio": 0.8155
+      },
+      {
+        "month": "2021-03",
+        "positive_count": 141,
+        "review_count": 171,
+        "positive_ratio": 0.8246
+      },
+      {
+        "month": "2021-04",
+        "positive_count": 107,
+        "review_count": 131,
+        "positive_ratio": 0.8168
+      },
+      {
+        "month": "2021-05",
+        "positive_count": 148,
+        "review_count": 196,
+        "positive_ratio": 0.7551
+      },
+      {
+        "month": "2021-06",
+        "positive_count": 347,
+        "review_count": 418,
+        "positive_ratio": 0.8301
+      },
+      {
+        "month": "2021-07",
+        "positive_count": 261,
+        "review_count": 321,
+        "positive_ratio": 0.8131
+      },
+      {
+        "month": "2021-08",
+        "positive_count": 194,
+        "review_count": 254,
+        "positive_ratio": 0.7638
+      },
+      {
+        "month": "2021-09",
+        "positive_count": 120,
+        "review_count": 153,
+        "positive_ratio": 0.7843
+      },
+      {
+        "month": "2021-10",
+        "positive_count": 161,
+        "review_count": 207,
+        "positive_ratio": 0.7778
+      },
+      {
+        "month": "2021-11",
+        "positive_count": 184,
+        "review_count": 227,
+        "positive_ratio": 0.8106
+      },
+      {
+        "month": "2021-12",
+        "positive_count": 299,
+        "review_count": 357,
+        "positive_ratio": 0.8375
+      },
+      {
+        "month": "2022-01",
+        "positive_count": 281,
+        "review_count": 349,
+        "positive_ratio": 0.8052
+      },
+      {
+        "month": "2022-02",
+        "positive_count": 204,
+        "review_count": 253,
+        "positive_ratio": 0.8063
+      },
+      {
+        "month": "2022-03",
+        "positive_count": 140,
+        "review_count": 160,
+        "positive_ratio": 0.875
+      },
+      {
+        "month": "2022-04",
+        "positive_count": 142,
+        "review_count": 162,
+        "positive_ratio": 0.8765
+      },
+      {
+        "month": "2022-05",
+        "positive_count": 112,
+        "review_count": 137,
+        "positive_ratio": 0.8175
+      },
+      {
+        "month": "2022-06",
+        "positive_count": 429,
+        "review_count": 547,
+        "positive_ratio": 0.7843
+      },
+      {
+        "month": "2022-07",
+        "positive_count": 305,
+        "review_count": 382,
+        "positive_ratio": 0.7984
+      },
+      {
+        "month": "2022-08",
+        "positive_count": 218,
+        "review_count": 269,
+        "positive_ratio": 0.8104
+      },
+      {
+        "month": "2022-09",
+        "positive_count": 154,
+        "review_count": 190,
+        "positive_ratio": 0.8105
+      },
+      {
+        "month": "2022-10",
+        "positive_count": 163,
+        "review_count": 190,
+        "positive_ratio": 0.8579
+      },
+      {
+        "month": "2022-11",
+        "positive_count": 168,
+        "review_count": 197,
+        "positive_ratio": 0.8528
+      },
+      {
+        "month": "2022-12",
+        "positive_count": 202,
+        "review_count": 250,
+        "positive_ratio": 0.808
+      },
+      {
+        "month": "2023-01",
+        "positive_count": 282,
+        "review_count": 343,
+        "positive_ratio": 0.8222
+      },
+      {
+        "month": "2023-02",
+        "positive_count": 191,
+        "review_count": 234,
+        "positive_ratio": 0.8162
+      },
+      {
+        "month": "2023-03",
+        "positive_count": 128,
+        "review_count": 146,
+        "positive_ratio": 0.8767
+      },
+      {
+        "month": "2023-04",
+        "positive_count": 79,
+        "review_count": 98,
+        "positive_ratio": 0.8061
+      },
+      {
+        "month": "2023-05",
+        "positive_count": 106,
+        "review_count": 132,
+        "positive_ratio": 0.803
+      },
+      {
+        "month": "2023-06",
+        "positive_count": 110,
+        "review_count": 124,
+        "positive_ratio": 0.8871
+      },
+      {
+        "month": "2023-07",
+        "positive_count": 185,
+        "review_count": 208,
+        "positive_ratio": 0.8894
+      },
+      {
+        "month": "2023-08",
+        "positive_count": 160,
+        "review_count": 190,
+        "positive_ratio": 0.8421
+      },
+      {
+        "month": "2023-09",
+        "positive_count": 117,
+        "review_count": 132,
+        "positive_ratio": 0.8864
+      },
+      {
+        "month": "2023-10",
+        "positive_count": 163,
+        "review_count": 186,
+        "positive_ratio": 0.8763
+      },
+      {
+        "month": "2023-11",
+        "positive_count": 110,
+        "review_count": 130,
+        "positive_ratio": 0.8462
+      },
+      {
+        "month": "2023-12",
+        "positive_count": 96,
+        "review_count": 116,
+        "positive_ratio": 0.8276
+      },
+      {
+        "month": "2024-01",
+        "positive_count": 179,
+        "review_count": 221,
+        "positive_ratio": 0.81
+      },
+      {
+        "month": "2024-02",
+        "positive_count": 174,
+        "review_count": 210,
+        "positive_ratio": 0.8286
+      },
+      {
+        "month": "2024-03",
+        "positive_count": 101,
+        "review_count": 114,
+        "positive_ratio": 0.886
+      },
+      {
+        "month": "2024-04",
+        "positive_count": 84,
+        "review_count": 100,
+        "positive_ratio": 0.84
+      },
+      {
+        "month": "2024-05",
+        "positive_count": 102,
+        "review_count": 128,
+        "positive_ratio": 0.7969
+      },
+      {
+        "month": "2024-06",
+        "positive_count": 92,
+        "review_count": 108,
+        "positive_ratio": 0.8519
+      },
+      {
+        "month": "2024-07",
+        "positive_count": 113,
+        "review_count": 139,
+        "positive_ratio": 0.8129
+      },
+      {
+        "month": "2024-08",
+        "positive_count": 97,
+        "review_count": 120,
+        "positive_ratio": 0.8083
+      },
+      {
+        "month": "2024-09",
+        "positive_count": 83,
+        "review_count": 102,
+        "positive_ratio": 0.8137
+      },
+      {
+        "month": "2024-10",
+        "positive_count": 87,
+        "review_count": 100,
+        "positive_ratio": 0.87
+      },
+      {
+        "month": "2024-11",
+        "positive_count": 98,
+        "review_count": 117,
+        "positive_ratio": 0.8376
+      },
+      {
+        "month": "2024-12",
+        "positive_count": 144,
+        "review_count": 166,
+        "positive_ratio": 0.8675
+      },
+      {
+        "month": "2025-01",
+        "positive_count": 141,
+        "review_count": 161,
+        "positive_ratio": 0.8758
+      },
+      {
+        "month": "2025-02",
+        "positive_count": 130,
+        "review_count": 167,
+        "positive_ratio": 0.7784
+      },
+      {
+        "month": "2025-03",
+        "positive_count": 69,
+        "review_count": 79,
+        "positive_ratio": 0.8734
+      },
+      {
+        "month": "2025-04",
+        "positive_count": 56,
+        "review_count": 65,
+        "positive_ratio": 0.8615
+      },
+      {
+        "month": "2025-05",
+        "positive_count": 111,
+        "review_count": 127,
+        "positive_ratio": 0.874
+      },
+      {
+        "month": "2025-06",
+        "positive_count": 108,
+        "review_count": 131,
+        "positive_ratio": 0.8244
+      },
+      {
+        "month": "2025-07",
+        "positive_count": 129,
+        "review_count": 188,
+        "positive_ratio": 0.6862
+      },
+      {
+        "month": "2025-08",
+        "positive_count": 62,
+        "review_count": 131,
+        "positive_ratio": 0.4733
+      },
+      {
+        "month": "2025-09",
+        "positive_count": 35,
+        "review_count": 46,
+        "positive_ratio": 0.7609
+      },
+      {
+        "month": "2025-10",
+        "positive_count": 66,
+        "review_count": 88,
+        "positive_ratio": 0.75
+      },
+      {
+        "month": "2025-11",
+        "positive_count": 66,
+        "review_count": 89,
+        "positive_ratio": 0.7416
+      },
+      {
+        "month": "2025-12",
+        "positive_count": 53,
+        "review_count": 89,
+        "positive_ratio": 0.5955
+      },
+      {
+        "month": "2026-01",
+        "positive_count": 97,
+        "review_count": 126,
+        "positive_ratio": 0.7698
+      },
+      {
+        "month": "2026-02",
+        "positive_count": 62,
+        "review_count": 96,
+        "positive_ratio": 0.6458
+      },
+      {
+        "month": "2026-03",
+        "positive_count": 49,
+        "review_count": 63,
+        "positive_ratio": 0.7778
+      },
+      {
+        "month": "2026-04",
+        "positive_count": 54,
+        "review_count": 65,
+        "positive_ratio": 0.8308
+      }
+    ]
+  },
   "game": {
     "name": "ARK: Survival Evolved",
     "genres": [
@@ -16,16 +624,26 @@
     ],
     "price_model": "paid",
     "is_free": false,
-    "release_stage": "released"
+    "release_stage": "released",
+    "release_date_text": "2017년 8월 27일",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/346110/header.jpg?t=1765677889",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/346110/capsule_231x87.jpg?t=1765677889",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/346110/capsule_184x69.jpg?t=1765677889",
+    "short_description": "Stranded on the shores of a mysterious island, you must learn to survive. Use your cunning to kill or tame the primeval creatures roaming the land, and encounter other players to survive, dominate... and escape!",
+    "steam_store_url": "https://store.steampowered.com/app/346110",
+    "steam_recommendation_count": 576658,
+    "steam_review_score_desc": "Very Positive",
+    "steam_total_positive": 16593,
+    "steam_total_negative": 4085,
+    "steam_total_reviews": 20678
   },
   "report_plan": {
     "decision_anchor": {
-      "buy_recommendation": "buy_on_sale",
+      "buy_recommendation": "buy_now",
       "primary_reason_ids": [
-        "risk_1",
-        "risk_2"
+        "str_1"
       ],
-      "rationale_short": "일반 버그 불편을 감수해야 할 수 있어 가격 메리트가 있는 시점이 더 낫습니다."
+      "rationale_short": "전투 손맛과 다양한 콘텐츠로 인해 생존 게임을 좋아하는 유저에게 추천합니다."
     },
     "section_blueprint": {
       "strength_block_count": 3,
@@ -38,6 +656,16 @@
           "reason_id": "str_1",
           "aspect": "gameplay",
           "theme": "전투 손맛 / 액션 호평"
+        },
+        {
+          "reason_id": "str_2",
+          "aspect": "multiplayer",
+          "theme": "매칭 / 서버 문제"
+        },
+        {
+          "reason_id": "str_3",
+          "aspect": "content_depth",
+          "theme": "중독성 / 시간순삭"
         }
       ],
       "risks": [
@@ -60,273 +688,327 @@
     }
   },
   "report_display": {
-    "headline": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험 장점은 분명하지만 예상치 못한 오류가 플레이 리듬을 끊을 수 있는 리스크가 거슬릴 수 있어 할인 시점이 더 안전합니다.",
-    "buy_recommendation": "buy_on_sale",
-    "buy_timing_summary": "예상치 못한 오류가 플레이 리듬을 끊을 수 있는 리스크 불편을 감수해야 할 수 있어 가격 메리트가 있는 시점이 더 낫습니다.",
+    "headline": "전투 손맛과 다양한 콘텐츠로 인해 생존 게임을 좋아하는 유저에게 추천합니다.",
+    "buy_recommendation": "buy_now",
+    "buy_timing_summary": "예상치 못한 오류와 불편을 감수해야 할 수 있어 가격 메리트가 있는 시점이 더 낫습니다.",
     "good_for": [
-      "긴 보스전에서 패턴을 익히고 반복 트라이를 즐기는 플레이어"
+      "생존 게임을 즐기는 플레이어",
+      "전투 손맛을 중시하는 유저",
+      "다양한 콘텐츠를 탐험하고 싶은 플레이어"
     ],
     "not_good_for": [
-      "진행 중 오류나 예기치 않은 끊김을 거의 허용하지 않는 플레이어",
-      "짧은 플레이 시간에도 프레임 안정성이 꼭 필요한 환경에서 즐기려는 플레이어",
-      "팀플레이 품질과 소통 스트레스를 크게 받는 플레이어"
+      "진행 중 오류나 끊김을 거의 허용하지 않는 플레이어",
+      "프레임과 반응성에 민감한 플레이어",
+      "매칭과 서버 상태 변화에 스트레스를 크게 받는 플레이어"
     ],
     "top_strengths": [
       {
-        "title": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험",
-        "summary": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험 체감이 좋아 한 판 더 하게 되는 흐름이 잘 만들어집니다."
+        "title": "전투 손맛의 쾌감",
+        "summary": "다양한 공룡과의 전투는 긴장감 넘치는 경험을 선사하며, 생존의 재미를 더합니다."
+      },
+      {
+        "title": "중독성이 있는 탐험",
+        "summary": "각기 다른 맵과 생물들이 탐험의 재미를 극대화하며 시간을 잊게 만듭니다."
+      },
+      {
+        "title": "다양한 콘텐츠의 풍부함",
+        "summary": "수많은 DLC와 모드를 통해 플레이어는 끊임없이 새로운 경험을 할 수 있습니다."
       }
     ],
     "top_risks": [
       {
         "title": "예상치 못한 오류가 플레이 리듬을 끊을 수 있는 리스크",
-        "summary": "예상치 못한 오류가 플레이 리듬을 끊을 수 있는 리스크가 진행 리듬을 자주 끊어 플레이 피로를 높일 수 있습니다."
+        "summary": "예상치 못한 오류가 생기면 플레이 흐름이 끊겨 피로가 빠르게 쌓일 수 있습니다."
       },
       {
         "title": "프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크",
-        "summary": "프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크 때문에 전투나 이동 흐름이 끊겨 몰입이 쉽게 깨질 수 있습니다."
+        "summary": "프레임과 반응성이 흔들리면 조작 감각이 무너져 답답하게 느껴질 수 있습니다."
       },
       {
-        "title": "매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크",
-        "summary": "매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크가 플레이 경험의 만족도를 낮출 수 있어 주의가 필요합니다."
+        "title": "매칭과 서버 상태에 따라 체감이 흔들리는 구간",
+        "summary": "매칭과 서버 상태가 흔들리면 한 판의 완성도가 크게 달라질 수 있습니다."
       }
     ],
     "recent_state": {
-      "status": "mixed",
-      "summary": "만족 포인트와 불편 포인트가 함께 보여 체감 평가가 갈리는 상태입니다."
+      "status": "declining",
+      "summary": "최근에는 불편을 말하는 후기가 늘어나 분위기가 다소 내려가는 편입니다."
     }
   },
   "evidence_sections": {
     "strengths": [
       {
         "block_id": "str_1",
-        "title": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험이 실제 플레이 만족으로 이어진다는 반응",
+        "title": "탐험하며 발견하는 재미가 크다는 반응",
         "theme": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험",
-        "why_it_matters": "전투/핵심 플레이에서 전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험 체감이 좋으면 초반부터 몰입이 붙어 장시간 플레이 만족으로 이어질 가능성이 큽니다.",
-        "explanation": "전투/핵심 플레이에서 전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험 체감이 좋으면 초반부터 몰입이 붙어 장시간 플레이 만족으로 이어질 가능성이 큽니다.",
+        "why_it_matters": "탐험과 발견 그 자체를 좋게 보는 반응이 많아, 돌아다니며 찾는 플레이를 좋아하면 잘 맞습니다.",
+        "explanation": "탐험과 발견 그 자체를 좋게 보는 반응이 많아, 돌아다니며 찾는 플레이를 좋아하면 잘 맞습니다.",
         "aspect_keys": [
           "gameplay"
         ],
         "stance": "positive",
         "consensus_level": "high",
-        "mention_count": 256,
+        "mention_count": 1115,
         "evidence_quality_level": "relaxed",
         "evidence_candidate_snippets": [
-          "공룡입니다. 뭘 생각하던, 어린 전 공룡이 좋습니다. 성인인 전 아직도 공룡이 좋습니다. 공룡이 막 나오는 이 게임같은 경우라면. 좋아합니다.",
-          "용량 존나 큰 거 빼고는 이만한 낭만 넘치는 공룡게임이 없다",
-          "공룡게임 당연 1등이다 (but 하면 인생이 망한다)",
-          "스팀버전 마인크래프트 공룡을 곁들인."
+          "싸우는거 싫어하고 컨트롤도 딸리는 사람도 할 수 있는 게임입니다 PVE 비공식 서버 하나 골라 들어가거나 서버 메니저로 서버 만들어서 친구들끼리 하기도 해보세요 야무집니다 DLC는 꾸러미 할인때 다 구매하시는거 추천 드립니다 맵마다 있는 공룡들이 조금씩 다르고 맵들 분위기도 달라서 구경하는재미+수집재미 있습니다 다만 보스전은 꽤나 어려우니 공룡들 빡세게 키워서 도전하시길.. 창작모드에서 간단한 모드들 몇개 추가해서 하시는거 추천드려요 새삼 편안해집니다 서버메니저,공룡,서버설정등은 인터넷에 검색하면 여러개 많이 떠서 앵간하면 막히는 부분 없을겁니다 그래서 2는 언제나와..",
+          "PVE 멀티 생존 게임을 좋아한다면 추천! 재밌어요 :) 포켓몬스터 게임처럼 포켓몬 대신 공룡을 종류별로 수집하거나 테이밍이 가능하기 때문에 타고 다닐 수도 있고, 같이 전투도 해주고요ㅎ 심즈처럼 DLC도 많아서 기존에 하고 있던 맵을 다 열고 할 거 다해서 할 게 없을 때 하고 싶은 DLC 구매해서 새로운 곳에서 새로운 공룡과 새로운 시작 가능! 심지어 기존에 있던 세계에서 새로운 DLC 세계로 넘어갈 때 챙겨가고 싶은 공룡과 아이템 등을 챙겨서 이동이 가능한 점도 좋아요~"
         ],
         "evidence_snippets": [
-          "공룡입니다. 뭘 생각하던, 어린 전 공룡이 좋습니다. 성인인 전 아직도 공룡이 좋습니다. 공룡이 막 나오는 이 게임같은 경우라면. 좋아합니다.",
-          "용량 존나 큰 거 빼고는 이만한 낭만 넘치는 공룡게임이 없다",
-          "공룡게임 당연 1등이다 (but 하면 인생이 망한다)"
+          "PVE 멀티 생존 게임을 좋아한다면 추천! 재밌어요 :) 포켓몬스터 게임처럼 포켓몬 대신 공룡을 종류별로 수집하거나 테이밍이 가능하기 때문에 타고 다닐 수도 있고, 같이 전투도 해주고요ㅎ 심즈처럼 DLC도 많아서 기존에 하고 있던 맵을 다 열고 할 거 다해서 할 게 없을 때 하고 싶은 DLC 구매해서 새로운 곳에서 새로운 공룡과 새로운 시작 가능! 심지어 기존에 있던 세계에서 새로운 DLC 세계로 넘어갈 때 챙겨가고 싶은 공룡과 아이템 등을 챙겨서 이동이 가능한 점도 좋아요~",
+          "싸우는거 싫어하고 컨트롤도 딸리는 사람도 할 수 있는 게임입니다 PVE 비공식 서버 하나 골라 들어가거나 서버 메니저로 서버 만들어서 친구들끼리 하기도 해보세요 야무집니다 DLC는 꾸러미 할인때 다 구매하시는거 추천 드립니다 맵마다 있는 공룡들이 조금씩 다르고 맵들 분위기도 달라서 구경하는재미+수집재미 있습니다 다만 보스전은 꽤나 어려우니 공룡들 빡세게 키워서 도전하시길.. 창작모드에서 간단한 모드들 몇개 추가해서 하시는거 추천드려요 새삼 편안해집니다 서버메니저, 공룡, 서버설정등은 인터넷에 검색하면 여러개 많이 떠서 앵간하면 막히는 부분 없을겁니다 그래서 2는 언제나와.."
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-positive-1-6-6995114882662276573",
+            "text": "싸우는거 싫어하고 컨트롤도 딸리는 사람도 할 수 있는 게임입니다 PVE 비공식 서버 하나 골라 들어가거나 서버 메니저로 서버 만들어서 친구들끼리 하기도 해보세요 야무집니다 DLC는 꾸러미 할인때 다 구매하시는거 추천 드립니다 맵마다 있는 공룡들이 조금씩 다르고 맵들 분위기도 달라서 구경하는재미+수집재미 있습니다 다만 보스전은 꽤나 어려우니 공룡들 빡세게 키워서 도전하시길.. 창작모드에서 간단한 모드들 몇개 추가해서 하시는거 추천드려요 새삼 편안해집니다 서버메니저,공룡,서버설정등은 인터넷에 검색하면 여러개 많이 떠서 앵간하면 막히는 부분 없을겁니다 그래서 2는 언제나와.."
+          },
+          {
+            "review_id": "compress-v3-positive-1-7-6132029564355912063",
+            "text": "PVE 멀티 생존 게임을 좋아한다면 추천! 재밌어요 :) 포켓몬스터 게임처럼 포켓몬 대신 공룡을 종류별로 수집하거나 테이밍이 가능하기 때문에 타고 다닐 수도 있고, 같이 전투도 해주고요ㅎ 심즈처럼 DLC도 많아서 기존에 하고 있던 맵을 다 열고 할 거 다해서 할 게 없을 때 하고 싶은 DLC 구매해서 새로운 곳에서 새로운 공룡과 새로운 시작 가능! 심지어 기존에 있던 세계에서 새로운 DLC 세계로 넘어갈 때 챙겨가고 싶은 공룡과 아이템 등을 챙겨서 이동이 가능한 점도 좋아요~"
+          }
         ]
       }
     ],
     "risks": [
       {
         "block_id": "risk_1",
-        "title": "매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크 때문에 플레이 흐름이 끊긴다는 반응",
+        "title": "매칭과 서버 상태가 체감을 흔든다는 반응",
         "theme": "매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크",
-        "why_it_matters": "멀티플레이에서 매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크 불편가 반복되면 초반 만족도가 크게 떨어질 수 있어 구매 전 감수 여부 확인가 필요합니다.",
-        "explanation": "멀티플레이에서 매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크 불편가 반복되면 초반 만족도가 크게 떨어질 수 있어 구매 전 감수 여부 확인가 필요합니다.",
+        "why_it_matters": "매칭과 서버 상태를 문제로 보는 반응이 이어져, 한 판의 완성도가 상황에 따라 꽤 달라질 수 있습니다.",
+        "explanation": "매칭과 서버 상태를 문제로 보는 반응이 이어져, 한 판의 완성도가 상황에 따라 꽤 달라질 수 있습니다.",
         "aspect_keys": [
           "multiplayer"
         ],
         "stance": "negative",
         "consensus_level": "high",
-        "mention_count": 294,
-        "evidence_quality_level": "strict",
+        "mention_count": 1966,
+        "evidence_quality_level": "relaxed",
         "evidence_candidate_snippets": [
           "이렇게 최적화 안되고 서버 접속하는데 오래걸리고 시간잡아먹는겜은 손이가질 않아서 못하겠음;; 스트레스받아가며 게임 할 가치는 없음",
-          "개 ㅈ망겜 멀티를 못하게하네 설치도 오래 걸려 지우는 것도 오래걸려 진득하게 즐기고자 마음잡고 친구들끼리 하면 핵쟁이쌔끼가 들어와서 다 죽이고 다 부수고 나가고 서버매니저 하려고하면 업뎃해서 지랄하고 그냥 못하겠네 ㅆ발겜"
+          "핵에 관련한 조치를 하지않는 미친놈아 조치좀하라고",
+          "친구랑 같이하고 있는데 어떤 미친놈이 그리핀 10000020랩 짜리 들고와서 접었어요 하지마세요"
         ],
         "evidence_snippets": [
           "이렇게 최적화 안되고 서버 접속하는데 오래걸리고 시간잡아먹는겜은 손이가질 않아서 못하겠음;; 스트레스받아가며 게임 할 가치는 없음",
-          "개 ㅈ망겜 멀티를 못하게하네 설치도 오래 걸려 지우는 것도 오래걸려 진득하게 즐기고자 마음잡고 친구들끼리 하면 핵쟁이쌔끼가 들어와서 다 죽이고 다 부수고 나가고 서버매니저 하려고하면 업뎃해서 지랄하고 그냥 못하겠네 ㅆ발겜"
+          "핵에 관련한 조치를 하지않는 미친놈아 조치좀하라고"
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-negative-1-1-7828367190548619568",
+            "text": "이렇게 최적화 안되고 서버 접속하는데 오래걸리고 시간잡아먹는겜은 손이가질 않아서 못하겠음;; 스트레스받아가며 게임 할 가치는 없음"
+          },
+          {
+            "review_id": "compress-v3-negative-1-2-3680464124441245469",
+            "text": "핵에 관련한 조치를 하지않는 미친놈아 조치좀하라고"
+          },
+          {
+            "review_id": "compress-v3-negative-1-3-3089063383404372091",
+            "text": "친구랑 같이하고 있는데 어떤 미친놈이 그리핀 10000020랩 짜리 들고와서 접었어요 하지마세요"
+          }
         ]
       },
       {
         "block_id": "risk_2",
-        "title": "예상치 못한 오류가 플레이 리듬을 끊을 수 있는 리스크 때문에 플레이 흐름이 끊긴다는 반응",
+        "title": "예상치 못한 오류가 흐름을 끊는다는 반응",
         "theme": "예상치 못한 오류가 플레이 리듬을 끊을 수 있는 리스크",
-        "why_it_matters": "버그/안정성에서 예상치 못한 오류가 플레이 리듬을 끊을 수 있는 리스크 불편가 반복되면 초반 만족도가 크게 떨어질 수 있어 구매 전 감수 여부 확인가 필요합니다.",
-        "explanation": "버그/안정성에서 예상치 못한 오류가 플레이 리듬을 끊을 수 있는 리스크 불편가 반복되면 초반 만족도가 크게 떨어질 수 있어 구매 전 감수 여부 확인가 필요합니다.",
+        "why_it_matters": "오류와 튕김을 반복해서 언급하는 반응이 있어, 흐름이 끊기는 상황을 감수해야 할 수 있습니다.",
+        "explanation": "오류와 튕김을 반복해서 언급하는 반응이 있어, 흐름이 끊기는 상황을 감수해야 할 수 있습니다.",
         "aspect_keys": [
           "bugs"
         ],
         "stance": "negative",
         "consensus_level": "high",
-        "mention_count": 183,
+        "mention_count": 1056,
         "evidence_quality_level": "strict",
         "evidence_candidate_snippets": [
+          "시간 개빨리감 다만 메모리 누수와 버그 좀있긴함",
+          "재밌어요 재밌는데... 이게 너무 버그가많고 너무 최적화가 그냥 쓰래기고 용량은 더럽게 많이 먹고 한동안 난리가 나기도하고 그냥 좀 게임이 좀 그래요",
           "다운로드 버그부터 프라이멀데이터버그까지 2시간 정도 로딩 창,다운로드에 날림 즐겁게 공룡 타고 싶었는데 망겜",
-          "버그가 진짜 존나게 많습니다 여러분 하지마세요 걍 어센디드 하세요",
-          "개적화와 버그 때문에 그냥 하기가 싫은 게임입니다. 하지만 공룡을 사랑하는 우리 이대일대영대남들이 과연 이 게임을 지나칠 수 있을까요? 스테고사우르스를 타고 티라노와 반신욕을 즐기다가 프테라노돈을 타고 케챨과 교미를 하러 떠나는 워메이징 다이노소어 파크로의 여행에 당신을 초대합니다."
+          "버그가 진짜 존나게 많습니다 여러분 하지마세요 걍 어센디드 하세요"
         ],
         "evidence_snippets": [
-          "다운로드 버그부터 프라이멀데이터버그까지 2시간 정도 로딩 창, 다운로드에 날림 즐겁게 공룡 타고 싶었는데 망겜",
-          "버그가 진짜 존나게 많습니다 여러분 하지마세요 걍 어센디드 하세요",
-          "개적화와 버그 때문에 그냥 하기가 싫은 게임입니다. 하지만 공룡을 사랑하는 우리 이대일대영대남들이 과연 이 게임을 지나칠 수 있을까요? 스테고사우르스를 타고 티라노와 반신욕을 즐기다가 프테라노돈을 타고 케챨과 교미를 하러 떠나는 워메이징 다이노소어 파크로의 여행에 당신을 초대합니다."
-        ]
-      },
-      {
-        "block_id": "risk_3",
-        "title": "프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크 때문에 플레이 흐름이 끊긴다는 반응",
-        "theme": "프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크",
-        "why_it_matters": "성능/최적화에서 프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크 불편가 반복되면 초반 만족도가 크게 떨어질 수 있어 구매 전 감수 여부 확인가 필요합니다.",
-        "explanation": "성능/최적화에서 프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크 불편가 반복되면 초반 만족도가 크게 떨어질 수 있어 구매 전 감수 여부 확인가 필요합니다.",
-        "aspect_keys": [
-          "performance"
+          "재밌어요 재밌는데... 이게 너무 버그가많고 너무 최적화가 그냥 쓰래기고 용량은 더럽게 많이 먹고 한동안 난리가 나기도하고 그냥 좀 게임이 좀 그래요",
+          "시간 개빨리감 다만 메모리 누수와 버그 좀있긴함",
+          "버그가 진짜 존나게 많습니다 여러분 하지마세요 걍 어센디드 하세요"
         ],
-        "stance": "negative",
-        "consensus_level": "high",
-        "mention_count": 148,
-        "evidence_quality_level": "relaxed",
-        "evidence_candidate_snippets": [
-          "이렇게 최적화 안되고 서버 접속하는데 오래걸리고 시간잡아먹는겜은 손이가질 않아서 못하겠음;; 스트레스받아가며 게임 할 가치는 없음",
-          "장점: 정말 재및어요 단점: 저의 컴퓨터로는 렉이 걸려요",
-          "다운로드 버그부터 프라이멀데이터버그까지 2시간 정도 로딩 창,다운로드에 날림 즐겁게 공룡 타고 싶었는데 망겜"
-        ],
-        "evidence_snippets": [
-          "이렇게 최적화 안되고 서버 접속하는데 오래걸리고 시간잡아먹는겜은 손이가질 않아서 못하겠음;; 스트레스받아가며 게임 할 가치는 없음",
-          "장점: 정말 재및어요 단점: 저의 컴퓨터로는 렉이 걸려요",
-          "다운로드 버그부터 프라이멀데이터버그까지 2시간 정도 로딩 창, 다운로드에 날림 즐겁게 공룡 타고 싶었는데 망겜"
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-negative-2-1-1422195616888722396",
+            "text": "시간 개빨리감 다만 메모리 누수와 버그 좀있긴함"
+          },
+          {
+            "review_id": "compress-v3-negative-2-2-8119126137202611366",
+            "text": "재밌어요 재밌는데... 이게 너무 버그가많고 너무 최적화가 그냥 쓰래기고 용량은 더럽게 많이 먹고 한동안 난리가 나기도하고 그냥 좀 게임이 좀 그래요"
+          },
+          {
+            "review_id": "compress-v3-negative-2-3-7783930933832522016",
+            "text": "다운로드 버그부터 프라이멀데이터버그까지 2시간 정도 로딩 창,다운로드에 날림 즐겁게 공룡 타고 싶었는데 망겜"
+          },
+          {
+            "review_id": "compress-v3-negative-2-4-1010355020003429983",
+            "text": "버그가 진짜 존나게 많습니다 여러분 하지마세요 걍 어센디드 하세요"
+          }
         ]
       }
     ]
   },
-  "disclaimer": "이 리포트는 반복적으로 관찰된 고합의 리뷰 신호를 구매 판단 관점으로 재해석한 결과입니다.",
-  "headline": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험 장점은 분명하지만 예상치 못한 오류가 플레이 리듬을 끊을 수 있는 리스크가 거슬릴 수 있어 할인 시점이 더 안전합니다.",
-  "buy_recommendation": "buy_on_sale",
-  "buy_timing_summary": "예상치 못한 오류가 플레이 리듬을 끊을 수 있는 리스크 불편을 감수해야 할 수 있어 가격 메리트가 있는 시점이 더 낫습니다.",
+  "disclaimer": "여러 유저 리뷰를 바탕으로 정리했어요. 플레이 경험은 사람마다 다를 수 있어요.",
+  "headline": "전투 손맛과 다양한 콘텐츠로 인해 생존 게임을 좋아하는 유저에게 추천합니다.",
+  "buy_recommendation": "buy_now",
+  "buy_timing_summary": "예상치 못한 오류와 불편을 감수해야 할 수 있어 가격 메리트가 있는 시점이 더 낫습니다.",
   "good_for": [
-    "긴 보스전에서 패턴을 익히고 반복 트라이를 즐기는 플레이어"
+    "생존 게임을 즐기는 플레이어",
+    "전투 손맛을 중시하는 유저",
+    "다양한 콘텐츠를 탐험하고 싶은 플레이어"
   ],
   "not_good_for": [
-    "진행 중 오류나 예기치 않은 끊김을 거의 허용하지 않는 플레이어",
-    "짧은 플레이 시간에도 프레임 안정성이 꼭 필요한 환경에서 즐기려는 플레이어",
-    "팀플레이 품질과 소통 스트레스를 크게 받는 플레이어"
+    "진행 중 오류나 끊김을 거의 허용하지 않는 플레이어",
+    "프레임과 반응성에 민감한 플레이어",
+    "매칭과 서버 상태 변화에 스트레스를 크게 받는 플레이어"
   ],
   "top_strengths": [
     {
-      "title": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험",
-      "summary": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험 체감이 좋아 한 판 더 하게 되는 흐름이 잘 만들어집니다."
+      "title": "전투 손맛의 쾌감",
+      "summary": "다양한 공룡과의 전투는 긴장감 넘치는 경험을 선사하며, 생존의 재미를 더합니다."
+    },
+    {
+      "title": "중독성이 있는 탐험",
+      "summary": "각기 다른 맵과 생물들이 탐험의 재미를 극대화하며 시간을 잊게 만듭니다."
+    },
+    {
+      "title": "다양한 콘텐츠의 풍부함",
+      "summary": "수많은 DLC와 모드를 통해 플레이어는 끊임없이 새로운 경험을 할 수 있습니다."
     }
   ],
   "top_risks": [
     {
       "title": "예상치 못한 오류가 플레이 리듬을 끊을 수 있는 리스크",
-      "summary": "예상치 못한 오류가 플레이 리듬을 끊을 수 있는 리스크가 진행 리듬을 자주 끊어 플레이 피로를 높일 수 있습니다."
+      "summary": "예상치 못한 오류가 생기면 플레이 흐름이 끊겨 피로가 빠르게 쌓일 수 있습니다."
     },
     {
       "title": "프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크",
-      "summary": "프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크 때문에 전투나 이동 흐름이 끊겨 몰입이 쉽게 깨질 수 있습니다."
+      "summary": "프레임과 반응성이 흔들리면 조작 감각이 무너져 답답하게 느껴질 수 있습니다."
     },
     {
-      "title": "매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크",
-      "summary": "매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크가 플레이 경험의 만족도를 낮출 수 있어 주의가 필요합니다."
+      "title": "매칭과 서버 상태에 따라 체감이 흔들리는 구간",
+      "summary": "매칭과 서버 상태가 흔들리면 한 판의 완성도가 크게 달라질 수 있습니다."
     }
   ],
   "recent_state": {
-    "status": "mixed",
-    "summary": "만족 포인트와 불편 포인트가 함께 보여 체감 평가가 갈리는 상태입니다."
+    "status": "declining",
+    "summary": "최근에는 불편을 말하는 후기가 늘어나 분위기가 다소 내려가는 편입니다."
   },
   "evidence_reviews": [
     {
       "block_id": "str_1",
-      "title": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험이 실제 플레이 만족으로 이어진다는 반응",
+      "title": "탐험하며 발견하는 재미가 크다는 반응",
       "theme": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험",
-      "why_it_matters": "전투/핵심 플레이에서 전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험 체감이 좋으면 초반부터 몰입이 붙어 장시간 플레이 만족으로 이어질 가능성이 큽니다.",
-      "explanation": "전투/핵심 플레이에서 전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험 체감이 좋으면 초반부터 몰입이 붙어 장시간 플레이 만족으로 이어질 가능성이 큽니다.",
+      "why_it_matters": "탐험과 발견 그 자체를 좋게 보는 반응이 많아, 돌아다니며 찾는 플레이를 좋아하면 잘 맞습니다.",
+      "explanation": "탐험과 발견 그 자체를 좋게 보는 반응이 많아, 돌아다니며 찾는 플레이를 좋아하면 잘 맞습니다.",
       "aspect_keys": [
         "gameplay"
       ],
       "stance": "positive",
       "consensus_level": "high",
-      "mention_count": 256,
+      "mention_count": 1115,
       "evidence_quality_level": "relaxed",
       "evidence_candidate_snippets": [
-        "공룡입니다. 뭘 생각하던, 어린 전 공룡이 좋습니다. 성인인 전 아직도 공룡이 좋습니다. 공룡이 막 나오는 이 게임같은 경우라면. 좋아합니다.",
-        "용량 존나 큰 거 빼고는 이만한 낭만 넘치는 공룡게임이 없다",
-        "공룡게임 당연 1등이다 (but 하면 인생이 망한다)",
-        "스팀버전 마인크래프트 공룡을 곁들인."
+        "싸우는거 싫어하고 컨트롤도 딸리는 사람도 할 수 있는 게임입니다 PVE 비공식 서버 하나 골라 들어가거나 서버 메니저로 서버 만들어서 친구들끼리 하기도 해보세요 야무집니다 DLC는 꾸러미 할인때 다 구매하시는거 추천 드립니다 맵마다 있는 공룡들이 조금씩 다르고 맵들 분위기도 달라서 구경하는재미+수집재미 있습니다 다만 보스전은 꽤나 어려우니 공룡들 빡세게 키워서 도전하시길.. 창작모드에서 간단한 모드들 몇개 추가해서 하시는거 추천드려요 새삼 편안해집니다 서버메니저,공룡,서버설정등은 인터넷에 검색하면 여러개 많이 떠서 앵간하면 막히는 부분 없을겁니다 그래서 2는 언제나와..",
+        "PVE 멀티 생존 게임을 좋아한다면 추천! 재밌어요 :) 포켓몬스터 게임처럼 포켓몬 대신 공룡을 종류별로 수집하거나 테이밍이 가능하기 때문에 타고 다닐 수도 있고, 같이 전투도 해주고요ㅎ 심즈처럼 DLC도 많아서 기존에 하고 있던 맵을 다 열고 할 거 다해서 할 게 없을 때 하고 싶은 DLC 구매해서 새로운 곳에서 새로운 공룡과 새로운 시작 가능! 심지어 기존에 있던 세계에서 새로운 DLC 세계로 넘어갈 때 챙겨가고 싶은 공룡과 아이템 등을 챙겨서 이동이 가능한 점도 좋아요~"
       ],
       "evidence_snippets": [
-        "공룡입니다. 뭘 생각하던, 어린 전 공룡이 좋습니다. 성인인 전 아직도 공룡이 좋습니다. 공룡이 막 나오는 이 게임같은 경우라면. 좋아합니다.",
-        "용량 존나 큰 거 빼고는 이만한 낭만 넘치는 공룡게임이 없다",
-        "공룡게임 당연 1등이다 (but 하면 인생이 망한다)"
+        "PVE 멀티 생존 게임을 좋아한다면 추천! 재밌어요 :) 포켓몬스터 게임처럼 포켓몬 대신 공룡을 종류별로 수집하거나 테이밍이 가능하기 때문에 타고 다닐 수도 있고, 같이 전투도 해주고요ㅎ 심즈처럼 DLC도 많아서 기존에 하고 있던 맵을 다 열고 할 거 다해서 할 게 없을 때 하고 싶은 DLC 구매해서 새로운 곳에서 새로운 공룡과 새로운 시작 가능! 심지어 기존에 있던 세계에서 새로운 DLC 세계로 넘어갈 때 챙겨가고 싶은 공룡과 아이템 등을 챙겨서 이동이 가능한 점도 좋아요~",
+        "싸우는거 싫어하고 컨트롤도 딸리는 사람도 할 수 있는 게임입니다 PVE 비공식 서버 하나 골라 들어가거나 서버 메니저로 서버 만들어서 친구들끼리 하기도 해보세요 야무집니다 DLC는 꾸러미 할인때 다 구매하시는거 추천 드립니다 맵마다 있는 공룡들이 조금씩 다르고 맵들 분위기도 달라서 구경하는재미+수집재미 있습니다 다만 보스전은 꽤나 어려우니 공룡들 빡세게 키워서 도전하시길.. 창작모드에서 간단한 모드들 몇개 추가해서 하시는거 추천드려요 새삼 편안해집니다 서버메니저, 공룡, 서버설정등은 인터넷에 검색하면 여러개 많이 떠서 앵간하면 막히는 부분 없을겁니다 그래서 2는 언제나와.."
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-positive-1-6-6995114882662276573",
+          "text": "싸우는거 싫어하고 컨트롤도 딸리는 사람도 할 수 있는 게임입니다 PVE 비공식 서버 하나 골라 들어가거나 서버 메니저로 서버 만들어서 친구들끼리 하기도 해보세요 야무집니다 DLC는 꾸러미 할인때 다 구매하시는거 추천 드립니다 맵마다 있는 공룡들이 조금씩 다르고 맵들 분위기도 달라서 구경하는재미+수집재미 있습니다 다만 보스전은 꽤나 어려우니 공룡들 빡세게 키워서 도전하시길.. 창작모드에서 간단한 모드들 몇개 추가해서 하시는거 추천드려요 새삼 편안해집니다 서버메니저,공룡,서버설정등은 인터넷에 검색하면 여러개 많이 떠서 앵간하면 막히는 부분 없을겁니다 그래서 2는 언제나와.."
+        },
+        {
+          "review_id": "compress-v3-positive-1-7-6132029564355912063",
+          "text": "PVE 멀티 생존 게임을 좋아한다면 추천! 재밌어요 :) 포켓몬스터 게임처럼 포켓몬 대신 공룡을 종류별로 수집하거나 테이밍이 가능하기 때문에 타고 다닐 수도 있고, 같이 전투도 해주고요ㅎ 심즈처럼 DLC도 많아서 기존에 하고 있던 맵을 다 열고 할 거 다해서 할 게 없을 때 하고 싶은 DLC 구매해서 새로운 곳에서 새로운 공룡과 새로운 시작 가능! 심지어 기존에 있던 세계에서 새로운 DLC 세계로 넘어갈 때 챙겨가고 싶은 공룡과 아이템 등을 챙겨서 이동이 가능한 점도 좋아요~"
+        }
       ]
     },
     {
       "block_id": "risk_1",
-      "title": "매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크 때문에 플레이 흐름이 끊긴다는 반응",
+      "title": "매칭과 서버 상태가 체감을 흔든다는 반응",
       "theme": "매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크",
-      "why_it_matters": "멀티플레이에서 매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크 불편가 반복되면 초반 만족도가 크게 떨어질 수 있어 구매 전 감수 여부 확인가 필요합니다.",
-      "explanation": "멀티플레이에서 매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크 불편가 반복되면 초반 만족도가 크게 떨어질 수 있어 구매 전 감수 여부 확인가 필요합니다.",
+      "why_it_matters": "매칭과 서버 상태를 문제로 보는 반응이 이어져, 한 판의 완성도가 상황에 따라 꽤 달라질 수 있습니다.",
+      "explanation": "매칭과 서버 상태를 문제로 보는 반응이 이어져, 한 판의 완성도가 상황에 따라 꽤 달라질 수 있습니다.",
       "aspect_keys": [
         "multiplayer"
       ],
       "stance": "negative",
       "consensus_level": "high",
-      "mention_count": 294,
-      "evidence_quality_level": "strict",
+      "mention_count": 1966,
+      "evidence_quality_level": "relaxed",
       "evidence_candidate_snippets": [
         "이렇게 최적화 안되고 서버 접속하는데 오래걸리고 시간잡아먹는겜은 손이가질 않아서 못하겠음;; 스트레스받아가며 게임 할 가치는 없음",
-        "개 ㅈ망겜 멀티를 못하게하네 설치도 오래 걸려 지우는 것도 오래걸려 진득하게 즐기고자 마음잡고 친구들끼리 하면 핵쟁이쌔끼가 들어와서 다 죽이고 다 부수고 나가고 서버매니저 하려고하면 업뎃해서 지랄하고 그냥 못하겠네 ㅆ발겜"
+        "핵에 관련한 조치를 하지않는 미친놈아 조치좀하라고",
+        "친구랑 같이하고 있는데 어떤 미친놈이 그리핀 10000020랩 짜리 들고와서 접었어요 하지마세요"
       ],
       "evidence_snippets": [
         "이렇게 최적화 안되고 서버 접속하는데 오래걸리고 시간잡아먹는겜은 손이가질 않아서 못하겠음;; 스트레스받아가며 게임 할 가치는 없음",
-        "개 ㅈ망겜 멀티를 못하게하네 설치도 오래 걸려 지우는 것도 오래걸려 진득하게 즐기고자 마음잡고 친구들끼리 하면 핵쟁이쌔끼가 들어와서 다 죽이고 다 부수고 나가고 서버매니저 하려고하면 업뎃해서 지랄하고 그냥 못하겠네 ㅆ발겜"
+        "핵에 관련한 조치를 하지않는 미친놈아 조치좀하라고"
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-negative-1-1-7828367190548619568",
+          "text": "이렇게 최적화 안되고 서버 접속하는데 오래걸리고 시간잡아먹는겜은 손이가질 않아서 못하겠음;; 스트레스받아가며 게임 할 가치는 없음"
+        },
+        {
+          "review_id": "compress-v3-negative-1-2-3680464124441245469",
+          "text": "핵에 관련한 조치를 하지않는 미친놈아 조치좀하라고"
+        },
+        {
+          "review_id": "compress-v3-negative-1-3-3089063383404372091",
+          "text": "친구랑 같이하고 있는데 어떤 미친놈이 그리핀 10000020랩 짜리 들고와서 접었어요 하지마세요"
+        }
       ]
     },
     {
       "block_id": "risk_2",
-      "title": "예상치 못한 오류가 플레이 리듬을 끊을 수 있는 리스크 때문에 플레이 흐름이 끊긴다는 반응",
+      "title": "예상치 못한 오류가 흐름을 끊는다는 반응",
       "theme": "예상치 못한 오류가 플레이 리듬을 끊을 수 있는 리스크",
-      "why_it_matters": "버그/안정성에서 예상치 못한 오류가 플레이 리듬을 끊을 수 있는 리스크 불편가 반복되면 초반 만족도가 크게 떨어질 수 있어 구매 전 감수 여부 확인가 필요합니다.",
-      "explanation": "버그/안정성에서 예상치 못한 오류가 플레이 리듬을 끊을 수 있는 리스크 불편가 반복되면 초반 만족도가 크게 떨어질 수 있어 구매 전 감수 여부 확인가 필요합니다.",
+      "why_it_matters": "오류와 튕김을 반복해서 언급하는 반응이 있어, 흐름이 끊기는 상황을 감수해야 할 수 있습니다.",
+      "explanation": "오류와 튕김을 반복해서 언급하는 반응이 있어, 흐름이 끊기는 상황을 감수해야 할 수 있습니다.",
       "aspect_keys": [
         "bugs"
       ],
       "stance": "negative",
       "consensus_level": "high",
-      "mention_count": 183,
+      "mention_count": 1056,
       "evidence_quality_level": "strict",
       "evidence_candidate_snippets": [
+        "시간 개빨리감 다만 메모리 누수와 버그 좀있긴함",
+        "재밌어요 재밌는데... 이게 너무 버그가많고 너무 최적화가 그냥 쓰래기고 용량은 더럽게 많이 먹고 한동안 난리가 나기도하고 그냥 좀 게임이 좀 그래요",
         "다운로드 버그부터 프라이멀데이터버그까지 2시간 정도 로딩 창,다운로드에 날림 즐겁게 공룡 타고 싶었는데 망겜",
-        "버그가 진짜 존나게 많습니다 여러분 하지마세요 걍 어센디드 하세요",
-        "개적화와 버그 때문에 그냥 하기가 싫은 게임입니다. 하지만 공룡을 사랑하는 우리 이대일대영대남들이 과연 이 게임을 지나칠 수 있을까요? 스테고사우르스를 타고 티라노와 반신욕을 즐기다가 프테라노돈을 타고 케챨과 교미를 하러 떠나는 워메이징 다이노소어 파크로의 여행에 당신을 초대합니다."
+        "버그가 진짜 존나게 많습니다 여러분 하지마세요 걍 어센디드 하세요"
       ],
       "evidence_snippets": [
-        "다운로드 버그부터 프라이멀데이터버그까지 2시간 정도 로딩 창, 다운로드에 날림 즐겁게 공룡 타고 싶었는데 망겜",
-        "버그가 진짜 존나게 많습니다 여러분 하지마세요 걍 어센디드 하세요",
-        "개적화와 버그 때문에 그냥 하기가 싫은 게임입니다. 하지만 공룡을 사랑하는 우리 이대일대영대남들이 과연 이 게임을 지나칠 수 있을까요? 스테고사우르스를 타고 티라노와 반신욕을 즐기다가 프테라노돈을 타고 케챨과 교미를 하러 떠나는 워메이징 다이노소어 파크로의 여행에 당신을 초대합니다."
-      ]
-    },
-    {
-      "block_id": "risk_3",
-      "title": "프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크 때문에 플레이 흐름이 끊긴다는 반응",
-      "theme": "프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크",
-      "why_it_matters": "성능/최적화에서 프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크 불편가 반복되면 초반 만족도가 크게 떨어질 수 있어 구매 전 감수 여부 확인가 필요합니다.",
-      "explanation": "성능/최적화에서 프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크 불편가 반복되면 초반 만족도가 크게 떨어질 수 있어 구매 전 감수 여부 확인가 필요합니다.",
-      "aspect_keys": [
-        "performance"
+        "재밌어요 재밌는데... 이게 너무 버그가많고 너무 최적화가 그냥 쓰래기고 용량은 더럽게 많이 먹고 한동안 난리가 나기도하고 그냥 좀 게임이 좀 그래요",
+        "시간 개빨리감 다만 메모리 누수와 버그 좀있긴함",
+        "버그가 진짜 존나게 많습니다 여러분 하지마세요 걍 어센디드 하세요"
       ],
-      "stance": "negative",
-      "consensus_level": "high",
-      "mention_count": 148,
-      "evidence_quality_level": "relaxed",
-      "evidence_candidate_snippets": [
-        "이렇게 최적화 안되고 서버 접속하는데 오래걸리고 시간잡아먹는겜은 손이가질 않아서 못하겠음;; 스트레스받아가며 게임 할 가치는 없음",
-        "장점: 정말 재및어요 단점: 저의 컴퓨터로는 렉이 걸려요",
-        "다운로드 버그부터 프라이멀데이터버그까지 2시간 정도 로딩 창,다운로드에 날림 즐겁게 공룡 타고 싶었는데 망겜"
-      ],
-      "evidence_snippets": [
-        "이렇게 최적화 안되고 서버 접속하는데 오래걸리고 시간잡아먹는겜은 손이가질 않아서 못하겠음;; 스트레스받아가며 게임 할 가치는 없음",
-        "장점: 정말 재및어요 단점: 저의 컴퓨터로는 렉이 걸려요",
-        "다운로드 버그부터 프라이멀데이터버그까지 2시간 정도 로딩 창, 다운로드에 날림 즐겁게 공룡 타고 싶었는데 망겜"
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-negative-2-1-1422195616888722396",
+          "text": "시간 개빨리감 다만 메모리 누수와 버그 좀있긴함"
+        },
+        {
+          "review_id": "compress-v3-negative-2-2-8119126137202611366",
+          "text": "재밌어요 재밌는데... 이게 너무 버그가많고 너무 최적화가 그냥 쓰래기고 용량은 더럽게 많이 먹고 한동안 난리가 나기도하고 그냥 좀 게임이 좀 그래요"
+        },
+        {
+          "review_id": "compress-v3-negative-2-3-7783930933832522016",
+          "text": "다운로드 버그부터 프라이멀데이터버그까지 2시간 정도 로딩 창,다운로드에 날림 즐겁게 공룡 타고 싶었는데 망겜"
+        },
+        {
+          "review_id": "compress-v3-negative-2-4-1010355020003429983",
+          "text": "버그가 진짜 존나게 많습니다 여러분 하지마세요 걍 어센디드 하세요"
+        }
       ]
     }
   ]

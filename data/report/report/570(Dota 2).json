@@ -1,10 +1,1038 @@
 {
   "report_version": "v4-planned-sections",
   "appid": 570,
-  "pipeline_run_id": "570-snapshot-regen",
-  "generated_at": "2026-04-16T05:28:22.205734+00:00",
-  "source_review_count": 2400,
-  "included_review_count": 1261,
+  "pipeline_run_id": "570-20260427T062007Z",
+  "generated_at": "2026-04-27T06:22:28.298319+00:00",
+  "source_review_count": 5166,
+  "included_review_count": 2777,
+  "min_report_review_count": 100,
+  "report_state": "ready",
+  "review_trend": {
+    "granularity": "month",
+    "metric": "positive_ratio",
+    "points": [
+      {
+        "month": "2012-02",
+        "positive_count": 2,
+        "review_count": 2,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2012-03",
+        "positive_count": 3,
+        "review_count": 4,
+        "positive_ratio": 0.75
+      },
+      {
+        "month": "2012-04",
+        "positive_count": 6,
+        "review_count": 6,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2012-06",
+        "positive_count": 2,
+        "review_count": 2,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2012-07",
+        "positive_count": 6,
+        "review_count": 10,
+        "positive_ratio": 0.6
+      },
+      {
+        "month": "2012-08",
+        "positive_count": 5,
+        "review_count": 6,
+        "positive_ratio": 0.8333
+      },
+      {
+        "month": "2012-09",
+        "positive_count": 3,
+        "review_count": 3,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2012-10",
+        "positive_count": 7,
+        "review_count": 7,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2012-11",
+        "positive_count": 5,
+        "review_count": 7,
+        "positive_ratio": 0.7143
+      },
+      {
+        "month": "2012-12",
+        "positive_count": 5,
+        "review_count": 6,
+        "positive_ratio": 0.8333
+      },
+      {
+        "month": "2013-01",
+        "positive_count": 7,
+        "review_count": 9,
+        "positive_ratio": 0.7778
+      },
+      {
+        "month": "2013-02",
+        "positive_count": 9,
+        "review_count": 9,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2013-03",
+        "positive_count": 7,
+        "review_count": 10,
+        "positive_ratio": 0.7
+      },
+      {
+        "month": "2013-04",
+        "positive_count": 5,
+        "review_count": 5,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2013-05",
+        "positive_count": 11,
+        "review_count": 11,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2013-06",
+        "positive_count": 8,
+        "review_count": 10,
+        "positive_ratio": 0.8
+      },
+      {
+        "month": "2013-07",
+        "positive_count": 10,
+        "review_count": 12,
+        "positive_ratio": 0.8333
+      },
+      {
+        "month": "2013-08",
+        "positive_count": 11,
+        "review_count": 11,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2013-09",
+        "positive_count": 11,
+        "review_count": 12,
+        "positive_ratio": 0.9167
+      },
+      {
+        "month": "2013-10",
+        "positive_count": 6,
+        "review_count": 8,
+        "positive_ratio": 0.75
+      },
+      {
+        "month": "2013-11",
+        "positive_count": 16,
+        "review_count": 21,
+        "positive_ratio": 0.7619
+      },
+      {
+        "month": "2013-12",
+        "positive_count": 128,
+        "review_count": 134,
+        "positive_ratio": 0.9552
+      },
+      {
+        "month": "2014-01",
+        "positive_count": 62,
+        "review_count": 66,
+        "positive_ratio": 0.9394
+      },
+      {
+        "month": "2014-02",
+        "positive_count": 75,
+        "review_count": 89,
+        "positive_ratio": 0.8427
+      },
+      {
+        "month": "2014-03",
+        "positive_count": 43,
+        "review_count": 50,
+        "positive_ratio": 0.86
+      },
+      {
+        "month": "2014-04",
+        "positive_count": 20,
+        "review_count": 23,
+        "positive_ratio": 0.8696
+      },
+      {
+        "month": "2014-05",
+        "positive_count": 42,
+        "review_count": 46,
+        "positive_ratio": 0.913
+      },
+      {
+        "month": "2014-06",
+        "positive_count": 92,
+        "review_count": 98,
+        "positive_ratio": 0.9388
+      },
+      {
+        "month": "2014-07",
+        "positive_count": 50,
+        "review_count": 55,
+        "positive_ratio": 0.9091
+      },
+      {
+        "month": "2014-08",
+        "positive_count": 38,
+        "review_count": 44,
+        "positive_ratio": 0.8636
+      },
+      {
+        "month": "2014-09",
+        "positive_count": 29,
+        "review_count": 34,
+        "positive_ratio": 0.8529
+      },
+      {
+        "month": "2014-10",
+        "positive_count": 31,
+        "review_count": 36,
+        "positive_ratio": 0.8611
+      },
+      {
+        "month": "2014-11",
+        "positive_count": 32,
+        "review_count": 34,
+        "positive_ratio": 0.9412
+      },
+      {
+        "month": "2014-12",
+        "positive_count": 35,
+        "review_count": 41,
+        "positive_ratio": 0.8537
+      },
+      {
+        "month": "2015-01",
+        "positive_count": 37,
+        "review_count": 45,
+        "positive_ratio": 0.8222
+      },
+      {
+        "month": "2015-02",
+        "positive_count": 30,
+        "review_count": 40,
+        "positive_ratio": 0.75
+      },
+      {
+        "month": "2015-03",
+        "positive_count": 28,
+        "review_count": 34,
+        "positive_ratio": 0.8235
+      },
+      {
+        "month": "2015-04",
+        "positive_count": 23,
+        "review_count": 26,
+        "positive_ratio": 0.8846
+      },
+      {
+        "month": "2015-05",
+        "positive_count": 27,
+        "review_count": 35,
+        "positive_ratio": 0.7714
+      },
+      {
+        "month": "2015-06",
+        "positive_count": 18,
+        "review_count": 22,
+        "positive_ratio": 0.8182
+      },
+      {
+        "month": "2015-07",
+        "positive_count": 16,
+        "review_count": 23,
+        "positive_ratio": 0.6957
+      },
+      {
+        "month": "2015-08",
+        "positive_count": 24,
+        "review_count": 29,
+        "positive_ratio": 0.8276
+      },
+      {
+        "month": "2015-09",
+        "positive_count": 23,
+        "review_count": 31,
+        "positive_ratio": 0.7419
+      },
+      {
+        "month": "2015-10",
+        "positive_count": 27,
+        "review_count": 35,
+        "positive_ratio": 0.7714
+      },
+      {
+        "month": "2015-11",
+        "positive_count": 23,
+        "review_count": 40,
+        "positive_ratio": 0.575
+      },
+      {
+        "month": "2015-12",
+        "positive_count": 27,
+        "review_count": 37,
+        "positive_ratio": 0.7297
+      },
+      {
+        "month": "2016-01",
+        "positive_count": 31,
+        "review_count": 45,
+        "positive_ratio": 0.6889
+      },
+      {
+        "month": "2016-02",
+        "positive_count": 36,
+        "review_count": 48,
+        "positive_ratio": 0.75
+      },
+      {
+        "month": "2016-03",
+        "positive_count": 22,
+        "review_count": 31,
+        "positive_ratio": 0.7097
+      },
+      {
+        "month": "2016-04",
+        "positive_count": 19,
+        "review_count": 25,
+        "positive_ratio": 0.76
+      },
+      {
+        "month": "2016-05",
+        "positive_count": 28,
+        "review_count": 38,
+        "positive_ratio": 0.7368
+      },
+      {
+        "month": "2016-06",
+        "positive_count": 16,
+        "review_count": 21,
+        "positive_ratio": 0.7619
+      },
+      {
+        "month": "2016-07",
+        "positive_count": 20,
+        "review_count": 26,
+        "positive_ratio": 0.7692
+      },
+      {
+        "month": "2016-08",
+        "positive_count": 23,
+        "review_count": 32,
+        "positive_ratio": 0.7188
+      },
+      {
+        "month": "2016-09",
+        "positive_count": 18,
+        "review_count": 22,
+        "positive_ratio": 0.8182
+      },
+      {
+        "month": "2016-10",
+        "positive_count": 16,
+        "review_count": 23,
+        "positive_ratio": 0.6957
+      },
+      {
+        "month": "2016-11",
+        "positive_count": 106,
+        "review_count": 123,
+        "positive_ratio": 0.8618
+      },
+      {
+        "month": "2016-12",
+        "positive_count": 35,
+        "review_count": 41,
+        "positive_ratio": 0.8537
+      },
+      {
+        "month": "2017-01",
+        "positive_count": 30,
+        "review_count": 36,
+        "positive_ratio": 0.8333
+      },
+      {
+        "month": "2017-02",
+        "positive_count": 32,
+        "review_count": 44,
+        "positive_ratio": 0.7273
+      },
+      {
+        "month": "2017-03",
+        "positive_count": 15,
+        "review_count": 27,
+        "positive_ratio": 0.5556
+      },
+      {
+        "month": "2017-04",
+        "positive_count": 25,
+        "review_count": 30,
+        "positive_ratio": 0.8333
+      },
+      {
+        "month": "2017-05",
+        "positive_count": 19,
+        "review_count": 23,
+        "positive_ratio": 0.8261
+      },
+      {
+        "month": "2017-06",
+        "positive_count": 27,
+        "review_count": 35,
+        "positive_ratio": 0.7714
+      },
+      {
+        "month": "2017-07",
+        "positive_count": 23,
+        "review_count": 31,
+        "positive_ratio": 0.7419
+      },
+      {
+        "month": "2017-08",
+        "positive_count": 38,
+        "review_count": 45,
+        "positive_ratio": 0.8444
+      },
+      {
+        "month": "2017-09",
+        "positive_count": 25,
+        "review_count": 43,
+        "positive_ratio": 0.5814
+      },
+      {
+        "month": "2017-10",
+        "positive_count": 22,
+        "review_count": 36,
+        "positive_ratio": 0.6111
+      },
+      {
+        "month": "2017-11",
+        "positive_count": 52,
+        "review_count": 67,
+        "positive_ratio": 0.7761
+      },
+      {
+        "month": "2017-12",
+        "positive_count": 15,
+        "review_count": 21,
+        "positive_ratio": 0.7143
+      },
+      {
+        "month": "2018-01",
+        "positive_count": 27,
+        "review_count": 40,
+        "positive_ratio": 0.675
+      },
+      {
+        "month": "2018-02",
+        "positive_count": 15,
+        "review_count": 25,
+        "positive_ratio": 0.6
+      },
+      {
+        "month": "2018-03",
+        "positive_count": 15,
+        "review_count": 22,
+        "positive_ratio": 0.6818
+      },
+      {
+        "month": "2018-04",
+        "positive_count": 10,
+        "review_count": 20,
+        "positive_ratio": 0.5
+      },
+      {
+        "month": "2018-05",
+        "positive_count": 23,
+        "review_count": 27,
+        "positive_ratio": 0.8519
+      },
+      {
+        "month": "2018-06",
+        "positive_count": 22,
+        "review_count": 27,
+        "positive_ratio": 0.8148
+      },
+      {
+        "month": "2018-07",
+        "positive_count": 21,
+        "review_count": 34,
+        "positive_ratio": 0.6176
+      },
+      {
+        "month": "2018-08",
+        "positive_count": 8,
+        "review_count": 22,
+        "positive_ratio": 0.3636
+      },
+      {
+        "month": "2018-09",
+        "positive_count": 7,
+        "review_count": 13,
+        "positive_ratio": 0.5385
+      },
+      {
+        "month": "2018-10",
+        "positive_count": 13,
+        "review_count": 22,
+        "positive_ratio": 0.5909
+      },
+      {
+        "month": "2018-11",
+        "positive_count": 32,
+        "review_count": 48,
+        "positive_ratio": 0.6667
+      },
+      {
+        "month": "2018-12",
+        "positive_count": 16,
+        "review_count": 24,
+        "positive_ratio": 0.6667
+      },
+      {
+        "month": "2019-01",
+        "positive_count": 16,
+        "review_count": 22,
+        "positive_ratio": 0.7273
+      },
+      {
+        "month": "2019-02",
+        "positive_count": 47,
+        "review_count": 56,
+        "positive_ratio": 0.8393
+      },
+      {
+        "month": "2019-03",
+        "positive_count": 173,
+        "review_count": 223,
+        "positive_ratio": 0.7758
+      },
+      {
+        "month": "2019-04",
+        "positive_count": 80,
+        "review_count": 104,
+        "positive_ratio": 0.7692
+      },
+      {
+        "month": "2019-05",
+        "positive_count": 50,
+        "review_count": 81,
+        "positive_ratio": 0.6173
+      },
+      {
+        "month": "2019-06",
+        "positive_count": 35,
+        "review_count": 58,
+        "positive_ratio": 0.6034
+      },
+      {
+        "month": "2019-07",
+        "positive_count": 62,
+        "review_count": 76,
+        "positive_ratio": 0.8158
+      },
+      {
+        "month": "2019-08",
+        "positive_count": 11,
+        "review_count": 17,
+        "positive_ratio": 0.6471
+      },
+      {
+        "month": "2019-09",
+        "positive_count": 8,
+        "review_count": 18,
+        "positive_ratio": 0.4444
+      },
+      {
+        "month": "2019-10",
+        "positive_count": 22,
+        "review_count": 26,
+        "positive_ratio": 0.8462
+      },
+      {
+        "month": "2019-11",
+        "positive_count": 71,
+        "review_count": 96,
+        "positive_ratio": 0.7396
+      },
+      {
+        "month": "2019-12",
+        "positive_count": 49,
+        "review_count": 66,
+        "positive_ratio": 0.7424
+      },
+      {
+        "month": "2020-01",
+        "positive_count": 27,
+        "review_count": 43,
+        "positive_ratio": 0.6279
+      },
+      {
+        "month": "2020-02",
+        "positive_count": 35,
+        "review_count": 54,
+        "positive_ratio": 0.6481
+      },
+      {
+        "month": "2020-03",
+        "positive_count": 38,
+        "review_count": 61,
+        "positive_ratio": 0.623
+      },
+      {
+        "month": "2020-04",
+        "positive_count": 24,
+        "review_count": 34,
+        "positive_ratio": 0.7059
+      },
+      {
+        "month": "2020-05",
+        "positive_count": 30,
+        "review_count": 36,
+        "positive_ratio": 0.8333
+      },
+      {
+        "month": "2020-06",
+        "positive_count": 32,
+        "review_count": 43,
+        "positive_ratio": 0.7442
+      },
+      {
+        "month": "2020-07",
+        "positive_count": 15,
+        "review_count": 30,
+        "positive_ratio": 0.5
+      },
+      {
+        "month": "2020-08",
+        "positive_count": 25,
+        "review_count": 33,
+        "positive_ratio": 0.7576
+      },
+      {
+        "month": "2020-09",
+        "positive_count": 23,
+        "review_count": 31,
+        "positive_ratio": 0.7419
+      },
+      {
+        "month": "2020-10",
+        "positive_count": 11,
+        "review_count": 15,
+        "positive_ratio": 0.7333
+      },
+      {
+        "month": "2020-11",
+        "positive_count": 23,
+        "review_count": 31,
+        "positive_ratio": 0.7419
+      },
+      {
+        "month": "2020-12",
+        "positive_count": 26,
+        "review_count": 44,
+        "positive_ratio": 0.5909
+      },
+      {
+        "month": "2021-01",
+        "positive_count": 25,
+        "review_count": 40,
+        "positive_ratio": 0.625
+      },
+      {
+        "month": "2021-02",
+        "positive_count": 24,
+        "review_count": 29,
+        "positive_ratio": 0.8276
+      },
+      {
+        "month": "2021-03",
+        "positive_count": 21,
+        "review_count": 33,
+        "positive_ratio": 0.6364
+      },
+      {
+        "month": "2021-04",
+        "positive_count": 23,
+        "review_count": 26,
+        "positive_ratio": 0.8846
+      },
+      {
+        "month": "2021-05",
+        "positive_count": 23,
+        "review_count": 29,
+        "positive_ratio": 0.7931
+      },
+      {
+        "month": "2021-06",
+        "positive_count": 18,
+        "review_count": 19,
+        "positive_ratio": 0.9474
+      },
+      {
+        "month": "2021-07",
+        "positive_count": 20,
+        "review_count": 28,
+        "positive_ratio": 0.7143
+      },
+      {
+        "month": "2021-08",
+        "positive_count": 16,
+        "review_count": 21,
+        "positive_ratio": 0.7619
+      },
+      {
+        "month": "2021-09",
+        "positive_count": 22,
+        "review_count": 29,
+        "positive_ratio": 0.7586
+      },
+      {
+        "month": "2021-10",
+        "positive_count": 20,
+        "review_count": 26,
+        "positive_ratio": 0.7692
+      },
+      {
+        "month": "2021-11",
+        "positive_count": 21,
+        "review_count": 26,
+        "positive_ratio": 0.8077
+      },
+      {
+        "month": "2021-12",
+        "positive_count": 26,
+        "review_count": 34,
+        "positive_ratio": 0.7647
+      },
+      {
+        "month": "2022-01",
+        "positive_count": 14,
+        "review_count": 21,
+        "positive_ratio": 0.6667
+      },
+      {
+        "month": "2022-02",
+        "positive_count": 20,
+        "review_count": 29,
+        "positive_ratio": 0.6897
+      },
+      {
+        "month": "2022-03",
+        "positive_count": 23,
+        "review_count": 27,
+        "positive_ratio": 0.8519
+      },
+      {
+        "month": "2022-04",
+        "positive_count": 19,
+        "review_count": 22,
+        "positive_ratio": 0.8636
+      },
+      {
+        "month": "2022-05",
+        "positive_count": 21,
+        "review_count": 31,
+        "positive_ratio": 0.6774
+      },
+      {
+        "month": "2022-06",
+        "positive_count": 20,
+        "review_count": 33,
+        "positive_ratio": 0.6061
+      },
+      {
+        "month": "2022-07",
+        "positive_count": 15,
+        "review_count": 23,
+        "positive_ratio": 0.6522
+      },
+      {
+        "month": "2022-08",
+        "positive_count": 7,
+        "review_count": 11,
+        "positive_ratio": 0.6364
+      },
+      {
+        "month": "2022-09",
+        "positive_count": 18,
+        "review_count": 21,
+        "positive_ratio": 0.8571
+      },
+      {
+        "month": "2022-10",
+        "positive_count": 9,
+        "review_count": 17,
+        "positive_ratio": 0.5294
+      },
+      {
+        "month": "2022-11",
+        "positive_count": 27,
+        "review_count": 31,
+        "positive_ratio": 0.871
+      },
+      {
+        "month": "2022-12",
+        "positive_count": 14,
+        "review_count": 24,
+        "positive_ratio": 0.5833
+      },
+      {
+        "month": "2023-01",
+        "positive_count": 20,
+        "review_count": 25,
+        "positive_ratio": 0.8
+      },
+      {
+        "month": "2023-02",
+        "positive_count": 6,
+        "review_count": 12,
+        "positive_ratio": 0.5
+      },
+      {
+        "month": "2023-03",
+        "positive_count": 13,
+        "review_count": 19,
+        "positive_ratio": 0.6842
+      },
+      {
+        "month": "2023-04",
+        "positive_count": 12,
+        "review_count": 18,
+        "positive_ratio": 0.6667
+      },
+      {
+        "month": "2023-05",
+        "positive_count": 10,
+        "review_count": 13,
+        "positive_ratio": 0.7692
+      },
+      {
+        "month": "2023-06",
+        "positive_count": 16,
+        "review_count": 20,
+        "positive_ratio": 0.8
+      },
+      {
+        "month": "2023-07",
+        "positive_count": 19,
+        "review_count": 22,
+        "positive_ratio": 0.8636
+      },
+      {
+        "month": "2023-08",
+        "positive_count": 13,
+        "review_count": 20,
+        "positive_ratio": 0.65
+      },
+      {
+        "month": "2023-09",
+        "positive_count": 14,
+        "review_count": 21,
+        "positive_ratio": 0.6667
+      },
+      {
+        "month": "2023-10",
+        "positive_count": 13,
+        "review_count": 17,
+        "positive_ratio": 0.7647
+      },
+      {
+        "month": "2023-11",
+        "positive_count": 15,
+        "review_count": 23,
+        "positive_ratio": 0.6522
+      },
+      {
+        "month": "2023-12",
+        "positive_count": 14,
+        "review_count": 17,
+        "positive_ratio": 0.8235
+      },
+      {
+        "month": "2024-01",
+        "positive_count": 13,
+        "review_count": 22,
+        "positive_ratio": 0.5909
+      },
+      {
+        "month": "2024-02",
+        "positive_count": 14,
+        "review_count": 18,
+        "positive_ratio": 0.7778
+      },
+      {
+        "month": "2024-03",
+        "positive_count": 15,
+        "review_count": 24,
+        "positive_ratio": 0.625
+      },
+      {
+        "month": "2024-04",
+        "positive_count": 14,
+        "review_count": 29,
+        "positive_ratio": 0.4828
+      },
+      {
+        "month": "2024-05",
+        "positive_count": 20,
+        "review_count": 24,
+        "positive_ratio": 0.8333
+      },
+      {
+        "month": "2024-06",
+        "positive_count": 19,
+        "review_count": 22,
+        "positive_ratio": 0.8636
+      },
+      {
+        "month": "2024-07",
+        "positive_count": 16,
+        "review_count": 20,
+        "positive_ratio": 0.8
+      },
+      {
+        "month": "2024-08",
+        "positive_count": 7,
+        "review_count": 13,
+        "positive_ratio": 0.5385
+      },
+      {
+        "month": "2024-09",
+        "positive_count": 11,
+        "review_count": 12,
+        "positive_ratio": 0.9167
+      },
+      {
+        "month": "2024-10",
+        "positive_count": 9,
+        "review_count": 15,
+        "positive_ratio": 0.6
+      },
+      {
+        "month": "2024-11",
+        "positive_count": 17,
+        "review_count": 18,
+        "positive_ratio": 0.9444
+      },
+      {
+        "month": "2024-12",
+        "positive_count": 10,
+        "review_count": 10,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2025-01",
+        "positive_count": 8,
+        "review_count": 9,
+        "positive_ratio": 0.8889
+      },
+      {
+        "month": "2025-02",
+        "positive_count": 6,
+        "review_count": 10,
+        "positive_ratio": 0.6
+      },
+      {
+        "month": "2025-03",
+        "positive_count": 17,
+        "review_count": 20,
+        "positive_ratio": 0.85
+      },
+      {
+        "month": "2025-04",
+        "positive_count": 9,
+        "review_count": 14,
+        "positive_ratio": 0.6429
+      },
+      {
+        "month": "2025-05",
+        "positive_count": 9,
+        "review_count": 12,
+        "positive_ratio": 0.75
+      },
+      {
+        "month": "2025-06",
+        "positive_count": 16,
+        "review_count": 18,
+        "positive_ratio": 0.8889
+      },
+      {
+        "month": "2025-07",
+        "positive_count": 11,
+        "review_count": 17,
+        "positive_ratio": 0.6471
+      },
+      {
+        "month": "2025-08",
+        "positive_count": 16,
+        "review_count": 21,
+        "positive_ratio": 0.7619
+      },
+      {
+        "month": "2025-09",
+        "positive_count": 11,
+        "review_count": 13,
+        "positive_ratio": 0.8462
+      },
+      {
+        "month": "2025-10",
+        "positive_count": 14,
+        "review_count": 21,
+        "positive_ratio": 0.6667
+      },
+      {
+        "month": "2025-11",
+        "positive_count": 15,
+        "review_count": 21,
+        "positive_ratio": 0.7143
+      },
+      {
+        "month": "2025-12",
+        "positive_count": 11,
+        "review_count": 12,
+        "positive_ratio": 0.9167
+      },
+      {
+        "month": "2026-01",
+        "positive_count": 7,
+        "review_count": 11,
+        "positive_ratio": 0.6364
+      },
+      {
+        "month": "2026-02",
+        "positive_count": 7,
+        "review_count": 7,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2026-03",
+        "positive_count": 8,
+        "review_count": 13,
+        "positive_ratio": 0.6154
+      },
+      {
+        "month": "2026-04",
+        "positive_count": 8,
+        "review_count": 10,
+        "positive_ratio": 0.8
+      }
+    ]
+  },
   "game": {
     "name": "Dota 2",
     "genres": [
@@ -14,7 +1042,18 @@
     ],
     "price_model": "free_to_play",
     "is_free": true,
-    "release_stage": "released"
+    "release_stage": "released",
+    "release_date_text": "2013년 7월 9일",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/header.jpg?t=1769535998",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/capsule_231x87.jpg?t=1769535998",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/capsule_184x69.jpg?t=1769535998",
+    "short_description": "매일, 전 세계 수백 만의 플레이어가 백여 명의 도타 영웅 중 하나가 되어 전장에 뛰어듭니다. 10시간을 했든, 1,000시간을 했든 언제나 새롭게 느껴지는 무언가가 있습니다. 정기적인 업데이트로 게임플레이, 기능, 영웅이 끊임없이 진화하는 도타 2는 그 자체의 생명력으로 살아 숨 쉬는 게임입니다.",
+    "steam_store_url": "https://store.steampowered.com/app/570",
+    "steam_recommendation_count": 14372,
+    "steam_review_score_desc": "Mostly Positive",
+    "steam_total_positive": 3928,
+    "steam_total_negative": 1238,
+    "steam_total_reviews": 5166
   },
   "report_plan": {
     "decision_anchor": {
@@ -46,191 +1085,269 @@
         },
         {
           "reason_id": "risk_2",
-          "aspect": "content_depth",
-          "theme": "반복 / 목적성 부족"
+          "aspect": "difficulty",
+          "theme": "튜토리얼 / 온보딩 부족"
         },
         {
           "reason_id": "risk_3",
-          "aspect": "difficulty",
-          "theme": "튜토리얼 / 온보딩 부족"
+          "aspect": "content_depth",
+          "theme": "반복 / 목적성 부족"
         }
       ]
     }
   },
   "report_display": {
-    "headline": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험 장점이 보여 무료로 가볍게 시작해보고 맞는지 판단하기 좋습니다.",
+    "headline": "전술과 운영 판단의 깊이 장점이 보여 무료로 가볍게 시작해 보고 맞는지 판단하기 좋습니다.",
     "buy_recommendation": "try_lightly",
     "buy_timing_summary": "무료이므로 큰 진입 비용 없이 먼저 짧게 플레이해 취향 적합성을 확인하기 좋습니다.",
     "good_for": [
-      "긴 보스전에서 패턴을 익히고 반복 트라이를 즐기는 플레이어"
+      "전술과 운영 판단을 오래 다듬는 플레이어"
     ],
     "not_good_for": [
-      "팀플레이 품질과 소통 스트레스를 크게 받는 플레이어",
-      "초반부터 편하게 진행되는 난이도를 기대하는 플레이어"
+      "매칭과 서버 상태 변화에 스트레스를 크게 받는 플레이어",
+      "같은 흐름이 길어지면 피로를 크게 느끼는 플레이어",
+      "처음부터 빠르게 적응하고 뛰어들고 싶은 플레이어"
     ],
     "top_strengths": [
       {
-        "title": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험",
-        "summary": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험 체감이 좋아 한 판 더 하게 되는 흐름이 잘 만들어집니다."
+        "title": "전술과 운영 판단의 깊이",
+        "summary": "전술과 운영 판단이 계속 이어져 생각하면서 오래 붙잡기 좋은 구조입니다."
+      },
+      {
+        "title": "다양한 영웅과 전략",
+        "summary": "각 영웅의 독특한 능력과 조합으로 매번 새로운 전투 경험을 제공합니다."
+      },
+      {
+        "title": "자유로운 아이템 빌드",
+        "summary": "아이템 선택의 폭이 넓어 플레이 스타일에 맞게 다양한 조합을 시도할 수 있습니다."
       }
     ],
     "top_risks": [
       {
-        "title": "매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크",
-        "summary": "매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크가 플레이 경험의 만족도를 낮출 수 있어 주의가 필요합니다."
+        "title": "매칭과 서버 상태에 따라 체감이 흔들리는 구간",
+        "summary": "매칭과 서버 상태가 흔들리면 한 판의 완성도가 크게 달라질 수 있습니다."
       },
       {
-        "title": "중후반 반복감이 커지면 동기 유지가 떨어질 수 있는 리스크",
-        "summary": "중후반 반복감이 커지면 동기 유지가 떨어질 수 있는 리스크이 플레이 경험의 만족도를 낮출 수 있어 주의가 필요합니다."
+        "title": "초반 적응에 시간이 필요한 구조",
+        "summary": "규칙과 조작에 익숙해지기 전까지는 진입 장벽이 높게 느껴질 수 있습니다."
       },
       {
-        "title": "튜토리얼 / 온보딩 부족",
-        "summary": "튜토리얼 / 온보딩 부족 때문에 초반 적응에서 막히면 이탈 가능성이 커질 수 있습니다."
+        "title": "반복 구간이 길어질수록 피로가 커지는 부분",
+        "summary": "익숙해진 뒤에는 새로움보다 반복감이 먼저 느껴질 수 있습니다."
       }
     ],
     "recent_state": {
       "status": "mixed",
-      "summary": "만족 포인트와 불편 포인트가 함께 보여 체감 평가가 갈리는 상태입니다."
+      "summary": "좋았다는 반응과 아쉽다는 반응이 함께 보여 평가가 갈리는 편입니다."
     }
   },
   "evidence_sections": {
     "strengths": [
       {
         "block_id": "str_1",
-        "title": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험이 실제 플레이 만족으로 이어진다는 반응",
+        "title": "전술과 운영 판단이 오래 재미를 만든다는 반응",
         "theme": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험",
-        "why_it_matters": "전투/핵심 플레이에서 전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험 체감이 좋으면 초반부터 몰입이 붙어 장시간 플레이 만족으로 이어질 가능성이 큽니다.",
-        "explanation": "전투/핵심 플레이에서 전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험 체감이 좋으면 초반부터 몰입이 붙어 장시간 플레이 만족으로 이어질 가능성이 큽니다.",
+        "why_it_matters": "운영과 전술 판단의 재미를 말하는 반응이 많아, 생각하면서 오래 즐기는 플레이에 잘 맞습니다.",
+        "explanation": "운영과 전술 판단의 재미를 말하는 반응이 많아, 생각하면서 오래 즐기는 플레이에 잘 맞습니다.",
         "aspect_keys": [
           "gameplay"
         ],
         "stance": "positive",
         "consensus_level": "high",
-        "mention_count": 294,
+        "mention_count": 419,
         "evidence_quality_level": "relaxed",
         "evidence_candidate_snippets": [
           "이새끼는 그냥 오토체스 구동 에뮬레이터였음",
           "으휴 밸브 이 밥팅이들은 스팀도 이 꼬라지로 만들고 오토체스도 눈 뜨고 라이엇한테 뺏기네",
           "? 나 언제 이 게임 했었음? 오토체스로 20시간을 태웠네",
-          "오토체스하려고 깐거 뿐이였으니 이제 그만 추천에서 꺼저라"
+          "오토체스하려고 깐거 뿐이였으니 이제 그만 추천에서 꺼저라",
+          "도타에 2000시간 넘게 시간을 갖다 버리고서야 비로소 쓰는 리뷰 장점 [*] 밸런스 대중적인 MOBA/AOS 장르 중 가장 세련됐고, 밸런스가 매우 잘 잡혀있다. 대회에서도 90% 이상의 캐릭터들이 픽/밴이 되는 모습을 볼 수 있다. 도타의 스킬/아이템들을 하나씩 보면 '이거 완전 사기 아냐?'스러운 것들이 많은데, 그럼에도 게임 전체의 밸런스를 무너뜨리지는 않는다는 것이 신기한 점 [*] 인터페이스 게임 내 UI가 굉장히 쾌적하다. 인터페이스 관련 패치가 꾸준히 이루어져서 알아보기 쉬우면서도 정보 전달력이 뛰어난 UI가 완성되었다. 게임 메커닉의 복잡함을 깔끔한 UI가 어느정도 완화해주는 듯 싶다. 도타 뽕 좀 취하면 옆 동네 게임들이 촌스러워보일 정도. 게임 클라이언트 구석구석에서도 밸브의 기술력을 느낄 수 있다. 어째 밸브는 스팀 클라이언트 및 하프라이프 는 뒷전이고 실력있는 개발자들을 죄다 도타에 몰빵한 것 같다. [*] 공정성 무료 게임이면서 Pay2Win 시스템을 완벽하게 배제한 것에 높은 점수를 주고 싶다. 즉, 뉴비와 올드비 사이의 격차는 오로지 실력뿐이다. 특성, 로테이션, 장신구 등등 그딴 시스템 없어서 넘나 맘에 든다. 그럼에도 불구하고 유저들이 나서서 지갑을 열게 만드는 밸브의 장사 능력을 보고 있으면... 게이브 뉴웰이 트럼프를 돈으로 앞질렀다는 사실이 그리 놀랄 일도 아닌듯 (+내용 추가: 최근 업데이트로 구독제 과금 요소가 생겼다. 게임 자체의 밸런스를 건드리진 않고, 픽, 스킬, 아이템빌드를 실시간으로 추천해주는 식. 이젠 게임까지 훈수충이라니 ) [*] 그 외 개인적으로 마음에 드는 점 -손이 좀 느리고 피지컬이 딸려도, 얼마든지 픽과 운영을 통해 극복할 수 있다. -자연스러우면서도 묵직한 타격감의 손맛이 좋다. - 옆 동네엔 티모가 있다면 도타엔 테키(기술단)가 있다 단점 [*] 난이도 및 진입장벽 안 그래도 배울 거 많은 MOBA/AOS 장르 중에서도, 특히 시스템이 복잡하고 진입장벽이 높다. 감히 말하자면 도타를 처음 시작한 일주일간은 재미를 기대하지 말라고 하고 싶을 정도 롤 잘 하던 사람들이 의외로 도타에서 갈피를 못 잡는 반면, 카오스를 해본 사람들은 비교적 빨리 적응하는 듯하다. 그래도 최소한 ‘고인물’에 의한 진입장벽은 느껴지지 않는다. (글로벌 유저층 기준) [*] 긴 게임시간 한 판 한 판이 묵직한?"
         ],
         "evidence_snippets": [
-          "이새끼는 그냥 오토체스 구동 에뮬레이터였음",
-          "으휴 밸브 이 밥팅이들은 스팀도 이 꼬라지로 만들고 오토체스도 눈 뜨고 라이엇한테 뺏기네",
-          "? 나 언제 이 게임 했었음? 오토체스로 20시간을 태웠네"
+          "도타에 2000시간 넘게 시간을 갖다 버리고서야 비로소 쓰는 리뷰 장점 [*] 밸런스 대중적인 MOBA/AOS 장르 중 가장 세련됐고, 밸런스가 매우 잘 잡혀있다. 대회에서도 90% 이상의 캐릭터들이 픽/밴이 되는 모습을 볼 수 있다. 도타의 스킬/아이템들을 하나씩 보면 '이거 완전 사기 아냐?'스러운 것들이 많은데, 그럼에도 게임 전체의 밸런스를 무너뜨리지는 않는다는 것이 신기한 점 [*] 인터페이스 게임 내 UI가 굉장히 쾌적하다. 인터페이스 관련 패치가 꾸준히 이루어져서 알아보기 쉬우면서도 정보 전달력이 뛰어난 UI가 완성되었다. 게임 메커닉의 복잡함을 깔끔한 UI가 어느정도 완화해주는 듯 싶다. 도타 뽕 좀 취하면 옆 동네 게임들이 촌스러워보일 정도. 게임 클라이언트 구석구석에서도 밸브의 기술력을 느낄 수 있다. 어째 밸브는 스팀 클라이언트 및 하프라이프 는 뒷전이고 실력있는 개발자들을 죄다 도타에 몰빵한 것 같다. [*] 공정성 무료 게임이면서 Pay2Win 시스템을 완벽하게 배제한 것에 높은 점수를 주고 싶다. 즉, 뉴비와 올드비 사이의 격차는 오로지 실력뿐이다. 특성, 로테이션, 장신구 등등 그딴 시스템 없어서 넘나 맘에 든다. 그럼에도 불구하고 유저들이 나서서 지갑을 열게 만드는 밸브의 장사 능력을 보고 있으면... 게이브 뉴웰이 트럼프를 돈으로 앞질렀다는 사실이 그리 놀랄 일도 아닌듯 (+내용 추가: 최근 업데이트로 구독제 과금 요소가 생겼다. 게임 자체의 밸런스를 건드리진 않고, 픽, 스킬, 아이템빌드를 실시간으로 추천해주는 식. 이젠 게임까지 훈수충이라니 ) [*] 그 외 개인적으로 마음에 드는 점 -손이 좀 느리고 피지컬이 딸려도, 얼마든지 픽과 운영을 통해 극복할 수 있다. -자연스러우면서도 묵직한 타격감의 손맛이 좋다. - 옆 동네엔 티모가 있다면 도타엔 테키(기술단)가 있다 단점 [*] 난이도 및 진입장벽 안 그래도 배울 거 많은 MOBA/AOS 장르 중에서도, 특히 시스템이 복잡하고 진입장벽이 높다. 감히 말하자면 도타를 처음 시작한 일주일간은 재미를 기대하지 말라고 하고 싶을 정도 롤 잘 하던 사람들이 의외로 도타에서 갈피를 못 잡는 반면, 카오스를 해본 사람들은 비교적 빨리 적응하는 듯하다. 그래도 최소한 ‘고인물’에 의한 진입장벽은 느껴지지 않는다. (글로벌 유저층 기준) [*] 긴 게임시간 한 판 한 판이 묵직한?",
+          "오토체스하려고 깐거 뿐이였으니 이제 그만 추천에서 꺼저라"
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-positive-1-1-278138999657571379",
+            "text": "이새끼는 그냥 오토체스 구동 에뮬레이터였음"
+          },
+          {
+            "review_id": "compress-v3-positive-1-2-1025653349930608804",
+            "text": "으휴 밸브 이 밥팅이들은 스팀도 이 꼬라지로 만들고 오토체스도 눈 뜨고 라이엇한테 뺏기네"
+          },
+          {
+            "review_id": "compress-v3-positive-1-3-7522751024330340510",
+            "text": "? 나 언제 이 게임 했었음? 오토체스로 20시간을 태웠네"
+          },
+          {
+            "review_id": "compress-v3-positive-1-4-2766467514262900123",
+            "text": "오토체스하려고 깐거 뿐이였으니 이제 그만 추천에서 꺼저라"
+          },
+          {
+            "review_id": "compress-v3-positive-1-6-3633909581360638951",
+            "text": "도타에 2000시간 넘게 시간을 갖다 버리고서야 비로소 쓰는 리뷰 장점 [*] 밸런스 대중적인 MOBA/AOS 장르 중 가장 세련됐고, 밸런스가 매우 잘 잡혀있다. 대회에서도 90% 이상의 캐릭터들이 픽/밴이 되는 모습을 볼 수 있다. 도타의 스킬/아이템들을 하나씩 보면 '이거 완전 사기 아냐?'스러운 것들이 많은데, 그럼에도 게임 전체의 밸런스를 무너뜨리지는 않는다는 것이 신기한 점 [*] 인터페이스 게임 내 UI가 굉장히 쾌적하다. 인터페이스 관련 패치가 꾸준히 이루어져서 알아보기 쉬우면서도 정보 전달력이 뛰어난 UI가 완성되었다. 게임 메커닉의 복잡함을 깔끔한 UI가 어느정도 완화해주는 듯 싶다. 도타 뽕 좀 취하면 옆 동네 게임들이 촌스러워보일 정도. 게임 클라이언트 구석구석에서도 밸브의 기술력을 느낄 수 있다. 어째 밸브는 스팀 클라이언트 및 하프라이프 는 뒷전이고 실력있는 개발자들을 죄다 도타에 몰빵한 것 같다. [*] 공정성 무료 게임이면서 Pay2Win 시스템을 완벽하게 배제한 것에 높은 점수를 주고 싶다. 즉, 뉴비와 올드비 사이의 격차는 오로지 실력뿐이다. 특성, 로테이션, 장신구 등등 그딴 시스템 없어서 넘나 맘에 든다. 그럼에도 불구하고 유저들이 나서서 지갑을 열게 만드는 밸브의 장사 능력을 보고 있으면... 게이브 뉴웰이 트럼프를 돈으로 앞질렀다는 사실이 그리 놀랄 일도 아닌듯 (+내용 추가: 최근 업데이트로 구독제 과금 요소가 생겼다. 게임 자체의 밸런스를 건드리진 않고, 픽, 스킬, 아이템빌드를 실시간으로 추천해주는 식. 이젠 게임까지 훈수충이라니 ) [*] 그 외 개인적으로 마음에 드는 점 -손이 좀 느리고 피지컬이 딸려도, 얼마든지 픽과 운영을 통해 극복할 수 있다. -자연스러우면서도 묵직한 타격감의 손맛이 좋다. - 옆 동네엔 티모가 있다면 도타엔 테키(기술단)가 있다 단점 [*] 난이도 및 진입장벽 안 그래도 배울 거 많은 MOBA/AOS 장르 중에서도, 특히 시스템이 복잡하고 진입장벽이 높다. 감히 말하자면 도타를 처음 시작한 일주일간은 재미를 기대하지 말라고 하고 싶을 정도 롤 잘 하던 사람들이 의외로 도타에서 갈피를 못 잡는 반면, 카오스를 해본 사람들은 비교적 빨리 적응하는 듯하다. 그래도 최소한 ‘고인물’에 의한 진입장벽은 느껴지지 않는다. (글로벌 유저층 기준) [*] 긴 게임시간 한 판 한 판이 묵직한?"
+          }
         ]
       }
     ],
     "risks": [
       {
         "block_id": "risk_1",
-        "title": "매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크 때문에 플레이 흐름이 끊긴다는 반응",
+        "title": "매칭과 서버 상태가 체감을 흔든다는 반응",
         "theme": "매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크",
-        "why_it_matters": "멀티플레이에서 매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크 불편가 반복되면 초반 만족도가 크게 떨어질 수 있어 플레이 전 감수 여부 확인가 필요합니다.",
-        "explanation": "멀티플레이에서 매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크 불편가 반복되면 초반 만족도가 크게 떨어질 수 있어 플레이 전 감수 여부 확인가 필요합니다.",
+        "why_it_matters": "매칭과 서버 상태를 문제로 보는 반응이 이어져, 한 판의 완성도가 상황에 따라 꽤 달라질 수 있습니다.",
+        "explanation": "매칭과 서버 상태를 문제로 보는 반응이 이어져, 한 판의 완성도가 상황에 따라 꽤 달라질 수 있습니다.",
         "aspect_keys": [
           "multiplayer"
         ],
         "stance": "negative",
         "consensus_level": "high",
-        "mention_count": 119,
+        "mention_count": 275,
         "evidence_quality_level": "strict",
         "evidence_candidate_snippets": [
           "그냥 이 게임 손놨음. 밸브가 이제 고칠생각이 없다는 단호한 태도인건 알겠음. 그냥 팩트 박음. 1. 불안정한 매치메이킹 = 가끔 랭크 높다는 애들이 하는말로 판수를 많이 하면 매치메이킹 알고리즘이 안정화 된다고 하는데, 이게 씹개소리라는거 말해주는데 본인이 활용할 방법은 얼마 안걸리고 머리에 쏙쏙 이해가 되게끔 굉장히 쉬운 구조를 가짐. 도타2는 1판당 들어가는 시간이 짧아도 30분임. 1천판을 한다 가정해보자. 30분x1000은 30000분이며 시간으로 환산하면 1500시간이다. 그렇다면 이 게임을 750일을 해야지 1천판이라는 계수에 도달하게 된다.(30분 게임만 했다 가정했을때 말이다.) 그런데 30분 게임을 하는게 쉬울거같음? 기본적으로 타파할 수 있는 능력이 매우 떨어지는 저지능자 원숭이들 4마리 데리고 게임을 강제로 이기는데 드는 시간은 저 시간의 배수의 2배 이상의 시간을 할애해야 이길까 말까다. 그렇다면 1천판이라는 판수를 올린다고 가정하는데 드는 시간은 자그마치 750일의 시간보다 더 들어간다. 저기서 300일은 더 더한 수치인 1050일이 진짜 도타2의 1천판의 기존 수치라는거다. 최소 3년이란 소리임. 1050일이 됬다 해서 매치가 안정적일거 같음? 냉정히 말해주면 절대 그렇지 않다. 원숭이 새끼들은 그대로 원숭이 새끼들 배정받는거 그대로고, 불합리한 승리구조를 가지고 \"이거 한번 이겨봐.\" 라는 매치메이킹을 잡아준다. 유사점의 게임이 히어로즈 오브 스톰 이며, 얘네 개발진들 데려다 도타2 매치메이킹 프로세스 이용한다는 이야기는 오래 전 부터 돌고 있던 소문이다. 그리고 도타 플러스를 이용해도 매칭 품질이 항상 씹창이 나있는건 의도된 행동인진 모르겠다? 그리고 왜 리폿 제재는 정상적으로 이루어지지 않는건데? 2. 부스팅과 핵 계정 / 부계정 차단 이슈 = 얘네들 부계정 진심으로 차단하는거? 결론적으로 말해준다. 그딴거 없다. 그냥 간단히 말해준다면 1에서 설명한 씹창난 매치메이킹으로 피해받는 사람이 발생하는 관계로 부스팅을 이용한다. 아니면 부계정이나? 가끔 매치를 진행 하는 도중 상상이상으로 압도하는 플레이를 가진 유저가 매칭이 되는데, 이거 다 부스팅 아니면 스크립트 핵이다. 왠줄 암? 얘네들은 이미 너의 시야 혹은 플레이를 다 꿰고있기 때문임.",
-          "님들아 여기 패작 존나 많음 내가 이기고 싶어도 이길 수 없음 동남아 서버는 걍 던지는 애들 밖에 없고 일본은 그나마 나은데 중국애들 중에 치트쓰는 애들이 많음 하지마셈",
-          "최근 롤 솔랭 작살나고 롤하다가 입문하는 사람이 많은 것 같아서 작성함. 1. 컨하는 느낌은 롤보단 오히려 스타1에 더 가까움. 스1 잘하는 사람이 도타 컨트롤 잘함. 롤의 고난이도 챔피언들의 난이도 요소는 대부분 정확한 에임에 집중되어 있음. 원딜, 이렐, 야쏘 이런 애들 모두 정확한 위치를 반복적으로 빠르게 클릭할 수 있는 능력이 핵심임. 반면 도타의 난이도 요소는 다중 컨트롤임. 미포, 첸, 론드루 등등 대부분의 고난이도 영웅들은 여러 유닛을 컨트롤하는 능력이 중요함. 추가로 회전 속도, 블라킹 << 이거 두개가 스타1과 그 느낌이 매우 유사함. 그래서 스타1 하던 사람은 그냥 숨쉬듯이 자연스럽게 컨트롤하는데 롤만 하다오면 이거 때문에 답답해 뒤질라 하는 사람 여럿 봤음. 2. 운영은 정말 비교 대상이 없이 도타식 운영임. 운영 면에서도 롤이랑은 별로 공통점이 없는게 티피 스크롤이랑 스모크 때문에 완전히 다른 게임임. 한타가 매우 자주 일어나고 롤에 비해 레인전 비중이 낮음. 정 레인에 못 서있겠다 싶으면 그냥 버리고 정글들어가서 팜쳐도 게임을 비빌 수 있으니까. 이렇게 운영 개념도 다르고 컨트롤 요소도 다르니 롤 잘하는거랑 이거 잘하는거랑 큰 관계는 없는거 같음. 3. 시작 암기량이 많음. 모든 pvp 게임이 다 그렇지만 도타는 \"모르면 죽어\"가 철권 이상 급임. 별 ㅈ같은 스킬이 많아서 기상천외한 방법으로 죽게 됨. 계속 죽으면서 \"아 상대 도끼전사나 군단사령관이 점멸 단검이 나왔으면 지금부터는 혼자 맵에 보이면 안되겠구나\" 뭐 이런 잡다한 지식들을 다 외워야 함. 그리고 아이템 개수가 상당히 많음. 단순히 완성 아이템이 많은 걸 넘어서 게임을 쾌적하게 하기 위해서는 소모템들을 잘 사는게 매우 중요함. 문제는 소모템 개수가 많아서 처음할 때 이게 진입장벽으로 다가옴. 번외로 캐릭이나 아이템 이름들도 다 별명으로 불러서 그것도 다 외워야 함. 예를들어 얼굴없는 전사를 얼굴없는 전사라고 말하면 같이 게임하는 외국인들은 아무도 못 알아들음. fv ( faceless void 약자 )라고 해야 알아먹음. 칠흑왕의 지팡이 -> wtf is that? bkb (black king bar 약자)라고 해야 알아먹음. 처음하면 이것도 불편함. 마지막으로 롤이랑 비교를 더 해보면 1. 캐리 뽕이 훨씬 강하다."
+          "님들아 여기 패작 존나 많음 내가 이기고 싶어도 이길 수 없음 동남아 서버는 걍 던지는 애들 밖에 없고 일본은 그나마 나은데 중국애들 중에 치트쓰는 애들이 많음 하지마셈"
         ],
         "evidence_snippets": [
-          "님들아 여기 패작 존나 많음 내가 이기고 싶어도 이길 수 없음 동남아 서버는 걍 던지는 애들 밖에 없고 일본은 그나마 나은데 중국애들 중에 치트쓰는 애들이 많음 하지마셈",
           "그냥 이 게임 손놨음. 밸브가 이제 고칠생각이 없다는 단호한 태도인건 알겠음. 그냥 팩트 박음. 1. 불안정한 매치메이킹 = 가끔 랭크 높다는 애들이 하는말로 판수를 많이 하면 매치메이킹 알고리즘이 안정화 된다고 하는데, 이게 씹개소리라는거 말해주는데 본인이 활용할 방법은 얼마 안걸리고 머리에 쏙쏙 이해가 되게끔 굉장히 쉬운 구조를 가짐. 도타2는 1판당 들어가는 시간이 짧아도 30분임. 1천판을 한다 가정해보자. 30분x1000은 30000분이며 시간으로 환산하면 1500시간이다. 그렇다면 이 게임을 750일을 해야지 1천판이라는 계수에 도달하게 된다.(30분 게임만 했다 가정했을때 말이다.) 그런데 30분 게임을 하는게 쉬울거같음? 기본적으로 타파할 수 있는 능력이 매우 떨어지는 저지능자 원숭이들 4마리 데리고 게임을 강제로 이기는데 드는 시간은 저 시간의 배수의 2배 이상의 시간을 할애해야 이길까 말까다. 그렇다면 1천판이라는 판수를 올린다고 가정하는데 드는 시간은 자그마치 750일의 시간보다 더 들어간다. 저기서 300일은 더 더한 수치인 1050일이 진짜 도타2의 1천판의 기존 수치라는거다. 최소 3년이란 소리임. 1050일이 됬다 해서 매치가 안정적일거 같음? 냉정히 말해주면 절대 그렇지 않다. 원숭이 새끼들은 그대로 원숭이 새끼들 배정받는거 그대로고, 불합리한 승리구조를 가지고 \"이거 한번 이겨봐.\" 라는 매치메이킹을 잡아준다. 유사점의 게임이 히어로즈 오브 스톰 이며, 얘네 개발진들 데려다 도타2 매치메이킹 프로세스 이용한다는 이야기는 오래 전 부터 돌고 있던 소문이다. 그리고 도타 플러스를 이용해도 매칭 품질이 항상 씹창이 나있는건 의도된 행동인진 모르겠다? 그리고 왜 리폿 제재는 정상적으로 이루어지지 않는건데? 2. 부스팅과 핵 계정 / 부계정 차단 이슈 = 얘네들 부계정 진심으로 차단하는거? 결론적으로 말해준다. 그딴거 없다. 그냥 간단히 말해준다면 1에서 설명한 씹창난 매치메이킹으로 피해받는 사람이 발생하는 관계로 부스팅을 이용한다. 아니면 부계정이나? 가끔 매치를 진행 하는 도중 상상이상으로 압도하는 플레이를 가진 유저가 매칭이 되는데, 이거 다 부스팅 아니면 스크립트 핵이다. 왠줄 암? 얘네들은 이미 너의 시야 혹은 플레이를 다 꿰고있기 때문임.",
-          "최근 롤 솔랭 작살나고 롤하다가 입문하는 사람이 많은 것 같아서 작성함. 1. 컨하는 느낌은 롤보단 오히려 스타1에 더 가까움. 스1 잘하는 사람이 도타 컨트롤 잘함. 롤의 고난이도 챔피언들의 난이도 요소는 대부분 정확한 에임에 집중되어 있음. 원딜, 이렐, 야쏘 이런 애들 모두 정확한 위치를 반복적으로 빠르게 클릭할 수 있는 능력이 핵심임. 반면 도타의 난이도 요소는 다중 컨트롤임. 미포, 첸, 론드루 등등 대부분의 고난이도 영웅들은 여러 유닛을 컨트롤하는 능력이 중요함. 추가로 회전 속도, 블라킹 << 이거 두개가 스타1과 그 느낌이 매우 유사함. 그래서 스타1 하던 사람은 그냥 숨쉬듯이 자연스럽게 컨트롤하는데 롤만 하다오면 이거 때문에 답답해 뒤질라 하는 사람 여럿 봤음. 2. 운영은 정말 비교 대상이 없이 도타식 운영임. 운영 면에서도 롤이랑은 별로 공통점이 없는게 티피 스크롤이랑 스모크 때문에 완전히 다른 게임임. 한타가 매우 자주 일어나고 롤에 비해 레인전 비중이 낮음. 정 레인에 못 서있겠다 싶으면 그냥 버리고 정글들어가서 팜쳐도 게임을 비빌 수 있으니까. 이렇게 운영 개념도 다르고 컨트롤 요소도 다르니 롤 잘하는거랑 이거 잘하는거랑 큰 관계는 없는거 같음. 3. 시작 암기량이 많음. 모든 pvp 게임이 다 그렇지만 도타는 \"모르면 죽어\"가 철권 이상 급임. 별 ㅈ같은 스킬이 많아서 기상천외한 방법으로 죽게 됨. 계속 죽으면서 \"아 상대 도끼전사나 군단사령관이 점멸 단검이 나왔으면 지금부터는 혼자 맵에 보이면 안되겠구나\" 뭐 이런 잡다한 지식들을 다 외워야 함. 그리고 아이템 개수가 상당히 많음. 단순히 완성 아이템이 많은 걸 넘어서 게임을 쾌적하게 하기 위해서는 소모템들을 잘 사는게 매우 중요함. 문제는 소모템 개수가 많아서 처음할 때 이게 진입장벽으로 다가옴. 번외로 캐릭이나 아이템 이름들도 다 별명으로 불러서 그것도 다 외워야 함. 예를들어 얼굴없는 전사를 얼굴없는 전사라고 말하면 같이 게임하는 외국인들은 아무도 못 알아들음. fv ( faceless void 약자 )라고 해야 알아먹음. 칠흑왕의 지팡이 -> wtf is that? bkb (black king bar 약자)라고 해야 알아먹음. 처음하면 이것도 불편함. 마지막으로 롤이랑 비교를 더 해보면 1. 캐리 뽕이 훨씬 강하다."
+          "님들아 여기 패작 존나 많음 내가 이기고 싶어도 이길 수 없음 동남아 서버는 걍 던지는 애들 밖에 없고 일본은 그나마 나은데 중국애들 중에 치트쓰는 애들이 많음 하지마셈"
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-negative-1-1-4653883929931804290",
+            "text": "그냥 이 게임 손놨음. 밸브가 이제 고칠생각이 없다는 단호한 태도인건 알겠음. 그냥 팩트 박음. 1. 불안정한 매치메이킹 = 가끔 랭크 높다는 애들이 하는말로 판수를 많이 하면 매치메이킹 알고리즘이 안정화 된다고 하는데, 이게 씹개소리라는거 말해주는데 본인이 활용할 방법은 얼마 안걸리고 머리에 쏙쏙 이해가 되게끔 굉장히 쉬운 구조를 가짐. 도타2는 1판당 들어가는 시간이 짧아도 30분임. 1천판을 한다 가정해보자. 30분x1000은 30000분이며 시간으로 환산하면 1500시간이다. 그렇다면 이 게임을 750일을 해야지 1천판이라는 계수에 도달하게 된다.(30분 게임만 했다 가정했을때 말이다.) 그런데 30분 게임을 하는게 쉬울거같음? 기본적으로 타파할 수 있는 능력이 매우 떨어지는 저지능자 원숭이들 4마리 데리고 게임을 강제로 이기는데 드는 시간은 저 시간의 배수의 2배 이상의 시간을 할애해야 이길까 말까다. 그렇다면 1천판이라는 판수를 올린다고 가정하는데 드는 시간은 자그마치 750일의 시간보다 더 들어간다. 저기서 300일은 더 더한 수치인 1050일이 진짜 도타2의 1천판의 기존 수치라는거다. 최소 3년이란 소리임. 1050일이 됬다 해서 매치가 안정적일거 같음? 냉정히 말해주면 절대 그렇지 않다. 원숭이 새끼들은 그대로 원숭이 새끼들 배정받는거 그대로고, 불합리한 승리구조를 가지고 \"이거 한번 이겨봐.\" 라는 매치메이킹을 잡아준다. 유사점의 게임이 히어로즈 오브 스톰 이며, 얘네 개발진들 데려다 도타2 매치메이킹 프로세스 이용한다는 이야기는 오래 전 부터 돌고 있던 소문이다. 그리고 도타 플러스를 이용해도 매칭 품질이 항상 씹창이 나있는건 의도된 행동인진 모르겠다? 그리고 왜 리폿 제재는 정상적으로 이루어지지 않는건데? 2. 부스팅과 핵 계정 / 부계정 차단 이슈 = 얘네들 부계정 진심으로 차단하는거? 결론적으로 말해준다. 그딴거 없다. 그냥 간단히 말해준다면 1에서 설명한 씹창난 매치메이킹으로 피해받는 사람이 발생하는 관계로 부스팅을 이용한다. 아니면 부계정이나? 가끔 매치를 진행 하는 도중 상상이상으로 압도하는 플레이를 가진 유저가 매칭이 되는데, 이거 다 부스팅 아니면 스크립트 핵이다. 왠줄 암? 얘네들은 이미 너의 시야 혹은 플레이를 다 꿰고있기 때문임."
+          },
+          {
+            "review_id": "compress-v3-negative-1-2-678415090061796176",
+            "text": "님들아 여기 패작 존나 많음 내가 이기고 싶어도 이길 수 없음 동남아 서버는 걍 던지는 애들 밖에 없고 일본은 그나마 나은데 중국애들 중에 치트쓰는 애들이 많음 하지마셈"
+          }
         ]
       }
     ]
   },
-  "disclaimer": "이 리포트는 반복적으로 관찰된 고합의 리뷰 신호를 구매 판단 관점으로 재해석한 결과입니다.",
-  "headline": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험 장점이 보여 무료로 가볍게 시작해보고 맞는지 판단하기 좋습니다.",
+  "disclaimer": "여러 유저 리뷰를 바탕으로 정리했어요. 플레이 경험은 사람마다 다를 수 있어요.",
+  "headline": "전술과 운영 판단의 깊이 장점이 보여 무료로 가볍게 시작해 보고 맞는지 판단하기 좋습니다.",
   "buy_recommendation": "try_lightly",
   "buy_timing_summary": "무료이므로 큰 진입 비용 없이 먼저 짧게 플레이해 취향 적합성을 확인하기 좋습니다.",
   "good_for": [
-    "긴 보스전에서 패턴을 익히고 반복 트라이를 즐기는 플레이어"
+    "전술과 운영 판단을 오래 다듬는 플레이어"
   ],
   "not_good_for": [
-    "팀플레이 품질과 소통 스트레스를 크게 받는 플레이어",
-    "초반부터 편하게 진행되는 난이도를 기대하는 플레이어"
+    "매칭과 서버 상태 변화에 스트레스를 크게 받는 플레이어",
+    "같은 흐름이 길어지면 피로를 크게 느끼는 플레이어",
+    "처음부터 빠르게 적응하고 뛰어들고 싶은 플레이어"
   ],
   "top_strengths": [
     {
-      "title": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험",
-      "summary": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험 체감이 좋아 한 판 더 하게 되는 흐름이 잘 만들어집니다."
+      "title": "전술과 운영 판단의 깊이",
+      "summary": "전술과 운영 판단이 계속 이어져 생각하면서 오래 붙잡기 좋은 구조입니다."
+    },
+    {
+      "title": "다양한 영웅과 전략",
+      "summary": "각 영웅의 독특한 능력과 조합으로 매번 새로운 전투 경험을 제공합니다."
+    },
+    {
+      "title": "자유로운 아이템 빌드",
+      "summary": "아이템 선택의 폭이 넓어 플레이 스타일에 맞게 다양한 조합을 시도할 수 있습니다."
     }
   ],
   "top_risks": [
     {
-      "title": "매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크",
-      "summary": "매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크가 플레이 경험의 만족도를 낮출 수 있어 주의가 필요합니다."
+      "title": "매칭과 서버 상태에 따라 체감이 흔들리는 구간",
+      "summary": "매칭과 서버 상태가 흔들리면 한 판의 완성도가 크게 달라질 수 있습니다."
     },
     {
-      "title": "중후반 반복감이 커지면 동기 유지가 떨어질 수 있는 리스크",
-      "summary": "중후반 반복감이 커지면 동기 유지가 떨어질 수 있는 리스크이 플레이 경험의 만족도를 낮출 수 있어 주의가 필요합니다."
+      "title": "초반 적응에 시간이 필요한 구조",
+      "summary": "규칙과 조작에 익숙해지기 전까지는 진입 장벽이 높게 느껴질 수 있습니다."
     },
     {
-      "title": "튜토리얼 / 온보딩 부족",
-      "summary": "튜토리얼 / 온보딩 부족 때문에 초반 적응에서 막히면 이탈 가능성이 커질 수 있습니다."
+      "title": "반복 구간이 길어질수록 피로가 커지는 부분",
+      "summary": "익숙해진 뒤에는 새로움보다 반복감이 먼저 느껴질 수 있습니다."
     }
   ],
   "recent_state": {
     "status": "mixed",
-    "summary": "만족 포인트와 불편 포인트가 함께 보여 체감 평가가 갈리는 상태입니다."
+    "summary": "좋았다는 반응과 아쉽다는 반응이 함께 보여 평가가 갈리는 편입니다."
   },
   "evidence_reviews": [
     {
       "block_id": "str_1",
-      "title": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험이 실제 플레이 만족으로 이어진다는 반응",
+      "title": "전술과 운영 판단이 오래 재미를 만든다는 반응",
       "theme": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험",
-      "why_it_matters": "전투/핵심 플레이에서 전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험 체감이 좋으면 초반부터 몰입이 붙어 장시간 플레이 만족으로 이어질 가능성이 큽니다.",
-      "explanation": "전투/핵심 플레이에서 전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험 체감이 좋으면 초반부터 몰입이 붙어 장시간 플레이 만족으로 이어질 가능성이 큽니다.",
+      "why_it_matters": "운영과 전술 판단의 재미를 말하는 반응이 많아, 생각하면서 오래 즐기는 플레이에 잘 맞습니다.",
+      "explanation": "운영과 전술 판단의 재미를 말하는 반응이 많아, 생각하면서 오래 즐기는 플레이에 잘 맞습니다.",
       "aspect_keys": [
         "gameplay"
       ],
       "stance": "positive",
       "consensus_level": "high",
-      "mention_count": 294,
+      "mention_count": 419,
       "evidence_quality_level": "relaxed",
       "evidence_candidate_snippets": [
         "이새끼는 그냥 오토체스 구동 에뮬레이터였음",
         "으휴 밸브 이 밥팅이들은 스팀도 이 꼬라지로 만들고 오토체스도 눈 뜨고 라이엇한테 뺏기네",
         "? 나 언제 이 게임 했었음? 오토체스로 20시간을 태웠네",
-        "오토체스하려고 깐거 뿐이였으니 이제 그만 추천에서 꺼저라"
+        "오토체스하려고 깐거 뿐이였으니 이제 그만 추천에서 꺼저라",
+        "도타에 2000시간 넘게 시간을 갖다 버리고서야 비로소 쓰는 리뷰 장점 [*] 밸런스 대중적인 MOBA/AOS 장르 중 가장 세련됐고, 밸런스가 매우 잘 잡혀있다. 대회에서도 90% 이상의 캐릭터들이 픽/밴이 되는 모습을 볼 수 있다. 도타의 스킬/아이템들을 하나씩 보면 '이거 완전 사기 아냐?'스러운 것들이 많은데, 그럼에도 게임 전체의 밸런스를 무너뜨리지는 않는다는 것이 신기한 점 [*] 인터페이스 게임 내 UI가 굉장히 쾌적하다. 인터페이스 관련 패치가 꾸준히 이루어져서 알아보기 쉬우면서도 정보 전달력이 뛰어난 UI가 완성되었다. 게임 메커닉의 복잡함을 깔끔한 UI가 어느정도 완화해주는 듯 싶다. 도타 뽕 좀 취하면 옆 동네 게임들이 촌스러워보일 정도. 게임 클라이언트 구석구석에서도 밸브의 기술력을 느낄 수 있다. 어째 밸브는 스팀 클라이언트 및 하프라이프 는 뒷전이고 실력있는 개발자들을 죄다 도타에 몰빵한 것 같다. [*] 공정성 무료 게임이면서 Pay2Win 시스템을 완벽하게 배제한 것에 높은 점수를 주고 싶다. 즉, 뉴비와 올드비 사이의 격차는 오로지 실력뿐이다. 특성, 로테이션, 장신구 등등 그딴 시스템 없어서 넘나 맘에 든다. 그럼에도 불구하고 유저들이 나서서 지갑을 열게 만드는 밸브의 장사 능력을 보고 있으면... 게이브 뉴웰이 트럼프를 돈으로 앞질렀다는 사실이 그리 놀랄 일도 아닌듯 (+내용 추가: 최근 업데이트로 구독제 과금 요소가 생겼다. 게임 자체의 밸런스를 건드리진 않고, 픽, 스킬, 아이템빌드를 실시간으로 추천해주는 식. 이젠 게임까지 훈수충이라니 ) [*] 그 외 개인적으로 마음에 드는 점 -손이 좀 느리고 피지컬이 딸려도, 얼마든지 픽과 운영을 통해 극복할 수 있다. -자연스러우면서도 묵직한 타격감의 손맛이 좋다. - 옆 동네엔 티모가 있다면 도타엔 테키(기술단)가 있다 단점 [*] 난이도 및 진입장벽 안 그래도 배울 거 많은 MOBA/AOS 장르 중에서도, 특히 시스템이 복잡하고 진입장벽이 높다. 감히 말하자면 도타를 처음 시작한 일주일간은 재미를 기대하지 말라고 하고 싶을 정도 롤 잘 하던 사람들이 의외로 도타에서 갈피를 못 잡는 반면, 카오스를 해본 사람들은 비교적 빨리 적응하는 듯하다. 그래도 최소한 ‘고인물’에 의한 진입장벽은 느껴지지 않는다. (글로벌 유저층 기준) [*] 긴 게임시간 한 판 한 판이 묵직한?"
       ],
       "evidence_snippets": [
-        "이새끼는 그냥 오토체스 구동 에뮬레이터였음",
-        "으휴 밸브 이 밥팅이들은 스팀도 이 꼬라지로 만들고 오토체스도 눈 뜨고 라이엇한테 뺏기네",
-        "? 나 언제 이 게임 했었음? 오토체스로 20시간을 태웠네"
+        "도타에 2000시간 넘게 시간을 갖다 버리고서야 비로소 쓰는 리뷰 장점 [*] 밸런스 대중적인 MOBA/AOS 장르 중 가장 세련됐고, 밸런스가 매우 잘 잡혀있다. 대회에서도 90% 이상의 캐릭터들이 픽/밴이 되는 모습을 볼 수 있다. 도타의 스킬/아이템들을 하나씩 보면 '이거 완전 사기 아냐?'스러운 것들이 많은데, 그럼에도 게임 전체의 밸런스를 무너뜨리지는 않는다는 것이 신기한 점 [*] 인터페이스 게임 내 UI가 굉장히 쾌적하다. 인터페이스 관련 패치가 꾸준히 이루어져서 알아보기 쉬우면서도 정보 전달력이 뛰어난 UI가 완성되었다. 게임 메커닉의 복잡함을 깔끔한 UI가 어느정도 완화해주는 듯 싶다. 도타 뽕 좀 취하면 옆 동네 게임들이 촌스러워보일 정도. 게임 클라이언트 구석구석에서도 밸브의 기술력을 느낄 수 있다. 어째 밸브는 스팀 클라이언트 및 하프라이프 는 뒷전이고 실력있는 개발자들을 죄다 도타에 몰빵한 것 같다. [*] 공정성 무료 게임이면서 Pay2Win 시스템을 완벽하게 배제한 것에 높은 점수를 주고 싶다. 즉, 뉴비와 올드비 사이의 격차는 오로지 실력뿐이다. 특성, 로테이션, 장신구 등등 그딴 시스템 없어서 넘나 맘에 든다. 그럼에도 불구하고 유저들이 나서서 지갑을 열게 만드는 밸브의 장사 능력을 보고 있으면... 게이브 뉴웰이 트럼프를 돈으로 앞질렀다는 사실이 그리 놀랄 일도 아닌듯 (+내용 추가: 최근 업데이트로 구독제 과금 요소가 생겼다. 게임 자체의 밸런스를 건드리진 않고, 픽, 스킬, 아이템빌드를 실시간으로 추천해주는 식. 이젠 게임까지 훈수충이라니 ) [*] 그 외 개인적으로 마음에 드는 점 -손이 좀 느리고 피지컬이 딸려도, 얼마든지 픽과 운영을 통해 극복할 수 있다. -자연스러우면서도 묵직한 타격감의 손맛이 좋다. - 옆 동네엔 티모가 있다면 도타엔 테키(기술단)가 있다 단점 [*] 난이도 및 진입장벽 안 그래도 배울 거 많은 MOBA/AOS 장르 중에서도, 특히 시스템이 복잡하고 진입장벽이 높다. 감히 말하자면 도타를 처음 시작한 일주일간은 재미를 기대하지 말라고 하고 싶을 정도 롤 잘 하던 사람들이 의외로 도타에서 갈피를 못 잡는 반면, 카오스를 해본 사람들은 비교적 빨리 적응하는 듯하다. 그래도 최소한 ‘고인물’에 의한 진입장벽은 느껴지지 않는다. (글로벌 유저층 기준) [*] 긴 게임시간 한 판 한 판이 묵직한?",
+        "오토체스하려고 깐거 뿐이였으니 이제 그만 추천에서 꺼저라"
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-positive-1-1-278138999657571379",
+          "text": "이새끼는 그냥 오토체스 구동 에뮬레이터였음"
+        },
+        {
+          "review_id": "compress-v3-positive-1-2-1025653349930608804",
+          "text": "으휴 밸브 이 밥팅이들은 스팀도 이 꼬라지로 만들고 오토체스도 눈 뜨고 라이엇한테 뺏기네"
+        },
+        {
+          "review_id": "compress-v3-positive-1-3-7522751024330340510",
+          "text": "? 나 언제 이 게임 했었음? 오토체스로 20시간을 태웠네"
+        },
+        {
+          "review_id": "compress-v3-positive-1-4-2766467514262900123",
+          "text": "오토체스하려고 깐거 뿐이였으니 이제 그만 추천에서 꺼저라"
+        },
+        {
+          "review_id": "compress-v3-positive-1-6-3633909581360638951",
+          "text": "도타에 2000시간 넘게 시간을 갖다 버리고서야 비로소 쓰는 리뷰 장점 [*] 밸런스 대중적인 MOBA/AOS 장르 중 가장 세련됐고, 밸런스가 매우 잘 잡혀있다. 대회에서도 90% 이상의 캐릭터들이 픽/밴이 되는 모습을 볼 수 있다. 도타의 스킬/아이템들을 하나씩 보면 '이거 완전 사기 아냐?'스러운 것들이 많은데, 그럼에도 게임 전체의 밸런스를 무너뜨리지는 않는다는 것이 신기한 점 [*] 인터페이스 게임 내 UI가 굉장히 쾌적하다. 인터페이스 관련 패치가 꾸준히 이루어져서 알아보기 쉬우면서도 정보 전달력이 뛰어난 UI가 완성되었다. 게임 메커닉의 복잡함을 깔끔한 UI가 어느정도 완화해주는 듯 싶다. 도타 뽕 좀 취하면 옆 동네 게임들이 촌스러워보일 정도. 게임 클라이언트 구석구석에서도 밸브의 기술력을 느낄 수 있다. 어째 밸브는 스팀 클라이언트 및 하프라이프 는 뒷전이고 실력있는 개발자들을 죄다 도타에 몰빵한 것 같다. [*] 공정성 무료 게임이면서 Pay2Win 시스템을 완벽하게 배제한 것에 높은 점수를 주고 싶다. 즉, 뉴비와 올드비 사이의 격차는 오로지 실력뿐이다. 특성, 로테이션, 장신구 등등 그딴 시스템 없어서 넘나 맘에 든다. 그럼에도 불구하고 유저들이 나서서 지갑을 열게 만드는 밸브의 장사 능력을 보고 있으면... 게이브 뉴웰이 트럼프를 돈으로 앞질렀다는 사실이 그리 놀랄 일도 아닌듯 (+내용 추가: 최근 업데이트로 구독제 과금 요소가 생겼다. 게임 자체의 밸런스를 건드리진 않고, 픽, 스킬, 아이템빌드를 실시간으로 추천해주는 식. 이젠 게임까지 훈수충이라니 ) [*] 그 외 개인적으로 마음에 드는 점 -손이 좀 느리고 피지컬이 딸려도, 얼마든지 픽과 운영을 통해 극복할 수 있다. -자연스러우면서도 묵직한 타격감의 손맛이 좋다. - 옆 동네엔 티모가 있다면 도타엔 테키(기술단)가 있다 단점 [*] 난이도 및 진입장벽 안 그래도 배울 거 많은 MOBA/AOS 장르 중에서도, 특히 시스템이 복잡하고 진입장벽이 높다. 감히 말하자면 도타를 처음 시작한 일주일간은 재미를 기대하지 말라고 하고 싶을 정도 롤 잘 하던 사람들이 의외로 도타에서 갈피를 못 잡는 반면, 카오스를 해본 사람들은 비교적 빨리 적응하는 듯하다. 그래도 최소한 ‘고인물’에 의한 진입장벽은 느껴지지 않는다. (글로벌 유저층 기준) [*] 긴 게임시간 한 판 한 판이 묵직한?"
+        }
       ]
     },
     {
       "block_id": "risk_1",
-      "title": "매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크 때문에 플레이 흐름이 끊긴다는 반응",
+      "title": "매칭과 서버 상태가 체감을 흔든다는 반응",
       "theme": "매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크",
-      "why_it_matters": "멀티플레이에서 매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크 불편가 반복되면 초반 만족도가 크게 떨어질 수 있어 플레이 전 감수 여부 확인가 필요합니다.",
-      "explanation": "멀티플레이에서 매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크 불편가 반복되면 초반 만족도가 크게 떨어질 수 있어 플레이 전 감수 여부 확인가 필요합니다.",
+      "why_it_matters": "매칭과 서버 상태를 문제로 보는 반응이 이어져, 한 판의 완성도가 상황에 따라 꽤 달라질 수 있습니다.",
+      "explanation": "매칭과 서버 상태를 문제로 보는 반응이 이어져, 한 판의 완성도가 상황에 따라 꽤 달라질 수 있습니다.",
       "aspect_keys": [
         "multiplayer"
       ],
       "stance": "negative",
       "consensus_level": "high",
-      "mention_count": 119,
+      "mention_count": 275,
       "evidence_quality_level": "strict",
       "evidence_candidate_snippets": [
         "그냥 이 게임 손놨음. 밸브가 이제 고칠생각이 없다는 단호한 태도인건 알겠음. 그냥 팩트 박음. 1. 불안정한 매치메이킹 = 가끔 랭크 높다는 애들이 하는말로 판수를 많이 하면 매치메이킹 알고리즘이 안정화 된다고 하는데, 이게 씹개소리라는거 말해주는데 본인이 활용할 방법은 얼마 안걸리고 머리에 쏙쏙 이해가 되게끔 굉장히 쉬운 구조를 가짐. 도타2는 1판당 들어가는 시간이 짧아도 30분임. 1천판을 한다 가정해보자. 30분x1000은 30000분이며 시간으로 환산하면 1500시간이다. 그렇다면 이 게임을 750일을 해야지 1천판이라는 계수에 도달하게 된다.(30분 게임만 했다 가정했을때 말이다.) 그런데 30분 게임을 하는게 쉬울거같음? 기본적으로 타파할 수 있는 능력이 매우 떨어지는 저지능자 원숭이들 4마리 데리고 게임을 강제로 이기는데 드는 시간은 저 시간의 배수의 2배 이상의 시간을 할애해야 이길까 말까다. 그렇다면 1천판이라는 판수를 올린다고 가정하는데 드는 시간은 자그마치 750일의 시간보다 더 들어간다. 저기서 300일은 더 더한 수치인 1050일이 진짜 도타2의 1천판의 기존 수치라는거다. 최소 3년이란 소리임. 1050일이 됬다 해서 매치가 안정적일거 같음? 냉정히 말해주면 절대 그렇지 않다. 원숭이 새끼들은 그대로 원숭이 새끼들 배정받는거 그대로고, 불합리한 승리구조를 가지고 \"이거 한번 이겨봐.\" 라는 매치메이킹을 잡아준다. 유사점의 게임이 히어로즈 오브 스톰 이며, 얘네 개발진들 데려다 도타2 매치메이킹 프로세스 이용한다는 이야기는 오래 전 부터 돌고 있던 소문이다. 그리고 도타 플러스를 이용해도 매칭 품질이 항상 씹창이 나있는건 의도된 행동인진 모르겠다? 그리고 왜 리폿 제재는 정상적으로 이루어지지 않는건데? 2. 부스팅과 핵 계정 / 부계정 차단 이슈 = 얘네들 부계정 진심으로 차단하는거? 결론적으로 말해준다. 그딴거 없다. 그냥 간단히 말해준다면 1에서 설명한 씹창난 매치메이킹으로 피해받는 사람이 발생하는 관계로 부스팅을 이용한다. 아니면 부계정이나? 가끔 매치를 진행 하는 도중 상상이상으로 압도하는 플레이를 가진 유저가 매칭이 되는데, 이거 다 부스팅 아니면 스크립트 핵이다. 왠줄 암? 얘네들은 이미 너의 시야 혹은 플레이를 다 꿰고있기 때문임.",
-        "님들아 여기 패작 존나 많음 내가 이기고 싶어도 이길 수 없음 동남아 서버는 걍 던지는 애들 밖에 없고 일본은 그나마 나은데 중국애들 중에 치트쓰는 애들이 많음 하지마셈",
-        "최근 롤 솔랭 작살나고 롤하다가 입문하는 사람이 많은 것 같아서 작성함. 1. 컨하는 느낌은 롤보단 오히려 스타1에 더 가까움. 스1 잘하는 사람이 도타 컨트롤 잘함. 롤의 고난이도 챔피언들의 난이도 요소는 대부분 정확한 에임에 집중되어 있음. 원딜, 이렐, 야쏘 이런 애들 모두 정확한 위치를 반복적으로 빠르게 클릭할 수 있는 능력이 핵심임. 반면 도타의 난이도 요소는 다중 컨트롤임. 미포, 첸, 론드루 등등 대부분의 고난이도 영웅들은 여러 유닛을 컨트롤하는 능력이 중요함. 추가로 회전 속도, 블라킹 << 이거 두개가 스타1과 그 느낌이 매우 유사함. 그래서 스타1 하던 사람은 그냥 숨쉬듯이 자연스럽게 컨트롤하는데 롤만 하다오면 이거 때문에 답답해 뒤질라 하는 사람 여럿 봤음. 2. 운영은 정말 비교 대상이 없이 도타식 운영임. 운영 면에서도 롤이랑은 별로 공통점이 없는게 티피 스크롤이랑 스모크 때문에 완전히 다른 게임임. 한타가 매우 자주 일어나고 롤에 비해 레인전 비중이 낮음. 정 레인에 못 서있겠다 싶으면 그냥 버리고 정글들어가서 팜쳐도 게임을 비빌 수 있으니까. 이렇게 운영 개념도 다르고 컨트롤 요소도 다르니 롤 잘하는거랑 이거 잘하는거랑 큰 관계는 없는거 같음. 3. 시작 암기량이 많음. 모든 pvp 게임이 다 그렇지만 도타는 \"모르면 죽어\"가 철권 이상 급임. 별 ㅈ같은 스킬이 많아서 기상천외한 방법으로 죽게 됨. 계속 죽으면서 \"아 상대 도끼전사나 군단사령관이 점멸 단검이 나왔으면 지금부터는 혼자 맵에 보이면 안되겠구나\" 뭐 이런 잡다한 지식들을 다 외워야 함. 그리고 아이템 개수가 상당히 많음. 단순히 완성 아이템이 많은 걸 넘어서 게임을 쾌적하게 하기 위해서는 소모템들을 잘 사는게 매우 중요함. 문제는 소모템 개수가 많아서 처음할 때 이게 진입장벽으로 다가옴. 번외로 캐릭이나 아이템 이름들도 다 별명으로 불러서 그것도 다 외워야 함. 예를들어 얼굴없는 전사를 얼굴없는 전사라고 말하면 같이 게임하는 외국인들은 아무도 못 알아들음. fv ( faceless void 약자 )라고 해야 알아먹음. 칠흑왕의 지팡이 -> wtf is that? bkb (black king bar 약자)라고 해야 알아먹음. 처음하면 이것도 불편함. 마지막으로 롤이랑 비교를 더 해보면 1. 캐리 뽕이 훨씬 강하다."
+        "님들아 여기 패작 존나 많음 내가 이기고 싶어도 이길 수 없음 동남아 서버는 걍 던지는 애들 밖에 없고 일본은 그나마 나은데 중국애들 중에 치트쓰는 애들이 많음 하지마셈"
       ],
       "evidence_snippets": [
-        "님들아 여기 패작 존나 많음 내가 이기고 싶어도 이길 수 없음 동남아 서버는 걍 던지는 애들 밖에 없고 일본은 그나마 나은데 중국애들 중에 치트쓰는 애들이 많음 하지마셈",
         "그냥 이 게임 손놨음. 밸브가 이제 고칠생각이 없다는 단호한 태도인건 알겠음. 그냥 팩트 박음. 1. 불안정한 매치메이킹 = 가끔 랭크 높다는 애들이 하는말로 판수를 많이 하면 매치메이킹 알고리즘이 안정화 된다고 하는데, 이게 씹개소리라는거 말해주는데 본인이 활용할 방법은 얼마 안걸리고 머리에 쏙쏙 이해가 되게끔 굉장히 쉬운 구조를 가짐. 도타2는 1판당 들어가는 시간이 짧아도 30분임. 1천판을 한다 가정해보자. 30분x1000은 30000분이며 시간으로 환산하면 1500시간이다. 그렇다면 이 게임을 750일을 해야지 1천판이라는 계수에 도달하게 된다.(30분 게임만 했다 가정했을때 말이다.) 그런데 30분 게임을 하는게 쉬울거같음? 기본적으로 타파할 수 있는 능력이 매우 떨어지는 저지능자 원숭이들 4마리 데리고 게임을 강제로 이기는데 드는 시간은 저 시간의 배수의 2배 이상의 시간을 할애해야 이길까 말까다. 그렇다면 1천판이라는 판수를 올린다고 가정하는데 드는 시간은 자그마치 750일의 시간보다 더 들어간다. 저기서 300일은 더 더한 수치인 1050일이 진짜 도타2의 1천판의 기존 수치라는거다. 최소 3년이란 소리임. 1050일이 됬다 해서 매치가 안정적일거 같음? 냉정히 말해주면 절대 그렇지 않다. 원숭이 새끼들은 그대로 원숭이 새끼들 배정받는거 그대로고, 불합리한 승리구조를 가지고 \"이거 한번 이겨봐.\" 라는 매치메이킹을 잡아준다. 유사점의 게임이 히어로즈 오브 스톰 이며, 얘네 개발진들 데려다 도타2 매치메이킹 프로세스 이용한다는 이야기는 오래 전 부터 돌고 있던 소문이다. 그리고 도타 플러스를 이용해도 매칭 품질이 항상 씹창이 나있는건 의도된 행동인진 모르겠다? 그리고 왜 리폿 제재는 정상적으로 이루어지지 않는건데? 2. 부스팅과 핵 계정 / 부계정 차단 이슈 = 얘네들 부계정 진심으로 차단하는거? 결론적으로 말해준다. 그딴거 없다. 그냥 간단히 말해준다면 1에서 설명한 씹창난 매치메이킹으로 피해받는 사람이 발생하는 관계로 부스팅을 이용한다. 아니면 부계정이나? 가끔 매치를 진행 하는 도중 상상이상으로 압도하는 플레이를 가진 유저가 매칭이 되는데, 이거 다 부스팅 아니면 스크립트 핵이다. 왠줄 암? 얘네들은 이미 너의 시야 혹은 플레이를 다 꿰고있기 때문임.",
-        "최근 롤 솔랭 작살나고 롤하다가 입문하는 사람이 많은 것 같아서 작성함. 1. 컨하는 느낌은 롤보단 오히려 스타1에 더 가까움. 스1 잘하는 사람이 도타 컨트롤 잘함. 롤의 고난이도 챔피언들의 난이도 요소는 대부분 정확한 에임에 집중되어 있음. 원딜, 이렐, 야쏘 이런 애들 모두 정확한 위치를 반복적으로 빠르게 클릭할 수 있는 능력이 핵심임. 반면 도타의 난이도 요소는 다중 컨트롤임. 미포, 첸, 론드루 등등 대부분의 고난이도 영웅들은 여러 유닛을 컨트롤하는 능력이 중요함. 추가로 회전 속도, 블라킹 << 이거 두개가 스타1과 그 느낌이 매우 유사함. 그래서 스타1 하던 사람은 그냥 숨쉬듯이 자연스럽게 컨트롤하는데 롤만 하다오면 이거 때문에 답답해 뒤질라 하는 사람 여럿 봤음. 2. 운영은 정말 비교 대상이 없이 도타식 운영임. 운영 면에서도 롤이랑은 별로 공통점이 없는게 티피 스크롤이랑 스모크 때문에 완전히 다른 게임임. 한타가 매우 자주 일어나고 롤에 비해 레인전 비중이 낮음. 정 레인에 못 서있겠다 싶으면 그냥 버리고 정글들어가서 팜쳐도 게임을 비빌 수 있으니까. 이렇게 운영 개념도 다르고 컨트롤 요소도 다르니 롤 잘하는거랑 이거 잘하는거랑 큰 관계는 없는거 같음. 3. 시작 암기량이 많음. 모든 pvp 게임이 다 그렇지만 도타는 \"모르면 죽어\"가 철권 이상 급임. 별 ㅈ같은 스킬이 많아서 기상천외한 방법으로 죽게 됨. 계속 죽으면서 \"아 상대 도끼전사나 군단사령관이 점멸 단검이 나왔으면 지금부터는 혼자 맵에 보이면 안되겠구나\" 뭐 이런 잡다한 지식들을 다 외워야 함. 그리고 아이템 개수가 상당히 많음. 단순히 완성 아이템이 많은 걸 넘어서 게임을 쾌적하게 하기 위해서는 소모템들을 잘 사는게 매우 중요함. 문제는 소모템 개수가 많아서 처음할 때 이게 진입장벽으로 다가옴. 번외로 캐릭이나 아이템 이름들도 다 별명으로 불러서 그것도 다 외워야 함. 예를들어 얼굴없는 전사를 얼굴없는 전사라고 말하면 같이 게임하는 외국인들은 아무도 못 알아들음. fv ( faceless void 약자 )라고 해야 알아먹음. 칠흑왕의 지팡이 -> wtf is that? bkb (black king bar 약자)라고 해야 알아먹음. 처음하면 이것도 불편함. 마지막으로 롤이랑 비교를 더 해보면 1. 캐리 뽕이 훨씬 강하다."
+        "님들아 여기 패작 존나 많음 내가 이기고 싶어도 이길 수 없음 동남아 서버는 걍 던지는 애들 밖에 없고 일본은 그나마 나은데 중국애들 중에 치트쓰는 애들이 많음 하지마셈"
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-negative-1-1-4653883929931804290",
+          "text": "그냥 이 게임 손놨음. 밸브가 이제 고칠생각이 없다는 단호한 태도인건 알겠음. 그냥 팩트 박음. 1. 불안정한 매치메이킹 = 가끔 랭크 높다는 애들이 하는말로 판수를 많이 하면 매치메이킹 알고리즘이 안정화 된다고 하는데, 이게 씹개소리라는거 말해주는데 본인이 활용할 방법은 얼마 안걸리고 머리에 쏙쏙 이해가 되게끔 굉장히 쉬운 구조를 가짐. 도타2는 1판당 들어가는 시간이 짧아도 30분임. 1천판을 한다 가정해보자. 30분x1000은 30000분이며 시간으로 환산하면 1500시간이다. 그렇다면 이 게임을 750일을 해야지 1천판이라는 계수에 도달하게 된다.(30분 게임만 했다 가정했을때 말이다.) 그런데 30분 게임을 하는게 쉬울거같음? 기본적으로 타파할 수 있는 능력이 매우 떨어지는 저지능자 원숭이들 4마리 데리고 게임을 강제로 이기는데 드는 시간은 저 시간의 배수의 2배 이상의 시간을 할애해야 이길까 말까다. 그렇다면 1천판이라는 판수를 올린다고 가정하는데 드는 시간은 자그마치 750일의 시간보다 더 들어간다. 저기서 300일은 더 더한 수치인 1050일이 진짜 도타2의 1천판의 기존 수치라는거다. 최소 3년이란 소리임. 1050일이 됬다 해서 매치가 안정적일거 같음? 냉정히 말해주면 절대 그렇지 않다. 원숭이 새끼들은 그대로 원숭이 새끼들 배정받는거 그대로고, 불합리한 승리구조를 가지고 \"이거 한번 이겨봐.\" 라는 매치메이킹을 잡아준다. 유사점의 게임이 히어로즈 오브 스톰 이며, 얘네 개발진들 데려다 도타2 매치메이킹 프로세스 이용한다는 이야기는 오래 전 부터 돌고 있던 소문이다. 그리고 도타 플러스를 이용해도 매칭 품질이 항상 씹창이 나있는건 의도된 행동인진 모르겠다? 그리고 왜 리폿 제재는 정상적으로 이루어지지 않는건데? 2. 부스팅과 핵 계정 / 부계정 차단 이슈 = 얘네들 부계정 진심으로 차단하는거? 결론적으로 말해준다. 그딴거 없다. 그냥 간단히 말해준다면 1에서 설명한 씹창난 매치메이킹으로 피해받는 사람이 발생하는 관계로 부스팅을 이용한다. 아니면 부계정이나? 가끔 매치를 진행 하는 도중 상상이상으로 압도하는 플레이를 가진 유저가 매칭이 되는데, 이거 다 부스팅 아니면 스크립트 핵이다. 왠줄 암? 얘네들은 이미 너의 시야 혹은 플레이를 다 꿰고있기 때문임."
+        },
+        {
+          "review_id": "compress-v3-negative-1-2-678415090061796176",
+          "text": "님들아 여기 패작 존나 많음 내가 이기고 싶어도 이길 수 없음 동남아 서버는 걍 던지는 애들 밖에 없고 일본은 그나마 나은데 중국애들 중에 치트쓰는 애들이 많음 하지마셈"
+        }
       ]
     }
   ]

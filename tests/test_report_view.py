@@ -332,6 +332,161 @@ class ReportViewTests(unittest.TestCase):
 
         self.assertEqual(polished["report_display"]["top_strengths"][0]["title"], "도시 흐름을 다듬는 운영의 재미")
 
+    def test_apply_final_language_polish_rewrites_looter_shooter_generic_strength(self):
+        payload = {
+            "report_plan": {"decision_anchor": {"buy_recommendation": "buy_now", "primary_reason_ids": ["str_1"]}},
+            "report_display": {
+                "headline": "성장 루프가 좋습니다.",
+                "buy_timing_summary": "지금 시작해도 괜찮습니다.",
+                "good_for": ["탐험과 세계 해석의 재미를 좋아하는 플레이어"],
+                "not_good_for": ["매칭과 서버 상태 변화에 스트레스를 크게 받는 플레이어"],
+                "top_strengths": [
+                    {"title": "계속 손에 붙는 핵심 플레이 감각", "summary": "플레이 흐름이 점점 또렷해지는 재미가 있습니다."},
+                ],
+                "top_risks": [],
+                "recent_state": {"status": "stable", "summary": "최근 분위기는 비슷합니다."},
+            },
+            "evidence_sections": {"strengths": [], "risks": []},
+        }
+
+        polished = _apply_final_language_polish(
+            payload=payload,
+            allow_llm=False,
+            is_free_game=False,
+            seed_display={"good_for": ["장비와 빌드를 오래 다듬는 플레이어"]},
+            genres=["Action", "Shooter", "Looter Shooter", "Warframe"],
+        )
+
+        self.assertEqual(polished["report_display"]["good_for"][0], "장비와 빌드를 오래 다듬는 플레이어")
+        self.assertEqual(polished["report_display"]["top_strengths"][0]["title"], "장비와 빌드를 오래 다듬는 성장 루프")
+
+    def test_apply_final_language_polish_rewrites_looter_shooter_headline_and_story_fit(self):
+        payload = {
+            "report_plan": {"decision_anchor": {"buy_recommendation": "try_lightly", "primary_reason_ids": ["str_1"]}},
+            "report_display": {
+                "headline": "탐험과 세계 해석의 몰입감 장점이 보여 무료로 가볍게 시작해 보고 맞는지 판단하기 좋습니다.",
+                "buy_timing_summary": "무료로 가볍게 시작해 보기 좋습니다.",
+                "good_for": ["세계관과 맥락을 스스로 읽어가는 플레이어"],
+                "not_good_for": [],
+                "top_strengths": [],
+                "top_risks": [],
+                "recent_state": {"status": "mixed", "summary": "평가는 갈립니다."},
+            },
+            "evidence_sections": {"strengths": [], "risks": []},
+        }
+
+        polished = _apply_final_language_polish(
+            payload=payload,
+            allow_llm=False,
+            is_free_game=True,
+            seed_display={"headline": "장비와 성장 루프의 매력이 분명해 무료로 가볍게 시작해 보고 맞는지 판단하기 좋습니다."},
+            genres=["Action", "Free to Play", "Looter Shooter", "Warframe"],
+        )
+
+        self.assertEqual(
+            polished["report_display"]["headline"],
+            "장비 파밍과 성장 루프의 장점이 보여 무료로 가볍게 시작해보고 맞는지 판단하기 좋습니다.",
+        )
+        self.assertEqual(polished["report_display"]["good_for"][0], "장비와 빌드를 오래 다듬는 플레이어")
+
+    def test_apply_final_language_polish_prefers_coop_live_service_language(self):
+        payload = {
+            "report_plan": {"decision_anchor": {"buy_recommendation": "wait", "primary_reason_ids": ["risk_1"]}},
+            "report_display": {
+                "headline": "플레이 흐름의 안정감이 좋아 보이지만 상황을 더 지켜보는 편이 좋습니다.",
+                "buy_timing_summary": "조금 더 지켜보는 편이 좋습니다.",
+                "good_for": ["배경과 연출이 만드는 분위기를 중요하게 보는 플레이어"],
+                "not_good_for": [],
+                "top_strengths": [
+                    {"title": "장비와 빌드를 오래 다듬는 성장 루프", "summary": "장비를 모으는 재미가 있습니다."},
+                ],
+                "top_risks": [],
+                "recent_state": {"status": "mixed", "summary": "평가는 갈립니다."},
+            },
+            "evidence_sections": {"strengths": [], "risks": []},
+        }
+
+        polished = _apply_final_language_polish(
+            payload=payload,
+            allow_llm=False,
+            is_free_game=False,
+            seed_display={"headline": "분대 협동과 임무 수행의 재미는 분명하지만 밸런스와 안정성 변수는 함께 감수해야 합니다."},
+            genres=["Action", "Co-op", "Shooter", "Live Service", "HELLDIVERS 2"],
+        )
+
+        self.assertIn("분대 협동", polished["report_display"]["headline"])
+        self.assertEqual(polished["report_display"]["good_for"][0], "분대 호흡을 맞추며 임무를 푸는 플레이어")
+        self.assertEqual(polished["report_display"]["top_strengths"][0]["title"], "분대 합이 살아나는 협동 임무")
+
+    def test_apply_final_language_polish_rewrites_flow_stability_strength_by_looter_context(self):
+        payload = {
+            "report_plan": {"decision_anchor": {"buy_recommendation": "buy_now", "primary_reason_ids": ["str_1"]}},
+            "report_display": {
+                "headline": "성장 루프가 좋습니다.",
+                "buy_timing_summary": "지금 시작해도 괜찮습니다.",
+                "good_for": ["장비와 빌드를 오래 다듬는 플레이어"],
+                "not_good_for": [],
+                "top_strengths": [
+                    {"title": "플레이 흐름의 안정감", "summary": "기본 플레이 흐름의 안정감이 살아 있어 반복 플레이가 편안합니다."},
+                ],
+                "top_risks": [],
+                "recent_state": {"status": "stable", "summary": "최근 분위기는 비슷합니다."},
+            },
+            "evidence_sections": {"strengths": [], "risks": []},
+        }
+
+        polished = _apply_final_language_polish(
+            payload=payload,
+            allow_llm=False,
+            is_free_game=False,
+            seed_display={},
+            genres=["Action", "Shooter", "Looter Shooter", "Warframe"],
+        )
+
+        self.assertEqual(polished["report_display"]["top_strengths"][0]["title"], "장비와 빌드를 오래 다듬는 성장 루프")
+
+    def test_apply_final_language_polish_rewrites_life_sim_and_narrative_openworld_copy(self):
+        payload = {
+            "report_plan": {"decision_anchor": {"buy_recommendation": "wait", "primary_reason_ids": ["risk_1"]}},
+            "report_display": {
+                "headline": "몰입감이 좋습니다.",
+                "buy_timing_summary": "상황을 보고 결정하는 편이 좋습니다.",
+                "good_for": ["핵심 플레이를 반복하며 손에 익혀가는 재미를 즐기는 플레이어"],
+                "not_good_for": ["매칭과 서버 상태 변화에 스트레스를 크게 받는 플레이어"],
+                "top_strengths": [
+                    {"title": "계속 손에 붙는 핵심 플레이 감각", "summary": "플레이 흐름이 점점 또렷해지는 재미가 있습니다."},
+                ],
+                "top_risks": [
+                    {"title": "매칭과 서버 상태에 따라 체감이 흔들리는 구간", "summary": "연결 상태가 몰입을 크게 흔들 수 있습니다."},
+                ],
+                "recent_state": {"status": "stable", "summary": "최근 분위기는 비슷합니다."},
+            },
+            "evidence_sections": {"strengths": [], "risks": []},
+        }
+
+        sims = _apply_final_language_polish(
+            payload=payload,
+            allow_llm=False,
+            is_free_game=False,
+            seed_display={"good_for": ["생활 루프를 천천히 쌓아가는 플레이어"]},
+            genres=["Simulation", "Life Sim", "The Sims 4"],
+        )
+        witcher = _apply_final_language_polish(
+            payload=payload,
+            allow_llm=False,
+            is_free_game=False,
+            seed_display={
+                "good_for": ["사건과 인물의 여운을 오래 가져가는 플레이어"],
+                "top_risks": [{"title": "몰입을 끊는 기술 이슈", "summary": "기술적인 끊김이 길게 이어지면 몰입이 쉽게 흐트러질 수 있습니다."}],
+            },
+            genres=["RPG", "Open World", "The Witcher 3"],
+        )
+
+        self.assertEqual(sims["report_display"]["good_for"][0], "생활 루프를 천천히 쌓아가는 플레이어")
+        self.assertEqual(sims["report_display"]["top_strengths"][0]["title"], "생활 루프와 꾸미기의 자유도")
+        self.assertEqual(witcher["report_display"]["good_for"][0], "사건과 인물의 여운을 오래 가져가는 플레이어")
+        self.assertEqual(witcher["report_display"]["top_risks"][0]["title"], "몰입을 끊는 기술 이슈")
+
     def test_normalize_card_title_trims_sentence_ending_but_keeps_core_noun(self):
         self.assertEqual(
             _normalize_card_title("초반 적응은 필요하지만 익숙해지면 손맛이 살아나는 플레이 구조이다."),

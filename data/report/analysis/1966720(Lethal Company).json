@@ -8,10 +8,10 @@
   ],
   "issue_signals": {
     "balance": {
-      "mention_count": 13,
-      "negative_ratio": 0.23076923076923078,
+      "mention_count": 36,
+      "negative_ratio": 0.19444444444444445,
       "recent_trend": "flat",
-      "experienced_player_share": 1.0,
+      "experienced_player_share": 0.9722222222222222,
       "themes": [
         "밸런스 불만"
       ],
@@ -21,10 +21,10 @@
       ]
     },
     "bugs": {
-      "mention_count": 50,
-      "negative_ratio": 0.28,
+      "mention_count": 118,
+      "negative_ratio": 0.2711864406779661,
       "recent_trend": "flat",
-      "experienced_player_share": 0.98,
+      "experienced_player_share": 0.9576271186440678,
       "themes": [
         "일반 버그",
         "계정 / 제재 이슈",
@@ -36,10 +36,10 @@
       ]
     },
     "building_ux": {
-      "mention_count": 18,
-      "negative_ratio": 0.1111111111111111,
+      "mention_count": 27,
+      "negative_ratio": 0.07407407407407407,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9444444444444444,
+      "experienced_player_share": 0.9259259259259259,
       "themes": [
         "건축 조작 불편",
         "부지 / 구조 제약"
@@ -50,38 +50,38 @@
       ]
     },
     "content_depth": {
-      "mention_count": 174,
-      "negative_ratio": 0.10344827586206896,
+      "mention_count": 395,
+      "negative_ratio": 0.10886075949367088,
       "recent_trend": "flat",
-      "experienced_player_share": 1.0,
+      "experienced_player_share": 0.9822784810126582,
       "themes": [
-        "반복 / 목적성 부족",
         "콘텐츠 부족",
+        "반복 / 목적성 부족",
         "중독성 / 시간순삭"
       ],
       "sample_reviews": [
-        "진짜너무재미있고너무스릴넘치고너무중독성이강해서막하루에9시간씩하고있어요그래서너무추천하는게임입니다근데소녀귀신이너무너무무서워요",
-        "솔로는 별로지만 멀티만 가능하다면 재밌는 상황이 계속 만들어져 재밌다.\n\n다만 일회성 기믹에 같은걸 반복하는 게임인데 분량이 적어 금방 질린다.\n\n꾸준히 할려면 모드는 필수."
+        "업데이트 되고나서 멀미유발이 너무 심하네요... 행성간의 로딩도 너무 길어져서 별로에요",
+        "진짜너무재미있고너무스릴넘치고너무중독성이강해서막하루에9시간씩하고있어요그래서너무추천하는게임입니다근데소녀귀신이너무너무무서워요"
       ]
     },
     "controls": {
-      "mention_count": 26,
-      "negative_ratio": 0.15384615384615385,
+      "mention_count": 56,
+      "negative_ratio": 0.17857142857142858,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9230769230769231,
+      "experienced_player_share": 0.8571428571428571,
       "themes": [
-        "시점 / 멀미 이슈",
         "조작감 문제",
+        "시점 / 멀미 이슈",
         "UI / 입력 불편"
       ],
       "sample_reviews": [
-        "친구들이랑 하면 재밋는데요 저는 친구가 없어서 혼자햇는데 조금 무서웟어요,,살짝 무섭지만 깨면 깰수록 점점 뿌듯해지는 게임 리설컴포니 라잌 탐보니 입니다 , 많은 사람들이 했으면 좋곗다는 생각이 든 개임입니다 이거 잘 입력하면 포인트 주나요? 그 ㅂ포인트로 친구들 사궈서 게임 하고십어요",
-        "잘 지냈어? [친구_이름_입력]. 이 게임 모드 790개 깔아서 같이 하자."
+        "업데이트 되고나서 멀미유발이 너무 심하네요... 행성간의 로딩도 너무 길어져서 별로에요",
+        "친구들이랑 하면 재밋는데요 저는 친구가 없어서 혼자햇는데 조금 무서웟어요,,살짝 무섭지만 깨면 깰수록 점점 뿌듯해지는 게임 리설컴포니 라잌 탐보니 입니다 , 많은 사람들이 했으면 좋곗다는 생각이 든 개임입니다 이거 잘 입력하면 포인트 주나요? 그 ㅂ포인트로 친구들 사궈서 게임 하고십어요"
       ]
     },
     "customization": {
-      "mention_count": 6,
-      "negative_ratio": 0.16666666666666666,
+      "mention_count": 10,
+      "negative_ratio": 0.1,
       "recent_trend": "flat",
       "experienced_player_share": 1.0,
       "themes": [
@@ -94,13 +94,14 @@
       ]
     },
     "difficulty": {
-      "mention_count": 59,
-      "negative_ratio": 0.11864406779661017,
+      "mention_count": 115,
+      "negative_ratio": 0.08695652173913043,
       "recent_trend": "flat",
-      "experienced_player_share": 0.8983050847457628,
+      "experienced_player_share": 0.9217391304347826,
       "themes": [
         "난이도 / 진입장벽",
-        "조작 / 규칙 학습 난이도"
+        "조작 / 규칙 학습 난이도",
+        "튜토리얼 / 온보딩 부족"
       ],
       "sample_reviews": [
         "모르는 사람들이랑 함께 하는 협동 게임이라 좋은 사람들을 만나면 아주아주 재미있는 공포게임으로 즐길 수 있습니다.ㅎㅎ 그리고 지금까지 대부분 다 착하고 좋은 분들을 만났습니다~~!! 게임 자체는 난이도가 많이 높습니다.. 물론 제가 실력이 떨어지기 때문에 어렵게 느끼는 점도 있습니다..하하.. \r\n생각보다 고이신 분들, 즉 잘하시는 분들이 굉장히 많아서 놀랐습니다. \r\n무적 몹들을 좀 없애고 난이도가 조금 더 쉬워졌으면 하는 바램이 있긴 합니다 ..ㅎㅎ",
@@ -108,25 +109,25 @@
       ]
     },
     "gameplay": {
-      "mention_count": 24,
-      "negative_ratio": 0.125,
+      "mention_count": 65,
+      "negative_ratio": 0.1076923076923077,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9583333333333334,
+      "experienced_player_share": 0.8923076923076924,
       "themes": [
         "탐험 / 월드 경험",
         "빌드 / 무기 다양성",
         "전투 손맛 / 액션 호평"
       ],
       "sample_reviews": [
-        "시간 순삭과 함께 겁대가리 상실하는 게임.\n무기만 있다면 어느 몬스터라도 다 잡을 수 있을 거 같지만 순수하게 피지컬 딸려서 하나도 못 잡음.\n시야 좁고, 밝기 낮으면 익사함.",
-        "여러 행성을 탐험하여 버려진 시설 속 폐품을 괴물을 피해 모아 자금을 마련하는 게임 \n초반에 압도되는 분위기와 괴물로 소리치며 나온 경험이 많았음\n2025년 8월 마지막 플레이로 그 당시 난이도는 조금 맵게 즐길 수 있었던 것 같음 \n\n* 친구들과 같이 다니다 삽 떨어지는 소리가 나면 무조건 도망쳐야 함 \n"
+        "김리방 아쎄이들과 나눴던 전우애의 추억이여",
+        "시간 순삭과 함께 겁대가리 상실하는 게임.\n무기만 있다면 어느 몬스터라도 다 잡을 수 있을 거 같지만 순수하게 피지컬 딸려서 하나도 못 잡음.\n시야 좁고, 밝기 낮으면 익사함."
       ]
     },
     "graphics": {
-      "mention_count": 45,
-      "negative_ratio": 0.1111111111111111,
+      "mention_count": 108,
+      "negative_ratio": 0.08333333333333333,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9555555555555556,
+      "experienced_player_share": 0.9074074074074074,
       "themes": [
         "그래픽 / 비주얼 호평"
       ],
@@ -136,38 +137,39 @@
       ]
     },
     "localization": {
-      "mention_count": 11,
-      "negative_ratio": 0.0,
+      "mention_count": 26,
+      "negative_ratio": 0.038461538461538464,
       "recent_trend": "flat",
-      "experienced_player_share": 0.8181818181818182,
+      "experienced_player_share": 0.7692307692307693,
       "themes": [
         "번역 / 현지화 이슈"
       ],
       "sample_reviews": [
-        "재밌음. 하지만 한국어 번역 없다는게 아쉬움",
-        "매우 재밌고 한국어 안돼는게 아쉽지만 여렀에서 하는것을 추천 드림니다."
+        "내 인생 최고의 게임중 하나\n단 한국어 패치 제발좀요",
+        "재밌음. 하지만 한국어 번역 없다는게 아쉬움"
       ]
     },
     "mod_support": {
-      "mention_count": 217,
-      "negative_ratio": 0.05069124423963134,
+      "mention_count": 454,
+      "negative_ratio": 0.048458149779735685,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9723502304147466,
+      "experienced_player_share": 0.973568281938326,
       "themes": [
         "모드 지원 / 호환 문제"
       ],
       "sample_reviews": [
-        "바닐라도 재밌지만 모드까지 추가해서 했을 때, 더 재밌었어요.\n\n친구들과 함께 하면 더 즐거워요.",
-        "솔로는 별로지만 멀티만 가능하다면 재밌는 상황이 계속 만들어져 재밌다.\n\n다만 일회성 기믹에 같은걸 반복하는 게임인데 분량이 적어 금방 질린다.\n\n꾸준히 할려면 모드는 필수."
+        "모드, 친구",
+        "모드빨이긴 한데 그래도 ㅈㅉ 재밌음"
       ]
     },
     "monetization": {
-      "mention_count": 48,
-      "negative_ratio": 0.16666666666666666,
+      "mention_count": 122,
+      "negative_ratio": 0.14754098360655737,
       "recent_trend": "flat",
-      "experienced_player_share": 0.7916666666666666,
+      "experienced_player_share": 0.7950819672131147,
       "themes": [
-        "가격 / 과금 불만"
+        "가격 / 과금 불만",
+        "DLC / 확장팩 언급"
       ],
       "sample_reviews": [
         "[h1]'리썰 컴퍼니류' 라는 게임 장르를 탄생시킨 게임이자,\r\n게임의 대중적 성공이 \"게임 플레이의 지속 가능성 여부\"와 반드시 직결되지는 않는다는 걸 보여준 게임.[/h1]\r\n\r\n게임은 단순하다. 다양한 난이도의 특정 지역에 진입하여, 온갖 위험 요소들을 피해 폐품을 수집해 돈을 벌어야한다. 이 때 발생하는 다채로운 상황은 유저에게 다양한 긍정적 경험을 선사한다. 단, 초반에만.\r\n\r\n분명 잘 만든 신박한 협동 게임이며, 수많은 아류작들을 탄생시킨 혁신적인 게임이라는 점은 부정할 수 없다. 다만, 이 게임은 장기적 플레이 측면에서, 유저에게 스스로 하여금 재미를 느끼게 '노력' 하는 것을 강요한다. 즉, 규칙이 어느정도 정해진, RP(롤플레잉)와 크게 다르지 않다는 뜻이다. 이는, 방송인들에게는 매력적인 선택지였을지는 모르나, 통상적인 일반인이 매력적인 플레이 경험을 맛보기는 다소 어렵다.  그로 인해 체험이 보통 지루하고 일관적인 경험으로 이어지는데, 이는 내겐 긍정적인 장기 플레이 경험 설계에 대한 고민을 하지 않은 것처럼 비춰졌다. \r\n\r\n더욱이, <리썰컴퍼니>가 잘 만든 게임이라는 걸 알기에, 이러한 결격 사유가 더 안타깝게 느껴진다. 현재 다른 게임을 개발하고 있다고 하니, <리썰 컴퍼니> 개발에 대한 열정이 식은 걸지도 모르겠다.\r\n\r\n사족을 많이 붙이긴 했으나, 그럼에도 불구하고 현재 게임 가격이 천정부지로 솟구치는 시국에서 뽕을 뽑기 위해 <리썰 컴퍼니>를 구매하는 것은 훌륭한 선택이라고 할 수 있겠다. 만약 아직 한 번도 플레이를 해보지 않았다면, 주변인들을 영끌해서 한 번 플레이 해보자. 물론, 너무 성공한 게임이라 안타깝게도 한 번도 해보지 않은 지인을 찾기가 더 힘들겠지만 말이다.\r\n\r\n\r\n",
@@ -175,38 +177,40 @@
       ]
     },
     "multiplayer": {
-      "mention_count": 681,
-      "negative_ratio": 0.03524229074889868,
-      "recent_trend": "flat",
-      "experienced_player_share": 0.9765051395007343,
+      "mention_count": 1761,
+      "negative_ratio": 0.031232254400908575,
+      "recent_trend": "up",
+      "experienced_player_share": 0.9596819988642816,
       "themes": [
         "멀티플레이 경험",
         "매칭 / 서버 문제",
-        "모드 / 큐 구성 이슈"
+        "부정행위 / 보안 이슈"
       ],
       "sample_reviews": [
-        "바닐라도 재밌지만 모드까지 추가해서 했을 때, 더 재밌었어요.\n\n친구들과 함께 하면 더 즐거워요.",
-        "4인 온라인 협동 게임 붐을 일으킨 원조"
+        "게임을 사면 친구도 동봉해 줘야 되는 건 당연한 상식 아니야?",
+        "모드, 친구"
       ]
     },
     "performance": {
-      "mention_count": 19,
-      "negative_ratio": 0.21052631578947367,
+      "mention_count": 40,
+      "negative_ratio": 0.25,
       "recent_trend": "flat",
-      "experienced_player_share": 1.0,
+      "experienced_player_share": 0.925,
       "themes": [
-        "최적화 문제"
+        "최적화 문제",
+        "로딩 / 발열 문제",
+        "실행 불가 / 튕김"
       ],
       "sample_reviews": [
-        "착한 유저들과 지커스의 발적화\n누가 프로그래밍 좋아하는 퍼리 좀 만들어봐라",
-        "정말 다 좋고 게임성도 좋은데\n최적화가 너무 안 되어있어요\n특히 친구초대 최적화 좀 해주세여."
+        "업데이트 되고나서 멀미유발이 너무 심하네요... 행성간의 로딩도 너무 길어져서 별로에요",
+        "착한 유저들과 지커스의 발적화\n누가 프로그래밍 좋아하는 퍼리 좀 만들어봐라"
       ]
     },
     "save_progression": {
-      "mention_count": 7,
-      "negative_ratio": 0.42857142857142855,
+      "mention_count": 23,
+      "negative_ratio": 0.2608695652173913,
       "recent_trend": "flat",
-      "experienced_player_share": 0.8571428571428571,
+      "experienced_player_share": 0.8695652173913043,
       "themes": [
         "저장 / 세이브 손실"
       ],
@@ -216,10 +220,10 @@
       ]
     },
     "story": {
-      "mention_count": 43,
-      "negative_ratio": 0.046511627906976744,
+      "mention_count": 88,
+      "negative_ratio": 0.022727272727272728,
       "recent_trend": "flat",
-      "experienced_player_share": 1.0,
+      "experienced_player_share": 0.9886363636363636,
       "themes": [
         "스토리 / 서사 몰입",
         "캐릭터 / 연출 인상"
@@ -231,10 +235,46 @@
     }
   },
   "summary": {
-    "what_players_like": "상대적으로 긍정 신호가 보이는 영역은 localization이며, 대표 테마는 번역 / 현지화 이슈입니다.",
+    "what_players_like": "상대적으로 긍정 신호가 보이는 영역은 story이며, 대표 테마는 스토리 / 서사 몰입, 캐릭터 / 연출 인상입니다.",
     "what_players_dislike": "가장 자주 언급되는 불만 영역은 multiplayer이며, 대표 테마는 멀티플레이 경험, 매칭 / 서버 문제입니다.",
-    "recent_change": "최근 기간에는 특정 카테고리의 급격한 변화보다 전반적인 유지 신호가 보입니다.",
+    "recent_change": "최근 기간에는 multiplayer 관련 언급이 상대적으로 증가하는 흐름이 보입니다.",
     "fit_for": "초반 진입 장벽이나 조작 적응 여부를 중요하게 보는 플레이어는 사전 확인이 필요합니다.",
-    "risks": "multiplayer 관련 이슈는 반복적으로 언급되지만 최근 급격한 악화 신호는 제한적입니다."
+    "risks": "multiplayer 관련 불만이 최근 구간에서 상대적으로 증가하고 있어 추적이 필요합니다."
+  },
+  "pipeline_run_id": "1966720-20260427T060643Z",
+  "generated_at": "2026-04-27T06:08:24.353084+00:00",
+  "source_review_count": 10700,
+  "review_pages": "all",
+  "fetched_pages": 109,
+  "fetched_review_count": 10700,
+  "fetch_timeout_seconds": 20,
+  "fetch_filter": "recent",
+  "all_mode_page_cap": 200,
+  "all_mode_cap_reached": false,
+  "llm_stats": {
+    "considered": 6456,
+    "selected": 20,
+    "invoked": 20,
+    "success": 20,
+    "schema_invalid": 0,
+    "low_confidence": 0,
+    "cache_hits": 0,
+    "fallback_used": 0
+  },
+  "report_material_refiner": {
+    "enabled": true,
+    "max_llm_reviews": 20,
+    "llm_min_confidence": 0.7,
+    "material_count": 20,
+    "stats": {
+      "considered": 6456,
+      "selected": 20,
+      "invoked": 20,
+      "success": 20,
+      "schema_invalid": 0,
+      "low_confidence": 0,
+      "cache_hits": 0,
+      "fallback_used": 0
+    }
   }
 }

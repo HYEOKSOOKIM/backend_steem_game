@@ -1,10 +1,966 @@
 {
   "report_version": "v4-planned-sections",
   "appid": 230410,
-  "pipeline_run_id": "230410-snapshot-regen",
-  "generated_at": "2026-04-16T05:28:20.391349+00:00",
-  "source_review_count": 8000,
-  "included_review_count": 5480,
+  "pipeline_run_id": "230410-20260427T092909Z",
+  "generated_at": "2026-04-27T09:32:17.199847+00:00",
+  "source_review_count": 11108,
+  "included_review_count": 7656,
+  "min_report_review_count": 100,
+  "report_state": "ready",
+  "review_trend": {
+    "granularity": "month",
+    "metric": "positive_ratio",
+    "points": [
+      {
+        "month": "2013-03",
+        "positive_count": 5,
+        "review_count": 5,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2013-04",
+        "positive_count": 9,
+        "review_count": 9,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2013-05",
+        "positive_count": 3,
+        "review_count": 4,
+        "positive_ratio": 0.75
+      },
+      {
+        "month": "2013-06",
+        "positive_count": 1,
+        "review_count": 3,
+        "positive_ratio": 0.3333
+      },
+      {
+        "month": "2013-07",
+        "positive_count": 2,
+        "review_count": 2,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2013-08",
+        "positive_count": 3,
+        "review_count": 3,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2013-09",
+        "positive_count": 0,
+        "review_count": 2,
+        "positive_ratio": 0.0
+      },
+      {
+        "month": "2013-10",
+        "positive_count": 2,
+        "review_count": 2,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2013-11",
+        "positive_count": 14,
+        "review_count": 14,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2013-12",
+        "positive_count": 78,
+        "review_count": 84,
+        "positive_ratio": 0.9286
+      },
+      {
+        "month": "2014-01",
+        "positive_count": 85,
+        "review_count": 88,
+        "positive_ratio": 0.9659
+      },
+      {
+        "month": "2014-02",
+        "positive_count": 74,
+        "review_count": 87,
+        "positive_ratio": 0.8506
+      },
+      {
+        "month": "2014-03",
+        "positive_count": 38,
+        "review_count": 42,
+        "positive_ratio": 0.9048
+      },
+      {
+        "month": "2014-04",
+        "positive_count": 48,
+        "review_count": 49,
+        "positive_ratio": 0.9796
+      },
+      {
+        "month": "2014-05",
+        "positive_count": 46,
+        "review_count": 48,
+        "positive_ratio": 0.9583
+      },
+      {
+        "month": "2014-06",
+        "positive_count": 57,
+        "review_count": 62,
+        "positive_ratio": 0.9194
+      },
+      {
+        "month": "2014-07",
+        "positive_count": 49,
+        "review_count": 54,
+        "positive_ratio": 0.9074
+      },
+      {
+        "month": "2014-08",
+        "positive_count": 65,
+        "review_count": 70,
+        "positive_ratio": 0.9286
+      },
+      {
+        "month": "2014-09",
+        "positive_count": 48,
+        "review_count": 52,
+        "positive_ratio": 0.9231
+      },
+      {
+        "month": "2014-10",
+        "positive_count": 54,
+        "review_count": 55,
+        "positive_ratio": 0.9818
+      },
+      {
+        "month": "2014-11",
+        "positive_count": 58,
+        "review_count": 60,
+        "positive_ratio": 0.9667
+      },
+      {
+        "month": "2014-12",
+        "positive_count": 38,
+        "review_count": 41,
+        "positive_ratio": 0.9268
+      },
+      {
+        "month": "2015-01",
+        "positive_count": 40,
+        "review_count": 45,
+        "positive_ratio": 0.8889
+      },
+      {
+        "month": "2015-02",
+        "positive_count": 30,
+        "review_count": 31,
+        "positive_ratio": 0.9677
+      },
+      {
+        "month": "2015-03",
+        "positive_count": 31,
+        "review_count": 36,
+        "positive_ratio": 0.8611
+      },
+      {
+        "month": "2015-04",
+        "positive_count": 33,
+        "review_count": 37,
+        "positive_ratio": 0.8919
+      },
+      {
+        "month": "2015-05",
+        "positive_count": 23,
+        "review_count": 26,
+        "positive_ratio": 0.8846
+      },
+      {
+        "month": "2015-06",
+        "positive_count": 34,
+        "review_count": 36,
+        "positive_ratio": 0.9444
+      },
+      {
+        "month": "2015-07",
+        "positive_count": 30,
+        "review_count": 34,
+        "positive_ratio": 0.8824
+      },
+      {
+        "month": "2015-08",
+        "positive_count": 46,
+        "review_count": 51,
+        "positive_ratio": 0.902
+      },
+      {
+        "month": "2015-09",
+        "positive_count": 32,
+        "review_count": 34,
+        "positive_ratio": 0.9412
+      },
+      {
+        "month": "2015-10",
+        "positive_count": 55,
+        "review_count": 60,
+        "positive_ratio": 0.9167
+      },
+      {
+        "month": "2015-11",
+        "positive_count": 51,
+        "review_count": 54,
+        "positive_ratio": 0.9444
+      },
+      {
+        "month": "2015-12",
+        "positive_count": 54,
+        "review_count": 59,
+        "positive_ratio": 0.9153
+      },
+      {
+        "month": "2016-01",
+        "positive_count": 62,
+        "review_count": 67,
+        "positive_ratio": 0.9254
+      },
+      {
+        "month": "2016-02",
+        "positive_count": 63,
+        "review_count": 68,
+        "positive_ratio": 0.9265
+      },
+      {
+        "month": "2016-03",
+        "positive_count": 49,
+        "review_count": 58,
+        "positive_ratio": 0.8448
+      },
+      {
+        "month": "2016-04",
+        "positive_count": 40,
+        "review_count": 48,
+        "positive_ratio": 0.8333
+      },
+      {
+        "month": "2016-05",
+        "positive_count": 43,
+        "review_count": 50,
+        "positive_ratio": 0.86
+      },
+      {
+        "month": "2016-06",
+        "positive_count": 26,
+        "review_count": 30,
+        "positive_ratio": 0.8667
+      },
+      {
+        "month": "2016-07",
+        "positive_count": 40,
+        "review_count": 48,
+        "positive_ratio": 0.8333
+      },
+      {
+        "month": "2016-08",
+        "positive_count": 36,
+        "review_count": 45,
+        "positive_ratio": 0.8
+      },
+      {
+        "month": "2016-09",
+        "positive_count": 39,
+        "review_count": 47,
+        "positive_ratio": 0.8298
+      },
+      {
+        "month": "2016-10",
+        "positive_count": 45,
+        "review_count": 56,
+        "positive_ratio": 0.8036
+      },
+      {
+        "month": "2016-11",
+        "positive_count": 206,
+        "review_count": 225,
+        "positive_ratio": 0.9156
+      },
+      {
+        "month": "2016-12",
+        "positive_count": 68,
+        "review_count": 73,
+        "positive_ratio": 0.9315
+      },
+      {
+        "month": "2017-01",
+        "positive_count": 86,
+        "review_count": 95,
+        "positive_ratio": 0.9053
+      },
+      {
+        "month": "2017-02",
+        "positive_count": 62,
+        "review_count": 73,
+        "positive_ratio": 0.8493
+      },
+      {
+        "month": "2017-03",
+        "positive_count": 66,
+        "review_count": 74,
+        "positive_ratio": 0.8919
+      },
+      {
+        "month": "2017-04",
+        "positive_count": 74,
+        "review_count": 82,
+        "positive_ratio": 0.9024
+      },
+      {
+        "month": "2017-05",
+        "positive_count": 46,
+        "review_count": 54,
+        "positive_ratio": 0.8519
+      },
+      {
+        "month": "2017-06",
+        "positive_count": 76,
+        "review_count": 88,
+        "positive_ratio": 0.8636
+      },
+      {
+        "month": "2017-07",
+        "positive_count": 95,
+        "review_count": 102,
+        "positive_ratio": 0.9314
+      },
+      {
+        "month": "2017-08",
+        "positive_count": 84,
+        "review_count": 92,
+        "positive_ratio": 0.913
+      },
+      {
+        "month": "2017-09",
+        "positive_count": 71,
+        "review_count": 80,
+        "positive_ratio": 0.8875
+      },
+      {
+        "month": "2017-10",
+        "positive_count": 138,
+        "review_count": 157,
+        "positive_ratio": 0.879
+      },
+      {
+        "month": "2017-11",
+        "positive_count": 275,
+        "review_count": 289,
+        "positive_ratio": 0.9516
+      },
+      {
+        "month": "2017-12",
+        "positive_count": 115,
+        "review_count": 128,
+        "positive_ratio": 0.8984
+      },
+      {
+        "month": "2018-01",
+        "positive_count": 118,
+        "review_count": 138,
+        "positive_ratio": 0.8551
+      },
+      {
+        "month": "2018-02",
+        "positive_count": 101,
+        "review_count": 110,
+        "positive_ratio": 0.9182
+      },
+      {
+        "month": "2018-03",
+        "positive_count": 80,
+        "review_count": 102,
+        "positive_ratio": 0.7843
+      },
+      {
+        "month": "2018-04",
+        "positive_count": 64,
+        "review_count": 72,
+        "positive_ratio": 0.8889
+      },
+      {
+        "month": "2018-05",
+        "positive_count": 80,
+        "review_count": 89,
+        "positive_ratio": 0.8989
+      },
+      {
+        "month": "2018-06",
+        "positive_count": 100,
+        "review_count": 118,
+        "positive_ratio": 0.8475
+      },
+      {
+        "month": "2018-07",
+        "positive_count": 120,
+        "review_count": 135,
+        "positive_ratio": 0.8889
+      },
+      {
+        "month": "2018-08",
+        "positive_count": 86,
+        "review_count": 95,
+        "positive_ratio": 0.9053
+      },
+      {
+        "month": "2018-09",
+        "positive_count": 83,
+        "review_count": 101,
+        "positive_ratio": 0.8218
+      },
+      {
+        "month": "2018-10",
+        "positive_count": 63,
+        "review_count": 72,
+        "positive_ratio": 0.875
+      },
+      {
+        "month": "2018-11",
+        "positive_count": 205,
+        "review_count": 224,
+        "positive_ratio": 0.9152
+      },
+      {
+        "month": "2018-12",
+        "positive_count": 64,
+        "review_count": 70,
+        "positive_ratio": 0.9143
+      },
+      {
+        "month": "2019-01",
+        "positive_count": 66,
+        "review_count": 92,
+        "positive_ratio": 0.7174
+      },
+      {
+        "month": "2019-02",
+        "positive_count": 67,
+        "review_count": 83,
+        "positive_ratio": 0.8072
+      },
+      {
+        "month": "2019-03",
+        "positive_count": 58,
+        "review_count": 71,
+        "positive_ratio": 0.8169
+      },
+      {
+        "month": "2019-04",
+        "positive_count": 65,
+        "review_count": 78,
+        "positive_ratio": 0.8333
+      },
+      {
+        "month": "2019-05",
+        "positive_count": 45,
+        "review_count": 54,
+        "positive_ratio": 0.8333
+      },
+      {
+        "month": "2019-06",
+        "positive_count": 59,
+        "review_count": 71,
+        "positive_ratio": 0.831
+      },
+      {
+        "month": "2019-07",
+        "positive_count": 155,
+        "review_count": 173,
+        "positive_ratio": 0.896
+      },
+      {
+        "month": "2019-08",
+        "positive_count": 51,
+        "review_count": 65,
+        "positive_ratio": 0.7846
+      },
+      {
+        "month": "2019-09",
+        "positive_count": 32,
+        "review_count": 33,
+        "positive_ratio": 0.9697
+      },
+      {
+        "month": "2019-10",
+        "positive_count": 58,
+        "review_count": 69,
+        "positive_ratio": 0.8406
+      },
+      {
+        "month": "2019-11",
+        "positive_count": 313,
+        "review_count": 347,
+        "positive_ratio": 0.902
+      },
+      {
+        "month": "2019-12",
+        "positive_count": 212,
+        "review_count": 233,
+        "positive_ratio": 0.9099
+      },
+      {
+        "month": "2020-01",
+        "positive_count": 124,
+        "review_count": 141,
+        "positive_ratio": 0.8794
+      },
+      {
+        "month": "2020-02",
+        "positive_count": 118,
+        "review_count": 137,
+        "positive_ratio": 0.8613
+      },
+      {
+        "month": "2020-03",
+        "positive_count": 158,
+        "review_count": 181,
+        "positive_ratio": 0.8729
+      },
+      {
+        "month": "2020-04",
+        "positive_count": 105,
+        "review_count": 117,
+        "positive_ratio": 0.8974
+      },
+      {
+        "month": "2020-05",
+        "positive_count": 118,
+        "review_count": 128,
+        "positive_ratio": 0.9219
+      },
+      {
+        "month": "2020-06",
+        "positive_count": 119,
+        "review_count": 134,
+        "positive_ratio": 0.8881
+      },
+      {
+        "month": "2020-07",
+        "positive_count": 94,
+        "review_count": 111,
+        "positive_ratio": 0.8468
+      },
+      {
+        "month": "2020-08",
+        "positive_count": 113,
+        "review_count": 130,
+        "positive_ratio": 0.8692
+      },
+      {
+        "month": "2020-09",
+        "positive_count": 127,
+        "review_count": 144,
+        "positive_ratio": 0.8819
+      },
+      {
+        "month": "2020-10",
+        "positive_count": 106,
+        "review_count": 119,
+        "positive_ratio": 0.8908
+      },
+      {
+        "month": "2020-11",
+        "positive_count": 98,
+        "review_count": 110,
+        "positive_ratio": 0.8909
+      },
+      {
+        "month": "2020-12",
+        "positive_count": 133,
+        "review_count": 148,
+        "positive_ratio": 0.8986
+      },
+      {
+        "month": "2021-01",
+        "positive_count": 106,
+        "review_count": 123,
+        "positive_ratio": 0.8618
+      },
+      {
+        "month": "2021-02",
+        "positive_count": 88,
+        "review_count": 101,
+        "positive_ratio": 0.8713
+      },
+      {
+        "month": "2021-03",
+        "positive_count": 97,
+        "review_count": 106,
+        "positive_ratio": 0.9151
+      },
+      {
+        "month": "2021-04",
+        "positive_count": 86,
+        "review_count": 92,
+        "positive_ratio": 0.9348
+      },
+      {
+        "month": "2021-05",
+        "positive_count": 96,
+        "review_count": 109,
+        "positive_ratio": 0.8807
+      },
+      {
+        "month": "2021-06",
+        "positive_count": 62,
+        "review_count": 74,
+        "positive_ratio": 0.8378
+      },
+      {
+        "month": "2021-07",
+        "positive_count": 69,
+        "review_count": 75,
+        "positive_ratio": 0.92
+      },
+      {
+        "month": "2021-08",
+        "positive_count": 83,
+        "review_count": 93,
+        "positive_ratio": 0.8925
+      },
+      {
+        "month": "2021-09",
+        "positive_count": 72,
+        "review_count": 82,
+        "positive_ratio": 0.878
+      },
+      {
+        "month": "2021-10",
+        "positive_count": 51,
+        "review_count": 59,
+        "positive_ratio": 0.8644
+      },
+      {
+        "month": "2021-11",
+        "positive_count": 62,
+        "review_count": 68,
+        "positive_ratio": 0.9118
+      },
+      {
+        "month": "2021-12",
+        "positive_count": 88,
+        "review_count": 107,
+        "positive_ratio": 0.8224
+      },
+      {
+        "month": "2022-01",
+        "positive_count": 84,
+        "review_count": 104,
+        "positive_ratio": 0.8077
+      },
+      {
+        "month": "2022-02",
+        "positive_count": 59,
+        "review_count": 67,
+        "positive_ratio": 0.8806
+      },
+      {
+        "month": "2022-03",
+        "positive_count": 47,
+        "review_count": 51,
+        "positive_ratio": 0.9216
+      },
+      {
+        "month": "2022-04",
+        "positive_count": 47,
+        "review_count": 55,
+        "positive_ratio": 0.8545
+      },
+      {
+        "month": "2022-05",
+        "positive_count": 45,
+        "review_count": 58,
+        "positive_ratio": 0.7759
+      },
+      {
+        "month": "2022-06",
+        "positive_count": 48,
+        "review_count": 51,
+        "positive_ratio": 0.9412
+      },
+      {
+        "month": "2022-07",
+        "positive_count": 58,
+        "review_count": 68,
+        "positive_ratio": 0.8529
+      },
+      {
+        "month": "2022-08",
+        "positive_count": 56,
+        "review_count": 65,
+        "positive_ratio": 0.8615
+      },
+      {
+        "month": "2022-09",
+        "positive_count": 53,
+        "review_count": 71,
+        "positive_ratio": 0.7465
+      },
+      {
+        "month": "2022-10",
+        "positive_count": 32,
+        "review_count": 44,
+        "positive_ratio": 0.7273
+      },
+      {
+        "month": "2022-11",
+        "positive_count": 41,
+        "review_count": 46,
+        "positive_ratio": 0.8913
+      },
+      {
+        "month": "2022-12",
+        "positive_count": 51,
+        "review_count": 57,
+        "positive_ratio": 0.8947
+      },
+      {
+        "month": "2023-01",
+        "positive_count": 54,
+        "review_count": 62,
+        "positive_ratio": 0.871
+      },
+      {
+        "month": "2023-02",
+        "positive_count": 49,
+        "review_count": 57,
+        "positive_ratio": 0.8596
+      },
+      {
+        "month": "2023-03",
+        "positive_count": 28,
+        "review_count": 32,
+        "positive_ratio": 0.875
+      },
+      {
+        "month": "2023-04",
+        "positive_count": 33,
+        "review_count": 41,
+        "positive_ratio": 0.8049
+      },
+      {
+        "month": "2023-05",
+        "positive_count": 30,
+        "review_count": 38,
+        "positive_ratio": 0.7895
+      },
+      {
+        "month": "2023-06",
+        "positive_count": 26,
+        "review_count": 30,
+        "positive_ratio": 0.8667
+      },
+      {
+        "month": "2023-07",
+        "positive_count": 22,
+        "review_count": 30,
+        "positive_ratio": 0.7333
+      },
+      {
+        "month": "2023-08",
+        "positive_count": 33,
+        "review_count": 38,
+        "positive_ratio": 0.8684
+      },
+      {
+        "month": "2023-09",
+        "positive_count": 23,
+        "review_count": 27,
+        "positive_ratio": 0.8519
+      },
+      {
+        "month": "2023-10",
+        "positive_count": 40,
+        "review_count": 45,
+        "positive_ratio": 0.8889
+      },
+      {
+        "month": "2023-11",
+        "positive_count": 25,
+        "review_count": 31,
+        "positive_ratio": 0.8065
+      },
+      {
+        "month": "2023-12",
+        "positive_count": 52,
+        "review_count": 57,
+        "positive_ratio": 0.9123
+      },
+      {
+        "month": "2024-01",
+        "positive_count": 59,
+        "review_count": 64,
+        "positive_ratio": 0.9219
+      },
+      {
+        "month": "2024-02",
+        "positive_count": 46,
+        "review_count": 50,
+        "positive_ratio": 0.92
+      },
+      {
+        "month": "2024-03",
+        "positive_count": 56,
+        "review_count": 60,
+        "positive_ratio": 0.9333
+      },
+      {
+        "month": "2024-04",
+        "positive_count": 30,
+        "review_count": 34,
+        "positive_ratio": 0.8824
+      },
+      {
+        "month": "2024-05",
+        "positive_count": 29,
+        "review_count": 36,
+        "positive_ratio": 0.8056
+      },
+      {
+        "month": "2024-06",
+        "positive_count": 40,
+        "review_count": 45,
+        "positive_ratio": 0.8889
+      },
+      {
+        "month": "2024-07",
+        "positive_count": 49,
+        "review_count": 57,
+        "positive_ratio": 0.8596
+      },
+      {
+        "month": "2024-08",
+        "positive_count": 40,
+        "review_count": 50,
+        "positive_ratio": 0.8
+      },
+      {
+        "month": "2024-09",
+        "positive_count": 36,
+        "review_count": 41,
+        "positive_ratio": 0.878
+      },
+      {
+        "month": "2024-10",
+        "positive_count": 38,
+        "review_count": 40,
+        "positive_ratio": 0.95
+      },
+      {
+        "month": "2024-11",
+        "positive_count": 29,
+        "review_count": 34,
+        "positive_ratio": 0.8529
+      },
+      {
+        "month": "2024-12",
+        "positive_count": 31,
+        "review_count": 34,
+        "positive_ratio": 0.9118
+      },
+      {
+        "month": "2025-01",
+        "positive_count": 23,
+        "review_count": 26,
+        "positive_ratio": 0.8846
+      },
+      {
+        "month": "2025-02",
+        "positive_count": 23,
+        "review_count": 31,
+        "positive_ratio": 0.7419
+      },
+      {
+        "month": "2025-03",
+        "positive_count": 21,
+        "review_count": 26,
+        "positive_ratio": 0.8077
+      },
+      {
+        "month": "2025-04",
+        "positive_count": 17,
+        "review_count": 23,
+        "positive_ratio": 0.7391
+      },
+      {
+        "month": "2025-05",
+        "positive_count": 31,
+        "review_count": 34,
+        "positive_ratio": 0.9118
+      },
+      {
+        "month": "2025-06",
+        "positive_count": 29,
+        "review_count": 33,
+        "positive_ratio": 0.8788
+      },
+      {
+        "month": "2025-07",
+        "positive_count": 46,
+        "review_count": 53,
+        "positive_ratio": 0.8679
+      },
+      {
+        "month": "2025-08",
+        "positive_count": 23,
+        "review_count": 30,
+        "positive_ratio": 0.7667
+      },
+      {
+        "month": "2025-09",
+        "positive_count": 20,
+        "review_count": 24,
+        "positive_ratio": 0.8333
+      },
+      {
+        "month": "2025-10",
+        "positive_count": 27,
+        "review_count": 29,
+        "positive_ratio": 0.931
+      },
+      {
+        "month": "2025-11",
+        "positive_count": 27,
+        "review_count": 27,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2025-12",
+        "positive_count": 22,
+        "review_count": 28,
+        "positive_ratio": 0.7857
+      },
+      {
+        "month": "2026-01",
+        "positive_count": 31,
+        "review_count": 34,
+        "positive_ratio": 0.9118
+      },
+      {
+        "month": "2026-02",
+        "positive_count": 29,
+        "review_count": 32,
+        "positive_ratio": 0.9062
+      },
+      {
+        "month": "2026-03",
+        "positive_count": 21,
+        "review_count": 25,
+        "positive_ratio": 0.84
+      },
+      {
+        "month": "2026-04",
+        "positive_count": 28,
+        "review_count": 31,
+        "positive_ratio": 0.9032
+      }
+    ]
+  },
   "game": {
     "name": "Warframe",
     "genres": [
@@ -14,16 +970,27 @@
     ],
     "price_model": "free_to_play",
     "is_free": true,
-    "release_stage": "released"
+    "release_stage": "released",
+    "release_date_text": "2013년 3월 25일",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230410/60ce7425b864dd3c0dd855bfc66004c6f9ca4844/header.jpg?t=1775661175",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230410/80dd2d83df77e9037b14b0076713d2e63666192d/capsule_231x87.jpg?t=1775661175",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230410/80dd2d83df77e9037b14b0076713d2e63666192d/capsule_184x69.jpg?t=1775661175",
+    "short_description": "이 스토리 중심의 부분 유료 온라인 액션 게임에서 그 누구도 멈출 수 없는 강력한 전사로 깨어나 동료들과 함께 싸움에 임하세요. 여러 행성에 걸쳐 뻗어나가는 성계 이곳저곳에서 전쟁을 벌이는 세력들과 맞서며, 신비로운 인물, 로터스의 안내에 따르며 워프레임을 레벨업하고, 파괴적인 화력을 가진 무기고를 쌓아올리고, 이 짜릿한, 전혀 새로운 장르의 3인칭 전투 경험 속의 거대한 오픈 월드에서 여러분의 진짜 잠재력을 불러일으키세요.",
+    "steam_store_url": "https://store.steampowered.com/app/230410",
+    "steam_recommendation_count": 2879,
+    "steam_review_score_desc": "Very Positive",
+    "steam_total_positive": 9796,
+    "steam_total_negative": 1312,
+    "steam_total_reviews": 11108
   },
   "report_plan": {
     "decision_anchor": {
-      "buy_recommendation": "try_lightly",
+      "buy_recommendation": "free_play_recommended",
       "primary_reason_ids": [
         "risk_1",
         "risk_2"
       ],
-      "rationale_short": "무료이므로 큰 진입 비용 없이 먼저 짧게 플레이해 취향 적합성을 확인하기 좋습니다."
+      "rationale_short": "무료 게임 기준으로 보면 지금 바로 플레이를 시작해도 체감 부담이 낮은 편입니다."
     },
     "section_blueprint": {
       "strength_block_count": 3,
@@ -44,8 +1011,8 @@
         },
         {
           "reason_id": "str_3",
-          "aspect": "graphics",
-          "theme": "그래픽 / 비주얼 호평"
+          "aspect": "monetization",
+          "theme": "DLC / 확장팩 언급"
         }
       ],
       "risks": [
@@ -68,283 +1035,327 @@
     }
   },
   "report_display": {
-    "headline": "빌드 / 무기 다양성 장점이 보여 무료로 가볍게 시작해보고 맞는지 판단하기 좋습니다.",
-    "buy_recommendation": "try_lightly",
-    "buy_timing_summary": "무료이므로 큰 진입 비용 없이 먼저 짧게 플레이해 취향 적합성을 확인하기 좋습니다.",
+    "headline": "플레이 흐름의 안정감 체감이 좋아 무료로 지금 시작해 보기 좋은 상태입니다.",
+    "buy_recommendation": "free_play_recommended",
+    "buy_timing_summary": "무료 게임 기준으로 보면 지금 바로 플레이를 시작해도 체감 부담이 낮은 편입니다.",
     "good_for": [
-      "긴 보스전에서 패턴을 익히고 반복 트라이를 즐기는 플레이어",
-      "전투 속도보다 서사와 분위기 몰입을 우선하는 플레이어",
-      "시각 연출과 월드 분위기를 천천히 감상하며 플레이하는 플레이어"
+      "장비와 빌드를 오래 다듬는 플레이어"
     ],
     "not_good_for": [
-      "짧은 플레이 시간에도 프레임 안정성이 꼭 필요한 환경에서 즐기려는 플레이어",
-      "초반부터 편하게 진행되는 난이도를 기대하는 플레이어"
+      "같은 흐름이 길어지면 피로를 크게 느끼는 플레이어",
+      "처음부터 빠르게 적응하고 뛰어들고 싶은 플레이어",
+      "프레임과 반응성에 민감한 플레이어"
     ],
     "top_strengths": [
       {
-        "title": "빌드 / 무기 다양성",
-        "summary": "빌드 / 무기 다양성 체감이 좋아 한 판 더 하게 되는 흐름이 잘 만들어집니다."
+        "title": "플레이 흐름의 안정감",
+        "summary": "기본 플레이 흐름이 안정적으로 잡혀 익숙해질수록 리듬이 또렷해지는 편입니다."
       },
       {
-        "title": "세계관과 연출 덕분에 플레이를 계속하게 되는 몰입 경험",
-        "summary": "세계관과 연출 덕분에 플레이를 계속하게 되는 몰입 경험 덕분에 진행을 멈추기 어려울 만큼 몰입감이 유지됩니다."
+        "title": "장비 성장",
+        "summary": "장비를 파밍하고 빌드를 확장하는 과정이 분명한 성장 동기로 이어져 오래 붙잡기 좋습니다."
       },
       {
-        "title": "그래픽 / 비주얼 호평",
-        "summary": "그래픽 / 비주얼 호평이 플레이 분위기를 끌어올려 감상형 플레이 만족도가 높습니다."
+        "title": "다양한 빌드와 커스터마이징",
+        "summary": "무기와 워프레임의 조합이 다양해 플레이어의 개성을 살릴 수 있는 요소가 많습니다."
       }
     ],
     "top_risks": [
       {
-        "title": "플레이 시간이 누적될수록 새로움이 빨리 소진될 수 있는 리스크",
-        "summary": "플레이 시간이 누적될수록 새로움이 빨리 소진될 수 있는 리스크이 플레이 경험의 만족도를 낮출 수 있어 주의가 필요합니다."
+        "title": "반복 파밍 피로",
+        "summary": "익숙해진 뒤에는 새로움보다 반복감이 먼저 느껴질 수 있습니다."
       },
       {
-        "title": "프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크",
-        "summary": "프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크 때문에 전투나 이동 흐름이 끊겨 몰입이 쉽게 깨질 수 있습니다."
+        "title": "초반 적응에 시간이 필요한 구간",
+        "summary": "시스템과 조작을 익히기까지 시간이 걸려 빠른 진입을 원하면 답답하게 느껴질 수 있습니다."
       },
       {
-        "title": "튜토리얼 / 온보딩 부족",
-        "summary": "튜토리얼 / 온보딩 부족 때문에 초반 적응에서 막히면 이탈 가능성이 커질 수 있습니다."
+        "title": "활동 안정성 흔들림",
+        "summary": "프레임과 반응성이 흔들리면 조작 감각과 플레이 리듬이 함께 무너질 수 있습니다."
       }
     ],
     "recent_state": {
-      "status": "mixed",
-      "summary": "만족 포인트와 불편 포인트가 함께 보여 체감 평가가 갈리는 상태입니다."
+      "status": "improving",
+      "summary": "불편이 줄었다는 후기가 늘어 전반적인 분위기가 나아지는 편입니다."
     }
   },
   "evidence_sections": {
     "strengths": [
       {
         "block_id": "str_1",
-        "title": "빌드 / 무기 다양성이 실제 플레이 만족으로 이어진다는 반응",
-        "theme": "빌드 / 무기 다양성",
-        "why_it_matters": "전투/핵심 플레이에서 빌드 / 무기 다양성 체감이 좋으면 초반부터 몰입이 붙어 장시간 플레이 만족으로 이어질 가능성이 큽니다.",
-        "explanation": "전투/핵심 플레이에서 빌드 / 무기 다양성 체감이 좋으면 초반부터 몰입이 붙어 장시간 플레이 만족으로 이어질 가능성이 큽니다.",
+        "title": "장비 파밍과 성장 루프가 오래 붙잡는다는 반응이 있다.",
+        "theme": "장비 성장",
+        "why_it_matters": "장비 파밍과 성장 루프를 좋게 보는 반응이 많아 반복 임무 속에서 강해지는 구조를 즐기면 잘 맞습니다.",
+        "explanation": "장비 파밍과 성장 루프를 좋게 보는 반응이 많아 반복 임무 속에서 강해지는 구조를 즐기면 잘 맞습니다.",
         "aspect_keys": [
-          "gameplay"
-        ],
-        "stance": "positive",
-        "consensus_level": "high",
-        "mention_count": 507,
-        "evidence_quality_level": "relaxed",
-        "evidence_candidate_snippets": [
-          "업적도 다 깨고 프라임 웦 자이어 프라임까지 나온 상태인데 이 기준으로 나온거 전부 포작에 5샤드 박아주고 무기도 앵간히 좋다는건 다 해버려서 장난감까지 포작하고 레전더리 4까지 찍었는데 아직도 뉴비같음 아직도 뭐 만들려보면 파이롤같은게 없음 대체 언제 고일 수 있는거임..",
-          "중독성이 엄청난 게임. 컨텐츠가 많은 게임. 액션이 쩌는 게임. 할 수 있는게 끝없는 게임. 하지만 100시간을 해도 뉴비인 게임. 할게 너무나도 많은 게임. 공부해야 진행되는 게임. 혼자서는 힘든 게임. 그래도 이만한 게임이 없는 게임."
-        ],
-        "evidence_snippets": [
-          "업적도 다 깨고 프라임 웦 자이어 프라임까지 나온 상태인데 이 기준으로 나온거 전부 포작에 5샤드 박아주고 무기도 앵간히 좋다는건 다 해버려서 장난감까지 포작하고 레전더리 4까지 찍었는데 아직도 뉴비같음 아직도 뭐 만들려보면 파이롤같은게 없음 대체 언제 고일 수 있는거임..",
-          "중독성이 엄청난 게임. 컨텐츠가 많은 게임. 액션이 쩌는 게임. 할 수 있는게 끝없는 게임. 하지만 100시간을 해도 뉴비인 게임. 할게 너무나도 많은 게임. 공부해야 진행되는 게임. 혼자서는 힘든 게임. 그래도 이만한 게임이 없는 게임."
-        ]
-      },
-      {
-        "block_id": "str_2",
-        "title": "세계관과 연출 덕분에 플레이를 계속하게 되는 몰입 경험이 실제 플레이 만족으로 이어진다는 반응",
-        "theme": "세계관과 연출 덕분에 플레이를 계속하게 되는 몰입 경험",
-        "why_it_matters": "스토리/몰입에서 세계관과 연출 덕분에 플레이를 계속하게 되는 몰입 경험 체감이 좋으면 초반부터 몰입이 붙어 장시간 플레이 만족으로 이어질 가능성이 큽니다.",
-        "explanation": "스토리/몰입에서 세계관과 연출 덕분에 플레이를 계속하게 되는 몰입 경험 체감이 좋으면 초반부터 몰입이 붙어 장시간 플레이 만족으로 이어질 가능성이 큽니다.",
-        "aspect_keys": [
+          "gameplay",
           "story"
         ],
         "stance": "positive",
         "consensus_level": "high",
-        "mention_count": 366,
+        "mention_count": 1344,
         "evidence_quality_level": "strict",
         "evidence_candidate_snippets": [
+          "업적도 다 깨고 프라임 웦 자이어 프라임까지 나온 상태인데 이 기준으로 나온거 전부 포작에 5샤드 박아주고 무기도 앵간히 좋다는건 다 해버려서 장난감까지 포작하고 레전더리 4까지 찍었는데 아직도 뉴비같음 아직도 뭐 만들려보면 파이롤같은게 없음 대체 언제 고일 수 있는거임..",
           "모든 워프레임이 다 좋은건 아니지만 확실히 매력있는 캐릭터들이 많고 성장 방향이 다양해서 재밌음. 노가다도 할만하고 마켓도 활성화되어 있어서 거래하기도 좋음. 다만 캐쉬 없이 그냥 키우기는 좀 어렵긴 함",
           "아직 뉴비고 매우 주관적인 의견이지만, 무료고 장수게임이면서 이렇게까지 재밌는 게임은 못 봤음. 여러 컨셉의 웦들과 무기 그리고 스토리까지 맛깔나서 진짜 재밌게 즐겼고 앞으로도 한참 즐길 게임임"
         ],
         "evidence_snippets": [
           "모든 워프레임이 다 좋은건 아니지만 확실히 매력있는 캐릭터들이 많고 성장 방향이 다양해서 재밌음. 노가다도 할만하고 마켓도 활성화되어 있어서 거래하기도 좋음. 다만 캐쉬 없이 그냥 키우기는 좀 어렵긴 함",
-          "아직 뉴비고 매우 주관적인 의견이지만, 무료고 장수게임이면서 이렇게까지 재밌는 게임은 못 봤음. 여러 컨셉의 웦들과 무기 그리고 스토리까지 맛깔나서 진짜 재밌게 즐겼고 앞으로도 한참 즐길 게임임"
+          "아직 뉴비고 매우 주관적인 의견이지만, 무료고 장수게임이면서 이렇게까지 재밌는 게임은 못 봤음. 여러 컨셉의 웦들과 무기 그리고 스토리까지 맛깔나서 진짜 재밌게 즐겼고 앞으로도 한참 즐길 게임임",
+          "업적도 다 깨고 프라임 웦 자이어 프라임까지 나온 상태인데 이 기준으로 나온거 전부 포작에 5샤드 박아주고 무기도 앵간히 좋다는건 다 해버려서 장난감까지 포작하고 레전더리 4까지 찍었는데 아직도 뉴비같음 아직도 뭐 만들려보면 파이롤같은게 없음 대체 언제 고일 수 있는거임.."
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-positive-1-1-4397553455558751491",
+            "text": "업적도 다 깨고 프라임 웦 자이어 프라임까지 나온 상태인데 이 기준으로 나온거 전부 포작에 5샤드 박아주고 무기도 앵간히 좋다는건 다 해버려서 장난감까지 포작하고 레전더리 4까지 찍었는데 아직도 뉴비같음 아직도 뭐 만들려보면 파이롤같은게 없음 대체 언제 고일 수 있는거임.."
+          },
+          {
+            "review_id": "compress-v3-positive-1-2-5688106614819385790",
+            "text": "모든 워프레임이 다 좋은건 아니지만 확실히 매력있는 캐릭터들이 많고 성장 방향이 다양해서 재밌음. 노가다도 할만하고 마켓도 활성화되어 있어서 거래하기도 좋음. 다만 캐쉬 없이 그냥 키우기는 좀 어렵긴 함"
+          },
+          {
+            "review_id": "compress-v3-positive-1-3-3600059908766818042",
+            "text": "아직 뉴비고 매우 주관적인 의견이지만, 무료고 장수게임이면서 이렇게까지 재밌는 게임은 못 봤음. 여러 컨셉의 웦들과 무기 그리고 스토리까지 맛깔나서 진짜 재밌게 즐겼고 앞으로도 한참 즐길 게임임"
+          }
         ]
       }
     ],
     "risks": [
       {
         "block_id": "risk_1",
-        "title": "플레이 시간이 누적될수록 새로움이 빨리 소진될 수 있는 리스크 때문에 플레이 흐름이 끊긴다는 반응",
-        "theme": "플레이 시간이 누적될수록 새로움이 빨리 소진될 수 있는 리스크",
-        "why_it_matters": "콘텐츠 볼륨에서 플레이 시간이 누적될수록 새로움이 빨리 소진될 수 있는 리스크 불편가 반복되면 초반 만족도가 크게 떨어질 수 있어 플레이 전 감수 여부 확인가 필요합니다.",
-        "explanation": "콘텐츠 볼륨에서 플레이 시간이 누적될수록 새로움이 빨리 소진될 수 있는 리스크 불편가 반복되면 초반 만족도가 크게 떨어질 수 있어 플레이 전 감수 여부 확인가 필요합니다.",
+        "title": "반복감이 피로로 이어진다는 반응",
+        "theme": "반복 파밍 피로",
+        "why_it_matters": "반복감이 피로로 이어진다는 반응이 있어 새로움이 빨리 줄어드는 구간은 감수해야 할 수 있습니다.",
+        "explanation": "반복감이 피로로 이어진다는 반응이 있어 새로움이 빨리 줄어드는 구간은 감수해야 할 수 있습니다.",
         "aspect_keys": [
           "content_depth"
         ],
         "stance": "negative",
         "consensus_level": "high",
-        "mention_count": 817,
+        "mention_count": 1210,
         "evidence_quality_level": "strict",
         "evidence_candidate_snippets": [
-          "예전 스팀 계정 플레이 타임 3,500시간 인생 게임 그 자체 처음 시작했을땐 무료 게임답지 않은 뛰어난 그래픽과 찰진 타격감, 그리고 방대한 콘텐츠에 매료되어 정말 정신없이 빠져들었지만 근본적으로는 끝없는 반복 노가다의 연속이라 시간 낭비가 심하고 지루함 하지만 신기하게도 워프레임을 대체할 게임이 없어서 자꾸만 생각남 비슷하다는 데가, 퍼디도 해봤지만... 워프레임 특유의 그 맛을 채워주진 못했음 그러니깐 DE님 제바ㅏㅏㅏㅏㄹ 앞으로 하지 말라는짓 안 할 테니 제발 밴 좀 풀어주세요",
-          "도와주는 고인물 친구없이 혼자 게임을 시작했다 -> 뭐해야될지 몰라서 이것저것 찾다가 정보찾기 힘들어서 접음 가장 기본적인걸 알려주는 고인물 친구가 있지만 현질을 아예 하지 않았다 -> 일반 노드 밀면서 성유물까서 야금야금 플래벌다가 힘들어서 접음 이것저것 알려주고 어느정도 지원을 해주는 고인물친구가 있으며 초반부분이 거지같음을 깨닫고 아예 현질을 해서 플래박치기로 세팅된 웦이나 무기가 있다 -> 강길열리면서 진정한 파밍이 시작되는걸 알게되고 몇달정도 노가다하다가 지쳐서 접음 가끔 다시 복귀해서 찍먹하고 접고 반복 본인이 정보를 영어로 검색해가며 찾아보고 어느정도 지원을 해주는 고인물 친구가 있으며 현질을 불편할때마다 조금씩 해서 전부 파밍을 한건 아니더라도 맨처음부터 차근차근 개같은 버그와 토나오는 노가다와 거지같은 워프레임식 길찾기와 개노잼인 메인퀘스트 폐사구간에서 전부 살아남았다 -> 당신은 이 게임을 천시간 이상 미친듯이 하게될겁니다"
+          "플레이 타임 3,500시간 인생 게임이었던것 처음 시작했을땐 무료 게임답지 않은 뛰어난 그래픽과 찰진 타격감, 그리고 많은 콘텐츠에 매료되어 ㅈㄴ 시간박으면서 했지만... 근본적으로는 끝없는 반복 노가다의 연속이라 시간 낭비가 심하고 지루함 하지만 신기하게도 워프레임을 대체할 게임이 없어서 자꾸만 생각남 비슷하다는 데가, 퍼디도 해봤지만 워프레임 특유의 그 맛을 채워주진 못했음 그러니깐 DE님 제바ㅏㅏㅏㅏㄹ 앞으로 하지 말라는짓 안할테니깐 제발 밴 좀 풀어주세요",
+          "도와주는 고인물 친구없이 혼자 게임을 시작했다 -> 뭐해야될지 몰라서 이것저것 찾다가 정보찾기 힘들어서 접음 가장 기본적인걸 알려주는 고인물 친구가 있지만 현질을 아예 하지 않았다 -> 일반 노드 밀면서 성유물까서 야금야금 플래벌다가 힘들어서 접음 이것저것 알려주고 어느정도 지원을 해주는 고인물친구가 있으며 초반부분이 거지같음을 깨닫고 아예 현질을 해서 플래박치기로 세팅된 웦이나 무기가 있다 -> 강길열리면서 진정한 파밍이 시작되는걸 알게되고 몇달정도 노가다하다가 지쳐서 접음 가끔 다시 복귀해서 찍먹하고 접고 반복 본인이 정보를 영어로 검색해가며 찾아보고 어느정도 지원을 해주는 고인물 친구가 있으며 현질을 불편할때마다 조금씩 해서 전부 파밍을 한건 아니더라도 맨처음부터 차근차근 개같은 버그와 토나오는 노가다와 거지같은 워프레임식 길찾기와 개노잼인 메인퀘스트 폐사구간에서 전부 살아남았다 -> 당신은 이 게임을 천시간 이상 미친듯이 하게될겁니다",
+          "연차가 오래된 루트슈터 게임이라 막 시작하면 퍼먹을 게 상당히 많음 근데 구조가 불친절하고 직관성이 떨어져서 정 붙이는 게 조금 힘듦 + 오래된 게임이지만 사람 새끼처럼 패치해주기 시작한 건 생각보다 굉장히 최근이라 아직도 존나게 비합리적인 파밍 구조와 밸런스 이슈가 좀 있음 그나마 사람 패는 겜은 아니라 그냥 같이 사기 장비 써서 꿀 빨면 되긴 하는데, 또 최종 컨텐츠들은 다양한 무기와 워프레임을 골고루 키워 놔야 최대 보상 먹을 수 있게 해놔서 최적화 해야 직성이 풀리는 사람들에겐 스트레스 요인으로 작용 가능 재료 우다다 쌓는 거 좋아하는 다람쥐형 게이머, 우주적 SF 감성을 듬뿍 담은 커스터마이징 좋아하는 사람에게 추천"
         ],
         "evidence_snippets": [
-          "예전 스팀 계정 플레이 타임 3, 500시간 인생 게임 그 자체 처음 시작했을땐 무료 게임답지 않은 뛰어난 그래픽과 찰진 타격감, 그리고 방대한 콘텐츠에 매료되어 정말 정신없이 빠져들었지만 근본적으로는 끝없는 반복 노가다의 연속이라 시간 낭비가 심하고 지루함 하지만 신기하게도 워프레임을 대체할 게임이 없어서 자꾸만 생각남 비슷하다는 데가, 퍼디도 해봤지만... 워프레임 특유의 그 맛을 채워주진 못했음 그러니깐 DE님 제바ㅏㅏㅏㅏㄹ 앞으로 하지 말라는짓 안 할 테니 제발 밴 좀 풀어주세요",
+          "플레이 타임 3, 500시간 인생 게임이었던것 처음 시작했을땐 무료 게임답지 않은 뛰어난 그래픽과 찰진 타격감, 그리고 많은 콘텐츠에 매료되어 ㅈㄴ 시간박으면서 했지만... 근본적으로는 끝없는 반복 노가다의 연속이라 시간 낭비가 심하고 지루함 하지만 신기하게도 워프레임을 대체할 게임이 없어서 자꾸만 생각남 비슷하다는 데가, 퍼디도 해봤지만 워프레임 특유의 그 맛을 채워주진 못했음 그러니깐 DE님 제바ㅏㅏㅏㅏㄹ 앞으로 하지 말라는짓 안할테니깐 제발 밴 좀 풀어주세요",
+          "연차가 오래된 루트슈터 게임이라 막 시작하면 퍼먹을 게 상당히 많음 근데 구조가 불친절하고 직관성이 떨어져서 정 붙이는 게 조금 힘듦 + 오래된 게임이지만 사람 새끼처럼 패치해주기 시작한 건 생각보다 굉장히 최근이라 아직도 존나게 비합리적인 파밍 구조와 밸런스 이슈가 좀 있음 그나마 사람 패는 겜은 아니라 그냥 같이 사기 장비 써서 꿀 빨면 되긴 하는데, 또 최종 컨텐츠들은 다양한 무기와 워프레임을 골고루 키워 놔야 최대 보상 먹을 수 있게 해놔서 최적화 해야 직성이 풀리는 사람들에겐 스트레스 요인으로 작용 가능 재료 우다다 쌓는 거 좋아하는 다람쥐형 게이머, 우주적 SF 감성을 듬뿍 담은 커스터마이징 좋아하는 사람에게 추천",
           "도와주는 고인물 친구없이 혼자 게임을 시작했다 -> 뭐해야될지 몰라서 이것저것 찾다가 정보찾기 힘들어서 접음 가장 기본적인걸 알려주는 고인물 친구가 있지만 현질을 아예 하지 않았다 -> 일반 노드 밀면서 성유물까서 야금야금 플래벌다가 힘들어서 접음 이것저것 알려주고 어느정도 지원을 해주는 고인물친구가 있으며 초반부분이 거지같음을 깨닫고 아예 현질을 해서 플래박치기로 세팅된 웦이나 무기가 있다 -> 강길열리면서 진정한 파밍이 시작되는걸 알게되고 몇달정도 노가다하다가 지쳐서 접음 가끔 다시 복귀해서 찍먹하고 접고 반복 본인이 정보를 영어로 검색해가며 찾아보고 어느정도 지원을 해주는 고인물 친구가 있으며 현질을 불편할때마다 조금씩 해서 전부 파밍을 한건 아니더라도 맨처음부터 차근차근 개같은 버그와 토나오는 노가다와 거지같은 워프레임식 길찾기와 개노잼인 메인퀘스트 폐사구간에서 전부 살아남았다 -> 당신은 이 게임을 천시간 이상 미친듯이 하게될겁니다"
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-negative-1-1-4827415252491026981",
+            "text": "플레이 타임 3,500시간 인생 게임이었던것 처음 시작했을땐 무료 게임답지 않은 뛰어난 그래픽과 찰진 타격감, 그리고 많은 콘텐츠에 매료되어 ㅈㄴ 시간박으면서 했지만... 근본적으로는 끝없는 반복 노가다의 연속이라 시간 낭비가 심하고 지루함 하지만 신기하게도 워프레임을 대체할 게임이 없어서 자꾸만 생각남 비슷하다는 데가, 퍼디도 해봤지만 워프레임 특유의 그 맛을 채워주진 못했음 그러니깐 DE님 제바ㅏㅏㅏㅏㄹ 앞으로 하지 말라는짓 안할테니깐 제발 밴 좀 풀어주세요"
+          },
+          {
+            "review_id": "compress-v3-negative-1-2-1212783313743590422",
+            "text": "도와주는 고인물 친구없이 혼자 게임을 시작했다 -> 뭐해야될지 몰라서 이것저것 찾다가 정보찾기 힘들어서 접음 가장 기본적인걸 알려주는 고인물 친구가 있지만 현질을 아예 하지 않았다 -> 일반 노드 밀면서 성유물까서 야금야금 플래벌다가 힘들어서 접음 이것저것 알려주고 어느정도 지원을 해주는 고인물친구가 있으며 초반부분이 거지같음을 깨닫고 아예 현질을 해서 플래박치기로 세팅된 웦이나 무기가 있다 -> 강길열리면서 진정한 파밍이 시작되는걸 알게되고 몇달정도 노가다하다가 지쳐서 접음 가끔 다시 복귀해서 찍먹하고 접고 반복 본인이 정보를 영어로 검색해가며 찾아보고 어느정도 지원을 해주는 고인물 친구가 있으며 현질을 불편할때마다 조금씩 해서 전부 파밍을 한건 아니더라도 맨처음부터 차근차근 개같은 버그와 토나오는 노가다와 거지같은 워프레임식 길찾기와 개노잼인 메인퀘스트 폐사구간에서 전부 살아남았다 -> 당신은 이 게임을 천시간 이상 미친듯이 하게될겁니다"
+          },
+          {
+            "review_id": "compress-v3-negative-1-3-6227596729562980871",
+            "text": "연차가 오래된 루트슈터 게임이라 막 시작하면 퍼먹을 게 상당히 많음 근데 구조가 불친절하고 직관성이 떨어져서 정 붙이는 게 조금 힘듦 + 오래된 게임이지만 사람 새끼처럼 패치해주기 시작한 건 생각보다 굉장히 최근이라 아직도 존나게 비합리적인 파밍 구조와 밸런스 이슈가 좀 있음 그나마 사람 패는 겜은 아니라 그냥 같이 사기 장비 써서 꿀 빨면 되긴 하는데, 또 최종 컨텐츠들은 다양한 무기와 워프레임을 골고루 키워 놔야 최대 보상 먹을 수 있게 해놔서 최적화 해야 직성이 풀리는 사람들에겐 스트레스 요인으로 작용 가능 재료 우다다 쌓는 거 좋아하는 다람쥐형 게이머, 우주적 SF 감성을 듬뿍 담은 커스터마이징 좋아하는 사람에게 추천"
+          }
         ]
       },
       {
-        "block_id": "risk_2",
-        "title": "프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크 때문에 플레이 흐름이 끊긴다는 반응",
-        "theme": "프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크",
-        "why_it_matters": "성능/최적화에서 프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크 불편가 반복되면 초반 만족도가 크게 떨어질 수 있어 플레이 전 감수 여부 확인가 필요합니다.",
-        "explanation": "성능/최적화에서 프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크 불편가 반복되면 초반 만족도가 크게 떨어질 수 있어 플레이 전 감수 여부 확인가 필요합니다.",
+        "block_id": "risk_3",
+        "title": "초반 적응이 답답하다는 반응",
+        "theme": "튜토리얼 / 온보딩 부족",
+        "why_it_matters": "초반 적응이 느리다는 반응이 있어 바로 손에 붙는 경험을 원하면 답답함이 먼저 올 수 있습니다.",
+        "explanation": "초반 적응이 느리다는 반응이 있어 바로 손에 붙는 경험을 원하면 답답함이 먼저 올 수 있습니다.",
         "aspect_keys": [
-          "performance"
+          "difficulty"
         ],
         "stance": "negative",
         "consensus_level": "high",
-        "mention_count": 586,
+        "mention_count": 524,
         "evidence_quality_level": "strict",
         "evidence_candidate_snippets": [
-          "예전 스팀 계정 플레이 타임 3,500시간 인생 게임 그 자체 처음 시작했을땐 무료 게임답지 않은 뛰어난 그래픽과 찰진 타격감, 그리고 방대한 콘텐츠에 매료되어 정말 정신없이 빠져들었지만 근본적으로는 끝없는 반복 노가다의 연속이라 시간 낭비가 심하고 지루함 하지만 신기하게도 워프레임을 대체할 게임이 없어서 자꾸만 생각남 비슷하다는 데가, 퍼디도 해봤지만... 워프레임 특유의 그 맛을 채워주진 못했음 그러니깐 DE님 제바ㅏㅏㅏㅏㄹ 앞으로 하지 말라는짓 안 할 테니 제발 밴 좀 풀어주세요",
-          "베타시절부터 지금까지 봐온 워프레임이란 게임은 무슨 업뎃을 하나 아쉽고 실망스러움 아너리아 수집안함 그냥 게임 접속해서 점프 몇번하다 끄는게임.",
-          "도와주는 고인물 친구없이 혼자 게임을 시작했다 -> 뭐해야될지 몰라서 이것저것 찾다가 정보찾기 힘들어서 접음 가장 기본적인걸 알려주는 고인물 친구가 있지만 현질을 아예 하지 않았다 -> 일반 노드 밀면서 성유물까서 야금야금 플래벌다가 힘들어서 접음 이것저것 알려주고 어느정도 지원을 해주는 고인물친구가 있으며 초반부분이 거지같음을 깨닫고 아예 현질을 해서 플래박치기로 세팅된 웦이나 무기가 있다 -> 강길열리면서 진정한 파밍이 시작되는걸 알게되고 몇달정도 노가다하다가 지쳐서 접음 가끔 다시 복귀해서 찍먹하고 접고 반복 본인이 정보를 영어로 검색해가며 찾아보고 어느정도 지원을 해주는 고인물 친구가 있으며 현질을 불편할때마다 조금씩 해서 전부 파밍을 한건 아니더라도 맨처음부터 차근차근 개같은 버그와 토나오는 노가다와 거지같은 워프레임식 길찾기와 개노잼인 메인퀘스트 폐사구간에서 전부 살아남았다 -> 당신은 이 게임을 천시간 이상 미친듯이 하게될겁니다",
-          "워프레임은 할머니다. 이제 끝났나? 싶으면 더묵자~ 하면서 밥 한공기를 더 갖고온다. 할머니 저 죽어욧"
+          "장점 : 타격감 아주 좋음 (사실상 핵앤슬레쉬 장르임) 오래된 만큼 컨텐츠 다양함 스토리 대부분 맛있고 특히 연출이 아주 맛있음 무기, 캐릭, 빌드가 다양해서 파밍, 연구가 재미있음 BM 합리적임 (25~75% 현질 할인쿠폰을 출석 보상으로 뿌림, 유저간 거래로 현질재화 파밍 가능) 접었다가 한참뒤 다시해도 별 문제 없음 단점 : 초반, 일부 반복 노가다가 지루함 (노드열기, 두비리 순환로 등등) 빌드가 다양한 만큼 깊게 들어가면 알아야 할게 많음 (물론 다른사람 세팅 따라써도 됨) 그에 비해 인게임 가이드가 조넨 적음, 그래서 지인이나 공략 없으면 중반쯤 갑자기 게임이 루즈해짐 (사실상 공략 or 지인은 필수) 엔드 컨텐츠가 애매함 (종결급 세팅을 100% 써먹을 곳이 적음, 몇백만원 짜리 PC로 롤 돌리는 느낌) 총평 : 무료게임인거 생각하면 핵앤슬레쉬, 루트슈터 장르로썬 깔게 없음 노가다 심하다고 악평이 많은데 나름 완화도 많이 되고 계속 개선되는 중이라 하나의 컨텐츠 느낌이지 일부(특히 두비리) 제외하면 재미있게 즐길만한 수준임 혼자 공략 찾아보며 해도 문제 없고 주변에 플레이하는 지인 있으면 아주 편하게 진행 가능 (공략 없이는 어려울 수 있음) 초반만 넘기면 즐길것도 다양하고 스토리랑 연출도 맛있으니 츄라이 츄라이",
+          "3d 멀미 있는 사람, 초반에 게임을 거의 공부하듯이 배우는거 싫어하는 사람, 징그러운거 싫은사람은 추천안함 게임성 자체는 진짜재밌고 타격감도 있고 화려하며 그래픽도 꽤 고퀄에 최적화도 이정도면 다른겜에 비해 우수한편 다만 초반에 게임시스템에 대한 설명이 진짜 부족해서 직접 인터넷에 찾아봐야하고 한국인이 많이 없고 중국인이 많은편이고 성장할려면 거래시스템이 반 강제급인데 워프레임마켓(공식아님) 같은 사이트 가서 거래상대한테 귓속말 해서 거래해야함 그래도 거래시스템 잘만 사용하면 현질같은거 안하고 충분히 고점볼수있음 그리고 최적화 우수하다고 했지만 고질적인 버그도 아직 많이 있음 이거 초반에는 많이 안거슬릴수는 있는데 나중가니까 스트레스 많이 받음 또한 매인스토리랑 서브퀘스트들이 있는데 웬만하면 다 밀어야하고 노가다 요소가 너무많음 그래서 많이 피곤함 솔직한 한줄평으로는 무료치고 존나 재밌지만 남 추천하기에는 게임 진입장벽이 너무높다",
+          "알아서 공략을 찾던가 해결 방법 찾도록 유도하는 게임이라 아무 것도 모른 채로 입문하는 건 너무 힘든 게임. 그 귀찮은 컨텐츠들을 계속 반복해야 되는 방식이라 피로도도 상당합니다. 예전보단 줄었지만 여전히 너프 패치가 많고 여러모로 유저가 알아서 참으란 식으로 운영하는 게임입니다."
         ],
         "evidence_snippets": [
-          "예전 스팀 계정 플레이 타임 3, 500시간 인생 게임 그 자체 처음 시작했을땐 무료 게임답지 않은 뛰어난 그래픽과 찰진 타격감, 그리고 방대한 콘텐츠에 매료되어 정말 정신없이 빠져들었지만 근본적으로는 끝없는 반복 노가다의 연속이라 시간 낭비가 심하고 지루함 하지만 신기하게도 워프레임을 대체할 게임이 없어서 자꾸만 생각남 비슷하다는 데가, 퍼디도 해봤지만... 워프레임 특유의 그 맛을 채워주진 못했음 그러니깐 DE님 제바ㅏㅏㅏㅏㄹ 앞으로 하지 말라는짓 안 할 테니 제발 밴 좀 풀어주세요",
-          "베타시절부터 지금까지 봐온 워프레임이란 게임은 무슨 업뎃을 하나 아쉽고 실망스러움 아너리아 수집안함 그냥 게임 접속해서 점프 몇번하다 끄는게임.",
-          "워프레임은 할머니다. 이제 끝났나? 싶으면 더묵자~ 하면서 밥 한공기를 더 갖고온다. 할머니 저 죽어욧"
+          "3d 멀미 있는 사람, 초반에 게임을 거의 공부하듯이 배우는거 싫어하는 사람, 징그러운거 싫은사람은 추천안함 게임성 자체는 진짜재밌고 타격감도 있고 화려하며 그래픽도 꽤 고퀄에 최적화도 이정도면 다른겜에 비해 우수한편 다만 초반에 게임시스템에 대한 설명이 진짜 부족해서 직접 인터넷에 찾아봐야하고 한국인이 많이 없고 중국인이 많은편이고 성장할려면 거래시스템이 반 강제급인데 워프레임마켓(공식아님) 같은 사이트 가서 거래상대한테 귓속말 해서 거래해야함 그래도 거래시스템 잘만 사용하면 현질같은거 안하고 충분히 고점볼수있음 그리고 최적화 우수하다고 했지만 고질적인 버그도 아직 많이 있음 이거 초반에는 많이 안거슬릴수는 있는데 나중가니까 스트레스 많이 받음 또한 매인스토리랑 서브퀘스트들이 있는데 웬만하면 다 밀어야하고 노가다 요소가 너무많음 그래서 많이 피곤함 솔직한 한줄평으로는 무료치고 존나 재밌지만 남 추천하기에는 게임 진입장벽이 너무높다",
+          "장점 : 타격감 아주 좋음 (사실상 핵앤슬레쉬 장르임) 오래된 만큼 컨텐츠 다양함 스토리 대부분 맛있고 특히 연출이 아주 맛있음 무기, 캐릭, 빌드가 다양해서 파밍, 연구가 재미있음 BM 합리적임 (25~75% 현질 무료쿠폰을 출석 보상으로 뿌림, 유저간 거래로 현질재화 파밍 가능) 접었다가 한참뒤 다시해도 별 문제 없음 단점 : 초반, 일부 반복 노가다가 지루함 (노드열기, 두비리 순환로 등등) 빌드가 다양한 만큼 깊게 들어가면 알아야 할게 많음 (물론 다른사람 세팅 따라써도 됨) 그에 비해 인게임 가이드가 조넨 적음, 그래서 지인이나 공략 없으면 중반쯤 갑자기 게임이 루즈해짐 (사실상 공략 or 지인은 필수) 엔드 컨텐츠가 애매함 (종결급 세팅을 100% 써먹을 곳이 적음, 몇백만원 짜리 PC로 롤 돌리는 느낌) 총평 : 무료게임인거 생각하면 핵앤슬레쉬, 루트슈터 장르로썬 깔게 없음 노가다 심하다고 악평이 많은데 나름 완화도 많이 되고 계속 개선되는 중이라 하나의 컨텐츠 느낌이지 일부(특히 두비리) 제외하면 재미있게 즐길만한 수준임 혼자 공략 찾아보며 해도 문제 없고 주변에 플레이하는 지인 있으면 아주 편하게 진행 가능 (공략 없이는 어려울 수 있음) 초반만 넘기면 즐길것도 다양하고 스토리랑 연출도 맛있으니 츄라이 츄라이"
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-negative-3-1-5137903402779645073",
+            "text": "장점 : 타격감 아주 좋음 (사실상 핵앤슬레쉬 장르임) 오래된 만큼 컨텐츠 다양함 스토리 대부분 맛있고 특히 연출이 아주 맛있음 무기, 캐릭, 빌드가 다양해서 파밍, 연구가 재미있음 BM 합리적임 (25~75% 현질 할인쿠폰을 출석 보상으로 뿌림, 유저간 거래로 현질재화 파밍 가능) 접었다가 한참뒤 다시해도 별 문제 없음 단점 : 초반, 일부 반복 노가다가 지루함 (노드열기, 두비리 순환로 등등) 빌드가 다양한 만큼 깊게 들어가면 알아야 할게 많음 (물론 다른사람 세팅 따라써도 됨) 그에 비해 인게임 가이드가 조넨 적음, 그래서 지인이나 공략 없으면 중반쯤 갑자기 게임이 루즈해짐 (사실상 공략 or 지인은 필수) 엔드 컨텐츠가 애매함 (종결급 세팅을 100% 써먹을 곳이 적음, 몇백만원 짜리 PC로 롤 돌리는 느낌) 총평 : 무료게임인거 생각하면 핵앤슬레쉬, 루트슈터 장르로썬 깔게 없음 노가다 심하다고 악평이 많은데 나름 완화도 많이 되고 계속 개선되는 중이라 하나의 컨텐츠 느낌이지 일부(특히 두비리) 제외하면 재미있게 즐길만한 수준임 혼자 공략 찾아보며 해도 문제 없고 주변에 플레이하는 지인 있으면 아주 편하게 진행 가능 (공략 없이는 어려울 수 있음) 초반만 넘기면 즐길것도 다양하고 스토리랑 연출도 맛있으니 츄라이 츄라이"
+          },
+          {
+            "review_id": "compress-v3-negative-3-2-8483080679220888258",
+            "text": "3d 멀미 있는 사람, 초반에 게임을 거의 공부하듯이 배우는거 싫어하는 사람, 징그러운거 싫은사람은 추천안함 게임성 자체는 진짜재밌고 타격감도 있고 화려하며 그래픽도 꽤 고퀄에 최적화도 이정도면 다른겜에 비해 우수한편 다만 초반에 게임시스템에 대한 설명이 진짜 부족해서 직접 인터넷에 찾아봐야하고 한국인이 많이 없고 중국인이 많은편이고 성장할려면 거래시스템이 반 강제급인데 워프레임마켓(공식아님) 같은 사이트 가서 거래상대한테 귓속말 해서 거래해야함 그래도 거래시스템 잘만 사용하면 현질같은거 안하고 충분히 고점볼수있음 그리고 최적화 우수하다고 했지만 고질적인 버그도 아직 많이 있음 이거 초반에는 많이 안거슬릴수는 있는데 나중가니까 스트레스 많이 받음 또한 매인스토리랑 서브퀘스트들이 있는데 웬만하면 다 밀어야하고 노가다 요소가 너무많음 그래서 많이 피곤함 솔직한 한줄평으로는 무료치고 존나 재밌지만 남 추천하기에는 게임 진입장벽이 너무높다"
+          },
+          {
+            "review_id": "compress-v3-negative-3-3-590671572974968569",
+            "text": "알아서 공략을 찾던가 해결 방법 찾도록 유도하는 게임이라 아무 것도 모른 채로 입문하는 건 너무 힘든 게임. 그 귀찮은 컨텐츠들을 계속 반복해야 되는 방식이라 피로도도 상당합니다. 예전보단 줄었지만 여전히 너프 패치가 많고 여러모로 유저가 알아서 참으란 식으로 운영하는 게임입니다."
+          }
         ]
       }
     ]
   },
-  "disclaimer": "이 리포트는 반복적으로 관찰된 고합의 리뷰 신호를 구매 판단 관점으로 재해석한 결과입니다.",
-  "headline": "빌드 / 무기 다양성 장점이 보여 무료로 가볍게 시작해보고 맞는지 판단하기 좋습니다.",
-  "buy_recommendation": "try_lightly",
-  "buy_timing_summary": "무료이므로 큰 진입 비용 없이 먼저 짧게 플레이해 취향 적합성을 확인하기 좋습니다.",
+  "disclaimer": "여러 유저 리뷰를 바탕으로 정리했어요. 플레이 경험은 사람마다 다를 수 있어요.",
+  "headline": "플레이 흐름의 안정감 체감이 좋아 무료로 지금 시작해 보기 좋은 상태입니다.",
+  "buy_recommendation": "free_play_recommended",
+  "buy_timing_summary": "무료 게임 기준으로 보면 지금 바로 플레이를 시작해도 체감 부담이 낮은 편입니다.",
   "good_for": [
-    "긴 보스전에서 패턴을 익히고 반복 트라이를 즐기는 플레이어",
-    "전투 속도보다 서사와 분위기 몰입을 우선하는 플레이어",
-    "시각 연출과 월드 분위기를 천천히 감상하며 플레이하는 플레이어"
+    "장비와 빌드를 오래 다듬는 플레이어"
   ],
   "not_good_for": [
-    "짧은 플레이 시간에도 프레임 안정성이 꼭 필요한 환경에서 즐기려는 플레이어",
-    "초반부터 편하게 진행되는 난이도를 기대하는 플레이어"
+    "같은 흐름이 길어지면 피로를 크게 느끼는 플레이어",
+    "처음부터 빠르게 적응하고 뛰어들고 싶은 플레이어",
+    "프레임과 반응성에 민감한 플레이어"
   ],
   "top_strengths": [
     {
-      "title": "빌드 / 무기 다양성",
-      "summary": "빌드 / 무기 다양성 체감이 좋아 한 판 더 하게 되는 흐름이 잘 만들어집니다."
+      "title": "플레이 흐름의 안정감",
+      "summary": "기본 플레이 흐름이 안정적으로 잡혀 익숙해질수록 리듬이 또렷해지는 편입니다."
     },
     {
-      "title": "세계관과 연출 덕분에 플레이를 계속하게 되는 몰입 경험",
-      "summary": "세계관과 연출 덕분에 플레이를 계속하게 되는 몰입 경험 덕분에 진행을 멈추기 어려울 만큼 몰입감이 유지됩니다."
+      "title": "장비 성장",
+      "summary": "장비를 파밍하고 빌드를 확장하는 과정이 분명한 성장 동기로 이어져 오래 붙잡기 좋습니다."
     },
     {
-      "title": "그래픽 / 비주얼 호평",
-      "summary": "그래픽 / 비주얼 호평이 플레이 분위기를 끌어올려 감상형 플레이 만족도가 높습니다."
+      "title": "다양한 빌드와 커스터마이징",
+      "summary": "무기와 워프레임의 조합이 다양해 플레이어의 개성을 살릴 수 있는 요소가 많습니다."
     }
   ],
   "top_risks": [
     {
-      "title": "플레이 시간이 누적될수록 새로움이 빨리 소진될 수 있는 리스크",
-      "summary": "플레이 시간이 누적될수록 새로움이 빨리 소진될 수 있는 리스크이 플레이 경험의 만족도를 낮출 수 있어 주의가 필요합니다."
+      "title": "반복 파밍 피로",
+      "summary": "익숙해진 뒤에는 새로움보다 반복감이 먼저 느껴질 수 있습니다."
     },
     {
-      "title": "프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크",
-      "summary": "프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크 때문에 전투나 이동 흐름이 끊겨 몰입이 쉽게 깨질 수 있습니다."
+      "title": "초반 적응에 시간이 필요한 구간",
+      "summary": "시스템과 조작을 익히기까지 시간이 걸려 빠른 진입을 원하면 답답하게 느껴질 수 있습니다."
     },
     {
-      "title": "튜토리얼 / 온보딩 부족",
-      "summary": "튜토리얼 / 온보딩 부족 때문에 초반 적응에서 막히면 이탈 가능성이 커질 수 있습니다."
+      "title": "활동 안정성 흔들림",
+      "summary": "프레임과 반응성이 흔들리면 조작 감각과 플레이 리듬이 함께 무너질 수 있습니다."
     }
   ],
   "recent_state": {
-    "status": "mixed",
-    "summary": "만족 포인트와 불편 포인트가 함께 보여 체감 평가가 갈리는 상태입니다."
+    "status": "improving",
+    "summary": "불편이 줄었다는 후기가 늘어 전반적인 분위기가 나아지는 편입니다."
   },
   "evidence_reviews": [
     {
       "block_id": "str_1",
-      "title": "빌드 / 무기 다양성이 실제 플레이 만족으로 이어진다는 반응",
-      "theme": "빌드 / 무기 다양성",
-      "why_it_matters": "전투/핵심 플레이에서 빌드 / 무기 다양성 체감이 좋으면 초반부터 몰입이 붙어 장시간 플레이 만족으로 이어질 가능성이 큽니다.",
-      "explanation": "전투/핵심 플레이에서 빌드 / 무기 다양성 체감이 좋으면 초반부터 몰입이 붙어 장시간 플레이 만족으로 이어질 가능성이 큽니다.",
+      "title": "장비 파밍과 성장 루프가 오래 붙잡는다는 반응이 있다.",
+      "theme": "장비 성장",
+      "why_it_matters": "장비 파밍과 성장 루프를 좋게 보는 반응이 많아 반복 임무 속에서 강해지는 구조를 즐기면 잘 맞습니다.",
+      "explanation": "장비 파밍과 성장 루프를 좋게 보는 반응이 많아 반복 임무 속에서 강해지는 구조를 즐기면 잘 맞습니다.",
       "aspect_keys": [
-        "gameplay"
-      ],
-      "stance": "positive",
-      "consensus_level": "high",
-      "mention_count": 507,
-      "evidence_quality_level": "relaxed",
-      "evidence_candidate_snippets": [
-        "업적도 다 깨고 프라임 웦 자이어 프라임까지 나온 상태인데 이 기준으로 나온거 전부 포작에 5샤드 박아주고 무기도 앵간히 좋다는건 다 해버려서 장난감까지 포작하고 레전더리 4까지 찍었는데 아직도 뉴비같음 아직도 뭐 만들려보면 파이롤같은게 없음 대체 언제 고일 수 있는거임..",
-        "중독성이 엄청난 게임. 컨텐츠가 많은 게임. 액션이 쩌는 게임. 할 수 있는게 끝없는 게임. 하지만 100시간을 해도 뉴비인 게임. 할게 너무나도 많은 게임. 공부해야 진행되는 게임. 혼자서는 힘든 게임. 그래도 이만한 게임이 없는 게임."
-      ],
-      "evidence_snippets": [
-        "업적도 다 깨고 프라임 웦 자이어 프라임까지 나온 상태인데 이 기준으로 나온거 전부 포작에 5샤드 박아주고 무기도 앵간히 좋다는건 다 해버려서 장난감까지 포작하고 레전더리 4까지 찍었는데 아직도 뉴비같음 아직도 뭐 만들려보면 파이롤같은게 없음 대체 언제 고일 수 있는거임..",
-        "중독성이 엄청난 게임. 컨텐츠가 많은 게임. 액션이 쩌는 게임. 할 수 있는게 끝없는 게임. 하지만 100시간을 해도 뉴비인 게임. 할게 너무나도 많은 게임. 공부해야 진행되는 게임. 혼자서는 힘든 게임. 그래도 이만한 게임이 없는 게임."
-      ]
-    },
-    {
-      "block_id": "str_2",
-      "title": "세계관과 연출 덕분에 플레이를 계속하게 되는 몰입 경험이 실제 플레이 만족으로 이어진다는 반응",
-      "theme": "세계관과 연출 덕분에 플레이를 계속하게 되는 몰입 경험",
-      "why_it_matters": "스토리/몰입에서 세계관과 연출 덕분에 플레이를 계속하게 되는 몰입 경험 체감이 좋으면 초반부터 몰입이 붙어 장시간 플레이 만족으로 이어질 가능성이 큽니다.",
-      "explanation": "스토리/몰입에서 세계관과 연출 덕분에 플레이를 계속하게 되는 몰입 경험 체감이 좋으면 초반부터 몰입이 붙어 장시간 플레이 만족으로 이어질 가능성이 큽니다.",
-      "aspect_keys": [
+        "gameplay",
         "story"
       ],
       "stance": "positive",
       "consensus_level": "high",
-      "mention_count": 366,
+      "mention_count": 1344,
       "evidence_quality_level": "strict",
       "evidence_candidate_snippets": [
+        "업적도 다 깨고 프라임 웦 자이어 프라임까지 나온 상태인데 이 기준으로 나온거 전부 포작에 5샤드 박아주고 무기도 앵간히 좋다는건 다 해버려서 장난감까지 포작하고 레전더리 4까지 찍었는데 아직도 뉴비같음 아직도 뭐 만들려보면 파이롤같은게 없음 대체 언제 고일 수 있는거임..",
         "모든 워프레임이 다 좋은건 아니지만 확실히 매력있는 캐릭터들이 많고 성장 방향이 다양해서 재밌음. 노가다도 할만하고 마켓도 활성화되어 있어서 거래하기도 좋음. 다만 캐쉬 없이 그냥 키우기는 좀 어렵긴 함",
         "아직 뉴비고 매우 주관적인 의견이지만, 무료고 장수게임이면서 이렇게까지 재밌는 게임은 못 봤음. 여러 컨셉의 웦들과 무기 그리고 스토리까지 맛깔나서 진짜 재밌게 즐겼고 앞으로도 한참 즐길 게임임"
       ],
       "evidence_snippets": [
         "모든 워프레임이 다 좋은건 아니지만 확실히 매력있는 캐릭터들이 많고 성장 방향이 다양해서 재밌음. 노가다도 할만하고 마켓도 활성화되어 있어서 거래하기도 좋음. 다만 캐쉬 없이 그냥 키우기는 좀 어렵긴 함",
-        "아직 뉴비고 매우 주관적인 의견이지만, 무료고 장수게임이면서 이렇게까지 재밌는 게임은 못 봤음. 여러 컨셉의 웦들과 무기 그리고 스토리까지 맛깔나서 진짜 재밌게 즐겼고 앞으로도 한참 즐길 게임임"
+        "아직 뉴비고 매우 주관적인 의견이지만, 무료고 장수게임이면서 이렇게까지 재밌는 게임은 못 봤음. 여러 컨셉의 웦들과 무기 그리고 스토리까지 맛깔나서 진짜 재밌게 즐겼고 앞으로도 한참 즐길 게임임",
+        "업적도 다 깨고 프라임 웦 자이어 프라임까지 나온 상태인데 이 기준으로 나온거 전부 포작에 5샤드 박아주고 무기도 앵간히 좋다는건 다 해버려서 장난감까지 포작하고 레전더리 4까지 찍었는데 아직도 뉴비같음 아직도 뭐 만들려보면 파이롤같은게 없음 대체 언제 고일 수 있는거임.."
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-positive-1-1-4397553455558751491",
+          "text": "업적도 다 깨고 프라임 웦 자이어 프라임까지 나온 상태인데 이 기준으로 나온거 전부 포작에 5샤드 박아주고 무기도 앵간히 좋다는건 다 해버려서 장난감까지 포작하고 레전더리 4까지 찍었는데 아직도 뉴비같음 아직도 뭐 만들려보면 파이롤같은게 없음 대체 언제 고일 수 있는거임.."
+        },
+        {
+          "review_id": "compress-v3-positive-1-2-5688106614819385790",
+          "text": "모든 워프레임이 다 좋은건 아니지만 확실히 매력있는 캐릭터들이 많고 성장 방향이 다양해서 재밌음. 노가다도 할만하고 마켓도 활성화되어 있어서 거래하기도 좋음. 다만 캐쉬 없이 그냥 키우기는 좀 어렵긴 함"
+        },
+        {
+          "review_id": "compress-v3-positive-1-3-3600059908766818042",
+          "text": "아직 뉴비고 매우 주관적인 의견이지만, 무료고 장수게임이면서 이렇게까지 재밌는 게임은 못 봤음. 여러 컨셉의 웦들과 무기 그리고 스토리까지 맛깔나서 진짜 재밌게 즐겼고 앞으로도 한참 즐길 게임임"
+        }
       ]
     },
     {
       "block_id": "risk_1",
-      "title": "플레이 시간이 누적될수록 새로움이 빨리 소진될 수 있는 리스크 때문에 플레이 흐름이 끊긴다는 반응",
-      "theme": "플레이 시간이 누적될수록 새로움이 빨리 소진될 수 있는 리스크",
-      "why_it_matters": "콘텐츠 볼륨에서 플레이 시간이 누적될수록 새로움이 빨리 소진될 수 있는 리스크 불편가 반복되면 초반 만족도가 크게 떨어질 수 있어 플레이 전 감수 여부 확인가 필요합니다.",
-      "explanation": "콘텐츠 볼륨에서 플레이 시간이 누적될수록 새로움이 빨리 소진될 수 있는 리스크 불편가 반복되면 초반 만족도가 크게 떨어질 수 있어 플레이 전 감수 여부 확인가 필요합니다.",
+      "title": "반복감이 피로로 이어진다는 반응",
+      "theme": "반복 파밍 피로",
+      "why_it_matters": "반복감이 피로로 이어진다는 반응이 있어 새로움이 빨리 줄어드는 구간은 감수해야 할 수 있습니다.",
+      "explanation": "반복감이 피로로 이어진다는 반응이 있어 새로움이 빨리 줄어드는 구간은 감수해야 할 수 있습니다.",
       "aspect_keys": [
         "content_depth"
       ],
       "stance": "negative",
       "consensus_level": "high",
-      "mention_count": 817,
+      "mention_count": 1210,
       "evidence_quality_level": "strict",
       "evidence_candidate_snippets": [
-        "예전 스팀 계정 플레이 타임 3,500시간 인생 게임 그 자체 처음 시작했을땐 무료 게임답지 않은 뛰어난 그래픽과 찰진 타격감, 그리고 방대한 콘텐츠에 매료되어 정말 정신없이 빠져들었지만 근본적으로는 끝없는 반복 노가다의 연속이라 시간 낭비가 심하고 지루함 하지만 신기하게도 워프레임을 대체할 게임이 없어서 자꾸만 생각남 비슷하다는 데가, 퍼디도 해봤지만... 워프레임 특유의 그 맛을 채워주진 못했음 그러니깐 DE님 제바ㅏㅏㅏㅏㄹ 앞으로 하지 말라는짓 안 할 테니 제발 밴 좀 풀어주세요",
-        "도와주는 고인물 친구없이 혼자 게임을 시작했다 -> 뭐해야될지 몰라서 이것저것 찾다가 정보찾기 힘들어서 접음 가장 기본적인걸 알려주는 고인물 친구가 있지만 현질을 아예 하지 않았다 -> 일반 노드 밀면서 성유물까서 야금야금 플래벌다가 힘들어서 접음 이것저것 알려주고 어느정도 지원을 해주는 고인물친구가 있으며 초반부분이 거지같음을 깨닫고 아예 현질을 해서 플래박치기로 세팅된 웦이나 무기가 있다 -> 강길열리면서 진정한 파밍이 시작되는걸 알게되고 몇달정도 노가다하다가 지쳐서 접음 가끔 다시 복귀해서 찍먹하고 접고 반복 본인이 정보를 영어로 검색해가며 찾아보고 어느정도 지원을 해주는 고인물 친구가 있으며 현질을 불편할때마다 조금씩 해서 전부 파밍을 한건 아니더라도 맨처음부터 차근차근 개같은 버그와 토나오는 노가다와 거지같은 워프레임식 길찾기와 개노잼인 메인퀘스트 폐사구간에서 전부 살아남았다 -> 당신은 이 게임을 천시간 이상 미친듯이 하게될겁니다"
+        "플레이 타임 3,500시간 인생 게임이었던것 처음 시작했을땐 무료 게임답지 않은 뛰어난 그래픽과 찰진 타격감, 그리고 많은 콘텐츠에 매료되어 ㅈㄴ 시간박으면서 했지만... 근본적으로는 끝없는 반복 노가다의 연속이라 시간 낭비가 심하고 지루함 하지만 신기하게도 워프레임을 대체할 게임이 없어서 자꾸만 생각남 비슷하다는 데가, 퍼디도 해봤지만 워프레임 특유의 그 맛을 채워주진 못했음 그러니깐 DE님 제바ㅏㅏㅏㅏㄹ 앞으로 하지 말라는짓 안할테니깐 제발 밴 좀 풀어주세요",
+        "도와주는 고인물 친구없이 혼자 게임을 시작했다 -> 뭐해야될지 몰라서 이것저것 찾다가 정보찾기 힘들어서 접음 가장 기본적인걸 알려주는 고인물 친구가 있지만 현질을 아예 하지 않았다 -> 일반 노드 밀면서 성유물까서 야금야금 플래벌다가 힘들어서 접음 이것저것 알려주고 어느정도 지원을 해주는 고인물친구가 있으며 초반부분이 거지같음을 깨닫고 아예 현질을 해서 플래박치기로 세팅된 웦이나 무기가 있다 -> 강길열리면서 진정한 파밍이 시작되는걸 알게되고 몇달정도 노가다하다가 지쳐서 접음 가끔 다시 복귀해서 찍먹하고 접고 반복 본인이 정보를 영어로 검색해가며 찾아보고 어느정도 지원을 해주는 고인물 친구가 있으며 현질을 불편할때마다 조금씩 해서 전부 파밍을 한건 아니더라도 맨처음부터 차근차근 개같은 버그와 토나오는 노가다와 거지같은 워프레임식 길찾기와 개노잼인 메인퀘스트 폐사구간에서 전부 살아남았다 -> 당신은 이 게임을 천시간 이상 미친듯이 하게될겁니다",
+        "연차가 오래된 루트슈터 게임이라 막 시작하면 퍼먹을 게 상당히 많음 근데 구조가 불친절하고 직관성이 떨어져서 정 붙이는 게 조금 힘듦 + 오래된 게임이지만 사람 새끼처럼 패치해주기 시작한 건 생각보다 굉장히 최근이라 아직도 존나게 비합리적인 파밍 구조와 밸런스 이슈가 좀 있음 그나마 사람 패는 겜은 아니라 그냥 같이 사기 장비 써서 꿀 빨면 되긴 하는데, 또 최종 컨텐츠들은 다양한 무기와 워프레임을 골고루 키워 놔야 최대 보상 먹을 수 있게 해놔서 최적화 해야 직성이 풀리는 사람들에겐 스트레스 요인으로 작용 가능 재료 우다다 쌓는 거 좋아하는 다람쥐형 게이머, 우주적 SF 감성을 듬뿍 담은 커스터마이징 좋아하는 사람에게 추천"
       ],
       "evidence_snippets": [
-        "예전 스팀 계정 플레이 타임 3, 500시간 인생 게임 그 자체 처음 시작했을땐 무료 게임답지 않은 뛰어난 그래픽과 찰진 타격감, 그리고 방대한 콘텐츠에 매료되어 정말 정신없이 빠져들었지만 근본적으로는 끝없는 반복 노가다의 연속이라 시간 낭비가 심하고 지루함 하지만 신기하게도 워프레임을 대체할 게임이 없어서 자꾸만 생각남 비슷하다는 데가, 퍼디도 해봤지만... 워프레임 특유의 그 맛을 채워주진 못했음 그러니깐 DE님 제바ㅏㅏㅏㅏㄹ 앞으로 하지 말라는짓 안 할 테니 제발 밴 좀 풀어주세요",
+        "플레이 타임 3, 500시간 인생 게임이었던것 처음 시작했을땐 무료 게임답지 않은 뛰어난 그래픽과 찰진 타격감, 그리고 많은 콘텐츠에 매료되어 ㅈㄴ 시간박으면서 했지만... 근본적으로는 끝없는 반복 노가다의 연속이라 시간 낭비가 심하고 지루함 하지만 신기하게도 워프레임을 대체할 게임이 없어서 자꾸만 생각남 비슷하다는 데가, 퍼디도 해봤지만 워프레임 특유의 그 맛을 채워주진 못했음 그러니깐 DE님 제바ㅏㅏㅏㅏㄹ 앞으로 하지 말라는짓 안할테니깐 제발 밴 좀 풀어주세요",
+        "연차가 오래된 루트슈터 게임이라 막 시작하면 퍼먹을 게 상당히 많음 근데 구조가 불친절하고 직관성이 떨어져서 정 붙이는 게 조금 힘듦 + 오래된 게임이지만 사람 새끼처럼 패치해주기 시작한 건 생각보다 굉장히 최근이라 아직도 존나게 비합리적인 파밍 구조와 밸런스 이슈가 좀 있음 그나마 사람 패는 겜은 아니라 그냥 같이 사기 장비 써서 꿀 빨면 되긴 하는데, 또 최종 컨텐츠들은 다양한 무기와 워프레임을 골고루 키워 놔야 최대 보상 먹을 수 있게 해놔서 최적화 해야 직성이 풀리는 사람들에겐 스트레스 요인으로 작용 가능 재료 우다다 쌓는 거 좋아하는 다람쥐형 게이머, 우주적 SF 감성을 듬뿍 담은 커스터마이징 좋아하는 사람에게 추천",
         "도와주는 고인물 친구없이 혼자 게임을 시작했다 -> 뭐해야될지 몰라서 이것저것 찾다가 정보찾기 힘들어서 접음 가장 기본적인걸 알려주는 고인물 친구가 있지만 현질을 아예 하지 않았다 -> 일반 노드 밀면서 성유물까서 야금야금 플래벌다가 힘들어서 접음 이것저것 알려주고 어느정도 지원을 해주는 고인물친구가 있으며 초반부분이 거지같음을 깨닫고 아예 현질을 해서 플래박치기로 세팅된 웦이나 무기가 있다 -> 강길열리면서 진정한 파밍이 시작되는걸 알게되고 몇달정도 노가다하다가 지쳐서 접음 가끔 다시 복귀해서 찍먹하고 접고 반복 본인이 정보를 영어로 검색해가며 찾아보고 어느정도 지원을 해주는 고인물 친구가 있으며 현질을 불편할때마다 조금씩 해서 전부 파밍을 한건 아니더라도 맨처음부터 차근차근 개같은 버그와 토나오는 노가다와 거지같은 워프레임식 길찾기와 개노잼인 메인퀘스트 폐사구간에서 전부 살아남았다 -> 당신은 이 게임을 천시간 이상 미친듯이 하게될겁니다"
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-negative-1-1-4827415252491026981",
+          "text": "플레이 타임 3,500시간 인생 게임이었던것 처음 시작했을땐 무료 게임답지 않은 뛰어난 그래픽과 찰진 타격감, 그리고 많은 콘텐츠에 매료되어 ㅈㄴ 시간박으면서 했지만... 근본적으로는 끝없는 반복 노가다의 연속이라 시간 낭비가 심하고 지루함 하지만 신기하게도 워프레임을 대체할 게임이 없어서 자꾸만 생각남 비슷하다는 데가, 퍼디도 해봤지만 워프레임 특유의 그 맛을 채워주진 못했음 그러니깐 DE님 제바ㅏㅏㅏㅏㄹ 앞으로 하지 말라는짓 안할테니깐 제발 밴 좀 풀어주세요"
+        },
+        {
+          "review_id": "compress-v3-negative-1-2-1212783313743590422",
+          "text": "도와주는 고인물 친구없이 혼자 게임을 시작했다 -> 뭐해야될지 몰라서 이것저것 찾다가 정보찾기 힘들어서 접음 가장 기본적인걸 알려주는 고인물 친구가 있지만 현질을 아예 하지 않았다 -> 일반 노드 밀면서 성유물까서 야금야금 플래벌다가 힘들어서 접음 이것저것 알려주고 어느정도 지원을 해주는 고인물친구가 있으며 초반부분이 거지같음을 깨닫고 아예 현질을 해서 플래박치기로 세팅된 웦이나 무기가 있다 -> 강길열리면서 진정한 파밍이 시작되는걸 알게되고 몇달정도 노가다하다가 지쳐서 접음 가끔 다시 복귀해서 찍먹하고 접고 반복 본인이 정보를 영어로 검색해가며 찾아보고 어느정도 지원을 해주는 고인물 친구가 있으며 현질을 불편할때마다 조금씩 해서 전부 파밍을 한건 아니더라도 맨처음부터 차근차근 개같은 버그와 토나오는 노가다와 거지같은 워프레임식 길찾기와 개노잼인 메인퀘스트 폐사구간에서 전부 살아남았다 -> 당신은 이 게임을 천시간 이상 미친듯이 하게될겁니다"
+        },
+        {
+          "review_id": "compress-v3-negative-1-3-6227596729562980871",
+          "text": "연차가 오래된 루트슈터 게임이라 막 시작하면 퍼먹을 게 상당히 많음 근데 구조가 불친절하고 직관성이 떨어져서 정 붙이는 게 조금 힘듦 + 오래된 게임이지만 사람 새끼처럼 패치해주기 시작한 건 생각보다 굉장히 최근이라 아직도 존나게 비합리적인 파밍 구조와 밸런스 이슈가 좀 있음 그나마 사람 패는 겜은 아니라 그냥 같이 사기 장비 써서 꿀 빨면 되긴 하는데, 또 최종 컨텐츠들은 다양한 무기와 워프레임을 골고루 키워 놔야 최대 보상 먹을 수 있게 해놔서 최적화 해야 직성이 풀리는 사람들에겐 스트레스 요인으로 작용 가능 재료 우다다 쌓는 거 좋아하는 다람쥐형 게이머, 우주적 SF 감성을 듬뿍 담은 커스터마이징 좋아하는 사람에게 추천"
+        }
       ]
     },
     {
-      "block_id": "risk_2",
-      "title": "프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크 때문에 플레이 흐름이 끊긴다는 반응",
-      "theme": "프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크",
-      "why_it_matters": "성능/최적화에서 프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크 불편가 반복되면 초반 만족도가 크게 떨어질 수 있어 플레이 전 감수 여부 확인가 필요합니다.",
-      "explanation": "성능/최적화에서 프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크 불편가 반복되면 초반 만족도가 크게 떨어질 수 있어 플레이 전 감수 여부 확인가 필요합니다.",
+      "block_id": "risk_3",
+      "title": "초반 적응이 답답하다는 반응",
+      "theme": "튜토리얼 / 온보딩 부족",
+      "why_it_matters": "초반 적응이 느리다는 반응이 있어 바로 손에 붙는 경험을 원하면 답답함이 먼저 올 수 있습니다.",
+      "explanation": "초반 적응이 느리다는 반응이 있어 바로 손에 붙는 경험을 원하면 답답함이 먼저 올 수 있습니다.",
       "aspect_keys": [
-        "performance"
+        "difficulty"
       ],
       "stance": "negative",
       "consensus_level": "high",
-      "mention_count": 586,
+      "mention_count": 524,
       "evidence_quality_level": "strict",
       "evidence_candidate_snippets": [
-        "예전 스팀 계정 플레이 타임 3,500시간 인생 게임 그 자체 처음 시작했을땐 무료 게임답지 않은 뛰어난 그래픽과 찰진 타격감, 그리고 방대한 콘텐츠에 매료되어 정말 정신없이 빠져들었지만 근본적으로는 끝없는 반복 노가다의 연속이라 시간 낭비가 심하고 지루함 하지만 신기하게도 워프레임을 대체할 게임이 없어서 자꾸만 생각남 비슷하다는 데가, 퍼디도 해봤지만... 워프레임 특유의 그 맛을 채워주진 못했음 그러니깐 DE님 제바ㅏㅏㅏㅏㄹ 앞으로 하지 말라는짓 안 할 테니 제발 밴 좀 풀어주세요",
-        "베타시절부터 지금까지 봐온 워프레임이란 게임은 무슨 업뎃을 하나 아쉽고 실망스러움 아너리아 수집안함 그냥 게임 접속해서 점프 몇번하다 끄는게임.",
-        "도와주는 고인물 친구없이 혼자 게임을 시작했다 -> 뭐해야될지 몰라서 이것저것 찾다가 정보찾기 힘들어서 접음 가장 기본적인걸 알려주는 고인물 친구가 있지만 현질을 아예 하지 않았다 -> 일반 노드 밀면서 성유물까서 야금야금 플래벌다가 힘들어서 접음 이것저것 알려주고 어느정도 지원을 해주는 고인물친구가 있으며 초반부분이 거지같음을 깨닫고 아예 현질을 해서 플래박치기로 세팅된 웦이나 무기가 있다 -> 강길열리면서 진정한 파밍이 시작되는걸 알게되고 몇달정도 노가다하다가 지쳐서 접음 가끔 다시 복귀해서 찍먹하고 접고 반복 본인이 정보를 영어로 검색해가며 찾아보고 어느정도 지원을 해주는 고인물 친구가 있으며 현질을 불편할때마다 조금씩 해서 전부 파밍을 한건 아니더라도 맨처음부터 차근차근 개같은 버그와 토나오는 노가다와 거지같은 워프레임식 길찾기와 개노잼인 메인퀘스트 폐사구간에서 전부 살아남았다 -> 당신은 이 게임을 천시간 이상 미친듯이 하게될겁니다",
-        "워프레임은 할머니다. 이제 끝났나? 싶으면 더묵자~ 하면서 밥 한공기를 더 갖고온다. 할머니 저 죽어욧"
+        "장점 : 타격감 아주 좋음 (사실상 핵앤슬레쉬 장르임) 오래된 만큼 컨텐츠 다양함 스토리 대부분 맛있고 특히 연출이 아주 맛있음 무기, 캐릭, 빌드가 다양해서 파밍, 연구가 재미있음 BM 합리적임 (25~75% 현질 할인쿠폰을 출석 보상으로 뿌림, 유저간 거래로 현질재화 파밍 가능) 접었다가 한참뒤 다시해도 별 문제 없음 단점 : 초반, 일부 반복 노가다가 지루함 (노드열기, 두비리 순환로 등등) 빌드가 다양한 만큼 깊게 들어가면 알아야 할게 많음 (물론 다른사람 세팅 따라써도 됨) 그에 비해 인게임 가이드가 조넨 적음, 그래서 지인이나 공략 없으면 중반쯤 갑자기 게임이 루즈해짐 (사실상 공략 or 지인은 필수) 엔드 컨텐츠가 애매함 (종결급 세팅을 100% 써먹을 곳이 적음, 몇백만원 짜리 PC로 롤 돌리는 느낌) 총평 : 무료게임인거 생각하면 핵앤슬레쉬, 루트슈터 장르로썬 깔게 없음 노가다 심하다고 악평이 많은데 나름 완화도 많이 되고 계속 개선되는 중이라 하나의 컨텐츠 느낌이지 일부(특히 두비리) 제외하면 재미있게 즐길만한 수준임 혼자 공략 찾아보며 해도 문제 없고 주변에 플레이하는 지인 있으면 아주 편하게 진행 가능 (공략 없이는 어려울 수 있음) 초반만 넘기면 즐길것도 다양하고 스토리랑 연출도 맛있으니 츄라이 츄라이",
+        "3d 멀미 있는 사람, 초반에 게임을 거의 공부하듯이 배우는거 싫어하는 사람, 징그러운거 싫은사람은 추천안함 게임성 자체는 진짜재밌고 타격감도 있고 화려하며 그래픽도 꽤 고퀄에 최적화도 이정도면 다른겜에 비해 우수한편 다만 초반에 게임시스템에 대한 설명이 진짜 부족해서 직접 인터넷에 찾아봐야하고 한국인이 많이 없고 중국인이 많은편이고 성장할려면 거래시스템이 반 강제급인데 워프레임마켓(공식아님) 같은 사이트 가서 거래상대한테 귓속말 해서 거래해야함 그래도 거래시스템 잘만 사용하면 현질같은거 안하고 충분히 고점볼수있음 그리고 최적화 우수하다고 했지만 고질적인 버그도 아직 많이 있음 이거 초반에는 많이 안거슬릴수는 있는데 나중가니까 스트레스 많이 받음 또한 매인스토리랑 서브퀘스트들이 있는데 웬만하면 다 밀어야하고 노가다 요소가 너무많음 그래서 많이 피곤함 솔직한 한줄평으로는 무료치고 존나 재밌지만 남 추천하기에는 게임 진입장벽이 너무높다",
+        "알아서 공략을 찾던가 해결 방법 찾도록 유도하는 게임이라 아무 것도 모른 채로 입문하는 건 너무 힘든 게임. 그 귀찮은 컨텐츠들을 계속 반복해야 되는 방식이라 피로도도 상당합니다. 예전보단 줄었지만 여전히 너프 패치가 많고 여러모로 유저가 알아서 참으란 식으로 운영하는 게임입니다."
       ],
       "evidence_snippets": [
-        "예전 스팀 계정 플레이 타임 3, 500시간 인생 게임 그 자체 처음 시작했을땐 무료 게임답지 않은 뛰어난 그래픽과 찰진 타격감, 그리고 방대한 콘텐츠에 매료되어 정말 정신없이 빠져들었지만 근본적으로는 끝없는 반복 노가다의 연속이라 시간 낭비가 심하고 지루함 하지만 신기하게도 워프레임을 대체할 게임이 없어서 자꾸만 생각남 비슷하다는 데가, 퍼디도 해봤지만... 워프레임 특유의 그 맛을 채워주진 못했음 그러니깐 DE님 제바ㅏㅏㅏㅏㄹ 앞으로 하지 말라는짓 안 할 테니 제발 밴 좀 풀어주세요",
-        "베타시절부터 지금까지 봐온 워프레임이란 게임은 무슨 업뎃을 하나 아쉽고 실망스러움 아너리아 수집안함 그냥 게임 접속해서 점프 몇번하다 끄는게임.",
-        "워프레임은 할머니다. 이제 끝났나? 싶으면 더묵자~ 하면서 밥 한공기를 더 갖고온다. 할머니 저 죽어욧"
+        "3d 멀미 있는 사람, 초반에 게임을 거의 공부하듯이 배우는거 싫어하는 사람, 징그러운거 싫은사람은 추천안함 게임성 자체는 진짜재밌고 타격감도 있고 화려하며 그래픽도 꽤 고퀄에 최적화도 이정도면 다른겜에 비해 우수한편 다만 초반에 게임시스템에 대한 설명이 진짜 부족해서 직접 인터넷에 찾아봐야하고 한국인이 많이 없고 중국인이 많은편이고 성장할려면 거래시스템이 반 강제급인데 워프레임마켓(공식아님) 같은 사이트 가서 거래상대한테 귓속말 해서 거래해야함 그래도 거래시스템 잘만 사용하면 현질같은거 안하고 충분히 고점볼수있음 그리고 최적화 우수하다고 했지만 고질적인 버그도 아직 많이 있음 이거 초반에는 많이 안거슬릴수는 있는데 나중가니까 스트레스 많이 받음 또한 매인스토리랑 서브퀘스트들이 있는데 웬만하면 다 밀어야하고 노가다 요소가 너무많음 그래서 많이 피곤함 솔직한 한줄평으로는 무료치고 존나 재밌지만 남 추천하기에는 게임 진입장벽이 너무높다",
+        "장점 : 타격감 아주 좋음 (사실상 핵앤슬레쉬 장르임) 오래된 만큼 컨텐츠 다양함 스토리 대부분 맛있고 특히 연출이 아주 맛있음 무기, 캐릭, 빌드가 다양해서 파밍, 연구가 재미있음 BM 합리적임 (25~75% 현질 무료쿠폰을 출석 보상으로 뿌림, 유저간 거래로 현질재화 파밍 가능) 접었다가 한참뒤 다시해도 별 문제 없음 단점 : 초반, 일부 반복 노가다가 지루함 (노드열기, 두비리 순환로 등등) 빌드가 다양한 만큼 깊게 들어가면 알아야 할게 많음 (물론 다른사람 세팅 따라써도 됨) 그에 비해 인게임 가이드가 조넨 적음, 그래서 지인이나 공략 없으면 중반쯤 갑자기 게임이 루즈해짐 (사실상 공략 or 지인은 필수) 엔드 컨텐츠가 애매함 (종결급 세팅을 100% 써먹을 곳이 적음, 몇백만원 짜리 PC로 롤 돌리는 느낌) 총평 : 무료게임인거 생각하면 핵앤슬레쉬, 루트슈터 장르로썬 깔게 없음 노가다 심하다고 악평이 많은데 나름 완화도 많이 되고 계속 개선되는 중이라 하나의 컨텐츠 느낌이지 일부(특히 두비리) 제외하면 재미있게 즐길만한 수준임 혼자 공략 찾아보며 해도 문제 없고 주변에 플레이하는 지인 있으면 아주 편하게 진행 가능 (공략 없이는 어려울 수 있음) 초반만 넘기면 즐길것도 다양하고 스토리랑 연출도 맛있으니 츄라이 츄라이"
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-negative-3-1-5137903402779645073",
+          "text": "장점 : 타격감 아주 좋음 (사실상 핵앤슬레쉬 장르임) 오래된 만큼 컨텐츠 다양함 스토리 대부분 맛있고 특히 연출이 아주 맛있음 무기, 캐릭, 빌드가 다양해서 파밍, 연구가 재미있음 BM 합리적임 (25~75% 현질 할인쿠폰을 출석 보상으로 뿌림, 유저간 거래로 현질재화 파밍 가능) 접었다가 한참뒤 다시해도 별 문제 없음 단점 : 초반, 일부 반복 노가다가 지루함 (노드열기, 두비리 순환로 등등) 빌드가 다양한 만큼 깊게 들어가면 알아야 할게 많음 (물론 다른사람 세팅 따라써도 됨) 그에 비해 인게임 가이드가 조넨 적음, 그래서 지인이나 공략 없으면 중반쯤 갑자기 게임이 루즈해짐 (사실상 공략 or 지인은 필수) 엔드 컨텐츠가 애매함 (종결급 세팅을 100% 써먹을 곳이 적음, 몇백만원 짜리 PC로 롤 돌리는 느낌) 총평 : 무료게임인거 생각하면 핵앤슬레쉬, 루트슈터 장르로썬 깔게 없음 노가다 심하다고 악평이 많은데 나름 완화도 많이 되고 계속 개선되는 중이라 하나의 컨텐츠 느낌이지 일부(특히 두비리) 제외하면 재미있게 즐길만한 수준임 혼자 공략 찾아보며 해도 문제 없고 주변에 플레이하는 지인 있으면 아주 편하게 진행 가능 (공략 없이는 어려울 수 있음) 초반만 넘기면 즐길것도 다양하고 스토리랑 연출도 맛있으니 츄라이 츄라이"
+        },
+        {
+          "review_id": "compress-v3-negative-3-2-8483080679220888258",
+          "text": "3d 멀미 있는 사람, 초반에 게임을 거의 공부하듯이 배우는거 싫어하는 사람, 징그러운거 싫은사람은 추천안함 게임성 자체는 진짜재밌고 타격감도 있고 화려하며 그래픽도 꽤 고퀄에 최적화도 이정도면 다른겜에 비해 우수한편 다만 초반에 게임시스템에 대한 설명이 진짜 부족해서 직접 인터넷에 찾아봐야하고 한국인이 많이 없고 중국인이 많은편이고 성장할려면 거래시스템이 반 강제급인데 워프레임마켓(공식아님) 같은 사이트 가서 거래상대한테 귓속말 해서 거래해야함 그래도 거래시스템 잘만 사용하면 현질같은거 안하고 충분히 고점볼수있음 그리고 최적화 우수하다고 했지만 고질적인 버그도 아직 많이 있음 이거 초반에는 많이 안거슬릴수는 있는데 나중가니까 스트레스 많이 받음 또한 매인스토리랑 서브퀘스트들이 있는데 웬만하면 다 밀어야하고 노가다 요소가 너무많음 그래서 많이 피곤함 솔직한 한줄평으로는 무료치고 존나 재밌지만 남 추천하기에는 게임 진입장벽이 너무높다"
+        },
+        {
+          "review_id": "compress-v3-negative-3-3-590671572974968569",
+          "text": "알아서 공략을 찾던가 해결 방법 찾도록 유도하는 게임이라 아무 것도 모른 채로 입문하는 건 너무 힘든 게임. 그 귀찮은 컨텐츠들을 계속 반복해야 되는 방식이라 피로도도 상당합니다. 예전보단 줄었지만 여전히 너프 패치가 많고 여러모로 유저가 알아서 참으란 식으로 운영하는 게임입니다."
+        }
       ]
     }
   ]

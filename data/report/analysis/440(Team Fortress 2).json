@@ -8,10 +8,10 @@
   ],
   "issue_signals": {
     "balance": {
-      "mention_count": 55,
-      "negative_ratio": 0.2545454545454545,
+      "mention_count": 313,
+      "negative_ratio": 0.23961661341853036,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9818181818181818,
+      "experienced_player_share": 0.9936102236421726,
       "themes": [
         "밸런스 불만"
       ],
@@ -21,10 +21,10 @@
       ]
     },
     "bugs": {
-      "mention_count": 39,
-      "negative_ratio": 0.1794871794871795,
+      "mention_count": 114,
+      "negative_ratio": 0.2543859649122807,
       "recent_trend": "flat",
-      "experienced_player_share": 0.8717948717948718,
+      "experienced_player_share": 0.8859649122807017,
       "themes": [
         "계정 / 제재 이슈",
         "일반 버그",
@@ -36,12 +36,13 @@
       ]
     },
     "building_ux": {
-      "mention_count": 10,
-      "negative_ratio": 0.2,
+      "mention_count": 33,
+      "negative_ratio": 0.24242424242424243,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9,
+      "experienced_player_share": 0.8787878787878788,
       "themes": [
-        "건축 조작 불편"
+        "건축 조작 불편",
+        "부지 / 구조 제약"
       ],
       "sample_reviews": [
         "Team Fortress 2는 오래된 게임인데도 지금 해도 재밌다. 캐릭터마다 성격이랑 플레이 스타일이 확실해서 골라 하는 맛이 있고, 진지하게 하든 가볍게 하든 다 받아준다. 그래픽도 사실적인 쪽은 아닌데 오히려 그래서 더 개성 있고 질리지 않는다. 가끔 밸런스나 서버 때문에 답답할 때도 있지만, 그 특유의 분위기랑 유머 때문에 그냥 웃고 넘기게 된다. 총 잘 못 쏴도 팀에 기여할 수 있는 역할이 많아서 부담도 적다. 친구랑 같이 하면 더 재밌고, 혼자 해도 심심할 틈은 없다. 공짜인 걸 생각하면 아직도 이만한 FPS 찾기 쉽지 않다.",
@@ -49,38 +50,38 @@
       ]
     },
     "content_depth": {
-      "mention_count": 208,
-      "negative_ratio": 0.14423076923076922,
+      "mention_count": 596,
+      "negative_ratio": 0.1761744966442953,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9615384615384616,
+      "experienced_player_share": 0.9714765100671141,
       "themes": [
         "콘텐츠 부족",
         "반복 / 목적성 부족",
         "중독성 / 시간순삭"
       ],
       "sample_reviews": [
-        "팀포2가 더 오리지날 게임인만큼 옛날 게임 느낌에, 날 것의 느낌이 나는 오버워치 원조 게임 같아요.\n지루할줄 알았는데 막상 해보니까 재밌었어요.",
-        "업뎃좀 하라고 벨브 시발련들아 우리도 유저있잖아 팬들 있잖아 좀 해줘 쎵"
+        "캐주얼한 유저 문화와\n고인물겜 진입장벽의 환장의 콜라보\n\n라이트 게이머 입장에선 불편한 조작과 UI, 별 말도 안되는 테크닉 익히기에 진절머리나고\n\n하드코어 게이머 입장에서는 대충대충 흘러가는 캐주얼 겜판에서 숙련도 늘리기가 쉽지 않다\n\n이런 간극을 매워줄 시스템적 요소들은 전부 실패했고\n대형 업데이트마저 유기당해 새로운 컨텐츠도 거의 없다\n\n가벼운 게임을 원하지만\n가볍게 던져진 게임을 원하진 않음",
+        "팀포2가 더 오리지날 게임인만큼 옛날 게임 느낌에, 날 것의 느낌이 나는 오버워치 원조 게임 같아요.\n지루할줄 알았는데 막상 해보니까 재밌었어요."
       ]
     },
     "controls": {
-      "mention_count": 19,
-      "negative_ratio": 0.10526315789473684,
+      "mention_count": 55,
+      "negative_ratio": 0.2,
       "recent_trend": "flat",
-      "experienced_player_share": 0.8947368421052632,
+      "experienced_player_share": 0.8909090909090909,
       "themes": [
         "조작감 문제",
         "시점 / 멀미 이슈",
         "UI / 입력 불편"
       ],
       "sample_reviews": [
-        "가볍게 하기에 좋은 게임\n일단 잘하던 못하던 팀의 책임이지 개개인의 니탓내탓이 적어서 좋다고 생각한다.\n단, 스나이퍼 스파이 스카웃 클래스는 못하는데 끝까지 고집해서 먹는 욕은 알아서 해야 한다.\n근데 오렌지 박스사서 바보됐다 에헤헤헤 우헤헤헤ㅔ헤\n팀포 무료화 될 줄 알았나 개흑우됐다\n하프라이프는 멀미나서 못하고 그나마 해본게 포탈인데ㅠㅠ 얘도 멀미난다\n아 그리고 광과민성 있으면 팀포도 조심 얘도 은근히 심함\n\n그리고 가볍게 하기에도 좋지만 깊게 파기에도 좋은 게임이라고 생각함\n나는 고수는 아니지만, 영상보면서 저렇게도 플레이가 되는 구나란 생각이 들기 때문에\n고점도 높은데 라이트 유저도 할만한 게임이라고도 생각되는게 참 잘 만들었구나 생각된다.\n물론 언락무기 밸런싱은 말이 많다만 읍읍... 이건 나같은 라이트 유저는 그렇게까지 체감이 되지는 않아서..\n근데 옛날 팀포에서 종달새나 고드름 스파이는 좀 많이 짜증나긴 했음\n앰버서더도 그렇고..\n그냥 고드름 끼고 종달새로 파이로한테 막고라 개기는 스파이나\n스나 옆에서 앰버서더로 저격하는 스파이나...\n여튼 재밋다! 팀포\n\n할 만한 잘 만든 게임",
-        "옛날 게임이라 그런지 그래픽이나 ui 등 굉장히 후진 느낌이지만\r\n다르게보면 오래된만큼 이렇게 밸런스 잘맞고 독창적인 그래픽의 게임 또 없음.\r\n초보자들에겐 엄청 많고 복잡한 여러 게임 시스템들을 이해하기 어려울 수 있으나,\r\n플레이 할 수 있는 캐릭터가 단 9명 뿐이라 각각의 캐릭터 튜토리얼을 아주 자세하고 친절하게 알려줌.\r\n병과가 9명 뿐이지만 체감상 딱 적당한 수라고 느껴짐"
+        "캐주얼한 유저 문화와\n고인물겜 진입장벽의 환장의 콜라보\n\n라이트 게이머 입장에선 불편한 조작과 UI, 별 말도 안되는 테크닉 익히기에 진절머리나고\n\n하드코어 게이머 입장에서는 대충대충 흘러가는 캐주얼 겜판에서 숙련도 늘리기가 쉽지 않다\n\n이런 간극을 매워줄 시스템적 요소들은 전부 실패했고\n대형 업데이트마저 유기당해 새로운 컨텐츠도 거의 없다\n\n가벼운 게임을 원하지만\n가볍게 던져진 게임을 원하진 않음",
+        "가볍게 하기에 좋은 게임\n일단 잘하던 못하던 팀의 책임이지 개개인의 니탓내탓이 적어서 좋다고 생각한다.\n단, 스나이퍼 스파이 스카웃 클래스는 못하는데 끝까지 고집해서 먹는 욕은 알아서 해야 한다.\n근데 오렌지 박스사서 바보됐다 에헤헤헤 우헤헤헤ㅔ헤\n팀포 무료화 될 줄 알았나 개흑우됐다\n하프라이프는 멀미나서 못하고 그나마 해본게 포탈인데ㅠㅠ 얘도 멀미난다\n아 그리고 광과민성 있으면 팀포도 조심 얘도 은근히 심함\n\n그리고 가볍게 하기에도 좋지만 깊게 파기에도 좋은 게임이라고 생각함\n나는 고수는 아니지만, 영상보면서 저렇게도 플레이가 되는 구나란 생각이 들기 때문에\n고점도 높은데 라이트 유저도 할만한 게임이라고도 생각되는게 참 잘 만들었구나 생각된다.\n물론 언락무기 밸런싱은 말이 많다만 읍읍... 이건 나같은 라이트 유저는 그렇게까지 체감이 되지는 않아서..\n근데 옛날 팀포에서 종달새나 고드름 스파이는 좀 많이 짜증나긴 했음\n앰버서더도 그렇고..\n그냥 고드름 끼고 종달새로 파이로한테 막고라 개기는 스파이나\n스나 옆에서 앰버서더로 저격하는 스파이나...\n여튼 재밋다! 팀포\n\n할 만한 잘 만든 게임"
       ]
     },
     "customization": {
-      "mention_count": 19,
-      "negative_ratio": 0.10526315789473684,
+      "mention_count": 66,
+      "negative_ratio": 0.21212121212121213,
       "recent_trend": "flat",
       "experienced_player_share": 1.0,
       "themes": [
@@ -94,10 +95,10 @@
       ]
     },
     "difficulty": {
-      "mention_count": 63,
-      "negative_ratio": 0.14285714285714285,
+      "mention_count": 185,
+      "negative_ratio": 0.16756756756756758,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9047619047619048,
+      "experienced_player_share": 0.918918918918919,
       "themes": [
         "조작 / 규칙 학습 난이도",
         "난이도 / 진입장벽",
@@ -109,10 +110,10 @@
       ]
     },
     "gameplay": {
-      "mention_count": 67,
-      "negative_ratio": 0.1044776119402985,
+      "mention_count": 301,
+      "negative_ratio": 0.11960132890365449,
       "recent_trend": "flat",
-      "experienced_player_share": 1.0,
+      "experienced_player_share": 0.9833887043189369,
       "themes": [
         "빌드 / 무기 다양성",
         "전투 손맛 / 액션 호평"
@@ -123,10 +124,10 @@
       ]
     },
     "graphics": {
-      "mention_count": 34,
-      "negative_ratio": 0.17647058823529413,
+      "mention_count": 145,
+      "negative_ratio": 0.1103448275862069,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9117647058823529,
+      "experienced_player_share": 0.9241379310344827,
       "themes": [
         "그래픽 / 비주얼 호평"
       ],
@@ -136,8 +137,8 @@
       ]
     },
     "localization": {
-      "mention_count": 9,
-      "negative_ratio": 0.2222222222222222,
+      "mention_count": 26,
+      "negative_ratio": 0.2692307692307692,
       "recent_trend": "flat",
       "experienced_player_share": 1.0,
       "themes": [
@@ -149,10 +150,10 @@
       ]
     },
     "mod_support": {
-      "mention_count": 30,
-      "negative_ratio": 0.26666666666666666,
+      "mention_count": 158,
+      "negative_ratio": 0.17088607594936708,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9,
+      "experienced_player_share": 0.9493670886075949,
       "themes": [
         "모드 지원 / 호환 문제"
       ],
@@ -162,10 +163,10 @@
       ]
     },
     "monetization": {
-      "mention_count": 46,
-      "negative_ratio": 0.10869565217391304,
+      "mention_count": 204,
+      "negative_ratio": 0.17647058823529413,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9347826086956522,
+      "experienced_player_share": 0.9607843137254902,
       "themes": [
         "가격 / 과금 불만",
         "DLC / 확장팩 언급"
@@ -176,13 +177,13 @@
       ]
     },
     "multiplayer": {
-      "mention_count": 269,
-      "negative_ratio": 0.29739776951672864,
+      "mention_count": 866,
+      "negative_ratio": 0.2586605080831409,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9851301115241635,
+      "experienced_player_share": 0.9722863741339491,
       "themes": [
-        "부정행위 / 보안 이슈",
         "매칭 / 서버 문제",
+        "부정행위 / 보안 이슈",
         "멀티플레이 경험"
       ],
       "sample_reviews": [
@@ -191,12 +192,13 @@
       ]
     },
     "performance": {
-      "mention_count": 108,
-      "negative_ratio": 0.12037037037037036,
+      "mention_count": 451,
+      "negative_ratio": 0.08869179600886919,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9629629629629629,
+      "experienced_player_share": 0.9600886917960089,
       "themes": [
         "최적화 문제",
+        "로딩 / 발열 문제",
         "실행 불가 / 튕김"
       ],
       "sample_reviews": [
@@ -205,10 +207,10 @@
       ]
     },
     "save_progression": {
-      "mention_count": 8,
-      "negative_ratio": 0.125,
+      "mention_count": 39,
+      "negative_ratio": 0.1794871794871795,
       "recent_trend": "flat",
-      "experienced_player_share": 0.875,
+      "experienced_player_share": 0.9487179487179487,
       "themes": [
         "저장 / 세이브 손실"
       ],
@@ -218,10 +220,10 @@
       ]
     },
     "story": {
-      "mention_count": 58,
-      "negative_ratio": 0.05172413793103448,
+      "mention_count": 217,
+      "negative_ratio": 0.06451612903225806,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9482758620689655,
+      "experienced_player_share": 0.9539170506912442,
       "themes": [
         "캐릭터 / 연출 인상",
         "스토리 / 서사 몰입"
@@ -234,9 +236,45 @@
   },
   "summary": {
     "what_players_like": "상대적으로 긍정 신호가 보이는 영역은 story이며, 대표 테마는 캐릭터 / 연출 인상, 스토리 / 서사 몰입입니다.",
-    "what_players_dislike": "가장 자주 언급되는 불만 영역은 multiplayer이며, 대표 테마는 부정행위 / 보안 이슈, 매칭 / 서버 문제입니다.",
+    "what_players_dislike": "가장 자주 언급되는 불만 영역은 multiplayer이며, 대표 테마는 매칭 / 서버 문제, 부정행위 / 보안 이슈입니다.",
     "recent_change": "최근 기간에는 특정 카테고리의 급격한 변화보다 전반적인 유지 신호가 보입니다.",
     "fit_for": "초반 진입 장벽이나 조작 적응 여부를 중요하게 보는 플레이어는 사전 확인이 필요합니다.",
     "risks": "multiplayer 관련 이슈는 반복적으로 언급되지만 최근 급격한 악화 신호는 제한적입니다."
+  },
+  "pipeline_run_id": "440-20260427T064637Z",
+  "generated_at": "2026-04-27T06:48:51.976554+00:00",
+  "source_review_count": 13687,
+  "review_pages": "all",
+  "fetched_pages": 138,
+  "fetched_review_count": 13687,
+  "fetch_timeout_seconds": 20,
+  "fetch_filter": "recent",
+  "all_mode_page_cap": 200,
+  "all_mode_cap_reached": false,
+  "llm_stats": {
+    "considered": 7193,
+    "selected": 20,
+    "invoked": 20,
+    "success": 20,
+    "schema_invalid": 0,
+    "low_confidence": 0,
+    "cache_hits": 0,
+    "fallback_used": 0
+  },
+  "report_material_refiner": {
+    "enabled": true,
+    "max_llm_reviews": 20,
+    "llm_min_confidence": 0.7,
+    "material_count": 20,
+    "stats": {
+      "considered": 7193,
+      "selected": 20,
+      "invoked": 20,
+      "success": 20,
+      "schema_invalid": 0,
+      "low_confidence": 0,
+      "cache_hits": 0,
+      "fallback_used": 0
+    }
   }
 }

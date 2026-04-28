@@ -1,10 +1,1074 @@
 {
   "report_version": "v4-planned-sections",
   "appid": 105600,
-  "pipeline_run_id": "105600-snapshot-regen",
-  "generated_at": "2026-04-16T05:28:22.156910+00:00",
-  "source_review_count": 3999,
-  "included_review_count": 2234,
+  "pipeline_run_id": "105600-20260427T055936Z",
+  "generated_at": "2026-04-27T06:03:56.716954+00:00",
+  "source_review_count": 17687,
+  "included_review_count": 10324,
+  "min_report_review_count": 100,
+  "report_state": "ready",
+  "review_trend": {
+    "granularity": "month",
+    "metric": "positive_ratio",
+    "points": [
+      {
+        "month": "2011-05",
+        "positive_count": 8,
+        "review_count": 8,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2011-06",
+        "positive_count": 6,
+        "review_count": 6,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2011-07",
+        "positive_count": 2,
+        "review_count": 2,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2011-08",
+        "positive_count": 4,
+        "review_count": 4,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2011-09",
+        "positive_count": 3,
+        "review_count": 3,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2011-11",
+        "positive_count": 3,
+        "review_count": 3,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2011-12",
+        "positive_count": 25,
+        "review_count": 25,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2012-01",
+        "positive_count": 18,
+        "review_count": 18,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2012-02",
+        "positive_count": 5,
+        "review_count": 5,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2012-03",
+        "positive_count": 1,
+        "review_count": 1,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2012-04",
+        "positive_count": 3,
+        "review_count": 3,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2012-05",
+        "positive_count": 0,
+        "review_count": 1,
+        "positive_ratio": 0.0
+      },
+      {
+        "month": "2012-06",
+        "positive_count": 3,
+        "review_count": 3,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2012-07",
+        "positive_count": 9,
+        "review_count": 9,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2012-08",
+        "positive_count": 7,
+        "review_count": 7,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2012-09",
+        "positive_count": 2,
+        "review_count": 2,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2012-11",
+        "positive_count": 2,
+        "review_count": 2,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2012-12",
+        "positive_count": 2,
+        "review_count": 2,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2013-01",
+        "positive_count": 7,
+        "review_count": 7,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2013-02",
+        "positive_count": 2,
+        "review_count": 2,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2013-05",
+        "positive_count": 2,
+        "review_count": 2,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2013-06",
+        "positive_count": 4,
+        "review_count": 4,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2013-07",
+        "positive_count": 5,
+        "review_count": 5,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2013-08",
+        "positive_count": 5,
+        "review_count": 5,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2013-09",
+        "positive_count": 4,
+        "review_count": 4,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2013-10",
+        "positive_count": 13,
+        "review_count": 13,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2013-11",
+        "positive_count": 16,
+        "review_count": 16,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2013-12",
+        "positive_count": 69,
+        "review_count": 69,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2014-01",
+        "positive_count": 47,
+        "review_count": 47,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2014-02",
+        "positive_count": 29,
+        "review_count": 31,
+        "positive_ratio": 0.9355
+      },
+      {
+        "month": "2014-03",
+        "positive_count": 19,
+        "review_count": 19,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2014-04",
+        "positive_count": 10,
+        "review_count": 11,
+        "positive_ratio": 0.9091
+      },
+      {
+        "month": "2014-05",
+        "positive_count": 23,
+        "review_count": 24,
+        "positive_ratio": 0.9583
+      },
+      {
+        "month": "2014-06",
+        "positive_count": 101,
+        "review_count": 102,
+        "positive_ratio": 0.9902
+      },
+      {
+        "month": "2014-07",
+        "positive_count": 40,
+        "review_count": 44,
+        "positive_ratio": 0.9091
+      },
+      {
+        "month": "2014-08",
+        "positive_count": 36,
+        "review_count": 36,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2014-09",
+        "positive_count": 37,
+        "review_count": 41,
+        "positive_ratio": 0.9024
+      },
+      {
+        "month": "2014-10",
+        "positive_count": 37,
+        "review_count": 38,
+        "positive_ratio": 0.9737
+      },
+      {
+        "month": "2014-11",
+        "positive_count": 56,
+        "review_count": 56,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2014-12",
+        "positive_count": 55,
+        "review_count": 56,
+        "positive_ratio": 0.9821
+      },
+      {
+        "month": "2015-01",
+        "positive_count": 49,
+        "review_count": 50,
+        "positive_ratio": 0.98
+      },
+      {
+        "month": "2015-02",
+        "positive_count": 37,
+        "review_count": 38,
+        "positive_ratio": 0.9737
+      },
+      {
+        "month": "2015-03",
+        "positive_count": 33,
+        "review_count": 34,
+        "positive_ratio": 0.9706
+      },
+      {
+        "month": "2015-04",
+        "positive_count": 19,
+        "review_count": 20,
+        "positive_ratio": 0.95
+      },
+      {
+        "month": "2015-05",
+        "positive_count": 20,
+        "review_count": 23,
+        "positive_ratio": 0.8696
+      },
+      {
+        "month": "2015-06",
+        "positive_count": 52,
+        "review_count": 55,
+        "positive_ratio": 0.9455
+      },
+      {
+        "month": "2015-07",
+        "positive_count": 94,
+        "review_count": 98,
+        "positive_ratio": 0.9592
+      },
+      {
+        "month": "2015-08",
+        "positive_count": 46,
+        "review_count": 47,
+        "positive_ratio": 0.9787
+      },
+      {
+        "month": "2015-09",
+        "positive_count": 32,
+        "review_count": 33,
+        "positive_ratio": 0.9697
+      },
+      {
+        "month": "2015-10",
+        "positive_count": 42,
+        "review_count": 42,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2015-11",
+        "positive_count": 56,
+        "review_count": 57,
+        "positive_ratio": 0.9825
+      },
+      {
+        "month": "2015-12",
+        "positive_count": 94,
+        "review_count": 99,
+        "positive_ratio": 0.9495
+      },
+      {
+        "month": "2016-01",
+        "positive_count": 93,
+        "review_count": 97,
+        "positive_ratio": 0.9588
+      },
+      {
+        "month": "2016-02",
+        "positive_count": 84,
+        "review_count": 84,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2016-03",
+        "positive_count": 46,
+        "review_count": 47,
+        "positive_ratio": 0.9787
+      },
+      {
+        "month": "2016-04",
+        "positive_count": 35,
+        "review_count": 36,
+        "positive_ratio": 0.9722
+      },
+      {
+        "month": "2016-05",
+        "positive_count": 32,
+        "review_count": 34,
+        "positive_ratio": 0.9412
+      },
+      {
+        "month": "2016-06",
+        "positive_count": 35,
+        "review_count": 35,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2016-07",
+        "positive_count": 37,
+        "review_count": 38,
+        "positive_ratio": 0.9737
+      },
+      {
+        "month": "2016-08",
+        "positive_count": 38,
+        "review_count": 39,
+        "positive_ratio": 0.9744
+      },
+      {
+        "month": "2016-09",
+        "positive_count": 42,
+        "review_count": 44,
+        "positive_ratio": 0.9545
+      },
+      {
+        "month": "2016-10",
+        "positive_count": 33,
+        "review_count": 33,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2016-11",
+        "positive_count": 260,
+        "review_count": 264,
+        "positive_ratio": 0.9848
+      },
+      {
+        "month": "2016-12",
+        "positive_count": 68,
+        "review_count": 72,
+        "positive_ratio": 0.9444
+      },
+      {
+        "month": "2017-01",
+        "positive_count": 95,
+        "review_count": 98,
+        "positive_ratio": 0.9694
+      },
+      {
+        "month": "2017-02",
+        "positive_count": 54,
+        "review_count": 58,
+        "positive_ratio": 0.931
+      },
+      {
+        "month": "2017-03",
+        "positive_count": 42,
+        "review_count": 45,
+        "positive_ratio": 0.9333
+      },
+      {
+        "month": "2017-04",
+        "positive_count": 46,
+        "review_count": 50,
+        "positive_ratio": 0.92
+      },
+      {
+        "month": "2017-05",
+        "positive_count": 50,
+        "review_count": 52,
+        "positive_ratio": 0.9615
+      },
+      {
+        "month": "2017-06",
+        "positive_count": 64,
+        "review_count": 67,
+        "positive_ratio": 0.9552
+      },
+      {
+        "month": "2017-07",
+        "positive_count": 96,
+        "review_count": 100,
+        "positive_ratio": 0.96
+      },
+      {
+        "month": "2017-08",
+        "positive_count": 50,
+        "review_count": 52,
+        "positive_ratio": 0.9615
+      },
+      {
+        "month": "2017-09",
+        "positive_count": 63,
+        "review_count": 63,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2017-10",
+        "positive_count": 94,
+        "review_count": 96,
+        "positive_ratio": 0.9792
+      },
+      {
+        "month": "2017-11",
+        "positive_count": 264,
+        "review_count": 273,
+        "positive_ratio": 0.967
+      },
+      {
+        "month": "2017-12",
+        "positive_count": 102,
+        "review_count": 107,
+        "positive_ratio": 0.9533
+      },
+      {
+        "month": "2018-01",
+        "positive_count": 101,
+        "review_count": 108,
+        "positive_ratio": 0.9352
+      },
+      {
+        "month": "2018-02",
+        "positive_count": 83,
+        "review_count": 88,
+        "positive_ratio": 0.9432
+      },
+      {
+        "month": "2018-03",
+        "positive_count": 50,
+        "review_count": 54,
+        "positive_ratio": 0.9259
+      },
+      {
+        "month": "2018-04",
+        "positive_count": 45,
+        "review_count": 46,
+        "positive_ratio": 0.9783
+      },
+      {
+        "month": "2018-05",
+        "positive_count": 58,
+        "review_count": 64,
+        "positive_ratio": 0.9062
+      },
+      {
+        "month": "2018-06",
+        "positive_count": 69,
+        "review_count": 72,
+        "positive_ratio": 0.9583
+      },
+      {
+        "month": "2018-07",
+        "positive_count": 71,
+        "review_count": 73,
+        "positive_ratio": 0.9726
+      },
+      {
+        "month": "2018-08",
+        "positive_count": 54,
+        "review_count": 57,
+        "positive_ratio": 0.9474
+      },
+      {
+        "month": "2018-09",
+        "positive_count": 67,
+        "review_count": 73,
+        "positive_ratio": 0.9178
+      },
+      {
+        "month": "2018-10",
+        "positive_count": 70,
+        "review_count": 74,
+        "positive_ratio": 0.9459
+      },
+      {
+        "month": "2018-11",
+        "positive_count": 200,
+        "review_count": 204,
+        "positive_ratio": 0.9804
+      },
+      {
+        "month": "2018-12",
+        "positive_count": 73,
+        "review_count": 79,
+        "positive_ratio": 0.9241
+      },
+      {
+        "month": "2019-01",
+        "positive_count": 130,
+        "review_count": 136,
+        "positive_ratio": 0.9559
+      },
+      {
+        "month": "2019-02",
+        "positive_count": 105,
+        "review_count": 110,
+        "positive_ratio": 0.9545
+      },
+      {
+        "month": "2019-03",
+        "positive_count": 53,
+        "review_count": 56,
+        "positive_ratio": 0.9464
+      },
+      {
+        "month": "2019-04",
+        "positive_count": 53,
+        "review_count": 55,
+        "positive_ratio": 0.9636
+      },
+      {
+        "month": "2019-05",
+        "positive_count": 52,
+        "review_count": 56,
+        "positive_ratio": 0.9286
+      },
+      {
+        "month": "2019-06",
+        "positive_count": 104,
+        "review_count": 105,
+        "positive_ratio": 0.9905
+      },
+      {
+        "month": "2019-07",
+        "positive_count": 213,
+        "review_count": 221,
+        "positive_ratio": 0.9638
+      },
+      {
+        "month": "2019-08",
+        "positive_count": 69,
+        "review_count": 74,
+        "positive_ratio": 0.9324
+      },
+      {
+        "month": "2019-09",
+        "positive_count": 51,
+        "review_count": 53,
+        "positive_ratio": 0.9623
+      },
+      {
+        "month": "2019-10",
+        "positive_count": 61,
+        "review_count": 64,
+        "positive_ratio": 0.9531
+      },
+      {
+        "month": "2019-11",
+        "positive_count": 327,
+        "review_count": 332,
+        "positive_ratio": 0.9849
+      },
+      {
+        "month": "2019-12",
+        "positive_count": 335,
+        "review_count": 349,
+        "positive_ratio": 0.9599
+      },
+      {
+        "month": "2020-01",
+        "positive_count": 221,
+        "review_count": 231,
+        "positive_ratio": 0.9567
+      },
+      {
+        "month": "2020-02",
+        "positive_count": 232,
+        "review_count": 241,
+        "positive_ratio": 0.9627
+      },
+      {
+        "month": "2020-03",
+        "positive_count": 198,
+        "review_count": 206,
+        "positive_ratio": 0.9612
+      },
+      {
+        "month": "2020-04",
+        "positive_count": 242,
+        "review_count": 246,
+        "positive_ratio": 0.9837
+      },
+      {
+        "month": "2020-05",
+        "positive_count": 387,
+        "review_count": 400,
+        "positive_ratio": 0.9675
+      },
+      {
+        "month": "2020-06",
+        "positive_count": 254,
+        "review_count": 262,
+        "positive_ratio": 0.9695
+      },
+      {
+        "month": "2020-07",
+        "positive_count": 177,
+        "review_count": 184,
+        "positive_ratio": 0.962
+      },
+      {
+        "month": "2020-08",
+        "positive_count": 173,
+        "review_count": 179,
+        "positive_ratio": 0.9665
+      },
+      {
+        "month": "2020-09",
+        "positive_count": 164,
+        "review_count": 172,
+        "positive_ratio": 0.9535
+      },
+      {
+        "month": "2020-10",
+        "positive_count": 164,
+        "review_count": 172,
+        "positive_ratio": 0.9535
+      },
+      {
+        "month": "2020-11",
+        "positive_count": 297,
+        "review_count": 310,
+        "positive_ratio": 0.9581
+      },
+      {
+        "month": "2020-12",
+        "positive_count": 228,
+        "review_count": 241,
+        "positive_ratio": 0.9461
+      },
+      {
+        "month": "2021-01",
+        "positive_count": 229,
+        "review_count": 241,
+        "positive_ratio": 0.9502
+      },
+      {
+        "month": "2021-02",
+        "positive_count": 199,
+        "review_count": 213,
+        "positive_ratio": 0.9343
+      },
+      {
+        "month": "2021-03",
+        "positive_count": 146,
+        "review_count": 152,
+        "positive_ratio": 0.9605
+      },
+      {
+        "month": "2021-04",
+        "positive_count": 115,
+        "review_count": 120,
+        "positive_ratio": 0.9583
+      },
+      {
+        "month": "2021-05",
+        "positive_count": 240,
+        "review_count": 252,
+        "positive_ratio": 0.9524
+      },
+      {
+        "month": "2021-06",
+        "positive_count": 149,
+        "review_count": 159,
+        "positive_ratio": 0.9371
+      },
+      {
+        "month": "2021-07",
+        "positive_count": 183,
+        "review_count": 190,
+        "positive_ratio": 0.9632
+      },
+      {
+        "month": "2021-08",
+        "positive_count": 166,
+        "review_count": 178,
+        "positive_ratio": 0.9326
+      },
+      {
+        "month": "2021-09",
+        "positive_count": 130,
+        "review_count": 137,
+        "positive_ratio": 0.9489
+      },
+      {
+        "month": "2021-10",
+        "positive_count": 170,
+        "review_count": 183,
+        "positive_ratio": 0.929
+      },
+      {
+        "month": "2021-11",
+        "positive_count": 310,
+        "review_count": 316,
+        "positive_ratio": 0.981
+      },
+      {
+        "month": "2021-12",
+        "positive_count": 230,
+        "review_count": 239,
+        "positive_ratio": 0.9623
+      },
+      {
+        "month": "2022-01",
+        "positive_count": 231,
+        "review_count": 250,
+        "positive_ratio": 0.924
+      },
+      {
+        "month": "2022-02",
+        "positive_count": 170,
+        "review_count": 173,
+        "positive_ratio": 0.9827
+      },
+      {
+        "month": "2022-03",
+        "positive_count": 138,
+        "review_count": 150,
+        "positive_ratio": 0.92
+      },
+      {
+        "month": "2022-04",
+        "positive_count": 102,
+        "review_count": 107,
+        "positive_ratio": 0.9533
+      },
+      {
+        "month": "2022-05",
+        "positive_count": 117,
+        "review_count": 122,
+        "positive_ratio": 0.959
+      },
+      {
+        "month": "2022-06",
+        "positive_count": 117,
+        "review_count": 120,
+        "positive_ratio": 0.975
+      },
+      {
+        "month": "2022-07",
+        "positive_count": 153,
+        "review_count": 159,
+        "positive_ratio": 0.9623
+      },
+      {
+        "month": "2022-08",
+        "positive_count": 119,
+        "review_count": 124,
+        "positive_ratio": 0.9597
+      },
+      {
+        "month": "2022-09",
+        "positive_count": 105,
+        "review_count": 108,
+        "positive_ratio": 0.9722
+      },
+      {
+        "month": "2022-10",
+        "positive_count": 192,
+        "review_count": 199,
+        "positive_ratio": 0.9648
+      },
+      {
+        "month": "2022-11",
+        "positive_count": 174,
+        "review_count": 181,
+        "positive_ratio": 0.9613
+      },
+      {
+        "month": "2022-12",
+        "positive_count": 146,
+        "review_count": 152,
+        "positive_ratio": 0.9605
+      },
+      {
+        "month": "2023-01",
+        "positive_count": 148,
+        "review_count": 151,
+        "positive_ratio": 0.9801
+      },
+      {
+        "month": "2023-02",
+        "positive_count": 131,
+        "review_count": 135,
+        "positive_ratio": 0.9704
+      },
+      {
+        "month": "2023-03",
+        "positive_count": 91,
+        "review_count": 94,
+        "positive_ratio": 0.9681
+      },
+      {
+        "month": "2023-04",
+        "positive_count": 89,
+        "review_count": 93,
+        "positive_ratio": 0.957
+      },
+      {
+        "month": "2023-05",
+        "positive_count": 95,
+        "review_count": 101,
+        "positive_ratio": 0.9406
+      },
+      {
+        "month": "2023-06",
+        "positive_count": 93,
+        "review_count": 98,
+        "positive_ratio": 0.949
+      },
+      {
+        "month": "2023-07",
+        "positive_count": 131,
+        "review_count": 134,
+        "positive_ratio": 0.9776
+      },
+      {
+        "month": "2023-08",
+        "positive_count": 159,
+        "review_count": 168,
+        "positive_ratio": 0.9464
+      },
+      {
+        "month": "2023-09",
+        "positive_count": 175,
+        "review_count": 179,
+        "positive_ratio": 0.9777
+      },
+      {
+        "month": "2023-10",
+        "positive_count": 121,
+        "review_count": 123,
+        "positive_ratio": 0.9837
+      },
+      {
+        "month": "2023-11",
+        "positive_count": 106,
+        "review_count": 111,
+        "positive_ratio": 0.955
+      },
+      {
+        "month": "2023-12",
+        "positive_count": 127,
+        "review_count": 134,
+        "positive_ratio": 0.9478
+      },
+      {
+        "month": "2024-01",
+        "positive_count": 174,
+        "review_count": 180,
+        "positive_ratio": 0.9667
+      },
+      {
+        "month": "2024-02",
+        "positive_count": 148,
+        "review_count": 151,
+        "positive_ratio": 0.9801
+      },
+      {
+        "month": "2024-03",
+        "positive_count": 94,
+        "review_count": 95,
+        "positive_ratio": 0.9895
+      },
+      {
+        "month": "2024-04",
+        "positive_count": 110,
+        "review_count": 113,
+        "positive_ratio": 0.9735
+      },
+      {
+        "month": "2024-05",
+        "positive_count": 100,
+        "review_count": 102,
+        "positive_ratio": 0.9804
+      },
+      {
+        "month": "2024-06",
+        "positive_count": 91,
+        "review_count": 96,
+        "positive_ratio": 0.9479
+      },
+      {
+        "month": "2024-07",
+        "positive_count": 132,
+        "review_count": 141,
+        "positive_ratio": 0.9362
+      },
+      {
+        "month": "2024-08",
+        "positive_count": 107,
+        "review_count": 114,
+        "positive_ratio": 0.9386
+      },
+      {
+        "month": "2024-09",
+        "positive_count": 96,
+        "review_count": 97,
+        "positive_ratio": 0.9897
+      },
+      {
+        "month": "2024-10",
+        "positive_count": 66,
+        "review_count": 74,
+        "positive_ratio": 0.8919
+      },
+      {
+        "month": "2024-11",
+        "positive_count": 97,
+        "review_count": 107,
+        "positive_ratio": 0.9065
+      },
+      {
+        "month": "2024-12",
+        "positive_count": 96,
+        "review_count": 99,
+        "positive_ratio": 0.9697
+      },
+      {
+        "month": "2025-01",
+        "positive_count": 121,
+        "review_count": 124,
+        "positive_ratio": 0.9758
+      },
+      {
+        "month": "2025-02",
+        "positive_count": 122,
+        "review_count": 129,
+        "positive_ratio": 0.9457
+      },
+      {
+        "month": "2025-03",
+        "positive_count": 115,
+        "review_count": 120,
+        "positive_ratio": 0.9583
+      },
+      {
+        "month": "2025-04",
+        "positive_count": 81,
+        "review_count": 85,
+        "positive_ratio": 0.9529
+      },
+      {
+        "month": "2025-05",
+        "positive_count": 98,
+        "review_count": 105,
+        "positive_ratio": 0.9333
+      },
+      {
+        "month": "2025-06",
+        "positive_count": 166,
+        "review_count": 172,
+        "positive_ratio": 0.9651
+      },
+      {
+        "month": "2025-07",
+        "positive_count": 142,
+        "review_count": 147,
+        "positive_ratio": 0.966
+      },
+      {
+        "month": "2025-08",
+        "positive_count": 112,
+        "review_count": 117,
+        "positive_ratio": 0.9573
+      },
+      {
+        "month": "2025-09",
+        "positive_count": 84,
+        "review_count": 93,
+        "positive_ratio": 0.9032
+      },
+      {
+        "month": "2025-10",
+        "positive_count": 115,
+        "review_count": 121,
+        "positive_ratio": 0.9504
+      },
+      {
+        "month": "2025-11",
+        "positive_count": 86,
+        "review_count": 89,
+        "positive_ratio": 0.9663
+      },
+      {
+        "month": "2025-12",
+        "positive_count": 84,
+        "review_count": 87,
+        "positive_ratio": 0.9655
+      },
+      {
+        "month": "2026-01",
+        "positive_count": 166,
+        "review_count": 177,
+        "positive_ratio": 0.9379
+      },
+      {
+        "month": "2026-02",
+        "positive_count": 155,
+        "review_count": 164,
+        "positive_ratio": 0.9451
+      },
+      {
+        "month": "2026-03",
+        "positive_count": 102,
+        "review_count": 107,
+        "positive_ratio": 0.9533
+      },
+      {
+        "month": "2026-04",
+        "positive_count": 68,
+        "review_count": 72,
+        "positive_ratio": 0.9444
+      }
+    ]
+  },
   "game": {
     "name": "Terraria",
     "genres": [
@@ -15,16 +1079,27 @@
     ],
     "price_model": "paid",
     "is_free": false,
-    "release_stage": "released"
+    "release_stage": "released",
+    "release_date_text": "2011년 5월 16일",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg?t=1769844435",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/capsule_231x87.jpg?t=1769844435",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/capsule_184x69.jpg?t=1769844435",
+    "short_description": "Dig, fight, explore, build! Nothing is impossible in this action-packed adventure game. Four Pack also available!",
+    "steam_store_url": "https://store.steampowered.com/app/105600",
+    "steam_recommendation_count": 1210317,
+    "steam_review_score_desc": "Overwhelmingly Positive",
+    "steam_total_positive": 16976,
+    "steam_total_negative": 714,
+    "steam_total_reviews": 17690
   },
   "report_plan": {
     "decision_anchor": {
-      "buy_recommendation": "buy_on_sale",
+      "buy_recommendation": "buy_now",
       "primary_reason_ids": [
         "str_1",
         "str_2"
       ],
-      "rationale_short": "전투 손맛 / 액션 호평 불편을 감수해야 할 수 있어 가격 메리트가 있는 시점이 더 낫습니다."
+      "rationale_short": "게임의 콘텐츠 깊이와 멀티플레이 경험이 뛰어나며, 가격 대비 가성비가 우수합니다."
     },
     "section_blueprint": {
       "strength_block_count": 3,
@@ -49,279 +1124,421 @@
           "theme": "모드 지원 / 호환 문제"
         }
       ],
-      "risks": []
+      "risks": [
+        {
+          "reason_id": "str_4",
+          "aspect": "difficulty",
+          "theme": "난이도 / 진입장벽"
+        },
+        {
+          "reason_id": "str_5",
+          "aspect": "monetization",
+          "theme": "가격 / 과금 불만"
+        },
+        {
+          "reason_id": "str_6",
+          "aspect": "gameplay",
+          "theme": "전투 손맛 / 액션 호평"
+        }
+      ]
     }
   },
   "report_display": {
-    "headline": "중독성 / 시간순삭 장점은 분명하지만 전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험가 거슬릴 수 있어 할인 시점이 더 안전합니다.",
-    "buy_recommendation": "buy_on_sale",
-    "buy_timing_summary": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험 불편을 감수해야 할 수 있어 가격 메리트가 있는 시점이 더 낫습니다.",
+    "headline": "게임의 콘텐츠 깊이와 멀티플레이 경험이 뛰어나며, 가격 대비 가성비가 우수합니다.",
+    "buy_recommendation": "buy_now",
+    "buy_timing_summary": "매칭과 서버 상태 변화의 불편을 감수해야 할 수 있어 가격 메리트가 있는 시점이 더 낫습니다.",
     "good_for": [
-      "하루에 오래 붙잡고 성장 루프를 깊게 파는 플레이어"
+      "플레이 흐름이 점점 또렷해지는 재미를 좋아하는 플레이어",
+      "하루에 오래 붙잡고 성장 루프를 깊게 파는 플레이어",
+      "맵을 돌아다니며 발견하는 재미를 중요하게 보는 플레이어"
     ],
     "not_good_for": [
-      "가격 대비 체감 만족을 매우 엄격하게 따지는 플레이어"
+      "매칭과 서버 상태 변화에 스트레스를 크게 받는 플레이어",
+      "비용 대비 만족을 꼼꼼하게 따지는 플레이어"
     ],
     "top_strengths": [
       {
-        "title": "중독성 / 시간순삭",
-        "summary": "중독성 / 시간순삭 덕분에 장시간 플레이에서도 목표를 잃지 않기 쉽습니다."
+        "title": "플레이 흐름이 점점 또렷해지는 재미",
+        "summary": "기본 흐름이 안정적으로 자리 잡아 익숙해질수록 재미 포인트가 더 분명해집니다."
       },
       {
-        "title": "모드 지원 / 호환 문제",
-        "summary": "모드 지원 / 호환 문제가 실제 플레이 만족도로 이어지는 편입니다."
+        "title": "오래 붙잡게 만드는 성장 루프",
+        "summary": "목표를 쌓아가며 오래 붙잡게 되는 성장 구조가 강해 장기 플레이와 잘 맞습니다."
       },
       {
-        "title": "멀티플레이 경험",
-        "summary": "멀티플레이 경험이 실제 플레이 만족도로 이어지는 편입니다."
+        "title": "발견이 이어지는 탐험 경험",
+        "summary": "이동하고 발견하는 과정 자체가 재미를 만들어 탐험 비중이 높은 플레이에 맞습니다."
       }
     ],
     "top_risks": [
       {
-        "title": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험",
-        "summary": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험이 플레이 경험의 만족도를 낮출 수 있어 주의가 필요합니다."
+        "title": "매칭과 서버 상태에 따라 체감이 흔들리는 구간",
+        "summary": "매칭과 서버 상태가 흔들리면 한 판의 완성도가 크게 달라질 수 있습니다."
       },
       {
-        "title": "가격 대비 만족도가 갈려 구매 타이밍을 따져봐야 하는 포인트",
-        "summary": "가격 대비 만족도가 갈려 구매 타이밍을 따져봐야 하는 포인트가 거슬리면 가격 대비 만족감이 빠르게 떨어질 수 있습니다."
+        "title": "가격 대비 만족이 갈릴 수 있는 부분",
+        "summary": "가격 부담이 크면 기대만큼 만족하지 못했다는 반응이 나올 수 있습니다."
+      },
+      {
+        "title": "진입 장벽으로 인한 플레이 피로",
+        "summary": "초반의 높은 난이도와 불친절한 튜토리얼로 인해 많은 플레이어가 어려움을 느낄 수 있습니다."
       }
     ],
     "recent_state": {
       "status": "mixed",
-      "summary": "만족 포인트와 불편 포인트가 함께 보여 체감 평가가 갈리는 상태입니다."
+      "summary": "좋았다는 반응과 아쉽다는 반응이 함께 보여 평가가 갈리는 편입니다."
     }
   },
   "evidence_sections": {
     "strengths": [
       {
         "block_id": "str_1",
-        "title": "중독성 / 시간순삭이 실제 플레이 만족으로 이어진다는 반응",
+        "title": "오래 붙잡게 되는 성장 루프가 있다는 반응.",
         "theme": "중독성 / 시간순삭",
-        "why_it_matters": "콘텐츠 볼륨에서 중독성 / 시간순삭 체감이 좋으면 초반부터 몰입이 붙어 장시간 플레이 만족으로 이어질 가능성이 큽니다.",
-        "explanation": "콘텐츠 볼륨에서 중독성 / 시간순삭 체감이 좋으면 초반부터 몰입이 붙어 장시간 플레이 만족으로 이어질 가능성이 큽니다.",
+        "why_it_matters": "오래 붙잡는 이유가 분명하다는 반응이 많아, 장기 플레이 동기가 필요한 게임에 가깝습니다.",
+        "explanation": "오래 붙잡는 이유가 분명하다는 반응이 많아, 장기 플레이 동기가 필요한 게임에 가깝습니다.",
         "aspect_keys": [
           "content_depth"
         ],
         "stance": "positive",
         "consensus_level": "high",
-        "mention_count": 305,
+        "mention_count": 1744,
         "evidence_quality_level": "strict",
         "evidence_candidate_snippets": [
-          "마인크래프트 짭이라고 하는 잼민이들은 그냥 하지를마라. 이건 별개의게임이다. 비슷한 요소가 거의없다. 모드가 없는대신 마인크래프트보다 더 많은 자체 콘텐츠와 보스들이 재미있다.",
-          "하기 전까진 몰랐지만 내면을 바라보니 이만한 갓겜이 없다. 아이템 파밍하는건 지겨운 일 이라고 생각한 틀을 깨 부순 게임 정말 재밌다"
+          "파밍만해도 재밌다 마크 감성은 안해봐서 모르겠지만 이런 느낌이려나",
+          "마인크래프트 짭이라고 하는 잼민이들은 그냥 하지를마라. 이건 별개의게임이다. 비슷한 요소가 거의없다. 모드가 없는대신 마인크래프트보다 더 많은 자체 콘텐츠와 보스들이 재미있다."
         ],
         "evidence_snippets": [
-          "마인크래프트 짭이라고 하는 잼민이들은 그냥 하지를마라. 이건 별개의게임이다. 비슷한 요소가 거의없다. 모드가 없는대신 마인크래프트보다 더 많은 자체 콘텐츠와 보스들이 재미있다.",
-          "하기 전까진 몰랐지만 내면을 바라보니 이만한 갓겜이 없다. 아이템 파밍하는건 지겨운 일 이라고 생각한 틀을 깨 부순 게임 정말 재밌다"
+          "파밍만해도 재밌다 마크 감성은 안해봐서 모르겠지만 이런 느낌이려나",
+          "마인크래프트 짭이라고 하는 잼민이들은 그냥 하지를마라. 이건 별개의게임이다. 비슷한 요소가 거의없다. 모드가 없는대신 마인크래프트보다 더 많은 자체 콘텐츠와 보스들이 재미있다."
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-positive-1-1-6038408767726996020",
+            "text": "파밍만해도 재밌다 마크 감성은 안해봐서 모르겠지만 이런 느낌이려나"
+          },
+          {
+            "review_id": "compress-v3-positive-1-2-2744866993078580328",
+            "text": "마인크래프트 짭이라고 하는 잼민이들은 그냥 하지를마라. 이건 별개의게임이다. 비슷한 요소가 거의없다. 모드가 없는대신 마인크래프트보다 더 많은 자체 콘텐츠와 보스들이 재미있다."
+          }
         ]
       },
       {
         "block_id": "str_2",
-        "title": "멀티플레이 경험이 실제 플레이 만족으로 이어진다는 반응",
+        "title": "팀 합이 맞을 때 재미가 커진다는 반응",
         "theme": "멀티플레이 경험",
-        "why_it_matters": "멀티플레이에서 멀티플레이 경험 체감이 좋으면 초반부터 몰입이 붙어 장시간 플레이 만족으로 이어질 가능성이 큽니다.",
-        "explanation": "멀티플레이에서 멀티플레이 경험 체감이 좋으면 초반부터 몰입이 붙어 장시간 플레이 만족으로 이어질 가능성이 큽니다.",
+        "why_it_matters": "팀 합이 맞을 때 만족도가 올라간다는 반응이 많아, 함께 맞춰가는 플레이를 좋아하면 잘 맞습니다.",
+        "explanation": "팀 합이 맞을 때 만족도가 올라간다는 반응이 많아, 함께 맞춰가는 플레이를 좋아하면 잘 맞습니다.",
         "aspect_keys": [
           "multiplayer"
         ],
         "stance": "positive",
         "consensus_level": "high",
-        "mention_count": 237,
+        "mention_count": 1542,
         "evidence_quality_level": "relaxed",
         "evidence_candidate_snippets": [
-          "마크 광질에 보스전이랑 마법 첨가됨. 근데 ㅈㄴ 재밌음 -난이도: 처음에는 클래식으로 하는 거 추천. 위키는 사실상 필수. 일단 이상한 지형 나오면 뒤로 빠지는 걸 추천 -광질: 일단 첨부터 광질하는 건 비추; 자연동굴 돌아다니면서 상자 여는 게 초반엔 제일 효율이 좋은 듯. 나중 가면 월핵이 합법이 됨(?) -전투: 극초반에는 슬라임 빼곤 몬스터 피하는 게 좋음 (-1일차 밤에 10번 넘게 죽은 사람) -보스전: 재밌음. 패턴 뚜렷함, 대미지도 크진 않음(클래식 기준. 그 위는 직접 해보시길..ㅋㅋ) ㄹㅇ 인생겜. 리로직 개발자님들 사랑해요",
-          "모드가 본체, 친구랑 하면 재밌다",
-          "어릴 적 친구들과 웃음으로 밤을 새우게 해준, 함께한다는 즐거움의 첫 문장. 지금은 나는 훌쩍 커서 어른이 되어버렸지만 아직도 친구들과 함께 웃을 수 있어",
-          "재밌어지는데까지 시간이 조금 걸리지만, 시간 조금 들여서 캐릭터가 쎄지면 점점 재밌다 근데 겜이 친절한 편은 아니기 때문에 혼자 처음하면 힘들수도 있다 테라리아를 잘 아는 친구랑 같이 하거나, 혼자 하게되면 인터넷 조금 찾아보면서 하는것이 좋다"
+          "친구랑 같이 했을때 기준 통곡의 30시간을 못 넘는 게임, 혼자하면 취향 맞으면 몇시간이고 하는데, 난 뇌가 도파민으로 절여져 있다, 개 초딩이라서 천천히 성장하는 게임은 못버티는 허접 팝콘 뇌다 빠르게 분비되는 도파민 아니면 만족못하는 개 씹 조루 프로 딸잡이다, 그럼 이 게임 못함 멀티를 지원하면서 멀티에 이리 멀티에 안 맞는 게임이 있을까, 물론 갓겜이긴 한데, 혼자하면 혼자서 호빗부터 반지의 제왕을 찍어낼수 있는데, 이것도 취향에 맞아야지 가능함 반대로 취향에 안맞으면 골든 아머 못 만들고 너무 힘들엉ㅠㅠ 하고 그만둘수 있음 개인적으론 멀티에 안 맞는다 라고 생각할뿐 사실 내가 한 게임중 가장 고 평가긴 함",
+          "테라리아 처음한 게 15년 전 거의 중학생 1학년 때 인 것 같은데 처음엔 항상 비교 당하는 마인크래프트에 비해서 완성도도 너무 낮고 컨텐츠도 너무 없었음. 1.2버전 오기 까지도 업데이트 주기가 너무 길어서 학생인 입장에선 굉장히 힘들었는데 그래도 한 번 업데이트 할 때마다 대규모 업데이트 수준의 많은 컨텐츠와 아이템들, 수준급 콜라보 등등. 그 뿐만 아니라 편의성 업데이트 및 유저 피드백 적극 수용. 심지어 모두 무료. 취향만 맞으면 정말 갓겜이 따로 없다. 샌드박스 형식에 RPG 요소가 강하고 캐릭터와 월드 별로 난이도도 분리해 솔플과 멀티 모두 재밌다. 난 마인크래프트 같은 경우는 아무리 해도 목적 의식이 없고 3D 멀미가 없음에도 불구하고 채광이나 농사, 낚시 등 반복적인 작업에서 오는 피로감이 굉장히 심해서 가끔 한 번씩 해도 오래 못하는데 테라리아는 가끔 한 번씩 정말 오래 하게 됨. 몬헌처럼 장비와 무기에 따라 직업도 나눌 수 있고 건축이면 건축, 사냥이면 사냥 정말 재밌는 요소가 많다. 아쉬운 점은 생활 컨텐츠가 부족하다는 점? 농사나 요리, 낚시 같은 부분에선 사실 마인크래프트 보다는 조금 부실하다고 생각하는데 컨텐츠 자체가 부족하다는 것보단 이 요소들은 생활 컨텐츠에 관련된 부분인데 전부 RPG적 요소하고만 관련되어 있다는 것이 조금 아쉽다. 농사 같은 경우는 약초 재배 정도인데 전부 버프 포션과 관련되어 있고 낚시도 퀘스트, 요리도 버프. 여하간 재밌는 갓겜임에는 틀림 없는 사실이다. 진입 장벽이라고 할만한 건 클래식한 도트 그래픽 정도? 그래도 여태까지 테라리아 추천해서 취향에 맞아가지고 한 사람들 중에 모두 최소 100시간 이상씩은 함. 대학교 졸업 시즌에 학교 후배들이랑 멀티 플레이 했었는데 거의 3주 동안 잠도 제대로 안자고 플레이 했음. 취향 맞으면 절대로 해봐야 할 게임 중 하나.",
+          "제가 이것을 친구들과 함께 했던 279시간에 추억을 말해보겠습니다... 게임을 구매하고 멀티를 킨다음 녀석과 함께 디코를 나누며 커마할때 나누던 개드립 그러다가 지하로 내려가서 죽은후에 잃어버린 돈이 아까워서 고생했던 얼척없는 노과다 감잡고 나서 같이 아이템을 찾고 곡괭이와 우정에 의지하며 나아갔던 탐험 보스 아이템을 얻고 본격적으로 전장을 만들고 싸우던 전투와 전투이후 아이템을 보며 웃던 기억 그렇게 하드모드도 들어가고... 그렇게 광물을 얻고... 광신도를 잡고 네개의 기둥을 파괴하고 준비하던 최종보스의 긴장감속 나누었던 대화... \"하...이 개같던 일상에 마지막이냐?\" \"병신아 그런 소리할 시간에 포션이나 한번더 채크해\" \"총알없으면 병신인 새끼가 할말이냐?\" \"너도 마나없으면 병신이잖냐\" \"아무튼 함께해서 좆같았고 좆같은 만큼 즐거웠다\" \"나는 그냥 개같았어\" \"...마지막까지 지랄이네\" 그러고 잡았던 최종보스에 추억 저는 아직도 잊지못합니다....",
+          "처음 들어가면 기본 캐릭터처럼 생긴 가이드가 여러분을 반겨줍니다. 어떻게 게임을 하는지, 단축키는 무엇인지, 목표가 무엇인지 조차 정확하게 알려주진 않지만, 결국 나중에 쓸모는 있는 그냥 가이드 npc예요. 굴을 파고 땅을 다지고 사지가 몇 번 찢어지다보면 '솟망겜 개어렵네 어떻게함?' 이라는 말이 절로 나오지만, 다시 상점페이지를 열어 '압도적으로 긍정적(845,178)'을 보면, 아 좀만 더 해볼까? 라는 생각이 듭니다. 뭔가 알 것 같고, 이렇게 하면 될 것 같을 때 꺼무위키를 켜게된 당신은 알 것 같았던건 다 모르는 거였고, 하면 될 것 같은건 하면 안되면 혹은 안 해도 되는 것이었다는 걸 깨닫습니다. 테라리아는 그때부터입니다. 갑자기 시간이 사라지기 시작하고, 실력은 선형적으로 성장하기 시작합니다. 하지만 뭔가 최종 보스같은걸 잡고 나서, 다시 뚝배기가 깨지기 시작합니다. 사실 테리리아는 이때부터입니다. 시간이 녹기 시작하고, 실력은 log 그래프를 그리며 성장하기 시작합니다. ... 이후 친구를 불러모으고, 멀티에 재미를 느끼기 시작하며, 직업의 다양성을 깨우치기 시작합니다. 마침내 최종보스_진짜_진짜.mob를 잡은 여러분은 tmodloader에 손을 대기 시작합니다. 진짜 마지막으로, 테라리아는 이때부터입니다."
         ],
         "evidence_snippets": [
-          "마크 광질에 보스전이랑 마법 첨가됨. 근데 ㅈㄴ 재밌음 -난이도: 처음에는 클래식으로 하는 거 추천. 위키는 사실상 필수. 일단 이상한 지형 나오면 뒤로 빠지는 걸 추천 -광질: 일단 첨부터 광질하는 건 비추; 자연동굴 돌아다니면서 상자 여는 게 초반엔 제일 효율이 좋은 듯. 나중 가면 월핵이 합법이 됨(?) -전투: 극초반에는 슬라임 빼곤 몬스터 피하는 게 좋음 (-1일차 밤에 10번 넘게 죽은 사람) -보스전: 재밌음. 패턴 뚜렷함, 대미지도 크진 않음(클래식 기준. 그 위는 직접 해보시길..ㅋㅋ) ㄹㅇ 인생겜. 리로직 개발자님들 사랑해요",
-          "어릴 적 친구들과 웃음으로 밤을 새우게 해준, 함께한다는 즐거움의 첫 문장. 지금은 나는 훌쩍 커서 어른이 되어버렸지만 아직도 친구들과 함께 웃을 수 있어",
-          "재밌어지는데까지 시간이 조금 걸리지만, 시간 조금 들여서 캐릭터가 쎄지면 점점 재밌다 근데 겜이 친절한 편은 아니기 때문에 혼자 처음하면 힘들수도 있다 테라리아를 잘 아는 친구랑 같이 하거나, 혼자 하게되면 인터넷 조금 찾아보면서 하는것이 좋다"
+          "친구랑 같이 했을때 기준 통곡의 30시간을 못 넘는 게임, 혼자하면 취향 맞으면 몇시간이고 하는데, 난 뇌가 도파민으로 절여져 있다, 개 초딩이라서 천천히 성장하는 게임은 못버티는 허접 팝콘 뇌다 빠르게 분비되는 도파민 아니면 만족못하는 개 씹 조루 프로 딸잡이다, 그럼 이 게임 못함 멀티를 지원하면서 멀티에 이리 멀티에 안 맞는 게임이 있을까, 물론 갓겜이긴 한데, 혼자하면 혼자서 호빗부터 반지의 제왕을 찍어낼수 있는데, 이것도 취향에 맞아야지 가능함 반대로 취향에 안맞으면 골든 아머 못 만들고 너무 힘들엉ㅠㅠ 하고 그만둘수 있음 개인적으론 멀티에 안 맞는다 라고 생각할뿐 사실 내가 한 게임중 가장 고 평가긴 함",
+          "테라리아 처음한 게 15년 전 거의 중학생 1학년 때 인 것 같은데 처음엔 항상 비교 당하는 마인크래프트에 비해서 완성도도 너무 낮고 컨텐츠도 너무 없었음. 1. 2버전 오기 까지도 업데이트 주기가 너무 길어서 학생인 입장에선 굉장히 힘들었는데 그래도 한 번 업데이트 할 때마다 대규모 업데이트 수준의 많은 컨텐츠와 아이템들, 수준급 콜라보 등등. 그 뿐만 아니라 편의성 업데이트 및 유저 피드백 적극 수용. 심지어 모두 무료. 취향만 맞으면 정말 갓겜이 따로 없다. 샌드박스 형식에 RPG 요소가 강하고 캐릭터와 월드 별로 난이도도 분리해 솔플과 멀티 모두 재밌다. 난 마인크래프트 같은 경우는 아무리 해도 목적 의식이 없고 3D 멀미가 없음에도 불구하고 채광이나 농사, 낚시 등 반복적인 작업에서 오는 피로감이 굉장히 심해서 가끔 한 번씩 해도 오래 못하는데 테라리아는 가끔 한 번씩 정말 오래 하게 됨. 몬헌처럼 장비와 무기에 따라 직업도 나눌 수 있고 건축이면 건축, 사냥이면 사냥 정말 재밌는 요소가 많다. 아쉬운 점은 생활 컨텐츠가 부족하다는 점? 농사나 요리, 낚시 같은 부분에선 사실 마인크래프트 보다는 조금 부실하다고 생각하는데 컨텐츠 자체가 부족하다는 것보단 이 요소들은 생활 컨텐츠에 관련된 부분인데 전부 RPG적 요소하고만 관련되어 있다는 것이 조금 아쉽다. 농사 같은 경우는 약초 재배 정도인데 전부 버프 포션과 관련되어 있고 낚시도 퀘스트, 요리도 버프. 여하간 재밌는 갓겜임에는 틀림 없는 사실이다. 진입 장벽이라고 할만한 건 클래식한 도트 그래픽 정도? 그래도 여태까지 테라리아 추천해서 취향에 맞아가지고 한 사람들 중에 모두 최소 100시간 이상씩은 함. 대학교 졸업 시즌에 학교 후배들이랑 멀티 플레이 했었는데 거의 3주 동안 잠도 제대로 안자고 플레이 했음. 취향 맞으면 절대로 해봐야 할 게임 중 하나.",
+          "처음 들어가면 기본 캐릭터처럼 생긴 가이드가 여러분을 반겨줍니다. 어떻게 게임을 하는지, 단축키는 무엇인지, 목표가 무엇인지 조차 정확하게 알려주진 않지만, 결국 나중에 쓸모는 있는 그냥 가이드 npc예요. 굴을 파고 땅을 다지고 사지가 몇 번 찢어지다보면 '솟망겜 개어렵네 어떻게함?' 이라는 말이 절로 나오지만, 다시 상점페이지를 열어 '압도적으로 긍정적(845, 178)'을 보면, 아 좀만 더 해볼까? 라는 생각이 듭니다. 뭔가 알 것 같고, 이렇게 하면 될 것 같을 때 꺼무위키를 켜게된 당신은 알 것 같았던건 다 모르는 거였고, 하면 될 것 같은건 하면 안되면 혹은 안 해도 되는 것이었다는 걸 깨닫습니다. 테라리아는 그때부터입니다. 갑자기 시간이 사라지기 시작하고, 실력은 선형적으로 성장하기 시작합니다. 하지만 뭔가 최종 보스같은걸 잡고 나서, 다시 뚝배기가 깨지기 시작합니다. 사실 테리리아는 이때부터입니다. 시간이 녹기 시작하고, 실력은 log 그래프를 그리며 성장하기 시작합니다.... 이후 친구를 불러모으고, 멀티에 재미를 느끼기 시작하며, 직업의 다양성을 깨우치기 시작합니다. 마침내 최종보스_진짜_진짜. mob를 잡은 여러분은 tmodloader에 손을 대기 시작합니다. 진짜 마지막으로, 테라리아는 이때부터입니다."
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-positive-2-1-7383139495348870976",
+            "text": "친구랑 같이 했을때 기준 통곡의 30시간을 못 넘는 게임, 혼자하면 취향 맞으면 몇시간이고 하는데, 난 뇌가 도파민으로 절여져 있다, 개 초딩이라서 천천히 성장하는 게임은 못버티는 허접 팝콘 뇌다 빠르게 분비되는 도파민 아니면 만족못하는 개 씹 조루 프로 딸잡이다, 그럼 이 게임 못함 멀티를 지원하면서 멀티에 이리 멀티에 안 맞는 게임이 있을까, 물론 갓겜이긴 한데, 혼자하면 혼자서 호빗부터 반지의 제왕을 찍어낼수 있는데, 이것도 취향에 맞아야지 가능함 반대로 취향에 안맞으면 골든 아머 못 만들고 너무 힘들엉ㅠㅠ 하고 그만둘수 있음 개인적으론 멀티에 안 맞는다 라고 생각할뿐 사실 내가 한 게임중 가장 고 평가긴 함"
+          },
+          {
+            "review_id": "compress-v3-positive-2-5-8921004358935010347",
+            "text": "테라리아 처음한 게 15년 전 거의 중학생 1학년 때 인 것 같은데 처음엔 항상 비교 당하는 마인크래프트에 비해서 완성도도 너무 낮고 컨텐츠도 너무 없었음. 1.2버전 오기 까지도 업데이트 주기가 너무 길어서 학생인 입장에선 굉장히 힘들었는데 그래도 한 번 업데이트 할 때마다 대규모 업데이트 수준의 많은 컨텐츠와 아이템들, 수준급 콜라보 등등. 그 뿐만 아니라 편의성 업데이트 및 유저 피드백 적극 수용. 심지어 모두 무료. 취향만 맞으면 정말 갓겜이 따로 없다. 샌드박스 형식에 RPG 요소가 강하고 캐릭터와 월드 별로 난이도도 분리해 솔플과 멀티 모두 재밌다. 난 마인크래프트 같은 경우는 아무리 해도 목적 의식이 없고 3D 멀미가 없음에도 불구하고 채광이나 농사, 낚시 등 반복적인 작업에서 오는 피로감이 굉장히 심해서 가끔 한 번씩 해도 오래 못하는데 테라리아는 가끔 한 번씩 정말 오래 하게 됨. 몬헌처럼 장비와 무기에 따라 직업도 나눌 수 있고 건축이면 건축, 사냥이면 사냥 정말 재밌는 요소가 많다. 아쉬운 점은 생활 컨텐츠가 부족하다는 점? 농사나 요리, 낚시 같은 부분에선 사실 마인크래프트 보다는 조금 부실하다고 생각하는데 컨텐츠 자체가 부족하다는 것보단 이 요소들은 생활 컨텐츠에 관련된 부분인데 전부 RPG적 요소하고만 관련되어 있다는 것이 조금 아쉽다. 농사 같은 경우는 약초 재배 정도인데 전부 버프 포션과 관련되어 있고 낚시도 퀘스트, 요리도 버프. 여하간 재밌는 갓겜임에는 틀림 없는 사실이다. 진입 장벽이라고 할만한 건 클래식한 도트 그래픽 정도? 그래도 여태까지 테라리아 추천해서 취향에 맞아가지고 한 사람들 중에 모두 최소 100시간 이상씩은 함. 대학교 졸업 시즌에 학교 후배들이랑 멀티 플레이 했었는데 거의 3주 동안 잠도 제대로 안자고 플레이 했음. 취향 맞으면 절대로 해봐야 할 게임 중 하나."
+          },
+          {
+            "review_id": "compress-v3-positive-2-6-3376554409300948954",
+            "text": "제가 이것을 친구들과 함께 했던 279시간에 추억을 말해보겠습니다... 게임을 구매하고 멀티를 킨다음 녀석과 함께 디코를 나누며 커마할때 나누던 개드립 그러다가 지하로 내려가서 죽은후에 잃어버린 돈이 아까워서 고생했던 얼척없는 노과다 감잡고 나서 같이 아이템을 찾고 곡괭이와 우정에 의지하며 나아갔던 탐험 보스 아이템을 얻고 본격적으로 전장을 만들고 싸우던 전투와 전투이후 아이템을 보며 웃던 기억 그렇게 하드모드도 들어가고... 그렇게 광물을 얻고... 광신도를 잡고 네개의 기둥을 파괴하고 준비하던 최종보스의 긴장감속 나누었던 대화... \"하...이 개같던 일상에 마지막이냐?\" \"병신아 그런 소리할 시간에 포션이나 한번더 채크해\" \"총알없으면 병신인 새끼가 할말이냐?\" \"너도 마나없으면 병신이잖냐\" \"아무튼 함께해서 좆같았고 좆같은 만큼 즐거웠다\" \"나는 그냥 개같았어\" \"...마지막까지 지랄이네\" 그러고 잡았던 최종보스에 추억 저는 아직도 잊지못합니다...."
+          },
+          {
+            "review_id": "compress-v3-positive-2-8-2266938825187007114",
+            "text": "처음 들어가면 기본 캐릭터처럼 생긴 가이드가 여러분을 반겨줍니다. 어떻게 게임을 하는지, 단축키는 무엇인지, 목표가 무엇인지 조차 정확하게 알려주진 않지만, 결국 나중에 쓸모는 있는 그냥 가이드 npc예요. 굴을 파고 땅을 다지고 사지가 몇 번 찢어지다보면 '솟망겜 개어렵네 어떻게함?' 이라는 말이 절로 나오지만, 다시 상점페이지를 열어 '압도적으로 긍정적(845,178)'을 보면, 아 좀만 더 해볼까? 라는 생각이 듭니다. 뭔가 알 것 같고, 이렇게 하면 될 것 같을 때 꺼무위키를 켜게된 당신은 알 것 같았던건 다 모르는 거였고, 하면 될 것 같은건 하면 안되면 혹은 안 해도 되는 것이었다는 걸 깨닫습니다. 테라리아는 그때부터입니다. 갑자기 시간이 사라지기 시작하고, 실력은 선형적으로 성장하기 시작합니다. 하지만 뭔가 최종 보스같은걸 잡고 나서, 다시 뚝배기가 깨지기 시작합니다. 사실 테리리아는 이때부터입니다. 시간이 녹기 시작하고, 실력은 log 그래프를 그리며 성장하기 시작합니다. ... 이후 친구를 불러모으고, 멀티에 재미를 느끼기 시작하며, 직업의 다양성을 깨우치기 시작합니다. 마침내 최종보스_진짜_진짜.mob를 잡은 여러분은 tmodloader에 손을 대기 시작합니다. 진짜 마지막으로, 테라리아는 이때부터입니다."
+          }
         ]
       },
       {
         "block_id": "str_3",
-        "title": "모드 지원 / 호환 문제가 실제 플레이 만족으로 이어진다는 반응",
+        "title": "플레이 흐름이 안정적으로 잡힌다는 반응",
         "theme": "모드 지원 / 호환 문제",
-        "why_it_matters": "모드 지원/호환성에서 모드 지원 / 호환 문제 체감이 좋으면 초반부터 몰입이 붙어 장시간 플레이 만족으로 이어질 가능성이 큽니다.",
-        "explanation": "모드 지원/호환성에서 모드 지원 / 호환 문제 체감이 좋으면 초반부터 몰입이 붙어 장시간 플레이 만족으로 이어질 가능성이 큽니다.",
+        "why_it_matters": "플레이 흐름이 자연스럽게 자리 잡는다는 반응이 많아, 익숙해질수록 재미가 선명해지는 쪽에 잘 맞습니다.",
+        "explanation": "플레이 흐름이 자연스럽게 자리 잡는다는 반응이 많아, 익숙해질수록 재미가 선명해지는 쪽에 잘 맞습니다.",
         "aspect_keys": [
           "mod_support"
         ],
         "stance": "positive",
         "consensus_level": "high",
-        "mention_count": 208,
+        "mention_count": 869,
         "evidence_quality_level": "strict",
         "evidence_candidate_snippets": [
-          "컨텐츠의 축복이 끊이질 않는 게임. 개인적으로 마크보다 재밌게 함. 좀 많이 했다 싶어서 위키 켜보면 아직 하드모드 근처도 못 감. 11000원에 이만한 혜자가 없음. 괜히 압긍이 아님ㅋㅋㅋ",
-          "마인크래프트 짭이라고 하는 잼민이들은 그냥 하지를마라. 이건 별개의게임이다. 비슷한 요소가 거의없다. 모드가 없는대신 마인크래프트보다 더 많은 자체 콘텐츠와 보스들이 재미있다.",
-          "모드가 본체, 친구랑 하면 재밌다",
-          "바닐라부터 모드까지 육수까지 쭉 우려먹을 정도로 재밌음"
+          "지하 밑에서 곤히 자고 있는 슝악한 크툴루 괴물들을 굳이! 굳이 지상으로 불러내 조각내고 굳이 전리품을 획득하세요! 즐거우셨다면 칼라미티 모드로 넘어가십쇼",
+          "테라리아는 보스 레이드에 중점을 둔 게임입니다. 장점 : 보스를 격파하면 전리품으로 장비를 만들어서 성장하는 구조가 정말 잘 구성 되어있어요. 단점 : 신규 유입 입장에서 진행 단계의 안내가 불친절해서 하나하나 직접 찾아가면서 해야합니다. 전문가 난이도 까지 클리어 하셧다면, TmodeLoader 에서 칼라미티 모드 까지 꼭 해보시길 바랍니다.",
+          "국밥의 시초 모드가 많아서 낫베드 점점 강해지는 나 하지만 한없ㅇ ㅣ무너진다...",
+          "컨텐츠의 축복이 끊이질 않는 게임. 개인적으로 마크보다 재밌게 함. 좀 많이 했다 싶어서 위키 켜보면 아직 하드모드 근처도 못 감. 11000원에 이만한 혜자가 없음. 괜히 압긍이 아님ㅋㅋㅋ"
         ],
         "evidence_snippets": [
           "컨텐츠의 축복이 끊이질 않는 게임. 개인적으로 마크보다 재밌게 함. 좀 많이 했다 싶어서 위키 켜보면 아직 하드모드 근처도 못 감. 11000원에 이만한 혜자가 없음. 괜히 압긍이 아님ㅋㅋㅋ",
-          "마인크래프트 짭이라고 하는 잼민이들은 그냥 하지를마라. 이건 별개의게임이다. 비슷한 요소가 거의없다. 모드가 없는대신 마인크래프트보다 더 많은 자체 콘텐츠와 보스들이 재미있다.",
-          "바닐라부터 모드까지 육수까지 쭉 우려먹을 정도로 재밌음"
+          "국밥의 시초 모드가 많아서 낫베드 점점 강해지는 나 하지만 한없ㅇ ㅣ무너진다...",
+          "지하 밑에서 곤히 자고 있는 슝악한 크툴루 괴물들을 굳이! 굳이 지상으로 불러내 조각내고 굳이 전리품을 획득하세요! 즐거우셨다면 칼라미티 모드로 넘어가십쇼"
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-positive-3-1-472511791245650962",
+            "text": "지하 밑에서 곤히 자고 있는 슝악한 크툴루 괴물들을 굳이! 굳이 지상으로 불러내 조각내고 굳이 전리품을 획득하세요! 즐거우셨다면 칼라미티 모드로 넘어가십쇼"
+          },
+          {
+            "review_id": "compress-v3-positive-3-2-2592410757275784428",
+            "text": "테라리아는 보스 레이드에 중점을 둔 게임입니다. 장점 : 보스를 격파하면 전리품으로 장비를 만들어서 성장하는 구조가 정말 잘 구성 되어있어요. 단점 : 신규 유입 입장에서 진행 단계의 안내가 불친절해서 하나하나 직접 찾아가면서 해야합니다. 전문가 난이도 까지 클리어 하셧다면, TmodeLoader 에서 칼라미티 모드 까지 꼭 해보시길 바랍니다."
+          },
+          {
+            "review_id": "compress-v3-positive-3-3-758366387995676938",
+            "text": "국밥의 시초 모드가 많아서 낫베드 점점 강해지는 나 하지만 한없ㅇ ㅣ무너진다..."
+          },
+          {
+            "review_id": "compress-v3-positive-3-4-2874924250042105490",
+            "text": "컨텐츠의 축복이 끊이질 않는 게임. 개인적으로 마크보다 재밌게 함. 좀 많이 했다 싶어서 위키 켜보면 아직 하드모드 근처도 못 감. 11000원에 이만한 혜자가 없음. 괜히 압긍이 아님ㅋㅋㅋ"
+          }
         ]
       }
     ],
     "risks": [
       {
         "block_id": "risk_1",
-        "title": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험 때문에 플레이 흐름이 끊긴다는 반응",
-        "theme": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험",
-        "why_it_matters": "전투/핵심 플레이에서 전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험 불편가 반복되면 초반 만족도가 크게 떨어질 수 있어 구매 전 감수 여부 확인가 필요합니다.",
-        "explanation": "전투/핵심 플레이에서 전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험 불편가 반복되면 초반 만족도가 크게 떨어질 수 있어 구매 전 감수 여부 확인가 필요합니다.",
+        "title": "매칭과 서버 상태가 체감을 흔든다는 반응",
+        "theme": "매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크",
+        "why_it_matters": "매칭과 서버 상태를 문제로 보는 반응이 이어져, 한 판의 완성도가 상황에 따라 꽤 달라질 수 있습니다.",
+        "explanation": "매칭과 서버 상태를 문제로 보는 반응이 이어져, 한 판의 완성도가 상황에 따라 꽤 달라질 수 있습니다.",
         "aspect_keys": [
-          "gameplay"
+          "multiplayer"
         ],
         "stance": "negative",
         "consensus_level": "high",
-        "mention_count": 167,
+        "mention_count": 1542,
         "evidence_quality_level": "guaranteed_fill",
         "evidence_candidate_snippets": [
-          "#오픈월드 #RPG 가격 대비 미친 가성비 + 탐험이 끝도 없음 + 건축과 창작의 자유 + 콘텐츠 밀도 미쳤다 + 채굴이 노동인데 힐링임 - 밋밋한 픽셀아트 - 뭐부터 시작 해야 할지 몰겟음 - 인벤토리 스트레스 - 조작 키 세팅이 직관적이지 않음 - 모드 의존성?",
-          "보스를 잡아야 하는 명분이 이렇게 명확한 적은 없었다. 마지막 보스까지 지루할 틈 없이 진행돼버리는 게임 인생 갈린다 조심해라"
+          "크툴루의 눈이 너무 귀여워서 수상하게 보이는 눈 써서 소환하다가 볼따구 집어당기고 깨물다가 눈동자에 인중에 맞대서 비비고 쓰다듬고 물 주고 밥 주고 같이 놀아주고 또 쓰다듬고 뒤에 있는 핏줄을 하트 모양으로 만들고 올라 타서 아름답고 개성있는 커럽션 위에 산책 해주고 사지가 분해된 토끼의 머리랑 팔로 핑퐁 해주고 싶고 레몬 즙짜서 발라주고 지하에서 캔 금으로 장식 달아주고 뽀뽀 갈기고 데려가서 길들여가지고 입에 뼈다귀 달아줘서 여왕벌이랑 세상을 먹는 자한테 보여줘서 자랑하고 하트 크리스탈 잔뜩 먹여주고 구르는 바위로 좀비들한테 돌려 같이 볼링하고 킹 슬라임 위에서 같이 쉬고 옆집에 온 외눈사슴이랑 벳시랑 같이 술먹고 안주먹고 괴물 라자냐 먹고 택스쳐팩으로 모습도 바꿔주고 딸기쇼트케이크 먹이고 황금 별미 먹이고 또 볼따구 집어당기고 월 오브 플래시랑 또 닮아가지고 귀엽고 스파즈마티즘이랑 레티나이저랑 닮아서 더 귀여워서 또또 쓰다듬고 집어 던져서 연금술 탁자로 사랑의 포션, 신속 포션, 철피부 포션, 거인 포션 주고 코스프레 시켜주고 싶고 껴안아서 뽀뽀 마구마구 해주고 시아버지와 시어머니인 문로드랑 크툴루의 뇌한테 허락 받아서 해변가 앞에 떠밀려오는 낚시꾼 용암에 담궈 죽이고 크툴루의 눈에게 고백해서 다이아몬드 반지 주고 조개폰 주고 진정한 구리 단검 줘가지고 결혼식장에 뽀뽀해서 결혼하고 집 짓고 또또또 쓰다듬고 또 뽀뽀하고 또또 뽀뽀하고 페인터가 그린 액자 달고 행상인 죽여서 행상인 모자 주고 그 날이 왔을때 원한다면 !$를 잔뜩 해서 크툴루의 하수인 잔뜩 만들어주고 수상하게 웃는 눈 얻고 크툴루의 하수인들을 위해서 주민등록증 만들어주고 가족여행으로 밤하늘이 빛나는 오로라에 데려가서 모닥불에 마시멜로 구워서 마침 지나가던 얼음 슬라임이랑 기계공 죽여서 요리하고 가족들한테 나눠주고 사막에 가서 친구가 알려준 대로 개미귀신이랑 가족이랑 같이 사진 찍고 호박석 찾아서 도토리랑 조합해 농사 지어서 돈 벌다가 곰 만날때 벌벌 떠는 크툴루의 눈이랑 크툴루의 하수인들을 위해서 테라 블레이드로 잡고 결혼하기 전에 했었던 토끼 사지로 핑퐁 가족이랑 같이 하고 크툴루의 하수인들이 충분히 컸을때 학교에 데려가 혹시 무슨 일이라도 일어나는지 신경 써주고 어려워하는 문제 풀어주고 나도 못풀면 인터넷 검색해서 알려주고 장래는 피자집 사장 되든 옷가게 마네킹이 되든 범죄자가 되든 너무 잘못된 길만 아니면 어떻게 가는지 강요하지 않고 자유롭",
+          "진짜 개빡치는게 게임 하는 방법도 ㅈㄴ 어렵고 ㅅㅂ 친구랑 멀티하는데 멀티방 안들어가져서 이차 화가났고 방법을 어찌저찌 찾았는데 들어가는 방법도 개어렵고 가지가지하네요. 이정도묜 옵데이트를 해서 방법을 쉽게 하던지 이게 지금 뭔지 모르겠네요;;;; 이런 게임은 처음입니다. 고객의 편의성은 개나 줘버린듯"
         ],
         "evidence_snippets": [
-          "#오픈월드 #RPG 가격 대비 미친 가성비 + 탐험이 끝도 없음 + 건축과 창작의 자유 + 콘텐츠 밀도 미쳤다 + 채굴이 노동인데 힐링임 - 밋밋한 픽셀아트 - 뭐부터 시작 해야 할지 몰겟음 - 인벤토리 스트레스 - 조작 키 세팅이 직관적이지 않음 - 모드 의존성?",
-          "보스를 잡아야 하는 명분이 이렇게 명확한 적은 없었다. 마지막 보스까지 지루할 틈 없이 진행돼버리는 게임 인생 갈린다 조심해라"
+          "크툴루의 눈이 너무 귀여워서 수상하게 보이는 눈 써서 소환하다가 볼따구 집어당기고 깨물다가 눈동자에 인중에 맞대서 비비고 쓰다듬고 물 주고 밥 주고 같이 놀아주고 또 쓰다듬고 뒤에 있는 핏줄을 하트 모양으로 만들고 올라 타서 아름답고 개성있는 커럽션 위에 산책 해주고 사지가 분해된 토끼의 머리랑 팔로 핑퐁 해주고 싶고 레몬 즙짜서 발라주고 지하에서 캔 금으로 장식 달아주고 뽀뽀 갈기고 데려가서 길들여가지고 입에 뼈다귀 달아줘서 여왕벌이랑 세상을 먹는 자한테 보여줘서 자랑하고 하트 크리스탈 잔뜩 먹여주고 구르는 바위로 좀비들한테 돌려 같이 볼링하고 킹 슬라임 위에서 같이 쉬고 옆집에 온 외눈사슴이랑 벳시랑 같이 술먹고 안주먹고 괴물 라자냐 먹고 택스쳐팩으로 모습도 바꿔주고 딸기쇼트케이크 먹이고 황금 별미 먹이고 또 볼따구 집어당기고 월 오브 플래시랑 또 닮아가지고 귀엽고 스파즈마티즘이랑 레티나이저랑 닮아서 더 귀여워서 또또 쓰다듬고 집어 던져서 연금술 탁자로 사랑의 포션, 신속 포션, 철피부 포션, 거인 포션 주고 코스프레 시켜주고 싶고 껴안아서 뽀뽀 마구마구 해주고 시아버지와 시어머니인 문로드랑 크툴루의 뇌한테 허락 받아서 해변가 앞에 떠밀려오는 낚시꾼 용암에 담궈 죽이고 크툴루의 눈에게 고백해서 다이아몬드 반지 주고 조개폰 주고 진정한 구리 단검 줘가지고 결혼식장에 뽀뽀해서 결혼하고 집 짓고 또또또 쓰다듬고 또 뽀뽀하고 또또 뽀뽀하고 페인터가 그린 액자 달고 행상인 죽여서 행상인 모자 주고 그 날이 왔을때 원한다면!$를 잔뜩 해서 크툴루의 하수인 잔뜩 만들어주고 수상하게 웃는 눈 얻고 크툴루의 하수인들을 위해서 주민등록증 만들어주고 가족여행으로 밤하늘이 빛나는 오로라에 데려가서 모닥불에 마시멜로 구워서 마침 지나가던 얼음 슬라임이랑 기계공 죽여서 요리하고 가족들한테 나눠주고 사막에 가서 친구가 알려준 대로 개미귀신이랑 가족이랑 같이 사진 찍고 호박석 찾아서 도토리랑 조합해 농사 지어서 돈 벌다가 곰 만날때 벌벌 떠는 크툴루의 눈이랑 크툴루의 하수인들을 위해서 테라 블레이드로 잡고 결혼하기 전에 했었던 토끼 사지로 핑퐁 가족이랑 같이 하고 크툴루의 하수인들이 충분히 컸을때 학교에 데려가 혹시 무슨 일이라도 일어나는지 신경 써주고 어려워하는 문제 풀어주고 나도 못풀면 인터넷 검색해서 알려주고 장래는 피자집 사장 되든 옷가게 마네킹이 되든 범죄자가 되든 너무 잘못된 길만 아니면 어떻게 가는지 강요하지 않고 자유롭",
+          "진짜 개빡치는게 게임 하는 방법도 ㅈㄴ 어렵고 ㅅㅂ 친구랑 멀티하는데 멀티방 안들어가져서 이차 화가났고 방법을 어찌저찌 찾았는데 들어가는 방법도 개어렵고 가지가지하네요. 이정도묜 옵데이트를 해서 방법을 쉽게 하던지 이게 지금 뭔지 모르겠네요;;;; 이런 게임은 처음입니다. 고객의 편의성은 개나 줘버린듯"
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-negative-1-5-3640218677881416729",
+            "text": "크툴루의 눈이 너무 귀여워서 수상하게 보이는 눈 써서 소환하다가 볼따구 집어당기고 깨물다가 눈동자에 인중에 맞대서 비비고 쓰다듬고 물 주고 밥 주고 같이 놀아주고 또 쓰다듬고 뒤에 있는 핏줄을 하트 모양으로 만들고 올라 타서 아름답고 개성있는 커럽션 위에 산책 해주고 사지가 분해된 토끼의 머리랑 팔로 핑퐁 해주고 싶고 레몬 즙짜서 발라주고 지하에서 캔 금으로 장식 달아주고 뽀뽀 갈기고 데려가서 길들여가지고 입에 뼈다귀 달아줘서 여왕벌이랑 세상을 먹는 자한테 보여줘서 자랑하고 하트 크리스탈 잔뜩 먹여주고 구르는 바위로 좀비들한테 돌려 같이 볼링하고 킹 슬라임 위에서 같이 쉬고 옆집에 온 외눈사슴이랑 벳시랑 같이 술먹고 안주먹고 괴물 라자냐 먹고 택스쳐팩으로 모습도 바꿔주고 딸기쇼트케이크 먹이고 황금 별미 먹이고 또 볼따구 집어당기고 월 오브 플래시랑 또 닮아가지고 귀엽고 스파즈마티즘이랑 레티나이저랑 닮아서 더 귀여워서 또또 쓰다듬고 집어 던져서 연금술 탁자로 사랑의 포션, 신속 포션, 철피부 포션, 거인 포션 주고 코스프레 시켜주고 싶고 껴안아서 뽀뽀 마구마구 해주고 시아버지와 시어머니인 문로드랑 크툴루의 뇌한테 허락 받아서 해변가 앞에 떠밀려오는 낚시꾼 용암에 담궈 죽이고 크툴루의 눈에게 고백해서 다이아몬드 반지 주고 조개폰 주고 진정한 구리 단검 줘가지고 결혼식장에 뽀뽀해서 결혼하고 집 짓고 또또또 쓰다듬고 또 뽀뽀하고 또또 뽀뽀하고 페인터가 그린 액자 달고 행상인 죽여서 행상인 모자 주고 그 날이 왔을때 원한다면 !$를 잔뜩 해서 크툴루의 하수인 잔뜩 만들어주고 수상하게 웃는 눈 얻고 크툴루의 하수인들을 위해서 주민등록증 만들어주고 가족여행으로 밤하늘이 빛나는 오로라에 데려가서 모닥불에 마시멜로 구워서 마침 지나가던 얼음 슬라임이랑 기계공 죽여서 요리하고 가족들한테 나눠주고 사막에 가서 친구가 알려준 대로 개미귀신이랑 가족이랑 같이 사진 찍고 호박석 찾아서 도토리랑 조합해 농사 지어서 돈 벌다가 곰 만날때 벌벌 떠는 크툴루의 눈이랑 크툴루의 하수인들을 위해서 테라 블레이드로 잡고 결혼하기 전에 했었던 토끼 사지로 핑퐁 가족이랑 같이 하고 크툴루의 하수인들이 충분히 컸을때 학교에 데려가 혹시 무슨 일이라도 일어나는지 신경 써주고 어려워하는 문제 풀어주고 나도 못풀면 인터넷 검색해서 알려주고 장래는 피자집 사장 되든 옷가게 마네킹이 되든 범죄자가 되든 너무 잘못된 길만 아니면 어떻게 가는지 강요하지 않고 자유롭"
+          },
+          {
+            "review_id": "compress-v3-negative-1-7-6395686737218363392",
+            "text": "진짜 개빡치는게 게임 하는 방법도 ㅈㄴ 어렵고 ㅅㅂ 친구랑 멀티하는데 멀티방 안들어가져서 이차 화가났고 방법을 어찌저찌 찾았는데 들어가는 방법도 개어렵고 가지가지하네요. 이정도묜 옵데이트를 해서 방법을 쉽게 하던지 이게 지금 뭔지 모르겠네요;;;; 이런 게임은 처음입니다. 고객의 편의성은 개나 줘버린듯"
+          }
         ]
       }
     ]
   },
-  "disclaimer": "이 리포트는 반복적으로 관찰된 고합의 리뷰 신호를 구매 판단 관점으로 재해석한 결과입니다.",
-  "headline": "중독성 / 시간순삭 장점은 분명하지만 전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험가 거슬릴 수 있어 할인 시점이 더 안전합니다.",
-  "buy_recommendation": "buy_on_sale",
-  "buy_timing_summary": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험 불편을 감수해야 할 수 있어 가격 메리트가 있는 시점이 더 낫습니다.",
+  "disclaimer": "여러 유저 리뷰를 바탕으로 정리했어요. 플레이 경험은 사람마다 다를 수 있어요.",
+  "headline": "게임의 콘텐츠 깊이와 멀티플레이 경험이 뛰어나며, 가격 대비 가성비가 우수합니다.",
+  "buy_recommendation": "buy_now",
+  "buy_timing_summary": "매칭과 서버 상태 변화의 불편을 감수해야 할 수 있어 가격 메리트가 있는 시점이 더 낫습니다.",
   "good_for": [
-    "하루에 오래 붙잡고 성장 루프를 깊게 파는 플레이어"
+    "플레이 흐름이 점점 또렷해지는 재미를 좋아하는 플레이어",
+    "하루에 오래 붙잡고 성장 루프를 깊게 파는 플레이어",
+    "맵을 돌아다니며 발견하는 재미를 중요하게 보는 플레이어"
   ],
   "not_good_for": [
-    "가격 대비 체감 만족을 매우 엄격하게 따지는 플레이어"
+    "매칭과 서버 상태 변화에 스트레스를 크게 받는 플레이어",
+    "비용 대비 만족을 꼼꼼하게 따지는 플레이어"
   ],
   "top_strengths": [
     {
-      "title": "중독성 / 시간순삭",
-      "summary": "중독성 / 시간순삭 덕분에 장시간 플레이에서도 목표를 잃지 않기 쉽습니다."
+      "title": "플레이 흐름이 점점 또렷해지는 재미",
+      "summary": "기본 흐름이 안정적으로 자리 잡아 익숙해질수록 재미 포인트가 더 분명해집니다."
     },
     {
-      "title": "모드 지원 / 호환 문제",
-      "summary": "모드 지원 / 호환 문제가 실제 플레이 만족도로 이어지는 편입니다."
+      "title": "오래 붙잡게 만드는 성장 루프",
+      "summary": "목표를 쌓아가며 오래 붙잡게 되는 성장 구조가 강해 장기 플레이와 잘 맞습니다."
     },
     {
-      "title": "멀티플레이 경험",
-      "summary": "멀티플레이 경험이 실제 플레이 만족도로 이어지는 편입니다."
+      "title": "발견이 이어지는 탐험 경험",
+      "summary": "이동하고 발견하는 과정 자체가 재미를 만들어 탐험 비중이 높은 플레이에 맞습니다."
     }
   ],
   "top_risks": [
     {
-      "title": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험",
-      "summary": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험이 플레이 경험의 만족도를 낮출 수 있어 주의가 필요합니다."
+      "title": "매칭과 서버 상태에 따라 체감이 흔들리는 구간",
+      "summary": "매칭과 서버 상태가 흔들리면 한 판의 완성도가 크게 달라질 수 있습니다."
     },
     {
-      "title": "가격 대비 만족도가 갈려 구매 타이밍을 따져봐야 하는 포인트",
-      "summary": "가격 대비 만족도가 갈려 구매 타이밍을 따져봐야 하는 포인트가 거슬리면 가격 대비 만족감이 빠르게 떨어질 수 있습니다."
+      "title": "가격 대비 만족이 갈릴 수 있는 부분",
+      "summary": "가격 부담이 크면 기대만큼 만족하지 못했다는 반응이 나올 수 있습니다."
+    },
+    {
+      "title": "진입 장벽으로 인한 플레이 피로",
+      "summary": "초반의 높은 난이도와 불친절한 튜토리얼로 인해 많은 플레이어가 어려움을 느낄 수 있습니다."
     }
   ],
   "recent_state": {
     "status": "mixed",
-    "summary": "만족 포인트와 불편 포인트가 함께 보여 체감 평가가 갈리는 상태입니다."
+    "summary": "좋았다는 반응과 아쉽다는 반응이 함께 보여 평가가 갈리는 편입니다."
   },
   "evidence_reviews": [
     {
       "block_id": "str_1",
-      "title": "중독성 / 시간순삭이 실제 플레이 만족으로 이어진다는 반응",
+      "title": "오래 붙잡게 되는 성장 루프가 있다는 반응.",
       "theme": "중독성 / 시간순삭",
-      "why_it_matters": "콘텐츠 볼륨에서 중독성 / 시간순삭 체감이 좋으면 초반부터 몰입이 붙어 장시간 플레이 만족으로 이어질 가능성이 큽니다.",
-      "explanation": "콘텐츠 볼륨에서 중독성 / 시간순삭 체감이 좋으면 초반부터 몰입이 붙어 장시간 플레이 만족으로 이어질 가능성이 큽니다.",
+      "why_it_matters": "오래 붙잡는 이유가 분명하다는 반응이 많아, 장기 플레이 동기가 필요한 게임에 가깝습니다.",
+      "explanation": "오래 붙잡는 이유가 분명하다는 반응이 많아, 장기 플레이 동기가 필요한 게임에 가깝습니다.",
       "aspect_keys": [
         "content_depth"
       ],
       "stance": "positive",
       "consensus_level": "high",
-      "mention_count": 305,
+      "mention_count": 1744,
       "evidence_quality_level": "strict",
       "evidence_candidate_snippets": [
-        "마인크래프트 짭이라고 하는 잼민이들은 그냥 하지를마라. 이건 별개의게임이다. 비슷한 요소가 거의없다. 모드가 없는대신 마인크래프트보다 더 많은 자체 콘텐츠와 보스들이 재미있다.",
-        "하기 전까진 몰랐지만 내면을 바라보니 이만한 갓겜이 없다. 아이템 파밍하는건 지겨운 일 이라고 생각한 틀을 깨 부순 게임 정말 재밌다"
+        "파밍만해도 재밌다 마크 감성은 안해봐서 모르겠지만 이런 느낌이려나",
+        "마인크래프트 짭이라고 하는 잼민이들은 그냥 하지를마라. 이건 별개의게임이다. 비슷한 요소가 거의없다. 모드가 없는대신 마인크래프트보다 더 많은 자체 콘텐츠와 보스들이 재미있다."
       ],
       "evidence_snippets": [
-        "마인크래프트 짭이라고 하는 잼민이들은 그냥 하지를마라. 이건 별개의게임이다. 비슷한 요소가 거의없다. 모드가 없는대신 마인크래프트보다 더 많은 자체 콘텐츠와 보스들이 재미있다.",
-        "하기 전까진 몰랐지만 내면을 바라보니 이만한 갓겜이 없다. 아이템 파밍하는건 지겨운 일 이라고 생각한 틀을 깨 부순 게임 정말 재밌다"
+        "파밍만해도 재밌다 마크 감성은 안해봐서 모르겠지만 이런 느낌이려나",
+        "마인크래프트 짭이라고 하는 잼민이들은 그냥 하지를마라. 이건 별개의게임이다. 비슷한 요소가 거의없다. 모드가 없는대신 마인크래프트보다 더 많은 자체 콘텐츠와 보스들이 재미있다."
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-positive-1-1-6038408767726996020",
+          "text": "파밍만해도 재밌다 마크 감성은 안해봐서 모르겠지만 이런 느낌이려나"
+        },
+        {
+          "review_id": "compress-v3-positive-1-2-2744866993078580328",
+          "text": "마인크래프트 짭이라고 하는 잼민이들은 그냥 하지를마라. 이건 별개의게임이다. 비슷한 요소가 거의없다. 모드가 없는대신 마인크래프트보다 더 많은 자체 콘텐츠와 보스들이 재미있다."
+        }
       ]
     },
     {
       "block_id": "str_2",
-      "title": "멀티플레이 경험이 실제 플레이 만족으로 이어진다는 반응",
+      "title": "팀 합이 맞을 때 재미가 커진다는 반응",
       "theme": "멀티플레이 경험",
-      "why_it_matters": "멀티플레이에서 멀티플레이 경험 체감이 좋으면 초반부터 몰입이 붙어 장시간 플레이 만족으로 이어질 가능성이 큽니다.",
-      "explanation": "멀티플레이에서 멀티플레이 경험 체감이 좋으면 초반부터 몰입이 붙어 장시간 플레이 만족으로 이어질 가능성이 큽니다.",
+      "why_it_matters": "팀 합이 맞을 때 만족도가 올라간다는 반응이 많아, 함께 맞춰가는 플레이를 좋아하면 잘 맞습니다.",
+      "explanation": "팀 합이 맞을 때 만족도가 올라간다는 반응이 많아, 함께 맞춰가는 플레이를 좋아하면 잘 맞습니다.",
       "aspect_keys": [
         "multiplayer"
       ],
       "stance": "positive",
       "consensus_level": "high",
-      "mention_count": 237,
+      "mention_count": 1542,
       "evidence_quality_level": "relaxed",
       "evidence_candidate_snippets": [
-        "마크 광질에 보스전이랑 마법 첨가됨. 근데 ㅈㄴ 재밌음 -난이도: 처음에는 클래식으로 하는 거 추천. 위키는 사실상 필수. 일단 이상한 지형 나오면 뒤로 빠지는 걸 추천 -광질: 일단 첨부터 광질하는 건 비추; 자연동굴 돌아다니면서 상자 여는 게 초반엔 제일 효율이 좋은 듯. 나중 가면 월핵이 합법이 됨(?) -전투: 극초반에는 슬라임 빼곤 몬스터 피하는 게 좋음 (-1일차 밤에 10번 넘게 죽은 사람) -보스전: 재밌음. 패턴 뚜렷함, 대미지도 크진 않음(클래식 기준. 그 위는 직접 해보시길..ㅋㅋ) ㄹㅇ 인생겜. 리로직 개발자님들 사랑해요",
-        "모드가 본체, 친구랑 하면 재밌다",
-        "어릴 적 친구들과 웃음으로 밤을 새우게 해준, 함께한다는 즐거움의 첫 문장. 지금은 나는 훌쩍 커서 어른이 되어버렸지만 아직도 친구들과 함께 웃을 수 있어",
-        "재밌어지는데까지 시간이 조금 걸리지만, 시간 조금 들여서 캐릭터가 쎄지면 점점 재밌다 근데 겜이 친절한 편은 아니기 때문에 혼자 처음하면 힘들수도 있다 테라리아를 잘 아는 친구랑 같이 하거나, 혼자 하게되면 인터넷 조금 찾아보면서 하는것이 좋다"
+        "친구랑 같이 했을때 기준 통곡의 30시간을 못 넘는 게임, 혼자하면 취향 맞으면 몇시간이고 하는데, 난 뇌가 도파민으로 절여져 있다, 개 초딩이라서 천천히 성장하는 게임은 못버티는 허접 팝콘 뇌다 빠르게 분비되는 도파민 아니면 만족못하는 개 씹 조루 프로 딸잡이다, 그럼 이 게임 못함 멀티를 지원하면서 멀티에 이리 멀티에 안 맞는 게임이 있을까, 물론 갓겜이긴 한데, 혼자하면 혼자서 호빗부터 반지의 제왕을 찍어낼수 있는데, 이것도 취향에 맞아야지 가능함 반대로 취향에 안맞으면 골든 아머 못 만들고 너무 힘들엉ㅠㅠ 하고 그만둘수 있음 개인적으론 멀티에 안 맞는다 라고 생각할뿐 사실 내가 한 게임중 가장 고 평가긴 함",
+        "테라리아 처음한 게 15년 전 거의 중학생 1학년 때 인 것 같은데 처음엔 항상 비교 당하는 마인크래프트에 비해서 완성도도 너무 낮고 컨텐츠도 너무 없었음. 1.2버전 오기 까지도 업데이트 주기가 너무 길어서 학생인 입장에선 굉장히 힘들었는데 그래도 한 번 업데이트 할 때마다 대규모 업데이트 수준의 많은 컨텐츠와 아이템들, 수준급 콜라보 등등. 그 뿐만 아니라 편의성 업데이트 및 유저 피드백 적극 수용. 심지어 모두 무료. 취향만 맞으면 정말 갓겜이 따로 없다. 샌드박스 형식에 RPG 요소가 강하고 캐릭터와 월드 별로 난이도도 분리해 솔플과 멀티 모두 재밌다. 난 마인크래프트 같은 경우는 아무리 해도 목적 의식이 없고 3D 멀미가 없음에도 불구하고 채광이나 농사, 낚시 등 반복적인 작업에서 오는 피로감이 굉장히 심해서 가끔 한 번씩 해도 오래 못하는데 테라리아는 가끔 한 번씩 정말 오래 하게 됨. 몬헌처럼 장비와 무기에 따라 직업도 나눌 수 있고 건축이면 건축, 사냥이면 사냥 정말 재밌는 요소가 많다. 아쉬운 점은 생활 컨텐츠가 부족하다는 점? 농사나 요리, 낚시 같은 부분에선 사실 마인크래프트 보다는 조금 부실하다고 생각하는데 컨텐츠 자체가 부족하다는 것보단 이 요소들은 생활 컨텐츠에 관련된 부분인데 전부 RPG적 요소하고만 관련되어 있다는 것이 조금 아쉽다. 농사 같은 경우는 약초 재배 정도인데 전부 버프 포션과 관련되어 있고 낚시도 퀘스트, 요리도 버프. 여하간 재밌는 갓겜임에는 틀림 없는 사실이다. 진입 장벽이라고 할만한 건 클래식한 도트 그래픽 정도? 그래도 여태까지 테라리아 추천해서 취향에 맞아가지고 한 사람들 중에 모두 최소 100시간 이상씩은 함. 대학교 졸업 시즌에 학교 후배들이랑 멀티 플레이 했었는데 거의 3주 동안 잠도 제대로 안자고 플레이 했음. 취향 맞으면 절대로 해봐야 할 게임 중 하나.",
+        "제가 이것을 친구들과 함께 했던 279시간에 추억을 말해보겠습니다... 게임을 구매하고 멀티를 킨다음 녀석과 함께 디코를 나누며 커마할때 나누던 개드립 그러다가 지하로 내려가서 죽은후에 잃어버린 돈이 아까워서 고생했던 얼척없는 노과다 감잡고 나서 같이 아이템을 찾고 곡괭이와 우정에 의지하며 나아갔던 탐험 보스 아이템을 얻고 본격적으로 전장을 만들고 싸우던 전투와 전투이후 아이템을 보며 웃던 기억 그렇게 하드모드도 들어가고... 그렇게 광물을 얻고... 광신도를 잡고 네개의 기둥을 파괴하고 준비하던 최종보스의 긴장감속 나누었던 대화... \"하...이 개같던 일상에 마지막이냐?\" \"병신아 그런 소리할 시간에 포션이나 한번더 채크해\" \"총알없으면 병신인 새끼가 할말이냐?\" \"너도 마나없으면 병신이잖냐\" \"아무튼 함께해서 좆같았고 좆같은 만큼 즐거웠다\" \"나는 그냥 개같았어\" \"...마지막까지 지랄이네\" 그러고 잡았던 최종보스에 추억 저는 아직도 잊지못합니다....",
+        "처음 들어가면 기본 캐릭터처럼 생긴 가이드가 여러분을 반겨줍니다. 어떻게 게임을 하는지, 단축키는 무엇인지, 목표가 무엇인지 조차 정확하게 알려주진 않지만, 결국 나중에 쓸모는 있는 그냥 가이드 npc예요. 굴을 파고 땅을 다지고 사지가 몇 번 찢어지다보면 '솟망겜 개어렵네 어떻게함?' 이라는 말이 절로 나오지만, 다시 상점페이지를 열어 '압도적으로 긍정적(845,178)'을 보면, 아 좀만 더 해볼까? 라는 생각이 듭니다. 뭔가 알 것 같고, 이렇게 하면 될 것 같을 때 꺼무위키를 켜게된 당신은 알 것 같았던건 다 모르는 거였고, 하면 될 것 같은건 하면 안되면 혹은 안 해도 되는 것이었다는 걸 깨닫습니다. 테라리아는 그때부터입니다. 갑자기 시간이 사라지기 시작하고, 실력은 선형적으로 성장하기 시작합니다. 하지만 뭔가 최종 보스같은걸 잡고 나서, 다시 뚝배기가 깨지기 시작합니다. 사실 테리리아는 이때부터입니다. 시간이 녹기 시작하고, 실력은 log 그래프를 그리며 성장하기 시작합니다. ... 이후 친구를 불러모으고, 멀티에 재미를 느끼기 시작하며, 직업의 다양성을 깨우치기 시작합니다. 마침내 최종보스_진짜_진짜.mob를 잡은 여러분은 tmodloader에 손을 대기 시작합니다. 진짜 마지막으로, 테라리아는 이때부터입니다."
       ],
       "evidence_snippets": [
-        "마크 광질에 보스전이랑 마법 첨가됨. 근데 ㅈㄴ 재밌음 -난이도: 처음에는 클래식으로 하는 거 추천. 위키는 사실상 필수. 일단 이상한 지형 나오면 뒤로 빠지는 걸 추천 -광질: 일단 첨부터 광질하는 건 비추; 자연동굴 돌아다니면서 상자 여는 게 초반엔 제일 효율이 좋은 듯. 나중 가면 월핵이 합법이 됨(?) -전투: 극초반에는 슬라임 빼곤 몬스터 피하는 게 좋음 (-1일차 밤에 10번 넘게 죽은 사람) -보스전: 재밌음. 패턴 뚜렷함, 대미지도 크진 않음(클래식 기준. 그 위는 직접 해보시길..ㅋㅋ) ㄹㅇ 인생겜. 리로직 개발자님들 사랑해요",
-        "어릴 적 친구들과 웃음으로 밤을 새우게 해준, 함께한다는 즐거움의 첫 문장. 지금은 나는 훌쩍 커서 어른이 되어버렸지만 아직도 친구들과 함께 웃을 수 있어",
-        "재밌어지는데까지 시간이 조금 걸리지만, 시간 조금 들여서 캐릭터가 쎄지면 점점 재밌다 근데 겜이 친절한 편은 아니기 때문에 혼자 처음하면 힘들수도 있다 테라리아를 잘 아는 친구랑 같이 하거나, 혼자 하게되면 인터넷 조금 찾아보면서 하는것이 좋다"
+        "친구랑 같이 했을때 기준 통곡의 30시간을 못 넘는 게임, 혼자하면 취향 맞으면 몇시간이고 하는데, 난 뇌가 도파민으로 절여져 있다, 개 초딩이라서 천천히 성장하는 게임은 못버티는 허접 팝콘 뇌다 빠르게 분비되는 도파민 아니면 만족못하는 개 씹 조루 프로 딸잡이다, 그럼 이 게임 못함 멀티를 지원하면서 멀티에 이리 멀티에 안 맞는 게임이 있을까, 물론 갓겜이긴 한데, 혼자하면 혼자서 호빗부터 반지의 제왕을 찍어낼수 있는데, 이것도 취향에 맞아야지 가능함 반대로 취향에 안맞으면 골든 아머 못 만들고 너무 힘들엉ㅠㅠ 하고 그만둘수 있음 개인적으론 멀티에 안 맞는다 라고 생각할뿐 사실 내가 한 게임중 가장 고 평가긴 함",
+        "테라리아 처음한 게 15년 전 거의 중학생 1학년 때 인 것 같은데 처음엔 항상 비교 당하는 마인크래프트에 비해서 완성도도 너무 낮고 컨텐츠도 너무 없었음. 1. 2버전 오기 까지도 업데이트 주기가 너무 길어서 학생인 입장에선 굉장히 힘들었는데 그래도 한 번 업데이트 할 때마다 대규모 업데이트 수준의 많은 컨텐츠와 아이템들, 수준급 콜라보 등등. 그 뿐만 아니라 편의성 업데이트 및 유저 피드백 적극 수용. 심지어 모두 무료. 취향만 맞으면 정말 갓겜이 따로 없다. 샌드박스 형식에 RPG 요소가 강하고 캐릭터와 월드 별로 난이도도 분리해 솔플과 멀티 모두 재밌다. 난 마인크래프트 같은 경우는 아무리 해도 목적 의식이 없고 3D 멀미가 없음에도 불구하고 채광이나 농사, 낚시 등 반복적인 작업에서 오는 피로감이 굉장히 심해서 가끔 한 번씩 해도 오래 못하는데 테라리아는 가끔 한 번씩 정말 오래 하게 됨. 몬헌처럼 장비와 무기에 따라 직업도 나눌 수 있고 건축이면 건축, 사냥이면 사냥 정말 재밌는 요소가 많다. 아쉬운 점은 생활 컨텐츠가 부족하다는 점? 농사나 요리, 낚시 같은 부분에선 사실 마인크래프트 보다는 조금 부실하다고 생각하는데 컨텐츠 자체가 부족하다는 것보단 이 요소들은 생활 컨텐츠에 관련된 부분인데 전부 RPG적 요소하고만 관련되어 있다는 것이 조금 아쉽다. 농사 같은 경우는 약초 재배 정도인데 전부 버프 포션과 관련되어 있고 낚시도 퀘스트, 요리도 버프. 여하간 재밌는 갓겜임에는 틀림 없는 사실이다. 진입 장벽이라고 할만한 건 클래식한 도트 그래픽 정도? 그래도 여태까지 테라리아 추천해서 취향에 맞아가지고 한 사람들 중에 모두 최소 100시간 이상씩은 함. 대학교 졸업 시즌에 학교 후배들이랑 멀티 플레이 했었는데 거의 3주 동안 잠도 제대로 안자고 플레이 했음. 취향 맞으면 절대로 해봐야 할 게임 중 하나.",
+        "처음 들어가면 기본 캐릭터처럼 생긴 가이드가 여러분을 반겨줍니다. 어떻게 게임을 하는지, 단축키는 무엇인지, 목표가 무엇인지 조차 정확하게 알려주진 않지만, 결국 나중에 쓸모는 있는 그냥 가이드 npc예요. 굴을 파고 땅을 다지고 사지가 몇 번 찢어지다보면 '솟망겜 개어렵네 어떻게함?' 이라는 말이 절로 나오지만, 다시 상점페이지를 열어 '압도적으로 긍정적(845, 178)'을 보면, 아 좀만 더 해볼까? 라는 생각이 듭니다. 뭔가 알 것 같고, 이렇게 하면 될 것 같을 때 꺼무위키를 켜게된 당신은 알 것 같았던건 다 모르는 거였고, 하면 될 것 같은건 하면 안되면 혹은 안 해도 되는 것이었다는 걸 깨닫습니다. 테라리아는 그때부터입니다. 갑자기 시간이 사라지기 시작하고, 실력은 선형적으로 성장하기 시작합니다. 하지만 뭔가 최종 보스같은걸 잡고 나서, 다시 뚝배기가 깨지기 시작합니다. 사실 테리리아는 이때부터입니다. 시간이 녹기 시작하고, 실력은 log 그래프를 그리며 성장하기 시작합니다.... 이후 친구를 불러모으고, 멀티에 재미를 느끼기 시작하며, 직업의 다양성을 깨우치기 시작합니다. 마침내 최종보스_진짜_진짜. mob를 잡은 여러분은 tmodloader에 손을 대기 시작합니다. 진짜 마지막으로, 테라리아는 이때부터입니다."
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-positive-2-1-7383139495348870976",
+          "text": "친구랑 같이 했을때 기준 통곡의 30시간을 못 넘는 게임, 혼자하면 취향 맞으면 몇시간이고 하는데, 난 뇌가 도파민으로 절여져 있다, 개 초딩이라서 천천히 성장하는 게임은 못버티는 허접 팝콘 뇌다 빠르게 분비되는 도파민 아니면 만족못하는 개 씹 조루 프로 딸잡이다, 그럼 이 게임 못함 멀티를 지원하면서 멀티에 이리 멀티에 안 맞는 게임이 있을까, 물론 갓겜이긴 한데, 혼자하면 혼자서 호빗부터 반지의 제왕을 찍어낼수 있는데, 이것도 취향에 맞아야지 가능함 반대로 취향에 안맞으면 골든 아머 못 만들고 너무 힘들엉ㅠㅠ 하고 그만둘수 있음 개인적으론 멀티에 안 맞는다 라고 생각할뿐 사실 내가 한 게임중 가장 고 평가긴 함"
+        },
+        {
+          "review_id": "compress-v3-positive-2-5-8921004358935010347",
+          "text": "테라리아 처음한 게 15년 전 거의 중학생 1학년 때 인 것 같은데 처음엔 항상 비교 당하는 마인크래프트에 비해서 완성도도 너무 낮고 컨텐츠도 너무 없었음. 1.2버전 오기 까지도 업데이트 주기가 너무 길어서 학생인 입장에선 굉장히 힘들었는데 그래도 한 번 업데이트 할 때마다 대규모 업데이트 수준의 많은 컨텐츠와 아이템들, 수준급 콜라보 등등. 그 뿐만 아니라 편의성 업데이트 및 유저 피드백 적극 수용. 심지어 모두 무료. 취향만 맞으면 정말 갓겜이 따로 없다. 샌드박스 형식에 RPG 요소가 강하고 캐릭터와 월드 별로 난이도도 분리해 솔플과 멀티 모두 재밌다. 난 마인크래프트 같은 경우는 아무리 해도 목적 의식이 없고 3D 멀미가 없음에도 불구하고 채광이나 농사, 낚시 등 반복적인 작업에서 오는 피로감이 굉장히 심해서 가끔 한 번씩 해도 오래 못하는데 테라리아는 가끔 한 번씩 정말 오래 하게 됨. 몬헌처럼 장비와 무기에 따라 직업도 나눌 수 있고 건축이면 건축, 사냥이면 사냥 정말 재밌는 요소가 많다. 아쉬운 점은 생활 컨텐츠가 부족하다는 점? 농사나 요리, 낚시 같은 부분에선 사실 마인크래프트 보다는 조금 부실하다고 생각하는데 컨텐츠 자체가 부족하다는 것보단 이 요소들은 생활 컨텐츠에 관련된 부분인데 전부 RPG적 요소하고만 관련되어 있다는 것이 조금 아쉽다. 농사 같은 경우는 약초 재배 정도인데 전부 버프 포션과 관련되어 있고 낚시도 퀘스트, 요리도 버프. 여하간 재밌는 갓겜임에는 틀림 없는 사실이다. 진입 장벽이라고 할만한 건 클래식한 도트 그래픽 정도? 그래도 여태까지 테라리아 추천해서 취향에 맞아가지고 한 사람들 중에 모두 최소 100시간 이상씩은 함. 대학교 졸업 시즌에 학교 후배들이랑 멀티 플레이 했었는데 거의 3주 동안 잠도 제대로 안자고 플레이 했음. 취향 맞으면 절대로 해봐야 할 게임 중 하나."
+        },
+        {
+          "review_id": "compress-v3-positive-2-6-3376554409300948954",
+          "text": "제가 이것을 친구들과 함께 했던 279시간에 추억을 말해보겠습니다... 게임을 구매하고 멀티를 킨다음 녀석과 함께 디코를 나누며 커마할때 나누던 개드립 그러다가 지하로 내려가서 죽은후에 잃어버린 돈이 아까워서 고생했던 얼척없는 노과다 감잡고 나서 같이 아이템을 찾고 곡괭이와 우정에 의지하며 나아갔던 탐험 보스 아이템을 얻고 본격적으로 전장을 만들고 싸우던 전투와 전투이후 아이템을 보며 웃던 기억 그렇게 하드모드도 들어가고... 그렇게 광물을 얻고... 광신도를 잡고 네개의 기둥을 파괴하고 준비하던 최종보스의 긴장감속 나누었던 대화... \"하...이 개같던 일상에 마지막이냐?\" \"병신아 그런 소리할 시간에 포션이나 한번더 채크해\" \"총알없으면 병신인 새끼가 할말이냐?\" \"너도 마나없으면 병신이잖냐\" \"아무튼 함께해서 좆같았고 좆같은 만큼 즐거웠다\" \"나는 그냥 개같았어\" \"...마지막까지 지랄이네\" 그러고 잡았던 최종보스에 추억 저는 아직도 잊지못합니다...."
+        },
+        {
+          "review_id": "compress-v3-positive-2-8-2266938825187007114",
+          "text": "처음 들어가면 기본 캐릭터처럼 생긴 가이드가 여러분을 반겨줍니다. 어떻게 게임을 하는지, 단축키는 무엇인지, 목표가 무엇인지 조차 정확하게 알려주진 않지만, 결국 나중에 쓸모는 있는 그냥 가이드 npc예요. 굴을 파고 땅을 다지고 사지가 몇 번 찢어지다보면 '솟망겜 개어렵네 어떻게함?' 이라는 말이 절로 나오지만, 다시 상점페이지를 열어 '압도적으로 긍정적(845,178)'을 보면, 아 좀만 더 해볼까? 라는 생각이 듭니다. 뭔가 알 것 같고, 이렇게 하면 될 것 같을 때 꺼무위키를 켜게된 당신은 알 것 같았던건 다 모르는 거였고, 하면 될 것 같은건 하면 안되면 혹은 안 해도 되는 것이었다는 걸 깨닫습니다. 테라리아는 그때부터입니다. 갑자기 시간이 사라지기 시작하고, 실력은 선형적으로 성장하기 시작합니다. 하지만 뭔가 최종 보스같은걸 잡고 나서, 다시 뚝배기가 깨지기 시작합니다. 사실 테리리아는 이때부터입니다. 시간이 녹기 시작하고, 실력은 log 그래프를 그리며 성장하기 시작합니다. ... 이후 친구를 불러모으고, 멀티에 재미를 느끼기 시작하며, 직업의 다양성을 깨우치기 시작합니다. 마침내 최종보스_진짜_진짜.mob를 잡은 여러분은 tmodloader에 손을 대기 시작합니다. 진짜 마지막으로, 테라리아는 이때부터입니다."
+        }
       ]
     },
     {
       "block_id": "str_3",
-      "title": "모드 지원 / 호환 문제가 실제 플레이 만족으로 이어진다는 반응",
+      "title": "플레이 흐름이 안정적으로 잡힌다는 반응",
       "theme": "모드 지원 / 호환 문제",
-      "why_it_matters": "모드 지원/호환성에서 모드 지원 / 호환 문제 체감이 좋으면 초반부터 몰입이 붙어 장시간 플레이 만족으로 이어질 가능성이 큽니다.",
-      "explanation": "모드 지원/호환성에서 모드 지원 / 호환 문제 체감이 좋으면 초반부터 몰입이 붙어 장시간 플레이 만족으로 이어질 가능성이 큽니다.",
+      "why_it_matters": "플레이 흐름이 자연스럽게 자리 잡는다는 반응이 많아, 익숙해질수록 재미가 선명해지는 쪽에 잘 맞습니다.",
+      "explanation": "플레이 흐름이 자연스럽게 자리 잡는다는 반응이 많아, 익숙해질수록 재미가 선명해지는 쪽에 잘 맞습니다.",
       "aspect_keys": [
         "mod_support"
       ],
       "stance": "positive",
       "consensus_level": "high",
-      "mention_count": 208,
+      "mention_count": 869,
       "evidence_quality_level": "strict",
       "evidence_candidate_snippets": [
-        "컨텐츠의 축복이 끊이질 않는 게임. 개인적으로 마크보다 재밌게 함. 좀 많이 했다 싶어서 위키 켜보면 아직 하드모드 근처도 못 감. 11000원에 이만한 혜자가 없음. 괜히 압긍이 아님ㅋㅋㅋ",
-        "마인크래프트 짭이라고 하는 잼민이들은 그냥 하지를마라. 이건 별개의게임이다. 비슷한 요소가 거의없다. 모드가 없는대신 마인크래프트보다 더 많은 자체 콘텐츠와 보스들이 재미있다.",
-        "모드가 본체, 친구랑 하면 재밌다",
-        "바닐라부터 모드까지 육수까지 쭉 우려먹을 정도로 재밌음"
+        "지하 밑에서 곤히 자고 있는 슝악한 크툴루 괴물들을 굳이! 굳이 지상으로 불러내 조각내고 굳이 전리품을 획득하세요! 즐거우셨다면 칼라미티 모드로 넘어가십쇼",
+        "테라리아는 보스 레이드에 중점을 둔 게임입니다. 장점 : 보스를 격파하면 전리품으로 장비를 만들어서 성장하는 구조가 정말 잘 구성 되어있어요. 단점 : 신규 유입 입장에서 진행 단계의 안내가 불친절해서 하나하나 직접 찾아가면서 해야합니다. 전문가 난이도 까지 클리어 하셧다면, TmodeLoader 에서 칼라미티 모드 까지 꼭 해보시길 바랍니다.",
+        "국밥의 시초 모드가 많아서 낫베드 점점 강해지는 나 하지만 한없ㅇ ㅣ무너진다...",
+        "컨텐츠의 축복이 끊이질 않는 게임. 개인적으로 마크보다 재밌게 함. 좀 많이 했다 싶어서 위키 켜보면 아직 하드모드 근처도 못 감. 11000원에 이만한 혜자가 없음. 괜히 압긍이 아님ㅋㅋㅋ"
       ],
       "evidence_snippets": [
         "컨텐츠의 축복이 끊이질 않는 게임. 개인적으로 마크보다 재밌게 함. 좀 많이 했다 싶어서 위키 켜보면 아직 하드모드 근처도 못 감. 11000원에 이만한 혜자가 없음. 괜히 압긍이 아님ㅋㅋㅋ",
-        "마인크래프트 짭이라고 하는 잼민이들은 그냥 하지를마라. 이건 별개의게임이다. 비슷한 요소가 거의없다. 모드가 없는대신 마인크래프트보다 더 많은 자체 콘텐츠와 보스들이 재미있다.",
-        "바닐라부터 모드까지 육수까지 쭉 우려먹을 정도로 재밌음"
+        "국밥의 시초 모드가 많아서 낫베드 점점 강해지는 나 하지만 한없ㅇ ㅣ무너진다...",
+        "지하 밑에서 곤히 자고 있는 슝악한 크툴루 괴물들을 굳이! 굳이 지상으로 불러내 조각내고 굳이 전리품을 획득하세요! 즐거우셨다면 칼라미티 모드로 넘어가십쇼"
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-positive-3-1-472511791245650962",
+          "text": "지하 밑에서 곤히 자고 있는 슝악한 크툴루 괴물들을 굳이! 굳이 지상으로 불러내 조각내고 굳이 전리품을 획득하세요! 즐거우셨다면 칼라미티 모드로 넘어가십쇼"
+        },
+        {
+          "review_id": "compress-v3-positive-3-2-2592410757275784428",
+          "text": "테라리아는 보스 레이드에 중점을 둔 게임입니다. 장점 : 보스를 격파하면 전리품으로 장비를 만들어서 성장하는 구조가 정말 잘 구성 되어있어요. 단점 : 신규 유입 입장에서 진행 단계의 안내가 불친절해서 하나하나 직접 찾아가면서 해야합니다. 전문가 난이도 까지 클리어 하셧다면, TmodeLoader 에서 칼라미티 모드 까지 꼭 해보시길 바랍니다."
+        },
+        {
+          "review_id": "compress-v3-positive-3-3-758366387995676938",
+          "text": "국밥의 시초 모드가 많아서 낫베드 점점 강해지는 나 하지만 한없ㅇ ㅣ무너진다..."
+        },
+        {
+          "review_id": "compress-v3-positive-3-4-2874924250042105490",
+          "text": "컨텐츠의 축복이 끊이질 않는 게임. 개인적으로 마크보다 재밌게 함. 좀 많이 했다 싶어서 위키 켜보면 아직 하드모드 근처도 못 감. 11000원에 이만한 혜자가 없음. 괜히 압긍이 아님ㅋㅋㅋ"
+        }
       ]
     },
     {
       "block_id": "risk_1",
-      "title": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험 때문에 플레이 흐름이 끊긴다는 반응",
-      "theme": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험",
-      "why_it_matters": "전투/핵심 플레이에서 전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험 불편가 반복되면 초반 만족도가 크게 떨어질 수 있어 구매 전 감수 여부 확인가 필요합니다.",
-      "explanation": "전투/핵심 플레이에서 전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험 불편가 반복되면 초반 만족도가 크게 떨어질 수 있어 구매 전 감수 여부 확인가 필요합니다.",
+      "title": "매칭과 서버 상태가 체감을 흔든다는 반응",
+      "theme": "매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크",
+      "why_it_matters": "매칭과 서버 상태를 문제로 보는 반응이 이어져, 한 판의 완성도가 상황에 따라 꽤 달라질 수 있습니다.",
+      "explanation": "매칭과 서버 상태를 문제로 보는 반응이 이어져, 한 판의 완성도가 상황에 따라 꽤 달라질 수 있습니다.",
       "aspect_keys": [
-        "gameplay"
+        "multiplayer"
       ],
       "stance": "negative",
       "consensus_level": "high",
-      "mention_count": 167,
+      "mention_count": 1542,
       "evidence_quality_level": "guaranteed_fill",
       "evidence_candidate_snippets": [
-        "#오픈월드 #RPG 가격 대비 미친 가성비 + 탐험이 끝도 없음 + 건축과 창작의 자유 + 콘텐츠 밀도 미쳤다 + 채굴이 노동인데 힐링임 - 밋밋한 픽셀아트 - 뭐부터 시작 해야 할지 몰겟음 - 인벤토리 스트레스 - 조작 키 세팅이 직관적이지 않음 - 모드 의존성?",
-        "보스를 잡아야 하는 명분이 이렇게 명확한 적은 없었다. 마지막 보스까지 지루할 틈 없이 진행돼버리는 게임 인생 갈린다 조심해라"
+        "크툴루의 눈이 너무 귀여워서 수상하게 보이는 눈 써서 소환하다가 볼따구 집어당기고 깨물다가 눈동자에 인중에 맞대서 비비고 쓰다듬고 물 주고 밥 주고 같이 놀아주고 또 쓰다듬고 뒤에 있는 핏줄을 하트 모양으로 만들고 올라 타서 아름답고 개성있는 커럽션 위에 산책 해주고 사지가 분해된 토끼의 머리랑 팔로 핑퐁 해주고 싶고 레몬 즙짜서 발라주고 지하에서 캔 금으로 장식 달아주고 뽀뽀 갈기고 데려가서 길들여가지고 입에 뼈다귀 달아줘서 여왕벌이랑 세상을 먹는 자한테 보여줘서 자랑하고 하트 크리스탈 잔뜩 먹여주고 구르는 바위로 좀비들한테 돌려 같이 볼링하고 킹 슬라임 위에서 같이 쉬고 옆집에 온 외눈사슴이랑 벳시랑 같이 술먹고 안주먹고 괴물 라자냐 먹고 택스쳐팩으로 모습도 바꿔주고 딸기쇼트케이크 먹이고 황금 별미 먹이고 또 볼따구 집어당기고 월 오브 플래시랑 또 닮아가지고 귀엽고 스파즈마티즘이랑 레티나이저랑 닮아서 더 귀여워서 또또 쓰다듬고 집어 던져서 연금술 탁자로 사랑의 포션, 신속 포션, 철피부 포션, 거인 포션 주고 코스프레 시켜주고 싶고 껴안아서 뽀뽀 마구마구 해주고 시아버지와 시어머니인 문로드랑 크툴루의 뇌한테 허락 받아서 해변가 앞에 떠밀려오는 낚시꾼 용암에 담궈 죽이고 크툴루의 눈에게 고백해서 다이아몬드 반지 주고 조개폰 주고 진정한 구리 단검 줘가지고 결혼식장에 뽀뽀해서 결혼하고 집 짓고 또또또 쓰다듬고 또 뽀뽀하고 또또 뽀뽀하고 페인터가 그린 액자 달고 행상인 죽여서 행상인 모자 주고 그 날이 왔을때 원한다면 !$를 잔뜩 해서 크툴루의 하수인 잔뜩 만들어주고 수상하게 웃는 눈 얻고 크툴루의 하수인들을 위해서 주민등록증 만들어주고 가족여행으로 밤하늘이 빛나는 오로라에 데려가서 모닥불에 마시멜로 구워서 마침 지나가던 얼음 슬라임이랑 기계공 죽여서 요리하고 가족들한테 나눠주고 사막에 가서 친구가 알려준 대로 개미귀신이랑 가족이랑 같이 사진 찍고 호박석 찾아서 도토리랑 조합해 농사 지어서 돈 벌다가 곰 만날때 벌벌 떠는 크툴루의 눈이랑 크툴루의 하수인들을 위해서 테라 블레이드로 잡고 결혼하기 전에 했었던 토끼 사지로 핑퐁 가족이랑 같이 하고 크툴루의 하수인들이 충분히 컸을때 학교에 데려가 혹시 무슨 일이라도 일어나는지 신경 써주고 어려워하는 문제 풀어주고 나도 못풀면 인터넷 검색해서 알려주고 장래는 피자집 사장 되든 옷가게 마네킹이 되든 범죄자가 되든 너무 잘못된 길만 아니면 어떻게 가는지 강요하지 않고 자유롭",
+        "진짜 개빡치는게 게임 하는 방법도 ㅈㄴ 어렵고 ㅅㅂ 친구랑 멀티하는데 멀티방 안들어가져서 이차 화가났고 방법을 어찌저찌 찾았는데 들어가는 방법도 개어렵고 가지가지하네요. 이정도묜 옵데이트를 해서 방법을 쉽게 하던지 이게 지금 뭔지 모르겠네요;;;; 이런 게임은 처음입니다. 고객의 편의성은 개나 줘버린듯"
       ],
       "evidence_snippets": [
-        "#오픈월드 #RPG 가격 대비 미친 가성비 + 탐험이 끝도 없음 + 건축과 창작의 자유 + 콘텐츠 밀도 미쳤다 + 채굴이 노동인데 힐링임 - 밋밋한 픽셀아트 - 뭐부터 시작 해야 할지 몰겟음 - 인벤토리 스트레스 - 조작 키 세팅이 직관적이지 않음 - 모드 의존성?",
-        "보스를 잡아야 하는 명분이 이렇게 명확한 적은 없었다. 마지막 보스까지 지루할 틈 없이 진행돼버리는 게임 인생 갈린다 조심해라"
+        "크툴루의 눈이 너무 귀여워서 수상하게 보이는 눈 써서 소환하다가 볼따구 집어당기고 깨물다가 눈동자에 인중에 맞대서 비비고 쓰다듬고 물 주고 밥 주고 같이 놀아주고 또 쓰다듬고 뒤에 있는 핏줄을 하트 모양으로 만들고 올라 타서 아름답고 개성있는 커럽션 위에 산책 해주고 사지가 분해된 토끼의 머리랑 팔로 핑퐁 해주고 싶고 레몬 즙짜서 발라주고 지하에서 캔 금으로 장식 달아주고 뽀뽀 갈기고 데려가서 길들여가지고 입에 뼈다귀 달아줘서 여왕벌이랑 세상을 먹는 자한테 보여줘서 자랑하고 하트 크리스탈 잔뜩 먹여주고 구르는 바위로 좀비들한테 돌려 같이 볼링하고 킹 슬라임 위에서 같이 쉬고 옆집에 온 외눈사슴이랑 벳시랑 같이 술먹고 안주먹고 괴물 라자냐 먹고 택스쳐팩으로 모습도 바꿔주고 딸기쇼트케이크 먹이고 황금 별미 먹이고 또 볼따구 집어당기고 월 오브 플래시랑 또 닮아가지고 귀엽고 스파즈마티즘이랑 레티나이저랑 닮아서 더 귀여워서 또또 쓰다듬고 집어 던져서 연금술 탁자로 사랑의 포션, 신속 포션, 철피부 포션, 거인 포션 주고 코스프레 시켜주고 싶고 껴안아서 뽀뽀 마구마구 해주고 시아버지와 시어머니인 문로드랑 크툴루의 뇌한테 허락 받아서 해변가 앞에 떠밀려오는 낚시꾼 용암에 담궈 죽이고 크툴루의 눈에게 고백해서 다이아몬드 반지 주고 조개폰 주고 진정한 구리 단검 줘가지고 결혼식장에 뽀뽀해서 결혼하고 집 짓고 또또또 쓰다듬고 또 뽀뽀하고 또또 뽀뽀하고 페인터가 그린 액자 달고 행상인 죽여서 행상인 모자 주고 그 날이 왔을때 원한다면!$를 잔뜩 해서 크툴루의 하수인 잔뜩 만들어주고 수상하게 웃는 눈 얻고 크툴루의 하수인들을 위해서 주민등록증 만들어주고 가족여행으로 밤하늘이 빛나는 오로라에 데려가서 모닥불에 마시멜로 구워서 마침 지나가던 얼음 슬라임이랑 기계공 죽여서 요리하고 가족들한테 나눠주고 사막에 가서 친구가 알려준 대로 개미귀신이랑 가족이랑 같이 사진 찍고 호박석 찾아서 도토리랑 조합해 농사 지어서 돈 벌다가 곰 만날때 벌벌 떠는 크툴루의 눈이랑 크툴루의 하수인들을 위해서 테라 블레이드로 잡고 결혼하기 전에 했었던 토끼 사지로 핑퐁 가족이랑 같이 하고 크툴루의 하수인들이 충분히 컸을때 학교에 데려가 혹시 무슨 일이라도 일어나는지 신경 써주고 어려워하는 문제 풀어주고 나도 못풀면 인터넷 검색해서 알려주고 장래는 피자집 사장 되든 옷가게 마네킹이 되든 범죄자가 되든 너무 잘못된 길만 아니면 어떻게 가는지 강요하지 않고 자유롭",
+        "진짜 개빡치는게 게임 하는 방법도 ㅈㄴ 어렵고 ㅅㅂ 친구랑 멀티하는데 멀티방 안들어가져서 이차 화가났고 방법을 어찌저찌 찾았는데 들어가는 방법도 개어렵고 가지가지하네요. 이정도묜 옵데이트를 해서 방법을 쉽게 하던지 이게 지금 뭔지 모르겠네요;;;; 이런 게임은 처음입니다. 고객의 편의성은 개나 줘버린듯"
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-negative-1-5-3640218677881416729",
+          "text": "크툴루의 눈이 너무 귀여워서 수상하게 보이는 눈 써서 소환하다가 볼따구 집어당기고 깨물다가 눈동자에 인중에 맞대서 비비고 쓰다듬고 물 주고 밥 주고 같이 놀아주고 또 쓰다듬고 뒤에 있는 핏줄을 하트 모양으로 만들고 올라 타서 아름답고 개성있는 커럽션 위에 산책 해주고 사지가 분해된 토끼의 머리랑 팔로 핑퐁 해주고 싶고 레몬 즙짜서 발라주고 지하에서 캔 금으로 장식 달아주고 뽀뽀 갈기고 데려가서 길들여가지고 입에 뼈다귀 달아줘서 여왕벌이랑 세상을 먹는 자한테 보여줘서 자랑하고 하트 크리스탈 잔뜩 먹여주고 구르는 바위로 좀비들한테 돌려 같이 볼링하고 킹 슬라임 위에서 같이 쉬고 옆집에 온 외눈사슴이랑 벳시랑 같이 술먹고 안주먹고 괴물 라자냐 먹고 택스쳐팩으로 모습도 바꿔주고 딸기쇼트케이크 먹이고 황금 별미 먹이고 또 볼따구 집어당기고 월 오브 플래시랑 또 닮아가지고 귀엽고 스파즈마티즘이랑 레티나이저랑 닮아서 더 귀여워서 또또 쓰다듬고 집어 던져서 연금술 탁자로 사랑의 포션, 신속 포션, 철피부 포션, 거인 포션 주고 코스프레 시켜주고 싶고 껴안아서 뽀뽀 마구마구 해주고 시아버지와 시어머니인 문로드랑 크툴루의 뇌한테 허락 받아서 해변가 앞에 떠밀려오는 낚시꾼 용암에 담궈 죽이고 크툴루의 눈에게 고백해서 다이아몬드 반지 주고 조개폰 주고 진정한 구리 단검 줘가지고 결혼식장에 뽀뽀해서 결혼하고 집 짓고 또또또 쓰다듬고 또 뽀뽀하고 또또 뽀뽀하고 페인터가 그린 액자 달고 행상인 죽여서 행상인 모자 주고 그 날이 왔을때 원한다면 !$를 잔뜩 해서 크툴루의 하수인 잔뜩 만들어주고 수상하게 웃는 눈 얻고 크툴루의 하수인들을 위해서 주민등록증 만들어주고 가족여행으로 밤하늘이 빛나는 오로라에 데려가서 모닥불에 마시멜로 구워서 마침 지나가던 얼음 슬라임이랑 기계공 죽여서 요리하고 가족들한테 나눠주고 사막에 가서 친구가 알려준 대로 개미귀신이랑 가족이랑 같이 사진 찍고 호박석 찾아서 도토리랑 조합해 농사 지어서 돈 벌다가 곰 만날때 벌벌 떠는 크툴루의 눈이랑 크툴루의 하수인들을 위해서 테라 블레이드로 잡고 결혼하기 전에 했었던 토끼 사지로 핑퐁 가족이랑 같이 하고 크툴루의 하수인들이 충분히 컸을때 학교에 데려가 혹시 무슨 일이라도 일어나는지 신경 써주고 어려워하는 문제 풀어주고 나도 못풀면 인터넷 검색해서 알려주고 장래는 피자집 사장 되든 옷가게 마네킹이 되든 범죄자가 되든 너무 잘못된 길만 아니면 어떻게 가는지 강요하지 않고 자유롭"
+        },
+        {
+          "review_id": "compress-v3-negative-1-7-6395686737218363392",
+          "text": "진짜 개빡치는게 게임 하는 방법도 ㅈㄴ 어렵고 ㅅㅂ 친구랑 멀티하는데 멀티방 안들어가져서 이차 화가났고 방법을 어찌저찌 찾았는데 들어가는 방법도 개어렵고 가지가지하네요. 이정도묜 옵데이트를 해서 방법을 쉽게 하던지 이게 지금 뭔지 모르겠네요;;;; 이런 게임은 처음입니다. 고객의 편의성은 개나 줘버린듯"
+        }
       ]
     }
   ]

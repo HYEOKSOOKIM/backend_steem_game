@@ -27,6 +27,7 @@ class PlayerFitMapperTests(unittest.TestCase):
         )
         self.assertNotIn("핵심 플레이", phrase)
         self.assertNotIn("손에 익혀", phrase)
+
     def test_pubg_like_gameplay_does_not_map_to_boss_pattern(self):
         genres = ["Action", "Shooter", "Battle Royale"]
         subtype = infer_copy_subtype(
@@ -56,7 +57,7 @@ class PlayerFitMapperTests(unittest.TestCase):
             genres=genres,
             negative=False,
         )
-        self.assertTrue("루틴" in phrase or "생활" in phrase or "키워" in phrase)
+        self.assertTrue(any(token in phrase for token in ("루틴", "생활", "쌓아")))
         self.assertNotIn("전술", phrase)
         self.assertNotIn("운영 판단", phrase)
 
@@ -81,7 +82,7 @@ class PlayerFitMapperTests(unittest.TestCase):
         genres = ["Action", "Survival", "Sandbox", "Shooter"]
         subtype = infer_copy_subtype(
             aspect="gameplay",
-            theme="파밍과 거점 방어",
+            theme="루팅과 거점 방어",
             genres=genres,
             negative=False,
         )
@@ -102,7 +103,7 @@ class PlayerFitMapperTests(unittest.TestCase):
         genres = ["Simulation", "Farming Sim", "Cozy"]
         phrase = build_player_fit_phrase(
             aspect="gameplay",
-            theme="반복 루틴의 지루함",
+            theme="반복 루프의 지루함",
             genres=genres,
             negative=True,
         )
@@ -196,8 +197,78 @@ class PlayerFitMapperTests(unittest.TestCase):
             genres=genres,
             negative=False,
         )
-        self.assertIn("턴", phrase)
+        self.assertTrue("턴" in phrase or "판단" in phrase)
 
+    def test_warframe_maps_to_looter_shooter_progression(self):
+        genres = ["Action", "Shooter", "Looter Shooter", "Free to Play"]
+        subtype = infer_copy_subtype(
+            aspect="gameplay",
+            theme="장비 파밍과 빌드 성장",
+            genres=genres,
+            negative=False,
+        )
+        self.assertEqual(subtype, "looter_shooter_progression")
+        phrase = build_player_fit_phrase(
+            aspect="gameplay",
+            theme="장비 파밍과 빌드 성장",
+            genres=genres,
+            negative=False,
+        )
+        self.assertIn("장비", phrase)
+        self.assertNotIn("탐험", phrase)
+
+    def test_helldivers_maps_to_coop_live_service_shooter(self):
+        genres = ["Action", "Shooter", "Co-op", "Live Service Shooter"]
+        subtype = infer_copy_subtype(
+            aspect="multiplayer",
+            theme="분대 호흡과 임무 수행",
+            genres=genres,
+            negative=False,
+        )
+        self.assertEqual(subtype, "cooperative_live_service_shooter")
+        phrase = build_player_fit_phrase(
+            aspect="multiplayer",
+            theme="분대 호흡과 임무 수행",
+            genres=genres,
+            negative=False,
+        )
+        self.assertIn("분대", phrase)
+
+    def test_witcher_maps_to_narrative_openworld_immersion(self):
+        genres = ["RPG", "Open World", "Story Rich"]
+        subtype = infer_copy_subtype(
+            aspect="story",
+            theme="사건과 인물의 여운",
+            genres=genres + ["The Witcher 3"],
+            negative=False,
+        )
+        self.assertEqual(subtype, "narrative_openworld_immersion")
+        phrase = build_player_fit_phrase(
+            aspect="story",
+            theme="사건과 인물의 여운",
+            genres=genres + ["The Witcher 3"],
+            negative=False,
+        )
+        self.assertIn("사건", phrase)
+        self.assertNotIn("매칭", phrase)
+
+    def test_sims_maps_to_life_sim_social_loop(self):
+        genres = ["Simulation", "Life Sim", "Social Sim"]
+        subtype = infer_copy_subtype(
+            aspect="gameplay",
+            theme="생활 루프와 관계 시뮬레이션",
+            genres=genres,
+            negative=False,
+        )
+        self.assertEqual(subtype, "life_sim_social_loop")
+        title = build_display_theme(
+            aspect="gameplay",
+            theme=None,
+            genres=genres,
+            negative=False,
+        )
+        self.assertTrue("생활" in title or "관계" in title)
+        self.assertNotIn("전투", title)
 
     def test_negative_price_phrase_avoids_overly_harsh_generic_copy(self):
         phrase = build_player_fit_phrase(

@@ -10,6 +10,16 @@
   "price_model": "paid",
   "release_stage": "early_access",
   "release_date_text": "2025년 3월 27일",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2456740/89acee5c3d965af802002617d6c130e5e03bd240/header.jpg?t=1761814842",
+  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2456740/db7e09bed342057b3ae057d5a2fcfb94a37f0762/capsule_231x87.jpg?t=1761814842",
+  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2456740/db7e09bed342057b3ae057d5a2fcfb94a37f0762/capsule_184x69.jpg?t=1761814842",
+  "short_description": "&quot;Every life becomes a story&quot; 원하는 대로 '조이'들의 삶을 조작하고 지켜보며 자신만의 이야기를 만들어보세요. 자유롭고 손쉬운 커스터마이징으로 캐릭터와 건축 등 꿈꾸던 삶의 모습을 창조하고, 디테일한 시뮬레이션 속에서 발생하는 다양한 사건을 마주하며 삶의 희로애락을 경험할 수 있습니다.",
+  "steam_store_url": "https://store.steampowered.com/app/2456740",
+  "steam_recommendation_count": 27482,
+  "steam_review_score_desc": "Mostly Positive",
+  "steam_total_positive": 1102,
+  "steam_total_negative": 428,
+  "steam_total_reviews": 1530,
   "is_free": false,
   "coming_soon": false
 }

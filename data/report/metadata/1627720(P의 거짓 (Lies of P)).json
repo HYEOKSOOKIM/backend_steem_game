@@ -9,6 +9,16 @@
   "price_model": "paid",
   "release_stage": "released",
   "release_date_text": "2023년 9월 18일",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1627720/header.jpg?t=1764565054",
+  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1627720/capsule_231x87.jpg?t=1764565054",
+  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1627720/capsule_184x69.jpg?t=1764565054",
+  "short_description": "P의 거짓은 우아하고 매혹적인 벨에포크 시대를 배경으로 고전 피노키오의 모험을 재해석한 이야기를 담아낸 잔혹 동화 액션 소울라이크입니다. 제페토의 인형으로 시작된 여정의 끝에 무엇이 당신을 기다리고 있는지 확인해보세요.",
+  "steam_store_url": "https://store.steampowered.com/app/1627720",
+  "steam_recommendation_count": 54816,
+  "steam_review_score_desc": "Very Positive",
+  "steam_total_positive": 5031,
+  "steam_total_negative": 420,
+  "steam_total_reviews": 5451,
   "is_free": false,
   "coming_soon": false
 }

@@ -40,7 +40,15 @@ def _catalog_path(data_root: str | Path) -> Path:
 
 
 def _load_demo_game_index(data_root: str | Path = DEFAULT_DATA_ROOT) -> dict[int, dict[str, Any]]:
-    games = load_demo_games(_catalog_path(data_root))
+    catalog = _catalog_path(data_root)
+    games = load_demo_games(catalog)
+
+    # When an explicit demo catalog exists, treat it as the source of truth for
+    # public exposure. Auto-discovery is only a fallback for local/dev setups
+    # where no allow-list has been provisioned yet.
+    if catalog.exists():
+        return build_demo_game_index(list(games))
+
     merged_games = list(games)
     known_appids = {
         int(item["appid"])

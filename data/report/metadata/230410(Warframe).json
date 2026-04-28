@@ -9,6 +9,16 @@
   "price_model": "free_to_play",
   "release_stage": "released",
   "release_date_text": "2013년 3월 25일",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230410/60ce7425b864dd3c0dd855bfc66004c6f9ca4844/header.jpg?t=1775661175",
+  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230410/80dd2d83df77e9037b14b0076713d2e63666192d/capsule_231x87.jpg?t=1775661175",
+  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230410/80dd2d83df77e9037b14b0076713d2e63666192d/capsule_184x69.jpg?t=1775661175",
+  "short_description": "이 스토리 중심의 부분 유료 온라인 액션 게임에서 그 누구도 멈출 수 없는 강력한 전사로 깨어나 동료들과 함께 싸움에 임하세요. 여러 행성에 걸쳐 뻗어나가는 성계 이곳저곳에서 전쟁을 벌이는 세력들과 맞서며, 신비로운 인물, 로터스의 안내에 따르며 워프레임을 레벨업하고, 파괴적인 화력을 가진 무기고를 쌓아올리고, 이 짜릿한, 전혀 새로운 장르의 3인칭 전투 경험 속의 거대한 오픈 월드에서 여러분의 진짜 잠재력을 불러일으키세요.",
+  "steam_store_url": "https://store.steampowered.com/app/230410",
+  "steam_recommendation_count": 2879,
+  "steam_review_score_desc": "Very Positive",
+  "steam_total_positive": 9796,
+  "steam_total_negative": 1312,
+  "steam_total_reviews": 11108,
   "is_free": true,
   "coming_soon": false
 }
