@@ -8,6 +8,16 @@
   "price_model": "free_to_play",
   "release_stage": "released",
   "release_date_text": "2012년 8월 21일",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/header.jpg?t=1749053861",
+  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/capsule_231x87.jpg?t=1749053861",
+  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/capsule_184x69.jpg?t=1749053861",
+  "short_description": "Counter-Strike는 20년이 넘는 시간 동안 전 세계 수백만 명의 플레이어가 모여 수준 높은 경쟁을 펼칠 수 있는 플랫폼을 제공해 왔습니다. 그리고 이제 곧 Counter-Strike 2와 함께 새로운 CS 시대의 막이 열립니다.",
+  "steam_store_url": "https://store.steampowered.com/app/730",
+  "steam_recommendation_count": 5054158,
+  "steam_review_score_desc": "Very Positive",
+  "steam_total_positive": 20465,
+  "steam_total_negative": 5078,
+  "steam_total_reviews": 25543,
   "is_free": true,
   "coming_soon": false
 }

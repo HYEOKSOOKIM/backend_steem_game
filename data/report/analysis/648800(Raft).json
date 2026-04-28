@@ -8,8 +8,8 @@
   ],
   "issue_signals": {
     "balance": {
-      "mention_count": 8,
-      "negative_ratio": 0.0,
+      "mention_count": 25,
+      "negative_ratio": 0.16,
       "recent_trend": "flat",
       "experienced_player_share": 1.0,
       "themes": [
@@ -21,25 +21,25 @@
       ]
     },
     "bugs": {
-      "mention_count": 73,
-      "negative_ratio": 0.410958904109589,
+      "mention_count": 237,
+      "negative_ratio": 0.350210970464135,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9178082191780822,
+      "experienced_player_share": 0.8987341772151899,
       "themes": [
         "일반 버그",
         "계정 / 제재 이슈",
         "충돌 / 크래시"
       ],
       "sample_reviews": [
-        "3월 21일 배놀계정으로전환합니다",
-        "멀티 오류 발생해서 2시간 날림. 해결 불가"
+        "상어련아 디질래 진짜?\n친구들이랑 하기 재밌음 각각 역할 분담해서\n멀티 가끔 ㅈ버그 남 그것 좀 고쳐라\n그리고 너 놀지말고 일하라고 ㅡㅡ",
+        "3월 21일 배놀계정으로전환합니다"
       ]
     },
     "building_ux": {
-      "mention_count": 53,
-      "negative_ratio": 0.11320754716981132,
+      "mention_count": 140,
+      "negative_ratio": 0.1,
       "recent_trend": "flat",
-      "experienced_player_share": 1.0,
+      "experienced_player_share": 0.9785714285714285,
       "themes": [
         "건축 조작 불편",
         "부지 / 구조 제약"
@@ -50,25 +50,25 @@
       ]
     },
     "content_depth": {
-      "mention_count": 326,
-      "negative_ratio": 0.12269938650306748,
+      "mention_count": 1427,
+      "negative_ratio": 0.12683952347582342,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9754601226993865,
+      "experienced_player_share": 0.9803784162578837,
       "themes": [
-        "반복 / 목적성 부족",
         "콘텐츠 부족",
+        "반복 / 목적성 부족",
         "중독성 / 시간순삭"
       ],
       "sample_reviews": [
-        "나 파밍정병 있어서\r\n나는 파밍만 하고\r\n내가 파밍해온거로 집 예쁘게 지어줄 사람이랑 같이 해야됨",
-        "상어 잡고 뗏목 고치고 파밍하고 상어 잡고 뗏목 고치고 파밍하고 스토리 진행하고 즐겁고"
+        "2510시간한 사람으로써 평가한다. 갓겜인정. 근데 업데이트 다시 재개해줬으면 좋겠다\r\n\r\n최적화도 너무 똥망이라 아쉽다..게임성하나는 진짜 최고다",
+        "나 파밍정병 있어서\r\n나는 파밍만 하고\r\n내가 파밍해온거로 집 예쁘게 지어줄 사람이랑 같이 해야됨"
       ]
     },
     "controls": {
-      "mention_count": 139,
-      "negative_ratio": 0.16546762589928057,
+      "mention_count": 314,
+      "negative_ratio": 0.15286624203821655,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9064748201438849,
+      "experienced_player_share": 0.9044585987261147,
       "themes": [
         "시점 / 멀미 이슈",
         "조작감 문제",
@@ -80,13 +80,14 @@
       ]
     },
     "customization": {
-      "mention_count": 10,
-      "negative_ratio": 0.1,
+      "mention_count": 31,
+      "negative_ratio": 0.0967741935483871,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9,
+      "experienced_player_share": 0.9354838709677419,
       "themes": [
         "헤어 / 의상 옵션 부족",
-        "커스터마이징 호평"
+        "커스터마이징 호평",
+        "스킨 / 외형 요소"
       ],
       "sample_reviews": [
         "엔딩 이후 컨텐츠가 거의 없음\n취향에 맞다면 엔딩 이후로도 자신의 배를 커스터마이징하는 맛에 계속 할 수도 있겠지만 그렇지 않다면 엔딩만 보고 접을 가능성이 큼\n번외로 혼자 해도 재밌는지는 모르겠음",
@@ -94,40 +95,40 @@
       ]
     },
     "difficulty": {
-      "mention_count": 133,
-      "negative_ratio": 0.09022556390977443,
+      "mention_count": 395,
+      "negative_ratio": 0.11392405063291139,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9473684210526315,
+      "experienced_player_share": 0.9620253164556962,
       "themes": [
         "난이도 / 진입장벽",
         "조작 / 규칙 학습 난이도",
         "튜토리얼 / 온보딩 부족"
       ],
       "sample_reviews": [
-        "솔직히 너무 불친절하고 노가다가심함... 혼자 할게임은 역시 아닌듯 시작하고 1시간동안 파밍만하다가 껐음 초반에 너무 폐사구간이 심한거같음",
-        "생각보다 컨텐츠도 많고 잘만들었지만 개인적으로 초반은 설레서 재밌고 중반에 좀 루즈해지다가 후반가서 스토리 밀면서 재밌어지는 게임"
+        "초반에는 재미있지만 뒤로 갈수록 질린다 할거면 친구들이랑 각잡고 하세요\n질려서 묻으면 평생 간다",
+        "게임 초반엔 상어 그림자만 봐도 무서웠는데\n지금은 뷔페처럼 보임"
       ]
     },
     "gameplay": {
-      "mention_count": 105,
-      "negative_ratio": 0.12380952380952381,
+      "mention_count": 255,
+      "negative_ratio": 0.11764705882352941,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9714285714285714,
+      "experienced_player_share": 0.9490196078431372,
       "themes": [
         "탐험 / 월드 경험",
         "전투 손맛 / 액션 호평",
         "빌드 / 무기 다양성"
       ],
       "sample_reviews": [
-        "가격에 비해서 되게 재밌게 했습니다. 탐험 좋아하시는 분들은 특히 좋아 할 것 같습니다. 다만 길 안내는 미션 수행할 때 특히 불친절해서 SNS 공략을 보지 않고 하려고 하면 많이 길을 헤매고 게임 자체에 대한 흥미도 떨어 질 수 있습니다.",
-        "생존은 재미있는 편 하지만 퍼즐 요소가 노잼인 경우가 대부분이며 힌트 없이 계속 뺑뺑 돌게 만드는 게 대부분이고 공략을 안보면 깨기 힘든 퍼즐도 존재함. 왔던 곳 갔던 곳 계속 반복해서 들려야하는 느낌. 결국 플레이타임을 늘리기 위해, 뭔가 많은 요소가 있는 것처럼 보이기 위해 챕터를 늘려 놓은 느낌. 전투 역시 뭔가 불편하고 짜증나는 것들이 많음. 퍼즐 요소 싫어 한다면 절대 비추"
+        "자유도가 높고 시간녹이기에 제격이에요 완전 재밌습니다",
+        "가격에 비해서 되게 재밌게 했습니다. 탐험 좋아하시는 분들은 특히 좋아 할 것 같습니다. 다만 길 안내는 미션 수행할 때 특히 불친절해서 SNS 공략을 보지 않고 하려고 하면 많이 길을 헤매고 게임 자체에 대한 흥미도 떨어 질 수 있습니다."
       ]
     },
     "graphics": {
-      "mention_count": 45,
-      "negative_ratio": 0.13333333333333333,
+      "mention_count": 105,
+      "negative_ratio": 0.09523809523809523,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9777777777777777,
+      "experienced_player_share": 0.9428571428571428,
       "themes": [
         "그래픽 / 비주얼 호평"
       ],
@@ -137,10 +138,10 @@
       ]
     },
     "localization": {
-      "mention_count": 4,
-      "negative_ratio": 0.25,
+      "mention_count": 19,
+      "negative_ratio": 0.10526315789473684,
       "recent_trend": "flat",
-      "experienced_player_share": 0.75,
+      "experienced_player_share": 0.8421052631578947,
       "themes": [
         "번역 / 현지화 이슈"
       ],
@@ -150,23 +151,23 @@
       ]
     },
     "mod_support": {
-      "mention_count": 47,
-      "negative_ratio": 0.0425531914893617,
+      "mention_count": 134,
+      "negative_ratio": 0.05970149253731343,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9574468085106383,
+      "experienced_player_share": 0.9626865671641791,
       "themes": [
         "모드 지원 / 호환 문제"
       ],
       "sample_reviews": [
         "처음엔 생존게임이 되어갔다가 스토리 후반엔 퍼즐게임이 되더니 허무한 엔딩으로 끝:: 아니 최종보스를 힘겹게 잡은 보상이 과일,생선,사람들의 환호가 끝... 이후엔 사실상 허무한 엔딩후 무한모드가 되었지만 확실히 재미있긴하네요",
-        "개씹갓겜 설명이필요없음 친구랑하면재밌지만 없어도 재미있는게임 항상자원은 아프리카마냥 씨가말라있고 겨우모았더니 신기루마냥 눈앞에서 증발하는 김현우의흑마법쇼를 볼수있음 할인할때사면 개씹혜자 할인 안할때사면 혜자인 갓겜\n무엇을 상상하더라도 이게임에서는 가능할정도의 기능이있고 엔딩을봐도 모드가다양해 할컨텐츠도많고 건축만 하더라도 시간이 사라지는겜                                                                                                                             정말 웃겨서 숨을 쉴 수 없습니다. 맙소사, 이와 같은 드립은 어디서 오는 것입니까? 혹여가보로 내려옵니까? 나의 궁중제비를 멈추게 하십시오! 당신과 같은 재미있는 분들 덕분에 정말 웃겨서 숨을 쉴 수 없습니다. 당신과 같은 재미있는 분들 덕분에 인생이 굉장히 재미있습니다. 그러한 드립은 비밀히 보관하지 말고, 재빨리 내용물을 꺼내 주십시오.세상이 이런 드립이 다 있겠습니까? 드립 학원의 연줄이 평균 이상입니까? 완전한 드립 기계가 틀림 없습니다. 두부, 횽부, - 모두 파열시키고 말았습니다.나의 배꼽을 보상해 내십시오! 이것은 살인 드립입니다! 호흡이 곤란합니다! 제발 목숨을 살려주시오!\n"
+        "개씹갓겜 설명이필요없음 친구랑하면재밌지만 없어도 재미있는게임 항상자원은 아프리카마냥 씨가말라있고 겨우모았더니 신기루마냥 눈앞에서 증발하는 김현우의흑마법쇼를 볼수있음 할인할때사면 개씹혜자 할인 안할때사면 혜자인 갓겜\n무엇을 상상하더라도 이게임에서는 가능할정도의 기능이있고 엔딩을봐도 모드가다양해 할컨텐츠도많고 건축만 하더라도 시간이 사라지는겜                                                                                                                             "
       ]
     },
     "monetization": {
-      "mention_count": 81,
-      "negative_ratio": 0.25925925925925924,
+      "mention_count": 260,
+      "negative_ratio": 0.29615384615384616,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9135802469135802,
+      "experienced_player_share": 0.85,
       "themes": [
         "가격 / 과금 불만",
         "DLC / 확장팩 언급"
@@ -177,38 +178,38 @@
       ]
     },
     "multiplayer": {
-      "mention_count": 737,
-      "negative_ratio": 0.08005427408412483,
+      "mention_count": 2031,
+      "negative_ratio": 0.06843919251600197,
       "recent_trend": "down",
-      "experienced_player_share": 0.9701492537313433,
+      "experienced_player_share": 0.96602658788774,
       "themes": [
         "멀티플레이 경험",
         "매칭 / 서버 문제",
         "모드 / 큐 구성 이슈"
       ],
       "sample_reviews": [
-        "상어 사냥 시뮬레이터\n친구들이랑 같이해서 진행하는게 어렵지는 않았음.\n노가다가 좀 있고 스토리는 기대 안 하는게 좋음.\n할인할 떄 사는걸 추천\n",
-        "쓰바아.\n\n친구가 하다가 하차 하고 딴놈 구했더니 하차 하고 또 딴놈 구했더니 하차해서 엔딩을 아직도 못본게임"
+        "초반에는 재미있지만 뒤로 갈수록 질린다 할거면 친구들이랑 각잡고 하세요\n질려서 묻으면 평생 간다",
+        "상어련아 디질래 진짜?\n친구들이랑 하기 재밌음 각각 역할 분담해서\n멀티 가끔 ㅈ버그 남 그것 좀 고쳐라\n그리고 너 놀지말고 일하라고 ㅡㅡ"
       ]
     },
     "performance": {
-      "mention_count": 22,
-      "negative_ratio": 0.2727272727272727,
+      "mention_count": 107,
+      "negative_ratio": 0.2803738317757009,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9090909090909091,
+      "experienced_player_share": 0.8785046728971962,
       "themes": [
         "최적화 문제",
-        "실행 불가 / 튕김",
-        "로딩 / 발열 문제"
+        "로딩 / 발열 문제",
+        "실행 불가 / 튕김"
       ],
       "sample_reviews": [
-        "스토리 게임성 최적화 모든것이 완벽한 게임\n생존 크레프팅을 좋아하고\n멀미가 없으면 최고의 게임\n근데 독수리는 좀 빡침",
-        "캐주얼 그래픽에 저사양 친화적인적인 것 같은데  CPU 점유율 많이 잡아먹으면서 , 발열도 뒤지게  많이 나와서 추천은 못하겠음"
+        "2510시간한 사람으로써 평가한다. 갓겜인정. 근데 업데이트 다시 재개해줬으면 좋겠다\r\n\r\n최적화도 너무 똥망이라 아쉽다..게임성하나는 진짜 최고다",
+        "스토리 게임성 최적화 모든것이 완벽한 게임\n생존 크레프팅을 좋아하고\n멀미가 없으면 최고의 게임\n근데 독수리는 좀 빡침"
       ]
     },
     "save_progression": {
-      "mention_count": 27,
-      "negative_ratio": 0.48148148148148145,
+      "mention_count": 72,
+      "negative_ratio": 0.3888888888888889,
       "recent_trend": "flat",
       "experienced_player_share": 1.0,
       "themes": [
@@ -220,10 +221,10 @@
       ]
     },
     "story": {
-      "mention_count": 351,
-      "negative_ratio": 0.08262108262108261,
-      "recent_trend": "down",
-      "experienced_player_share": 0.9971509971509972,
+      "mention_count": 839,
+      "negative_ratio": 0.09535160905840286,
+      "recent_trend": "flat",
+      "experienced_player_share": 0.9904648390941597,
       "themes": [
         "스토리 / 서사 몰입",
         "캐릭터 / 연출 인상"
@@ -235,10 +236,46 @@
     }
   },
   "summary": {
-    "what_players_like": "상대적으로 긍정 신호가 보이는 영역은 balance이며, 대표 테마는 밸런스 불만입니다.",
+    "what_players_like": "상대적으로 긍정 신호가 보이는 영역은 mod_support이며, 대표 테마는 모드 지원 / 호환 문제입니다.",
     "what_players_dislike": "가장 자주 언급되는 불만 영역은 multiplayer이며, 대표 테마는 멀티플레이 경험, 매칭 / 서버 문제입니다.",
     "recent_change": "최근 기간에는 특정 카테고리의 급격한 변화보다 전반적인 유지 신호가 보입니다.",
     "fit_for": "초반 진입 장벽이나 조작 적응 여부를 중요하게 보는 플레이어는 사전 확인이 필요합니다.",
     "risks": "multiplayer 관련 이슈는 반복적으로 언급되지만 최근 급격한 악화 신호는 제한적입니다."
+  },
+  "pipeline_run_id": "648800-20260427T062602Z",
+  "generated_at": "2026-04-27T06:27:42.515250+00:00",
+  "source_review_count": 10493,
+  "review_pages": "all",
+  "fetched_pages": 106,
+  "fetched_review_count": 10493,
+  "fetch_timeout_seconds": 20,
+  "fetch_filter": "recent",
+  "all_mode_page_cap": 200,
+  "all_mode_cap_reached": false,
+  "llm_stats": {
+    "considered": 7025,
+    "selected": 20,
+    "invoked": 20,
+    "success": 20,
+    "schema_invalid": 0,
+    "low_confidence": 0,
+    "cache_hits": 0,
+    "fallback_used": 0
+  },
+  "report_material_refiner": {
+    "enabled": true,
+    "max_llm_reviews": 20,
+    "llm_min_confidence": 0.7,
+    "material_count": 20,
+    "stats": {
+      "considered": 7025,
+      "selected": 20,
+      "invoked": 20,
+      "success": 20,
+      "schema_invalid": 0,
+      "low_confidence": 0,
+      "cache_hits": 0,
+      "fallback_used": 0
+    }
   }
 }

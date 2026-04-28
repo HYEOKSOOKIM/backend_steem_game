@@ -8,6 +8,16 @@
   "price_model": "free_to_play",
   "release_stage": "released",
   "release_date_text": "2015년 12월 1일",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/a424cb67a86be35b8d761784a3bdaa726f29c942/header_alt_assets_20_koreana.jpg?t=1775836354",
+  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/3ad79d225389a6de962633b54b26fa506b916594/capsule_231x87_alt_assets_20_koreana.jpg?t=1775836354",
+  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/3ad79d225389a6de962633b54b26fa506b916594/capsule_184x69_alt_assets_20_koreana.jpg?t=1775836354",
+  "short_description": "레인보우식스® 시즈는 뛰어난 전략과 기술이 승부를 좌우하는 전술적인 정예 팀 기반의 슈팅 게임입니다. 다양한 대원들과 함께 빠른 매치, 무계급, Dual Front 게임 모드를 프리 엑세스로 이용하십시오.",
+  "steam_store_url": "https://store.steampowered.com/app/359550",
+  "steam_recommendation_count": 1239221,
+  "steam_review_score_desc": "Mostly Positive",
+  "steam_total_positive": 41883,
+  "steam_total_negative": 10681,
+  "steam_total_reviews": 52564,
   "is_free": true,
   "coming_soon": false
 }

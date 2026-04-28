@@ -8,8 +8,8 @@
   ],
   "issue_signals": {
     "balance": {
-      "mention_count": 10,
-      "negative_ratio": 0.5,
+      "mention_count": 62,
+      "negative_ratio": 0.4032258064516129,
       "recent_trend": "flat",
       "experienced_player_share": 1.0,
       "themes": [
@@ -21,39 +21,39 @@
       ]
     },
     "bugs": {
-      "mention_count": 183,
-      "negative_ratio": 0.6010928961748634,
-      "recent_trend": "flat",
-      "experienced_player_share": 0.994535519125683,
+      "mention_count": 1056,
+      "negative_ratio": 0.5189393939393939,
+      "recent_trend": "up",
+      "experienced_player_share": 0.9857954545454546,
       "themes": [
         "일반 버그",
-        "충돌 / 크래시",
-        "계정 / 제재 이슈"
+        "계정 / 제재 이슈",
+        "충돌 / 크래시"
       ],
       "sample_reviews": [
-        "친구들이랑 가볍게 하기엔 비싸지만 뭐... 낭만은 좋음. 그래픽도 딱히 깔 필요없고.\r\n가끔 오류터지면 개빡치는거고.\r\n서버를 장기적으로 플레이한다면... 그건 인생게임이 되는거지.",
-        "ㅅ1ㅂ ㅂㅓ그는 버그대로 존나많고 실행도 안돼고 ㅅ11ㅂ 아크 공식도 없어지고 어센은 망하고 좆망겜 ㅆ11ㅂ"
+        "시간 개빨리감 다만 메모리 누수와 버그 좀있긴함",
+        "---{ 그래픽 }---\r\n☐ 현실을 잊을 정도\r\n☑ 좋음\r\n☐ 나쁨\r\n☐ 쳐다보지 마세요\r\n\r\n---{ 게임플레이 }---\r\n☑ 아주 좋음\r\n☐ 좋음\r\n☐ 그럭저럭\r\n☐ 하지 마세요\r\n\r\n---{ 오디오 }---\r\n☐ 귀르가즘\r\n☑ 아주 좋음\r\n☐ 좋음\r\n☐ 나쁨\r\n☐ 귀가 멀었습니다\r\n\r\n---{ 이용가 }---\r\n☐ 어린이\r\n☐ 십대\r\n☑ 성인\r\n☐ 할머니\r\n\r\n---{ PC 사양 }---\r\n☐ 그림판 실행 가능한지 확인하세요\r\n☐ 감자\r\n☐ 괜찮음\r\n☑ 높음\r\n☐ NASA에 남는 컴퓨터 있는지 물어보세요\r\n\r\n---{ 게임 용량 }---\r\n☐ 플로피 디스크\r\n☐ 감당할 만함\r\n☐ 큼\r\n☑ 모든 데이터를 담으려면 블랙홀에 투자해야 할 것\r\n\r\n---{ 난이도 }---\r\n☐ 그냥 'W'만 누르세요\r\n☐ 쉬움\r\n☐ 상당한 두뇌 사용\r\n☑ 18\r\n\r\n---{ 노가다 }---\r\n☐ 노가다 없음\r\n☐ 평균적인 노가다 수준\r\n☐ 지나친 노가다 수준\r\n☑ 노가다를 위해 두 번째 인생이 필요함\r\n\r\n---{ 스토리 }---\r\n☐ 스토리 없음\r\n☐ 약간의 배경 설정\r\n☑ 보통\r\n☐ 인생 게임\r\n\r\n---{ 플레이 타임 }---\r\n☐ 커피 한 잔 마실 정도\r\n☐ 짧음\r\n☐ 평균\r\n☑ 무한 궤도 뫼비우스의 띠\r\n\r\n---{ 가격 }---\r\n☐ 무료\r\n☑ 50% 이상 세일할 때 사셈\r\n☐ 추천하지 않음\r\n☐ 치킨 사드세요\r\n\r\n---{ 버그 }---\r\n☐ 들어본 적 없음\r\n☐ 사소한 버그\r\n☐ 짜증 날 수 있음\r\n☑ 게임 자체가 거대한 버그 사육장임"
       ]
     },
     "building_ux": {
-      "mention_count": 15,
-      "negative_ratio": 0.4,
+      "mention_count": 102,
+      "negative_ratio": 0.24509803921568626,
       "recent_trend": "flat",
-      "experienced_player_share": 1.0,
+      "experienced_player_share": 0.9803921568627451,
       "themes": [
         "건축 조작 불편",
         "부지 / 구조 제약"
       ],
       "sample_reviews": [
-        "최적화 안하고 구조물 수에 따라 아무리 그래픽카드 좋아도 D지는 게임",
-        "👎모드추가 했는데 왜 반능이 없어 ~! 껏다 켯다 해야 하나씩 보이고 반응 속도 넘 느려~!!👎\n👎블루투스 이어폰 교체시 게임이 멈춰요~ 강제 종료도 안되고~ 컴퓨터 재부팅 해야 되는 불편함 ~\n건축하면 랙이 넘무 걸려~ 건축 포기 ~!! 👎"
+        "부지런해짐",
+        "최적화 안하고 구조물 수에 따라 아무리 그래픽카드 좋아도 D지는 게임"
       ]
     },
     "content_depth": {
-      "mention_count": 110,
-      "negative_ratio": 0.32727272727272727,
+      "mention_count": 651,
+      "negative_ratio": 0.2565284178187404,
       "recent_trend": "flat",
-      "experienced_player_share": 0.990909090909091,
+      "experienced_player_share": 0.9877112135176651,
       "themes": [
         "콘텐츠 부족",
         "반복 / 목적성 부족",
@@ -65,14 +65,14 @@
       ]
     },
     "controls": {
-      "mention_count": 10,
-      "negative_ratio": 0.6,
+      "mention_count": 80,
+      "negative_ratio": 0.5125,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9,
+      "experienced_player_share": 0.875,
       "themes": [
         "조작감 문제",
-        "시점 / 멀미 이슈",
-        "UI / 입력 불편"
+        "UI / 입력 불편",
+        "시점 / 멀미 이슈"
       ],
       "sample_reviews": [
         "설치도 오래 걸려 지우는 것도 오래 걸려 서버 개인적으로 파려면 외부 프로그램을 써야해 외부 프로그램 써서 서버 열면 제대로 들어가지냐 그것도 아니고 들어가는 것도 한세월 게임 자체는 재밌는데 최적화도 ui 편의성도 다 똥쓰레기 게임이 재밌어서 다 봐줄까 싶다가도 서버 들어가는데 이삼십분 기다리고 있으면 못해먹겠다 싶다",
@@ -80,12 +80,14 @@
       ]
     },
     "customization": {
-      "mention_count": 5,
-      "negative_ratio": 0.0,
+      "mention_count": 26,
+      "negative_ratio": 0.07692307692307693,
       "recent_trend": "flat",
-      "experienced_player_share": 1.0,
+      "experienced_player_share": 0.9615384615384616,
       "themes": [
-        "커스터마이징 호평"
+        "커스터마이징 호평",
+        "헤어 / 의상 옵션 부족",
+        "스킨 / 외형 요소"
       ],
       "sample_reviews": [
         "커마 참 골때리게 만들고 친구랑 서로 얼굴 쳐다보면 즐거움 ㅎㅎ\r\n타 생존게임과 달리 공룡 테이밍 할 수 있어서 킹룡 좋아하면 재밌는거 같음.\r\n근데 공룡별로 특징이 다른 느낌은 적어서 그냥 공룡이 있는 생존게임이다. 이런느낌",
@@ -93,53 +95,53 @@
       ]
     },
     "difficulty": {
-      "mention_count": 63,
-      "negative_ratio": 0.23809523809523808,
+      "mention_count": 352,
+      "negative_ratio": 0.19602272727272727,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9047619047619048,
+      "experienced_player_share": 0.9403409090909091,
       "themes": [
         "난이도 / 진입장벽",
         "조작 / 규칙 학습 난이도",
         "튜토리얼 / 온보딩 부족"
       ],
       "sample_reviews": [
-        "초보자가 하기엔 다소 애매함",
-        "멀티는 들어가지지가 않을때가 많아서 힘들지만 퀄리티도 좋고 게임도 난이도 조절도 가능하여 매우 좋음 나 이거 인생 게임임 다른 모드도 깔아서 하면 더 재밌음"
+        "---{ 그래픽 }---\r\n☐ 현실을 잊을 정도\r\n☑ 좋음\r\n☐ 나쁨\r\n☐ 쳐다보지 마세요\r\n\r\n---{ 게임플레이 }---\r\n☑ 아주 좋음\r\n☐ 좋음\r\n☐ 그럭저럭\r\n☐ 하지 마세요\r\n\r\n---{ 오디오 }---\r\n☐ 귀르가즘\r\n☑ 아주 좋음\r\n☐ 좋음\r\n☐ 나쁨\r\n☐ 귀가 멀었습니다\r\n\r\n---{ 이용가 }---\r\n☐ 어린이\r\n☐ 십대\r\n☑ 성인\r\n☐ 할머니\r\n\r\n---{ PC 사양 }---\r\n☐ 그림판 실행 가능한지 확인하세요\r\n☐ 감자\r\n☐ 괜찮음\r\n☑ 높음\r\n☐ NASA에 남는 컴퓨터 있는지 물어보세요\r\n\r\n---{ 게임 용량 }---\r\n☐ 플로피 디스크\r\n☐ 감당할 만함\r\n☐ 큼\r\n☑ 모든 데이터를 담으려면 블랙홀에 투자해야 할 것\r\n\r\n---{ 난이도 }---\r\n☐ 그냥 'W'만 누르세요\r\n☐ 쉬움\r\n☐ 상당한 두뇌 사용\r\n☑ 18\r\n\r\n---{ 노가다 }---\r\n☐ 노가다 없음\r\n☐ 평균적인 노가다 수준\r\n☐ 지나친 노가다 수준\r\n☑ 노가다를 위해 두 번째 인생이 필요함\r\n\r\n---{ 스토리 }---\r\n☐ 스토리 없음\r\n☐ 약간의 배경 설정\r\n☑ 보통\r\n☐ 인생 게임\r\n\r\n---{ 플레이 타임 }---\r\n☐ 커피 한 잔 마실 정도\r\n☐ 짧음\r\n☐ 평균\r\n☑ 무한 궤도 뫼비우스의 띠\r\n\r\n---{ 가격 }---\r\n☐ 무료\r\n☑ 50% 이상 세일할 때 사셈\r\n☐ 추천하지 않음\r\n☐ 치킨 사드세요\r\n\r\n---{ 버그 }---\r\n☐ 들어본 적 없음\r\n☐ 사소한 버그\r\n☐ 짜증 날 수 있음\r\n☑ 게임 자체가 거대한 버그 사육장임",
+        "초보자가 하기엔 다소 애매함"
       ]
     },
     "gameplay": {
-      "mention_count": 256,
-      "negative_ratio": 0.1015625,
+      "mention_count": 1115,
+      "negative_ratio": 0.1336322869955157,
       "recent_trend": "up",
-      "experienced_player_share": 0.96484375,
+      "experienced_player_share": 0.968609865470852,
       "themes": [
         "전투 손맛 / 액션 호평",
         "탐험 / 월드 경험",
         "빌드 / 무기 다양성"
       ],
       "sample_reviews": [
-        "공룡입니다.\n\n뭘 생각하던, 어린 전 공룡이 좋습니다.\n성인인 전 아직도 공룡이 좋습니다.\n\n공룡이 막 나오는 이 게임같은 경우라면.\n\n좋아합니다.",
-        "용량 존나 큰 거 빼고는 이만한 낭만 넘치는 공룡게임이 없다"
+        "시환이가 공룡세계에 빠졌어요. 6000시간 넘게 연락이 안돼요.\n연락이 되신다면 메시지 부탁드립니다.\n시환아 어딨는거야 도대체",
+        "개꿀잼 공룡겜(노가다를 곁들이다 못해 담가진)"
       ]
     },
     "graphics": {
-      "mention_count": 38,
-      "negative_ratio": 0.2631578947368421,
+      "mention_count": 251,
+      "negative_ratio": 0.2589641434262948,
       "recent_trend": "flat",
-      "experienced_player_share": 1.0,
+      "experienced_player_share": 0.9482071713147411,
       "themes": [
         "그래픽 / 비주얼 호평"
       ],
       "sample_reviews": [
-        "친구들이랑 가볍게 하기엔 비싸지만 뭐... 낭만은 좋음. 그래픽도 딱히 깔 필요없고.\r\n가끔 오류터지면 개빡치는거고.\r\n서버를 장기적으로 플레이한다면... 그건 인생게임이 되는거지.",
-        "오랜 게임이지만 그래픽과 게임성이 미쳤다. 멀티 최적화문제만 잘 했다면 최상급"
+        "---{ 그래픽 }---\r\n☐ 현실을 잊을 정도\r\n☑ 좋음\r\n☐ 나쁨\r\n☐ 쳐다보지 마세요\r\n\r\n---{ 게임플레이 }---\r\n☑ 아주 좋음\r\n☐ 좋음\r\n☐ 그럭저럭\r\n☐ 하지 마세요\r\n\r\n---{ 오디오 }---\r\n☐ 귀르가즘\r\n☑ 아주 좋음\r\n☐ 좋음\r\n☐ 나쁨\r\n☐ 귀가 멀었습니다\r\n\r\n---{ 이용가 }---\r\n☐ 어린이\r\n☐ 십대\r\n☑ 성인\r\n☐ 할머니\r\n\r\n---{ PC 사양 }---\r\n☐ 그림판 실행 가능한지 확인하세요\r\n☐ 감자\r\n☐ 괜찮음\r\n☑ 높음\r\n☐ NASA에 남는 컴퓨터 있는지 물어보세요\r\n\r\n---{ 게임 용량 }---\r\n☐ 플로피 디스크\r\n☐ 감당할 만함\r\n☐ 큼\r\n☑ 모든 데이터를 담으려면 블랙홀에 투자해야 할 것\r\n\r\n---{ 난이도 }---\r\n☐ 그냥 'W'만 누르세요\r\n☐ 쉬움\r\n☐ 상당한 두뇌 사용\r\n☑ 18\r\n\r\n---{ 노가다 }---\r\n☐ 노가다 없음\r\n☐ 평균적인 노가다 수준\r\n☐ 지나친 노가다 수준\r\n☑ 노가다를 위해 두 번째 인생이 필요함\r\n\r\n---{ 스토리 }---\r\n☐ 스토리 없음\r\n☐ 약간의 배경 설정\r\n☑ 보통\r\n☐ 인생 게임\r\n\r\n---{ 플레이 타임 }---\r\n☐ 커피 한 잔 마실 정도\r\n☐ 짧음\r\n☐ 평균\r\n☑ 무한 궤도 뫼비우스의 띠\r\n\r\n---{ 가격 }---\r\n☐ 무료\r\n☑ 50% 이상 세일할 때 사셈\r\n☐ 추천하지 않음\r\n☐ 치킨 사드세요\r\n\r\n---{ 버그 }---\r\n☐ 들어본 적 없음\r\n☐ 사소한 버그\r\n☐ 짜증 날 수 있음\r\n☑ 게임 자체가 거대한 버그 사육장임",
+        "재미있어용 근데 저는 그래픽 카드가 안좋아서 게속렉걸림 ㅎㅎ 님들은 좋은거쓰시니 걱정없이 즐겜하시길"
       ]
     },
     "localization": {
-      "mention_count": 3,
-      "negative_ratio": 1.0,
+      "mention_count": 31,
+      "negative_ratio": 0.3870967741935484,
       "recent_trend": "flat",
-      "experienced_player_share": 1.0,
+      "experienced_player_share": 0.967741935483871,
       "themes": [
         "번역 / 현지화 이슈"
       ],
@@ -149,10 +151,10 @@
       ]
     },
     "mod_support": {
-      "mention_count": 83,
-      "negative_ratio": 0.3253012048192771,
+      "mention_count": 337,
+      "negative_ratio": 0.20771513353115728,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9879518072289156,
+      "experienced_player_share": 0.9762611275964391,
       "themes": [
         "모드 지원 / 호환 문제"
       ],
@@ -162,24 +164,24 @@
       ]
     },
     "monetization": {
-      "mention_count": 97,
-      "negative_ratio": 0.36082474226804123,
+      "mention_count": 637,
+      "negative_ratio": 0.36577708006279436,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9484536082474226,
+      "experienced_player_share": 0.8932496075353218,
       "themes": [
         "DLC / 확장팩 언급",
         "가격 / 과금 불만"
       ],
       "sample_reviews": [
-        "무료로 받아서 딱히 후회는 없음 친구없고 아예 모르면 개빡일듯",
-        "공룡좋아하면 세일할때 살만한게임 50%할인 종종하니까 해봐도됨. 다만 중간중간 튕기고 기껏 길들인 공룡이 길들이기 전으로 돌아가  다시 적대적으로 변할땐 진짜 마음이 아픔.  그래도 가끔 아끼던 공룡죽고 바로 튕기면 다시돌아와서 뭔가 만화 주인공이 된듯한 느낌을 겪을수있음"
+        "환불하고싶다",
+        "---{ 그래픽 }---\r\n☐ 현실을 잊을 정도\r\n☑ 좋음\r\n☐ 나쁨\r\n☐ 쳐다보지 마세요\r\n\r\n---{ 게임플레이 }---\r\n☑ 아주 좋음\r\n☐ 좋음\r\n☐ 그럭저럭\r\n☐ 하지 마세요\r\n\r\n---{ 오디오 }---\r\n☐ 귀르가즘\r\n☑ 아주 좋음\r\n☐ 좋음\r\n☐ 나쁨\r\n☐ 귀가 멀었습니다\r\n\r\n---{ 이용가 }---\r\n☐ 어린이\r\n☐ 십대\r\n☑ 성인\r\n☐ 할머니\r\n\r\n---{ PC 사양 }---\r\n☐ 그림판 실행 가능한지 확인하세요\r\n☐ 감자\r\n☐ 괜찮음\r\n☑ 높음\r\n☐ NASA에 남는 컴퓨터 있는지 물어보세요\r\n\r\n---{ 게임 용량 }---\r\n☐ 플로피 디스크\r\n☐ 감당할 만함\r\n☐ 큼\r\n☑ 모든 데이터를 담으려면 블랙홀에 투자해야 할 것\r\n\r\n---{ 난이도 }---\r\n☐ 그냥 'W'만 누르세요\r\n☐ 쉬움\r\n☐ 상당한 두뇌 사용\r\n☑ 18\r\n\r\n---{ 노가다 }---\r\n☐ 노가다 없음\r\n☐ 평균적인 노가다 수준\r\n☐ 지나친 노가다 수준\r\n☑ 노가다를 위해 두 번째 인생이 필요함\r\n\r\n---{ 스토리 }---\r\n☐ 스토리 없음\r\n☐ 약간의 배경 설정\r\n☑ 보통\r\n☐ 인생 게임\r\n\r\n---{ 플레이 타임 }---\r\n☐ 커피 한 잔 마실 정도\r\n☐ 짧음\r\n☐ 평균\r\n☑ 무한 궤도 뫼비우스의 띠\r\n\r\n---{ 가격 }---\r\n☐ 무료\r\n☑ 50% 이상 세일할 때 사셈\r\n☐ 추천하지 않음\r\n☐ 치킨 사드세요\r\n\r\n---{ 버그 }---\r\n☐ 들어본 적 없음\r\n☐ 사소한 버그\r\n☐ 짜증 날 수 있음\r\n☑ 게임 자체가 거대한 버그 사육장임"
       ]
     },
     "multiplayer": {
-      "mention_count": 294,
-      "negative_ratio": 0.3163265306122449,
-      "recent_trend": "flat",
-      "experienced_player_share": 0.9659863945578231,
+      "mention_count": 1966,
+      "negative_ratio": 0.3296032553407935,
+      "recent_trend": "up",
+      "experienced_player_share": 0.9679552390640895,
       "themes": [
         "매칭 / 서버 문제",
         "멀티플레이 경험",
@@ -191,25 +193,25 @@
       ]
     },
     "performance": {
-      "mention_count": 148,
-      "negative_ratio": 0.4391891891891892,
+      "mention_count": 933,
+      "negative_ratio": 0.4415862808145766,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9527027027027027,
+      "experienced_player_share": 0.9421221864951769,
       "themes": [
         "최적화 문제",
-        "로딩 / 발열 문제",
-        "실행 불가 / 튕김"
+        "실행 불가 / 튕김",
+        "로딩 / 발열 문제"
       ],
       "sample_reviews": [
-        "서버 불안정/게임 최적화 안됨/",
-        "장점: 정말 재및어요\r\n단점: 저의 컴퓨터로는 렉이 걸려요"
+        "가끔 호스트 쫌 오래 하면 틩기는거 빼면 최적화 정말 잘했다고 생각함",
+        "재미있어용 근데 저는 그래픽 카드가 안좋아서 게속렉걸림 ㅎㅎ 님들은 좋은거쓰시니 걱정없이 즐겜하시길"
       ]
     },
     "save_progression": {
-      "mention_count": 61,
-      "negative_ratio": 0.4098360655737705,
+      "mention_count": 274,
+      "negative_ratio": 0.40875912408759124,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9672131147540983,
+      "experienced_player_share": 0.9708029197080292,
       "themes": [
         "저장 / 세이브 손실"
       ],
@@ -219,25 +221,61 @@
       ]
     },
     "story": {
-      "mention_count": 31,
-      "negative_ratio": 0.3870967741935484,
+      "mention_count": 188,
+      "negative_ratio": 0.32978723404255317,
       "recent_trend": "flat",
-      "experienced_player_share": 0.967741935483871,
+      "experienced_player_share": 0.9361702127659575,
       "themes": [
         "스토리 / 서사 몰입",
         "캐릭터 / 연출 인상"
       ],
       "sample_reviews": [
-        "몰입도가 매우 높은게임이라고 생각함.\n\n해야할게 많지만 귀찮다고 느껴지지않을 뿐더러 유쾌한 노가다를 하는 기분임.\n\n그리고 중요한건 짱룡을 타고다닐수 있음 ^오^",
-        "[h3] 게임에 대해 [/h3]\nSF 세계관, 공룡이 등장하는 인공 세계에서 생활하는 게임\n위협적인 공룡들, 미묘한 물리 엔진, 샌드박스 특유의 랜덤성 억까가 마음을 꺾더라도\n게임의 컨셉과 세계관이 주는 매력은 \"게임을 통한 대리 경험\"이라는 재미를 완벽하게 충족시켜준다\n\n바닐라로 일단 박아보고,\n충분히 검색 & 시행착오로 서버 세팅과 수치 조정하면서 즐기는 방식을 추천\n창작마당 모딩과 함께라면 더욱 쾌적\n혼자 해도 재밌고, 지인들과 함께라면 더욱 재밌을 것이다\n\n\n[h3] 이런 사람들에게 추천 [/h3]\n- \"샌드박스? 무슨 느낌인지 알지. 세상아 내가 간다!\"\n- \"공룡? 미래기기? 이걸 어떻게 참아!\"\n\n\n[h3] 이런 사람들은 비추 [/h3]\n- 게임 처음 켰는데, 설명 하나 없이 맨몸으로 던져지는 상황이 싫은 사람\n- 게임이 제시하는 목표가 없는 것이 싫은 사람\n- 모딩, 서버 세팅, 충돌 나고, 포트포워딩 하고... 이 일련의 과정을 못 버틸 것 같은 사람"
+        "---{ 그래픽 }---\r\n☐ 현실을 잊을 정도\r\n☑ 좋음\r\n☐ 나쁨\r\n☐ 쳐다보지 마세요\r\n\r\n---{ 게임플레이 }---\r\n☑ 아주 좋음\r\n☐ 좋음\r\n☐ 그럭저럭\r\n☐ 하지 마세요\r\n\r\n---{ 오디오 }---\r\n☐ 귀르가즘\r\n☑ 아주 좋음\r\n☐ 좋음\r\n☐ 나쁨\r\n☐ 귀가 멀었습니다\r\n\r\n---{ 이용가 }---\r\n☐ 어린이\r\n☐ 십대\r\n☑ 성인\r\n☐ 할머니\r\n\r\n---{ PC 사양 }---\r\n☐ 그림판 실행 가능한지 확인하세요\r\n☐ 감자\r\n☐ 괜찮음\r\n☑ 높음\r\n☐ NASA에 남는 컴퓨터 있는지 물어보세요\r\n\r\n---{ 게임 용량 }---\r\n☐ 플로피 디스크\r\n☐ 감당할 만함\r\n☐ 큼\r\n☑ 모든 데이터를 담으려면 블랙홀에 투자해야 할 것\r\n\r\n---{ 난이도 }---\r\n☐ 그냥 'W'만 누르세요\r\n☐ 쉬움\r\n☐ 상당한 두뇌 사용\r\n☑ 18\r\n\r\n---{ 노가다 }---\r\n☐ 노가다 없음\r\n☐ 평균적인 노가다 수준\r\n☐ 지나친 노가다 수준\r\n☑ 노가다를 위해 두 번째 인생이 필요함\r\n\r\n---{ 스토리 }---\r\n☐ 스토리 없음\r\n☐ 약간의 배경 설정\r\n☑ 보통\r\n☐ 인생 게임\r\n\r\n---{ 플레이 타임 }---\r\n☐ 커피 한 잔 마실 정도\r\n☐ 짧음\r\n☐ 평균\r\n☑ 무한 궤도 뫼비우스의 띠\r\n\r\n---{ 가격 }---\r\n☐ 무료\r\n☑ 50% 이상 세일할 때 사셈\r\n☐ 추천하지 않음\r\n☐ 치킨 사드세요\r\n\r\n---{ 버그 }---\r\n☐ 들어본 적 없음\r\n☐ 사소한 버그\r\n☐ 짜증 날 수 있음\r\n☑ 게임 자체가 거대한 버그 사육장임",
+        "몰입도가 매우 높은게임이라고 생각함.\n\n해야할게 많지만 귀찮다고 느껴지지않을 뿐더러 유쾌한 노가다를 하는 기분임.\n\n그리고 중요한건 짱룡을 타고다닐수 있음 ^오^"
       ]
     }
   },
   "summary": {
-    "what_players_like": "상대적으로 긍정 신호가 보이는 영역은 customization이며, 대표 테마는 커스터마이징 호평입니다.",
+    "what_players_like": "상대적으로 긍정 신호가 보이는 영역은 customization이며, 대표 테마는 커스터마이징 호평, 헤어 / 의상 옵션 부족입니다.",
     "what_players_dislike": "가장 자주 언급되는 불만 영역은 multiplayer이며, 대표 테마는 매칭 / 서버 문제, 멀티플레이 경험입니다.",
-    "recent_change": "최근 기간에는 gameplay 관련 언급이 상대적으로 증가하는 흐름이 보입니다.",
+    "recent_change": "최근 기간에는 bugs, gameplay, multiplayer 관련 언급이 상대적으로 증가하는 흐름이 보입니다.",
     "fit_for": "초반 진입 장벽이나 조작 적응 여부를 중요하게 보는 플레이어는 사전 확인이 필요합니다.",
-    "risks": "multiplayer 관련 이슈는 반복적으로 언급되지만 최근 급격한 악화 신호는 제한적입니다."
+    "risks": "multiplayer 관련 불만이 최근 구간에서 상대적으로 증가하고 있어 추적이 필요합니다."
+  },
+  "pipeline_run_id": "346110-20260427T061254Z",
+  "generated_at": "2026-04-27T06:15:15.164208+00:00",
+  "source_review_count": 19999,
+  "review_pages": "all",
+  "fetched_pages": 200,
+  "fetched_review_count": 19999,
+  "fetch_timeout_seconds": 20,
+  "fetch_filter": "recent",
+  "all_mode_page_cap": 200,
+  "all_mode_cap_reached": true,
+  "llm_stats": {
+    "considered": 10847,
+    "selected": 20,
+    "invoked": 20,
+    "success": 20,
+    "schema_invalid": 0,
+    "low_confidence": 0,
+    "cache_hits": 0,
+    "fallback_used": 0
+  },
+  "report_material_refiner": {
+    "enabled": true,
+    "max_llm_reviews": 20,
+    "llm_min_confidence": 0.7,
+    "material_count": 20,
+    "stats": {
+      "considered": 10847,
+      "selected": 20,
+      "invoked": 20,
+      "success": 20,
+      "schema_invalid": 0,
+      "low_confidence": 0,
+      "cache_hits": 0,
+      "fallback_used": 0
+    }
   }
 }

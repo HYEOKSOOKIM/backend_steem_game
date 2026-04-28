@@ -8,6 +8,16 @@
   "price_model": "unknown",
   "release_stage": "released",
   "release_date_text": "2015년 4월 13일",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/header.jpg?t=1765387725",
+  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/capsule_231x87.jpg?t=1765387725",
+  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/capsule_184x69.jpg?t=1765387725",
+  "short_description": "PC용 Grand Theft Auto V는 각종 수상에 빛나는 로스 산토스와 블레인 카운티의 거대한 세상을 최대 4K 이상의 해상도로 둘러볼 수 있는 기회를 플레이어에게 제공하며, 초당 60프레임으로 게임을 실행할 수도 있습니다.",
+  "steam_store_url": "https://store.steampowered.com/app/271590",
+  "steam_recommendation_count": 1876006,
+  "steam_review_score_desc": "Very Positive",
+  "steam_total_positive": 48745,
+  "steam_total_negative": 8388,
+  "steam_total_reviews": 57133,
   "is_free": false,
   "coming_soon": false
 }

@@ -775,7 +775,12 @@ def _apply_final_language_polish(
     report_plan["decision_anchor"] = decision_anchor
 
     if isinstance(report_display.get("headline"), str):
-        report_display["headline"] = _fix(str(report_display.get("headline", "")))
+        report_display["headline"] = _rewrite_headline_for_context(
+            _fix(str(report_display.get("headline", ""))),
+            genres=genres or [],
+            fallback=str(seed_display.get("headline", "")),
+            context_text=context_text,
+        )
     if isinstance(report_display.get("buy_timing_summary"), str):
         report_display["buy_timing_summary"] = _fix(str(report_display.get("buy_timing_summary", "")))
 
@@ -954,7 +959,27 @@ def _rewrite_generic_strength_for_context(
     if not blob:
         return title_value, summary_value
 
-    if any(token in blob for token in ("핵심 플레이 감각", "손에 익을수록")):
+    if any(token in blob for token in ("핵심 플레이 감각", "손에 익을수록", "플레이 흐름의 안정감")):
+        if _is_looter_shooter_context(genres, context_text):
+            return (
+                "장비와 빌드를 오래 다듬는 성장 루프",
+                "장비를 파밍하고 세팅을 맞춰 가며 강해지는 과정이 반복 임무의 동력으로 잘 이어집니다.",
+            )
+        if _is_coop_live_service_shooter_context(genres, context_text):
+            return (
+                "분대 합이 살아나는 협동 임무",
+                "역할을 나눠 임무를 밀어붙일수록 분대 플레이의 손발이 맞는 재미가 살아납니다.",
+            )
+        if _is_narrative_openworld_context(genres, context_text):
+            return (
+                "사건과 인물이 오래 남는 서사 경험",
+                "사건과 인물의 여운이 길게 남아 세계를 천천히 체험하는 몰입감이 또렷합니다.",
+            )
+        if _is_life_sim_context(genres, context_text):
+            return (
+                "생활 루프와 꾸미기의 자유도",
+                "일상과 공간을 내 취향대로 다듬어 가는 과정이 차분하게 이어지는 재미를 만듭니다.",
+            )
         if _is_visual_novel_context(genres, context_text):
             return (
                 "감정선이 오래 남는 서사 경험",
@@ -981,10 +1006,24 @@ def _rewrite_generic_strength_for_context(
                 "한 번의 선택이 다음 턴 결과에 크게 이어져 전술 판단의 무게가 분명하게 살아 있습니다.",
             )
 
+    if _is_coop_live_service_shooter_context(genres, context_text) and any(
+        token in blob for token in ("장비와 빌드를 오래 다듬는 성장 루프", "장비를 모으는 재미", "장비와 빌드")
+    ):
+        return (
+            "분대 합이 살아나는 협동 임무",
+            "역할을 나눠 임무를 밀어붙일수록 분대 플레이의 손발이 맞는 재미가 살아납니다.",
+        )
+
     if _is_turn_based_tactics_context(genres, context_text) and "전투/이동 흐름" in blob:
         return (
             "턴 흐름이 끊기는 구간",
             "프레임과 반응성이 흔들리면 턴 단위 판단이 답답하게 느껴질 수 있습니다.",
+        )
+
+    if _is_narrative_openworld_context(genres, context_text) and any(token in blob for token in ("매칭", "서버 상태")):
+        return (
+            "몰입을 끊는 기술 이슈",
+            "기술적인 끊김이나 거슬림이 길게 이어지면 서사와 장면의 몰입이 쉽게 흐트러질 수 있습니다.",
         )
 
     return title_value, summary_value
@@ -1011,6 +1050,35 @@ def _soften_evidence_title_tone(text: str) -> str:
     return value
 
 
+def _rewrite_headline_for_context(
+    headline: str,
+    *,
+    genres: list[str],
+    fallback: str = "",
+    context_text: str = "",
+) -> str:
+    value = " ".join(str(headline or "").split()).strip()
+    if not value:
+        return fallback.strip()
+
+    if _is_looter_shooter_context(genres, context_text) and any(
+        token in value for token in ("탐험과 세계 해석", "세계관과 맥락", "플레이 흐름의 안정감", "플레이 흐름")
+    ):
+        return "장비 파밍과 성장 루프의 장점이 보여 무료로 가볍게 시작해보고 맞는지 판단하기 좋습니다."
+
+    if _is_coop_live_service_shooter_context(genres, context_text) and any(
+        token in value for token in ("플레이 흐름의 안정감", "플레이 흐름", "장비와 빌드")
+    ):
+        return "분대 협동과 임무 수행의 재미는 분명하지만 밸런스와 안정성 변수는 함께 감수해야 합니다."
+
+    if _is_narrative_openworld_context(genres, context_text) and any(
+        token in value for token in ("플레이 흐름의 안정감", "매칭", "서버 상태", "짧고 강한 교전 템포")
+    ):
+        return "사건과 인물의 여운이 오래 남는 경험은 분명한 강점이지만 긴 호흡의 진행 템포는 취향을 탈 수 있습니다."
+
+    return value
+
+
 def _guard_copy_text_by_genre(
     text: str,
     genres: list[str],
@@ -1030,6 +1098,36 @@ def _guard_copy_text_by_genre(
 
     if _is_visual_novel_context(genres, context_text):
         if _has_any("전투", "교전", "손맛", "매칭", "서버", "핵심 플레이", "성장 루프", "보스"):
+            return fallback.strip() or value
+
+    if _is_looter_shooter_context(genres, context_text):
+        if _has_any(
+            "탐험과 세계 해석",
+            "세계관과 맥락을 스스로 읽어가는",
+            "맵을 돌아다니며 발견",
+            "패턴을 익히며 반복 도전",
+            "플레이 흐름이 점점 또렷해지는 재미",
+            "배경과 연출이 만드는 분위기",
+        ):
+            return fallback.strip() or "장비와 빌드를 오래 다듬는 플레이어"
+
+    if _is_coop_live_service_shooter_context(genres, context_text):
+        if _has_any(
+            "탐험과 세계 해석",
+            "세계관과 맥락을 스스로 읽어가는",
+            "패턴을 익히며 반복 도전",
+            "플레이 흐름이 점점 또렷해지는 재미",
+            "서사와 분위기에 오래 몰입",
+            "배경과 연출이 만드는 분위기",
+        ):
+            return fallback.strip() or "분대 호흡을 맞추며 임무를 푸는 플레이어"
+
+    if _is_narrative_openworld_context(genres, context_text):
+        if _has_any("매칭", "서버 상태", "팀플레이", "짧고 강한 교전 템포", "패턴을 익히며 반복 도전", "플레이 흐름이 점점 또렷해지는 재미", "핵심 플레이를 반복하며", "핵심 플레이 감각"):
+            return fallback.strip() or value
+
+    if _is_life_sim_context(genres, context_text):
+        if _has_any("핵심 플레이 감각", "핵심 플레이를 반복하며", "빌드", "탐험과 세계 해석", "패턴을 익히며 반복 도전", "짧고 강한 교전 템포", "전투 손맛"):
             return fallback.strip() or value
 
     if _is_city_builder_context(genres, context_text):
@@ -1750,6 +1848,34 @@ def _contextualize_player_fit_result(
         normalized = _normalize_player_fit_phrase(value)
         if not normalized:
             continue
+        if _is_looter_shooter_context(genres, context_text):
+            if negative and any(token in normalized for token in ("탐험", "세계 해석", "패턴", "반복 도전", "서사와 분위기")):
+                normalized = "반복 임무와 파밍 피로를 크게 느끼는 플레이어"
+            elif (not negative) and any(
+                token in normalized
+                for token in ("탐험", "세계와 단서", "세계관과 맥락", "패턴", "반복 도전", "플레이 흐름", "배경과 연출")
+            ):
+                normalized = "장비와 빌드를 오래 다듬는 플레이어"
+        if _is_coop_live_service_shooter_context(genres, context_text):
+            if negative and any(token in normalized for token in ("탐험", "세계 해석", "패턴", "서사와 분위기")):
+                normalized = "분대 합이 안 맞을 때 커지는 피로에 민감한 플레이어"
+            elif (not negative) and any(
+                token in normalized
+                for token in ("탐험", "세계와 단서", "세계관과 맥락", "패턴", "플레이 흐름", "서사와 분위기", "배경과 연출")
+            ):
+                normalized = "분대 호흡을 맞추며 임무를 푸는 플레이어"
+        if _is_narrative_openworld_context(genres, context_text):
+            if negative and any(token in normalized for token in ("매칭", "서버", "팀플레이", "짧고 강한 교전")):
+                normalized = "긴 호흡의 진행 템포에 쉽게 지치는 플레이어"
+            elif (not negative) and any(
+                token in normalized for token in ("맵을 돌아다니며", "탐험", "세계와 단서", "플레이 흐름", "핵심 플레이", "손에 익혀")
+            ):
+                normalized = "사건과 인물의 여운을 오래 가져가는 플레이어"
+        if _is_life_sim_context(genres, context_text):
+            if negative and any(token in normalized for token in ("전투", "빌드", "탐험", "핵심 플레이")):
+                normalized = "반복적인 일상 루프에 쉽게 피로를 느끼는 플레이어"
+            elif (not negative) and any(token in normalized for token in ("전투", "빌드", "탐험", "핵심 플레이", "패턴")):
+                normalized = "생활 루프를 천천히 쌓아가는 플레이어"
         if _is_visual_novel_context(genres, context_text):
             if negative and any(token in normalized for token in ("매칭", "서버", "팀플레이", "교전", "핵심 플레이")):
                 normalized = "텍스트와 번역 품질에 민감한 플레이어"
@@ -1821,7 +1947,6 @@ def _is_visual_novel_context(genres: list[str], context_text: str = "") -> bool:
         for token in (
             "visual novel",
             "비주얼 노벨",
-            "story rich",
             "literature club",
             "write the way into their heart",
             "not suitable for children",
@@ -1848,6 +1973,69 @@ def _is_city_builder_context(genres: list[str], context_text: str = "") -> bool:
 def _is_automation_context(genres: list[str], context_text: str = "") -> bool:
     blob = _genre_signal_blob(genres, context_text)
     return any(token in blob for token in ("automation", "factory", "factorio", "공장", "자동화"))
+
+
+def _is_looter_shooter_context(genres: list[str], context_text: str = "") -> bool:
+    blob = _genre_signal_blob(genres, context_text)
+    return any(
+        token in blob
+        for token in (
+            "looter shooter",
+            "loot shooter",
+            "destiny 2",
+            "데스티니 가디언즈",
+            "action mmo",
+            "온라인 액션",
+            "warframe",
+            "무기고",
+            "워프레임",
+        )
+    )
+
+
+def _is_coop_live_service_shooter_context(genres: list[str], context_text: str = "") -> bool:
+    blob = _genre_signal_blob(genres, context_text)
+    return any(
+        token in blob
+        for token in (
+            "helldivers 2",
+            "helldivers™ 2",
+            "헬다이버",
+            "co-op shooter",
+            "cooperative shooter",
+            "live service shooter",
+            "3인칭 슈팅",
+        )
+    )
+
+
+def _is_narrative_openworld_context(genres: list[str], context_text: str = "") -> bool:
+    blob = _genre_signal_blob(genres, context_text)
+    return any(
+        token in blob
+        for token in (
+            "the witcher 3",
+            "witcher 3",
+            "red dead redemption 2",
+            "story rich open world",
+            "open world rpg",
+        )
+    )
+
+
+def _is_life_sim_context(genres: list[str], context_text: str = "") -> bool:
+    blob = _genre_signal_blob(genres, context_text)
+    return any(
+        token in blob
+        for token in (
+            "life sim",
+            "social sim",
+            "the sims",
+            "sims 4",
+            "inzoi",
+            "daily life",
+        )
+    )
 
 
 def _is_deckbuilder_context(genres: list[str], context_text: str = "") -> bool:
@@ -1885,6 +2073,20 @@ def _select_positive_theme_for_context(
             return "도시 운영"
         if aspect in {"graphics", "performance"}:
             return "도시 풍경"
+    if _is_looter_shooter_context(genres, context_text):
+        if aspect in {"gameplay", "content_depth", "customization", "story"}:
+            return "장비 성장"
+        if aspect in {"multiplayer", "matchmaking"}:
+            return "반복 임무"
+    if _is_coop_live_service_shooter_context(genres, context_text):
+        if aspect in {"gameplay", "multiplayer", "content_depth", "customization"}:
+            return "분대 임무"
+    if _is_narrative_openworld_context(genres, context_text):
+        if aspect in {"story", "gameplay", "content_depth", "graphics", "sound"}:
+            return "사건과 인물"
+    if _is_life_sim_context(genres, context_text):
+        if aspect in {"gameplay", "content_depth", "customization", "story", "building_ux"}:
+            return "생활 루프"
     if _is_automation_context(genres, context_text):
         if aspect in {"gameplay", "building_ux", "content_depth", "story", "multiplayer", "matchmaking"}:
             return "자동화 라인"
@@ -1914,6 +2116,30 @@ def _select_negative_theme_for_context(
             return "배치 피로"
         if aspect == "performance":
             return "도시 규모가 커질수록 무거워지는 흐름"
+    if _is_looter_shooter_context(genres, context_text):
+        if aspect in {"gameplay", "content_depth", "story", "customization"}:
+            return "반복 파밍 피로"
+        if aspect in {"multiplayer", "matchmaking"}:
+            return "연결과 매칭 변수"
+        if aspect in {"bugs", "performance"}:
+            return "활동 안정성 흔들림"
+    if _is_coop_live_service_shooter_context(genres, context_text):
+        if aspect in {"gameplay", "content_depth", "multiplayer", "matchmaking"}:
+            return "분대 합이 안 맞을 때 커지는 피로"
+        if aspect in {"bugs", "performance"}:
+            return "진행 안정성을 해치는 오류와 끊김"
+    if _is_narrative_openworld_context(genres, context_text):
+        if aspect in {"story", "gameplay", "content_depth"}:
+            return "진행 템포가 느리게 느껴지는 구간"
+        if aspect in {"multiplayer", "matchmaking", "bugs", "performance"}:
+            return "몰입을 끊는 기술 이슈"
+    if _is_life_sim_context(genres, context_text):
+        if aspect in {"gameplay", "content_depth", "story"}:
+            return "일상 루프 반복 피로"
+        if aspect in {"building_ux", "customization", "controls"}:
+            return "꾸미기와 동선 피로"
+        if aspect in {"bugs", "performance"}:
+            return "로딩과 오류가 흐름을 끊는 구간"
     if _is_automation_context(genres, context_text):
         if aspect in {"building_ux", "gameplay", "controls", "story", "multiplayer", "matchmaking"}:
             return "복잡한 동선"
@@ -1933,6 +2159,14 @@ def _fallback_positive_headline_theme(genres: list[str], context_text: str = "")
         return "서사 몰입"
     if _is_city_builder_context(genres, context_text):
         return "도시 운영"
+    if _is_looter_shooter_context(genres, context_text):
+        return "장비 파밍과 성장"
+    if _is_coop_live_service_shooter_context(genres, context_text):
+        return "분대 협동과 임무 수행"
+    if _is_narrative_openworld_context(genres, context_text):
+        return "사건과 인물의 여운"
+    if _is_life_sim_context(genres, context_text):
+        return "생활 루프와 꾸미기"
     if _is_automation_context(genres, context_text):
         return "자동화와 최적화"
     if _is_deckbuilder_context(genres, context_text):
@@ -1947,6 +2181,14 @@ def _fallback_negative_headline_theme(genres: list[str], context_text: str = "")
         return "텍스트 전달"
     if _is_city_builder_context(genres, context_text):
         return "도시 관리 부담"
+    if _is_looter_shooter_context(genres, context_text):
+        return "반복 파밍 피로"
+    if _is_coop_live_service_shooter_context(genres, context_text):
+        return "분대 합 피로"
+    if _is_narrative_openworld_context(genres, context_text):
+        return "긴 진행 템포"
+    if _is_life_sim_context(genres, context_text):
+        return "일상 루프 반복 피로"
     if _is_automation_context(genres, context_text):
         return "공장 관리 부담"
     if _is_deckbuilder_context(genres, context_text):
@@ -1962,6 +2204,14 @@ def _default_positive_fit_source(genres: list[str], *, context_text: str = "") -
         return {"aspect": "story", "themes": ["감정선", "서사 몰입"]}
     if _is_city_builder_context(genres, context_text):
         return {"aspect": "gameplay", "themes": ["도시 운영", "교통 흐름"]}
+    if _is_looter_shooter_context(genres, context_text):
+        return {"aspect": "gameplay", "themes": ["장비 성장", "반복 임무"]}
+    if _is_coop_live_service_shooter_context(genres, context_text):
+        return {"aspect": "multiplayer", "themes": ["분대 임무", "역할 분담"]}
+    if _is_narrative_openworld_context(genres, context_text):
+        return {"aspect": "story", "themes": ["사건과 인물", "서사 여운"]}
+    if _is_life_sim_context(genres, context_text):
+        return {"aspect": "gameplay", "themes": ["생활 루프", "꾸미기와 관계"]}
     if _is_automation_context(genres, context_text):
         return {"aspect": "gameplay", "themes": ["자동화 라인", "병목 해소"]}
     if _is_deckbuilder_context(genres, context_text):
@@ -1985,6 +2235,14 @@ def _default_negative_fit_source(genres: list[str], *, context_text: str = "") -
         return {"aspect": "localization", "themes": ["텍스트 흐름", "감정선 전달"]}
     if _is_city_builder_context(genres, context_text):
         return {"aspect": "building_ux", "themes": ["배치 피로", "도시 관리 부담"]}
+    if _is_looter_shooter_context(genres, context_text):
+        return {"aspect": "content_depth", "themes": ["반복 파밍 피로", "연결과 매칭 변수"]}
+    if _is_coop_live_service_shooter_context(genres, context_text):
+        return {"aspect": "multiplayer", "themes": ["분대 합 피로", "임무 반복 피로"]}
+    if _is_narrative_openworld_context(genres, context_text):
+        return {"aspect": "story", "themes": ["긴 진행 템포", "몰입을 끊는 기술 이슈"]}
+    if _is_life_sim_context(genres, context_text):
+        return {"aspect": "content_depth", "themes": ["일상 루프 반복 피로", "꾸미기와 동선 피로"]}
     if _is_automation_context(genres, context_text):
         return {"aspect": "building_ux", "themes": ["복잡한 동선", "병목 관리"]}
     if _is_deckbuilder_context(genres, context_text):
@@ -2092,8 +2350,16 @@ def _display_aspect_for_context(aspect: str, *, genres: list[str], context_text:
         "matchmaking",
     }:
         return "story"
+    if _is_narrative_openworld_context(genres, context_text) and aspect in {"gameplay", "graphics", "sound"}:
+        return "story"
+    if _is_life_sim_context(genres, context_text) and aspect in {"gameplay", "story", "customization", "building_ux"}:
+        return "content_depth"
     if _is_city_builder_context(genres, context_text) and aspect == "gameplay":
         return "building_ux"
+    if _is_looter_shooter_context(genres, context_text) and aspect in {"story", "customization"}:
+        return "content_depth"
+    if _is_coop_live_service_shooter_context(genres, context_text) and aspect in {"gameplay", "story"}:
+        return "multiplayer"
     if _is_automation_context(genres, context_text) and aspect in {"gameplay", "story", "multiplayer", "matchmaking"}:
         return "building_ux"
     if _is_deckbuilder_context(genres, context_text) and aspect in {"gameplay", "story", "customization"}:
@@ -2751,9 +3017,22 @@ def _evidence_aspect_keys_for_context(
     normalized = [str(item or "").strip() for item in aspect_keys if str(item or "").strip()]
     if _is_visual_novel_context(genres, context_text):
         return ["story"]
+    if _is_narrative_openworld_context(genres, context_text):
+        return ["story"]
+    if _is_life_sim_context(genres, context_text):
+        if any(key in {"gameplay", "story", "content_depth", "building_ux", "customization"} for key in normalized):
+            return ["content_depth"]
     if _is_city_builder_context(genres, context_text):
         if any(key in {"gameplay", "building_ux", "content_depth"} for key in normalized):
             return ["building_ux"]
+    if _is_looter_shooter_context(genres, context_text):
+        if any(key in {"gameplay", "story", "content_depth", "customization"} for key in normalized):
+            return ["content_depth"]
+        if any(key in {"multiplayer", "matchmaking"} for key in normalized):
+            return ["multiplayer"]
+    if _is_coop_live_service_shooter_context(genres, context_text):
+        if any(key in {"gameplay", "story", "multiplayer", "content_depth"} for key in normalized):
+            return ["multiplayer"]
     if _is_automation_context(genres, context_text):
         if any(key in {"gameplay", "building_ux", "content_depth"} for key in normalized):
             return ["building_ux"]

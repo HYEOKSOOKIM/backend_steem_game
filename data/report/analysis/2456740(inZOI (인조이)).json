@@ -23,7 +23,7 @@
     "bugs": {
       "mention_count": 122,
       "negative_ratio": 0.4180327868852459,
-      "recent_trend": "flat",
+      "recent_trend": "down",
       "experienced_player_share": 0.8852459016393442,
       "themes": [
         "일반 버그",
@@ -38,7 +38,7 @@
     "building_ux": {
       "mention_count": 144,
       "negative_ratio": 0.2777777777777778,
-      "recent_trend": "up",
+      "recent_trend": "flat",
       "experienced_player_share": 0.8958333333333334,
       "themes": [
         "건축 조작 불편",
@@ -50,10 +50,10 @@
       ]
     },
     "content_depth": {
-      "mention_count": 390,
-      "negative_ratio": 0.30256410256410254,
-      "recent_trend": "flat",
-      "experienced_player_share": 0.8974358974358975,
+      "mention_count": 389,
+      "negative_ratio": 0.3033419023136247,
+      "recent_trend": "down",
+      "experienced_player_share": 0.897172236503856,
       "themes": [
         "콘텐츠 부족",
         "반복 / 목적성 부족",
@@ -80,33 +80,33 @@
       ]
     },
     "customization": {
-      "mention_count": 211,
-      "negative_ratio": 0.26066350710900477,
+      "mention_count": 212,
+      "negative_ratio": 0.25943396226415094,
       "recent_trend": "flat",
-      "experienced_player_share": 0.8672985781990521,
+      "experienced_player_share": 0.8679245283018868,
       "themes": [
         "커스터마이징 호평",
         "헤어 / 의상 옵션 부족",
         "스킨 / 외형 요소"
       ],
       "sample_reviews": [
-        "출시 예정일때부터 기대를  가지고 있던 게임 이었어요.\n그래픽이 너무 좋아서 제컴퓨터에도 돌아갈까? 싶어서 살까 말까 살까말까 하다가 구매했습니다.\n\n다행이 돌아가서 열심히 커스터마이징도 하고 집도 꾸며보고 했습니다.\n이쁘게 꾸밀려면 인게임에 기본적으로 있는 아이템보단 사람들이 직접 커스텀한게 이쁘잖아요..?!\n이것저것 받았더니 게임이 멈추네요.. (인게임 내 창작마당처럼 받을 수 있는게 있음)\n그래서 컴퓨터 사양 올릴때까진.. 잠시 구석에 고이 넣어놓을 예정입니다 ㅜㅜ\n\n꾸미는거 좋아해서 구매했고 구매에 후회는 없는데 들어가면 꾸미기말고는 딱히 재미를 못느끼고있긴합니다",
-        "커스터마이징은 좋은데 컨텐츠가 부족하다 컨텐츠가 부족해 그래서 손이 안간다 시뮬레이션인데 시뮬레이션이 제일 재미없으면 어떡하란거지 모드가 없는것도 문제... 지금은 그저 예쁜 캐릭터 만들기 툴 솔직히 카스창 cc템도 부족해서 조이들도 만들다보면 대부분 거기서 거기됨"
+        "꾸미기, 혼자 놀기 좋아하면 진짜 최고. 한참 하다가 질려도 생각나서 또 하러 옴.\r\n\r\n원하는 것\r\n: 체형(비만도와 신장)과 의상(종류)을 모드 안깔아도 더 많이 할 수 있으면 좋겠습니다.\r\n\r\n안되겠지만 바라는 것\r\n: 총격, 포격 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ\r\n",
+        "출시 예정일때부터 기대를  가지고 있던 게임 이었어요.\n그래픽이 너무 좋아서 제컴퓨터에도 돌아갈까? 싶어서 살까 말까 살까말까 하다가 구매했습니다.\n\n다행이 돌아가서 열심히 커스터마이징도 하고 집도 꾸며보고 했습니다.\n이쁘게 꾸밀려면 인게임에 기본적으로 있는 아이템보단 사람들이 직접 커스텀한게 이쁘잖아요..?!\n이것저것 받았더니 게임이 멈추네요.. (인게임 내 창작마당처럼 받을 수 있는게 있음)\n그래서 컴퓨터 사양 올릴때까진.. 잠시 구석에 고이 넣어놓을 예정입니다 ㅜㅜ\n\n꾸미는거 좋아해서 구매했고 구매에 후회는 없는데 들어가면 꾸미기말고는 딱히 재미를 못느끼고있긴합니다"
       ]
     },
     "difficulty": {
-      "mention_count": 38,
-      "negative_ratio": 0.39473684210526316,
+      "mention_count": 39,
+      "negative_ratio": 0.38461538461538464,
       "recent_trend": "flat",
-      "experienced_player_share": 0.8421052631578947,
+      "experienced_player_share": 0.8461538461538461,
       "themes": [
         "난이도 / 진입장벽",
         "조작 / 규칙 학습 난이도",
         "튜토리얼 / 온보딩 부족"
       ],
       "sample_reviews": [
-        "모드가 아직 너무 빈약함.\n모드야 사람들이 만드는거니 어쩔 수 없지.\n근데 모드만드는게 난이도가 높은데다 업뎃할때마다 모드들 싹 날아가고 모드제작자도 모드받는사람도 모두가 지쳐가는 게임\n거기다 얼마전 업뎃에선 모드를 강제로 싹 날려버렸더라.\n그이후로 겜할의욕 날아가서 안함\n",
-        "출시 초반보다는 그래도 할게 생기긴 했는데 여전히 조이로 할수있는게 한정적인것같음 가격에 대비해서 조금 아쉬운 게임인거같아요. 근데 그래픽은 예뻐서 좋긴함"
+        "초반에 비해서 많이 발전한듯 굿굿 앞으로가 더더 기대됌",
+        "모드가 아직 너무 빈약함.\n모드야 사람들이 만드는거니 어쩔 수 없지.\n근데 모드만드는게 난이도가 높은데다 업뎃할때마다 모드들 싹 날아가고 모드제작자도 모드받는사람도 모두가 지쳐가는 게임\n거기다 얼마전 업뎃에선 모드를 강제로 싹 날려버렸더라.\n그이후로 겜할의욕 날아가서 안함\n"
       ]
     },
     "gameplay": {
@@ -127,7 +127,7 @@
     "graphics": {
       "mention_count": 215,
       "negative_ratio": 0.28837209302325584,
-      "recent_trend": "up",
+      "recent_trend": "down",
       "experienced_player_share": 0.8558139534883721,
       "themes": [
         "그래픽 / 비주얼 호평"
@@ -151,16 +151,16 @@
       ]
     },
     "mod_support": {
-      "mention_count": 134,
-      "negative_ratio": 0.23880597014925373,
+      "mention_count": 135,
+      "negative_ratio": 0.23703703703703705,
       "recent_trend": "flat",
-      "experienced_player_share": 0.8507462686567164,
+      "experienced_player_share": 0.8518518518518519,
       "themes": [
         "모드 지원 / 호환 문제"
       ],
       "sample_reviews": [
-        "포텐이 무궁무진함 근데 모드 좀 알아서 연결 시켜주면 안 되나?",
-        "출시 예정일때부터 기대를  가지고 있던 게임 이었어요.\n그래픽이 너무 좋아서 제컴퓨터에도 돌아갈까? 싶어서 살까 말까 살까말까 하다가 구매했습니다.\n\n다행이 돌아가서 열심히 커스터마이징도 하고 집도 꾸며보고 했습니다.\n이쁘게 꾸밀려면 인게임에 기본적으로 있는 아이템보단 사람들이 직접 커스텀한게 이쁘잖아요..?!\n이것저것 받았더니 게임이 멈추네요.. (인게임 내 창작마당처럼 받을 수 있는게 있음)\n그래서 컴퓨터 사양 올릴때까진.. 잠시 구석에 고이 넣어놓을 예정입니다 ㅜㅜ\n\n꾸미는거 좋아해서 구매했고 구매에 후회는 없는데 들어가면 꾸미기말고는 딱히 재미를 못느끼고있긴합니다"
+        "꾸미기, 혼자 놀기 좋아하면 진짜 최고. 한참 하다가 질려도 생각나서 또 하러 옴.\r\n\r\n원하는 것\r\n: 체형(비만도와 신장)과 의상(종류)을 모드 안깔아도 더 많이 할 수 있으면 좋겠습니다.\r\n\r\n안되겠지만 바라는 것\r\n: 총격, 포격 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ\r\n",
+        "포텐이 무궁무진함 근데 모드 좀 알아서 연결 시켜주면 안 되나?"
       ]
     },
     "monetization": {
@@ -223,7 +223,7 @@
     "story": {
       "mention_count": 161,
       "negative_ratio": 0.2732919254658385,
-      "recent_trend": "flat",
+      "recent_trend": "down",
       "experienced_player_share": 0.9192546583850931,
       "themes": [
         "캐릭터 / 연출 인상",
@@ -238,25 +238,25 @@
   "summary": {
     "what_players_like": "상대적으로 긍정 신호가 보이는 영역은 localization이며, 대표 테마는 번역 / 현지화 이슈입니다.",
     "what_players_dislike": "가장 자주 언급되는 불만 영역은 content_depth이며, 대표 테마는 콘텐츠 부족, 반복 / 목적성 부족입니다.",
-    "recent_change": "최근 기간에는 building_ux, graphics 관련 언급이 상대적으로 증가하는 흐름이 보입니다.",
+    "recent_change": "최근 기간에는 특정 카테고리의 급격한 변화보다 전반적인 유지 신호가 보입니다.",
     "fit_for": "초반 진입 장벽이나 조작 적응 여부를 중요하게 보는 플레이어는 사전 확인이 필요합니다.",
     "risks": "content_depth 관련 이슈는 반복적으로 언급되지만 최근 급격한 악화 신호는 제한적입니다."
   },
-  "pipeline_run_id": "2456740-20260417T071150Z",
-  "generated_at": "2026-04-17T07:11:50.761293+00:00",
-  "source_review_count": 1526,
-  "review_pages": "raw_rebuild",
-  "fetched_pages": null,
-  "fetched_review_count": 1526,
-  "fetch_timeout_seconds": null,
-  "fetch_filter": null,
-  "all_mode_page_cap": null,
-  "all_mode_cap_reached": null,
+  "pipeline_run_id": "2456740-20260427T082435Z",
+  "generated_at": "2026-04-27T08:25:46.630185+00:00",
+  "source_review_count": 1529,
+  "review_pages": "all",
+  "fetched_pages": 17,
+  "fetched_review_count": 1529,
+  "fetch_timeout_seconds": 20,
+  "fetch_filter": "recent",
+  "all_mode_page_cap": 200,
+  "all_mode_cap_reached": false,
   "llm_stats": {
-    "considered": 1306,
-    "selected": 50,
-    "invoked": 50,
-    "success": 50,
+    "considered": 1308,
+    "selected": 20,
+    "invoked": 20,
+    "success": 20,
     "schema_invalid": 0,
     "low_confidence": 0,
     "cache_hits": 0,
@@ -264,14 +264,14 @@
   },
   "report_material_refiner": {
     "enabled": true,
-    "max_llm_reviews": 50,
+    "max_llm_reviews": 20,
     "llm_min_confidence": 0.7,
-    "material_count": 50,
+    "material_count": 20,
     "stats": {
-      "considered": 1306,
-      "selected": 50,
-      "invoked": 50,
-      "success": 50,
+      "considered": 1308,
+      "selected": 20,
+      "invoked": 20,
+      "success": 20,
       "schema_invalid": 0,
       "low_confidence": 0,
       "cache_hits": 0,

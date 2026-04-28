@@ -8,8 +8,8 @@
   ],
   "issue_signals": {
     "balance": {
-      "mention_count": 5,
-      "negative_ratio": 0.0,
+      "mention_count": 51,
+      "negative_ratio": 0.29411764705882354,
       "recent_trend": "flat",
       "experienced_player_share": 1.0,
       "themes": [
@@ -21,10 +21,10 @@
       ]
     },
     "bugs": {
-      "mention_count": 109,
-      "negative_ratio": 0.6055045871559633,
+      "mention_count": 633,
+      "negative_ratio": 0.4928909952606635,
       "recent_trend": "flat",
-      "experienced_player_share": 0.981651376146789,
+      "experienced_player_share": 0.9778830963665087,
       "themes": [
         "일반 버그",
         "계정 / 제재 이슈",
@@ -36,12 +36,13 @@
       ]
     },
     "building_ux": {
-      "mention_count": 4,
+      "mention_count": 16,
       "negative_ratio": 0.25,
       "recent_trend": "flat",
       "experienced_player_share": 1.0,
       "themes": [
-        "건축 조작 불편"
+        "건축 조작 불편",
+        "부지 / 구조 제약"
       ],
       "sample_reviews": [
         "전작 대비 아쉬운 단순화\nGTA SA와 4에서 보여준 디테일한 시스템들이 5에서는 대폭 간소화되어 시리즈 팬으로서는 실망스럽습니다. \n특히 GTA 4의 뛰어난 물리 엔진과 격투 시스템이 5에서는 상당히 단순해져서, 몸싸움만으로도 몇 시간을 보낼 수 있었던 전작의 재미가 사라졌습니다. \n체력/근력 시스템, 운전 숙련도, 다양한 격투 기술 등 RPG적 요소들도 모두 제거되어 게임의 깊이가 얕아진 느낌입니다.\n\n싱글플레이: 적당한 재미\n스토리 모드는 여전히 괜찮은 수준입니다. \n3명의 주인공 시스템과 로스 산토스의 구현도는 충분히 즐길 만하지만, 전작들과 비교하면 혁신적이라고 보기는 어렵습니다.\n\n멀티플레이: 친구와 함께할 때만 제한적 재미\nGTA 온라인은 친구들과 함께할 때는 분명 재미있지만, 근본적인 문제들이 많습니다. \n대부분의 콘텐츠가 반복적인 구조로 되어 있어 금세 지루해지고, 무엇보다 수년간 축적된 고레벨 유저들로 인해 초기의 소소한 코옵 재미는 완전히 사라졌습니다. \n신규 유저가 캐주얼하게 즐기기에는 진입 장벽이 너무 높아진 상태입니다.\n\n총평\n상업적으로는 대성공했지만, 게임 자체의 완성도로는 전작들에 비해 아쉬운 부분이 많은 게임입니다. \n시리즈의 디테일한 시스템들을 기대했다면 실망할 가능성이 높고, 온라인도 친구 없이는 권하지 않습니다.",
@@ -49,10 +50,10 @@
       ]
     },
     "content_depth": {
-      "mention_count": 75,
-      "negative_ratio": 0.18666666666666668,
+      "mention_count": 391,
+      "negative_ratio": 0.18925831202046037,
       "recent_trend": "flat",
-      "experienced_player_share": 1.0,
+      "experienced_player_share": 0.9948849104859335,
       "themes": [
         "콘텐츠 부족",
         "반복 / 목적성 부족",
@@ -64,12 +65,14 @@
       ]
     },
     "controls": {
-      "mention_count": 11,
-      "negative_ratio": 0.18181818181818182,
+      "mention_count": 64,
+      "negative_ratio": 0.25,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9090909090909091,
+      "experienced_player_share": 0.953125,
       "themes": [
-        "조작감 문제"
+        "조작감 문제",
+        "시점 / 멀미 이슈",
+        "UI / 입력 불편"
       ],
       "sample_reviews": [
         "갠적으로 오픈월드 온라인 보단 친구들끼리 습격하는게 젤 재밌고염 넘버패드 없으면 패드로 하거나 따로사세염.. 저는 IJKL 키에 따로 설정해서 했어염",
@@ -77,25 +80,28 @@
       ]
     },
     "customization": {
-      "mention_count": 1,
-      "negative_ratio": 0.0,
+      "mention_count": 17,
+      "negative_ratio": 0.058823529411764705,
       "recent_trend": "flat",
       "experienced_player_share": 1.0,
       "themes": [
+        "커스터마이징 호평",
+        "헤어 / 의상 옵션 부족",
         "스킨 / 외형 요소"
       ],
       "sample_reviews": [
-        "시간 없으면 이거 살 돈으로 롤 스킨에 쓰세요"
+        "시간 없으면 이거 살 돈으로 롤 스킨에 쓰세요",
+        "재밌는데 동물의 숲처럼 돈버는 노동자가 되어버림.\n노동자 신분?을 느껴버리면 재미가 없어짐.\n\n어쨌든 게임 자체는 너무 잘 만든 게임.\n역시 오픈 월드의 상징 아니겠나"
       ]
     },
     "difficulty": {
-      "mention_count": 34,
-      "negative_ratio": 0.058823529411764705,
+      "mention_count": 148,
+      "negative_ratio": 0.12162162162162163,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9411764705882353,
+      "experienced_player_share": 0.9662162162162162,
       "themes": [
-        "조작 / 규칙 학습 난이도",
         "난이도 / 진입장벽",
+        "조작 / 규칙 학습 난이도",
         "튜토리얼 / 온보딩 부족"
       ],
       "sample_reviews": [
@@ -104,10 +110,10 @@
       ]
     },
     "gameplay": {
-      "mention_count": 91,
-      "negative_ratio": 0.04395604395604396,
+      "mention_count": 407,
+      "negative_ratio": 0.07616707616707617,
       "recent_trend": "flat",
-      "experienced_player_share": 0.989010989010989,
+      "experienced_player_share": 0.9975429975429976,
       "themes": [
         "탐험 / 월드 경험",
         "전투 손맛 / 액션 호평",
@@ -119,35 +125,36 @@
       ]
     },
     "graphics": {
-      "mention_count": 22,
-      "negative_ratio": 0.045454545454545456,
+      "mention_count": 113,
+      "negative_ratio": 0.035398230088495575,
       "recent_trend": "flat",
       "experienced_player_share": 1.0,
       "themes": [
         "그래픽 / 비주얼 호평"
       ],
       "sample_reviews": [
-        "컴퓨터 하고 파일하고 부딪혀서 컴퓨터가 자주 고장남 그래픽 카드 문제도 아니고 바이러스 문제도 아닌 파일의 문제임 형도 게임을 하다가 1tb짜리 기억 장치를 날려 먹은 적이 있음 절대 비추",
+        "컴퓨터 하고 파일하고 부딪혀서 컴퓨터가 자주 고장남 그래픽 카드 문제도 아니고 바이러스 문제도 아닌 파일의 문제임 형도 게임을 하다가 1tb짜리 기억 장치를 날려 먹은 적이 있음 절대 비추\nㅇㄴ 록스타 애미 어디갔나요? 시발 앱이 이미 있는데 또 다운로드 하라는 건 뭔 또 개지랄이야 6나온다고 5관련 된 것 때려친거냐. 없는티 작작내라",
         "그래픽이 좋고 오래동안 할수있음"
       ]
     },
     "localization": {
-      "mention_count": 1,
-      "negative_ratio": 0.0,
+      "mention_count": 14,
+      "negative_ratio": 0.2857142857142857,
       "recent_trend": "flat",
       "experienced_player_share": 1.0,
       "themes": [
         "번역 / 현지화 이슈"
       ],
       "sample_reviews": [
-        "재미는 있는데 한국인을 2명밖에 못봄 채팅칠때 한국어 채팅쓰기 힘듬"
+        "재미는 있는데 한국인을 2명밖에 못봄 채팅칠때 한국어 채팅쓰기 힘듬",
+        "그타 재밌긴한데 핵이 난무하고 켜기만하면 씨발 eng 키보드 자동으로 쳐켜짐 개병신같은겜 진짜 한국어 호환성패치 좆도안되있음. UTF-8쓰는게 어렵나 그래픽은 존나 잘만들면서 어렵지도 않는건 좃도 못하노 병신들인가 ㅋㅋ 그타 만든 장애새끼들 존나역겹네"
       ]
     },
     "mod_support": {
-      "mention_count": 52,
-      "negative_ratio": 0.09615384615384616,
+      "mention_count": 258,
+      "negative_ratio": 0.13565891472868216,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9615384615384616,
+      "experienced_player_share": 0.9883720930232558,
       "themes": [
         "모드 지원 / 호환 문제"
       ],
@@ -157,10 +164,10 @@
       ]
     },
     "monetization": {
-      "mention_count": 39,
-      "negative_ratio": 0.1794871794871795,
+      "mention_count": 233,
+      "negative_ratio": 0.24034334763948498,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9230769230769231,
+      "experienced_player_share": 0.9184549356223176,
       "themes": [
         "가격 / 과금 불만",
         "DLC / 확장팩 언급"
@@ -171,25 +178,25 @@
       ]
     },
     "multiplayer": {
-      "mention_count": 191,
-      "negative_ratio": 0.2198952879581152,
-      "recent_trend": "up",
-      "experienced_player_share": 0.9895287958115183,
+      "mention_count": 1679,
+      "negative_ratio": 0.2805241215008934,
+      "recent_trend": "flat",
+      "experienced_player_share": 0.9928528886241811,
       "themes": [
         "부정행위 / 보안 이슈",
-        "멀티플레이 경험",
-        "매칭 / 서버 문제"
+        "매칭 / 서버 문제",
+        "멀티플레이 경험"
       ],
       "sample_reviews": [
-        "재미있는데 종종 핵쟁이들이 많이있음",
-        "핵이 많아 가끔 짜증나지만 너무 재미있어요"
+        "멀티 해보고 싶었는데 개고여 있어서 고통만 받을거 같아서 하지 않았음\n싱글만해도 재밌게 함\n근데 운전중에 말좀 그만해",
+        "핵쟁이가 너무 좆같아서 저도 핵을 샀습니다 물론 미쿠랑 반반해서요"
       ]
     },
     "performance": {
-      "mention_count": 55,
-      "negative_ratio": 0.5636363636363636,
+      "mention_count": 384,
+      "negative_ratio": 0.5390625,
       "recent_trend": "flat",
-      "experienced_player_share": 1.0,
+      "experienced_player_share": 0.984375,
       "themes": [
         "로딩 / 발열 문제",
         "최적화 문제",
@@ -201,23 +208,23 @@
       ]
     },
     "save_progression": {
-      "mention_count": 12,
-      "negative_ratio": 0.25,
+      "mention_count": 93,
+      "negative_ratio": 0.2903225806451613,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9166666666666666,
+      "experienced_player_share": 0.967741935483871,
       "themes": [
         "저장 / 세이브 손실"
       ],
       "sample_reviews": [
-        "구린컴으로 했는데도 잘 돌아가네요 ㅎㅎ.. 다들 해보세요 로드킬도 재밌고 갱단 불러서 싸지 뜨는것도 재밌네요 다들 한번 해보세요ㅎ",
-        "다운로드속도 존나 느리네 갓겜 인정합니다\n"
+        "게임을 다운로드 했는데 설치 삭제 했다가 게임에 실행 할수 있다네요 이부분이 화가 나요 저는 게임할려고 다운했는데 전 게임프로머예요 그리고 바로 실행할수있도록 하세요 아빠가 한데요 오랜만에 본가에 왔어요 운영자님  전 말씀했어요\r\n",
+        "컴퓨터 하고 파일하고 부딪혀서 컴퓨터가 자주 고장남 그래픽 카드 문제도 아니고 바이러스 문제도 아닌 파일의 문제임 형도 게임을 하다가 1tb짜리 기억 장치를 날려 먹은 적이 있음 절대 비추\nㅇㄴ 록스타 애미 어디갔나요? 시발 앱이 이미 있는데 또 다운로드 하라는 건 뭔 또 개지랄이야 6나온다고 5관련 된 것 때려친거냐. 없는티 작작내라"
       ]
     },
     "story": {
-      "mention_count": 126,
-      "negative_ratio": 0.0873015873015873,
-      "recent_trend": "flat",
-      "experienced_player_share": 0.9841269841269841,
+      "mention_count": 597,
+      "negative_ratio": 0.12060301507537688,
+      "recent_trend": "down",
+      "experienced_player_share": 0.9932998324958124,
       "themes": [
         "스토리 / 서사 몰입",
         "캐릭터 / 연출 인상"
@@ -229,10 +236,46 @@
     }
   },
   "summary": {
-    "what_players_like": "상대적으로 긍정 신호가 보이는 영역은 balance이며, 대표 테마는 밸런스 불만입니다.",
-    "what_players_dislike": "가장 자주 언급되는 불만 영역은 multiplayer이며, 대표 테마는 부정행위 / 보안 이슈, 멀티플레이 경험입니다.",
-    "recent_change": "최근 기간에는 multiplayer 관련 언급이 상대적으로 증가하는 흐름이 보입니다.",
+    "what_players_like": "상대적으로 긍정 신호가 보이는 영역은 graphics이며, 대표 테마는 그래픽 / 비주얼 호평입니다.",
+    "what_players_dislike": "가장 자주 언급되는 불만 영역은 multiplayer이며, 대표 테마는 부정행위 / 보안 이슈, 매칭 / 서버 문제입니다.",
+    "recent_change": "최근 기간에는 특정 카테고리의 급격한 변화보다 전반적인 유지 신호가 보입니다.",
     "fit_for": "초반 진입 장벽이나 조작 적응 여부를 중요하게 보는 플레이어는 사전 확인이 필요합니다.",
-    "risks": "multiplayer 관련 불만이 최근 구간에서 상대적으로 증가하고 있어 추적이 필요합니다."
+    "risks": "multiplayer 관련 이슈는 반복적으로 언급되지만 최근 급격한 악화 신호는 제한적입니다."
+  },
+  "pipeline_run_id": "271590-20260427T060924Z",
+  "generated_at": "2026-04-27T06:11:59.011715+00:00",
+  "source_review_count": 19998,
+  "review_pages": "all",
+  "fetched_pages": 200,
+  "fetched_review_count": 19998,
+  "fetch_timeout_seconds": 20,
+  "fetch_filter": "recent",
+  "all_mode_page_cap": 200,
+  "all_mode_cap_reached": true,
+  "llm_stats": {
+    "considered": 7745,
+    "selected": 20,
+    "invoked": 20,
+    "success": 20,
+    "schema_invalid": 0,
+    "low_confidence": 0,
+    "cache_hits": 0,
+    "fallback_used": 0
+  },
+  "report_material_refiner": {
+    "enabled": true,
+    "max_llm_reviews": 20,
+    "llm_min_confidence": 0.7,
+    "material_count": 20,
+    "stats": {
+      "considered": 7745,
+      "selected": 20,
+      "invoked": 20,
+      "success": 20,
+      "schema_invalid": 0,
+      "low_confidence": 0,
+      "cache_hits": 0,
+      "fallback_used": 0
+    }
   }
 }

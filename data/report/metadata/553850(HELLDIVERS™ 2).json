@@ -7,6 +7,16 @@
   "price_model": "paid",
   "release_stage": "released",
   "release_date_text": "2024년 2월 8일",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/c30971376c20594452d25bb1d7d6346961bbeefa/header_koreana.jpg?t=1770747641",
+  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/809895eaaca3d12a1c2b69c3aca4e356590b30da/capsule_231x87_koreana.jpg?t=1770747641",
+  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/809895eaaca3d12a1c2b69c3aca4e356590b30da/capsule_184x69_koreana.jpg?t=1770747641",
+  "short_description": "은하계 최고의 공격 부대. 빠르고, 정신없고, 격렬한 3인칭 슈팅 게임에서 헬다이버가 되어 적대적인 은하계 전역을 누비며 자유를 위해 싸우세요.",
+  "steam_store_url": "https://store.steampowered.com/app/553850",
+  "steam_recommendation_count": 814953,
+  "steam_review_score_desc": "Mixed",
+  "steam_total_positive": 9581,
+  "steam_total_negative": 8412,
+  "steam_total_reviews": 17993,
   "is_free": false,
   "coming_soon": false
 }
