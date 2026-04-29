@@ -209,6 +209,38 @@ class ApiFlowTests(unittest.TestCase):
         self.assertIn("top_risks", report["report_display"])
         self.assertIn("top_strengths", report["report_display"])
 
+    def test_load_report_can_refresh_live_price_context(self):
+        TEST_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+        write_demo_catalog(TEST_OUTPUT_DIR, [2456740])
+        write_snapshot_files(TEST_OUTPUT_DIR, 2456740)
+
+        live_payload = {
+            "2456740": {
+                "success": True,
+                "data": {
+                    "steam_appid": 2456740,
+                    "name": "Game 2456740",
+                    "is_free": False,
+                    "price_overview": {
+                        "currency": "KRW",
+                        "initial": 65000,
+                        "final": 43000,
+                        "discount_percent": 34,
+                        "initial_formatted": "₩65,000",
+                        "final_formatted": "₩43,000",
+                    },
+                    "release_date": {"coming_soon": False, "date": "1 Jan, 2024"},
+                },
+            }
+        }
+
+        with patch("report.api.routes.fetch_steam_game_metadata", return_value=live_payload):
+            report = load_report(2456740, data_root=TEST_OUTPUT_DIR, refresh_live_price=True)
+
+        self.assertEqual(report["game"]["price_current_formatted"], "₩43,000")
+        self.assertEqual(report["game"]["price_original_formatted"], "₩65,000")
+        self.assertEqual(report["game"]["price_discount_percent"], 34)
+
     def test_user_read_helpers_reject_non_demo_appid(self):
         TEST_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
         write_demo_catalog(TEST_OUTPUT_DIR, [2456740])

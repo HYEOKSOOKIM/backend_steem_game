@@ -29,11 +29,12 @@ def _load_env() -> None:
 
 def _print_precheck(*, use_llm_fallback: bool) -> None:
     """Print one-line runtime precheck for LLM settings."""
+    concurrency = os.getenv("REPORT_LLM_MAX_CONCURRENCY", "5")
     key_status = "set" if bool(os.getenv("OPENAI_API_KEY")) else "missing"
     model = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
     print(
         f"[offline-pipeline] precheck: llm_requested={use_llm_fallback} "
-        f"openai_key={key_status} model={model}"
+        f"provider=openai key={key_status} model={model} concurrency={concurrency}"
     )
 
 

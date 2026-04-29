@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import json
 import os
 import re
@@ -192,6 +193,10 @@ class OpenAIReportMaterialRefiner:
         return None
 
 
+def build_report_material_refiner() -> OpenAIReportMaterialRefiner:
+    return OpenAIReportMaterialRefiner()
+
+
 def build_report_materials(
     processed_reviews: list[ProcessedReview],
     *,
@@ -214,6 +219,44 @@ def build_report_materials(
     materials: list[RefinedReviewMaterial] = []
     llm_available = bool(refiner and refiner.available)
 
+    if llm_available and refiner is not None:
+        unique_reviews: dict[str, ProcessedReview] = {}
+        for review in candidates:
+            cache_key = review.normalized_text.strip().lower()
+            if cache_key and cache_key not in unique_reviews:
+                unique_reviews[cache_key] = review
+
+        max_workers = min(_llm_max_concurrency(), max(len(unique_reviews), 1))
+        if unique_reviews and max_workers > 1:
+            with ThreadPoolExecutor(max_workers=max_workers) as executor:
+                future_map = {
+                    executor.submit(
+                        refiner.refine,
+                        review=review,
+                        timeout_seconds=config.timeout_seconds,
+                        retry_limit=config.retry_limit,
+                    ): cache_key
+                    for cache_key, review in unique_reviews.items()
+                }
+                stats.invoked += len(future_map)
+                for future in as_completed(future_map):
+                    cache_key = future_map[future]
+                    try:
+                        cache[cache_key] = future.result()
+                    except Exception:
+                        cache[cache_key] = None
+        elif unique_reviews:
+            for cache_key, review in unique_reviews.items():
+                stats.invoked += 1
+                try:
+                    cache[cache_key] = refiner.refine(
+                        review=review,
+                        timeout_seconds=config.timeout_seconds,
+                        retry_limit=config.retry_limit,
+                    )
+                except Exception:
+                    cache[cache_key] = None
+
     for rank, review in enumerate(candidates, start=1):
         source_text = _normalize_review_text(review.review_text)
         cache_key = review.normalized_text.strip().lower()
@@ -222,15 +265,19 @@ def build_report_materials(
 
         if cache_key and cache_key in cache:
             decision = cache[cache_key]
-            stats.cache_hits += 1
+            if llm_available:
+                stats.cache_hits += 1
             llm_used = decision is not None
         elif llm_available and refiner is not None:
             stats.invoked += 1
-            decision = refiner.refine(
-                review=review,
-                timeout_seconds=config.timeout_seconds,
-                retry_limit=config.retry_limit,
-            )
+            try:
+                decision = refiner.refine(
+                    review=review,
+                    timeout_seconds=config.timeout_seconds,
+                    retry_limit=config.retry_limit,
+                )
+            except Exception:
+                decision = None
             cache[cache_key] = decision
             llm_used = decision is not None
 
@@ -296,6 +343,15 @@ def build_report_materials(
         )
 
     return [material.to_dict() for material in materials], stats
+
+
+def _llm_max_concurrency() -> int:
+    raw = os.getenv("REPORT_LLM_MAX_CONCURRENCY", "5").strip()
+    try:
+        value = int(raw)
+    except (TypeError, ValueError):
+        return 5
+    return max(1, min(value, 16))
 
 
 def _select_candidates(processed_reviews: list[ProcessedReview], *, max_count: int) -> list[ProcessedReview]:

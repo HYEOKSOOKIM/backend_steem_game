@@ -63,7 +63,11 @@ def make_appdetails_payload(appid: int = 570) -> dict:
                 ],
                 "price_overview": {
                     "currency": "KRW",
+                    "initial": 33000,
                     "final": 22000,
+                    "discount_percent": 33,
+                    "initial_formatted": "₩33,000",
+                    "final_formatted": "₩22,000",
                 },
                 "release_date": {
                     "coming_soon": False,
@@ -101,6 +105,12 @@ class IngestionAndStorageTests(unittest.TestCase):
         self.assertEqual(metadata.appid, 570)
         self.assertEqual(metadata.name, "Test Game")
         self.assertEqual(metadata.price_model, "paid")
+        self.assertEqual(metadata.price_currency, "KRW")
+        self.assertEqual(metadata.price_original, 33000)
+        self.assertEqual(metadata.price_current, 22000)
+        self.assertEqual(metadata.price_discount_percent, 33)
+        self.assertEqual(metadata.price_original_formatted, "₩33,000")
+        self.assertEqual(metadata.price_current_formatted, "₩22,000")
         self.assertEqual(metadata.release_stage, "released")
         self.assertEqual(metadata.genres, ["Action", "RPG"])
 

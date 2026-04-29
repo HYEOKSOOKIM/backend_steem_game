@@ -98,6 +98,7 @@ def normalize_steam_game_metadata(appid: int, payload: dict[str, Any]) -> GameMe
         short_description=_clean_optional_string(app_data.get("short_description")),
         steam_store_url=f"https://store.steampowered.com/app/{appid}",
         steam_recommendation_count=_safe_int(recommendations.get("total")),
+        **_normalize_price_overview(app_data.get("price_overview")),
         is_free=bool(is_free) if is_free is not None else None,
         coming_soon=coming_soon,
     )
@@ -221,7 +222,7 @@ def fetch_steam_reviews_page(
         }
     )
     url = f"{STEAM_REVIEW_ENDPOINT.format(appid=appid)}?{params}"
-    payload = _fetch_json(url, "Steam review")
+    payload = _fetch_json(url, "Steam review", timeout=timeout)
 
     if payload.get("success") not in {1, None}:
         raise RuntimeError("Steam review response did not report success")
@@ -245,7 +246,7 @@ def fetch_steam_game_metadata(
         }
     )
     url = f"{STEAM_APP_DETAILS_ENDPOINT}?{params}"
-    payload = _fetch_json(url, "Steam appdetails")
+    payload = _fetch_json(url, "Steam appdetails", timeout=timeout)
 
     app_entry = payload.get(str(appid))
     if not isinstance(app_entry, dict) or not app_entry.get("success"):
@@ -254,9 +255,9 @@ def fetch_steam_game_metadata(
     return payload
 
 
-def _fetch_json(url: str, label: str) -> dict[str, Any]:
+def _fetch_json(url: str, label: str, *, timeout: int = 20) -> dict[str, Any]:
     try:
-        with urlopen(url, timeout=20) as response:
+        with urlopen(url, timeout=timeout) as response:
             return json.loads(response.read().decode("utf-8"))
     except HTTPError as exc:  # pragma: no cover - network is mocked in tests.
         raise RuntimeError(f"{label} request failed with status {exc.code}") from exc
@@ -312,6 +313,32 @@ def _derive_price_model(*, is_free: Any, app_data: dict[str, Any]) -> str:
     return "unknown"
 
 
+def _normalize_price_overview(price_overview: Any) -> dict[str, Any]:
+    if not isinstance(price_overview, dict):
+        return {
+            "price_currency": None,
+            "price_current": None,
+            "price_original": None,
+            "price_current_formatted": None,
+            "price_original_formatted": None,
+            "price_discount_percent": None,
+        }
+
+    current = _safe_int_or_none(price_overview.get("final"))
+    original = _safe_int_or_none(price_overview.get("initial"))
+    if original is None:
+        original = current
+
+    return {
+        "price_currency": _clean_optional_string(price_overview.get("currency")),
+        "price_current": current,
+        "price_original": original,
+        "price_current_formatted": _clean_optional_string(price_overview.get("final_formatted")),
+        "price_original_formatted": _clean_optional_string(price_overview.get("initial_formatted")),
+        "price_discount_percent": _safe_int_or_none(price_overview.get("discount_percent")),
+    }
+
+
 def _derive_release_stage(
     *,
     coming_soon: bool,
@@ -338,4 +365,13 @@ def _safe_int(value: Any) -> int | None:
     if value is None:
         return None
     return int(value)
+
+
+def _safe_int_or_none(value: Any) -> int | None:
+    if value in (None, ""):
+        return None
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return None
 

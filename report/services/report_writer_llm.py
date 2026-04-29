@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import json
 import os
 from typing import Any
@@ -269,6 +270,7 @@ class OpenAIReportWriter:
             return candidate
         return None
 
+
     def generate_report_display(
         self,
         *,
@@ -282,34 +284,58 @@ class OpenAIReportWriter:
         if self._client is None:
             return None
 
-        core = self._generate_core_section(
-            consensus_payload=consensus_payload,
-            report_plan=report_plan,
-            seed_display=seed_display,
-            timeout_seconds=timeout_seconds,
-            retry_limit=retry_limit,
-        )
-        strengths = self._generate_strengths_section(
-            consensus_payload=consensus_payload,
-            report_plan=report_plan,
-            seed_display=seed_display,
-            timeout_seconds=timeout_seconds,
-            retry_limit=retry_limit,
-        )
-        risks = self._generate_risks_section(
-            consensus_payload=consensus_payload,
-            report_plan=report_plan,
-            seed_display=seed_display,
-            timeout_seconds=timeout_seconds,
-            retry_limit=retry_limit,
-        )
-        recent_state = self._generate_recent_state_section(
-            consensus_payload=consensus_payload,
-            report_plan=report_plan,
-            seed_display=seed_display,
-            timeout_seconds=timeout_seconds,
-            retry_limit=retry_limit,
-        )
+        tasks = {
+            "core": lambda: self._generate_core_section(
+                consensus_payload=consensus_payload,
+                report_plan=report_plan,
+                seed_display=seed_display,
+                timeout_seconds=timeout_seconds,
+                retry_limit=retry_limit,
+            ),
+            "strengths": lambda: self._generate_strengths_section(
+                consensus_payload=consensus_payload,
+                report_plan=report_plan,
+                seed_display=seed_display,
+                timeout_seconds=timeout_seconds,
+                retry_limit=retry_limit,
+            ),
+            "risks": lambda: self._generate_risks_section(
+                consensus_payload=consensus_payload,
+                report_plan=report_plan,
+                seed_display=seed_display,
+                timeout_seconds=timeout_seconds,
+                retry_limit=retry_limit,
+            ),
+            "recent_state": lambda: self._generate_recent_state_section(
+                consensus_payload=consensus_payload,
+                report_plan=report_plan,
+                seed_display=seed_display,
+                timeout_seconds=timeout_seconds,
+                retry_limit=retry_limit,
+            ),
+        }
+        results: dict[str, dict[str, Any] | None] = {}
+        max_workers = min(_llm_max_concurrency(), len(tasks))
+        if max_workers > 1:
+            with ThreadPoolExecutor(max_workers=max_workers) as executor:
+                future_map = {executor.submit(func): name for name, func in tasks.items()}
+                for future in as_completed(future_map):
+                    name = future_map[future]
+                    try:
+                        results[name] = future.result()
+                    except Exception:
+                        results[name] = None
+        else:
+            for name, func in tasks.items():
+                try:
+                    results[name] = func()
+                except Exception:
+                    results[name] = None
+
+        core = results.get("core")
+        strengths = results.get("strengths")
+        risks = results.get("risks")
+        recent_state = results.get("recent_state")
 
         if not core or not strengths or not risks or not recent_state:
             return None
@@ -491,6 +517,19 @@ class OpenAIReportWriter:
             except Exception:
                 continue
         return None
+
+
+def build_report_writer() -> OpenAIReportWriter:
+    return OpenAIReportWriter()
+
+
+def _llm_max_concurrency() -> int:
+    raw = os.getenv("REPORT_LLM_MAX_CONCURRENCY", "5").strip()
+    try:
+        value = int(raw)
+    except (TypeError, ValueError):
+        return 5
+    return max(1, min(value, 8))
 
 
 def validate_structured_report_payload(payload: Any) -> bool:

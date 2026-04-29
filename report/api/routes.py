@@ -21,6 +21,7 @@ from report.services.report_view import (
     enrich_review_trend,
     is_consumer_report_payload,
 )
+from report.services.steam_reviews import fetch_steam_game_metadata, normalize_steam_game_metadata
 from report.storage.file_store import FileStore
 
 APP_ROOT = Path(__file__).resolve().parents[2]
@@ -136,7 +137,12 @@ def list_demo_games(data_root: str | Path = DEFAULT_DATA_ROOT) -> list[dict[str,
     return result
 
 
-def load_report(appid: int, data_root: str | Path = DEFAULT_DATA_ROOT) -> dict[str, Any]:
+def load_report(
+    appid: int,
+    data_root: str | Path = DEFAULT_DATA_ROOT,
+    *,
+    refresh_live_price: bool = False,
+) -> dict[str, Any]:
     """Load report payload for one game without triggering any analysis work."""
     _ensure_demo_game(appid, data_root=data_root)
     store = FileStore(data_root, fallback_root_dir=LEGACY_DATA_ROOT)
@@ -144,12 +150,14 @@ def load_report(appid: int, data_root: str | Path = DEFAULT_DATA_ROOT) -> dict[s
     report_payload = _safe_read(lambda: store.read_report_view(appid))
     if is_consumer_report_payload(report_payload):
         metadata = _safe_read(lambda: store.read_game_metadata(appid), {})
+        metadata = _with_live_price_metadata(appid, metadata, enabled=refresh_live_price)
         processed = _safe_read(lambda: store.read_processed_reviews(appid), [])
         payload = _enrich_report_payload_game_context(appid, report_payload, metadata)
         return enrich_review_trend(payload, processed)
 
     analysis = store.read_analysis_result(appid)
     metadata = _safe_read(lambda: store.read_game_metadata(appid), {})
+    metadata = _with_live_price_metadata(appid, metadata, enabled=refresh_live_price)
     processed = _safe_read(lambda: store.read_processed_reviews(appid), [])
 
     return build_consumer_report_from_snapshot(
@@ -160,6 +168,41 @@ def load_report(appid: int, data_root: str | Path = DEFAULT_DATA_ROOT) -> dict[s
         pipeline_run_id=analysis.get("pipeline_run_id"),
         source_review_count=analysis.get("source_review_count"),
     )
+
+
+def _with_live_price_metadata(
+    appid: int,
+    metadata: dict[str, Any] | None,
+    *,
+    enabled: bool,
+) -> dict[str, Any]:
+    base = dict(metadata or {})
+    if not enabled:
+        return base
+
+    try:
+        live_payload = fetch_steam_game_metadata(appid, timeout=8)
+        live_metadata = normalize_steam_game_metadata(appid, live_payload).to_dict()
+    except (RuntimeError, ValueError):
+        return base
+
+    for key in (
+        "price_model",
+        "is_free",
+        "price_currency",
+        "price_current",
+        "price_original",
+        "price_current_formatted",
+        "price_original_formatted",
+        "price_discount_percent",
+    ):
+        value = live_metadata.get(key)
+        if key == "price_model" and value == "unknown" and base.get("price_model"):
+            continue
+        if value not in (None, "", []):
+            base[key] = value
+
+    return base
 
 
 def _enrich_report_payload_game_context(
@@ -265,7 +308,7 @@ if APIRouter is not None:
     def get_report(appid: int):
         """Return a consumer-facing report from stored snapshots."""
         try:
-            return load_report(appid)
+            return load_report(appid, refresh_live_price=True)
         except FileNotFoundError as exc:
             raise HTTPException(
                 status_code=404,

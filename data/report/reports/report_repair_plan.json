@@ -1,0 +1,382 @@
+{
+  "generated_at": "2026-04-29T02:26:22.876315+00:00",
+  "mode": "dry_run",
+  "appids": [
+    578080,
+    1174180,
+    3551340
+  ],
+  "safe_applied_count": 0,
+  "repairable_count": 0,
+  "repairable_needs_review_count": 0,
+  "repairable_with_holds_count": 3,
+  "hold_count": 0,
+  "rows": [
+    {
+      "status": "repairable_with_holds",
+      "can_apply_safely": false,
+      "requires_review": true,
+      "semantic_status": "fail",
+      "failure_count": 4,
+      "critical_failure_count": 4,
+      "action_count": 1,
+      "hold_count": 3,
+      "actions": [
+        {
+          "action": "rewrite_from_best_claim",
+          "failure_type": "theme_drift",
+          "field": "not_good_for[1]",
+          "claim_id": "risk_1",
+          "reason": "display 문장이 약하게 연결된 claim의 theme/phrase 기준으로 교체 후보를 만듭니다.",
+          "current_text": "매칭과 서버 상태 변화에 스트레스를 크게 받는 플레이어",
+          "replacement_text": "매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크에 민감한 플레이어",
+          "best_score": 0.0938,
+          "phrases_used": [
+            "스팀 계정",
+            "정지 당할까봐 무서워서",
+            "정지 당할까봐"
+          ],
+          "requires_review": true,
+          "safety_level": "review_required"
+        }
+      ],
+      "holds": [
+        {
+          "hold_type": "evidence_mismatch_hold",
+          "safety_level": "hold",
+          "failure_type": "evidence_mismatch",
+          "field": null,
+          "claim_id": "str_1",
+          "reason": "evidence 제목/설명과 스니펫이 어긋나 claim 자체를 신뢰하기 어렵습니다.",
+          "text": "생존 긴장감이 크다는 반응",
+          "failure": {
+            "type": "evidence_mismatch",
+            "severity": "critical",
+            "claim_id": "str_1",
+            "message": "evidence 제목/설명이 실제 스니펫의 주제와 맞지 않습니다.",
+            "claim_families": [
+              "cheating_security",
+              "combat",
+              "controls_ux",
+              "loot_progression",
+              "pacing_repetition"
+            ],
+            "snippet_families": [
+              "strategy_management"
+            ],
+            "text": "생존 긴장감이 크다는 반응"
+          }
+        },
+        {
+          "hold_type": "unsupported_claim_hold",
+          "safety_level": "hold",
+          "failure_type": "unsupported_claim",
+          "field": "top_strengths[1]",
+          "claim_id": null,
+          "reason": "근거 ledger에 없는 주장이라 자동으로 새 문장을 만들지 않습니다.",
+          "text": "장비와 빌드를 오래 다듬는 성장 루프 장비를 파밍하고 세팅을 맞춰 가며 강해지는 과정이 반복 임무의 동력으로 잘 이어집니다.",
+          "failure": {
+            "type": "unsupported_claim",
+            "severity": "critical",
+            "field": "top_strengths[1]",
+            "message": "display 문장에 evidence claim에서 지지되지 않는 주제 가족이 포함되어 있습니다.",
+            "unsupported_families": [
+              "multiplayer_online"
+            ],
+            "text": "장비와 빌드를 오래 다듬는 성장 루프 장비를 파밍하고 세팅을 맞춰 가며 강해지는 과정이 반복 임무의 동력으로 잘 이어집니다."
+          }
+        },
+        {
+          "hold_type": "invalid_rewrite_source_hold",
+          "safety_level": "hold",
+          "failure_type": "theme_drift",
+          "field": "top_strengths[3]",
+          "claim_id": "str_1",
+          "reason": "이 claim은 같은 라운드에서 중복 제거 또는 evidence mismatch 대상이라 rewrite 근거로 재사용하지 않습니다.",
+          "text": "꾸준한 콘텐츠 업데이트와 개선 신규 무기, 맵, 모드가 지속적으로 추가되어 신선함을 유지하며 플레이어에게 다양한 재미와 도전 요소를 제공합니다.",
+          "failure": {
+            "type": "theme_drift",
+            "severity": "critical",
+            "field": "top_strengths[3]",
+            "message": "display 문장이 어떤 evidence claim과도 충분히 연결되지 않습니다.",
+            "best_claim_id": "str_1",
+            "best_score": 0.125,
+            "text": "꾸준한 콘텐츠 업데이트와 개선 신규 무기, 맵, 모드가 지속적으로 추가되어 신선함을 유지하며 플레이어에게 다양한 재미와 도전 요소를 제공합니다."
+          },
+          "suggested_action": "rewrite_from_best_claim"
+        }
+      ],
+      "appid": 578080,
+      "game_name": "PUBG: BATTLEGROUNDS",
+      "report_path": "data\\report\\report\\578080(PUBG_ BATTLEGROUNDS).json",
+      "mode": "dry_run",
+      "safe_apply": {
+        "applied_count": 0,
+        "skipped_count": 0,
+        "applied": [],
+        "skipped": []
+      }
+    },
+    {
+      "status": "repairable_with_holds",
+      "can_apply_safely": false,
+      "requires_review": true,
+      "semantic_status": "fail",
+      "failure_count": 7,
+      "critical_failure_count": 7,
+      "action_count": 2,
+      "hold_count": 5,
+      "actions": [
+        {
+          "action": "rewrite_from_best_claim",
+          "failure_type": "theme_drift",
+          "field": "not_good_for[1]",
+          "claim_id": "risk_1",
+          "reason": "display 문장이 약하게 연결된 claim의 theme/phrase 기준으로 교체 후보를 만듭니다.",
+          "current_text": "긴 호흡의 진행 템포에 쉽게 지치는 플레이어",
+          "replacement_text": "진행 템포가 느리게 느껴지는 구간 지점에 민감한 플레이어",
+          "best_score": 0.0833,
+          "phrases_used": [
+            "무한로딩",
+            "온라인",
+            "악의적으로 느린 상호작용과 일괄적으로"
+          ],
+          "requires_review": true,
+          "safety_level": "review_required"
+        },
+        {
+          "action": "rewrite_from_best_claim",
+          "failure_type": "theme_drift",
+          "field": "top_risks[1]",
+          "claim_id": "risk_1",
+          "reason": "display 문장이 약하게 연결된 claim의 theme/phrase 기준으로 교체 후보를 만듭니다.",
+          "current_text": "지루하고 느린 진행 템포 이동과 상호작용이 지나치게 느려 반복 플레이가 피로하게 느껴질 수 있습니다.",
+          "replacement_text": {
+            "title": "오류와 끊김이 흐름을 끊는 문제",
+            "summary": "오류와 끊김을 지적하는 반응이 이어져 흐름이 끊기는 상황은 감수할 필요가 있습니다."
+          },
+          "best_score": 0.1667,
+          "phrases_used": [
+            "무한로딩",
+            "온라인",
+            "악의적으로 느린 상호작용과 일괄적으로"
+          ],
+          "requires_review": true,
+          "safety_level": "review_required"
+        }
+      ],
+      "holds": [
+        {
+          "hold_type": "duplicate_rewrite_source_hold",
+          "safety_level": "hold",
+          "failure_type": "theme_drift",
+          "field": "not_good_for[2]",
+          "claim_id": "risk_1",
+          "reason": "같은 claim 하나로 같은 슬롯군을 여러 번 채우면 문장이 반복되므로 자동 repair에서 제외합니다.",
+          "text": "비용 대비 만족을 꼼꼼하게 따지는 플레이어",
+          "failure": {
+            "type": "theme_drift",
+            "severity": "critical",
+            "field": "not_good_for[2]",
+            "message": "display 문장이 어떤 evidence claim과도 충분히 연결되지 않습니다.",
+            "best_claim_id": "risk_1",
+            "best_score": 0.0833,
+            "text": "비용 대비 만족을 꼼꼼하게 따지는 플레이어"
+          },
+          "suggested_action": "rewrite_from_best_claim",
+          "field_group": "not_good_for"
+        },
+        {
+          "hold_type": "duplicate_rewrite_source_hold",
+          "safety_level": "hold",
+          "failure_type": "theme_drift",
+          "field": "not_good_for[3]",
+          "claim_id": "risk_1",
+          "reason": "같은 claim 하나로 같은 슬롯군을 여러 번 채우면 문장이 반복되므로 자동 repair에서 제외합니다.",
+          "text": "같은 흐름이 길어지면 피로를 크게 느끼는 플레이어",
+          "failure": {
+            "type": "theme_drift",
+            "severity": "critical",
+            "field": "not_good_for[3]",
+            "message": "display 문장이 어떤 evidence claim과도 충분히 연결되지 않습니다.",
+            "best_claim_id": "risk_1",
+            "best_score": 0.0833,
+            "text": "같은 흐름이 길어지면 피로를 크게 느끼는 플레이어"
+          },
+          "suggested_action": "rewrite_from_best_claim",
+          "field_group": "not_good_for"
+        },
+        {
+          "hold_type": "unsupported_claim_hold",
+          "safety_level": "hold",
+          "failure_type": "unsupported_claim",
+          "field": "top_strengths[2]",
+          "claim_id": null,
+          "reason": "근거 ledger에 없는 주장이라 자동으로 새 문장을 만들지 않습니다.",
+          "text": "탁월한 그래픽과 자연 묘사 광활한 자연 환경과 세밀한 동물 행동, 시간에 따른 변화가 어우러져 마치 한 편의 서부 영화를 보는 듯한 비주얼 경험을 제공합니다.",
+          "failure": {
+            "type": "unsupported_claim",
+            "severity": "critical",
+            "field": "top_strengths[2]",
+            "message": "display 문장에 evidence claim에서 지지되지 않는 주제 가족이 포함되어 있습니다.",
+            "unsupported_families": [
+              "visual_audio"
+            ],
+            "text": "탁월한 그래픽과 자연 묘사 광활한 자연 환경과 세밀한 동물 행동, 시간에 따른 변화가 어우러져 마치 한 편의 서부 영화를 보는 듯한 비주얼 경험을 제공합니다."
+          }
+        },
+        {
+          "hold_type": "duplicate_rewrite_source_hold",
+          "safety_level": "hold",
+          "failure_type": "theme_drift",
+          "field": "top_risks[2]",
+          "claim_id": "risk_1",
+          "reason": "같은 claim 하나로 같은 슬롯군을 여러 번 채우면 문장이 반복되므로 자동 repair에서 제외합니다.",
+          "text": "몰입을 끊는 기술 이슈 기술적인 끊김이나 거슬림이 길게 이어지면 서사와 장면의 몰입이 쉽게 흐트러질 수 있습니다.",
+          "failure": {
+            "type": "theme_drift",
+            "severity": "critical",
+            "field": "top_risks[2]",
+            "message": "display 문장이 어떤 evidence claim과도 충분히 연결되지 않습니다.",
+            "best_claim_id": "risk_1",
+            "best_score": 0.1667,
+            "text": "몰입을 끊는 기술 이슈 기술적인 끊김이나 거슬림이 길게 이어지면 서사와 장면의 몰입이 쉽게 흐트러질 수 있습니다."
+          },
+          "suggested_action": "rewrite_from_best_claim",
+          "field_group": "top_risks"
+        },
+        {
+          "hold_type": "duplicate_rewrite_source_hold",
+          "safety_level": "hold",
+          "failure_type": "theme_drift",
+          "field": "top_risks[3]",
+          "claim_id": "risk_1",
+          "reason": "같은 claim 하나로 같은 슬롯군을 여러 번 채우면 문장이 반복되므로 자동 repair에서 제외합니다.",
+          "text": "조작감과 버그로 인한 불편함 불편한 조작과 잦은 버그, 크래시 현상으로 몰입이 자주 끊기고 플레이가 답답할 수 있습니다.",
+          "failure": {
+            "type": "theme_drift",
+            "severity": "critical",
+            "field": "top_risks[3]",
+            "message": "display 문장이 어떤 evidence claim과도 충분히 연결되지 않습니다.",
+            "best_claim_id": "risk_1",
+            "best_score": 0.1667,
+            "text": "조작감과 버그로 인한 불편함 불편한 조작과 잦은 버그, 크래시 현상으로 몰입이 자주 끊기고 플레이가 답답할 수 있습니다."
+          },
+          "suggested_action": "rewrite_from_best_claim",
+          "field_group": "top_risks"
+        }
+      ],
+      "appid": 1174180,
+      "game_name": "Red Dead Redemption 2",
+      "report_path": "data\\report\\report\\1174180(Red Dead Redemption 2).json",
+      "mode": "dry_run",
+      "safe_apply": {
+        "applied_count": 0,
+        "skipped_count": 0,
+        "applied": [],
+        "skipped": []
+      }
+    },
+    {
+      "status": "repairable_with_holds",
+      "can_apply_safely": false,
+      "requires_review": true,
+      "semantic_status": "fail",
+      "failure_count": 4,
+      "critical_failure_count": 4,
+      "action_count": 2,
+      "hold_count": 2,
+      "actions": [
+        {
+          "action": "rewrite_from_best_claim",
+          "failure_type": "theme_drift",
+          "field": "good_for[1]",
+          "claim_id": "str_1",
+          "reason": "display 문장이 약하게 연결된 claim의 theme/phrase 기준으로 교체 후보를 만듭니다.",
+          "current_text": "전술과 운영 판단을 오래 다듬는 플레이어",
+          "replacement_text": "플레이 흐름이 안정적으로 잡힌 지점을 중요하게 보는 플레이어",
+          "best_score": 0.15,
+          "phrases_used": [
+            "그래픽이",
+            "전술을",
+            "적응하면 할만한 정도임 할인하니깐"
+          ],
+          "requires_review": true,
+          "safety_level": "review_required"
+        },
+        {
+          "action": "rewrite_from_best_claim",
+          "failure_type": "theme_drift",
+          "field": "top_strengths[1]",
+          "claim_id": "str_1",
+          "reason": "display 문장이 약하게 연결된 claim의 theme/phrase 기준으로 교체 후보를 만듭니다.",
+          "current_text": "향상된 인게임 그래픽과 모션 더욱 디테일하고 현실감 있는 선수 움직임과 경기 표현으로 경기 보는 재미가 크게 향상되었습니다.",
+          "replacement_text": {
+            "title": "플레이 흐름이 안정적으로 잡힌",
+            "summary": "플레이 흐름이 안정적으로 잡힌다는 반응이 많아 익숙해질수록 리듬을 타기 좋은 편입니다."
+          },
+          "best_score": 0.15,
+          "phrases_used": [
+            "그래픽이",
+            "전술을",
+            "적응하면 할만한 정도임 할인하니깐"
+          ],
+          "requires_review": true,
+          "safety_level": "review_required"
+        }
+      ],
+      "holds": [
+        {
+          "hold_type": "duplicate_rewrite_source_hold",
+          "safety_level": "hold",
+          "failure_type": "theme_drift",
+          "field": "top_strengths[2]",
+          "claim_id": "str_1",
+          "reason": "같은 claim 하나로 같은 슬롯군을 여러 번 채우면 문장이 반복되므로 자동 repair에서 제외합니다.",
+          "text": "공수 분리 전술 구현 공 소유와 미소유 상황에 따른 전술 설정이 가능해져 실제 축구 철학을 반영한 전략 구성이 가능합니다.",
+          "failure": {
+            "type": "theme_drift",
+            "severity": "critical",
+            "field": "top_strengths[2]",
+            "message": "display 문장이 어떤 evidence claim과도 충분히 연결되지 않습니다.",
+            "best_claim_id": "str_1",
+            "best_score": 0.15,
+            "text": "공수 분리 전술 구현 공 소유와 미소유 상황에 따른 전술 설정이 가능해져 실제 축구 철학을 반영한 전략 구성이 가능합니다."
+          },
+          "suggested_action": "rewrite_from_best_claim",
+          "field_group": "top_strengths"
+        },
+        {
+          "hold_type": "duplicate_rewrite_source_hold",
+          "safety_level": "hold",
+          "failure_type": "theme_drift",
+          "field": "top_strengths[3]",
+          "claim_id": "str_1",
+          "reason": "같은 claim 하나로 같은 슬롯군을 여러 번 채우면 문장이 반복되므로 자동 repair에서 제외합니다.",
+          "text": "전술의 깊이와 현실성 세부적인 전술 조정과 선수 역할 분담이 가능해져 축구 감독으로서의 몰입감과 전략적 재미를 느낄 수 있습니다.",
+          "failure": {
+            "type": "theme_drift",
+            "severity": "critical",
+            "field": "top_strengths[3]",
+            "message": "display 문장이 어떤 evidence claim과도 충분히 연결되지 않습니다.",
+            "best_claim_id": "str_1",
+            "best_score": 0.15,
+            "text": "전술의 깊이와 현실성 세부적인 전술 조정과 선수 역할 분담이 가능해져 축구 감독으로서의 몰입감과 전략적 재미를 느낄 수 있습니다."
+          },
+          "suggested_action": "rewrite_from_best_claim",
+          "field_group": "top_strengths"
+        }
+      ],
+      "appid": 3551340,
+      "game_name": "Football Manager 26",
+      "report_path": "data\\report\\report\\3551340(Football Manager 26).json",
+      "mode": "dry_run",
+      "safe_apply": {
+        "applied_count": 0,
+        "skipped_count": 0,
+        "applied": [],
+        "skipped": []
+      }
+    }
+  ]
+}
