@@ -1,67 +1,22 @@
 [
   {
-    "appid": 698780,
-    "name": "Doki Doki Literature Club!",
-    "enabled_for_demo": true
-  },
-  {
-    "appid": 255710,
-    "name": "Cities: Skylines",
-    "enabled_for_demo": true
-  },
-  {
-    "appid": 427520,
-    "name": "Factorio",
-    "enabled_for_demo": true
-  },
-  {
-    "appid": 646570,
-    "name": "Slay the Spire",
-    "enabled_for_demo": true
-  },
-  {
-    "appid": 268500,
-    "name": "XCOM 2",
-    "enabled_for_demo": true
-  },
-  {
     "appid": 578080,
     "name": "PUBG: BATTLEGROUNDS",
     "enabled_for_demo": true
   },
   {
-    "appid": 3551340,
-    "name": "Football Manager 26",
+    "appid": 698780,
+    "name": "Doki Doki Literature Club!",
     "enabled_for_demo": true
   },
   {
-    "appid": 236850,
-    "name": "Europa Universalis IV",
+    "appid": 990080,
+    "name": "호그와트 레거시",
     "enabled_for_demo": true
   },
   {
-    "appid": 1222670,
-    "name": "The Sims 4",
-    "enabled_for_demo": true
-  },
-  {
-    "appid": 2456740,
-    "name": "inZOI",
-    "enabled_for_demo": true
-  },
-  {
-    "appid": 1085660,
-    "name": "Destiny 2",
-    "enabled_for_demo": true
-  },
-  {
-    "appid": 553850,
-    "name": "HELLDIVERS 2",
-    "enabled_for_demo": true
-  },
-  {
-    "appid": 292030,
-    "name": "The Witcher 3: Wild Hunt",
+    "appid": 1147560,
+    "name": "Skul: The Hero Slayer",
     "enabled_for_demo": true
   },
   {
@@ -70,8 +25,13 @@
     "enabled_for_demo": true
   },
   {
-    "appid": 230410,
-    "name": "Warframe",
+    "appid": 1222670,
+    "name": "The Sims 4",
+    "enabled_for_demo": true
+  },
+  {
+    "appid": 1245620,
+    "name": "ELDEN RING",
     "enabled_for_demo": true
   },
   {
@@ -80,8 +40,8 @@
     "enabled_for_demo": true
   },
   {
-    "appid": 1245620,
-    "name": "ELDEN RING",
+    "appid": 292030,
+    "name": "The Witcher 3: Wild Hunt",
     "enabled_for_demo": true
   },
   {
@@ -100,8 +60,8 @@
     "enabled_for_demo": true
   },
   {
-    "appid": 990080,
-    "name": "호그와트 레거시",
+    "appid": 3551340,
+    "name": "Football Manager 26",
     "enabled_for_demo": true
   },
   {

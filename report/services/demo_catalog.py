@@ -60,3 +60,59 @@ def build_demo_game_index(games: list[dict[str, Any]]) -> dict[int, dict[str, An
         for item in games
         if item.get("enabled_for_demo", True)
     }
+
+
+def save_demo_games(catalog_path: str | Path, games: list[dict[str, Any]]) -> Path:
+    """Persist normalized demo catalog entries."""
+    path = Path(catalog_path)
+    normalized = load_demo_games(None)
+    if games:
+        seen: set[int] = set()
+        normalized = []
+        for item in games:
+            if not isinstance(item, dict):
+                continue
+            appid = item.get("appid")
+            if not isinstance(appid, int) or appid in seen:
+                continue
+            seen.add(appid)
+            normalized.append(
+                {
+                    "appid": appid,
+                    "name": str(item.get("name") or f"appid-{appid}"),
+                    "enabled_for_demo": bool(item.get("enabled_for_demo", True)),
+                }
+            )
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(normalized, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return path
+
+
+def upsert_demo_game(catalog_path: str | Path, *, appid: int, name: str, enabled_for_demo: bool = True) -> Path:
+    """Insert or update one catalog entry."""
+    games = load_demo_games(catalog_path)
+    updated = False
+    for item in games:
+        if int(item.get("appid", -1)) != appid:
+            continue
+        item["name"] = str(name or item.get("name") or f"appid-{appid}")
+        item["enabled_for_demo"] = bool(enabled_for_demo)
+        updated = True
+        break
+    if not updated:
+        games.append(
+            {
+                "appid": int(appid),
+                "name": str(name or f"appid-{appid}"),
+                "enabled_for_demo": bool(enabled_for_demo),
+            }
+        )
+    games.sort(key=lambda item: int(item.get("appid", 0)))
+    return save_demo_games(catalog_path, games)
+
+
+def remove_demo_games(catalog_path: str | Path, appids: set[int]) -> Path:
+    """Remove multiple appids from the public demo catalog."""
+    games = load_demo_games(catalog_path)
+    kept = [item for item in games if int(item.get("appid", -1)) not in appids]
+    return save_demo_games(catalog_path, kept)
