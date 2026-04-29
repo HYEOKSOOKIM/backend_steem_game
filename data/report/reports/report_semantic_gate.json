@@ -1,24 +1,69 @@
 {
-  "generated_at": "2026-04-29T02:53:47.091444+00:00",
+  "generated_at": "2026-04-29T07:20:40.285982+00:00",
   "appids": [
-    1174180
+    1147560
   ],
-  "fail_count": 0,
+  "fail_count": 1,
   "warn_count": 0,
-  "pass_count": 1,
+  "pass_count": 0,
   "rows": [
     {
-      "status": "pass",
+      "status": "fail",
       "claim_count": 4,
       "phrase_bank_claim_count": 4,
-      "failure_count": 0,
-      "critical_failure_count": 0,
-      "severity_counts": {},
-      "failures": [],
-      "appid": 1174180,
-      "game_name": "Red Dead Redemption 2",
-      "report_path": "data\\report\\report\\1174180(Red Dead Redemption 2).json",
-      "analysis_path": "data\\report\\analysis\\1174180(Red Dead Redemption 2).json"
+      "failure_count": 4,
+      "critical_failure_count": 4,
+      "severity_counts": {
+        "critical": 4
+      },
+      "failures": [
+        {
+          "type": "evidence_theme_title_mismatch",
+          "severity": "critical",
+          "field": "evidence_sections.strengths[3]",
+          "message": "evidence block의 theme와 title/설명 주제가 어긋납니다.",
+          "text": "플레이 흐름이 안정적으로 잡힌다는 반응",
+          "block_id": "str_3",
+          "theme_families": [
+            "combat",
+            "pacing_repetition"
+          ],
+          "title_families": [
+            "controls_ux"
+          ]
+        },
+        {
+          "type": "theme_drift",
+          "severity": "critical",
+          "field": "top_strengths[3]",
+          "message": "display 문장이 어떤 evidence claim과도 충분히 연결되지 않습니다.",
+          "best_claim_id": "str_1",
+          "best_score": 0.0938,
+          "text": "타격감과 액션의 쾌감 빠른 액션과 시원한 타격감이 어우러져 적을 처치할 때의 쾌감이 뛰어나며, 보스전의 긴장감도 플레이어를 사로잡습니다."
+        },
+        {
+          "type": "theme_drift",
+          "severity": "critical",
+          "field": "top_risks[1]",
+          "message": "display 문장이 어떤 evidence claim과도 충분히 연결되지 않습니다.",
+          "best_claim_id": "risk_1",
+          "best_score": 0.0938,
+          "text": "초반 적응에 시간가 필요한 구간 시스템과 조작을 익히기까지 시간이 걸려 빠른 진입을 원하면 답답하게 느껴질 수 있습니다."
+        },
+        {
+          "type": "theme_drift",
+          "severity": "critical",
+          "field": "top_risks[2]",
+          "message": "display 문장이 어떤 evidence claim과도 충분히 연결되지 않습니다.",
+          "best_claim_id": "risk_1",
+          "best_score": 0.0938,
+          "text": "예상치 못한 오류가 플레이 리듬을 끊을 수 있는 리스크 예상치 못한 오류가 나오면 플레이 흐름과 몰입이 크게 끊길 수 있습니다."
+        }
+      ],
+      "appid": 1147560,
+      "game_name": "Skul: The Hero Slayer",
+      "report_path": "data\\report\\report\\1147560(Skul_ The Hero Slayer).json",
+      "analysis_path": "data\\report\\analysis\\1147560(Skul_ The Hero Slayer).json"
     }
   ]
 }

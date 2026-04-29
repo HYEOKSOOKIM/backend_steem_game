@@ -21,18 +21,18 @@
       ]
     },
     "bugs": {
-      "mention_count": 521,
-      "negative_ratio": 0.744721689059501,
+      "mention_count": 520,
+      "negative_ratio": 0.7461538461538462,
       "recent_trend": "down",
-      "experienced_player_share": 0.9942418426103646,
+      "experienced_player_share": 0.9942307692307693,
       "themes": [
         "계정 / 제재 이슈",
         "일반 버그",
         "충돌 / 크래시"
       ],
       "sample_reviews": [
-        "짱깨새끼한테 해킹당해서 정지됨 시발짱깨새끼들",
-        "불법 프로그램 사용한적이 없는데 내가 사용한 흔적이 보인다며 100년 정지를 떄림"
+        "불법 프로그램 사용한적이 없는데 내가 사용한 흔적이 보인다며 100년 정지를 떄림",
+        "버그없고  한국겜이라 좋음\r\n"
       ]
     },
     "building_ux": {
@@ -50,10 +50,10 @@
       ]
     },
     "content_depth": {
-      "mention_count": 233,
-      "negative_ratio": 0.33905579399141633,
+      "mention_count": 232,
+      "negative_ratio": 0.34051724137931033,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9957081545064378,
+      "experienced_player_share": 0.9956896551724138,
       "themes": [
         "반복 / 목적성 부족",
         "콘텐츠 부족",
@@ -240,8 +240,8 @@
     "fit_for": "초반 진입 장벽이나 조작 적응 여부를 중요하게 보는 플레이어는 사전 확인이 필요합니다.",
     "risks": "multiplayer 관련 이슈는 반복적으로 언급되지만 최근 급격한 악화 신호는 제한적입니다."
   },
-  "pipeline_run_id": "578080-20260429T010411Z",
-  "generated_at": "2026-04-29T01:06:14.533364+00:00",
+  "pipeline_run_id": "578080-20260429T043513Z",
+  "generated_at": "2026-04-29T04:37:15.254200+00:00",
   "source_review_count": 19999,
   "review_pages": "all",
   "fetched_pages": 200,
@@ -251,7 +251,7 @@
   "all_mode_page_cap": 200,
   "all_mode_cap_reached": true,
   "llm_stats": {
-    "considered": 6889,
+    "considered": 6888,
     "selected": 50,
     "invoked": 50,
     "success": 50,
@@ -266,7 +266,7 @@
     "llm_min_confidence": 0.7,
     "material_count": 50,
     "stats": {
-      "considered": 6889,
+      "considered": 6888,
       "selected": 50,
       "invoked": 50,
       "success": 50,

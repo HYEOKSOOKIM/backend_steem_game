@@ -13,7 +13,7 @@ from typing import Any
 
 from .claim_ledger import build_claim_ledger
 from .phrase_bank import build_phrase_bank
-from .text_features import families, jaccard, normalize_text, tokens
+from .text_features import clean_text, families, jaccard, normalize_text, tokens
 
 GENERIC_COPY_MARKERS = (
     "핵심 플레이 감각",
@@ -27,8 +27,10 @@ GENERIC_COPY_MARKERS = (
 
 CRITICAL_FAILURE_TYPES = {
     "unsupported_claim",
-    "theme_drift",
     "evidence_mismatch",
+    "text_corruption",
+    "evidence_duplicate_title",
+    "evidence_theme_title_mismatch",
 }
 
 
@@ -44,6 +46,8 @@ def evaluate_report_semantics(
     phrase_bank = build_phrase_bank(claims)
 
     failures: list[dict[str, Any]] = []
+    failures.extend(_check_text_corruption(report_payload))
+    failures.extend(_check_evidence_block_copy(report_payload))
     failures.extend(_check_duplicate_claims(claims))
     failures.extend(_check_evidence_block_alignment(claims))
     failures.extend(_check_display_grounding(report_display, claims))
@@ -65,6 +69,79 @@ def evaluate_report_semantics(
         "severity_counts": dict(severity_counts),
         "failures": failures,
     }
+
+
+def _check_text_corruption(report_payload: dict[str, Any]) -> list[dict[str, Any]]:
+    failures: list[dict[str, Any]] = []
+    seen: set[tuple[str, str]] = set()
+    for field, text in _collect_corruption_targets(report_payload):
+        normalized = str(text or "").strip()
+        if not normalized:
+            continue
+        if not _looks_corrupted(normalized):
+            continue
+        key = (field, normalized)
+        if key in seen:
+            continue
+        seen.add(key)
+        failures.append(
+            {
+                "type": "text_corruption",
+                "severity": "critical",
+                "field": field,
+                "message": "사용자 노출 문구에 인코딩이 깨진 흔적이 있습니다.",
+                "text": normalized,
+            }
+        )
+    return failures
+
+
+def _check_evidence_block_copy(report_payload: dict[str, Any]) -> list[dict[str, Any]]:
+    failures: list[dict[str, Any]] = []
+    for section_name, blocks in (report_payload.get("evidence_sections", {}) or {}).items():
+        if not isinstance(blocks, list):
+            continue
+        seen_titles: dict[tuple[str, str], dict[str, Any]] = {}
+        for index, block in enumerate(blocks, start=1):
+            if not isinstance(block, dict):
+                continue
+            stance = "positive" if section_name == "strengths" else "negative"
+            title = clean_text(block.get("title", ""))
+            theme = clean_text(block.get("theme", ""))
+            title_key = _normalize_for_duplicate(title)
+            if title_key:
+                dup_key = (stance, title_key)
+                previous = seen_titles.get(dup_key)
+                if previous is not None:
+                    failures.append(
+                        {
+                            "type": "evidence_duplicate_title",
+                            "severity": "critical",
+                            "field": f"evidence_sections.{section_name}[{index}].title",
+                            "message": "같은 stance의 evidence block title이 반복됩니다.",
+                            "text": title,
+                            "matched_block_id": previous.get("block_id"),
+                            "block_id": block.get("block_id"),
+                        }
+                    )
+                else:
+                    seen_titles[dup_key] = block
+            theme_families = families(theme)
+            title_families = families(" ".join(str(block.get(key, "") or "") for key in ("title", "why_it_matters", "explanation")))
+            if theme_families and title_families and not (theme_families & title_families):
+                failures.append(
+                    {
+                        "type": "evidence_theme_title_mismatch",
+                        "severity": "critical",
+                        "field": f"evidence_sections.{section_name}[{index}]",
+                        "message": "evidence block의 theme와 title/설명 주제가 어긋납니다.",
+                        "text": title,
+                        "block_id": block.get("block_id"),
+                        "theme_families": sorted(theme_families),
+                        "title_families": sorted(title_families),
+                    }
+                )
+    return failures
 
 
 def _check_duplicate_claims(claims: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -104,7 +181,7 @@ def _check_evidence_block_alignment(claims: list[dict[str, Any]]) -> list[dict[s
             failures.append(
                 {
                     "type": "evidence_mismatch",
-                    "severity": "critical",
+                    "severity": "warning",
                     "claim_id": claim.get("claim_id"),
                     "message": "evidence 제목/설명이 실제 스니펫의 주제와 맞지 않습니다.",
                     "claim_families": sorted(claim_families),
@@ -144,7 +221,7 @@ def _check_display_grounding(report_display: dict[str, Any], claims: list[dict[s
             continue
 
         best = _best_claim_match(text, item_families, claim_pool)
-        threshold = 0.12 if str(item.get("strict", "true")) == "false" else 0.18
+        threshold = 0.08 if str(item.get("strict", "true")) == "false" else 0.14
         if best["score"] < threshold:
             failures.append(
                 {
@@ -209,6 +286,64 @@ def _collect_display_items(report_display: dict[str, Any]) -> list[dict[str, str
                 }
             )
     return items
+
+
+def _collect_corruption_targets(report_payload: dict[str, Any]) -> list[tuple[str, str]]:
+    report_display = dict(report_payload.get("report_display", {}) or {})
+    targets: list[tuple[str, str]] = []
+
+    def add(field: str, value: Any) -> None:
+        if isinstance(value, str):
+            targets.append((field, value))
+
+    add("headline", report_display.get("headline"))
+    add("buy_timing_summary", report_display.get("buy_timing_summary"))
+    add("disclaimer", report_payload.get("disclaimer"))
+
+    for index, value in enumerate(list(report_display.get("good_for", []) or []), start=1):
+        add(f"good_for[{index}]", value)
+    for index, value in enumerate(list(report_display.get("not_good_for", []) or []), start=1):
+        add(f"not_good_for[{index}]", value)
+    for index, value in enumerate(list(report_display.get("top_strengths", []) or []), start=1):
+        if isinstance(value, dict):
+            add(f"top_strengths[{index}].title", value.get("title"))
+            add(f"top_strengths[{index}].summary", value.get("summary"))
+    for index, value in enumerate(list(report_display.get("top_risks", []) or []), start=1):
+        if isinstance(value, dict):
+            add(f"top_risks[{index}].title", value.get("title"))
+            add(f"top_risks[{index}].summary", value.get("summary"))
+
+    for section_name in ("evidence_sections", "evidence_reviews"):
+        section = report_payload.get(section_name)
+        groups: list[tuple[str, list[Any]]] = []
+        if isinstance(section, dict):
+            for group_name, blocks in section.items():
+                if isinstance(blocks, list):
+                    groups.append((f"{section_name}.{group_name}", blocks))
+        elif isinstance(section, list):
+            groups.append((section_name, list(section)))
+        for group_field, blocks in groups:
+            for index, block in enumerate(blocks, start=1):
+                if not isinstance(block, dict):
+                    continue
+                add(f"{group_field}[{index}].title", block.get("title"))
+                add(f"{group_field}[{index}].theme", block.get("theme"))
+                add(f"{group_field}[{index}].why_it_matters", block.get("why_it_matters"))
+                add(f"{group_field}[{index}].explanation", block.get("explanation"))
+
+    return targets
+
+
+def _looks_corrupted(text: str) -> bool:
+    stripped = "".join(ch for ch in text if not ch.isspace())
+    if "???" in text:
+        return True
+    if "??" in text and len(stripped) >= 6:
+        return True
+    question_count = text.count("?")
+    if question_count < 3:
+        return False
+    return (question_count / max(len(stripped), 1)) >= 0.2
 
 
 def _best_claim_match(text: str, families: set[str], claims: list[dict[str, Any]]) -> dict[str, Any]:

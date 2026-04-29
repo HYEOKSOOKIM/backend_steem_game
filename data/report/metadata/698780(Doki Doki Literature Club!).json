@@ -19,6 +19,12 @@
   "steam_total_positive": 4533,
   "steam_total_negative": 246,
   "steam_total_reviews": 4779,
+  "price_currency": null,
+  "price_current": null,
+  "price_original": null,
+  "price_current_formatted": null,
+  "price_original_formatted": null,
+  "price_discount_percent": null,
   "is_free": true,
   "coming_soon": false
 }

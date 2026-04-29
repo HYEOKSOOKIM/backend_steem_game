@@ -32,6 +32,7 @@ These games are currently safe to expose in the public demo list.
 - `289070` Sid Meier's Civilization VI
 - `1245620` ELDEN RING
 - `3240220` Grand Theft Auto V Enhanced
+- `3357650` PRAGMATA
 - `3321460` 붉은사막
 
 Notes:
@@ -41,6 +42,7 @@ Notes:
 - `Red Dead Redemption 2` was promoted after the narrative open-world risk wording cleanup.
 - `Warframe` was promoted after the looter-shooter headline and primary-strength polish.
 - `Sid Meier's Civilization VI`, `ELDEN RING`, and `Grand Theft Auto V Enhanced` were promoted after the 4.1-mini final-generation round plus last-mile public-report polish.
+- `PRAGMATA` was promoted after semantic-QA cleanup removed unsupported risk copy and aligned the visible report with evidence-backed claims.
 - `붉은사막` was promoted after a fresh report-generation round showed stable open-world action-adventure copy without the old genre-mismatch fallback patterns.
 - These reports are not perfect, but they are stable enough that genre mismatch is no longer the main concern.
 

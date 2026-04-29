@@ -142,5 +142,45 @@ class ReportSemanticGateTests(unittest.TestCase):
         self.assertIn("generic_copy", failure_types)
 
 
+    def test_detects_text_corruption_in_user_facing_fields(self):
+        report = _base_report()
+        report["report_display"]["top_strengths"][0]["title"] = "??? ??? ???"
+        result = evaluate_report_semantics(report)
+        failure_types = {item["type"] for item in result["failures"]}
+        self.assertIn("text_corruption", failure_types)
+        self.assertEqual(result["status"], "fail")
+
+    def test_detects_duplicate_evidence_block_titles(self):
+        report = _base_report()
+        report["evidence_sections"]["risks"].append(
+            {
+                "block_id": "risk_2",
+                "title": report["evidence_sections"]["risks"][0]["title"],
+                "theme": "湲곗닠 ?대뒋",
+                "why_it_matters": report["evidence_sections"]["risks"][0]["why_it_matters"],
+                "explanation": report["evidence_sections"]["risks"][0]["explanation"],
+                "aspect_keys": ["stability"],
+                "stance": "negative",
+                "evidence_snippets": [
+                    "踰꾧렇? 濡쒕뵫 ?뚮Ц?쒕줈 ?먮쫫???μ쨷?덈떎.",
+                    "?ㅻ쪟媛 諛섎났?섏뿬 紐곗엯???딄만 ?덉뒿?덈떎.",
+                ],
+            }
+        )
+        result = evaluate_report_semantics(report)
+        failure_types = {item["type"] for item in result["failures"]}
+        self.assertIn("evidence_duplicate_title", failure_types)
+
+    def test_detects_evidence_theme_title_mismatch(self):
+        report = _base_report()
+        report["evidence_sections"]["risks"][0]["theme"] = "가격 대비 만족"
+        report["evidence_sections"]["risks"][0]["title"] = "버그와 오류가 많다는 반응"
+        report["evidence_sections"]["risks"][0]["why_it_matters"] = "기술 문제가 잦다는 반응입니다."
+        report["evidence_sections"]["risks"][0]["explanation"] = "기술 문제가 잦다는 반응입니다."
+        result = evaluate_report_semantics(report)
+        failure_types = {item["type"] for item in result["failures"]}
+        self.assertIn("evidence_theme_title_mismatch", failure_types)
+
+
 if __name__ == "__main__":
     unittest.main()

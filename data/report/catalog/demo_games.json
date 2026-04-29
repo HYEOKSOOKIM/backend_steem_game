@@ -93,5 +93,20 @@
     "appid": 3321460,
     "name": "붉은사막",
     "enabled_for_demo": true
+  },
+  {
+    "appid": 3357650,
+    "name": "PRAGMATA",
+    "enabled_for_demo": true
+  },
+  {
+    "appid": 990080,
+    "name": "호그와트 레거시",
+    "enabled_for_demo": true
+  },
+  {
+    "appid": 4261320,
+    "name": "스페셜포스 리마스터",
+    "enabled_for_demo": true
   }
 ]

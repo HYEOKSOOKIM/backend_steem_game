@@ -27,6 +27,7 @@ from report.services.report_writer_llm import (
     OpenAIReportWriter,
     validate_structured_report_payload,
 )
+from report.quality.text_features import families
 
 logger = logging.getLogger(__name__)
 
@@ -1005,6 +1006,7 @@ def _apply_final_language_polish(
 
     def _fix_blocks(blocks: list[dict[str, Any]]) -> list[dict[str, Any]]:
         fixed: list[dict[str, Any]] = []
+        seen_titles: set[str] = set()
         for block in blocks:
             if not isinstance(block, dict):
                 continue
@@ -1030,9 +1032,29 @@ def _apply_final_language_polish(
                     fallback=str(next_block.get("explanation", "")),
                     context_text=context_text,
                 )
+            stance = str(next_block.get("stance", "") or "").strip().lower()
+            aspect_keys = [str(item) for item in list(next_block.get("aspect_keys", []) or [])]
+            theme = str(next_block.get("theme", "") or "").strip()
+            if theme and not _evidence_block_theme_aligned(next_block):
+                rebuilt_title = _build_block_title(
+                    theme,
+                    stance,
+                    aspect_keys=aspect_keys,
+                    genres=genres or [],
+                )
+                rebuilt_why = _build_block_why_it_matters(
+                    stance=stance,
+                    theme=theme,
+                    aspect_labels=[],
+                    aspect_keys=aspect_keys,
+                    genres=genres or [],
+                )
+                next_block["title"] = rebuilt_title
+                next_block["why_it_matters"] = rebuilt_why
+                next_block["explanation"] = rebuilt_why
             if (
                 _is_battle_royale_shooter_context(genres or [], context_text)
-                and str(next_block.get("stance", "")) == "positive"
+                and stance == "positive"
             ):
                 block_blob = " ".join(
                     str(next_block.get(key, "") or "")
@@ -1049,6 +1071,22 @@ def _apply_final_language_polish(
                 # Evidence snippet is kept as rule-only polish to preserve original user wording.
                 snippets.append(_fix(str(snippet), allow_llm_override=False))
             next_block["evidence_snippets"] = snippets
+            normalized_title = _normalize_evidence_block_title(str(next_block.get("title", "") or ""))
+            if normalized_title:
+                unique_title = normalized_title
+                if unique_title in seen_titles and theme:
+                    rebuilt_title = _build_block_title(
+                        theme,
+                        stance,
+                        aspect_keys=aspect_keys,
+                        genres=genres or [],
+                    )
+                    next_block["title"] = rebuilt_title
+                    normalized_title = _normalize_evidence_block_title(rebuilt_title)
+                if normalized_title in seen_titles and theme:
+                    next_block["title"] = f"{theme} 관련 반응"
+                    normalized_title = _normalize_evidence_block_title(str(next_block["title"]))
+                seen_titles.add(normalized_title)
             fixed.append(next_block)
         return fixed
 
@@ -3279,6 +3317,31 @@ def _build_block_why_it_matters(
         aspect_keys=aspect_keys,
         genres=genres,
     )
+
+
+def _normalize_evidence_block_title(text: str) -> str:
+    normalized = " ".join(str(text or "").split()).strip()
+    for suffix in ("라는 반응", "이 있다는 반응", "가 좋다는 반응", "이 좋다는 반응", "반응"):
+        if normalized.endswith(suffix):
+            normalized = normalized[: -len(suffix)].strip()
+            break
+    return normalized
+
+
+def _evidence_block_theme_aligned(block: dict[str, Any]) -> bool:
+    theme_text = " ".join(
+        str(block.get(key, "") or "")
+        for key in ("theme",)
+    ).strip()
+    title_text = " ".join(
+        str(block.get(key, "") or "")
+        for key in ("title", "why_it_matters", "explanation")
+    ).strip()
+    theme_families = families(theme_text)
+    title_families = families(title_text)
+    if not theme_families or not title_families:
+        return True
+    return bool(theme_families & title_families)
 
 
 def _theme_tokens(theme: str) -> list[str]:
