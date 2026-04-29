@@ -163,6 +163,7 @@ def apply_review_repair_actions(
     next_payload = deepcopy(report_payload)
     claims = build_claim_ledger(next_payload)
     claim_map = {str(claim.get("claim_id", "")): claim for claim in claims}
+    phrase_bank = build_phrase_bank(claims)
     applied: list[dict[str, Any]] = []
     skipped: list[dict[str, Any]] = []
 
@@ -170,7 +171,22 @@ def apply_review_repair_actions(
         result = _apply_supported_hold(next_payload, hold)
         if result.get("applied"):
             applied.append(result)
-        elif result.get("attempted"):
+            continue
+        llm_action = _plan_hold_llm_rewrite_action(hold, claims, phrase_bank)
+        if llm_action and llm_repairer is not None:
+            claim = _claim_for_action(llm_action, claims)
+            repair_result = llm_repairer.repair_slot(
+                report_payload=next_payload,
+                repair_action=llm_action,
+                claim=claim,
+            )
+            applied_result = _apply_llm_repair_result(next_payload, llm_action, repair_result)
+            if applied_result.get("applied"):
+                applied.append(applied_result)
+                continue
+            skipped.append(applied_result)
+            continue
+        if result.get("attempted"):
             skipped.append(result)
 
     for action in list(plan.get("actions", []) or []):
@@ -231,6 +247,44 @@ def _apply_supported_hold(payload: dict[str, Any], hold: dict[str, Any]) -> dict
     result = _drop_display_field(payload, field, reason=hold_type)
     result["hold_type"] = hold_type
     return result
+
+
+def _plan_hold_llm_rewrite_action(
+    hold: dict[str, Any],
+    claims: list[dict[str, Any]],
+    phrase_bank: dict[str, list[str]],
+) -> dict[str, Any] | None:
+    hold_type = str(hold.get("hold_type", "")).strip()
+    field = str(hold.get("field", "")).strip()
+    if hold_type not in {"unsupported_claim_hold", "weak_support_hold"}:
+        return None
+    if field not in {"headline", "buy_timing_summary", "recent_state.summary"}:
+        return None
+    claim = _highest_support_claim(claims, stance=_field_stance(field))
+    if claim is None:
+        return None
+    replacement = _rewrite_from_claim(field=field, claim=claim, phrase_bank=phrase_bank)
+    return {
+        "action": "rewrite_hold_field",
+        "failure_type": str(hold.get("failure_type", "") or hold_type),
+        "field": field,
+        "claim_id": claim.get("claim_id"),
+        "reason": "Rewrite a non-droppable display field using the strongest grounded claim.",
+        "current_text": str(hold.get("text", "") or "").strip(),
+        "replacement_text": replacement,
+        "safety_level": "review_required",
+        "requires_review": True,
+    }
+
+
+def _claim_for_action(action: dict[str, Any], claims: list[dict[str, Any]]) -> dict[str, Any] | None:
+    claim_id = str(action.get("claim_id", "")).strip()
+    if not claim_id:
+        return None
+    for claim in claims:
+        if str(claim.get("claim_id", "")).strip() == claim_id:
+            return claim
+    return None
 
 
 def _apply_llm_repair_result(
