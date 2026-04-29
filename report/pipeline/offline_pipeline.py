@@ -8,6 +8,7 @@ from typing import Any
 
 from report.analysis.preprocess import preprocess_reviews
 from report.models.schemas import RawReview
+from report.services.demo_catalog import upsert_demo_game
 from report.services.analysis_service import (
     build_analysis_result_from_processed,
     enrich_processed_reviews,
@@ -162,6 +163,13 @@ def run_offline_pipeline_for_appid(
         report_view,
         game_name=output_game_name,
     )
+    catalog_path = Path(data_root) / "catalog" / "demo_games.json"
+    upsert_demo_game(
+        catalog_path,
+        appid=appid,
+        name=metadata.name or output_game_name or f"appid-{appid}",
+        enabled_for_demo=True,
+    )
 
     return {
         "appid": appid,
@@ -175,6 +183,7 @@ def run_offline_pipeline_for_appid(
         "llm_stats": llm_stats,
         "report_material_count": len(report_materials),
         "output_file_game_name": output_game_name,
+        "catalog_updated": True,
     }
 
 
