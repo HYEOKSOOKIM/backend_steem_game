@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29T02:26:22.876315+00:00",
+  "generated_at": "2026-04-29T02:53:57.613392+00:00",
   "mode": "dry_run",
   "appids": [
     578080,
@@ -9,7 +9,7 @@
   "safe_applied_count": 0,
   "repairable_count": 0,
   "repairable_needs_review_count": 0,
-  "repairable_with_holds_count": 3,
+  "repairable_with_holds_count": 2,
   "hold_count": 0,
   "rows": [
     {
@@ -118,154 +118,16 @@
       }
     },
     {
-      "status": "repairable_with_holds",
+      "status": "no_repair_needed",
       "can_apply_safely": false,
-      "requires_review": true,
-      "semantic_status": "fail",
-      "failure_count": 7,
-      "critical_failure_count": 7,
-      "action_count": 2,
-      "hold_count": 5,
-      "actions": [
-        {
-          "action": "rewrite_from_best_claim",
-          "failure_type": "theme_drift",
-          "field": "not_good_for[1]",
-          "claim_id": "risk_1",
-          "reason": "display 문장이 약하게 연결된 claim의 theme/phrase 기준으로 교체 후보를 만듭니다.",
-          "current_text": "긴 호흡의 진행 템포에 쉽게 지치는 플레이어",
-          "replacement_text": "진행 템포가 느리게 느껴지는 구간 지점에 민감한 플레이어",
-          "best_score": 0.0833,
-          "phrases_used": [
-            "무한로딩",
-            "온라인",
-            "악의적으로 느린 상호작용과 일괄적으로"
-          ],
-          "requires_review": true,
-          "safety_level": "review_required"
-        },
-        {
-          "action": "rewrite_from_best_claim",
-          "failure_type": "theme_drift",
-          "field": "top_risks[1]",
-          "claim_id": "risk_1",
-          "reason": "display 문장이 약하게 연결된 claim의 theme/phrase 기준으로 교체 후보를 만듭니다.",
-          "current_text": "지루하고 느린 진행 템포 이동과 상호작용이 지나치게 느려 반복 플레이가 피로하게 느껴질 수 있습니다.",
-          "replacement_text": {
-            "title": "오류와 끊김이 흐름을 끊는 문제",
-            "summary": "오류와 끊김을 지적하는 반응이 이어져 흐름이 끊기는 상황은 감수할 필요가 있습니다."
-          },
-          "best_score": 0.1667,
-          "phrases_used": [
-            "무한로딩",
-            "온라인",
-            "악의적으로 느린 상호작용과 일괄적으로"
-          ],
-          "requires_review": true,
-          "safety_level": "review_required"
-        }
-      ],
-      "holds": [
-        {
-          "hold_type": "duplicate_rewrite_source_hold",
-          "safety_level": "hold",
-          "failure_type": "theme_drift",
-          "field": "not_good_for[2]",
-          "claim_id": "risk_1",
-          "reason": "같은 claim 하나로 같은 슬롯군을 여러 번 채우면 문장이 반복되므로 자동 repair에서 제외합니다.",
-          "text": "비용 대비 만족을 꼼꼼하게 따지는 플레이어",
-          "failure": {
-            "type": "theme_drift",
-            "severity": "critical",
-            "field": "not_good_for[2]",
-            "message": "display 문장이 어떤 evidence claim과도 충분히 연결되지 않습니다.",
-            "best_claim_id": "risk_1",
-            "best_score": 0.0833,
-            "text": "비용 대비 만족을 꼼꼼하게 따지는 플레이어"
-          },
-          "suggested_action": "rewrite_from_best_claim",
-          "field_group": "not_good_for"
-        },
-        {
-          "hold_type": "duplicate_rewrite_source_hold",
-          "safety_level": "hold",
-          "failure_type": "theme_drift",
-          "field": "not_good_for[3]",
-          "claim_id": "risk_1",
-          "reason": "같은 claim 하나로 같은 슬롯군을 여러 번 채우면 문장이 반복되므로 자동 repair에서 제외합니다.",
-          "text": "같은 흐름이 길어지면 피로를 크게 느끼는 플레이어",
-          "failure": {
-            "type": "theme_drift",
-            "severity": "critical",
-            "field": "not_good_for[3]",
-            "message": "display 문장이 어떤 evidence claim과도 충분히 연결되지 않습니다.",
-            "best_claim_id": "risk_1",
-            "best_score": 0.0833,
-            "text": "같은 흐름이 길어지면 피로를 크게 느끼는 플레이어"
-          },
-          "suggested_action": "rewrite_from_best_claim",
-          "field_group": "not_good_for"
-        },
-        {
-          "hold_type": "unsupported_claim_hold",
-          "safety_level": "hold",
-          "failure_type": "unsupported_claim",
-          "field": "top_strengths[2]",
-          "claim_id": null,
-          "reason": "근거 ledger에 없는 주장이라 자동으로 새 문장을 만들지 않습니다.",
-          "text": "탁월한 그래픽과 자연 묘사 광활한 자연 환경과 세밀한 동물 행동, 시간에 따른 변화가 어우러져 마치 한 편의 서부 영화를 보는 듯한 비주얼 경험을 제공합니다.",
-          "failure": {
-            "type": "unsupported_claim",
-            "severity": "critical",
-            "field": "top_strengths[2]",
-            "message": "display 문장에 evidence claim에서 지지되지 않는 주제 가족이 포함되어 있습니다.",
-            "unsupported_families": [
-              "visual_audio"
-            ],
-            "text": "탁월한 그래픽과 자연 묘사 광활한 자연 환경과 세밀한 동물 행동, 시간에 따른 변화가 어우러져 마치 한 편의 서부 영화를 보는 듯한 비주얼 경험을 제공합니다."
-          }
-        },
-        {
-          "hold_type": "duplicate_rewrite_source_hold",
-          "safety_level": "hold",
-          "failure_type": "theme_drift",
-          "field": "top_risks[2]",
-          "claim_id": "risk_1",
-          "reason": "같은 claim 하나로 같은 슬롯군을 여러 번 채우면 문장이 반복되므로 자동 repair에서 제외합니다.",
-          "text": "몰입을 끊는 기술 이슈 기술적인 끊김이나 거슬림이 길게 이어지면 서사와 장면의 몰입이 쉽게 흐트러질 수 있습니다.",
-          "failure": {
-            "type": "theme_drift",
-            "severity": "critical",
-            "field": "top_risks[2]",
-            "message": "display 문장이 어떤 evidence claim과도 충분히 연결되지 않습니다.",
-            "best_claim_id": "risk_1",
-            "best_score": 0.1667,
-            "text": "몰입을 끊는 기술 이슈 기술적인 끊김이나 거슬림이 길게 이어지면 서사와 장면의 몰입이 쉽게 흐트러질 수 있습니다."
-          },
-          "suggested_action": "rewrite_from_best_claim",
-          "field_group": "top_risks"
-        },
-        {
-          "hold_type": "duplicate_rewrite_source_hold",
-          "safety_level": "hold",
-          "failure_type": "theme_drift",
-          "field": "top_risks[3]",
-          "claim_id": "risk_1",
-          "reason": "같은 claim 하나로 같은 슬롯군을 여러 번 채우면 문장이 반복되므로 자동 repair에서 제외합니다.",
-          "text": "조작감과 버그로 인한 불편함 불편한 조작과 잦은 버그, 크래시 현상으로 몰입이 자주 끊기고 플레이가 답답할 수 있습니다.",
-          "failure": {
-            "type": "theme_drift",
-            "severity": "critical",
-            "field": "top_risks[3]",
-            "message": "display 문장이 어떤 evidence claim과도 충분히 연결되지 않습니다.",
-            "best_claim_id": "risk_1",
-            "best_score": 0.1667,
-            "text": "조작감과 버그로 인한 불편함 불편한 조작과 잦은 버그, 크래시 현상으로 몰입이 자주 끊기고 플레이가 답답할 수 있습니다."
-          },
-          "suggested_action": "rewrite_from_best_claim",
-          "field_group": "top_risks"
-        }
-      ],
+      "requires_review": false,
+      "semantic_status": "pass",
+      "failure_count": 0,
+      "critical_failure_count": 0,
+      "action_count": 0,
+      "hold_count": 0,
+      "actions": [],
+      "holds": [],
       "appid": 1174180,
       "game_name": "Red Dead Redemption 2",
       "report_path": "data\\report\\report\\1174180(Red Dead Redemption 2).json",
@@ -282,28 +144,11 @@
       "can_apply_safely": false,
       "requires_review": true,
       "semantic_status": "fail",
-      "failure_count": 4,
-      "critical_failure_count": 4,
-      "action_count": 2,
+      "failure_count": 3,
+      "critical_failure_count": 3,
+      "action_count": 1,
       "hold_count": 2,
       "actions": [
-        {
-          "action": "rewrite_from_best_claim",
-          "failure_type": "theme_drift",
-          "field": "good_for[1]",
-          "claim_id": "str_1",
-          "reason": "display 문장이 약하게 연결된 claim의 theme/phrase 기준으로 교체 후보를 만듭니다.",
-          "current_text": "전술과 운영 판단을 오래 다듬는 플레이어",
-          "replacement_text": "플레이 흐름이 안정적으로 잡힌 지점을 중요하게 보는 플레이어",
-          "best_score": 0.15,
-          "phrases_used": [
-            "그래픽이",
-            "전술을",
-            "적응하면 할만한 정도임 할인하니깐"
-          ],
-          "requires_review": true,
-          "safety_level": "review_required"
-        },
         {
           "action": "rewrite_from_best_claim",
           "failure_type": "theme_drift",

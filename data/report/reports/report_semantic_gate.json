@@ -1,205 +1,24 @@
 {
-  "generated_at": "2026-04-29T01:41:34.962982+00:00",
+  "generated_at": "2026-04-29T02:53:47.091444+00:00",
   "appids": [
-    578080,
-    1174180,
-    3551340
+    1174180
   ],
-  "fail_count": 3,
+  "fail_count": 0,
   "warn_count": 0,
-  "pass_count": 0,
+  "pass_count": 1,
   "rows": [
     {
-      "status": "fail",
+      "status": "pass",
       "claim_count": 4,
       "phrase_bank_claim_count": 4,
-      "failure_count": 4,
-      "critical_failure_count": 4,
-      "severity_counts": {
-        "critical": 4
-      },
-      "failures": [
-        {
-          "type": "evidence_mismatch",
-          "severity": "critical",
-          "claim_id": "str_1",
-          "message": "evidence 제목/설명이 실제 스니펫의 주제와 맞지 않습니다.",
-          "claim_families": [
-            "cheating_security",
-            "combat",
-            "controls_ux",
-            "loot_progression",
-            "pacing_repetition"
-          ],
-          "snippet_families": [
-            "strategy_management"
-          ],
-          "text": "생존 긴장감이 크다는 반응"
-        },
-        {
-          "type": "theme_drift",
-          "severity": "critical",
-          "field": "not_good_for[1]",
-          "message": "display 문장이 어떤 evidence claim과도 충분히 연결되지 않습니다.",
-          "best_claim_id": "risk_1",
-          "best_score": 0.0938,
-          "text": "매칭과 서버 상태 변화에 스트레스를 크게 받는 플레이어"
-        },
-        {
-          "type": "unsupported_claim",
-          "severity": "critical",
-          "field": "top_strengths[1]",
-          "message": "display 문장에 evidence claim에서 지지되지 않는 주제 가족이 포함되어 있습니다.",
-          "unsupported_families": [
-            "multiplayer_online"
-          ],
-          "text": "장비와 빌드를 오래 다듬는 성장 루프 장비를 파밍하고 세팅을 맞춰 가며 강해지는 과정이 반복 임무의 동력으로 잘 이어집니다."
-        },
-        {
-          "type": "theme_drift",
-          "severity": "critical",
-          "field": "top_strengths[3]",
-          "message": "display 문장이 어떤 evidence claim과도 충분히 연결되지 않습니다.",
-          "best_claim_id": "str_1",
-          "best_score": 0.125,
-          "text": "꾸준한 콘텐츠 업데이트와 개선 신규 무기, 맵, 모드가 지속적으로 추가되어 신선함을 유지하며 플레이어에게 다양한 재미와 도전 요소를 제공합니다."
-        }
-      ],
-      "appid": 578080,
-      "game_name": "PUBG: BATTLEGROUNDS",
-      "report_path": "data\\report\\report\\578080(PUBG_ BATTLEGROUNDS).json",
-      "analysis_path": "data\\report\\analysis\\578080(PUBG_ BATTLEGROUNDS).json"
-    },
-    {
-      "status": "fail",
-      "claim_count": 4,
-      "phrase_bank_claim_count": 4,
-      "failure_count": 7,
-      "critical_failure_count": 5,
-      "severity_counts": {
-        "warning": 2,
-        "critical": 5
-      },
-      "failures": [
-        {
-          "type": "duplicate_claim",
-          "severity": "warning",
-          "claim_id": "risk_2",
-          "matched_claim_id": "risk_1",
-          "message": "같은 stance 안에서 evidence claim 제목이 반복됩니다.",
-          "text": "오류와 끊김이 흐름을 끊는다는 반응"
-        },
-        {
-          "type": "duplicate_claim",
-          "severity": "warning",
-          "claim_id": "risk_3",
-          "matched_claim_id": "risk_1",
-          "message": "같은 stance 안에서 evidence claim 제목이 반복됩니다.",
-          "text": "오류와 끊김이 흐름을 끊는다는 반응"
-        },
-        {
-          "type": "theme_drift",
-          "severity": "critical",
-          "field": "not_good_for[1]",
-          "message": "display 문장이 어떤 evidence claim과도 충분히 연결되지 않습니다.",
-          "best_claim_id": "risk_2",
-          "best_score": 0.125,
-          "text": "긴 호흡의 진행 템포에 쉽게 지치는 플레이어"
-        },
-        {
-          "type": "theme_drift",
-          "severity": "critical",
-          "field": "not_good_for[2]",
-          "message": "display 문장이 어떤 evidence claim과도 충분히 연결되지 않습니다.",
-          "best_claim_id": "risk_3",
-          "best_score": 0.125,
-          "text": "비용 대비 만족을 꼼꼼하게 따지는 플레이어"
-        },
-        {
-          "type": "theme_drift",
-          "severity": "critical",
-          "field": "not_good_for[3]",
-          "message": "display 문장이 어떤 evidence claim과도 충분히 연결되지 않습니다.",
-          "best_claim_id": "risk_2",
-          "best_score": 0.125,
-          "text": "같은 흐름이 길어지면 피로를 크게 느끼는 플레이어"
-        },
-        {
-          "type": "unsupported_claim",
-          "severity": "critical",
-          "field": "top_strengths[2]",
-          "message": "display 문장에 evidence claim에서 지지되지 않는 주제 가족이 포함되어 있습니다.",
-          "unsupported_families": [
-            "visual_audio"
-          ],
-          "text": "탁월한 그래픽과 자연 묘사 광활한 자연 환경과 세밀한 동물 행동, 시간에 따른 변화가 어우러져 마치 한 편의 서부 영화를 보는 듯한 비주얼 경험을 제공합니다."
-        },
-        {
-          "type": "theme_drift",
-          "severity": "critical",
-          "field": "top_risks[1]",
-          "message": "display 문장이 어떤 evidence claim과도 충분히 연결되지 않습니다.",
-          "best_claim_id": "risk_1",
-          "best_score": 0.1667,
-          "text": "지루하고 느린 진행 템포 이동과 상호작용이 지나치게 느려 반복 플레이가 피로하게 느껴질 수 있습니다."
-        }
-      ],
+      "failure_count": 0,
+      "critical_failure_count": 0,
+      "severity_counts": {},
+      "failures": [],
       "appid": 1174180,
       "game_name": "Red Dead Redemption 2",
       "report_path": "data\\report\\report\\1174180(Red Dead Redemption 2).json",
       "analysis_path": "data\\report\\analysis\\1174180(Red Dead Redemption 2).json"
-    },
-    {
-      "status": "fail",
-      "claim_count": 4,
-      "phrase_bank_claim_count": 4,
-      "failure_count": 4,
-      "critical_failure_count": 4,
-      "severity_counts": {
-        "critical": 4
-      },
-      "failures": [
-        {
-          "type": "theme_drift",
-          "severity": "critical",
-          "field": "good_for[1]",
-          "message": "display 문장이 어떤 evidence claim과도 충분히 연결되지 않습니다.",
-          "best_claim_id": "str_1",
-          "best_score": 0.15,
-          "text": "전술과 운영 판단을 오래 다듬는 플레이어"
-        },
-        {
-          "type": "theme_drift",
-          "severity": "critical",
-          "field": "top_strengths[1]",
-          "message": "display 문장이 어떤 evidence claim과도 충분히 연결되지 않습니다.",
-          "best_claim_id": "str_1",
-          "best_score": 0.15,
-          "text": "향상된 인게임 그래픽과 모션 더욱 디테일하고 현실감 있는 선수 움직임과 경기 표현으로 경기 보는 재미가 크게 향상되었습니다."
-        },
-        {
-          "type": "theme_drift",
-          "severity": "critical",
-          "field": "top_strengths[2]",
-          "message": "display 문장이 어떤 evidence claim과도 충분히 연결되지 않습니다.",
-          "best_claim_id": "str_1",
-          "best_score": 0.15,
-          "text": "공수 분리 전술 구현 공 소유와 미소유 상황에 따른 전술 설정이 가능해져 실제 축구 철학을 반영한 전략 구성이 가능합니다."
-        },
-        {
-          "type": "theme_drift",
-          "severity": "critical",
-          "field": "top_strengths[3]",
-          "message": "display 문장이 어떤 evidence claim과도 충분히 연결되지 않습니다.",
-          "best_claim_id": "str_1",
-          "best_score": 0.15,
-          "text": "전술의 깊이와 현실성 세부적인 전술 조정과 선수 역할 분담이 가능해져 축구 감독으로서의 몰입감과 전략적 재미를 느낄 수 있습니다."
-        }
-      ],
-      "appid": 3551340,
-      "game_name": "Football Manager 26",
-      "report_path": "data\\report\\report\\3551340(Football Manager 26).json",
-      "analysis_path": "data\\report\\analysis\\3551340(Football Manager 26).json"
     }
   ]
 }

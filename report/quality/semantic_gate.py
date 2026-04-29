@@ -185,9 +185,9 @@ def _collect_display_items(report_display: dict[str, Any]) -> list[dict[str, str
     if headline:
         items.append({"field": "headline", "stance": "mixed", "text": headline, "strict": "false"})
     for index, value in enumerate(list(report_display.get("good_for", []) or []), start=1):
-        items.append({"field": f"good_for[{index}]", "stance": "positive", "text": str(value)})
+        items.append({"field": f"good_for[{index}]", "stance": "positive", "text": str(value), "strict": "false"})
     for index, value in enumerate(list(report_display.get("not_good_for", []) or []), start=1):
-        items.append({"field": f"not_good_for[{index}]", "stance": "negative", "text": str(value)})
+        items.append({"field": f"not_good_for[{index}]", "stance": "negative", "text": str(value), "strict": "false"})
     for index, value in enumerate(list(report_display.get("top_strengths", []) or []), start=1):
         if isinstance(value, dict):
             text = f"{value.get('title', '')} {value.get('summary', '')}"
