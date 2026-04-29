@@ -67,7 +67,7 @@
     "controls": {
       "mention_count": 822,
       "negative_ratio": 0.1678832116788321,
-      "recent_trend": "down",
+      "recent_trend": "flat",
       "experienced_player_share": 0.9562043795620438,
       "themes": [
         "조작감 문제",
@@ -110,24 +110,24 @@
       ]
     },
     "gameplay": {
-      "mention_count": 1868,
-      "negative_ratio": 0.11991434689507495,
-      "recent_trend": "down",
-      "experienced_player_share": 0.9732334047109208,
+      "mention_count": 1869,
+      "negative_ratio": 0.1198501872659176,
+      "recent_trend": "flat",
+      "experienced_player_share": 0.9732477260567148,
       "themes": [
         "전투 손맛 / 액션 호평",
         "탐험 / 월드 경험",
         "빌드 / 무기 다양성"
       ],
       "sample_reviews": [
-        "뭔가 흥미가 가면서 하다가 중반에 계속 끄게 됨;; 근데 ㄹㅇ 조작감이  와;; 뭐지? 싶은느낌? 전투.. 옛 게임이니까 인정은 하긴 하는데 아... 그래도 가격 보면 괜찮은거 같은데? 아....",
-        "오픈월드를 재밌게 하게된 게임\n이 게임을 포함하여 호그와트 레거시, 엘든링과 함께 수백시간 몰입하며 플레이한 게임"
+        "전투는 아쉬울 수 있으나 게롤트와의 여정을 즐길수 있어서 행복했다 블러드 앤 와인은 무조건 필수",
+        "뭔가 흥미가 가면서 하다가 중반에 계속 끄게 됨;; 근데 ㄹㅇ 조작감이  와;; 뭐지? 싶은느낌? 전투.. 옛 게임이니까 인정은 하긴 하는데 아... 그래도 가격 보면 괜찮은거 같은데? 아...."
       ]
     },
     "graphics": {
       "mention_count": 906,
       "negative_ratio": 0.07836644591611479,
-      "recent_trend": "down",
+      "recent_trend": "flat",
       "experienced_player_share": 0.9613686534216336,
       "themes": [
         "그래픽 / 비주얼 호평"
@@ -140,7 +140,7 @@
     "localization": {
       "mention_count": 529,
       "negative_ratio": 0.07183364839319471,
-      "recent_trend": "down",
+      "recent_trend": "flat",
       "experienced_player_share": 0.9527410207939508,
       "themes": [
         "번역 / 현지화 이슈"
@@ -166,7 +166,7 @@
     "monetization": {
       "mention_count": 1375,
       "negative_ratio": 0.0669090909090909,
-      "recent_trend": "flat",
+      "recent_trend": "down",
       "experienced_player_share": 0.96,
       "themes": [
         "DLC / 확장팩 언급",
@@ -242,8 +242,8 @@
     "fit_for": "초반 진입 장벽이나 조작 적응 여부를 중요하게 보는 플레이어는 사전 확인이 필요합니다.",
     "risks": "story 관련 이슈는 반복적으로 언급되지만 최근 급격한 악화 신호는 제한적입니다."
   },
-  "pipeline_run_id": "292030-20260428T005914Z",
-  "generated_at": "2026-04-28T01:04:00.721344+00:00",
+  "pipeline_run_id": "292030-20260429T062503Z",
+  "generated_at": "2026-04-29T06:26:57.482403+00:00",
   "source_review_count": 16644,
   "review_pages": "all",
   "fetched_pages": 168,
@@ -256,11 +256,11 @@
     "considered": 11051,
     "selected": 50,
     "invoked": 50,
-    "success": 50,
-    "schema_invalid": 0,
+    "success": 49,
+    "schema_invalid": 1,
     "low_confidence": 0,
-    "cache_hits": 0,
-    "fallback_used": 0
+    "cache_hits": 50,
+    "fallback_used": 1
   },
   "report_material_refiner": {
     "enabled": true,
@@ -271,11 +271,11 @@
       "considered": 11051,
       "selected": 50,
       "invoked": 50,
-      "success": 50,
-      "schema_invalid": 0,
+      "success": 49,
+      "schema_invalid": 1,
       "low_confidence": 0,
-      "cache_hits": 0,
-      "fallback_used": 0
+      "cache_hits": 50,
+      "fallback_used": 1
     }
   }
 }

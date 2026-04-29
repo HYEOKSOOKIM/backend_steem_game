@@ -21,18 +21,18 @@
       ]
     },
     "bugs": {
-      "mention_count": 668,
-      "negative_ratio": 0.4820359281437126,
+      "mention_count": 669,
+      "negative_ratio": 0.4813153961136024,
       "recent_trend": "flat",
-      "experienced_player_share": 0.905688622754491,
+      "experienced_player_share": 0.905829596412556,
       "themes": [
         "일반 버그",
         "계정 / 제재 이슈",
         "충돌 / 크래시"
       ],
       "sample_reviews": [
-        "클라우드 오류로 게임 재설치만 10회 이상...\r\n처음부터 시작하고 수동으로 저장해도 계속 오류!\r\n설치화일 검사해도 이상무!\r\n이런 젖같은 게임이 다있나?",
-        "실행관련 버그좀 고쳐라 제발."
+        "내가 해본게임중에 최고의 게임. 두말 할 것 없다. 오픈월드 게임중에 아직 레데리2를 능가하는 게임을 해본적이 없다.\r\n\r\n정말 오랜만에 게이밍노트북도 바꿨고 해서 해볼려고 했더니 클라우드 충돌 때문에 게임을 할 수가 없다. 스팀 문제인건지 락스타 문제인건지. 지우고 다시 까는중....",
+        "클라우드 오류로 게임 재설치만 10회 이상...\r\n처음부터 시작하고 수동으로 저장해도 계속 오류!\r\n설치화일 검사해도 이상무!\r\n이런 젖같은 게임이 다있나?"
       ]
     },
     "building_ux": {
@@ -110,18 +110,18 @@
       ]
     },
     "gameplay": {
-      "mention_count": 1127,
-      "negative_ratio": 0.08518189884649512,
-      "recent_trend": "down",
-      "experienced_player_share": 0.9831410825199645,
+      "mention_count": 1129,
+      "negative_ratio": 0.08591674047829938,
+      "recent_trend": "flat",
+      "experienced_player_share": 0.983170947741364,
       "themes": [
         "탐험 / 월드 경험",
         "전투 손맛 / 액션 호평",
         "빌드 / 무기 다양성"
       ],
       "sample_reviews": [
-        "장점\n- 깔끔한 오픈월드 최적화 GOAT.\n- 스토리 GOAT.\n- 등장인물이 NPC가 아니라 실제 플레이어처럼 느껴지는 미1친 생동감.\n\n단점\n- 더치 패거리가 너무 좆1같음.\n- 특히 더치가 젤 좆1같음.\n\n***\n2026.04.27\n굉장히 즐기고 있는 중.\n아직 챕터3 진행 단계이지만, 완결까지 쉬지 않고 달릴 예정.",
-        "정가주고 샀다고 호구라고 놀려서 미안하다 원석아.\n예약구매해서 일찍 엔딩 본 네가 이겼다...\n서부시대 세계관 최강자가 사실 선한 마음을 가진 악당이었다니.\n이 남자의 삶이 너무 기구하고 안타까워서 눈물만 났음..."
+        "3번이나 다시 접고 드디어\n\n6장까지 클리어 했습니다.\n밀도감있는 오픈월드는 느껴지지만 \n전투가 늘 똑같은 선형적인 느낌이라\n모험을 좋아하는 분에겐 강추 드리지만.\n\n저같이 액션 전투를 좋아하는 분에겐 추천드리긴 어려울 것 같습니다.\n\n오픈월드를 끔찍하게 싫어함에도 불구하고 여기까지 온 것을 보면 \n누군가에게 추천할만한 게임은 아니더라도. \n경험만큼은 보장된다고 얘기드리고 싶네요",
+        "내가 해본게임중에 최고의 게임. 두말 할 것 없다. 오픈월드 게임중에 아직 레데리2를 능가하는 게임을 해본적이 없다.\r\n\r\n정말 오랜만에 게이밍노트북도 바꿨고 해서 해볼려고 했더니 클라우드 충돌 때문에 게임을 할 수가 없다. 스팀 문제인건지 락스타 문제인건지. 지우고 다시 까는중...."
       ]
     },
     "graphics": {
@@ -178,10 +178,10 @@
       ]
     },
     "multiplayer": {
-      "mention_count": 964,
-      "negative_ratio": 0.3029045643153527,
+      "mention_count": 963,
+      "negative_ratio": 0.3032191069574247,
       "recent_trend": "down",
-      "experienced_player_share": 0.979253112033195,
+      "experienced_player_share": 0.9792315680166147,
       "themes": [
         "부정행위 / 보안 이슈",
         "멀티플레이 경험",
@@ -242,24 +242,24 @@
     "fit_for": "초반 진입 장벽이나 조작 적응 여부를 중요하게 보는 플레이어는 사전 확인이 필요합니다.",
     "risks": "story 관련 이슈는 반복적으로 언급되지만 최근 급격한 악화 신호는 제한적입니다."
   },
-  "pipeline_run_id": "1174180-20260428T011232Z",
-  "generated_at": "2026-04-28T01:15:47.570248+00:00",
-  "source_review_count": 18533,
+  "pipeline_run_id": "1174180-20260429T011022Z",
+  "generated_at": "2026-04-29T01:12:20.660371+00:00",
+  "source_review_count": 18538,
   "review_pages": "all",
   "fetched_pages": 187,
-  "fetched_review_count": 18533,
+  "fetched_review_count": 18538,
   "fetch_timeout_seconds": 20,
   "fetch_filter": "recent",
   "all_mode_page_cap": 200,
   "all_mode_cap_reached": false,
   "llm_stats": {
-    "considered": 11462,
+    "considered": 11465,
     "selected": 50,
     "invoked": 50,
     "success": 50,
     "schema_invalid": 0,
     "low_confidence": 0,
-    "cache_hits": 0,
+    "cache_hits": 50,
     "fallback_used": 0
   },
   "report_material_refiner": {
@@ -268,13 +268,13 @@
     "llm_min_confidence": 0.7,
     "material_count": 50,
     "stats": {
-      "considered": 11462,
+      "considered": 11465,
       "selected": 50,
       "invoked": 50,
       "success": 50,
       "schema_invalid": 0,
       "low_confidence": 0,
-      "cache_hits": 0,
+      "cache_hits": 50,
       "fallback_used": 0
     }
   }

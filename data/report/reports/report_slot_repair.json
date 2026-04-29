@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-04-29T07:36:56.282818+00:00",
+  "appids": [
+    1147560
+  ],
+  "model": "gpt-4.1-mini",
+  "pass_count": 1,
+  "fail_count": 0,
+  "warn_count": 0,
+  "rows": [
+    {
+      "appid": 1147560,
+      "game_name": "Skul: The Hero Slayer",
+      "report_path": "data\\report\\report\\1147560(Skul_ The Hero Slayer).json",
+      "status_before": "fail",
+      "status_after": "pass",
+      "failure_count_after": 0,
+      "critical_failure_count_after": 0,
+      "rounds_completed": 1,
+      "rounds": [
+        {
+          "round": 1,
+          "status_before": "fail",
+          "plan_status": "repairable_needs_review",
+          "safe_applied_count": 0,
+          "review_applied_count": 2,
+          "applied_count": 2,
+          "status_after": "pass",
+          "failure_count_after": 0,
+          "critical_failure_count_after": 0,
+          "review_summary": {
+            "applied_count": 2,
+            "skipped_count": 0,
+            "applied": [
+              {
+                "applied": true,
+                "action": "replace_field",
+                "field": "evidence_sections.strengths[3]",
+                "llm_mode": "replace"
+              },
+              {
+                "applied": true,
+                "action": "replace_field",
+                "field": "top_risks[2]",
+                "llm_mode": "replace"
+              }
+            ],
+            "skipped": []
+          }
+        }
+      ]
+    }
+  ]
+}

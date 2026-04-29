@@ -1,0 +1,29 @@
+{
+  "appid": 1147560,
+  "name": "Skul: The Hero Slayer",
+  "genres": [
+    "액션",
+    "인디"
+  ],
+  "price_model": "paid",
+  "release_stage": "released",
+  "release_date_text": "2021년 1월 20일",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1147560/header.jpg?t=1774420210",
+  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1147560/capsule_231x87.jpg?t=1774420210",
+  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1147560/capsule_184x69.jpg?t=1774420210",
+  "short_description": "Skul: The Hero Slayer는 2D 로그라이트 액션 플랫포머 게임입니다. 마왕성 경비를 맡고있는 꼬마 스켈레톤 '스컬'은 인간들에게 붙잡혀간 마왕을 구하기 위해 용사와 모험가 그리고 제국군에 홀로 맞서 싸우기 시작합니다.",
+  "steam_store_url": "https://store.steampowered.com/app/1147560",
+  "steam_recommendation_count": 50283,
+  "steam_review_score_desc": "Overwhelmingly Positive",
+  "steam_total_positive": 13840,
+  "steam_total_negative": 660,
+  "steam_total_reviews": 14500,
+  "price_currency": "KRW",
+  "price_current": 1025000,
+  "price_original": 2050000,
+  "price_current_formatted": "₩ 10,250",
+  "price_original_formatted": "₩ 20,500",
+  "price_discount_percent": 50,
+  "is_free": false,
+  "coming_soon": false
+}

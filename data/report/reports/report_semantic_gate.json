@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-04-29T07:34:51.242523+00:00",
+  "appids": [
+    1147560
+  ],
+  "fail_count": 1,
+  "warn_count": 0,
+  "pass_count": 0,
+  "rows": [
+    {
+      "status": "fail",
+      "claim_count": 4,
+      "phrase_bank_claim_count": 4,
+      "failure_count": 2,
+      "critical_failure_count": 2,
+      "severity_counts": {
+        "critical": 2
+      },
+      "failures": [
+        {
+          "type": "evidence_theme_title_mismatch",
+          "severity": "critical",
+          "field": "evidence_sections.strengths[3]",
+          "message": "evidence block의 theme와 title/설명 주제가 어긋납니다.",
+          "text": "플레이 흐름이 안정적으로 잡힌다는 반응",
+          "block_id": "str_3",
+          "theme_families": [
+            "combat",
+            "pacing_repetition"
+          ],
+          "title_families": [
+            "controls_ux"
+          ]
+        },
+        {
+          "type": "theme_drift",
+          "severity": "critical",
+          "field": "top_risks[2]",
+          "message": "display 문장이 어떤 evidence claim과도 충분히 연결되지 않습니다.",
+          "best_claim_id": "risk_1",
+          "best_score": 0.0938,
+          "text": "예상치 못한 오류가 플레이 리듬을 끊을 수 있는 리스크 예상치 못한 오류가 나오면 플레이 흐름과 몰입이 크게 끊길 수 있습니다."
+        }
+      ],
+      "appid": 1147560,
+      "game_name": "Skul: The Hero Slayer",
+      "report_path": "data\\report\\report\\1147560(Skul_ The Hero Slayer).json",
+      "analysis_path": "data\\report\\analysis\\1147560(Skul_ The Hero Slayer).json"
+    }
+  ]
+}

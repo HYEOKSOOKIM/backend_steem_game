@@ -23,7 +23,11 @@ from report.services.player_fit_mapper import (
     build_headline_theme,
     build_player_fit_phrase,
 )
-from report.services.report_writer_llm import OpenAIReportWriter, validate_structured_report_payload
+from report.services.report_writer_llm import (
+    OpenAIReportWriter,
+    validate_structured_report_payload,
+)
+from report.quality.text_features import families
 
 logger = logging.getLogger(__name__)
 
@@ -214,6 +218,12 @@ def build_game_context_payload(appid: int, metadata: dict[str, Any] | None) -> d
         "steam_total_positive": metadata_payload.get("steam_total_positive"),
         "steam_total_negative": metadata_payload.get("steam_total_negative"),
         "steam_total_reviews": metadata_payload.get("steam_total_reviews"),
+        "price_currency": _metadata_text(metadata_payload.get("price_currency")),
+        "price_current": metadata_payload.get("price_current"),
+        "price_original": metadata_payload.get("price_original"),
+        "price_current_formatted": _metadata_text(metadata_payload.get("price_current_formatted")),
+        "price_original_formatted": _metadata_text(metadata_payload.get("price_original_formatted")),
+        "price_discount_percent": metadata_payload.get("price_discount_percent"),
     }
 
 
@@ -480,8 +490,10 @@ def _build_structured_report_bundle(
         "evidence_sections": evidence_sections,
     }
     if validate_structured_report_payload(payload):
+        polish_payload = dict(payload)
+        polish_payload["game"] = consensus_payload.get("game_context", {}) or {}
         finalized = _apply_price_aware_recommendation_to_payload(
-            payload=payload,
+            payload=polish_payload,
             consensus_payload=consensus_payload,
         )
         finalized = _apply_final_language_polish(
@@ -492,6 +504,7 @@ def _build_structured_report_bundle(
             genres=list((consensus_payload.get("game_context", {}) or {}).get("genres", []) or []),
         )
         if validate_structured_report_payload(finalized):
+            finalized.pop("game", None)
             return finalized
 
     # Hard fallback to deterministic multi-stage result.
@@ -503,8 +516,10 @@ def _build_structured_report_bundle(
             seed_plan,
         ),
     }
+    fallback_for_polish = dict(fallback)
+    fallback_for_polish["game"] = consensus_payload.get("game_context", {}) or {}
     fallback = _apply_price_aware_recommendation_to_payload(
-        payload=fallback,
+        payload=fallback_for_polish,
         consensus_payload=consensus_payload,
     )
     fallback = _apply_final_language_polish(
@@ -514,6 +529,7 @@ def _build_structured_report_bundle(
         seed_display=seed_display,
         genres=list((consensus_payload.get("game_context", {}) or {}).get("genres", []) or []),
     )
+    fallback.pop("game", None)
     return fallback
 
 
@@ -810,6 +826,11 @@ def _apply_final_language_polish(
         context_text=context_text,
     )
 
+    if _is_battle_royale_shooter_context(genres or [], context_text):
+        fit_blob = " ".join(str(item or "") for item in list(report_display.get("good_for", []) or []))
+        if any(token in fit_blob for token in ("맵을 돌아다니며", "발견", "세계관", "탐험")):
+            report_display["good_for"] = ["파밍과 교전 판단을 즐기는 생존형 플레이어"]
+
     top_strengths = []
     seed_strengths = list(seed_display.get("top_strengths", []) or [])
     seen_strength_titles: set[str] = set()
@@ -924,6 +945,20 @@ def _apply_final_language_polish(
                 next_item["title"] = "몰입을 끊는 기술 이슈"
                 next_item["summary"] = "기술적인 끊김이나 거슬림이 길게 이어지면 서사와 장면의 몰입이 쉽게 흐트러질 수 있습니다."
 
+    if _is_battle_royale_shooter_context(genres or [], context_text):
+        headline = " ".join(str(report_display.get("headline", "") or "").split()).strip()
+        if headline and (
+            any(token in headline for token in ("탐험", "발견", "세계관", "맥락"))
+            or not any(token in headline for token in ("생존", "교전", "파밍", "팀"))
+        ):
+            report_display["headline"] = "생존 교전과 팀플레이 긴장감은 분명하지만 핵과 서버 변수는 함께 감수해야 합니다."
+        if report_display["top_strengths"]:
+            first_strength = report_display["top_strengths"][0]
+            title = " ".join(str(first_strength.get("title", "") or "").split()).strip()
+            if title and any(token in title for token in ("탐험", "발견", "세계관", "맥락")):
+                first_strength["title"] = "생존 교전의 긴장감"
+                first_strength["summary"] = "파밍과 위치 판단, 교전 선택이 맞물리며 마지막까지 살아남는 긴장감이 또렷합니다."
+
     if _is_soulslike_context(genres or [], context_text):
         headline = " ".join(str(report_display.get("headline", "") or "").split()).strip()
         if headline and (
@@ -962,10 +997,16 @@ def _apply_final_language_polish(
     recent_state = dict(report_display.get("recent_state", {}) or {})
     if isinstance(recent_state.get("summary"), str):
         recent_state["summary"] = _fix(str(recent_state.get("summary", "")))
+        if _is_narrative_openworld_context(genres or [], context_text) and any(
+            token in str(recent_state.get("summary", ""))
+            for token in ("멀티", "핵", "서버", "온라인")
+        ):
+            recent_state["summary"] = "스토리와 세계 체험에 대한 호평은 이어지지만, 조작감과 기술 이슈를 아쉽게 보는 반응도 남아 있습니다."
     report_display["recent_state"] = recent_state
 
     def _fix_blocks(blocks: list[dict[str, Any]]) -> list[dict[str, Any]]:
         fixed: list[dict[str, Any]] = []
+        seen_titles: set[str] = set()
         for block in blocks:
             if not isinstance(block, dict):
                 continue
@@ -991,11 +1032,61 @@ def _apply_final_language_polish(
                     fallback=str(next_block.get("explanation", "")),
                     context_text=context_text,
                 )
+            stance = str(next_block.get("stance", "") or "").strip().lower()
+            aspect_keys = [str(item) for item in list(next_block.get("aspect_keys", []) or [])]
+            theme = str(next_block.get("theme", "") or "").strip()
+            if theme and not _evidence_block_theme_aligned(next_block):
+                rebuilt_title = _build_block_title(
+                    theme,
+                    stance,
+                    aspect_keys=aspect_keys,
+                    genres=genres or [],
+                )
+                rebuilt_why = _build_block_why_it_matters(
+                    stance=stance,
+                    theme=theme,
+                    aspect_labels=[],
+                    aspect_keys=aspect_keys,
+                    genres=genres or [],
+                )
+                next_block["title"] = rebuilt_title
+                next_block["why_it_matters"] = rebuilt_why
+                next_block["explanation"] = rebuilt_why
+            if (
+                _is_battle_royale_shooter_context(genres or [], context_text)
+                and stance == "positive"
+            ):
+                block_blob = " ".join(
+                    str(next_block.get(key, "") or "")
+                    for key in ("title", "why_it_matters", "explanation", "theme")
+                )
+                if any(token in block_blob for token in ("탐험", "발견", "세계관", "맥락")):
+                    next_block["title"] = "생존 긴장감이 크다는 반응"
+                    next_block["why_it_matters"] = (
+                        "파밍과 위치 판단, 교전 선택이 맞물려 마지막까지 살아남는 긴장감이 핵심 재미로 읽힙니다."
+                    )
+                    next_block["explanation"] = next_block["why_it_matters"]
             snippets: list[str] = []
             for snippet in list(next_block.get("evidence_snippets", []) or []):
                 # Evidence snippet is kept as rule-only polish to preserve original user wording.
                 snippets.append(_fix(str(snippet), allow_llm_override=False))
             next_block["evidence_snippets"] = snippets
+            normalized_title = _normalize_evidence_block_title(str(next_block.get("title", "") or ""))
+            if normalized_title:
+                unique_title = normalized_title
+                if unique_title in seen_titles and theme:
+                    rebuilt_title = _build_block_title(
+                        theme,
+                        stance,
+                        aspect_keys=aspect_keys,
+                        genres=genres or [],
+                    )
+                    next_block["title"] = rebuilt_title
+                    normalized_title = _normalize_evidence_block_title(rebuilt_title)
+                if normalized_title in seen_titles and theme:
+                    next_block["title"] = f"{theme} 관련 반응"
+                    normalized_title = _normalize_evidence_block_title(str(next_block["title"]))
+                seen_titles.add(normalized_title)
             fixed.append(next_block)
         return fixed
 
@@ -1154,6 +1245,12 @@ def _rewrite_headline_for_context(
     if not value:
         return fallback.strip()
 
+    if _is_battle_royale_shooter_context(genres, context_text) and (
+        any(token in value for token in ("탐험", "발견", "세계관", "맥락"))
+        or not any(token in value for token in ("생존", "교전", "파밍", "팀"))
+    ):
+        return "생존 교전과 팀플레이 긴장감은 분명하지만 핵과 서버 변수는 함께 감수해야 합니다."
+
     if _is_looter_shooter_context(genres, context_text) and any(
         token in value for token in ("탐험과 세계 해석", "세계관과 맥락", "플레이 흐름의 안정감", "플레이 흐름")
     ):
@@ -1196,6 +1293,10 @@ def _guard_copy_text_by_genre(
 
     if _is_visual_novel_context(genres, context_text):
         if _has_any("전투", "교전", "손맛", "매칭", "서버", "핵심 플레이", "성장 루프", "보스"):
+            return fallback.strip() or value
+
+    if _is_battle_royale_shooter_context(genres, context_text):
+        if _has_any("탐험과 세계 해석", "세계관과 맥락", "맵을 돌아다니며 발견", "탐험과 발견"):
             return fallback.strip() or value
 
     if _is_looter_shooter_context(genres, context_text):
@@ -2152,6 +2253,20 @@ def _is_openworld_crime_sandbox_context(genres: list[str], context_text: str = "
             "crime sandbox",
             "open world crime",
             "rockstar games",
+        )
+    )
+
+
+def _is_battle_royale_shooter_context(genres: list[str], context_text: str = "") -> bool:
+    blob = _genre_signal_blob(genres, context_text)
+    return any(
+        token in blob
+        for token in (
+            "pubg",
+            "battlegrounds",
+            "battle royale",
+            "배틀로얄",
+            "블루존",
         )
     )
 
@@ -3202,6 +3317,31 @@ def _build_block_why_it_matters(
         aspect_keys=aspect_keys,
         genres=genres,
     )
+
+
+def _normalize_evidence_block_title(text: str) -> str:
+    normalized = " ".join(str(text or "").split()).strip()
+    for suffix in ("라는 반응", "이 있다는 반응", "가 좋다는 반응", "이 좋다는 반응", "반응"):
+        if normalized.endswith(suffix):
+            normalized = normalized[: -len(suffix)].strip()
+            break
+    return normalized
+
+
+def _evidence_block_theme_aligned(block: dict[str, Any]) -> bool:
+    theme_text = " ".join(
+        str(block.get(key, "") or "")
+        for key in ("theme",)
+    ).strip()
+    title_text = " ".join(
+        str(block.get(key, "") or "")
+        for key in ("title", "why_it_matters", "explanation")
+    ).strip()
+    theme_families = families(theme_text)
+    title_families = families(title_text)
+    if not theme_families or not title_families:
+        return True
+    return bool(theme_families & title_families)
 
 
 def _theme_tokens(theme: str) -> list[str]:

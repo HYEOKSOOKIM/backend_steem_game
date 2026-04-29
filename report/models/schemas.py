@@ -45,6 +45,12 @@ class GameMetadata:
     steam_total_positive: int | None = None
     steam_total_negative: int | None = None
     steam_total_reviews: int | None = None
+    price_currency: str | None = None
+    price_current: int | None = None
+    price_original: int | None = None
+    price_current_formatted: str | None = None
+    price_original_formatted: str | None = None
+    price_discount_percent: int | None = None
     is_free: bool | None = None
     coming_soon: bool | None = None
 

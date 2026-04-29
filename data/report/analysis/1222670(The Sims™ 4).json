@@ -162,17 +162,17 @@
       ]
     },
     "monetization": {
-      "mention_count": 494,
-      "negative_ratio": 0.2692307692307692,
-      "recent_trend": "down",
-      "experienced_player_share": 0.9129554655870445,
+      "mention_count": 495,
+      "negative_ratio": 0.2686868686868687,
+      "recent_trend": "flat",
+      "experienced_player_share": 0.9131313131313131,
       "themes": [
         "DLC / 확장팩 언급",
         "가격 / 과금 불만"
       ],
       "sample_reviews": [
-        "DLC 너무 창렬 그치만 심즈같은 게임 찾기가 너무 어려워서 다시 돌아오게되는 게임\n근데 DLC 너무 창렬",
-        "넘 재밌어요 생활 시뮬게임은 심즈만한게 정말 없는 것 같아요ㅎㅎㅎㅎ 한번하면 6시간은 몰입해서 하게되는 꼐임!!\n근데 슬픈건 DLC가 너무 많아요... 게임에 다양성을 추가해주는 건 좋지만 DLC를 안 사면 너무 할 게 없어서 어쩔 수 없이 모드를 깔게 되네요 오류도 적은편이 아니고... 기본으로 있어도 될 만한 기능까지 DLC로 낸건 좀 킹받기도 하고요\n근데도 너무 재밌어요 재밌다!!!!!"
+        "인생 시뮬레이션의 정점.\n이거만 한 인생 시뮬게임이없음. 문제는 진짜 이거 말고 할 게 없다는 거임.\nEA는 돈독 오른 미친 대머리새끼들이라 울며 겨자 먹기로 날씨랑 개, 고양이 기타등등 이게 왜 없지?하는 것들은 돈 주고 사야 한다. \n님이 돈과 시간이 미치게 남아도는 슈퍼영앤리치라면 DLC를 사고 충분히 즐기면 되고 그게 아니라면 솔직히 DLC 개수랑 가격 생각해 보면 안 하는 걸 추천함.\n",
+        "DLC 너무 창렬 그치만 심즈같은 게임 찾기가 너무 어려워서 다시 돌아오게되는 게임\n근데 DLC 너무 창렬"
       ]
     },
     "multiplayer": {
@@ -240,39 +240,39 @@
     "fit_for": "초반 진입 장벽이나 조작 적응 여부를 중요하게 보는 플레이어는 사전 확인이 필요합니다.",
     "risks": "monetization 관련 이슈는 반복적으로 언급되지만 최근 급격한 악화 신호는 제한적입니다."
   },
-  "pipeline_run_id": "1222670-20260427T082209Z",
-  "generated_at": "2026-04-27T08:23:15.702427+00:00",
-  "source_review_count": 2671,
+  "pipeline_run_id": "1222670-20260429T062503Z",
+  "generated_at": "2026-04-29T06:25:41.018937+00:00",
+  "source_review_count": 2673,
   "review_pages": "all",
   "fetched_pages": 28,
-  "fetched_review_count": 2671,
+  "fetched_review_count": 2673,
   "fetch_timeout_seconds": 20,
   "fetch_filter": "recent",
   "all_mode_page_cap": 200,
   "all_mode_cap_reached": false,
   "llm_stats": {
-    "considered": 1696,
-    "selected": 20,
-    "invoked": 20,
-    "success": 20,
+    "considered": 1698,
+    "selected": 50,
+    "invoked": 50,
+    "success": 50,
     "schema_invalid": 0,
     "low_confidence": 0,
-    "cache_hits": 0,
+    "cache_hits": 50,
     "fallback_used": 0
   },
   "report_material_refiner": {
     "enabled": true,
-    "max_llm_reviews": 20,
+    "max_llm_reviews": 50,
     "llm_min_confidence": 0.7,
-    "material_count": 20,
+    "material_count": 50,
     "stats": {
-      "considered": 1696,
-      "selected": 20,
-      "invoked": 20,
-      "success": 20,
+      "considered": 1698,
+      "selected": 50,
+      "invoked": 50,
+      "success": 50,
       "schema_invalid": 0,
       "low_confidence": 0,
-      "cache_hits": 0,
+      "cache_hits": 50,
       "fallback_used": 0
     }
   }
