@@ -81,6 +81,14 @@ def build_repair_plan(
                 holds.append(_hold(f"{failure_type}_hold", failure, _hold_reason(failure_type)))
             continue
 
+        if failure_type == "evidence_theme_title_mismatch":
+            action = _plan_evidence_theme_title_action(failure, claim_map)
+            if action:
+                actions.append(action)
+            else:
+                holds.append(_hold(f"{failure_type}_hold", failure, _hold_reason(failure_type)))
+            continue
+
         if failure_type in HOLD_TYPES:
             holds.append(_hold(f"{failure_type}_hold", failure, _hold_reason(failure_type)))
             continue
@@ -140,6 +148,117 @@ def apply_safe_repair_actions(
     }
 
 
+def apply_review_repair_actions(
+    report_payload: dict[str, Any],
+    *,
+    repair_plan: dict[str, Any] | None = None,
+    llm_repairer: Any | None = None,
+) -> tuple[dict[str, Any], dict[str, Any]]:
+    """Apply review-required repair actions using an optional LLM slot repairer.
+
+    This keeps the existing report and edits only the fields that failed QA.
+    Unsupported display claims are dropped deterministically when possible.
+    """
+    plan = repair_plan or build_repair_plan(report_payload)
+    next_payload = deepcopy(report_payload)
+    claims = build_claim_ledger(next_payload)
+    claim_map = {str(claim.get("claim_id", "")): claim for claim in claims}
+    applied: list[dict[str, Any]] = []
+    skipped: list[dict[str, Any]] = []
+
+    for hold in list(plan.get("holds", []) or []):
+        result = _apply_supported_hold(next_payload, hold)
+        if result.get("applied"):
+            applied.append(result)
+        elif result.get("attempted"):
+            skipped.append(result)
+
+    for action in list(plan.get("actions", []) or []):
+        safety_level = str(action.get("safety_level", "")).strip()
+        if safety_level == "safe":
+            continue
+        if str(action.get("action", "")).strip() == "reselect_evidence_snippets":
+            result = _apply_reselect_evidence_snippets(next_payload, action)
+            if result.get("applied"):
+                applied.append(result)
+            else:
+                skipped.append(result)
+            continue
+        if safety_level != "review_required":
+            skipped.append(_skip_action(action, "unsupported_review_action"))
+            continue
+        if llm_repairer is None:
+            skipped.append(_skip_action(action, "missing_llm_repairer"))
+            continue
+        claim = claim_map.get(str(action.get("claim_id", "")).strip())
+        repair_result = llm_repairer.repair_slot(
+            report_payload=next_payload,
+            repair_action=action,
+            claim=claim,
+        )
+        applied_result = _apply_llm_repair_result(next_payload, action, repair_result)
+        if applied_result.get("applied"):
+            applied.append(applied_result)
+        else:
+            skipped.append(applied_result)
+
+    return next_payload, {
+        "applied_count": len(applied),
+        "skipped_count": len(skipped),
+        "applied": applied,
+        "skipped": skipped,
+    }
+
+
+def _apply_supported_hold(payload: dict[str, Any], hold: dict[str, Any]) -> dict[str, Any]:
+    hold_type = str(hold.get("hold_type", "")).strip()
+    field = str(hold.get("field", "")).strip()
+    if hold_type not in {"unsupported_claim_hold", "weak_support_hold"}:
+        return {
+            "attempted": False,
+            "applied": False,
+            "reason": "unsupported_hold_type",
+            "hold_type": hold_type,
+            "field": field,
+        }
+    if not field:
+        return {
+            "attempted": False,
+            "applied": False,
+            "reason": "missing_field",
+            "hold_type": hold_type,
+        }
+    result = _drop_display_field(payload, field, reason=hold_type)
+    result["hold_type"] = hold_type
+    return result
+
+
+def _apply_llm_repair_result(
+    payload: dict[str, Any],
+    action: dict[str, Any],
+    repair_result: Any,
+) -> dict[str, Any]:
+    if not isinstance(repair_result, dict):
+        return _skip_action(action, "invalid_llm_result")
+
+    mode = str(repair_result.get("mode", "")).strip().lower()
+    field = str(repair_result.get("field") or action.get("field") or "").strip()
+    if mode == "drop":
+        result = _drop_display_field(payload, field, reason="llm_drop")
+        result["llm_mode"] = mode
+        return result
+    if mode == "replace":
+        value = repair_result.get("value")
+        if field.startswith("evidence_sections."):
+            result = _apply_evidence_block_value(payload, field, value)
+            result["llm_mode"] = mode
+            return result
+        result = _apply_display_field_value(payload, field, value)
+        result["llm_mode"] = mode
+        return result
+    return _skip_action(action, "unsupported_llm_mode")
+
+
 def _apply_drop_duplicate_claim(payload: dict[str, Any], action: dict[str, Any]) -> dict[str, Any]:
     section = str(action.get("section", "")).strip()
     claim_id = str(action.get("claim_id", "")).strip()
@@ -178,6 +297,239 @@ def _apply_drop_duplicate_claim(payload: dict[str, Any], action: dict[str, Any])
         "section": section,
         "removed_title": removed[0].get("title"),
     }
+
+
+def _apply_reselect_evidence_snippets(payload: dict[str, Any], action: dict[str, Any]) -> dict[str, Any]:
+    claim_id = str(action.get("claim_id", "")).strip()
+    section = str(action.get("section", "")).strip()
+    selected = [str(item).strip() for item in list(action.get("replacement_text", []) or []) if str(item).strip()]
+    if section not in {"strengths", "risks"}:
+        return _skip_action(action, "invalid_section")
+    if not claim_id or len(selected) < 2:
+        return _skip_action(action, "missing_reselection_data")
+
+    evidence_sections = payload.get("evidence_sections")
+    if not isinstance(evidence_sections, dict):
+        return _skip_action(action, "missing_evidence_sections")
+    blocks = evidence_sections.get(section)
+    if not isinstance(blocks, list):
+        return _skip_action(action, "missing_section")
+
+    matched = None
+    for block in blocks:
+        if isinstance(block, dict) and str(block.get("block_id", "")).strip() == claim_id:
+            matched = block
+            break
+    if matched is None:
+        return _skip_action(action, "claim_block_not_found")
+
+    matched["evidence_snippets"] = selected[:3]
+    _sync_evidence_reviews_from_sections(payload)
+    return {
+        "applied": True,
+        "action": action.get("action"),
+        "claim_id": claim_id,
+        "section": section,
+        "snippet_count": len(matched["evidence_snippets"]),
+    }
+
+
+def _drop_display_field(payload: dict[str, Any], field: str, *, reason: str) -> dict[str, Any]:
+    report_display = payload.get("report_display")
+    if not isinstance(report_display, dict):
+        return {
+            "attempted": True,
+            "applied": False,
+            "reason": "missing_report_display",
+            "field": field,
+        }
+
+    if "[" not in field or not field.endswith("]"):
+        return {
+            "attempted": True,
+            "applied": False,
+            "reason": "drop_not_supported_for_field",
+            "field": field,
+        }
+
+    group, index = _parse_indexed_field(field)
+    if group not in {"good_for", "not_good_for", "top_strengths", "top_risks"} or index is None:
+        return {
+            "attempted": True,
+            "applied": False,
+            "reason": "drop_not_supported_for_field",
+            "field": field,
+        }
+
+    items = report_display.get(group)
+    if not isinstance(items, list):
+        return {
+            "attempted": True,
+            "applied": False,
+            "reason": "missing_display_list",
+            "field": field,
+        }
+
+    zero_index = index - 1
+    if zero_index < 0 or zero_index >= len(items):
+        return {
+            "attempted": True,
+            "applied": False,
+            "reason": "field_index_out_of_range",
+            "field": field,
+        }
+
+    removed = items.pop(zero_index)
+    _sync_display_mirrors(payload)
+    return {
+        "attempted": True,
+        "applied": True,
+        "action": "drop_field_item",
+        "field": field,
+        "reason": reason,
+        "removed": removed,
+    }
+
+
+def _apply_display_field_value(payload: dict[str, Any], field: str, value: Any) -> dict[str, Any]:
+    report_display = payload.get("report_display")
+    if not isinstance(report_display, dict):
+        return {
+            "applied": False,
+            "reason": "missing_report_display",
+            "field": field,
+        }
+    if not field:
+        return {
+            "applied": False,
+            "reason": "missing_field",
+        }
+
+    if field in {"headline", "buy_timing_summary"}:
+        if not isinstance(value, str) or not value.strip():
+            return {"applied": False, "reason": "invalid_string_value", "field": field}
+        report_display[field] = value.strip()
+        _sync_display_mirrors(payload)
+        return {"applied": True, "action": "replace_field", "field": field}
+
+    if field == "recent_state.summary":
+        if not isinstance(value, str) or not value.strip():
+            return {"applied": False, "reason": "invalid_string_value", "field": field}
+        recent_state = dict(report_display.get("recent_state", {}) or {})
+        recent_state["summary"] = value.strip()
+        report_display["recent_state"] = recent_state
+        _sync_display_mirrors(payload)
+        return {"applied": True, "action": "replace_field", "field": field}
+
+    group, index = _parse_indexed_field(field)
+    if group in {"good_for", "not_good_for"}:
+        if not isinstance(value, str) or not value.strip() or index is None:
+            return {"applied": False, "reason": "invalid_string_value", "field": field}
+        items = report_display.get(group)
+        if not isinstance(items, list) or index < 1 or index > len(items):
+            return {"applied": False, "reason": "field_index_out_of_range", "field": field}
+        items[index - 1] = value.strip()
+        _sync_display_mirrors(payload)
+        return {"applied": True, "action": "replace_field", "field": field}
+
+    if group in {"top_strengths", "top_risks"}:
+        if not isinstance(value, dict) or index is None:
+            return {"applied": False, "reason": "invalid_card_value", "field": field}
+        title = str(value.get("title", "") or "").strip()
+        summary = str(value.get("summary", "") or "").strip()
+        if not title or not summary:
+            return {"applied": False, "reason": "invalid_card_value", "field": field}
+        items = report_display.get(group)
+        if not isinstance(items, list) or index < 1 or index > len(items):
+            return {"applied": False, "reason": "field_index_out_of_range", "field": field}
+        items[index - 1] = {"title": title, "summary": summary}
+        _sync_display_mirrors(payload)
+        return {"applied": True, "action": "replace_field", "field": field}
+
+    return {"applied": False, "reason": "unsupported_field", "field": field}
+
+
+def _apply_evidence_block_value(payload: dict[str, Any], field: str, value: Any) -> dict[str, Any]:
+    if not isinstance(value, dict):
+        return {"applied": False, "reason": "invalid_evidence_value", "field": field}
+    title = str(value.get("title", "") or "").strip()
+    why = str(value.get("why_it_matters", "") or "").strip()
+    explanation = str(value.get("explanation", "") or "").strip()
+    if not title or not why or not explanation:
+        return {"applied": False, "reason": "invalid_evidence_value", "field": field}
+
+    section_name, index = _parse_evidence_field(field)
+    if section_name not in {"strengths", "risks"} or index is None:
+        return {"applied": False, "reason": "unsupported_field", "field": field}
+    evidence_sections = payload.get("evidence_sections")
+    if not isinstance(evidence_sections, dict):
+        return {"applied": False, "reason": "missing_evidence_sections", "field": field}
+    blocks = evidence_sections.get(section_name)
+    if not isinstance(blocks, list) or index < 1 or index > len(blocks):
+        return {"applied": False, "reason": "field_index_out_of_range", "field": field}
+    block = blocks[index - 1]
+    if not isinstance(block, dict):
+        return {"applied": False, "reason": "invalid_evidence_block", "field": field}
+    block["title"] = title
+    block["why_it_matters"] = why
+    block["explanation"] = explanation
+    _sync_evidence_reviews_from_sections(payload)
+    return {"applied": True, "action": "replace_field", "field": field}
+
+
+def _sync_display_mirrors(payload: dict[str, Any]) -> None:
+    report_display = payload.get("report_display")
+    if not isinstance(report_display, dict):
+        return
+    for key in (
+        "headline",
+        "buy_recommendation",
+        "buy_timing_summary",
+        "good_for",
+        "not_good_for",
+        "top_strengths",
+        "top_risks",
+        "recent_state",
+    ):
+        if key in payload:
+            payload[key] = deepcopy(report_display.get(key))
+
+
+def _sync_evidence_reviews_from_sections(payload: dict[str, Any]) -> None:
+    evidence_sections = payload.get("evidence_sections")
+    if not isinstance(evidence_sections, dict):
+        return
+    merged: list[dict[str, Any]] = []
+    for section_name in ("strengths", "risks"):
+        blocks = evidence_sections.get(section_name)
+        if not isinstance(blocks, list):
+            continue
+        for block in blocks:
+            if not isinstance(block, dict):
+                continue
+            next_block = deepcopy(block)
+            next_block["section"] = section_name
+            merged.append(next_block)
+    payload["evidence_reviews"] = merged
+
+
+def _parse_indexed_field(field: str) -> tuple[str, int | None]:
+    if "[" not in field or not field.endswith("]"):
+        return field, None
+    group, _, tail = field.partition("[")
+    try:
+        index = int(tail[:-1])
+    except ValueError:
+        return group, None
+    return group, index
+
+
+def _parse_evidence_field(field: str) -> tuple[str, int | None]:
+    prefix = "evidence_sections."
+    if not field.startswith(prefix):
+        return field, None
+    tail = field[len(prefix):]
+    return _parse_indexed_field(tail)
 
 
 def _skip_action(action: dict[str, Any], reason: str) -> dict[str, Any]:
@@ -398,6 +750,32 @@ def _plan_evidence_mismatch_action(
         "reason": "현재 선택된 스니펫은 claim과 어긋나지만, 후보 스니펫 중 claim 주제와 맞는 근거가 있어 재선택 후보로 표시합니다.",
         "current_text": failure.get("text"),
         "replacement_text": selected[:3],
+        "safety_level": "review_required",
+        "requires_review": True,
+    }
+
+
+def _plan_evidence_theme_title_action(
+    failure: dict[str, Any],
+    claim_map: dict[str, dict[str, Any]],
+) -> dict[str, Any] | None:
+    block_id = str(failure.get("block_id", "")).strip()
+    field = str(failure.get("field", "")).strip()
+    claim = claim_map.get(block_id)
+    if not block_id or not field:
+        return None
+    return {
+        "action": "rewrite_evidence_block_copy",
+        "failure_type": "evidence_theme_title_mismatch",
+        "field": field,
+        "claim_id": block_id,
+        "reason": "Rewrite only the evidence block copy so its title and explanation match the block theme.",
+        "current_text": str(failure.get("text", "")).strip(),
+        "replacement_text": {
+            "title": str((claim or {}).get("title", "") or "").strip(),
+            "why_it_matters": str((claim or {}).get("why_it_matters", "") or "").strip(),
+            "explanation": str((claim or {}).get("why_it_matters", "") or "").strip(),
+        },
         "safety_level": "review_required",
         "requires_review": True,
     }

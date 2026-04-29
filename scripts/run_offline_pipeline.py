@@ -19,6 +19,9 @@ if str(BACKEND_DIR) not in sys.path:
     sys.path.insert(0, str(BACKEND_DIR))
 
 from report.pipeline.offline_pipeline import run_offline_pipeline_for_appid
+from report.quality.semantic_gate import evaluate_report_semantics
+from report.services.slot_repair_llm import OpenAISlotRepairer
+from scripts.run_report_slot_repair import repair_appid
 
 
 def _load_env() -> None:
@@ -136,6 +139,17 @@ def parse_args() -> argparse.Namespace:
         default=None,
         help="Preset model bundle: qa=gpt-4o-mini, final=gpt-4.1-mini",
     )
+    parser.add_argument(
+        "--auto-slot-repair",
+        action="store_true",
+        help="After report generation, automatically run semantic QA and slot-level repair.",
+    )
+    parser.add_argument(
+        "--slot-repair-max-rounds",
+        type=int,
+        default=2,
+        help="Maximum semantic repair rounds when --auto-slot-repair is enabled.",
+    )
     return parser.parse_args()
 
 
@@ -161,6 +175,20 @@ def main() -> int:
         except Exception as exc:  # pragma: no cover - CLI surface.
             print(f"[offline-pipeline] failed: {exc}", file=sys.stderr)
             return 1
+
+        if args.auto_slot_repair:
+            repairer = OpenAISlotRepairer()
+            if not repairer.available:
+                repairer = None
+            slot_repair_summary = repair_appid(
+                args.appid,
+                max_rounds=max(1, int(args.slot_repair_max_rounds)),
+                repairer=repairer,
+            )
+            summary["slot_repair"] = slot_repair_summary
+            summary["semantic_status_after_repair"] = slot_repair_summary.get("status_after")
+        else:
+            summary["semantic_status_after_repair"] = None
 
     print(json.dumps(summary, ensure_ascii=False, indent=2))
     return 0

@@ -1,52 +1,75 @@
 {
-  "generated_at": "2026-04-29T06:57:03.416403+00:00",
+  "generated_at": "2026-04-29T07:34:51.257046+00:00",
   "mode": "dry_run",
   "appids": [
-    4261320,
-    990080
+    1147560
   ],
   "safe_applied_count": 0,
   "repairable_count": 0,
   "repairable_needs_review_count": 0,
-  "repairable_with_holds_count": 0,
+  "repairable_with_holds_count": 1,
   "hold_count": 0,
   "rows": [
     {
-      "status": "no_repair_needed",
+      "status": "repairable_with_holds",
       "can_apply_safely": false,
-      "requires_review": false,
-      "semantic_status": "pass",
-      "failure_count": 0,
-      "critical_failure_count": 0,
-      "action_count": 0,
-      "hold_count": 0,
-      "actions": [],
-      "holds": [],
-      "appid": 4261320,
-      "game_name": "스페셜포스 리마스터",
-      "report_path": "data\\report\\report\\4261320(스페셜포스 리마스터).json",
-      "mode": "dry_run",
-      "safe_apply": {
-        "applied_count": 0,
-        "skipped_count": 0,
-        "applied": [],
-        "skipped": []
-      }
-    },
-    {
-      "status": "no_repair_needed",
-      "can_apply_safely": false,
-      "requires_review": false,
-      "semantic_status": "pass",
-      "failure_count": 0,
-      "critical_failure_count": 0,
-      "action_count": 0,
-      "hold_count": 0,
-      "actions": [],
-      "holds": [],
-      "appid": 990080,
-      "game_name": "호그와트 레거시",
-      "report_path": "data\\report\\report\\990080(호그와트 레거시).json",
+      "requires_review": true,
+      "semantic_status": "fail",
+      "failure_count": 2,
+      "critical_failure_count": 2,
+      "action_count": 1,
+      "hold_count": 1,
+      "actions": [
+        {
+          "action": "rewrite_from_best_claim",
+          "failure_type": "theme_drift",
+          "field": "top_risks[2]",
+          "claim_id": "risk_1",
+          "reason": "display 문장이 약하게 연결된 claim의 theme/phrase 기준으로 교체 후보를 만듭니다.",
+          "current_text": "예상치 못한 오류가 플레이 리듬을 끊을 수 있는 리스크 예상치 못한 오류가 나오면 플레이 흐름과 몰입이 크게 끊길 수 있습니다.",
+          "replacement_text": {
+            "title": "초반 적응이 답답하",
+            "summary": "초반 적응이 느리다는 반응이 있어 바로 손에 붙는 경험을 원하면 답답함이 먼저 올 수 있습니다."
+          },
+          "best_score": 0.0938,
+          "phrases_used": [
+            "적용 안되는 버그",
+            "안되는 버그",
+            "1스테이지는 일반등급으로 고정이라도 시켜놨음"
+          ],
+          "requires_review": true,
+          "safety_level": "review_required"
+        }
+      ],
+      "holds": [
+        {
+          "hold_type": "unknown_failure_hold",
+          "safety_level": "hold",
+          "failure_type": "evidence_theme_title_mismatch",
+          "field": "evidence_sections.strengths[3]",
+          "claim_id": null,
+          "reason": "알 수 없는 실패 유형이라 자동 수정하지 않습니다.",
+          "text": "플레이 흐름이 안정적으로 잡힌다는 반응",
+          "failure": {
+            "type": "evidence_theme_title_mismatch",
+            "severity": "critical",
+            "field": "evidence_sections.strengths[3]",
+            "message": "evidence block의 theme와 title/설명 주제가 어긋납니다.",
+            "text": "플레이 흐름이 안정적으로 잡힌다는 반응",
+            "block_id": "str_3",
+            "theme_families": [
+              "combat",
+              "pacing_repetition"
+            ],
+            "title_families": [
+              "controls_ux"
+            ]
+          }
+        }
+      ],
+      "appid": 1147560,
+      "game_name": "Skul: The Hero Slayer",
+      "report_path": "data\\report\\report\\1147560(Skul_ The Hero Slayer).json",
       "mode": "dry_run",
       "safe_apply": {
         "applied_count": 0,
