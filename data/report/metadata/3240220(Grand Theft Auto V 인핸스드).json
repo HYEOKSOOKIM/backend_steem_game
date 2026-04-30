@@ -12,13 +12,182 @@
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header_koreana.jpg?t=1765479644",
   "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/a318bd9affe8eee32984b18794b273c256e9b2d6/capsule_231x87.jpg?t=1765479644",
   "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/a318bd9affe8eee32984b18794b273c256e9b2d6/capsule_184x69.jpg?t=1765479644",
+  "screenshots": [
+    {
+      "id": "0",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/d61184a98c1cf2db2b08b2999c04b0519e3615bb/ss_d61184a98c1cf2db2b08b2999c04b0519e3615bb.600x338.jpg?t=1765479644",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/d61184a98c1cf2db2b08b2999c04b0519e3615bb/ss_d61184a98c1cf2db2b08b2999c04b0519e3615bb.1920x1080.jpg?t=1765479644"
+    },
+    {
+      "id": "1",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/8340fd391012e12be7e4c02e65801a2648a6b60e/ss_8340fd391012e12be7e4c02e65801a2648a6b60e.600x338.jpg?t=1765479644",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/8340fd391012e12be7e4c02e65801a2648a6b60e/ss_8340fd391012e12be7e4c02e65801a2648a6b60e.1920x1080.jpg?t=1765479644"
+    },
+    {
+      "id": "2",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/f2e70b5823510daa062293ff0b03821e1dee2d37/ss_f2e70b5823510daa062293ff0b03821e1dee2d37.600x338.jpg?t=1765479644",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/f2e70b5823510daa062293ff0b03821e1dee2d37/ss_f2e70b5823510daa062293ff0b03821e1dee2d37.1920x1080.jpg?t=1765479644"
+    },
+    {
+      "id": "3",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/6959cc5d64cce82cb68a27457cfa46fb4d50f897/ss_6959cc5d64cce82cb68a27457cfa46fb4d50f897.600x338.jpg?t=1765479644",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/6959cc5d64cce82cb68a27457cfa46fb4d50f897/ss_6959cc5d64cce82cb68a27457cfa46fb4d50f897.1920x1080.jpg?t=1765479644"
+    },
+    {
+      "id": "4",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/0231bf16835cd4f6d83523d76aa8d91cb2dfef9b/ss_0231bf16835cd4f6d83523d76aa8d91cb2dfef9b.600x338.jpg?t=1765479644",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/0231bf16835cd4f6d83523d76aa8d91cb2dfef9b/ss_0231bf16835cd4f6d83523d76aa8d91cb2dfef9b.1920x1080.jpg?t=1765479644"
+    },
+    {
+      "id": "5",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/60690d0fdbd022ab1527ba6d080d42c1812a0f39/ss_60690d0fdbd022ab1527ba6d080d42c1812a0f39.600x338.jpg?t=1765479644",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/60690d0fdbd022ab1527ba6d080d42c1812a0f39/ss_60690d0fdbd022ab1527ba6d080d42c1812a0f39.1920x1080.jpg?t=1765479644"
+    },
+    {
+      "id": "6",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/cf15774bb38c9b74f9e98c985228510c97df80b6/ss_cf15774bb38c9b74f9e98c985228510c97df80b6.600x338.jpg?t=1765479644",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/cf15774bb38c9b74f9e98c985228510c97df80b6/ss_cf15774bb38c9b74f9e98c985228510c97df80b6.1920x1080.jpg?t=1765479644"
+    },
+    {
+      "id": "7",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/808b550269f898e227dae2c64b5e026f90da85f9/ss_808b550269f898e227dae2c64b5e026f90da85f9.600x338.jpg?t=1765479644",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/808b550269f898e227dae2c64b5e026f90da85f9/ss_808b550269f898e227dae2c64b5e026f90da85f9.1920x1080.jpg?t=1765479644"
+    },
+    {
+      "id": "8",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/85ff4a9fad2064c201c00c27d8d28c28fa03c481/ss_85ff4a9fad2064c201c00c27d8d28c28fa03c481.600x338.jpg?t=1765479644",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/85ff4a9fad2064c201c00c27d8d28c28fa03c481/ss_85ff4a9fad2064c201c00c27d8d28c28fa03c481.1920x1080.jpg?t=1765479644"
+    },
+    {
+      "id": "9",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/f4a6f63b4f7cb42262152449ba5e5c5837f20ff4/ss_f4a6f63b4f7cb42262152449ba5e5c5837f20ff4.600x338.jpg?t=1765479644",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/f4a6f63b4f7cb42262152449ba5e5c5837f20ff4/ss_f4a6f63b4f7cb42262152449ba5e5c5837f20ff4.1920x1080.jpg?t=1765479644"
+    },
+    {
+      "id": "10",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/7f432690bd6365e871a2463a5db9cc4e7ebe1151/ss_7f432690bd6365e871a2463a5db9cc4e7ebe1151.600x338.jpg?t=1765479644",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/7f432690bd6365e871a2463a5db9cc4e7ebe1151/ss_7f432690bd6365e871a2463a5db9cc4e7ebe1151.1920x1080.jpg?t=1765479644"
+    }
+  ],
+  "movies": [
+    {
+      "id": "257247680",
+      "name": "A Safehouse in the Hills - NR",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257247680/6953f3f3d5ff4750a447fd604910cb5a2eb19a35/movie_600x337.jpg?t=1765479639",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3240220/478153532/b74a7322cbaece3aac7ef4f5a07d498d92d1633b/1765478654/hls_264_master.m3u8?t=1765479639",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3240220/478153532/b74a7322cbaece3aac7ef4f5a07d498d92d1633b/1765478654/dash_h264.mpd?t=1765479639",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3240220/478153532/b74a7322cbaece3aac7ef4f5a07d498d92d1633b/1765478654/dash_av1.mpd?t=1765479639",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/3240220/478153532/b74a7322cbaece3aac7ef4f5a07d498d92d1633b/1765478654/hls_264_master.m3u8?t=1765479639"
+    },
+    {
+      "id": "257157948",
+      "name": "Money Fronts - Korea",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257157948/8d2d7ba7e7a455070fc95ae1d00661948ac0d3b9/movie_600x337.jpg?t=1750182888",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3240220/2037302463/1262bf5059c2df9615dd465c5ea83df380ebc5cd/1750178072/hls_264_master.m3u8?t=1750182888",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3240220/2037302463/1262bf5059c2df9615dd465c5ea83df380ebc5cd/1750178072/dash_h264.mpd?t=1750182888",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3240220/2037302463/1262bf5059c2df9615dd465c5ea83df380ebc5cd/1750178072/dash_av1.mpd?t=1750182888",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/3240220/2037302463/1262bf5059c2df9615dd465c5ea83df380ebc5cd/1750178072/hls_264_master.m3u8?t=1750182888"
+    },
+    {
+      "id": "257100577",
+      "name": "Agents of Sabotage",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257100577/af4a4abfc36b956bd2fa2fd2ee5bade9be41c99a/movie_600x337.jpg?t=1740681447",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3240220/832632/4b8d5f06cf0a13255e89153bd952e5c7c9d41fe1/1750825051/hls_264_master.m3u8?t=1740681447",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3240220/832632/4b8d5f06cf0a13255e89153bd952e5c7c9d41fe1/1750825051/dash_h264.mpd?t=1740681447",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3240220/832632/4b8d5f06cf0a13255e89153bd952e5c7c9d41fe1/1750825051/dash_av1.mpd?t=1740681447",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/3240220/832632/4b8d5f06cf0a13255e89153bd952e5c7c9d41fe1/1750825051/hls_264_master.m3u8?t=1740681447"
+    },
+    {
+      "id": "257107473",
+      "name": "Bottom Dollar Bounties",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257107473/b424a7e4752f2dda69ed50b8cb8ce5fdd1f00643/movie_600x337.jpg?t=1740681450",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3240220/840633/811cbebcd754c5028b19dd7c353e0e30af4624d4/1750825072/hls_264_master.m3u8?t=1740681450",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3240220/840633/811cbebcd754c5028b19dd7c353e0e30af4624d4/1750825072/dash_h264.mpd?t=1740681450",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3240220/840633/811cbebcd754c5028b19dd7c353e0e30af4624d4/1750825072/dash_av1.mpd?t=1740681450",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/3240220/840633/811cbebcd754c5028b19dd7c353e0e30af4624d4/1750825072/hls_264_master.m3u8?t=1740681450"
+    },
+    {
+      "id": "257107472",
+      "name": "Cluckin' Bell Farm Raid",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257107472/c77263b2d258cfd542195f562b29e4ba81c66cfa/movie_600x337.jpg?t=1740681453",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3240220/840632/e563e0e788371fcadb925449e0ed485937ddb129/1750825067/hls_264_master.m3u8?t=1740681453",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3240220/840632/e563e0e788371fcadb925449e0ed485937ddb129/1750825067/dash_h264.mpd?t=1740681453",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3240220/840632/e563e0e788371fcadb925449e0ed485937ddb129/1750825067/dash_av1.mpd?t=1740681453",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/3240220/840632/e563e0e788371fcadb925449e0ed485937ddb129/1750825067/hls_264_master.m3u8?t=1740681453"
+    },
+    {
+      "id": "257107471",
+      "name": "The Chop Shop",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257107471/b655b395f70215ff6b3eac449280a78651799f7d/movie_600x337.jpg?t=1740681456",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3240220/840631/488112001bd68beffa78b212b3c5dd16f1153a0e/1750825065/hls_264_master.m3u8?t=1740681456",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3240220/840631/488112001bd68beffa78b212b3c5dd16f1153a0e/1750825065/dash_h264.mpd?t=1740681456",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3240220/840631/488112001bd68beffa78b212b3c5dd16f1153a0e/1750825065/dash_av1.mpd?t=1740681456",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/3240220/840631/488112001bd68beffa78b212b3c5dd16f1153a0e/1750825065/hls_264_master.m3u8?t=1740681456"
+    },
+    {
+      "id": "257107468",
+      "name": "Los Santos Drug Wars",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257107468/e9a2597e6efbd133c2c852f0098d6c41bd38af43/movie_600x337.jpg?t=1740681459",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3240220/840628/3ec4cf2586fb21ad5a79622cf649f06748827dd2/1750825064/hls_264_master.m3u8?t=1740681459",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3240220/840628/3ec4cf2586fb21ad5a79622cf649f06748827dd2/1750825064/dash_h264.mpd?t=1740681459",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3240220/840628/3ec4cf2586fb21ad5a79622cf649f06748827dd2/1750825064/dash_av1.mpd?t=1740681459",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/3240220/840628/3ec4cf2586fb21ad5a79622cf649f06748827dd2/1750825064/hls_264_master.m3u8?t=1740681459"
+    },
+    {
+      "id": "257107466",
+      "name": "San Andreas Mercenaries",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257107466/bac51db8fd653e5eceb0c70ad70fa7f995915158/movie_600x337.jpg?t=1740681461",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3240220/840626/9b790211e084514a1bf5b34898f6dc6b895bf267/1750825064/hls_264_master.m3u8?t=1740681461",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3240220/840626/9b790211e084514a1bf5b34898f6dc6b895bf267/1750825064/dash_h264.mpd?t=1740681461",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3240220/840626/9b790211e084514a1bf5b34898f6dc6b895bf267/1750825064/dash_av1.mpd?t=1740681461",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/3240220/840626/9b790211e084514a1bf5b34898f6dc6b895bf267/1750825064/hls_264_master.m3u8?t=1740681461"
+    },
+    {
+      "id": "257107463",
+      "name": "Los Santos Tuners",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257107463/eb34e891c57b2fc16839b21bbb03b783a0e086f5/movie_600x337.jpg?t=1740681468",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3240220/840623/54ee251eb23c861ae530164b8fe9cbe405b7a85c/1750825058/hls_264_master.m3u8?t=1740681468",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3240220/840623/54ee251eb23c861ae530164b8fe9cbe405b7a85c/1750825058/dash_h264.mpd?t=1740681468",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3240220/840623/54ee251eb23c861ae530164b8fe9cbe405b7a85c/1750825058/dash_av1.mpd?t=1740681468",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/3240220/840623/54ee251eb23c861ae530164b8fe9cbe405b7a85c/1750825058/hls_264_master.m3u8?t=1740681468"
+    },
+    {
+      "id": "257107461",
+      "name": "Criminal Enterprises",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257107461/b9216f2009c269e92e17b53cc8b7db48091dc2ac/movie_600x337.jpg?t=1740681470",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3240220/840621/b9a521ddc50ab8fc82977af3b2d60be27aaf715b/1750825057/hls_264_master.m3u8?t=1740681470",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3240220/840621/b9a521ddc50ab8fc82977af3b2d60be27aaf715b/1750825057/dash_h264.mpd?t=1740681470",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3240220/840621/b9a521ddc50ab8fc82977af3b2d60be27aaf715b/1750825057/dash_av1.mpd?t=1740681470",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/3240220/840621/b9a521ddc50ab8fc82977af3b2d60be27aaf715b/1750825057/hls_264_master.m3u8?t=1740681470"
+    }
+  ],
   "short_description": "엔터테인먼트 블록버스터인 Grand Theft Auto V와 Grand Theft Auto 온라인을 경험해 보십시오. 이제 환상적인 비주얼과 더욱 빠른 로딩, 3D 오디오 등과 함께 차세대 수준으로 업그레이드되었으며, GTA 온라인 플레이어를 위한 특별 콘텐츠 또한 마련되어 있습니다.",
   "steam_store_url": "https://store.steampowered.com/app/3240220",
-  "steam_recommendation_count": 165646,
-  "steam_review_score_desc": "Very Positive",
-  "steam_total_positive": 2729,
-  "steam_total_negative": 606,
-  "steam_total_reviews": 3335,
+  "steam_recommendation_count": 165883,
+  "steam_review_score_desc": null,
+  "steam_total_positive": null,
+  "steam_total_negative": null,
+  "steam_total_reviews": null,
   "price_currency": "KRW",
   "price_current": 2420000,
   "price_original": 5500000,

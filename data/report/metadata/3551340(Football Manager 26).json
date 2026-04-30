@@ -12,13 +12,58 @@
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3551340/7d28b9aa8dcfcd96593d112736f58b4b1d3cc7a4/header.jpg?t=1775667513",
   "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3551340/89a157ed8100b4c8fa49de9fda0b3a83aece1f5e/capsule_231x87.jpg?t=1775667513",
   "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3551340/89a157ed8100b4c8fa49de9fda0b3a83aece1f5e/capsule_184x69.jpg?t=1775667513",
+  "screenshots": [
+    {
+      "id": "0",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3551340/b5af1724ed14754e8b40d083539a65955e0d6417/ss_b5af1724ed14754e8b40d083539a65955e0d6417.600x338.jpg?t=1775667513",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3551340/b5af1724ed14754e8b40d083539a65955e0d6417/ss_b5af1724ed14754e8b40d083539a65955e0d6417.1920x1080.jpg?t=1775667513"
+    },
+    {
+      "id": "1",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3551340/e47dc2155cfca688d2ba0e4f5efbeaa58d0ac7dd/ss_e47dc2155cfca688d2ba0e4f5efbeaa58d0ac7dd.600x338.jpg?t=1775667513",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3551340/e47dc2155cfca688d2ba0e4f5efbeaa58d0ac7dd/ss_e47dc2155cfca688d2ba0e4f5efbeaa58d0ac7dd.1920x1080.jpg?t=1775667513"
+    },
+    {
+      "id": "2",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3551340/c660c53d7a16cc49eaa5cd7adacdd460371e41c3/ss_c660c53d7a16cc49eaa5cd7adacdd460371e41c3.600x338.jpg?t=1775667513",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3551340/c660c53d7a16cc49eaa5cd7adacdd460371e41c3/ss_c660c53d7a16cc49eaa5cd7adacdd460371e41c3.1920x1080.jpg?t=1775667513"
+    },
+    {
+      "id": "3",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3551340/c4641082d5c4cfa443f88ed0bb8c4426fdff7357/ss_c4641082d5c4cfa443f88ed0bb8c4426fdff7357.600x338.jpg?t=1775667513",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3551340/c4641082d5c4cfa443f88ed0bb8c4426fdff7357/ss_c4641082d5c4cfa443f88ed0bb8c4426fdff7357.1920x1080.jpg?t=1775667513"
+    },
+    {
+      "id": "4",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3551340/fdcd0d6e30b42c66d6d025050885a94cdcc25cad/ss_fdcd0d6e30b42c66d6d025050885a94cdcc25cad.600x338.jpg?t=1775667513",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3551340/fdcd0d6e30b42c66d6d025050885a94cdcc25cad/ss_fdcd0d6e30b42c66d6d025050885a94cdcc25cad.1920x1080.jpg?t=1775667513"
+    },
+    {
+      "id": "5",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3551340/e6a78e1ce5d4c1b56481490a13ec4aa11b853a06/ss_e6a78e1ce5d4c1b56481490a13ec4aa11b853a06.600x338.jpg?t=1775667513",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3551340/e6a78e1ce5d4c1b56481490a13ec4aa11b853a06/ss_e6a78e1ce5d4c1b56481490a13ec4aa11b853a06.1920x1080.jpg?t=1775667513"
+    }
+  ],
+  "movies": [
+    {
+      "id": "257208474",
+      "name": "PL Sizzle - unrated",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257208474/12e0581f4b3876d94725ad60bb3757214a9dc3b0/movie_600x337.jpg?t=1759154584",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3551340/2128535793/f08f9975baf78b5074f3c09e93b3beedaa9dae44/1759141444/hls_264_master.m3u8?t=1759154584",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3551340/2128535793/f08f9975baf78b5074f3c09e93b3beedaa9dae44/1759141444/dash_h264.mpd?t=1759154584",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3551340/2128535793/f08f9975baf78b5074f3c09e93b3beedaa9dae44/1759141444/dash_av1.mpd?t=1759154584",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/3551340/2128535793/f08f9975baf78b5074f3c09e93b3beedaa9dae44/1759141444/hls_264_master.m3u8?t=1759154584"
+    }
+  ],
   "short_description": "지금 필드로 향해, 축구 클럽 경영의 미래를 경험해 보세요.",
   "steam_store_url": "https://store.steampowered.com/app/3551340",
-  "steam_recommendation_count": 18766,
-  "steam_review_score_desc": "Overwhelmingly Negative",
-  "steam_total_positive": 255,
-  "steam_total_negative": 1671,
-  "steam_total_reviews": 1926,
+  "steam_recommendation_count": 18785,
+  "steam_review_score_desc": null,
+  "steam_total_positive": null,
+  "steam_total_negative": null,
+  "steam_total_reviews": null,
   "price_currency": "KRW",
   "price_current": 6980000,
   "price_original": 6980000,

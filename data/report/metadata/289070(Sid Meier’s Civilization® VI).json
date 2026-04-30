@@ -10,13 +10,68 @@
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289070/header.jpg?t=1740607040",
   "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289070/capsule_231x87.jpg?t=1740607040",
   "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289070/capsule_184x69.jpg?t=1740607040",
+  "screenshots": [
+    {
+      "id": "0",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289070/ss_12cc6e1f4084de5bc0f66bfdbe3aaf3e59388b53.600x338.jpg?t=1740607040",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289070/ss_12cc6e1f4084de5bc0f66bfdbe3aaf3e59388b53.1920x1080.jpg?t=1740607040"
+    },
+    {
+      "id": "1",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289070/ss_6c4a3cfb61f1a9677cf2ac549c2816a4e651f741.600x338.jpg?t=1740607040",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289070/ss_6c4a3cfb61f1a9677cf2ac549c2816a4e651f741.1920x1080.jpg?t=1740607040"
+    },
+    {
+      "id": "2",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289070/ss_b2bf12299c38214fe520af0f724a6349d17ed330.600x338.jpg?t=1740607040",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289070/ss_b2bf12299c38214fe520af0f724a6349d17ed330.1920x1080.jpg?t=1740607040"
+    },
+    {
+      "id": "3",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289070/ss_7f598198526afc260d939a98af4d76d95f5349e4.600x338.jpg?t=1740607040",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289070/ss_7f598198526afc260d939a98af4d76d95f5349e4.1920x1080.jpg?t=1740607040"
+    },
+    {
+      "id": "4",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289070/ss_7ca34ff8ae81fb10ddc540187e2e21d1b8e1dfe9.600x338.jpg?t=1740607040",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289070/ss_7ca34ff8ae81fb10ddc540187e2e21d1b8e1dfe9.1920x1080.jpg?t=1740607040"
+    },
+    {
+      "id": "5",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289070/ss_36c63ebeb006b246cb740fdafeb41bb20e3b330d.600x338.jpg?t=1740607040",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289070/ss_36c63ebeb006b246cb740fdafeb41bb20e3b330d.1920x1080.jpg?t=1740607040"
+    },
+    {
+      "id": "6",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289070/ss_cf53258cb8c4d283e52cf8dce3edf8656f83adc6.600x338.jpg?t=1740607040",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289070/ss_cf53258cb8c4d283e52cf8dce3edf8656f83adc6.1920x1080.jpg?t=1740607040"
+    },
+    {
+      "id": "7",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289070/ss_f501156a69223131ee8b12452f3003698334e964.600x338.jpg?t=1740607040",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289070/ss_f501156a69223131ee8b12452f3003698334e964.1920x1080.jpg?t=1740607040"
+    }
+  ],
+  "movies": [
+    {
+      "id": "256672703",
+      "name": "Civilization VI Launch Trailer - KR",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256672703/movie.293x165.jpg?t=1476737110",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/289070/76625/fac8ff74a2d7dd56c399d4c3cf7715b82301b84d/1750500686/hls_264_master.m3u8?t=1476737110",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/289070/76625/fac8ff74a2d7dd56c399d4c3cf7715b82301b84d/1750500686/dash_h264.mpd?t=1476737110",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/289070/76625/fac8ff74a2d7dd56c399d4c3cf7715b82301b84d/1750500686/dash_av1.mpd?t=1476737110",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/289070/76625/fac8ff74a2d7dd56c399d4c3cf7715b82301b84d/1750500686/hls_264_master.m3u8?t=1476737110"
+    }
+  ],
   "short_description": "문명 VI 에서는 새로운 방식으로 세상과 소통하고, 제국의 영토를 확장시키며, 문화를 발전시키고, 역사속 위대한 지도자들에 맞서 오래도록 지속될 나만의 문명을 건설해볼 수 있습니다. 클레오파트라를 비롯한 20명의 역사 속 지도자들 중 한명으로 플레이 해보세요.",
   "steam_store_url": "https://store.steampowered.com/app/289070",
-  "steam_recommendation_count": 271403,
-  "steam_review_score_desc": "Very Positive",
-  "steam_total_positive": 10939,
-  "steam_total_negative": 1303,
-  "steam_total_reviews": 12242,
+  "steam_recommendation_count": 271414,
+  "steam_review_score_desc": null,
+  "steam_total_positive": null,
+  "steam_total_negative": null,
+  "steam_total_reviews": null,
   "price_currency": "KRW",
   "price_current": 6500000,
   "price_original": 6500000,

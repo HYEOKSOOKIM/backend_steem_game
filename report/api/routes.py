@@ -128,6 +128,7 @@ def list_demo_games(data_root: str | Path = DEFAULT_DATA_ROOT) -> list[dict[str,
             {
                 "appid": appid,
                 "name": metadata.get("name") or game.get("name"),
+                "aliases": list(game.get("aliases", []) or []),
                 "enabled_for_demo": True,
                 "analysis_ready": analysis_ready,
                 "report_ready": report_ready,

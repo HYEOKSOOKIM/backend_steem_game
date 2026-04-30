@@ -210,6 +210,8 @@ def build_game_context_payload(appid: int, metadata: dict[str, Any] | None) -> d
         "header_image": header_image or f"https://cdn.akamai.steamstatic.com/steam/apps/{appid}/header.jpg",
         "capsule_image": capsule_image or f"https://cdn.akamai.steamstatic.com/steam/apps/{appid}/capsule_616x353.jpg",
         "capsule_imagev5": capsule_imagev5 or f"https://cdn.akamai.steamstatic.com/steam/apps/{appid}/library_600x900.jpg",
+        "screenshots": list(metadata_payload.get("screenshots", []) or []),
+        "movies": list(metadata_payload.get("movies", []) or []),
         "short_description": _metadata_text(metadata_payload.get("short_description")),
         "steam_store_url": _metadata_text(metadata_payload.get("steam_store_url"))
         or f"https://store.steampowered.com/app/{appid}",

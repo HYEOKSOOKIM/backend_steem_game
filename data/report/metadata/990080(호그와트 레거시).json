@@ -12,13 +12,53 @@
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/a3cdc6f40d97df8ac993679c2dd1edeb5222421e/header.jpg?t=1773932856",
   "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/1b2e4eeed79dd06971492825a461bc5130bf7c28/capsule_231x87.jpg?t=1773932856",
   "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/1b2e4eeed79dd06971492825a461bc5130bf7c28/capsule_184x69.jpg?t=1773932856",
+  "screenshots": [
+    {
+      "id": "0",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/ss_725bf58485beb4aa37a3a69c1e2baa69bf3e4653.600x338.jpg?t=1773932856",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/ss_725bf58485beb4aa37a3a69c1e2baa69bf3e4653.1920x1080.jpg?t=1773932856"
+    },
+    {
+      "id": "1",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/ss_df93b5e8a183f7232d68be94ae78920a90de1443.600x338.jpg?t=1773932856",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/ss_df93b5e8a183f7232d68be94ae78920a90de1443.1920x1080.jpg?t=1773932856"
+    },
+    {
+      "id": "2",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/ss_94058497bf0f8fabdde17ee8d59bece609a60663.600x338.jpg?t=1773932856",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/ss_94058497bf0f8fabdde17ee8d59bece609a60663.1920x1080.jpg?t=1773932856"
+    },
+    {
+      "id": "3",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/ss_8e08976236d29b1897769257ac3c64e9264792a5.600x338.jpg?t=1773932856",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/ss_8e08976236d29b1897769257ac3c64e9264792a5.1920x1080.jpg?t=1773932856"
+    },
+    {
+      "id": "4",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/ss_d4930d675af053dc1e61a876a34fc003e85e261f.600x338.jpg?t=1773932856",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/ss_d4930d675af053dc1e61a876a34fc003e85e261f.1920x1080.jpg?t=1773932856"
+    }
+  ],
+  "movies": [
+    {
+      "id": "256930504",
+      "name": "Hogwarts Legacy Launch Trailer WW",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256930504/movie.293x165.jpg?t=1676412591",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/990080/539067/7a7ab093d789f59e804a9aed0d626823e005892a/1750604670/hls_264_master.m3u8?t=1676412591",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/990080/539067/7a7ab093d789f59e804a9aed0d626823e005892a/1750604670/dash_h264.mpd?t=1676412591",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/990080/539067/7a7ab093d789f59e804a9aed0d626823e005892a/1750604670/dash_av1.mpd?t=1676412591",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/990080/539067/7a7ab093d789f59e804a9aed0d626823e005892a/1750604670/hls_264_master.m3u8?t=1676412591"
+    }
+  ],
   "short_description": "호그와트 레거시는 몰입형 오픈월드 액션 RPG입니다. 이제 여러분도 꿈에 그리던 마법 세계에 직접 영향을 끼칠 수 있습니다. 마법 세계에서 펼쳐지는 모험의 주인공이 되어보세요.",
   "steam_store_url": "https://store.steampowered.com/app/990080",
-  "steam_recommendation_count": 268076,
-  "steam_review_score_desc": "Very Positive",
-  "steam_total_positive": 5536,
-  "steam_total_negative": 1030,
-  "steam_total_reviews": 6566,
+  "steam_recommendation_count": 268110,
+  "steam_review_score_desc": null,
+  "steam_total_positive": null,
+  "steam_total_negative": null,
+  "steam_total_reviews": null,
   "price_currency": "KRW",
   "price_current": 7980000,
   "price_original": 7980000,
