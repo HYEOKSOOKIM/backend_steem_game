@@ -13,13 +13,86 @@
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222670/header.jpg?t=1777389601",
   "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222670/capsule_231x87.jpg?t=1777389601",
   "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222670/capsule_184x69.jpg?t=1777389601",
+  "screenshots": [
+    {
+      "id": "0",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222670/ss_537683e5e29c2d6d02c64aa7321dcb26166f7d82.600x338.jpg?t=1777389601",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222670/ss_537683e5e29c2d6d02c64aa7321dcb26166f7d82.1920x1080.jpg?t=1777389601"
+    },
+    {
+      "id": "1",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222670/ss_2fc938d99a1e87893852cb2d2113478190607941.600x338.jpg?t=1777389601",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222670/ss_2fc938d99a1e87893852cb2d2113478190607941.1920x1080.jpg?t=1777389601"
+    },
+    {
+      "id": "2",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222670/ss_b447d6436d2d00cd5e7c170e509b2246dfc879e8.600x338.jpg?t=1777389601",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222670/ss_b447d6436d2d00cd5e7c170e509b2246dfc879e8.1920x1080.jpg?t=1777389601"
+    },
+    {
+      "id": "3",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222670/ss_e1f0ce3ca2c9a538e382cc8b040944fe05af4bb2.600x338.jpg?t=1777389601",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222670/ss_e1f0ce3ca2c9a538e382cc8b040944fe05af4bb2.1920x1080.jpg?t=1777389601"
+    },
+    {
+      "id": "4",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222670/ss_7d9baea1aedeeb41cb197a9e45a30f0b91b4baf9.600x338.jpg?t=1777389601",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222670/ss_7d9baea1aedeeb41cb197a9e45a30f0b91b4baf9.1920x1080.jpg?t=1777389601"
+    }
+  ],
+  "movies": [
+    {
+      "id": "256911304",
+      "name": "Trailer refresh",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256911304/movie.293x165.jpg?t=1666105085",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1222670/505594/b1b46cf5154636489657aa8e6323e4524b55a510/1750644574/hls_264_master.m3u8?t=1666105085",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1222670/505594/b1b46cf5154636489657aa8e6323e4524b55a510/1750644574/dash_h264.mpd?t=1666105085",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1222670/505594/b1b46cf5154636489657aa8e6323e4524b55a510/1750644574/dash_av1.mpd?t=1666105085",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/1222670/505594/b1b46cf5154636489657aa8e6323e4524b55a510/1750644574/hls_264_master.m3u8?t=1666105085"
+    },
+    {
+      "id": "256911362",
+      "name": "How To Play The Sims 4: Create A Sim Mode Starting Guide",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256911362/movie.293x165.jpg?t=1666105095",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1222670/505686/61bb403b52c5b69830099b3fda90ac4724d25ef9/1750644629/hls_264_master.m3u8?t=1666105095",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1222670/505686/61bb403b52c5b69830099b3fda90ac4724d25ef9/1750644629/dash_h264.mpd?t=1666105095",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1222670/505686/61bb403b52c5b69830099b3fda90ac4724d25ef9/1750644629/dash_av1.mpd?t=1666105095",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/1222670/505686/61bb403b52c5b69830099b3fda90ac4724d25ef9/1750644629/hls_264_master.m3u8?t=1666105095"
+    },
+    {
+      "id": "256911352",
+      "name": "How To Play The Sims 4: Starting Build/Buy Mode Guide",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256911352/movie.293x165.jpg?t=1666105090",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1222670/505674/818dcf52c9fc7538cc3fe408c9d6ea5bb514f608/1750644578/hls_264_master.m3u8?t=1666105090",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1222670/505674/818dcf52c9fc7538cc3fe408c9d6ea5bb514f608/1750644578/dash_h264.mpd?t=1666105090",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1222670/505674/818dcf52c9fc7538cc3fe408c9d6ea5bb514f608/1750644578/dash_av1.mpd?t=1666105090",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/1222670/505674/818dcf52c9fc7538cc3fe408c9d6ea5bb514f608/1750644578/hls_264_master.m3u8?t=1666105090"
+    },
+    {
+      "id": "256790450",
+      "name": "Sims 4 Trailer 1",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256790450/movie.293x165.jpg?t=1659687437",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1222670/294289/a8ece42472daa4173fcc366390e5d04fbe34179e/1750644503/hls_264_master.m3u8?t=1659687437",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1222670/294289/a8ece42472daa4173fcc366390e5d04fbe34179e/1750644503/dash_h264.mpd?t=1659687437",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1222670/294289/a8ece42472daa4173fcc366390e5d04fbe34179e/1750644503/dash_av1.mpd?t=1659687437",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/1222670/294289/a8ece42472daa4173fcc366390e5d04fbe34179e/1750644503/hls_264_master.m3u8?t=1659687437"
+    }
+  ],
   "short_description": "아무런 제약 없는 가상 세계에서 심들을 창조하고 지배하는 전능한 힘을 즐기세요. 강력한 권력을 휘두르며 자유롭고 재미있게 인생을 플레이하세요!",
   "steam_store_url": "https://store.steampowered.com/app/1222670",
   "steam_recommendation_count": 82910,
-  "steam_review_score_desc": "Very Positive",
-  "steam_total_positive": 2308,
-  "steam_total_negative": 365,
-  "steam_total_reviews": 2673,
+  "steam_review_score_desc": null,
+  "steam_total_positive": null,
+  "steam_total_negative": null,
+  "steam_total_reviews": null,
   "price_currency": null,
   "price_current": null,
   "price_original": null,

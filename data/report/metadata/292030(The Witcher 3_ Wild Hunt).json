@@ -10,13 +10,140 @@
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ad9240e088f953a84aee814034c50a6a92bf4516/header.jpg?t=1768303991",
   "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/abf6e7b3b01ed20c35a8dc0a009a8f9fc3e57b93/capsule_231x87.jpg?t=1768303991",
   "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/abf6e7b3b01ed20c35a8dc0a009a8f9fc3e57b93/capsule_184x69.jpg?t=1768303991",
+  "screenshots": [
+    {
+      "id": "0",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_5710298af2318afd9aa72449ef29ac4a2ef64d8e.600x338.jpg?t=1768303991",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_5710298af2318afd9aa72449ef29ac4a2ef64d8e.1920x1080.jpg?t=1768303991"
+    },
+    {
+      "id": "1",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_0901e64e9d4b8ebaea8348c194e7a3644d2d832d.600x338.jpg?t=1768303991",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_0901e64e9d4b8ebaea8348c194e7a3644d2d832d.1920x1080.jpg?t=1768303991"
+    },
+    {
+      "id": "2",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_112b1e176c1bd271d8a565eacb6feaf90f240bb2.600x338.jpg?t=1768303991",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_112b1e176c1bd271d8a565eacb6feaf90f240bb2.1920x1080.jpg?t=1768303991"
+    },
+    {
+      "id": "3",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_d1b73b18cbcd5e9e412c7a1dead3c5cd7303d2ad.600x338.jpg?t=1768303991",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_d1b73b18cbcd5e9e412c7a1dead3c5cd7303d2ad.1920x1080.jpg?t=1768303991"
+    },
+    {
+      "id": "4",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_107600c1337accc09104f7a8aa7f275f23cad096.600x338.jpg?t=1768303991",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_107600c1337accc09104f7a8aa7f275f23cad096.1920x1080.jpg?t=1768303991"
+    },
+    {
+      "id": "5",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_64eb760f9a2b67f6731a71cce3a8fb684b9af267.600x338.jpg?t=1768303991",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_64eb760f9a2b67f6731a71cce3a8fb684b9af267.1920x1080.jpg?t=1768303991"
+    },
+    {
+      "id": "6",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_eda99e7f705a113d04ab2a7a36068f3e7b343d17.600x338.jpg?t=1768303991",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_eda99e7f705a113d04ab2a7a36068f3e7b343d17.1920x1080.jpg?t=1768303991"
+    },
+    {
+      "id": "7",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_d5b80eb63c12a6484f26796f3e34410651bba068.600x338.jpg?t=1768303991",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_d5b80eb63c12a6484f26796f3e34410651bba068.1920x1080.jpg?t=1768303991"
+    },
+    {
+      "id": "8",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_b74d60ee215337d765e4d20c8ca6710ae2362cc2.600x338.jpg?t=1768303991",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_b74d60ee215337d765e4d20c8ca6710ae2362cc2.1920x1080.jpg?t=1768303991"
+    },
+    {
+      "id": "9",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_dc55eeb409d6e187456a8e159018e8da098fa468.600x338.jpg?t=1768303991",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_dc55eeb409d6e187456a8e159018e8da098fa468.1920x1080.jpg?t=1768303991"
+    },
+    {
+      "id": "10",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_849ec8dcc6f8df1c0b2c509584c9fc9e51f88cfa.600x338.jpg?t=1768303991",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_849ec8dcc6f8df1c0b2c509584c9fc9e51f88cfa.1920x1080.jpg?t=1768303991"
+    },
+    {
+      "id": "11",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_90a33d7764a2d23306091bfcb52265c3506b4fdb.600x338.jpg?t=1768303991",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_90a33d7764a2d23306091bfcb52265c3506b4fdb.1920x1080.jpg?t=1768303991"
+    },
+    {
+      "id": "12",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_07812c174bb6b96c29895ddc27404143df7aba6d.600x338.jpg?t=1768303991",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_07812c174bb6b96c29895ddc27404143df7aba6d.1920x1080.jpg?t=1768303991"
+    },
+    {
+      "id": "13",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_ed23139c916fdb9f6dd23b2a6a01d0fbd2dd1a4f.600x338.jpg?t=1768303991",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_ed23139c916fdb9f6dd23b2a6a01d0fbd2dd1a4f.1920x1080.jpg?t=1768303991"
+    },
+    {
+      "id": "14",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_dc33eb233555c13fce939ccaac667bc54e3c4a27.600x338.jpg?t=1768303991",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_dc33eb233555c13fce939ccaac667bc54e3c4a27.1920x1080.jpg?t=1768303991"
+    },
+    {
+      "id": "15",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_908485cbb1401b1ebf42e3d21a860ddc53517b08.600x338.jpg?t=1768303991",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_908485cbb1401b1ebf42e3d21a860ddc53517b08.1920x1080.jpg?t=1768303991"
+    },
+    {
+      "id": "16",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_608af6cfe0eab3f37265550b391732a3e88d1a4f.600x338.jpg?t=1768303991",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_608af6cfe0eab3f37265550b391732a3e88d1a4f.1920x1080.jpg?t=1768303991"
+    },
+    {
+      "id": "17",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_8ac1dc847388e59b1be1c5ea5ca592d5861756cc.600x338.jpg?t=1768303991",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_8ac1dc847388e59b1be1c5ea5ca592d5861756cc.1920x1080.jpg?t=1768303991"
+    }
+  ],
+  "movies": [
+    {
+      "id": "256927226",
+      "name": "W3NG PEGI The Witcher 3: Wild Hunt - Geralt and Ciri",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256927226/movie.293x165.jpg?t=1674829926",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/292030/533363/f3f32404cd2382da7d05b8b64d3e6e261afca6d3/1750502468/hls_264_master.m3u8?t=1674829926",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/292030/533363/f3f32404cd2382da7d05b8b64d3e6e261afca6d3/1750502468/dash_h264.mpd?t=1674829926",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/292030/533363/f3f32404cd2382da7d05b8b64d3e6e261afca6d3/1750502468/dash_av1.mpd?t=1674829926",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/292030/533363/f3f32404cd2382da7d05b8b64d3e6e261afca6d3/1750502468/hls_264_master.m3u8?t=1674829926"
+    },
+    {
+      "id": "256920697",
+      "name": "W3NG KO The Witcher 3: Wild Hunt - Reveal",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256920697/movie.293x165.jpg?t=1670976307",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/292030/521337/8767535dd99c5efc9927306da69712bace027c74/1750502348/hls_264_master.m3u8?t=1670976307",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/292030/521337/8767535dd99c5efc9927306da69712bace027c74/1750502348/dash_h264.mpd?t=1670976307",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/292030/521337/8767535dd99c5efc9927306da69712bace027c74/1750502348/dash_av1.mpd?t=1670976307",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/292030/521337/8767535dd99c5efc9927306da69712bace027c74/1750502348/hls_264_master.m3u8?t=1670976307"
+    },
+    {
+      "id": "2039386",
+      "name": "PEGI The Witcher 3: Wild Hunt - Launch Cinematic",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2039386/movie.293x165.jpg?t=1528288460",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/292030/36174/94b7acf6e7aeba94d9c7d05de1897ecafb97d1c0/1750502205/hls_264_master.m3u8?t=1528288460",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/292030/36174/94b7acf6e7aeba94d9c7d05de1897ecafb97d1c0/1750502205/dash_h264.mpd?t=1528288460",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/292030/36174/94b7acf6e7aeba94d9c7d05de1897ecafb97d1c0/1750502205/dash_av1.mpd?t=1528288460",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/292030/36174/94b7acf6e7aeba94d9c7d05de1897ecafb97d1c0/1750502205/hls_264_master.m3u8?t=1528288460"
+    }
+  ],
   "short_description": "리비아의 게롤트가 되어 의뢰를 받고 괴물을 사냥하세요. 전쟁의 상처가 가득하고 괴물이 들끓는 대륙을 마음껏 탐험해 보세요. 지금 가장 중요한 일은 대륙의 판도를 뒤바꿀 수도 있는 살아 있는 무기이자 예언의 아이, 시리를 추적하는 것입니다.",
   "steam_store_url": "https://store.steampowered.com/app/292030",
-  "steam_recommendation_count": 813315,
-  "steam_review_score_desc": "Very Positive",
-  "steam_total_positive": 15696,
-  "steam_total_negative": 949,
-  "steam_total_reviews": 16645,
+  "steam_recommendation_count": 813406,
+  "steam_review_score_desc": null,
+  "steam_total_positive": null,
+  "steam_total_negative": null,
+  "steam_total_reviews": null,
   "price_currency": "KRW",
   "price_current": 696000,
   "price_original": 3480000,

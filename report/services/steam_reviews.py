@@ -142,6 +142,14 @@ def _first_media_url(value: Any) -> str | None:
     return None
 
 
+def _movie_stream_url(item: dict[str, Any]) -> str | None:
+    return (
+        _clean_optional_string(item.get("hls_h264"))
+        or _clean_optional_string(item.get("dash_h264"))
+        or _clean_optional_string(item.get("dash_av1"))
+    )
+
+
 def _normalize_movies(value: Any) -> list[dict[str, str]]:
     if not isinstance(value, list):
         return []
@@ -152,7 +160,8 @@ def _normalize_movies(value: Any) -> list[dict[str, str]]:
             continue
         mp4_url = _first_media_url(item.get("mp4"))
         webm_url = _first_media_url(item.get("webm"))
-        video_url = mp4_url or webm_url
+        stream_url = _movie_stream_url(item)
+        video_url = mp4_url or webm_url or stream_url
         thumbnail = _clean_optional_string(item.get("thumbnail"))
         if not video_url:
             continue
@@ -163,6 +172,9 @@ def _normalize_movies(value: Any) -> list[dict[str, str]]:
                 "thumbnail": thumbnail or "",
                 "mp4": mp4_url or "",
                 "webm": webm_url or "",
+                "hls_h264": _clean_optional_string(item.get("hls_h264")) or "",
+                "dash_h264": _clean_optional_string(item.get("dash_h264")) or "",
+                "dash_av1": _clean_optional_string(item.get("dash_av1")) or "",
                 "url": video_url,
             }
         )

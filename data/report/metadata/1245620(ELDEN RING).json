@@ -11,13 +11,155 @@
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg?t=1767883716",
   "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/capsule_231x87.jpg?t=1767883716",
   "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/capsule_184x69.jpg?t=1767883716",
+  "screenshots": [
+    {
+      "id": "0",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_943bf6fe62352757d9070c1d33e50b92fe8539f1.600x338.jpg?t=1767883716",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_943bf6fe62352757d9070c1d33e50b92fe8539f1.1920x1080.jpg?t=1767883716"
+    },
+    {
+      "id": "1",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_dcdac9e4b26ac0ee5248bfd2967d764fd00cdb42.600x338.jpg?t=1767883716",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_dcdac9e4b26ac0ee5248bfd2967d764fd00cdb42.1920x1080.jpg?t=1767883716"
+    },
+    {
+      "id": "2",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_3c41384a24d86dddd58a8f61db77f9dc0bfda8b5.600x338.jpg?t=1767883716",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_3c41384a24d86dddd58a8f61db77f9dc0bfda8b5.1920x1080.jpg?t=1767883716"
+    },
+    {
+      "id": "3",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_e0316c76f8197405c1312d072b84331dd735d60b.600x338.jpg?t=1767883716",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_e0316c76f8197405c1312d072b84331dd735d60b.1920x1080.jpg?t=1767883716"
+    },
+    {
+      "id": "4",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_ef61b771ee6b269b1f0cb484233e07a0bfb5f81b.600x338.jpg?t=1767883716",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_ef61b771ee6b269b1f0cb484233e07a0bfb5f81b.1920x1080.jpg?t=1767883716"
+    },
+    {
+      "id": "5",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_b1b91299d7e4b94201ac840aa64de54d9f5cb7f3.600x338.jpg?t=1767883716",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_b1b91299d7e4b94201ac840aa64de54d9f5cb7f3.1920x1080.jpg?t=1767883716"
+    },
+    {
+      "id": "6",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_510a02cf3045e841e180f2b77fb87545e0c8b59d.600x338.jpg?t=1767883716",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_510a02cf3045e841e180f2b77fb87545e0c8b59d.1920x1080.jpg?t=1767883716"
+    },
+    {
+      "id": "7",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_c494372930ca791bdc6221eca134f2270fb2cb9f.600x338.jpg?t=1767883716",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_c494372930ca791bdc6221eca134f2270fb2cb9f.1920x1080.jpg?t=1767883716"
+    },
+    {
+      "id": "8",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_fa6b881ef7c30522012ab2b2b83001e79baee093.600x338.jpg?t=1767883716",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_fa6b881ef7c30522012ab2b2b83001e79baee093.1920x1080.jpg?t=1767883716"
+    },
+    {
+      "id": "9",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_c2baf8aada6140beee79d701d14043899e91af47.600x338.jpg?t=1767883716",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_c2baf8aada6140beee79d701d14043899e91af47.1920x1080.jpg?t=1767883716"
+    }
+  ],
+  "movies": [
+    {
+      "id": "256889456",
+      "name": "ELDEN RING Accolades Trailer - UNRATED",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256889456/movie.293x165.jpg?t=1654109241",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1245620/468149/7d588828f80907ca97efdcb1e6ef72b4ce2b1d0d/1750650511/hls_264_master.m3u8?t=1654109241",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1245620/468149/7d588828f80907ca97efdcb1e6ef72b4ce2b1d0d/1750650511/dash_h264.mpd?t=1654109241",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1245620/468149/7d588828f80907ca97efdcb1e6ef72b4ce2b1d0d/1750650511/dash_av1.mpd?t=1654109241",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/1245620/468149/7d588828f80907ca97efdcb1e6ef72b4ce2b1d0d/1750650511/hls_264_master.m3u8?t=1654109241"
+    },
+    {
+      "id": "256864892",
+      "name": "ELDEN RING CGI Trailer - UNRATED",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256864892/movie.293x165.jpg?t=1645830851",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1245620/424517/f822f5670772c128f55bbc01bc41631863b8b95e/1750650310/hls_264_master.m3u8?t=1645830851",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1245620/424517/f822f5670772c128f55bbc01bc41631863b8b95e/1750650310/dash_h264.mpd?t=1645830851",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1245620/424517/f822f5670772c128f55bbc01bc41631863b8b95e/1750650310/dash_av1.mpd?t=1645830851",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/1245620/424517/f822f5670772c128f55bbc01bc41631863b8b95e/1750650310/hls_264_master.m3u8?t=1645830851"
+    },
+    {
+      "id": "256867729",
+      "name": "ELDEN RING CGI Trailer - KR",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256867729/movie.293x165.jpg?t=1645830835",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1245620/429314/54ec506ea53d6a71f7feca985a9bae23e0ff2778/1750650327/hls_264_master.m3u8?t=1645830835",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1245620/429314/54ec506ea53d6a71f7feca985a9bae23e0ff2778/1750650327/dash_h264.mpd?t=1645830835",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1245620/429314/54ec506ea53d6a71f7feca985a9bae23e0ff2778/1750650327/dash_av1.mpd?t=1645830835",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/1245620/429314/54ec506ea53d6a71f7feca985a9bae23e0ff2778/1750650327/hls_264_master.m3u8?t=1645830835"
+    },
+    {
+      "id": "257002650",
+      "name": "ELDEN RING Shadow of the Erdtree - Gameplay Reveal Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257002650/movie.293x165.jpg?t=1709086258",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1245620/665332/4021bcd03e70a49cb23b598f5407b8290152f9e2/1750650652/hls_264_master.m3u8?t=1709086258",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1245620/665332/4021bcd03e70a49cb23b598f5407b8290152f9e2/1750650652/dash_h264.mpd?t=1709086258",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1245620/665332/4021bcd03e70a49cb23b598f5407b8290152f9e2/1750650652/dash_av1.mpd?t=1709086258",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/1245620/665332/4021bcd03e70a49cb23b598f5407b8290152f9e2/1750650652/hls_264_master.m3u8?t=1709086258"
+    },
+    {
+      "id": "256875482",
+      "name": "ELDEN RING Launch Trailer - UNRATED",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256875482/movie.293x165.jpg?t=1645743462",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1245620/442824/a3bab1a4bce2217b8a62606d4d7398cf739a5dab/1750650436/hls_264_master.m3u8?t=1645743462",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1245620/442824/a3bab1a4bce2217b8a62606d4d7398cf739a5dab/1750650436/dash_h264.mpd?t=1645743462",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1245620/442824/a3bab1a4bce2217b8a62606d4d7398cf739a5dab/1750650436/dash_av1.mpd?t=1645743462",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/1245620/442824/a3bab1a4bce2217b8a62606d4d7398cf739a5dab/1750650436/hls_264_master.m3u8?t=1645743462"
+    },
+    {
+      "id": "256859589",
+      "name": "ELDEN RING Pre-order Trailer - KR",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256859589/movie.293x165.jpg?t=1636416078",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1245620/415505/6e6c068213cd2b10fb83343ba4493b8c53191b32/1750650007/hls_264_master.m3u8?t=1636416078",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1245620/415505/6e6c068213cd2b10fb83343ba4493b8c53191b32/1750650007/dash_h264.mpd?t=1636416078",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1245620/415505/6e6c068213cd2b10fb83343ba4493b8c53191b32/1750650007/dash_av1.mpd?t=1636416078",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/1245620/415505/6e6c068213cd2b10fb83343ba4493b8c53191b32/1750650007/hls_264_master.m3u8?t=1636416078"
+    },
+    {
+      "id": "256859891",
+      "name": "ELDEN RING Pre-order Trailer - UNRATED",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256859891/movie.293x165.jpg?t=1636588786",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1245620/416118/ce15527e1fffe3a8621d3cf2e86bdffc9b40895f/1750650039/hls_264_master.m3u8?t=1636588786",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1245620/416118/ce15527e1fffe3a8621d3cf2e86bdffc9b40895f/1750650039/dash_h264.mpd?t=1636588786",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1245620/416118/ce15527e1fffe3a8621d3cf2e86bdffc9b40895f/1750650039/dash_av1.mpd?t=1636588786",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/1245620/416118/ce15527e1fffe3a8621d3cf2e86bdffc9b40895f/1750650039/hls_264_master.m3u8?t=1636588786"
+    },
+    {
+      "id": "256845752",
+      "name": "ELDEN RING Official Gameplay Trailer - KR",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256845752/movie.293x165.jpg?t=1631546981",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1245620/390734/322b63eeb559ab4ac74c3d57a1ea37aa1e59ef4c/1750649975/hls_264_master.m3u8?t=1631546981",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1245620/390734/322b63eeb559ab4ac74c3d57a1ea37aa1e59ef4c/1750649975/dash_h264.mpd?t=1631546981",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1245620/390734/322b63eeb559ab4ac74c3d57a1ea37aa1e59ef4c/1750649975/dash_av1.mpd?t=1631546981",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/1245620/390734/322b63eeb559ab4ac74c3d57a1ea37aa1e59ef4c/1750649975/hls_264_master.m3u8?t=1631546981"
+    }
+  ],
   "short_description": "본 게임은 본격적인 다크 판타지 세계를 무대로 한 액션 RPG입니다. 드넓은 필드와 던전 탐험을 통해 미지의 것들을 발견해 보세요. 앞길을 막아서는 난관과 그것을 극복했을 때의 달성감, 그리고 등장인물들의 의도가 교착하는 군상극도 즐기실 수 있습니다.",
   "steam_store_url": "https://store.steampowered.com/app/1245620",
-  "steam_recommendation_count": 814560,
-  "steam_review_score_desc": "Very Positive",
-  "steam_total_positive": 25066,
-  "steam_total_negative": 2382,
-  "steam_total_reviews": 27448,
+  "steam_recommendation_count": 814664,
+  "steam_review_score_desc": null,
+  "steam_total_positive": null,
+  "steam_total_negative": null,
+  "steam_total_reviews": null,
   "price_currency": "KRW",
   "price_current": 6480000,
   "price_original": 6480000,

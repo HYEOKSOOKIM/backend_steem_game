@@ -11,13 +11,95 @@
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1147560/header.jpg?t=1774420210",
   "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1147560/capsule_231x87.jpg?t=1774420210",
   "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1147560/capsule_184x69.jpg?t=1774420210",
+  "screenshots": [
+    {
+      "id": "0",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1147560/ss_b5ed9f9f5c95df4e168107d024cd4107bc2223e3.600x338.jpg?t=1774420210",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1147560/ss_b5ed9f9f5c95df4e168107d024cd4107bc2223e3.1920x1080.jpg?t=1774420210"
+    },
+    {
+      "id": "1",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1147560/ss_4d085911571f127e48dc392c0db50d97e810fb39.600x338.jpg?t=1774420210",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1147560/ss_4d085911571f127e48dc392c0db50d97e810fb39.1920x1080.jpg?t=1774420210"
+    },
+    {
+      "id": "2",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1147560/ss_119845ea870bb04a8c75abbef135f6a21cc0687c.600x338.jpg?t=1774420210",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1147560/ss_119845ea870bb04a8c75abbef135f6a21cc0687c.1920x1080.jpg?t=1774420210"
+    },
+    {
+      "id": "3",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1147560/ss_44eae43480fa6d9c350bf6d1100e6d8dc911d8ee.600x338.jpg?t=1774420210",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1147560/ss_44eae43480fa6d9c350bf6d1100e6d8dc911d8ee.1920x1080.jpg?t=1774420210"
+    },
+    {
+      "id": "4",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1147560/ss_c29cf7bfb3dfc5dd7ca0428f92c12a68c8c632cb.600x338.jpg?t=1774420210",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1147560/ss_c29cf7bfb3dfc5dd7ca0428f92c12a68c8c632cb.1920x1080.jpg?t=1774420210"
+    },
+    {
+      "id": "5",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1147560/ss_0fdb27a3333b7c2acdd7803394c9b3237ec7894b.600x338.jpg?t=1774420210",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1147560/ss_0fdb27a3333b7c2acdd7803394c9b3237ec7894b.1920x1080.jpg?t=1774420210"
+    },
+    {
+      "id": "6",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1147560/ss_8e5a7aa752779386252ff5b7f45ed86f9cac07d7.600x338.jpg?t=1774420210",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1147560/ss_8e5a7aa752779386252ff5b7f45ed86f9cac07d7.1920x1080.jpg?t=1774420210"
+    },
+    {
+      "id": "7",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1147560/ss_eb69096a8d5b1febdf0b0374e1ce513c2b3549d9.600x338.jpg?t=1774420210",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1147560/ss_eb69096a8d5b1febdf0b0374e1ce513c2b3549d9.1920x1080.jpg?t=1774420210"
+    },
+    {
+      "id": "8",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1147560/ss_43e7cf01e7f6066fadf8bd725aa437311820a755.600x338.jpg?t=1774420210",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1147560/ss_43e7cf01e7f6066fadf8bd725aa437311820a755.1920x1080.jpg?t=1774420210"
+    }
+  ],
+  "movies": [
+    {
+      "id": "256982920",
+      "name": "Skul Demon King Castle Defense",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256982920/movie.293x165.jpg?t=1700104657",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1147560/630279/11c7e1f8ebae4ab896ddde8c3338625ac03bf74b/1750628230/hls_264_master.m3u8?t=1700104657",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1147560/630279/11c7e1f8ebae4ab896ddde8c3338625ac03bf74b/1750628230/dash_h264.mpd?t=1700104657",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1147560/630279/11c7e1f8ebae4ab896ddde8c3338625ac03bf74b/1750628230/dash_av1.mpd?t=1700104657",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/1147560/630279/11c7e1f8ebae4ab896ddde8c3338625ac03bf74b/1750628230/hls_264_master.m3u8?t=1700104657"
+    },
+    {
+      "id": "256924565",
+      "name": "Skul Dark Mirror Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256924565/movie.293x165.jpg?t=1681111491",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1147560/528287/6101fd6fa1a3705bbbd00c2b542bf7c2603a6f4e/1750628229/hls_264_master.m3u8?t=1681111491",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1147560/528287/6101fd6fa1a3705bbbd00c2b542bf7c2603a6f4e/1750628229/dash_h264.mpd?t=1681111491",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1147560/528287/6101fd6fa1a3705bbbd00c2b542bf7c2603a6f4e/1750628229/dash_av1.mpd?t=1681111491",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/1147560/528287/6101fd6fa1a3705bbbd00c2b542bf7c2603a6f4e/1750628229/hls_264_master.m3u8?t=1681111491"
+    },
+    {
+      "id": "256818846",
+      "name": "Skul 1.0 Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256818846/movie.293x165.jpg?t=1611132068",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1147560/341741/a8a3ac420aa2df0b12063e5e01b6e9ad42105c9c/1750628146/hls_264_master.m3u8?t=1611132068",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1147560/341741/a8a3ac420aa2df0b12063e5e01b6e9ad42105c9c/1750628146/dash_h264.mpd?t=1611132068",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1147560/341741/a8a3ac420aa2df0b12063e5e01b6e9ad42105c9c/1750628146/dash_av1.mpd?t=1611132068",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/1147560/341741/a8a3ac420aa2df0b12063e5e01b6e9ad42105c9c/1750628146/hls_264_master.m3u8?t=1611132068"
+    }
+  ],
   "short_description": "Skul: The Hero Slayer는 2D 로그라이트 액션 플랫포머 게임입니다. 마왕성 경비를 맡고있는 꼬마 스켈레톤 '스컬'은 인간들에게 붙잡혀간 마왕을 구하기 위해 용사와 모험가 그리고 제국군에 홀로 맞서 싸우기 시작합니다.",
   "steam_store_url": "https://store.steampowered.com/app/1147560",
-  "steam_recommendation_count": 50283,
-  "steam_review_score_desc": "Overwhelmingly Positive",
-  "steam_total_positive": 13840,
-  "steam_total_negative": 660,
-  "steam_total_reviews": 14500,
+  "steam_recommendation_count": 50290,
+  "steam_review_score_desc": null,
+  "steam_total_positive": null,
+  "steam_total_negative": null,
+  "steam_total_reviews": null,
   "price_currency": "KRW",
   "price_current": 1025000,
   "price_original": 2050000,
