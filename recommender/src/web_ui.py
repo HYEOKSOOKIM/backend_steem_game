@@ -38,6 +38,9 @@ _CATEGORY_ALIAS = {
     "f2p": {"free to play"},
 }
 _KO_RE = re.compile(r"[가-힣]")
+_NEG_REASON_RE = re.compile(
+    r"(부합하지 않|적합하지 않|추천하지 않|추천하기 어렵|추천하기 힘들|추천하기 힘듭|비추천|맞지 않|유사하지 않|비슷하지 않)"
+)
 
 
 def _clip_evidence(text: str, max_chars: int = 220) -> str:
@@ -49,6 +52,25 @@ def _clip_evidence(text: str, max_chars: int = 220) -> str:
 
 def _contains_korean(text: str) -> bool:
     return bool(_KO_RE.search(text or ""))
+
+
+def _ensure_polite_ko(text: str) -> str:
+    t = re.sub(r"\s+", " ", str(text or "")).strip()
+    if not t:
+        return ""
+    # If sentence already ends politely, keep it.
+    if re.search(r"(습니다|입니다|요)[.!?]?$", t):
+        return t
+    # Mild normalization for common casual endings.
+    t = re.sub(r"해줘[.!?]?$", "해 주세요.", t)
+    t = re.sub(r"할게[.!?]?$", "하겠습니다.", t)
+    t = re.sub(r"좋아[.!?]?$", "좋습니다.", t)
+    # If still not polite, append a polite ending.
+    if not re.search(r"(습니다|입니다|요)[.!?]?$", t):
+        if t.endswith("."):
+            t = t[:-1]
+        t = t + "입니다."
+    return t
 
 
 def _normalize_categories(genres: list[str], evidence_texts: list[str]) -> list[str]:
@@ -64,19 +86,21 @@ def _normalize_categories(genres: list[str], evidence_texts: list[str]) -> list[
 
 def _reason_from_item(item: dict) -> str:
     if item.get("reason_ko"):
-        return str(item.get("reason_ko", "")).strip()
+        reason = str(item.get("reason_ko", "")).strip()
+        if reason and not _NEG_REASON_RE.search(reason):
+            return _ensure_polite_ko(reason)
     evidence = item.get("evidence_summaries_ko") or item.get("evidence_reviews") or []
     if evidence:
         ko_candidates = [str(x) for x in evidence if _contains_korean(str(x))]
         line = str((ko_candidates[0] if ko_candidates else evidence[0]))
         line = _clip_evidence(line, max_chars=140)
-        return f"리뷰 근거: {line}"
+        return _ensure_polite_ko(f"리뷰 근거: {line}")
     conf = confidence_to_ko(item.get("confidence", "unknown"))
     pos = float(item.get("positive_ratio_1y", 0.0))
     pos_pct = int(round(pos * 100))
     recent = int(item.get("recent_review_count", 0))
     pt = int(float(item.get("median_playtime_1y", 0.0)))
-    return (
+    return _ensure_polite_ko(
         f"최근 리뷰 {recent}개 기준 추천 확신도는 '{conf}'이며, 최근 만족도는 약 {pos_pct}%입니다. "
         f"평균 플레이 시간은 약 {pt}분으로 실제 플레이 패턴이 반영된 추천입니다."
     )
@@ -108,7 +132,7 @@ def _prepare_result_payload(result: dict, query: str, top_k: int) -> dict:
                 "confidence_ko": confidence_to_ko(item.get("confidence", "unknown")),
                 "korean_support": dict(item.get("korean_support") or {}),
                 "reason_ko": _reason_from_item(item),
-                "one_liner_ko": str(item.get("one_liner_ko") or "").strip(),
+                "one_liner_ko": _ensure_polite_ko(str(item.get("one_liner_ko") or "").strip()),
                 "evidence_ko": evidence_ko,
                 "steam_url": str(item.get("steam_url") or f"https://store.steampowered.com/app/{app_id}/"),
                 "image_url": str(
@@ -195,8 +219,8 @@ def _page(initial_query: str, initial_top_k: int) -> bytes:
         "      cursor: pointer;\n"
         "    }\n"
         "    button:disabled { opacity: 0.75; cursor: wait; }\n"
-        "    .search-status { margin-top: 10px; color: #115e59; font-size: 13px; min-height: 18px; }\n"
-        "    .meta { color: var(--muted); font-size: 13px; }\n"
+        "    .search-status { margin-top: 10px; color: #115e59; font-size: 17px; font-weight: 600; min-height: 24px; }\n"
+        "    .meta { color: var(--muted); font-size: 14px; }\n"
         "    .pill {\n"
         "      display: inline-block;\n"
         "      font-size: 12px;\n"
