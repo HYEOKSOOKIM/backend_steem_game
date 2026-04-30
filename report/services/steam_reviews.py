@@ -95,6 +95,8 @@ def normalize_steam_game_metadata(appid: int, payload: dict[str, Any]) -> GameMe
         header_image=_clean_optional_string(app_data.get("header_image")),
         capsule_image=_clean_optional_string(app_data.get("capsule_image")),
         capsule_imagev5=_clean_optional_string(app_data.get("capsule_imagev5")),
+        screenshots=_normalize_screenshots(app_data.get("screenshots")),
+        movies=_normalize_movies(app_data.get("movies")),
         short_description=_clean_optional_string(app_data.get("short_description")),
         steam_store_url=f"https://store.steampowered.com/app/{appid}",
         steam_recommendation_count=_safe_int(recommendations.get("total")),
@@ -107,6 +109,64 @@ def normalize_steam_game_metadata(appid: int, payload: dict[str, Any]) -> GameMe
 def _clean_optional_string(value: Any) -> str | None:
     text = str(value or "").strip()
     return text or None
+
+
+def _normalize_screenshots(value: Any) -> list[dict[str, str]]:
+    if not isinstance(value, list):
+        return []
+
+    screenshots: list[dict[str, str]] = []
+    for index, item in enumerate(value):
+        if not isinstance(item, dict):
+            continue
+        full = _clean_optional_string(item.get("path_full"))
+        thumbnail = _clean_optional_string(item.get("path_thumbnail")) or full
+        if not full and not thumbnail:
+            continue
+        screenshots.append(
+            {
+                "id": str(item.get("id", index)),
+                "thumbnail": thumbnail or "",
+                "full": full or thumbnail or "",
+            }
+        )
+    return screenshots
+
+
+def _first_media_url(value: Any) -> str | None:
+    if isinstance(value, dict):
+        return (
+            _clean_optional_string(value.get("max"))
+            or _clean_optional_string(value.get("480"))
+        )
+    return None
+
+
+def _normalize_movies(value: Any) -> list[dict[str, str]]:
+    if not isinstance(value, list):
+        return []
+
+    movies: list[dict[str, str]] = []
+    for index, item in enumerate(value):
+        if not isinstance(item, dict):
+            continue
+        mp4_url = _first_media_url(item.get("mp4"))
+        webm_url = _first_media_url(item.get("webm"))
+        video_url = mp4_url or webm_url
+        thumbnail = _clean_optional_string(item.get("thumbnail"))
+        if not video_url:
+            continue
+        movies.append(
+            {
+                "id": str(item.get("id", index)),
+                "name": _clean_optional_string(item.get("name")) or "트레일러",
+                "thumbnail": thumbnail or "",
+                "mp4": mp4_url or "",
+                "webm": webm_url or "",
+                "url": video_url,
+            }
+        )
+    return movies
 
 
 def fetch_steam_reviews(
