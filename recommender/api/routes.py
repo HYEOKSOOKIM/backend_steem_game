@@ -55,6 +55,7 @@ if APIRouter is not None:
         disliked_games: list[str] = []
         liked_app_ids: list[int] = []
         disliked_app_ids: list[int] = []
+        require_korean_support: bool = False
 
     class PreferenceRecommendRequest(BaseModel):
         liked_games: list[str]
@@ -163,6 +164,7 @@ if APIRouter is not None:
                 liked_app_ids=sorted(liked_app_ids_set),
                 disliked_app_ids=sorted(disliked_app_ids_set),
                 preference_weight=0.10,
+                require_korean_support=bool(req.require_korean_support),
             )
             payload = _prepare_result_payload(result, query=req.query, top_k=req.top_k)
 
@@ -186,6 +188,7 @@ if APIRouter is not None:
                 "reference_game": result.get("reference_game"),
                 "similar_to_fallback": result.get("similar_to_fallback"),
                 "parsed_query": result.get("parsed_query"),
+                "require_korean_support": bool(req.require_korean_support),
                 "excluded_app_ids": sorted(exclude_app_ids),
                 "played_resolved": played_resolved,
                 "played_unresolved": played_unresolved,
