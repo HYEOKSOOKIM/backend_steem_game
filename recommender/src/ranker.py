@@ -594,7 +594,7 @@ def _fetch_query_relevant_evidence(
     limit: int = 5,
     pool_limit: int = 160,
 ):
-    rows = conn.execute(
+    rows_ko = conn.execute(
         """
         SELECT cleaned_text, trust_label, votes_up, voted_up, playtime_forever, review_date, embedding
         FROM reviews
@@ -604,11 +604,39 @@ def _fetch_query_relevant_evidence(
           AND trust_label IN ('high', 'medium')
           AND voted_up = 1
           AND embedding IS NOT NULL
+          AND LOWER(COALESCE(language, '')) IN ('korean', 'koreana')
         ORDER BY review_date DESC
         LIMIT ?
         """,
         (app_id, pool_limit),
     ).fetchall()
+    rows = list(rows_ko)
+    if len(rows) < limit:
+        # Fallback: top up from all languages when Korean evidence is insufficient.
+        rows_all = conn.execute(
+            """
+            SELECT cleaned_text, trust_label, votes_up, voted_up, playtime_forever, review_date, embedding
+            FROM reviews
+            WHERE app_id = ?
+              AND cleaned_text IS NOT NULL
+              AND cleaned_text != ''
+              AND trust_label IN ('high', 'medium')
+              AND voted_up = 1
+              AND embedding IS NOT NULL
+            ORDER BY review_date DESC
+            LIMIT ?
+            """,
+            (app_id, pool_limit),
+        ).fetchall()
+        seen: set[str] = {str(r["cleaned_text"] or "") for r in rows}
+        for r in rows_all:
+            txt = str(r["cleaned_text"] or "")
+            if not txt or txt in seen:
+                continue
+            rows.append(r)
+            seen.add(txt)
+            if len(rows) >= pool_limit:
+                break
 
     scored = []
     for row in rows:
@@ -651,7 +679,7 @@ def _fetch_negative_evidence(
     limit: int = 2,
     pool_limit: int = 100,
 ):
-    rows = conn.execute(
+    rows_ko = conn.execute(
         """
         SELECT cleaned_text, trust_label, votes_up, review_date
         FROM reviews
@@ -659,11 +687,36 @@ def _fetch_negative_evidence(
           AND cleaned_text IS NOT NULL
           AND cleaned_text != ''
           AND voted_up = 0
+          AND LOWER(COALESCE(language, '')) IN ('korean', 'koreana')
         ORDER BY review_date DESC
         LIMIT ?
         """,
         (app_id, pool_limit),
     ).fetchall()
+    rows = list(rows_ko)
+    if len(rows) < limit:
+        rows_all = conn.execute(
+            """
+            SELECT cleaned_text, trust_label, votes_up, review_date
+            FROM reviews
+            WHERE app_id = ?
+              AND cleaned_text IS NOT NULL
+              AND cleaned_text != ''
+              AND voted_up = 0
+            ORDER BY review_date DESC
+            LIMIT ?
+            """,
+            (app_id, pool_limit),
+        ).fetchall()
+        seen: set[str] = {str(r["cleaned_text"] or "") for r in rows}
+        for r in rows_all:
+            txt = str(r["cleaned_text"] or "")
+            if not txt or txt in seen:
+                continue
+            rows.append(r)
+            seen.add(txt)
+            if len(rows) >= pool_limit:
+                break
 
     scored = []
     for row in rows:
@@ -787,6 +840,22 @@ def _query_alignment_score(
         if t in joined or t in genre_text or t in tags_text:
             hits += 1
     return min(hits / max(len(query_terms), 1), 1.0)
+
+
+def _constraint_match_score(
+    query_terms: list[str], genres: list[str], tags: list[str], evidence_texts: list[str]
+) -> float:
+    if not query_terms:
+        return 0.0
+    joined = (" ".join((genres or []) + (tags or []) + (evidence_texts or []))).lower()
+    hits = 0
+    for t in query_terms:
+        tt = (t or "").strip().lower()
+        if len(tt) < 2:
+            continue
+        if tt in joined:
+            hits += 1
+    return min(1.0, hits / max(3, len(query_terms)))
 
 
 def _confidence_label(recent_count: int, median_playtime: float, evidence_count: int) -> str:
@@ -1039,6 +1108,7 @@ def recommend_games(
         return _fail_result("input_normalization_failed: normalized_query is empty")
 
     query_terms = _extract_query_terms(effective_query)
+    has_reference_intent = bool(_extract_reference_game_hint(query))
 
     if llm is not None:
         if llm_parsed_payload is None:
@@ -1307,6 +1377,9 @@ def recommend_games(
                     "median_playtime_1y": round(c.median_playtime_1y, 1),
                     "preferred_genre_hits": pref_hits,
                     "query_alignment_score": round(alignment, 4),
+                    "constraint_match_score": round(
+                        _constraint_match_score(query_terms, c.genres, c.tags, evidence_texts), 4
+                    ),
                     "soft_match_count": _soft_match_count(evidence_texts, parsed.soft_preferences),
                     "multiplayer_signal": multiplayer_signal,
                     "hidden_gem_score": round(
@@ -1403,6 +1476,18 @@ def recommend_games(
                 if isinstance(disliked_centroid, np.ndarray):
                     pref_signal -= float(np.dot(row_vec, disliked_centroid))
                 x["final_score"] = float(x["final_score"]) + (pref_weight * pref_signal)
+
+        complex_query = has_reference_intent and len(query_terms) >= 2
+        if reranked and complex_query:
+            for x in reranked:
+                align = float(x.get("query_alignment_score") or 0.0)
+                c_match = float(x.get("constraint_match_score") or 0.0)
+                sim = float(x.get("similarity") or 0.0)
+                if align <= 0.0:
+                    x["final_score"] = float(x["final_score"]) - 0.20
+                if c_match <= 0.0:
+                    x["final_score"] = float(x["final_score"]) - 0.12
+                x["final_score"] = float(x["final_score"]) + (0.10 * sim)
     _stamp("retrieval_rank_ms", t_retrieval)
 
     diverse = _select_diverse_results(reranked, top_k=max(top_k * 3, top_k), diversity_weight=0.22)
