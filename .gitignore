@@ -32,3 +32,8 @@ data/recommender/chroma/
 data/recommender/chroma_v2/
 data/recommender/chroma_backup_*/
 data/recommender/recommender_eval/
+
+# local deploy bundles / archives
+deploy_bundle*/
+deploy_bundle*.zip
+*.zip
