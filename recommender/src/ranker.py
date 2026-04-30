@@ -1058,6 +1058,30 @@ def _sanitize_reason_ko(reason: str, fallback_summaries: list[str] | None = None
     return "질문과 맞는 플레이 특성이 확인되어 추천했습니다."
 
 
+def _sanitize_one_liner_ko(text: str, fallback_reason: str) -> str:
+    line = re.sub(r"\s+", " ", str(text or "")).strip()
+    if not line:
+        return ""
+    banned_markers = [
+        "부합하지 않",
+        "적합하지 않",
+        "추천하지 않",
+        "추천하기 어렵",
+        "추천하기 힘들",
+        "추천하기 힘듭",
+        "비추천",
+        "맞지 않",
+        "유사하지 않",
+        "비슷하지 않",
+    ]
+    if any(m in line for m in banned_markers):
+        reason = re.sub(r"\s+", " ", str(fallback_reason or "")).strip()
+        if reason:
+            return reason
+        return "질문과 맞는 요소를 기준으로 추천했습니다."
+    return line
+
+
 def recommend_games(
     db_path: Path,
     query: str,
@@ -1575,12 +1599,13 @@ def recommend_games(
 
             item["evidence_summaries_ko"] = summaries
             item["reason_ko"] = reason
-            item["one_liner_ko"] = local_llm.generate_one_liner_ko(
+            raw_one_liner = local_llm.generate_one_liner_ko(
                 query=effective_query,
                 game_name=item.get("name", ""),
                 reason_ko=reason,
                 caution_notes=list(item.get("caution_notes", []) or []),
             )
+            item["one_liner_ko"] = _sanitize_one_liner_ko(raw_one_liner, reason)
             return idx, item, list(local_llm.errors)
 
         indexed_rows = list(enumerate(diverse))
