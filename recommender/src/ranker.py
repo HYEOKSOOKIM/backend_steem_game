@@ -1289,6 +1289,10 @@ def recommend_games(
                 parsed.preferred_genres, c.genres, c.tags, evidence_texts
             )
             alignment = _query_alignment_score(query_terms, c.genres, c.tags, evidence_texts)
+            support_for_game = support_map.get(
+                int(c.app_id),
+                {"interface": None, "subtitles": None, "audio": None, "known": False},
+            )
             reranked.append(
                 {
                     "app_id": c.app_id,
@@ -1316,7 +1320,7 @@ def recommend_games(
                     "confidence": _confidence_label(
                         c.recent_review_count, c.median_playtime_1y, len(evidence_texts)
                     ),
-                    "korean_support": support,
+                    "korean_support": support_for_game,
                     "evidence_reviews": evidence_texts[:5],
                     "_vector": vector_by_app_id.get(c.app_id),
                 }
