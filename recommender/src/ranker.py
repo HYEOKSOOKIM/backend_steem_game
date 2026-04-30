@@ -1012,7 +1012,6 @@ def _reason_has_contradiction(reason_ko: str, parsed: ParsedQuery) -> bool:
             "비추천",
             "적합하지 않",
             "맞지 않",
-            "장르가 다르",
             "유사하지 않",
             "비슷하지 않",
         ]
@@ -1026,6 +1025,37 @@ def _reason_has_contradiction(reason_ko: str, parsed: ParsedQuery) -> bool:
         if len(t) >= 2 and t in text:
             return True
     return False
+
+
+def _sanitize_reason_ko(reason: str, fallback_summaries: list[str] | None = None) -> str:
+    text = re.sub(r"\s+", " ", str(reason or "")).strip()
+    if not text:
+        return ""
+
+    banned_markers = [
+        "부합하지 않",
+        "적합하지 않",
+        "추천하지 않",
+        "추천하기 어렵",
+        "추천하기 힘들",
+        "추천하기 힘듭",
+        "비추천",
+        "맞지 않",
+        "유사하지 않",
+        "비슷하지 않",
+    ]
+    # Drop sentence chunks that contain hard-negative recommendation markers.
+    parts = [p.strip() for p in re.split(r"(?<=[.!?])\s+|(?<=[。！？])\s*", text) if p.strip()]
+    kept = [p for p in parts if not any(m in p for m in banned_markers)]
+    cleaned = " ".join(kept).strip()
+
+    if cleaned:
+        return cleaned
+    # If everything was filtered, fall back to evidence summary-driven neutral reason.
+    sums = [str(x).strip() for x in (fallback_summaries or []) if str(x).strip()]
+    if sums:
+        return f"{sums[0]} 이 특성이 질문 의도와 맞아 추천했습니다."
+    return "질문과 맞는 플레이 특성이 확인되어 추천했습니다."
 
 
 def recommend_games(
@@ -1536,7 +1566,10 @@ def recommend_games(
                 reviews=item.get("evidence_reviews", []),
             )
             summaries = list(combined.get("summaries", []))
-            reason = str(combined.get("reason", "")).strip()
+            reason = _sanitize_reason_ko(
+                str(combined.get("reason", "")).strip(),
+                fallback_summaries=summaries,
+            )
             if reason and _reason_has_contradiction(reason, parsed):
                 return idx, None, list(local_llm.errors)
 
