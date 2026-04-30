@@ -16,6 +16,7 @@ from sentence_transformers import SentenceTransformer
 
 from .chroma_store import query_profiles_from_chroma
 from .db import get_connection
+from .game_aliases import lookup_alias_app_ids
 from .llm_openai import OpenAILLM
 from .query_parser import ParsedQuery, parse_query, sanitize_user_query
 
@@ -140,7 +141,9 @@ class Candidate:
 def _extract_reference_game_hint(query: str) -> str:
     q = re.sub(r"\s+", " ", (query or "").strip())
     patterns = [
-        r"(.+?)\s*(?:같은|비슷한|유사한|닮은)\s*(?:게임)?",
+        r"(.+?)\s*(?:같은|비슷한|유사한|닮은)\s*(?:거|것|스타일|느낌|계열|류|겜|게임)?",
+        r"(.+?)\s*(?:이랑|랑)\s*(?:비슷한|닮은)\s*(?:거|것|스타일|느낌|계열|류|겜|게임)?",
+        r"(.+?)\s*(?:느낌|스타일|계열|류)\s*(?:의)?\s*(?:게임)?",
         r"(.+?)\s*(?:like|similar to)\s*",
     ]
     for pat in patterns:
@@ -402,6 +405,32 @@ def _resolve_reference_game(
 ) -> tuple[int, str] | None:
     candidates = [hint] + [h for h in (extra_hints or []) if h]
     seen: set[str] = set()
+
+    # 0) Alias dictionary (Korean shorthand / typos / nicknames).
+    for h in candidates:
+        h = (h or "").strip()
+        if not h:
+            continue
+        alias_ids = lookup_alias_app_ids(h)
+        if not alias_ids:
+            continue
+        placeholders = ",".join("?" for _ in alias_ids)
+        rows = conn.execute(
+            f"""
+            SELECT g.app_id, COALESCE(NULLIF(g.name_ko, ''), NULLIF(g.name_en, ''), g.name) AS name
+            FROM games g
+            JOIN game_profiles p ON p.app_id = g.app_id
+            WHERE g.app_id IN ({placeholders})
+            LIMIT 20
+            """,
+            tuple(int(x) for x in alias_ids),
+        ).fetchall()
+        if rows:
+            # Keep stable order by alias file ordering.
+            by_id = {int(r["app_id"]): str(r["name"] or "") for r in rows}
+            for app_id in alias_ids:
+                if int(app_id) in by_id:
+                    return int(app_id), by_id[int(app_id)]
 
     # 1) Lexical matching across primary hint + LLM-generated aliases.
     for h in candidates:
