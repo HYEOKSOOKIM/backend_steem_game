@@ -51,6 +51,11 @@ if APIRouter is not None:
         top_k: int = 5
         played_games: list[str] = []
         played_app_ids: list[int] = []
+        liked_games: list[str] = []
+        disliked_games: list[str] = []
+        liked_app_ids: list[int] = []
+        disliked_app_ids: list[int] = []
+        require_korean_support: bool = False
 
     class PreferenceRecommendRequest(BaseModel):
         liked_games: list[str]
@@ -112,12 +117,42 @@ if APIRouter is not None:
             }
             played_resolved: list[dict[str, Any]] = []
             played_unresolved: list[str] = []
+            liked_resolved: list[dict[str, Any]] = []
+            liked_unresolved: list[str] = []
+            disliked_resolved: list[dict[str, Any]] = []
+            disliked_unresolved: list[str] = []
             if req.played_games:
                 with get_connection(_resolve_db_path(), readonly=True) as conn:
                     resolved, unresolved = _resolve_games(conn, list(req.played_games or []))
                 exclude_app_ids.update(int(x.app_id) for x in resolved)
                 played_resolved = [{"app_id": int(x.app_id), "name": str(x.name)} for x in resolved]
                 played_unresolved = [str(x) for x in unresolved]
+
+            liked_app_ids_set: set[int] = {
+                int(x)
+                for x in list(req.liked_app_ids or [])
+                if str(x).strip().isdigit()
+            }
+            disliked_app_ids_set: set[int] = {
+                int(x)
+                for x in list(req.disliked_app_ids or [])
+                if str(x).strip().isdigit()
+            }
+            with get_connection(_resolve_db_path(), readonly=True) as conn:
+                if req.liked_games:
+                    resolved, unresolved = _resolve_games(conn, list(req.liked_games or []))
+                    liked_app_ids_set.update(int(x.app_id) for x in resolved)
+                    liked_resolved = [{"app_id": int(x.app_id), "name": str(x.name)} for x in resolved]
+                    liked_unresolved = [str(x) for x in unresolved]
+                if req.disliked_games:
+                    resolved, unresolved = _resolve_games(conn, list(req.disliked_games or []))
+                    disliked_app_ids_set.update(int(x.app_id) for x in resolved)
+                    disliked_resolved = [{"app_id": int(x.app_id), "name": str(x.name)} for x in resolved]
+                    disliked_unresolved = [str(x) for x in unresolved]
+
+            # Always exclude all user-input games from recommendations.
+            exclude_app_ids.update(liked_app_ids_set)
+            exclude_app_ids.update(disliked_app_ids_set)
 
             result = recommend_games(
                 db_path=_resolve_db_path(),
@@ -126,6 +161,10 @@ if APIRouter is not None:
                 openai_api_key=settings.openai_api_key,
                 openai_model=settings.openai_model,
                 exclude_app_ids=sorted(exclude_app_ids),
+                liked_app_ids=sorted(liked_app_ids_set),
+                disliked_app_ids=sorted(disliked_app_ids_set),
+                preference_weight=0.10,
+                require_korean_support=bool(req.require_korean_support),
             )
             payload = _prepare_result_payload(result, query=req.query, top_k=req.top_k)
 
@@ -149,9 +188,14 @@ if APIRouter is not None:
                 "reference_game": result.get("reference_game"),
                 "similar_to_fallback": result.get("similar_to_fallback"),
                 "parsed_query": result.get("parsed_query"),
+                "require_korean_support": bool(req.require_korean_support),
                 "excluded_app_ids": sorted(exclude_app_ids),
                 "played_resolved": played_resolved,
                 "played_unresolved": played_unresolved,
+                "liked_resolved": liked_resolved,
+                "liked_unresolved": liked_unresolved,
+                "disliked_resolved": disliked_resolved,
+                "disliked_unresolved": disliked_unresolved,
                 "perf": result.get("perf") or {},
                 "route_total_ms": round((time.perf_counter() - route_start) * 1000.0, 2),
                 "generated_at": result.get("generated_at"),

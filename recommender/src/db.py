@@ -10,6 +10,9 @@ CREATE TABLE IF NOT EXISTS games (
   name TEXT NOT NULL,
   name_en TEXT,
   name_ko TEXT,
+  korean_interface INTEGER,
+  korean_subtitles INTEGER,
+  korean_audio INTEGER,
   release_date TEXT,
   genres TEXT,
   tags TEXT,
@@ -114,6 +117,12 @@ def _ensure_games_name_columns(conn: sqlite3.Connection) -> None:
         conn.execute("ALTER TABLE games ADD COLUMN name_en TEXT;")
     if "name_ko" not in cols:
         conn.execute("ALTER TABLE games ADD COLUMN name_ko TEXT;")
+    if "korean_interface" not in cols:
+        conn.execute("ALTER TABLE games ADD COLUMN korean_interface INTEGER;")
+    if "korean_subtitles" not in cols:
+        conn.execute("ALTER TABLE games ADD COLUMN korean_subtitles INTEGER;")
+    if "korean_audio" not in cols:
+        conn.execute("ALTER TABLE games ADD COLUMN korean_audio INTEGER;")
 
 
 def reset_db_data(db_path: Path) -> None:

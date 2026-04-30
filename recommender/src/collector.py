@@ -113,6 +113,14 @@ def _fetch_app_metadata(app_id: int) -> dict[str, Any] | None:
         name_ko = ""
 
     name_en = str(payload_en.get("name") or f"app_{app_id}").strip()
+    supported_languages_raw = str(payload_en.get("supported_languages") or "").lower()
+    full_audio_languages = [str(x).strip().lower() for x in (payload_en.get("full_audio_languages") or [])]
+    korean_supported = ("korean" in supported_languages_raw) or ("koreana" in supported_languages_raw)
+    # Steam appdetails does not cleanly separate interface/subtitles in JSON for all titles.
+    # We treat "supported_languages includes Korean" as interface+subtitles support.
+    korean_interface = 1 if korean_supported else 0
+    korean_subtitles = 1 if korean_supported else 0
+    korean_audio = 1 if any(x in {"korean", "koreana"} for x in full_audio_languages) else 0
     genres = [g.get("description") for g in payload_en.get("genres", []) if g.get("description")]
     tags = _fetch_steamspy_tags(app_id)
     normalized_genres = _normalize_genres(genres, tags)
@@ -122,6 +130,9 @@ def _fetch_app_metadata(app_id: int) -> dict[str, Any] | None:
         "name": name_ko or name_en,
         "name_en": name_en,
         "name_ko": name_ko,
+        "korean_interface": korean_interface,
+        "korean_subtitles": korean_subtitles,
+        "korean_audio": korean_audio,
         "release_date": (payload_en.get("release_date") or {}).get("date"),
         "genres": json.dumps(normalized_genres, ensure_ascii=False),
         "tags": json.dumps(tags, ensure_ascii=False),
@@ -268,13 +279,17 @@ def _upsert_game(db_path: Path, game: dict[str, Any]) -> None:
         conn.execute(
             """
             INSERT INTO games (
-              app_id, name, name_en, name_ko, release_date, genres, tags, positive_ratio, review_count, updated_at
+              app_id, name, name_en, name_ko, korean_interface, korean_subtitles, korean_audio,
+              release_date, genres, tags, positive_ratio, review_count, updated_at
             )
-            VALUES (?, ?, ?, ?, ?, ?, ?, NULL, NULL, ?)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NULL, NULL, ?)
             ON CONFLICT(app_id) DO UPDATE SET
               name=excluded.name,
               name_en=excluded.name_en,
               name_ko=excluded.name_ko,
+              korean_interface=excluded.korean_interface,
+              korean_subtitles=excluded.korean_subtitles,
+              korean_audio=excluded.korean_audio,
               release_date=excluded.release_date,
               genres=excluded.genres,
               tags=excluded.tags,
@@ -285,6 +300,9 @@ def _upsert_game(db_path: Path, game: dict[str, Any]) -> None:
                 game["name"],
                 game.get("name_en"),
                 game.get("name_ko"),
+                game.get("korean_interface"),
+                game.get("korean_subtitles"),
+                game.get("korean_audio"),
                 game["release_date"],
                 game["genres"],
                 game["tags"],

@@ -50,6 +50,12 @@ NEGATIVE_REVIEW_HINTS = [
     "bad game",
     "do not recommend",
 ]
+_EVIDENCE_SPAM_PATTERNS = [
+    re.compile(r"https?://", re.IGNORECASE),
+    re.compile(r"www\.", re.IGNORECASE),
+    re.compile(r"(.)\1{7,}"),  # excessive repeated chars
+    re.compile(r"^\W+$"),  # punctuation-only
+]
 
 EXCLUDED_SIGNAL_TERMS = {
     "Horror": {"horror", "scary", "fear"},
@@ -614,6 +620,8 @@ def _fetch_query_relevant_evidence(
     scored = []
     for row in rows:
         text = row["cleaned_text"] or ""
+        if _is_low_quality_evidence_text(text):
+            continue
         if _is_negative_evidence_text(text):
             continue
         try:
@@ -628,6 +636,10 @@ def _fetch_query_relevant_evidence(
         lexical_hit = 0
         if query_terms:
             lexical_hit = sum(1 for t in query_terms if t in text_l)
+            # Keep evidence query-relevant: when user query has enough terms,
+            # drop snippets with zero lexical overlap.
+            if len(query_terms) >= 2 and lexical_hit == 0:
+                continue
         score = sim + (0.035 * lexical_hit)
         trust_rank = 1 if row["trust_label"] == "high" else 0
         scored.append(
@@ -669,10 +681,14 @@ def _fetch_negative_evidence(
     scored = []
     for row in rows:
         text = row["cleaned_text"] or ""
+        if _is_low_quality_evidence_text(text):
+            continue
         text_l = text.lower()
         lexical_hit = 0
         if query_terms:
             lexical_hit = sum(1 for t in query_terms if t in text_l)
+            if len(query_terms) >= 2 and lexical_hit == 0:
+                continue
         trust_rank = 1 if str(row["trust_label"] or "").lower() == "high" else 0
         scored.append(
             (
@@ -801,6 +817,28 @@ def _confidence_label(recent_count: int, median_playtime: float, evidence_count:
 def _is_negative_evidence_text(text: str) -> bool:
     t = (text or "").lower()
     return any(h in t for h in NEGATIVE_REVIEW_HINTS)
+
+
+def _is_low_quality_evidence_text(text: str) -> bool:
+    t = re.sub(r"\s+", " ", (text or "")).strip()
+    if not t:
+        return True
+    if len(t) < 40:
+        return True
+    # Drop very short tokenized lines (e.g., meme/one-liners).
+    tokens = re.findall(r"[a-zA-Z0-9가-힣]+", t.lower())
+    if len(tokens) < 8:
+        return True
+    # Excessive boilerplate / spam-like patterns.
+    lower = t.lower()
+    for pat in _EVIDENCE_SPAM_PATTERNS:
+        if pat.search(lower):
+            return True
+    # Strong symbol ratio tends to indicate low-information snippets.
+    symbol_count = sum(1 for ch in t if not ch.isalnum() and not ch.isspace())
+    if symbol_count / max(len(t), 1) > 0.28:
+        return True
+    return False
 
 
 def _merge_parsed(rule_parsed: ParsedQuery, llm_parsed: ParsedQuery) -> ParsedQuery:
@@ -939,6 +977,10 @@ def recommend_games(
     openai_api_key: str | None = None,
     openai_model: str = "gpt-4.1-mini",
     exclude_app_ids: list[int] | None = None,
+    liked_app_ids: list[int] | None = None,
+    disliked_app_ids: list[int] | None = None,
+    preference_weight: float = 0.10,
+    require_korean_support: bool = False,
 ) -> dict:
     total_start = time.perf_counter()
     perf: dict[str, float] = {}
@@ -954,6 +996,16 @@ def recommend_games(
     excluded_app_ids_set = {
         int(x)
         for x in (exclude_app_ids or [])
+        if isinstance(x, int) or (isinstance(x, str) and str(x).strip().isdigit())
+    }
+    liked_app_ids_set = {
+        int(x)
+        for x in (liked_app_ids or [])
+        if isinstance(x, int) or (isinstance(x, str) and str(x).strip().isdigit())
+    }
+    disliked_app_ids_set = {
+        int(x)
+        for x in (disliked_app_ids or [])
         if isinstance(x, int) or (isinstance(x, str) and str(x).strip().isdigit())
     }
 
@@ -1176,6 +1228,31 @@ def recommend_games(
         recent_counts = profile_index["recent_review_count"]
         med_playtimes = profile_index["median_playtime_1y"]
         sims = np.asarray(profile_index["sims"], dtype=np.float32)
+        support_map: dict[int, dict[str, bool]] = {}
+        if app_ids:
+            placeholders = ",".join("?" for _ in app_ids)
+            rows = conn.execute(
+                f"""
+                SELECT app_id,
+                       korean_interface,
+                       korean_subtitles,
+                       korean_audio
+                FROM games
+                WHERE app_id IN ({placeholders})
+                """,
+                tuple(int(x) for x in app_ids),
+            ).fetchall()
+            for r in rows:
+                i_raw = r["korean_interface"]
+                s_raw = r["korean_subtitles"]
+                a_raw = r["korean_audio"]
+                known = any(v is not None for v in (i_raw, s_raw, a_raw))
+                support_map[int(r["app_id"])] = {
+                    "interface": (None if i_raw is None else bool(int(i_raw or 0))),
+                    "subtitles": (None if s_raw is None else bool(int(s_raw or 0))),
+                    "audio": (None if a_raw is None else bool(int(a_raw or 0))),
+                    "known": known,
+                }
 
         for i in range(len(app_ids)):
             app_id = app_ids[i]
@@ -1184,6 +1261,16 @@ def recommend_games(
             tags = tags_list[i]
 
             if app_id in excluded_app_ids_set:
+                continue
+            support = support_map.get(
+                int(app_id),
+                {"interface": None, "subtitles": None, "audio": None, "known": False},
+            )
+            if (
+                require_korean_support
+                and bool(support.get("known"))
+                and not (bool(support.get("interface")) or bool(support.get("subtitles")) or bool(support.get("audio")))
+            ):
                 continue
 
             if reference_game is not None:
@@ -1268,6 +1355,7 @@ def recommend_games(
                     "confidence": _confidence_label(
                         c.recent_review_count, c.median_playtime_1y, len(evidence_texts)
                     ),
+                    "korean_support": support,
                     "evidence_reviews": evidence_texts[:5],
                     "_vector": vector_by_app_id.get(c.app_id),
                 }
@@ -1313,6 +1401,43 @@ def recommend_games(
                     + (0.08 * float(x["soft_match_count"]))
                     + (0.06 * min(float(x["recent_review_count"]) / 300.0, 1.0))
                 )
+
+        # Light hybrid preference adjustment.
+        # Keep this weight low so natural-language intent remains primary.
+        pref_weight = max(0.0, min(0.20, float(preference_weight or 0.0)))
+        if pref_weight > 0.0 and reranked:
+            liked_vecs: list[np.ndarray] = []
+            disliked_vecs: list[np.ndarray] = []
+            for app_id in liked_app_ids_set:
+                vec = vector_by_app_id.get(app_id)
+                if isinstance(vec, np.ndarray) and vec.size:
+                    liked_vecs.append(vec)
+            for app_id in disliked_app_ids_set:
+                vec = vector_by_app_id.get(app_id)
+                if isinstance(vec, np.ndarray) and vec.size:
+                    disliked_vecs.append(vec)
+
+            liked_centroid = np.mean(np.vstack(liked_vecs), axis=0) if liked_vecs else None
+            disliked_centroid = np.mean(np.vstack(disliked_vecs), axis=0) if disliked_vecs else None
+            if isinstance(liked_centroid, np.ndarray):
+                n = float(np.linalg.norm(liked_centroid))
+                if n > 0:
+                    liked_centroid = liked_centroid / n
+            if isinstance(disliked_centroid, np.ndarray):
+                n = float(np.linalg.norm(disliked_centroid))
+                if n > 0:
+                    disliked_centroid = disliked_centroid / n
+
+            for x in reranked:
+                row_vec = x.get("_vector")
+                if not isinstance(row_vec, np.ndarray) or not row_vec.size:
+                    continue
+                pref_signal = 0.0
+                if isinstance(liked_centroid, np.ndarray):
+                    pref_signal += float(np.dot(row_vec, liked_centroid))
+                if isinstance(disliked_centroid, np.ndarray):
+                    pref_signal -= float(np.dot(row_vec, disliked_centroid))
+                x["final_score"] = float(x["final_score"]) + (pref_weight * pref_signal)
     _stamp("retrieval_rank_ms", t_retrieval)
 
     diverse = _select_diverse_results(reranked, top_k=max(top_k * 3, top_k), diversity_weight=0.22)

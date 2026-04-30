@@ -100,11 +100,13 @@ def _prepare_result_payload(result: dict, query: str, top_k: int) -> dict:
                 "genres_ko": [genre_to_ko(str(g)) for g in (item.get("genres") or [])],
                 "categories": _normalize_categories(item.get("genres", []) or [], evidence),
                 "similarity": item.get("similarity"),
+                "similarity_score": round(float(item.get("similarity") or 0.0) * 100.0, 1),
                 "recent_review_count": item.get("recent_review_count"),
                 "positive_ratio_1y": item.get("positive_ratio_1y"),
                 "median_playtime_1y": item.get("median_playtime_1y"),
                 "confidence": str(item.get("confidence") or "unknown"),
                 "confidence_ko": confidence_to_ko(item.get("confidence", "unknown")),
+                "korean_support": dict(item.get("korean_support") or {}),
                 "reason_ko": _reason_from_item(item),
                 "one_liner_ko": str(item.get("one_liner_ko") or "").strip(),
                 "evidence_ko": evidence_ko,
@@ -264,6 +266,7 @@ def _page(initial_query: str, initial_top_k: int) -> bytes:
         "      const [query, setQuery] = React.useState(init.query || '');\n"
         "      const [topK, setTopK] = React.useState(init.top_k || 5);\n"
         "      const [loading, setLoading] = React.useState(false);\n"
+        "      const [requireKo, setRequireKo] = React.useState(false);\n"
         "      const [statusMsg, setStatusMsg] = React.useState('');\n"
         "      const [errorMsg, setErrorMsg] = React.useState('');\n"
         "      const [result, setResult] = React.useState(null);\n"
@@ -308,7 +311,7 @@ def _page(initial_query: str, initial_top_k: int) -> bytes:
         "          const res = await fetch('/api/recommend', {\n"
         "            method: 'POST',\n"
         "            headers: { 'Content-Type': 'application/json' },\n"
-        "            body: JSON.stringify({ query: q, top_k: k })\n"
+        "            body: JSON.stringify({ query: q, top_k: k, require_korean_support: !!requireKo })\n"
         "          });\n"
         "          const payload = await res.json();\n"
         "          if (!res.ok) throw new Error(payload.error || ('HTTP ' + res.status));\n"
@@ -351,7 +354,11 @@ def _page(initial_query: str, initial_top_k: int) -> bytes:
         "            })\n"
         "          ),\n"
         "          h('div', { style: { marginTop: '10px' } },\n"
-        "            h('button', { disabled: loading, onClick: () => submitSearch(query, topK) }, loading ? '검색 중...' : '추천 받기')\n"
+            "            h('button', { disabled: loading, onClick: () => submitSearch(query, topK) }, loading ? '검색 중...' : '추천 받기')\n"
+        "          ),\n"
+        "          h('label', { className: 'meta', style: { display: 'inline-flex', gap: '8px', marginTop: '10px', alignItems: 'center' } },\n"
+        "            h('input', { type: 'checkbox', checked: requireKo, onChange: (e) => setRequireKo(!!e.target.checked) }),\n"
+        "            '한국어 지원 게임만 보기'\n"
         "          ),\n"
         "          h('div', { className: 'search-status', 'aria-live': 'polite' }, statusMsg),\n"
         "          errorMsg ? h('div', { className: 'meta error', style: { marginTop: '8px' } }, errorMsg) : null\n"
@@ -395,7 +402,8 @@ def _page(initial_query: str, initial_top_k: int) -> bytes:
         "          h('div', { style: { margin: '6px 0 2px' } },\n"
         "            h('a', { href: item.steam_url, target: '_blank', rel: 'noopener noreferrer' }, '스팀 상점에서 보기')\n"
         "          ),\n"
-        "          h('div', { className: 'meta' }, '취향 일치도 ' + item.similarity + ' | 최근 리뷰 ' + item.recent_review_count + '개 | 최근 만족도(1년) ' + item.positive_ratio_1y + ' | 평균 플레이 시간 ' + item.median_playtime_1y + '분'),\n"
+        "          h('div', { className: 'meta' }, '취향 일치도 ' + item.similarity_score + '점 | 최근 리뷰 ' + item.recent_review_count + '개 | 최근 만족도(1년) ' + item.positive_ratio_1y + ' | 평균 플레이 시간 ' + item.median_playtime_1y + '분'),\n"
+        "          h('div', { className: 'meta' }, '한국어 지원: 인터페이스 ' + ((item.korean_support && item.korean_support.interface === true) ? '지원' : ((item.korean_support && item.korean_support.interface === false) ? '미지원' : '정보없음')) + ' / 자막 ' + ((item.korean_support && item.korean_support.subtitles === true) ? '지원' : ((item.korean_support && item.korean_support.subtitles === false) ? '미지원' : '정보없음'))),\n"
         "          h('div', null,\n"
         "            h('span', { className: 'pill' }, '추천 확신도 ' + item.confidence_ko),\n"
         "            h('span', { className: 'pill' }, (item.genres_ko || []).join(', ') || '장르 정보 없음')\n"
