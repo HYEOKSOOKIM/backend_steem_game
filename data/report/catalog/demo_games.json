@@ -2,71 +2,148 @@
   {
     "appid": 578080,
     "name": "PUBG: BATTLEGROUNDS",
+    "aliases": [
+      "배틀그라운드",
+      "배그",
+      "펍지",
+      "PUBG",
+      "Battlegrounds"
+    ],
     "enabled_for_demo": true
   },
   {
     "appid": 698780,
     "name": "Doki Doki Literature Club!",
+    "aliases": [
+      "두근두근 문예부",
+      "도키도키",
+      "도키도키 리터러처 클럽"
+    ],
     "enabled_for_demo": true
   },
   {
     "appid": 990080,
     "name": "호그와트 레거시",
+    "aliases": [
+      "Hogwarts Legacy"
+    ],
     "enabled_for_demo": true
   },
   {
     "appid": 1147560,
     "name": "Skul: The Hero Slayer",
+    "aliases": [
+      "스컬",
+      "스컬 더 히어로 슬레이어",
+      "Skul"
+    ],
     "enabled_for_demo": true
   },
   {
     "appid": 1174180,
     "name": "Red Dead Redemption 2",
+    "aliases": [
+      "레드 데드 리뎀션 2",
+      "레데리2",
+      "레데리",
+      "RDR2"
+    ],
     "enabled_for_demo": true
   },
   {
     "appid": 1222670,
     "name": "The Sims 4",
+    "aliases": [
+      "심즈4",
+      "심즈 4",
+      "더 심즈 4",
+      "The Sims 4"
+    ],
     "enabled_for_demo": true
   },
   {
     "appid": 1245620,
     "name": "ELDEN RING",
+    "aliases": [
+      "엘든 링",
+      "엘든링",
+      "Elden Ring"
+    ],
     "enabled_for_demo": true
   },
   {
     "appid": 289070,
     "name": "Sid Meier's Civilization VI",
+    "aliases": [
+      "문명6",
+      "문명 6",
+      "문명 VI",
+      "시드 마이어의 문명 6",
+      "Civilization VI",
+      "Civ 6"
+    ],
     "enabled_for_demo": true
   },
   {
     "appid": 292030,
     "name": "The Witcher 3: Wild Hunt",
+    "aliases": [
+      "위쳐3",
+      "위쳐 3",
+      "더 위쳐 3",
+      "와일드 헌트",
+      "Witcher 3"
+    ],
     "enabled_for_demo": true
   },
   {
     "appid": 3240220,
     "name": "Grand Theft Auto V Enhanced",
+    "aliases": [
+      "GTA5",
+      "GTA 5",
+      "지티에이5",
+      "그랜드 테프트 오토 5",
+      "GTA V Enhanced"
+    ],
     "enabled_for_demo": true
   },
   {
     "appid": 3321460,
     "name": "붉은사막",
+    "aliases": [
+      "붉은 사막",
+      "Crimson Desert"
+    ],
     "enabled_for_demo": true
   },
   {
     "appid": 3357650,
     "name": "PRAGMATA",
+    "aliases": [
+      "프라그마타",
+      "Pragmata"
+    ],
     "enabled_for_demo": true
   },
   {
     "appid": 3551340,
     "name": "Football Manager 26",
+    "aliases": [
+      "풋볼매니저 26",
+      "풋볼 매니저 26",
+      "FM26",
+      "FM 26"
+    ],
     "enabled_for_demo": true
   },
   {
     "appid": 4261320,
     "name": "스페셜포스 리마스터",
+    "aliases": [
+      "스포 리마스터",
+      "Special Force Remastered"
+    ],
     "enabled_for_demo": true
   }
 ]

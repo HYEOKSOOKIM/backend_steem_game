@@ -18,6 +18,22 @@ DEFAULT_DEMO_GAMES: list[dict[str, Any]] = [
 ]
 
 
+def _normalize_aliases(value: Any) -> list[str]:
+    if not isinstance(value, list):
+        return []
+
+    aliases: list[str] = []
+    seen: set[str] = set()
+    for item in value:
+        alias = str(item or "").strip()
+        key = alias.casefold()
+        if not alias or key in seen:
+            continue
+        aliases.append(alias)
+        seen.add(key)
+    return aliases
+
+
 def load_demo_games(catalog_path: str | Path | None) -> list[dict[str, Any]]:
     """Load predefined demo games from JSON file, fallback to defaults."""
     if catalog_path is None:
@@ -44,6 +60,7 @@ def load_demo_games(catalog_path: str | Path | None) -> list[dict[str, Any]]:
             {
                 "appid": appid,
                 "name": str(item.get("name") or f"appid-{appid}"),
+                "aliases": _normalize_aliases(item.get("aliases")),
                 "enabled_for_demo": bool(item.get("enabled_for_demo", True)),
             }
         )
@@ -80,6 +97,7 @@ def save_demo_games(catalog_path: str | Path, games: list[dict[str, Any]]) -> Pa
                 {
                     "appid": appid,
                     "name": str(item.get("name") or f"appid-{appid}"),
+                    "aliases": _normalize_aliases(item.get("aliases")),
                     "enabled_for_demo": bool(item.get("enabled_for_demo", True)),
                 }
             )
