@@ -17,6 +17,7 @@ TRUST_WEIGHTS = {
     "medium": 0.7,
     "low": 0.3,
 }
+RECENT_REVIEW_WINDOW_DAYS = 90
 
 
 def _serialize_vector(vec: np.ndarray) -> bytes:
@@ -125,7 +126,7 @@ def build_review_and_game_embeddings(
 
         profile_count = 0
         now = datetime.now(timezone.utc)
-        cutoff = now - timedelta(days=365)
+        cutoff = now - timedelta(days=RECENT_REVIEW_WINDOW_DAYS)
         for app_id, vectors in app_to_vectors.items():
             if not vectors:
                 continue

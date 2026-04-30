@@ -50,13 +50,6 @@ NEGATIVE_REVIEW_HINTS = [
     "bad game",
     "do not recommend",
 ]
-_EVIDENCE_SPAM_PATTERNS = [
-    re.compile(r"https?://", re.IGNORECASE),
-    re.compile(r"www\.", re.IGNORECASE),
-    re.compile(r"(.)\1{7,}"),  # excessive repeated chars
-    re.compile(r"^\W+$"),  # punctuation-only
-]
-
 EXCLUDED_SIGNAL_TERMS = {
     "Horror": {"horror", "scary", "fear"},
     "Free To Play": {"free to play", "f2p"},
@@ -620,8 +613,6 @@ def _fetch_query_relevant_evidence(
     scored = []
     for row in rows:
         text = row["cleaned_text"] or ""
-        if _is_low_quality_evidence_text(text):
-            continue
         if _is_negative_evidence_text(text):
             continue
         try:
@@ -636,10 +627,6 @@ def _fetch_query_relevant_evidence(
         lexical_hit = 0
         if query_terms:
             lexical_hit = sum(1 for t in query_terms if t in text_l)
-            # Keep evidence query-relevant: when user query has enough terms,
-            # drop snippets with zero lexical overlap.
-            if len(query_terms) >= 2 and lexical_hit == 0:
-                continue
         score = sim + (0.035 * lexical_hit)
         trust_rank = 1 if row["trust_label"] == "high" else 0
         scored.append(
@@ -681,14 +668,10 @@ def _fetch_negative_evidence(
     scored = []
     for row in rows:
         text = row["cleaned_text"] or ""
-        if _is_low_quality_evidence_text(text):
-            continue
         text_l = text.lower()
         lexical_hit = 0
         if query_terms:
             lexical_hit = sum(1 for t in query_terms if t in text_l)
-            if len(query_terms) >= 2 and lexical_hit == 0:
-                continue
         trust_rank = 1 if str(row["trust_label"] or "").lower() == "high" else 0
         scored.append(
             (
@@ -817,28 +800,6 @@ def _confidence_label(recent_count: int, median_playtime: float, evidence_count:
 def _is_negative_evidence_text(text: str) -> bool:
     t = (text or "").lower()
     return any(h in t for h in NEGATIVE_REVIEW_HINTS)
-
-
-def _is_low_quality_evidence_text(text: str) -> bool:
-    t = re.sub(r"\s+", " ", (text or "")).strip()
-    if not t:
-        return True
-    if len(t) < 40:
-        return True
-    # Drop very short tokenized lines (e.g., meme/one-liners).
-    tokens = re.findall(r"[a-zA-Z0-9가-힣]+", t.lower())
-    if len(tokens) < 8:
-        return True
-    # Excessive boilerplate / spam-like patterns.
-    lower = t.lower()
-    for pat in _EVIDENCE_SPAM_PATTERNS:
-        if pat.search(lower):
-            return True
-    # Strong symbol ratio tends to indicate low-information snippets.
-    symbol_count = sum(1 for ch in t if not ch.isalnum() and not ch.isspace())
-    if symbol_count / max(len(t), 1) > 0.28:
-        return True
-    return False
 
 
 def _merge_parsed(rule_parsed: ParsedQuery, llm_parsed: ParsedQuery) -> ParsedQuery:

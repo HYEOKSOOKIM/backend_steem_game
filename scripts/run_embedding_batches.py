@@ -13,6 +13,8 @@ from recommender.src.chroma_store import sync_game_profiles_to_chroma
 from recommender.src.db import get_connection, init_db
 from recommender.src.features import TRUST_WEIGHTS
 
+RECENT_REVIEW_WINDOW_DAYS = 90
+
 
 def _serialize_vector(vec: np.ndarray) -> bytes:
     return vec.astype(np.float32).tobytes()
@@ -118,7 +120,7 @@ def rebuild_profiles(db_path: Path) -> dict:
     app_to_weights: dict[int, list[float]] = defaultdict(list)
 
     now = datetime.now(timezone.utc)
-    cutoff = now - timedelta(days=365)
+    cutoff = now - timedelta(days=RECENT_REVIEW_WINDOW_DAYS)
     profile_count = 0
 
     with get_connection(db_path) as conn:
