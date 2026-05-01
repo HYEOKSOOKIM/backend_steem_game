@@ -650,6 +650,18 @@
     "enabled_for_demo": true
   },
   {
+    "appid": 1551360,
+    "name": "Forza Horizon 5",
+    "name_en": "Forza Horizon 5",
+    "name_ko": "??? ???? 5",
+    "aliases": [
+      "Forza Horizon V",
+      "FH5",
+      "???????5"
+    ],
+    "enabled_for_demo": true
+  },
+  {
     "appid": 1623730,
     "name": "Palworld / ???",
     "name_en": "Palworld",

@@ -1,0 +1,948 @@
+{
+  "report_version": "v4-planned-sections",
+  "appid": 1551360,
+  "pipeline_run_id": "1551360-20260501T012733Z",
+  "generated_at": "2026-05-01T01:29:29.525547+00:00",
+  "source_review_count": 5332,
+  "included_review_count": 3234,
+  "min_report_review_count": 100,
+  "report_state": "ready",
+  "review_trend": {
+    "granularity": "month",
+    "metric": "positive_ratio",
+    "points": [
+      {
+        "month": "2021-11",
+        "positive_count": 603,
+        "review_count": 702,
+        "positive_ratio": 0.859
+      },
+      {
+        "month": "2021-12",
+        "positive_count": 245,
+        "review_count": 283,
+        "positive_ratio": 0.8657
+      },
+      {
+        "month": "2022-01",
+        "positive_count": 157,
+        "review_count": 181,
+        "positive_ratio": 0.8674
+      },
+      {
+        "month": "2022-02",
+        "positive_count": 139,
+        "review_count": 158,
+        "positive_ratio": 0.8797
+      },
+      {
+        "month": "2022-03",
+        "positive_count": 101,
+        "review_count": 117,
+        "positive_ratio": 0.8632
+      },
+      {
+        "month": "2022-04",
+        "positive_count": 90,
+        "review_count": 103,
+        "positive_ratio": 0.8738
+      },
+      {
+        "month": "2022-05",
+        "positive_count": 63,
+        "review_count": 67,
+        "positive_ratio": 0.9403
+      },
+      {
+        "month": "2022-06",
+        "positive_count": 125,
+        "review_count": 138,
+        "positive_ratio": 0.9058
+      },
+      {
+        "month": "2022-07",
+        "positive_count": 120,
+        "review_count": 137,
+        "positive_ratio": 0.8759
+      },
+      {
+        "month": "2022-08",
+        "positive_count": 85,
+        "review_count": 88,
+        "positive_ratio": 0.9659
+      },
+      {
+        "month": "2022-09",
+        "positive_count": 96,
+        "review_count": 105,
+        "positive_ratio": 0.9143
+      },
+      {
+        "month": "2022-10",
+        "positive_count": 101,
+        "review_count": 110,
+        "positive_ratio": 0.9182
+      },
+      {
+        "month": "2022-11",
+        "positive_count": 92,
+        "review_count": 101,
+        "positive_ratio": 0.9109
+      },
+      {
+        "month": "2022-12",
+        "positive_count": 108,
+        "review_count": 116,
+        "positive_ratio": 0.931
+      },
+      {
+        "month": "2023-01",
+        "positive_count": 142,
+        "review_count": 154,
+        "positive_ratio": 0.9221
+      },
+      {
+        "month": "2023-02",
+        "positive_count": 66,
+        "review_count": 73,
+        "positive_ratio": 0.9041
+      },
+      {
+        "month": "2023-03",
+        "positive_count": 73,
+        "review_count": 82,
+        "positive_ratio": 0.8902
+      },
+      {
+        "month": "2023-04",
+        "positive_count": 58,
+        "review_count": 66,
+        "positive_ratio": 0.8788
+      },
+      {
+        "month": "2023-05",
+        "positive_count": 67,
+        "review_count": 75,
+        "positive_ratio": 0.8933
+      },
+      {
+        "month": "2023-06",
+        "positive_count": 83,
+        "review_count": 94,
+        "positive_ratio": 0.883
+      },
+      {
+        "month": "2023-07",
+        "positive_count": 92,
+        "review_count": 109,
+        "positive_ratio": 0.844
+      },
+      {
+        "month": "2023-08",
+        "positive_count": 94,
+        "review_count": 107,
+        "positive_ratio": 0.8785
+      },
+      {
+        "month": "2023-09",
+        "positive_count": 55,
+        "review_count": 65,
+        "positive_ratio": 0.8462
+      },
+      {
+        "month": "2023-10",
+        "positive_count": 49,
+        "review_count": 54,
+        "positive_ratio": 0.9074
+      },
+      {
+        "month": "2023-11",
+        "positive_count": 65,
+        "review_count": 68,
+        "positive_ratio": 0.9559
+      },
+      {
+        "month": "2023-12",
+        "positive_count": 102,
+        "review_count": 112,
+        "positive_ratio": 0.9107
+      },
+      {
+        "month": "2024-01",
+        "positive_count": 101,
+        "review_count": 113,
+        "positive_ratio": 0.8938
+      },
+      {
+        "month": "2024-02",
+        "positive_count": 72,
+        "review_count": 80,
+        "positive_ratio": 0.9
+      },
+      {
+        "month": "2024-03",
+        "positive_count": 84,
+        "review_count": 91,
+        "positive_ratio": 0.9231
+      },
+      {
+        "month": "2024-04",
+        "positive_count": 67,
+        "review_count": 71,
+        "positive_ratio": 0.9437
+      },
+      {
+        "month": "2024-05",
+        "positive_count": 55,
+        "review_count": 68,
+        "positive_ratio": 0.8088
+      },
+      {
+        "month": "2024-06",
+        "positive_count": 86,
+        "review_count": 95,
+        "positive_ratio": 0.9053
+      },
+      {
+        "month": "2024-07",
+        "positive_count": 84,
+        "review_count": 93,
+        "positive_ratio": 0.9032
+      },
+      {
+        "month": "2024-08",
+        "positive_count": 54,
+        "review_count": 60,
+        "positive_ratio": 0.9
+      },
+      {
+        "month": "2024-09",
+        "positive_count": 70,
+        "review_count": 79,
+        "positive_ratio": 0.8861
+      },
+      {
+        "month": "2024-10",
+        "positive_count": 39,
+        "review_count": 46,
+        "positive_ratio": 0.8478
+      },
+      {
+        "month": "2024-11",
+        "positive_count": 74,
+        "review_count": 79,
+        "positive_ratio": 0.9367
+      },
+      {
+        "month": "2024-12",
+        "positive_count": 73,
+        "review_count": 84,
+        "positive_ratio": 0.869
+      },
+      {
+        "month": "2025-01",
+        "positive_count": 88,
+        "review_count": 96,
+        "positive_ratio": 0.9167
+      },
+      {
+        "month": "2025-02",
+        "positive_count": 58,
+        "review_count": 62,
+        "positive_ratio": 0.9355
+      },
+      {
+        "month": "2025-03",
+        "positive_count": 56,
+        "review_count": 65,
+        "positive_ratio": 0.8615
+      },
+      {
+        "month": "2025-04",
+        "positive_count": 37,
+        "review_count": 44,
+        "positive_ratio": 0.8409
+      },
+      {
+        "month": "2025-05",
+        "positive_count": 52,
+        "review_count": 65,
+        "positive_ratio": 0.8
+      },
+      {
+        "month": "2025-06",
+        "positive_count": 54,
+        "review_count": 69,
+        "positive_ratio": 0.7826
+      },
+      {
+        "month": "2025-07",
+        "positive_count": 48,
+        "review_count": 58,
+        "positive_ratio": 0.8276
+      },
+      {
+        "month": "2025-08",
+        "positive_count": 64,
+        "review_count": 72,
+        "positive_ratio": 0.8889
+      },
+      {
+        "month": "2025-09",
+        "positive_count": 41,
+        "review_count": 54,
+        "positive_ratio": 0.7593
+      },
+      {
+        "month": "2025-10",
+        "positive_count": 41,
+        "review_count": 50,
+        "positive_ratio": 0.82
+      },
+      {
+        "month": "2025-11",
+        "positive_count": 54,
+        "review_count": 64,
+        "positive_ratio": 0.8438
+      },
+      {
+        "month": "2025-12",
+        "positive_count": 40,
+        "review_count": 44,
+        "positive_ratio": 0.9091
+      },
+      {
+        "month": "2026-01",
+        "positive_count": 39,
+        "review_count": 51,
+        "positive_ratio": 0.7647
+      },
+      {
+        "month": "2026-02",
+        "positive_count": 34,
+        "review_count": 37,
+        "positive_ratio": 0.9189
+      },
+      {
+        "month": "2026-03",
+        "positive_count": 31,
+        "review_count": 34,
+        "positive_ratio": 0.9118
+      },
+      {
+        "month": "2026-04",
+        "positive_count": 34,
+        "review_count": 43,
+        "positive_ratio": 0.7907
+      }
+    ]
+  },
+  "game": {
+    "name": "Forza Horizon 5",
+    "genres": [
+      "액션",
+      "어드벤처",
+      "레이싱",
+      "시뮬레이션",
+      "스포츠"
+    ],
+    "price_model": "paid",
+    "is_free": false,
+    "release_stage": "released",
+    "release_date_text": "2021년 11월 8일",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg?t=1746471508",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_231x87.jpg?t=1746471508",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_184x69.jpg?t=1746471508",
+    "screenshots": [
+      {
+        "id": "0",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_cf56e25a0290556ba83229eb0ab370d10be0407c.600x338.jpg?t=1746471508",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_cf56e25a0290556ba83229eb0ab370d10be0407c.1920x1080.jpg?t=1746471508"
+      },
+      {
+        "id": "1",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_00f0090174380eeaf8753bd3d1028b6772c3aebf.600x338.jpg?t=1746471508",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_00f0090174380eeaf8753bd3d1028b6772c3aebf.1920x1080.jpg?t=1746471508"
+      },
+      {
+        "id": "2",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_b65236b365315ebb6da6114ce42cd74b59cab3c8.600x338.jpg?t=1746471508",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_b65236b365315ebb6da6114ce42cd74b59cab3c8.1920x1080.jpg?t=1746471508"
+      },
+      {
+        "id": "3",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_0a13a7ccd38e7c3e6a5f1720050732833b53b6a8.600x338.jpg?t=1746471508",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_0a13a7ccd38e7c3e6a5f1720050732833b53b6a8.1920x1080.jpg?t=1746471508"
+      },
+      {
+        "id": "4",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_3654a5988db68f9b47740f9f6a9299682c365599.600x338.jpg?t=1746471508",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_3654a5988db68f9b47740f9f6a9299682c365599.1920x1080.jpg?t=1746471508"
+      },
+      {
+        "id": "5",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_0bc32360d32b21abdf889422385cd753862dd73e.600x338.jpg?t=1746471508",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_0bc32360d32b21abdf889422385cd753862dd73e.1920x1080.jpg?t=1746471508"
+      },
+      {
+        "id": "6",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_1da0673f82eccc3c9d222237dec40e36bf10eef3.600x338.jpg?t=1746471508",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_1da0673f82eccc3c9d222237dec40e36bf10eef3.1920x1080.jpg?t=1746471508"
+      },
+      {
+        "id": "7",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_78e4f63e05d50e59b9966ba8da9a53dbf84fd8f4.600x338.jpg?t=1746471508",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_78e4f63e05d50e59b9966ba8da9a53dbf84fd8f4.1920x1080.jpg?t=1746471508"
+      },
+      {
+        "id": "8",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_c8390c1e88ba5e660a58e8e435ebc77dcda5c91d.600x338.jpg?t=1746471508",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_c8390c1e88ba5e660a58e8e435ebc77dcda5c91d.1920x1080.jpg?t=1746471508"
+      },
+      {
+        "id": "9",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_3c16188972c826942f47991d91b0f6dc17e01fc9.600x338.jpg?t=1746471508",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_3c16188972c826942f47991d91b0f6dc17e01fc9.1920x1080.jpg?t=1746471508"
+      },
+      {
+        "id": "10",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_49297af1ddef7779e644c2deb1df611a5f5cd344.600x338.jpg?t=1746471508",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_49297af1ddef7779e644c2deb1df611a5f5cd344.1920x1080.jpg?t=1746471508"
+      },
+      {
+        "id": "11",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_733100a0e305025cfea4797c14cb55a9e2673521.600x338.jpg?t=1746471508",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_733100a0e305025cfea4797c14cb55a9e2673521.1920x1080.jpg?t=1746471508"
+      },
+      {
+        "id": "12",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_4f2da231c28c5cb6a1ed4f62aaad6f51ca4a5c05.600x338.jpg?t=1746471508",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_4f2da231c28c5cb6a1ed4f62aaad6f51ca4a5c05.1920x1080.jpg?t=1746471508"
+      },
+      {
+        "id": "13",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_af9712cbc5121307926cb3e7dfc7228d45940557.600x338.jpg?t=1746471508",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_af9712cbc5121307926cb3e7dfc7228d45940557.1920x1080.jpg?t=1746471508"
+      },
+      {
+        "id": "14",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_d26239d188301bb6f2475c6d323ae007195b7542.600x338.jpg?t=1746471508",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_d26239d188301bb6f2475c6d323ae007195b7542.1920x1080.jpg?t=1746471508"
+      },
+      {
+        "id": "15",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_16be1ecc46e7c0a3aa68e646af904c66ea8e1c81.600x338.jpg?t=1746471508",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_16be1ecc46e7c0a3aa68e646af904c66ea8e1c81.1920x1080.jpg?t=1746471508"
+      }
+    ],
+    "movies": [
+      {
+        "id": "256875134",
+        "name": "Forza Horizon 5 Accolades Trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256875134/movie.293x165.jpg?t=1647525311",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1551360/442268/66eddb8cdf196bf7c8d9bb8e8895bd7f60133cc1/1750700745/hls_264_master.m3u8?t=1647525311",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1551360/442268/66eddb8cdf196bf7c8d9bb8e8895bd7f60133cc1/1750700745/dash_h264.mpd?t=1647525311",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1551360/442268/66eddb8cdf196bf7c8d9bb8e8895bd7f60133cc1/1750700745/dash_av1.mpd?t=1647525311",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1551360/442268/66eddb8cdf196bf7c8d9bb8e8895bd7f60133cc1/1750700745/hls_264_master.m3u8?t=1647525311"
+      },
+      {
+        "id": "256859757",
+        "name": "Forza Horizon 5 Launch Trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256859757/movie.293x165.jpg?t=1636489104",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1551360/415818/c7f56150fb05a56618bd5675f8d2770a2c9b1a20/1750700743/hls_264_master.m3u8?t=1636489104",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1551360/415818/c7f56150fb05a56618bd5675f8d2770a2c9b1a20/1750700743/dash_h264.mpd?t=1636489104",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1551360/415818/c7f56150fb05a56618bd5675f8d2770a2c9b1a20/1750700743/dash_av1.mpd?t=1636489104",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1551360/415818/c7f56150fb05a56618bd5675f8d2770a2c9b1a20/1750700743/hls_264_master.m3u8?t=1636489104"
+      }
+    ],
+    "short_description": "세계 최고의 자동차를 타고 생동감 넘치는 멕시코의 대자연을 탐험하며 재미있는 드라이빙 액션을 마음껏 즐겨보세요.",
+    "steam_store_url": "https://store.steampowered.com/app/1551360",
+    "steam_recommendation_count": 249953,
+    "steam_review_score_desc": "Very Positive",
+    "steam_total_positive": 4701,
+    "steam_total_negative": 631,
+    "steam_total_reviews": 5332,
+    "price_currency": "KRW",
+    "price_current": 5990000,
+    "price_original": 5990000,
+    "price_current_formatted": "₩ 59,900",
+    "price_original_formatted": null,
+    "price_discount_percent": 0
+  },
+  "report_plan": {
+    "decision_anchor": {
+      "buy_recommendation": "buy_now",
+      "primary_reason_ids": [
+        "str_1",
+        "str_2"
+      ],
+      "rationale_short": "그래픽과 비주얼이 뛰어나고, 다양한 차량과 콘텐츠로 레이싱 게임의 재미를 극대화합니다."
+    },
+    "section_blueprint": {
+      "strength_block_count": 3,
+      "risk_block_count": 3,
+      "evidence_per_block": 3
+    },
+    "theme_priorities": {
+      "strengths": [
+        {
+          "reason_id": "str_1",
+          "aspect": "graphics",
+          "theme": "그래픽 / 비주얼 호평"
+        },
+        {
+          "reason_id": "str_2",
+          "aspect": "gameplay",
+          "theme": "탐험 / 월드 경험"
+        },
+        {
+          "reason_id": "str_3",
+          "aspect": "content_depth",
+          "theme": "콘텐츠 볼륨"
+        }
+      ],
+      "risks": [
+        {
+          "reason_id": "risk_1",
+          "aspect": "bugs",
+          "theme": "일반 버그"
+        },
+        {
+          "reason_id": "risk_2",
+          "aspect": "performance",
+          "theme": "최적화 문제"
+        },
+        {
+          "reason_id": "risk_3",
+          "aspect": "monetization",
+          "theme": "가격 / 과금 불만"
+        }
+      ]
+    }
+  },
+  "report_display": {
+    "headline": "비주얼과 분위기 연출은 뛰어나지만 오류와 끊김 문제로 할인 시 구매를 권장합니다.",
+    "buy_recommendation": "buy_on_sale",
+    "buy_timing_summary": "오류와 최적화 문제로 불편할 수 있어 가격 메리트가 있는 할인 시점에 구매하는 것이 좋습니다.",
+    "good_for": [
+      "배경과 연출이 만드는 분위기를 중요하게 보는 플레이어",
+      "전술과 운영 판단을 오래 다듬는 플레이어",
+      "세계관과 맥락을 스스로 읽어가는 플레이어"
+    ],
+    "not_good_for": [
+      "진행 중 오류나 끊김을 거의 허용하지 않는 플레이어",
+      "프레임과 반응성에 민감한 플레이어",
+      "비용 대비 만족을 꼼꼼하게 따지는 플레이어"
+    ],
+    "top_strengths": [
+      {
+        "title": "탁월한 그래픽과 현실감이",
+        "summary": "멕시코의 다양한 생태계를 사실적으로 구현해 시원한 주행 경험을 선사하며, 차량 사운드와 물리 엔진이 한층 정교해져 몰입감을 높입니다."
+      },
+      {
+        "title": "풍부한 차량과 콘텐츠 볼륨",
+        "summary": "수백 대에 달하는 개성 있는 차량과 매주, 매월 추가되는 시즌 이벤트로 다양한 레이싱과 커스터마이징을 즐길 수 있어 지루할 틈이 없습니다."
+      },
+      {
+        "title": "편리한 조작과 접근성",
+        "summary": "아케이드와 시뮬레이션의 균형 잡힌 조작감과 되돌리기 기능 덕분에 초보자도 부담 없이 즐길 수 있으며, 패드 사용 시 더욱 쾌적한 플레이가 가능합니다."
+      }
+    ],
+    "top_risks": [
+      {
+        "title": "잦은 실행 중단과 충돌 문제",
+        "summary": "게임 도중 갑작스러운 튕김과 강제 종료가 빈번해 플레이 흐름이 끊기고, 특히 특정 플랫폼에서 실행 불가 현상도 보고됩니다."
+      },
+      {
+        "title": "최적화 미흡에 따른 성능 저하",
+        "summary": "높은 사양을 요구하며 프레임 드랍과 블랙 스크린 현상이 자주 발생해 쾌적한 주행 경험을 방해합니다."
+      },
+      {
+        "title": "계정 연동 및 멀티플레이가 불안정하다",
+        "summary": "윈도우 계정 연동 오류와 서버 접속 문제로 멀티플레이 이용이 어렵고, 부정 행위와 신고 시스템의 한계로 불쾌한 경험이 이어집니다."
+      }
+    ],
+    "recent_state": {
+      "status": "mixed",
+      "summary": "그래픽과 주행의 재미는 뛰어나지만, 최적화 문제와 버그로 인해 플레이 환경에 아쉬움이 남는 상황입니다."
+    }
+  },
+  "evidence_sections": {
+    "strengths": [
+      {
+        "block_id": "str_1",
+        "title": "비주얼과 분위기가 몰입을 만든다는 반응",
+        "theme": "그래픽 / 비주얼 호평",
+        "why_it_matters": "비주얼과 연출의 분위기를 좋게 보는 반응이 많아 장면과 감각을 중시하면 만족도가 높습니다.",
+        "explanation": "비주얼과 연출의 분위기를 좋게 보는 반응이 많아 장면과 감각을 중시하면 만족도가 높습니다.",
+        "aspect_keys": [
+          "graphics"
+        ],
+        "stance": "positive",
+        "consensus_level": "high",
+        "mention_count": 458,
+        "evidence_quality_level": "strict",
+        "evidence_candidate_snippets": [
+          "게임 자체가 비싸다는 느낌이 들어서 존버하다가 할인할 때 구매했는데 이야 진작 구매를 하지 않았다는 거를 후회하는 처음이자 마지막 게임이 되지 않을까....;; 인생 살면서 한 번이라도 타기 힘든 차들 게임에서라도 실컷 죽어라 모는 이 재미는 어떻게 설명 할 수가 없네요. 노트북으로 게임을 하는 입장이지만 QHD+ 해상도에서 DLSS 끄고 평균 160프레임 정도가 나와줘서 최적화는 진짜 잘되어있는 그래픽 좋고 물리엔진 좋은 갓겜",
+          "캐주얼하게 즐기기 좋고 그래픽 좋음, 물리엔진 좋음, 단점: 퀘스트 및 안내가 복잡함",
+          "굿굿 패드 새로 사서 하니까 몰입감 너무 좋아요 그래픽 램이 딸려서 중옵인게 아쉽네요 ㅠ",
+          "늘 그렇듯 포르자호라이즌 시리즈임 차량에 물리가 조금 더 좋아졌고 그래픽이 향상되었으나 4와 비교해서 재미 적인 요소가 추가되지는 않음 게다가 너무 아케이드성 게임이라 운전에 난이도가 어려운 것도 아님 딱 10시간 정도 즐기면 슬슬 질리는 게임 하지만 가끔 광활한 벌판을 좋은 그래픽으로 생각 없이 달리고 싶을 때 생각나는 그런 게임 추천은 하지만 오래 즐기기엔 무리"
+        ],
+        "evidence_snippets": [
+          "굿굿 패드 새로 사서 하니까 몰입감 너무 좋아요 그래픽 램이 딸려서 중옵인게 아쉽네요 ㅠ",
+          "캐주얼하게 즐기기 좋고 그래픽 좋음, 물리엔진 좋음, 단점: 퀘스트 및 안내가 복잡함",
+          "늘 그렇듯 포르자호라이즌 시리즈임 차량에 물리가 조금 더 좋아졌고 그래픽이 향상되었으나 4와 비교해서 재미 적인 요소가 추가되지는 않음 게다가 너무 아케이드성 게임이라 운전에 난이도가 어려운 것도 아님 딱 10시간 정도 즐기면 슬슬 질리는 게임 하지만 가끔 광활한 벌판을 좋은 그래픽으로 생각 없이 달리고 싶을 때 생각나는 그런 게임 추천은 하지만 오래 즐기기엔 무리"
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-positive-1-1-5192727281504184599",
+            "text": "게임 자체가 비싸다는 느낌이 들어서 존버하다가 할인할 때 구매했는데 이야 진작 구매를 하지 않았다는 거를 후회하는 처음이자 마지막 게임이 되지 않을까....;; 인생 살면서 한 번이라도 타기 힘든 차들 게임에서라도 실컷 죽어라 모는 이 재미는 어떻게 설명 할 수가 없네요. 노트북으로 게임을 하는 입장이지만 QHD+ 해상도에서 DLSS 끄고 평균 160프레임 정도가 나와줘서 최적화는 진짜 잘되어있는 그래픽 좋고 물리엔진 좋은 갓겜"
+          },
+          {
+            "review_id": "compress-v3-positive-1-2-2394620318879165310",
+            "text": "캐주얼하게 즐기기 좋고 그래픽 좋음, 물리엔진 좋음, 단점: 퀘스트 및 안내가 복잡함"
+          },
+          {
+            "review_id": "compress-v3-positive-1-3-8483410787210152359",
+            "text": "굿굿 패드 새로 사서 하니까 몰입감 너무 좋아요 그래픽 램이 딸려서 중옵인게 아쉽네요 ㅠ"
+          },
+          {
+            "review_id": "compress-v3-positive-1-4-5937586853443198125",
+            "text": "늘 그렇듯 포르자호라이즌 시리즈임 차량에 물리가 조금 더 좋아졌고 그래픽이 향상되었으나 4와 비교해서 재미 적인 요소가 추가되지는 않음 게다가 너무 아케이드성 게임이라 운전에 난이도가 어려운 것도 아님 딱 10시간 정도 즐기면 슬슬 질리는 게임 하지만 가끔 광활한 벌판을 좋은 그래픽으로 생각 없이 달리고 싶을 때 생각나는 그런 게임 추천은 하지만 오래 즐기기엔 무리"
+          }
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "block_id": "risk_1",
+        "title": "오류와 끊김이 흐름을 끊는다는 반응",
+        "theme": "예상치 못한 오류가 플레이 리듬을 끊을 수 있는 리스크",
+        "why_it_matters": "오류와 끊김을 지적하는 반응이 이어져 흐름이 끊기는 상황은 감수할 필요가 있습니다.",
+        "explanation": "오류와 끊김을 지적하는 반응이 이어져 흐름이 끊기는 상황은 감수할 필요가 있습니다.",
+        "aspect_keys": [
+          "bugs"
+        ],
+        "stance": "negative",
+        "consensus_level": "high",
+        "mention_count": 313,
+        "evidence_quality_level": "relaxed",
+        "evidence_candidate_snippets": [
+          "윈도우 계정으로 연동해야함 이거 하나만으로도 비추박고 만원 이하 할인하는거 아니면 사지마라.. 계정 버그가 도대체 몇 번째인지 마크는 5년을 하면서 한번을 안그러는데 포호는 1년도 안돼서 이게 뭐하자는건지 안그래도 윈도우 계정 이전비번 다시 못 쓰게해서 열받는데 qudtls같은 겜임",
+          "DLC 내가 내 돈 주고 샀는데 포르자 아예 실행이 안되는 버그 걸림 디스크 손상이라고 해서 고치면 또 다른게 안된다 그러고 또 그걸 고치면 또 다시 디스크 손상이라고 계속 무한반복임 그냥 아예 DLC 사지 마세요 오랜만에 들어와서 DLC사서 차 좀 탈려고 하니까 안되서 그냥 게임 삭제 합니다 그리고 가격이 10만원 정도 하는 게임인데 이런 거 하나 못 고치는 개발자가 어디 있습니까 유튭에서 찾아보면 이런 사례들이 엄청 많이 돌아다닙니다 만약에 게임을 구매 하실거면 한 번 더 고민하고 결정 하는 게 낫습니다 한시간동안 고쳤는데도 안되면 그냥 아예 하지 말라는 거 아닌가 생각도 듭니다",
+          "게임사운드가 갑자기 나가서 게임을 삭제했다가 다시 다운받았는데도 사운드가 안돌아와서 게임을 한동안 접어두고 몇개월만에 게임을 켰을때 돌아왔습니다. 무슨버그인지는 뭐르겠지만 게임에 문제가있지만 관리자분들은 모르고 계시는것 같습니다. 아쉽네요",
+          "아니 tlqkf 련들아 포르자 호라이즌 4 때도 그러더니 자꾸 클라우드 오류 걸려서 초기화 시킬거면, 내가 게임을 하는 이유 가 뭔데 포르자 호라이즌 4도 내가 tlqkf 300 시간하고 5도 지금 414시간 했는데, 장난하냐? 컴퓨터 포맷 하고 다시 깔았다고 ㅇㅈㄹ 하는거면 GTA5는 왜 초기화 안되는데? 게임 비추 줌"
+        ],
+        "evidence_snippets": [
+          "게임사운드가 갑자기 나가서 게임을 삭제했다가 다시 다운받았는데도 사운드가 안돌아와서 게임을 한동안 접어두고 몇개월만에 게임을 켰을때 돌아왔습니다. 무슨버그인지는 뭐르겠지만 게임에 문제가있지만 관리자분들은 모르고 계시는것 같습니다. 아쉽네요",
+          "아니 tlqkf 련들아 포르자 호라이즌 4 때도 그러더니 자꾸 클라우드 오류 걸려서 초기화 시킬거면, 내가 게임을 하는 이유 가 뭔데 포르자 호라이즌 4도 내가 tlqkf 300 시간하고 5도 지금 414시간 했는데, 장난하냐? 컴퓨터 포맷 하고 다시 깔았다고 ㅇㅈㄹ 하는거면 GTA5는 왜 초기화 안되는데? 게임 비추 줌",
+          "윈도우 계정으로 연동해야함 이거 하나만으로도 비추박고 만원 이하 할인하는거 아니면 사지마라.. 계정 버그가 도대체 몇 번째인지 마크는 5년을 하면서 한번을 안그러는데 포호는 1년도 안돼서 이게 뭐하자는건지 안그래도 윈도우 계정 이전비번 다시 못 쓰게해서 열받는데 qudtls같은 겜임"
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-negative-1-1-4580262591081396395",
+            "text": "윈도우 계정으로 연동해야함 이거 하나만으로도 비추박고 만원 이하 할인하는거 아니면 사지마라.. 계정 버그가 도대체 몇 번째인지 마크는 5년을 하면서 한번을 안그러는데 포호는 1년도 안돼서 이게 뭐하자는건지 안그래도 윈도우 계정 이전비번 다시 못 쓰게해서 열받는데 qudtls같은 겜임"
+          },
+          {
+            "review_id": "compress-v3-negative-1-4-2106157964569360408",
+            "text": "DLC 내가 내 돈 주고 샀는데 포르자 아예 실행이 안되는 버그 걸림 디스크 손상이라고 해서 고치면 또 다른게 안된다 그러고 또 그걸 고치면 또 다시 디스크 손상이라고 계속 무한반복임 그냥 아예 DLC 사지 마세요 오랜만에 들어와서 DLC사서 차 좀 탈려고 하니까 안되서 그냥 게임 삭제 합니다 그리고 가격이 10만원 정도 하는 게임인데 이런 거 하나 못 고치는 개발자가 어디 있습니까 유튭에서 찾아보면 이런 사례들이 엄청 많이 돌아다닙니다 만약에 게임을 구매 하실거면 한 번 더 고민하고 결정 하는 게 낫습니다 한시간동안 고쳤는데도 안되면 그냥 아예 하지 말라는 거 아닌가 생각도 듭니다"
+          },
+          {
+            "review_id": "compress-v3-negative-1-6-8639544444664305193",
+            "text": "게임사운드가 갑자기 나가서 게임을 삭제했다가 다시 다운받았는데도 사운드가 안돌아와서 게임을 한동안 접어두고 몇개월만에 게임을 켰을때 돌아왔습니다. 무슨버그인지는 뭐르겠지만 게임에 문제가있지만 관리자분들은 모르고 계시는것 같습니다. 아쉽네요"
+          },
+          {
+            "review_id": "compress-v3-negative-1-8-3146957582701880282",
+            "text": "아니 tlqkf 련들아 포르자 호라이즌 4 때도 그러더니 자꾸 클라우드 오류 걸려서 초기화 시킬거면, 내가 게임을 하는 이유 가 뭔데 포르자 호라이즌 4도 내가 tlqkf 300 시간하고 5도 지금 414시간 했는데, 장난하냐? 컴퓨터 포맷 하고 다시 깔았다고 ㅇㅈㄹ 하는거면 GTA5는 왜 초기화 안되는데? 게임 비추 줌"
+          }
+        ]
+      },
+      {
+        "block_id": "risk_2",
+        "title": "프레임과 반응성이 흔들린다는 반응",
+        "theme": "프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크",
+        "why_it_matters": "프레임과 반응성 문제를 지적하는 반응이 이어져 기술 안정성에 민감하면 거슬릴 수 있습니다.",
+        "explanation": "프레임과 반응성 문제를 지적하는 반응이 이어져 기술 안정성에 민감하면 거슬릴 수 있습니다.",
+        "aspect_keys": [
+          "performance"
+        ],
+        "stance": "negative",
+        "consensus_level": "high",
+        "mention_count": 298,
+        "evidence_quality_level": "relaxed",
+        "evidence_candidate_snippets": [
+          "이 노트북에선 이 게임 못해요... ㅠㅠ 게임이 잘 돌아가고 60프레임 이상 나오기도 하는데 발열때문에 강제로 꺼져버리네요... 나중에 데스크탑이나 사면 함 해봐야겠어요",
+          "똥겜인증 해드림 이겜은 판매하면 불법인 퀄리티임 무료겜도 이것보단 최적화 잘되있음 이겜이 하고싶으시면 복1돌하세요 3080 3090 4090 / 13900KS 5800X3D 7950X3D / 64 다음과 같은 환경에서 무려 본편도아닌 DLC에서 본편에서 옛날에나 잇엇던 메모리 누수문제로 2~10프레임 나옴 4K환경아니고 QHD도 아니고 WFHD임 레이싱게임에서 프레임 들쭉날쭉 게임속도 들쭉날쭉 입력도 들쭉날쭉 브레이크도 안듣고 엑셀도 안듣고 핸들도 안꺾임 ㅎㅎ 본편도 솔찍히 전작만 못하다 싶엇고 DLC도 핫휠은 둘째치고 랠리나와서 더러울거같다고 생각했는데 최적화 잘해놓다가 통수칠줄은 몰랏지 겜해보면 맨날 똑같은차만 타서 열받고 주간미션은 차량 선택폭이 좁아서 열받고 DLC는 그냥 돈받고 파는게 불법인 퀄리티"
+        ],
+        "evidence_snippets": [
+          "이 노트북에선 이 게임 못해요... ㅠㅠ 게임이 잘 돌아가고 60프레임 이상 나오기도 하는데 발열때문에 강제로 꺼져버리네요... 나중에 데스크탑이나 사면 함 해봐야겠어요",
+          "똥겜인증 해드림 이겜은 판매하면 불법인 퀄리티임 무료겜도 이것보단 최적화 잘되있음 이겜이 하고싶으시면 복1돌하세요 3080 3090 4090 / 13900KS 5800X3D 7950X3D / 64 다음과 같은 환경에서 무려 본편도아닌 DLC에서 본편에서 옛날에나 잇엇던 메모리 누수문제로 2~10프레임 나옴 4K환경아니고 QHD도 아니고 WFHD임 레이싱게임에서 프레임 들쭉날쭉 게임속도 들쭉날쭉 입력도 들쭉날쭉 브레이크도 안듣고 엑셀도 안듣고 핸들도 안꺾임 ㅎㅎ 본편도 솔찍히 전작만 못하다 싶엇고 DLC도 핫휠은 둘째치고 랠리나와서 더러울거같다고 생각했는데 최적화 잘해놓다가 통수칠줄은 몰랏지 겜해보면 맨날 똑같은차만 타서 열받고 주간미션은 차량 선택폭이 좁아서 열받고 DLC는 그냥 돈받고 파는게 불법인 퀄리티"
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-negative-2-1-7558988777895887234",
+            "text": "이 노트북에선 이 게임 못해요... ㅠㅠ 게임이 잘 돌아가고 60프레임 이상 나오기도 하는데 발열때문에 강제로 꺼져버리네요... 나중에 데스크탑이나 사면 함 해봐야겠어요"
+          },
+          {
+            "review_id": "compress-v3-negative-2-5-5060019288819887507",
+            "text": "똥겜인증 해드림 이겜은 판매하면 불법인 퀄리티임 무료겜도 이것보단 최적화 잘되있음 이겜이 하고싶으시면 복1돌하세요 3080 3090 4090 / 13900KS 5800X3D 7950X3D / 64 다음과 같은 환경에서 무려 본편도아닌 DLC에서 본편에서 옛날에나 잇엇던 메모리 누수문제로 2~10프레임 나옴 4K환경아니고 QHD도 아니고 WFHD임 레이싱게임에서 프레임 들쭉날쭉 게임속도 들쭉날쭉 입력도 들쭉날쭉 브레이크도 안듣고 엑셀도 안듣고 핸들도 안꺾임 ㅎㅎ 본편도 솔찍히 전작만 못하다 싶엇고 DLC도 핫휠은 둘째치고 랠리나와서 더러울거같다고 생각했는데 최적화 잘해놓다가 통수칠줄은 몰랏지 겜해보면 맨날 똑같은차만 타서 열받고 주간미션은 차량 선택폭이 좁아서 열받고 DLC는 그냥 돈받고 파는게 불법인 퀄리티"
+          }
+        ]
+      },
+      {
+        "block_id": "risk_3",
+        "title": "가격 대비 만족이 갈린다는 반응",
+        "theme": "가격 대비 만족도가 갈려 구매 타이밍을 따져봐야 하는 포인트",
+        "why_it_matters": "가격 대비 만족을 지적하는 반응이 있어 비용 대비 만족을 꼼꼼히 보면 고민이 필요할 수 있습니다.",
+        "explanation": "가격 대비 만족을 지적하는 반응이 있어 비용 대비 만족을 꼼꼼히 보면 고민가 필요할 수 있습니다.",
+        "aspect_keys": [
+          "monetization"
+        ],
+        "stance": "negative",
+        "consensus_level": "high",
+        "mention_count": 287,
+        "evidence_quality_level": "relaxed",
+        "evidence_candidate_snippets": [
+          "샀는데 실행도 안됩니다 환불해주세요",
+          "휠 오류가 너무 심함 r3 세팅 했는데 엑셀 브레이크 반대로ㅓ 인식하고 휠반응도 이상함. 그렇다고ㅓ 인게임에서 휠 관련 설정이 가능하지도 않아서 걍 환불",
+          "DLC 내가 내 돈 주고 샀는데 포르자 아예 실행이 안되는 버그 걸림 디스크 손상이라고 해서 고치면 또 다른게 안된다 그러고 또 그걸 고치면 또 다시 디스크 손상이라고 계속 무한반복임 그냥 아예 DLC 사지 마세요 오랜만에 들어와서 DLC사서 차 좀 탈려고 하니까 안되서 그냥 게임 삭제 합니다 그리고 가격이 10만원 정도 하는 게임인데 이런 거 하나 못 고치는 개발자가 어디 있습니까 유튭에서 찾아보면 이런 사례들이 엄청 많이 돌아다닙니다 만약에 게임을 구매 하실거면 한 번 더 고민하고 결정 하는 게 낫습니다 한시간동안 고쳤는데도 안되면 그냥 아예 하지 말라는 거 아닌가 생각도 듭니다",
+          "한마디 요약하면 사지마십쇼 현 볼라오초 레이스 라이벌랭킹 100위권까지 갈정도로 즐겨플레이하는데 이때까지 항상들어갈때마다 프로필에 로그인할수없습니다란 문구가뜨면서 게임 접속조차못합니다 이때까진 자격증명 삭제 마이크로소프트 스토어 및 윈도우,xbox앱까지 전부 재로그인 스팀앱 재설치부터시작해서 안해본방법이없는데 이젠 무슨방법을 써도 플레이불가능합니다;; dlc까지포함해서 돈이 십수만이 들어갔는데 결국 돈버리는 꼴됩니다 이젠 포르자시리지는 버려야겠네요 xbox게임들 전부 꼴뵈기 싫어집니다.."
+        ],
+        "evidence_snippets": [
+          "DLC 내가 내 돈 주고 샀는데 포르자 아예 실행이 안되는 버그 걸림 디스크 손상이라고 해서 고치면 또 다른게 안된다 그러고 또 그걸 고치면 또 다시 디스크 손상이라고 계속 무한반복임 그냥 아예 DLC 사지 마세요 오랜만에 들어와서 DLC사서 차 좀 탈려고 하니까 안되서 그냥 게임 삭제 합니다 그리고 가격이 10만원 정도 하는 게임인데 이런 거 하나 못 고치는 개발자가 어디 있습니까 유튭에서 찾아보면 이런 사례들이 엄청 많이 돌아다닙니다 만약에 게임을 구매 하실거면 한 번 더 고민하고 결정 하는 게 낫습니다 한시간동안 고쳤는데도 안되면 그냥 아예 하지 말라는 거 아닌가 생각도 듭니다",
+          "휠 오류가 너무 심함 r3 세팅 했는데 엑셀 브레이크 반대로ㅓ 인식하고 휠반응도 이상함. 그렇다고ㅓ 인게임에서 휠 관련 설정이 가능하지도 않아서 걍 환불"
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-negative-3-2-3660479581552595286",
+            "text": "샀는데 실행도 안됩니다 환불해주세요"
+          },
+          {
+            "review_id": "compress-v3-negative-3-3-2789194884379540664",
+            "text": "휠 오류가 너무 심함 r3 세팅 했는데 엑셀 브레이크 반대로ㅓ 인식하고 휠반응도 이상함. 그렇다고ㅓ 인게임에서 휠 관련 설정이 가능하지도 않아서 걍 환불"
+          },
+          {
+            "review_id": "compress-v3-negative-3-5-2106157964569360408",
+            "text": "DLC 내가 내 돈 주고 샀는데 포르자 아예 실행이 안되는 버그 걸림 디스크 손상이라고 해서 고치면 또 다른게 안된다 그러고 또 그걸 고치면 또 다시 디스크 손상이라고 계속 무한반복임 그냥 아예 DLC 사지 마세요 오랜만에 들어와서 DLC사서 차 좀 탈려고 하니까 안되서 그냥 게임 삭제 합니다 그리고 가격이 10만원 정도 하는 게임인데 이런 거 하나 못 고치는 개발자가 어디 있습니까 유튭에서 찾아보면 이런 사례들이 엄청 많이 돌아다닙니다 만약에 게임을 구매 하실거면 한 번 더 고민하고 결정 하는 게 낫습니다 한시간동안 고쳤는데도 안되면 그냥 아예 하지 말라는 거 아닌가 생각도 듭니다"
+          },
+          {
+            "review_id": "compress-v3-negative-3-6-8845095805945818441",
+            "text": "한마디 요약하면 사지마십쇼 현 볼라오초 레이스 라이벌랭킹 100위권까지 갈정도로 즐겨플레이하는데 이때까지 항상들어갈때마다 프로필에 로그인할수없습니다란 문구가뜨면서 게임 접속조차못합니다 이때까진 자격증명 삭제 마이크로소프트 스토어 및 윈도우,xbox앱까지 전부 재로그인 스팀앱 재설치부터시작해서 안해본방법이없는데 이젠 무슨방법을 써도 플레이불가능합니다;; dlc까지포함해서 돈이 십수만이 들어갔는데 결국 돈버리는 꼴됩니다 이젠 포르자시리지는 버려야겠네요 xbox게임들 전부 꼴뵈기 싫어집니다.."
+          }
+        ]
+      }
+    ]
+  },
+  "disclaimer": "여러 유저 리뷰를 바탕으로 정리했어요. 플레이 경험은 사람마다 다를 수 있어요.",
+  "headline": "비주얼과 분위기 연출은 뛰어나지만 오류와 끊김 문제로 할인 시 구매를 권장합니다.",
+  "buy_recommendation": "buy_on_sale",
+  "buy_timing_summary": "오류와 최적화 문제로 불편할 수 있어 가격 메리트가 있는 할인 시점에 구매하는 것이 좋습니다.",
+  "good_for": [
+    "배경과 연출이 만드는 분위기를 중요하게 보는 플레이어",
+    "전술과 운영 판단을 오래 다듬는 플레이어",
+    "세계관과 맥락을 스스로 읽어가는 플레이어"
+  ],
+  "not_good_for": [
+    "진행 중 오류나 끊김을 거의 허용하지 않는 플레이어",
+    "프레임과 반응성에 민감한 플레이어",
+    "비용 대비 만족을 꼼꼼하게 따지는 플레이어"
+  ],
+  "top_strengths": [
+    {
+      "title": "탁월한 그래픽과 현실감이",
+      "summary": "멕시코의 다양한 생태계를 사실적으로 구현해 시원한 주행 경험을 선사하며, 차량 사운드와 물리 엔진이 한층 정교해져 몰입감을 높입니다."
+    },
+    {
+      "title": "풍부한 차량과 콘텐츠 볼륨",
+      "summary": "수백 대에 달하는 개성 있는 차량과 매주, 매월 추가되는 시즌 이벤트로 다양한 레이싱과 커스터마이징을 즐길 수 있어 지루할 틈이 없습니다."
+    },
+    {
+      "title": "편리한 조작과 접근성",
+      "summary": "아케이드와 시뮬레이션의 균형 잡힌 조작감과 되돌리기 기능 덕분에 초보자도 부담 없이 즐길 수 있으며, 패드 사용 시 더욱 쾌적한 플레이가 가능합니다."
+    }
+  ],
+  "top_risks": [
+    {
+      "title": "잦은 실행 중단과 충돌 문제",
+      "summary": "게임 도중 갑작스러운 튕김과 강제 종료가 빈번해 플레이 흐름이 끊기고, 특히 특정 플랫폼에서 실행 불가 현상도 보고됩니다."
+    },
+    {
+      "title": "최적화 미흡에 따른 성능 저하",
+      "summary": "높은 사양을 요구하며 프레임 드랍과 블랙 스크린 현상이 자주 발생해 쾌적한 주행 경험을 방해합니다."
+    },
+    {
+      "title": "계정 연동 및 멀티플레이가 불안정하다",
+      "summary": "윈도우 계정 연동 오류와 서버 접속 문제로 멀티플레이 이용이 어렵고, 부정 행위와 신고 시스템의 한계로 불쾌한 경험이 이어집니다."
+    }
+  ],
+  "recent_state": {
+    "status": "mixed",
+    "summary": "그래픽과 주행의 재미는 뛰어나지만, 최적화 문제와 버그로 인해 플레이 환경에 아쉬움이 남는 상황입니다."
+  },
+  "evidence_reviews": [
+    {
+      "block_id": "str_1",
+      "title": "비주얼과 분위기가 몰입을 만든다는 반응",
+      "theme": "그래픽 / 비주얼 호평",
+      "why_it_matters": "비주얼과 연출의 분위기를 좋게 보는 반응이 많아 장면과 감각을 중시하면 만족도가 높습니다.",
+      "explanation": "비주얼과 연출의 분위기를 좋게 보는 반응이 많아 장면과 감각을 중시하면 만족도가 높습니다.",
+      "aspect_keys": [
+        "graphics"
+      ],
+      "stance": "positive",
+      "consensus_level": "high",
+      "mention_count": 458,
+      "evidence_quality_level": "strict",
+      "evidence_candidate_snippets": [
+        "게임 자체가 비싸다는 느낌이 들어서 존버하다가 할인할 때 구매했는데 이야 진작 구매를 하지 않았다는 거를 후회하는 처음이자 마지막 게임이 되지 않을까....;; 인생 살면서 한 번이라도 타기 힘든 차들 게임에서라도 실컷 죽어라 모는 이 재미는 어떻게 설명 할 수가 없네요. 노트북으로 게임을 하는 입장이지만 QHD+ 해상도에서 DLSS 끄고 평균 160프레임 정도가 나와줘서 최적화는 진짜 잘되어있는 그래픽 좋고 물리엔진 좋은 갓겜",
+        "캐주얼하게 즐기기 좋고 그래픽 좋음, 물리엔진 좋음, 단점: 퀘스트 및 안내가 복잡함",
+        "굿굿 패드 새로 사서 하니까 몰입감 너무 좋아요 그래픽 램이 딸려서 중옵인게 아쉽네요 ㅠ",
+        "늘 그렇듯 포르자호라이즌 시리즈임 차량에 물리가 조금 더 좋아졌고 그래픽이 향상되었으나 4와 비교해서 재미 적인 요소가 추가되지는 않음 게다가 너무 아케이드성 게임이라 운전에 난이도가 어려운 것도 아님 딱 10시간 정도 즐기면 슬슬 질리는 게임 하지만 가끔 광활한 벌판을 좋은 그래픽으로 생각 없이 달리고 싶을 때 생각나는 그런 게임 추천은 하지만 오래 즐기기엔 무리"
+      ],
+      "evidence_snippets": [
+        "굿굿 패드 새로 사서 하니까 몰입감 너무 좋아요 그래픽 램이 딸려서 중옵인게 아쉽네요 ㅠ",
+        "캐주얼하게 즐기기 좋고 그래픽 좋음, 물리엔진 좋음, 단점: 퀘스트 및 안내가 복잡함",
+        "늘 그렇듯 포르자호라이즌 시리즈임 차량에 물리가 조금 더 좋아졌고 그래픽이 향상되었으나 4와 비교해서 재미 적인 요소가 추가되지는 않음 게다가 너무 아케이드성 게임이라 운전에 난이도가 어려운 것도 아님 딱 10시간 정도 즐기면 슬슬 질리는 게임 하지만 가끔 광활한 벌판을 좋은 그래픽으로 생각 없이 달리고 싶을 때 생각나는 그런 게임 추천은 하지만 오래 즐기기엔 무리"
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-positive-1-1-5192727281504184599",
+          "text": "게임 자체가 비싸다는 느낌이 들어서 존버하다가 할인할 때 구매했는데 이야 진작 구매를 하지 않았다는 거를 후회하는 처음이자 마지막 게임이 되지 않을까....;; 인생 살면서 한 번이라도 타기 힘든 차들 게임에서라도 실컷 죽어라 모는 이 재미는 어떻게 설명 할 수가 없네요. 노트북으로 게임을 하는 입장이지만 QHD+ 해상도에서 DLSS 끄고 평균 160프레임 정도가 나와줘서 최적화는 진짜 잘되어있는 그래픽 좋고 물리엔진 좋은 갓겜"
+        },
+        {
+          "review_id": "compress-v3-positive-1-2-2394620318879165310",
+          "text": "캐주얼하게 즐기기 좋고 그래픽 좋음, 물리엔진 좋음, 단점: 퀘스트 및 안내가 복잡함"
+        },
+        {
+          "review_id": "compress-v3-positive-1-3-8483410787210152359",
+          "text": "굿굿 패드 새로 사서 하니까 몰입감 너무 좋아요 그래픽 램이 딸려서 중옵인게 아쉽네요 ㅠ"
+        },
+        {
+          "review_id": "compress-v3-positive-1-4-5937586853443198125",
+          "text": "늘 그렇듯 포르자호라이즌 시리즈임 차량에 물리가 조금 더 좋아졌고 그래픽이 향상되었으나 4와 비교해서 재미 적인 요소가 추가되지는 않음 게다가 너무 아케이드성 게임이라 운전에 난이도가 어려운 것도 아님 딱 10시간 정도 즐기면 슬슬 질리는 게임 하지만 가끔 광활한 벌판을 좋은 그래픽으로 생각 없이 달리고 싶을 때 생각나는 그런 게임 추천은 하지만 오래 즐기기엔 무리"
+        }
+      ]
+    },
+    {
+      "block_id": "risk_1",
+      "title": "오류와 끊김이 흐름을 끊는다는 반응",
+      "theme": "예상치 못한 오류가 플레이 리듬을 끊을 수 있는 리스크",
+      "why_it_matters": "오류와 끊김을 지적하는 반응이 이어져 흐름이 끊기는 상황은 감수할 필요가 있습니다.",
+      "explanation": "오류와 끊김을 지적하는 반응이 이어져 흐름이 끊기는 상황은 감수할 필요가 있습니다.",
+      "aspect_keys": [
+        "bugs"
+      ],
+      "stance": "negative",
+      "consensus_level": "high",
+      "mention_count": 313,
+      "evidence_quality_level": "relaxed",
+      "evidence_candidate_snippets": [
+        "윈도우 계정으로 연동해야함 이거 하나만으로도 비추박고 만원 이하 할인하는거 아니면 사지마라.. 계정 버그가 도대체 몇 번째인지 마크는 5년을 하면서 한번을 안그러는데 포호는 1년도 안돼서 이게 뭐하자는건지 안그래도 윈도우 계정 이전비번 다시 못 쓰게해서 열받는데 qudtls같은 겜임",
+        "DLC 내가 내 돈 주고 샀는데 포르자 아예 실행이 안되는 버그 걸림 디스크 손상이라고 해서 고치면 또 다른게 안된다 그러고 또 그걸 고치면 또 다시 디스크 손상이라고 계속 무한반복임 그냥 아예 DLC 사지 마세요 오랜만에 들어와서 DLC사서 차 좀 탈려고 하니까 안되서 그냥 게임 삭제 합니다 그리고 가격이 10만원 정도 하는 게임인데 이런 거 하나 못 고치는 개발자가 어디 있습니까 유튭에서 찾아보면 이런 사례들이 엄청 많이 돌아다닙니다 만약에 게임을 구매 하실거면 한 번 더 고민하고 결정 하는 게 낫습니다 한시간동안 고쳤는데도 안되면 그냥 아예 하지 말라는 거 아닌가 생각도 듭니다",
+        "게임사운드가 갑자기 나가서 게임을 삭제했다가 다시 다운받았는데도 사운드가 안돌아와서 게임을 한동안 접어두고 몇개월만에 게임을 켰을때 돌아왔습니다. 무슨버그인지는 뭐르겠지만 게임에 문제가있지만 관리자분들은 모르고 계시는것 같습니다. 아쉽네요",
+        "아니 tlqkf 련들아 포르자 호라이즌 4 때도 그러더니 자꾸 클라우드 오류 걸려서 초기화 시킬거면, 내가 게임을 하는 이유 가 뭔데 포르자 호라이즌 4도 내가 tlqkf 300 시간하고 5도 지금 414시간 했는데, 장난하냐? 컴퓨터 포맷 하고 다시 깔았다고 ㅇㅈㄹ 하는거면 GTA5는 왜 초기화 안되는데? 게임 비추 줌"
+      ],
+      "evidence_snippets": [
+        "게임사운드가 갑자기 나가서 게임을 삭제했다가 다시 다운받았는데도 사운드가 안돌아와서 게임을 한동안 접어두고 몇개월만에 게임을 켰을때 돌아왔습니다. 무슨버그인지는 뭐르겠지만 게임에 문제가있지만 관리자분들은 모르고 계시는것 같습니다. 아쉽네요",
+        "아니 tlqkf 련들아 포르자 호라이즌 4 때도 그러더니 자꾸 클라우드 오류 걸려서 초기화 시킬거면, 내가 게임을 하는 이유 가 뭔데 포르자 호라이즌 4도 내가 tlqkf 300 시간하고 5도 지금 414시간 했는데, 장난하냐? 컴퓨터 포맷 하고 다시 깔았다고 ㅇㅈㄹ 하는거면 GTA5는 왜 초기화 안되는데? 게임 비추 줌",
+        "윈도우 계정으로 연동해야함 이거 하나만으로도 비추박고 만원 이하 할인하는거 아니면 사지마라.. 계정 버그가 도대체 몇 번째인지 마크는 5년을 하면서 한번을 안그러는데 포호는 1년도 안돼서 이게 뭐하자는건지 안그래도 윈도우 계정 이전비번 다시 못 쓰게해서 열받는데 qudtls같은 겜임"
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-negative-1-1-4580262591081396395",
+          "text": "윈도우 계정으로 연동해야함 이거 하나만으로도 비추박고 만원 이하 할인하는거 아니면 사지마라.. 계정 버그가 도대체 몇 번째인지 마크는 5년을 하면서 한번을 안그러는데 포호는 1년도 안돼서 이게 뭐하자는건지 안그래도 윈도우 계정 이전비번 다시 못 쓰게해서 열받는데 qudtls같은 겜임"
+        },
+        {
+          "review_id": "compress-v3-negative-1-4-2106157964569360408",
+          "text": "DLC 내가 내 돈 주고 샀는데 포르자 아예 실행이 안되는 버그 걸림 디스크 손상이라고 해서 고치면 또 다른게 안된다 그러고 또 그걸 고치면 또 다시 디스크 손상이라고 계속 무한반복임 그냥 아예 DLC 사지 마세요 오랜만에 들어와서 DLC사서 차 좀 탈려고 하니까 안되서 그냥 게임 삭제 합니다 그리고 가격이 10만원 정도 하는 게임인데 이런 거 하나 못 고치는 개발자가 어디 있습니까 유튭에서 찾아보면 이런 사례들이 엄청 많이 돌아다닙니다 만약에 게임을 구매 하실거면 한 번 더 고민하고 결정 하는 게 낫습니다 한시간동안 고쳤는데도 안되면 그냥 아예 하지 말라는 거 아닌가 생각도 듭니다"
+        },
+        {
+          "review_id": "compress-v3-negative-1-6-8639544444664305193",
+          "text": "게임사운드가 갑자기 나가서 게임을 삭제했다가 다시 다운받았는데도 사운드가 안돌아와서 게임을 한동안 접어두고 몇개월만에 게임을 켰을때 돌아왔습니다. 무슨버그인지는 뭐르겠지만 게임에 문제가있지만 관리자분들은 모르고 계시는것 같습니다. 아쉽네요"
+        },
+        {
+          "review_id": "compress-v3-negative-1-8-3146957582701880282",
+          "text": "아니 tlqkf 련들아 포르자 호라이즌 4 때도 그러더니 자꾸 클라우드 오류 걸려서 초기화 시킬거면, 내가 게임을 하는 이유 가 뭔데 포르자 호라이즌 4도 내가 tlqkf 300 시간하고 5도 지금 414시간 했는데, 장난하냐? 컴퓨터 포맷 하고 다시 깔았다고 ㅇㅈㄹ 하는거면 GTA5는 왜 초기화 안되는데? 게임 비추 줌"
+        }
+      ]
+    },
+    {
+      "block_id": "risk_2",
+      "title": "프레임과 반응성이 흔들린다는 반응",
+      "theme": "프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크",
+      "why_it_matters": "프레임과 반응성 문제를 지적하는 반응이 이어져 기술 안정성에 민감하면 거슬릴 수 있습니다.",
+      "explanation": "프레임과 반응성 문제를 지적하는 반응이 이어져 기술 안정성에 민감하면 거슬릴 수 있습니다.",
+      "aspect_keys": [
+        "performance"
+      ],
+      "stance": "negative",
+      "consensus_level": "high",
+      "mention_count": 298,
+      "evidence_quality_level": "relaxed",
+      "evidence_candidate_snippets": [
+        "이 노트북에선 이 게임 못해요... ㅠㅠ 게임이 잘 돌아가고 60프레임 이상 나오기도 하는데 발열때문에 강제로 꺼져버리네요... 나중에 데스크탑이나 사면 함 해봐야겠어요",
+        "똥겜인증 해드림 이겜은 판매하면 불법인 퀄리티임 무료겜도 이것보단 최적화 잘되있음 이겜이 하고싶으시면 복1돌하세요 3080 3090 4090 / 13900KS 5800X3D 7950X3D / 64 다음과 같은 환경에서 무려 본편도아닌 DLC에서 본편에서 옛날에나 잇엇던 메모리 누수문제로 2~10프레임 나옴 4K환경아니고 QHD도 아니고 WFHD임 레이싱게임에서 프레임 들쭉날쭉 게임속도 들쭉날쭉 입력도 들쭉날쭉 브레이크도 안듣고 엑셀도 안듣고 핸들도 안꺾임 ㅎㅎ 본편도 솔찍히 전작만 못하다 싶엇고 DLC도 핫휠은 둘째치고 랠리나와서 더러울거같다고 생각했는데 최적화 잘해놓다가 통수칠줄은 몰랏지 겜해보면 맨날 똑같은차만 타서 열받고 주간미션은 차량 선택폭이 좁아서 열받고 DLC는 그냥 돈받고 파는게 불법인 퀄리티"
+      ],
+      "evidence_snippets": [
+        "이 노트북에선 이 게임 못해요... ㅠㅠ 게임이 잘 돌아가고 60프레임 이상 나오기도 하는데 발열때문에 강제로 꺼져버리네요... 나중에 데스크탑이나 사면 함 해봐야겠어요",
+        "똥겜인증 해드림 이겜은 판매하면 불법인 퀄리티임 무료겜도 이것보단 최적화 잘되있음 이겜이 하고싶으시면 복1돌하세요 3080 3090 4090 / 13900KS 5800X3D 7950X3D / 64 다음과 같은 환경에서 무려 본편도아닌 DLC에서 본편에서 옛날에나 잇엇던 메모리 누수문제로 2~10프레임 나옴 4K환경아니고 QHD도 아니고 WFHD임 레이싱게임에서 프레임 들쭉날쭉 게임속도 들쭉날쭉 입력도 들쭉날쭉 브레이크도 안듣고 엑셀도 안듣고 핸들도 안꺾임 ㅎㅎ 본편도 솔찍히 전작만 못하다 싶엇고 DLC도 핫휠은 둘째치고 랠리나와서 더러울거같다고 생각했는데 최적화 잘해놓다가 통수칠줄은 몰랏지 겜해보면 맨날 똑같은차만 타서 열받고 주간미션은 차량 선택폭이 좁아서 열받고 DLC는 그냥 돈받고 파는게 불법인 퀄리티"
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-negative-2-1-7558988777895887234",
+          "text": "이 노트북에선 이 게임 못해요... ㅠㅠ 게임이 잘 돌아가고 60프레임 이상 나오기도 하는데 발열때문에 강제로 꺼져버리네요... 나중에 데스크탑이나 사면 함 해봐야겠어요"
+        },
+        {
+          "review_id": "compress-v3-negative-2-5-5060019288819887507",
+          "text": "똥겜인증 해드림 이겜은 판매하면 불법인 퀄리티임 무료겜도 이것보단 최적화 잘되있음 이겜이 하고싶으시면 복1돌하세요 3080 3090 4090 / 13900KS 5800X3D 7950X3D / 64 다음과 같은 환경에서 무려 본편도아닌 DLC에서 본편에서 옛날에나 잇엇던 메모리 누수문제로 2~10프레임 나옴 4K환경아니고 QHD도 아니고 WFHD임 레이싱게임에서 프레임 들쭉날쭉 게임속도 들쭉날쭉 입력도 들쭉날쭉 브레이크도 안듣고 엑셀도 안듣고 핸들도 안꺾임 ㅎㅎ 본편도 솔찍히 전작만 못하다 싶엇고 DLC도 핫휠은 둘째치고 랠리나와서 더러울거같다고 생각했는데 최적화 잘해놓다가 통수칠줄은 몰랏지 겜해보면 맨날 똑같은차만 타서 열받고 주간미션은 차량 선택폭이 좁아서 열받고 DLC는 그냥 돈받고 파는게 불법인 퀄리티"
+        }
+      ]
+    },
+    {
+      "block_id": "risk_3",
+      "title": "가격 대비 만족이 갈린다는 반응",
+      "theme": "가격 대비 만족도가 갈려 구매 타이밍을 따져봐야 하는 포인트",
+      "why_it_matters": "가격 대비 만족을 지적하는 반응이 있어 비용 대비 만족을 꼼꼼히 보면 고민이 필요할 수 있습니다.",
+      "explanation": "가격 대비 만족을 지적하는 반응이 있어 비용 대비 만족을 꼼꼼히 보면 고민가 필요할 수 있습니다.",
+      "aspect_keys": [
+        "monetization"
+      ],
+      "stance": "negative",
+      "consensus_level": "high",
+      "mention_count": 287,
+      "evidence_quality_level": "relaxed",
+      "evidence_candidate_snippets": [
+        "샀는데 실행도 안됩니다 환불해주세요",
+        "휠 오류가 너무 심함 r3 세팅 했는데 엑셀 브레이크 반대로ㅓ 인식하고 휠반응도 이상함. 그렇다고ㅓ 인게임에서 휠 관련 설정이 가능하지도 않아서 걍 환불",
+        "DLC 내가 내 돈 주고 샀는데 포르자 아예 실행이 안되는 버그 걸림 디스크 손상이라고 해서 고치면 또 다른게 안된다 그러고 또 그걸 고치면 또 다시 디스크 손상이라고 계속 무한반복임 그냥 아예 DLC 사지 마세요 오랜만에 들어와서 DLC사서 차 좀 탈려고 하니까 안되서 그냥 게임 삭제 합니다 그리고 가격이 10만원 정도 하는 게임인데 이런 거 하나 못 고치는 개발자가 어디 있습니까 유튭에서 찾아보면 이런 사례들이 엄청 많이 돌아다닙니다 만약에 게임을 구매 하실거면 한 번 더 고민하고 결정 하는 게 낫습니다 한시간동안 고쳤는데도 안되면 그냥 아예 하지 말라는 거 아닌가 생각도 듭니다",
+        "한마디 요약하면 사지마십쇼 현 볼라오초 레이스 라이벌랭킹 100위권까지 갈정도로 즐겨플레이하는데 이때까지 항상들어갈때마다 프로필에 로그인할수없습니다란 문구가뜨면서 게임 접속조차못합니다 이때까진 자격증명 삭제 마이크로소프트 스토어 및 윈도우,xbox앱까지 전부 재로그인 스팀앱 재설치부터시작해서 안해본방법이없는데 이젠 무슨방법을 써도 플레이불가능합니다;; dlc까지포함해서 돈이 십수만이 들어갔는데 결국 돈버리는 꼴됩니다 이젠 포르자시리지는 버려야겠네요 xbox게임들 전부 꼴뵈기 싫어집니다.."
+      ],
+      "evidence_snippets": [
+        "DLC 내가 내 돈 주고 샀는데 포르자 아예 실행이 안되는 버그 걸림 디스크 손상이라고 해서 고치면 또 다른게 안된다 그러고 또 그걸 고치면 또 다시 디스크 손상이라고 계속 무한반복임 그냥 아예 DLC 사지 마세요 오랜만에 들어와서 DLC사서 차 좀 탈려고 하니까 안되서 그냥 게임 삭제 합니다 그리고 가격이 10만원 정도 하는 게임인데 이런 거 하나 못 고치는 개발자가 어디 있습니까 유튭에서 찾아보면 이런 사례들이 엄청 많이 돌아다닙니다 만약에 게임을 구매 하실거면 한 번 더 고민하고 결정 하는 게 낫습니다 한시간동안 고쳤는데도 안되면 그냥 아예 하지 말라는 거 아닌가 생각도 듭니다",
+        "휠 오류가 너무 심함 r3 세팅 했는데 엑셀 브레이크 반대로ㅓ 인식하고 휠반응도 이상함. 그렇다고ㅓ 인게임에서 휠 관련 설정이 가능하지도 않아서 걍 환불"
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-negative-3-2-3660479581552595286",
+          "text": "샀는데 실행도 안됩니다 환불해주세요"
+        },
+        {
+          "review_id": "compress-v3-negative-3-3-2789194884379540664",
+          "text": "휠 오류가 너무 심함 r3 세팅 했는데 엑셀 브레이크 반대로ㅓ 인식하고 휠반응도 이상함. 그렇다고ㅓ 인게임에서 휠 관련 설정이 가능하지도 않아서 걍 환불"
+        },
+        {
+          "review_id": "compress-v3-negative-3-5-2106157964569360408",
+          "text": "DLC 내가 내 돈 주고 샀는데 포르자 아예 실행이 안되는 버그 걸림 디스크 손상이라고 해서 고치면 또 다른게 안된다 그러고 또 그걸 고치면 또 다시 디스크 손상이라고 계속 무한반복임 그냥 아예 DLC 사지 마세요 오랜만에 들어와서 DLC사서 차 좀 탈려고 하니까 안되서 그냥 게임 삭제 합니다 그리고 가격이 10만원 정도 하는 게임인데 이런 거 하나 못 고치는 개발자가 어디 있습니까 유튭에서 찾아보면 이런 사례들이 엄청 많이 돌아다닙니다 만약에 게임을 구매 하실거면 한 번 더 고민하고 결정 하는 게 낫습니다 한시간동안 고쳤는데도 안되면 그냥 아예 하지 말라는 거 아닌가 생각도 듭니다"
+        },
+        {
+          "review_id": "compress-v3-negative-3-6-8845095805945818441",
+          "text": "한마디 요약하면 사지마십쇼 현 볼라오초 레이스 라이벌랭킹 100위권까지 갈정도로 즐겨플레이하는데 이때까지 항상들어갈때마다 프로필에 로그인할수없습니다란 문구가뜨면서 게임 접속조차못합니다 이때까진 자격증명 삭제 마이크로소프트 스토어 및 윈도우,xbox앱까지 전부 재로그인 스팀앱 재설치부터시작해서 안해본방법이없는데 이젠 무슨방법을 써도 플레이불가능합니다;; dlc까지포함해서 돈이 십수만이 들어갔는데 결국 돈버리는 꼴됩니다 이젠 포르자시리지는 버려야겠네요 xbox게임들 전부 꼴뵈기 싫어집니다.."
+        }
+      ]
+    }
+  ]
+}
