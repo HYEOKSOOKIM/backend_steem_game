@@ -1082,6 +1082,15 @@ def _sanitize_one_liner_ko(text: str, fallback_reason: str) -> str:
     return line
 
 
+def _build_one_liner_from_reason(reason: str, max_chars: int = 48) -> str:
+    r = re.sub(r"\s+", " ", str(reason or "")).strip()
+    if not r:
+        return ""
+    if len(r) <= max_chars:
+        return r
+    return r[: max(20, max_chars - 1)].rstrip() + "…"
+
+
 def recommend_games(
     db_path: Path,
     query: str,
@@ -1577,7 +1586,10 @@ def recommend_games(
     final_results: list[dict] = []
     if llm is not None:
         t_llm = time.perf_counter()
-        max_workers = max(2, min(8, top_k))
+        # Too much parallel LLM fan-out causes frequent timeout/rate-limit failures in production.
+        # Keep default conservative and configurable.
+        llm_workers = int((os.getenv("RECOMMEND_LLM_WORKERS") or "2").strip() or "2")
+        max_workers = max(1, min(4, llm_workers))
 
         def _enrich_llm_row(indexed_row: tuple[int, dict]) -> tuple[int, dict | None, list[str]]:
             idx, src_item = indexed_row
@@ -1599,12 +1611,8 @@ def recommend_games(
 
             item["evidence_summaries_ko"] = summaries
             item["reason_ko"] = reason
-            raw_one_liner = local_llm.generate_one_liner_ko(
-                query=effective_query,
-                game_name=item.get("name", ""),
-                reason_ko=reason,
-                caution_notes=list(item.get("caution_notes", []) or []),
-            )
+            # Avoid a second LLM call per item; this was a major failure source under load.
+            raw_one_liner = _build_one_liner_from_reason(reason)
             item["one_liner_ko"] = _sanitize_one_liner_ko(raw_one_liner, reason)
             return idx, item, list(local_llm.errors)
 
