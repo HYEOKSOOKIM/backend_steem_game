@@ -1,0 +1,781 @@
+{
+  "report_version": "v4-planned-sections",
+  "appid": 2246340,
+  "pipeline_run_id": "2246340-20260430T092124Z",
+  "generated_at": "2026-04-30T09:24:08.391038+00:00",
+  "source_review_count": 17598,
+  "included_review_count": 13178,
+  "min_report_review_count": 100,
+  "report_state": "ready",
+  "review_trend": {
+    "granularity": "month",
+    "metric": "positive_ratio",
+    "points": [
+      {
+        "month": "2025-02",
+        "positive_count": 815,
+        "review_count": 1307,
+        "positive_ratio": 0.6236
+      },
+      {
+        "month": "2025-03",
+        "positive_count": 6281,
+        "review_count": 8889,
+        "positive_ratio": 0.7066
+      },
+      {
+        "month": "2025-04",
+        "positive_count": 740,
+        "review_count": 1111,
+        "positive_ratio": 0.6661
+      },
+      {
+        "month": "2025-05",
+        "positive_count": 287,
+        "review_count": 582,
+        "positive_ratio": 0.4931
+      },
+      {
+        "month": "2025-06",
+        "positive_count": 234,
+        "review_count": 1733,
+        "positive_ratio": 0.135
+      },
+      {
+        "month": "2025-07",
+        "positive_count": 145,
+        "review_count": 864,
+        "positive_ratio": 0.1678
+      },
+      {
+        "month": "2025-08",
+        "positive_count": 120,
+        "review_count": 446,
+        "positive_ratio": 0.2691
+      },
+      {
+        "month": "2025-09",
+        "positive_count": 112,
+        "review_count": 518,
+        "positive_ratio": 0.2162
+      },
+      {
+        "month": "2025-10",
+        "positive_count": 148,
+        "review_count": 753,
+        "positive_ratio": 0.1965
+      },
+      {
+        "month": "2025-11",
+        "positive_count": 161,
+        "review_count": 275,
+        "positive_ratio": 0.5855
+      },
+      {
+        "month": "2025-12",
+        "positive_count": 132,
+        "review_count": 322,
+        "positive_ratio": 0.4099
+      },
+      {
+        "month": "2026-01",
+        "positive_count": 111,
+        "review_count": 229,
+        "positive_ratio": 0.4847
+      },
+      {
+        "month": "2026-02",
+        "positive_count": 160,
+        "review_count": 232,
+        "positive_ratio": 0.6897
+      },
+      {
+        "month": "2026-03",
+        "positive_count": 147,
+        "review_count": 203,
+        "positive_ratio": 0.7241
+      },
+      {
+        "month": "2026-04",
+        "positive_count": 90,
+        "review_count": 134,
+        "positive_ratio": 0.6716
+      }
+    ]
+  },
+  "game": {
+    "name": "Monster Hunter Wilds",
+    "genres": [
+      "액션",
+      "어드벤처",
+      "RPG"
+    ],
+    "price_model": "paid",
+    "is_free": false,
+    "release_stage": "released",
+    "release_date_text": "2025년 2월 27일",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/header.jpg?t=1771382452",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/970508d58e4f11f6f9ff3e2921b7eec558a50af8/capsule_231x87.jpg?t=1771382452",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/970508d58e4f11f6f9ff3e2921b7eec558a50af8/capsule_184x69.jpg?t=1771382452",
+    "screenshots": [
+      {
+        "id": "0",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_31b5597fecf2d9a2904bc9bbf8011aacb18143db.600x338.jpg?t=1771382452",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_31b5597fecf2d9a2904bc9bbf8011aacb18143db.1920x1080.jpg?t=1771382452"
+      },
+      {
+        "id": "1",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_9245c1ede8c3fc2cd65e4890a74a01ef50b726da.600x338.jpg?t=1771382452",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_9245c1ede8c3fc2cd65e4890a74a01ef50b726da.1920x1080.jpg?t=1771382452"
+      },
+      {
+        "id": "2",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_c722e74607ffda9a1472093ccc934f1bdde10ab8.600x338.jpg?t=1771382452",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_c722e74607ffda9a1472093ccc934f1bdde10ab8.1920x1080.jpg?t=1771382452"
+      },
+      {
+        "id": "3",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_d439e321350c004c4d866c248019aefdc6a50600.600x338.jpg?t=1771382452",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_d439e321350c004c4d866c248019aefdc6a50600.1920x1080.jpg?t=1771382452"
+      },
+      {
+        "id": "4",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_fa2361b39da8e8bde3cbc282879de97f2f3e57af.600x338.jpg?t=1771382452",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_fa2361b39da8e8bde3cbc282879de97f2f3e57af.1920x1080.jpg?t=1771382452"
+      },
+      {
+        "id": "5",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_c1dd8c8af4e0fd3bb233888b4155d94f7988debd.600x338.jpg?t=1771382452",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_c1dd8c8af4e0fd3bb233888b4155d94f7988debd.1920x1080.jpg?t=1771382452"
+      },
+      {
+        "id": "6",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_c1c31d5252307bd9e331f21509c8fd8dc39c2d61.600x338.jpg?t=1771382452",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_c1c31d5252307bd9e331f21509c8fd8dc39c2d61.1920x1080.jpg?t=1771382452"
+      },
+      {
+        "id": "7",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_5b3101fafdfb638384a5cc0024a9801fe6af06b6.600x338.jpg?t=1771382452",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_5b3101fafdfb638384a5cc0024a9801fe6af06b6.1920x1080.jpg?t=1771382452"
+      },
+      {
+        "id": "8",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_e78e739e1cd881de7a7c4cbec0b3ada2df155678.600x338.jpg?t=1771382452",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_e78e739e1cd881de7a7c4cbec0b3ada2df155678.1920x1080.jpg?t=1771382452"
+      },
+      {
+        "id": "9",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_d17898c5f18d4e081fe185d28fd0eb8155fbf529.600x338.jpg?t=1771382452",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_d17898c5f18d4e081fe185d28fd0eb8155fbf529.1920x1080.jpg?t=1771382452"
+      }
+    ],
+    "movies": [
+      {
+        "id": "257283344",
+        "name": "02_MHWilds_TU4.5_Multi_KR_NoRating_1080p",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257283344/f56fc8e58afb3467141df79a3f449fab20649949/movie_600x337.jpg?t=1770710685",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/1541253526/042a92b2d007ade5d0c28ffb0ccb8c5bc42fe0cd/1770702160/hls_264_master.m3u8?t=1770710685",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/1541253526/042a92b2d007ade5d0c28ffb0ccb8c5bc42fe0cd/1770702160/dash_h264.mpd?t=1770710685",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2246340/1541253526/042a92b2d007ade5d0c28ffb0ccb8c5bc42fe0cd/1770702160/dash_av1.mpd?t=1770710685",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/2246340/1541253526/042a92b2d007ade5d0c28ffb0ccb8c5bc42fe0cd/1770702160/hls_264_master.m3u8?t=1770710685"
+      },
+      {
+        "id": "257247847",
+        "name": "02_MHWilds_TU4_Multi_KR_NoRating_1080p",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257247847/a65be8c16e8d198844dfe817412b441c5d1f352e/movie_600x337.jpg?t=1765526407",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/1042235984/13810532c2dcbb9bc51318bf84c954a0044e42f6/1765505266/hls_264_master.m3u8?t=1765526407",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/1042235984/13810532c2dcbb9bc51318bf84c954a0044e42f6/1765505266/dash_h264.mpd?t=1765526407",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2246340/1042235984/13810532c2dcbb9bc51318bf84c954a0044e42f6/1765505266/dash_av1.mpd?t=1765526407",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/2246340/1042235984/13810532c2dcbb9bc51318bf84c954a0044e42f6/1765505266/hls_264_master.m3u8?t=1765526407"
+      },
+      {
+        "id": "257205912",
+        "name": "02_MHWilds_TU3_Multi_KR_NoRating_1080p",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257205912/9dfa3c12cb51aefbc31d546a232181be24c19322/movie_600x337.jpg?t=1758783962",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/311642500/8bac47e9264998812e526c1aa530893584dd58b7/1758775999/hls_264_master.m3u8?t=1758783962",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/311642500/8bac47e9264998812e526c1aa530893584dd58b7/1758775999/dash_h264.mpd?t=1758783962",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2246340/311642500/8bac47e9264998812e526c1aa530893584dd58b7/1758775999/dash_av1.mpd?t=1758783962",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/2246340/311642500/8bac47e9264998812e526c1aa530893584dd58b7/1758775999/hls_264_master.m3u8?t=1758783962"
+      },
+      {
+        "id": "257162144",
+        "name": "02_MHWilds_TU2_Multi_KR_NoRating_1080p",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257162144/7abdbb66cc73fe48c5d83286a334fb9e83c6bbe5/movie_600x337.jpg?t=1750999199",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/1582877284/53ae83153516409edeed977b05287ccdbce9fe81/1750990362/hls_264_master.m3u8?t=1750999199",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/1582877284/53ae83153516409edeed977b05287ccdbce9fe81/1750990362/dash_h264.mpd?t=1750999199",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2246340/1582877284/53ae83153516409edeed977b05287ccdbce9fe81/1750990362/dash_av1.mpd?t=1750999199",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/2246340/1582877284/53ae83153516409edeed977b05287ccdbce9fe81/1750990362/hls_264_master.m3u8?t=1750999199"
+      },
+      {
+        "id": "257118552",
+        "name": "02_MHWilds_TU1_Multi_KR_1080p",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257118552/d9f67f524a5de835fc81740acae8e4178c4dc8d9/movie_600x337.jpg?t=1742961813",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/857801/182ace032aff9058a1fcb1412c576ae75cb21485/1748034205/hls_264_master.m3u8?t=1742961813",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/857801/182ace032aff9058a1fcb1412c576ae75cb21485/1748034205/dash_h264.mpd?t=1742961813",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2246340/857801/182ace032aff9058a1fcb1412c576ae75cb21485/1748034205/dash_av1.mpd?t=1742961813",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/2246340/857801/182ace032aff9058a1fcb1412c576ae75cb21485/1748034205/hls_264_master.m3u8?t=1742961813"
+      },
+      {
+        "id": "257108892",
+        "name": "02_MHWilds_StoryPV_Multi_KR_1080p",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257108892/b6cc301baf2b1a852fb956fb6ac547046e48b0ce/movie_600x337.jpg?t=1740977495",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/842756/44cfbbf15a3ff77f044ed73b649d9921d78ad45a/1748034075/hls_264_master.m3u8?t=1740977495",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/842756/44cfbbf15a3ff77f044ed73b649d9921d78ad45a/1748034075/dash_h264.mpd?t=1740977495",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2246340/842756/44cfbbf15a3ff77f044ed73b649d9921d78ad45a/1748034075/dash_av1.mpd?t=1740977495",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/2246340/842756/44cfbbf15a3ff77f044ed73b649d9921d78ad45a/1748034075/hls_264_master.m3u8?t=1740977495"
+      },
+      {
+        "id": "257097894",
+        "name": "02_MHWilds_PV7_Multi_KR_1080p",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257097894/14271d82fae23158bde2f51f4af8216d6046ed3a/movie_600x337.jpg?t=1739425886",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/828214/d91d56a018e371170bc8a01fc648be69682e81bf/1748033109/hls_264_master.m3u8?t=1739425886",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/828214/d91d56a018e371170bc8a01fc648be69682e81bf/1748033109/dash_h264.mpd?t=1739425886",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2246340/828214/d91d56a018e371170bc8a01fc648be69682e81bf/1748033109/dash_av1.mpd?t=1739425886",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/2246340/828214/d91d56a018e371170bc8a01fc648be69682e81bf/1748033109/hls_264_master.m3u8?t=1739425886"
+      },
+      {
+        "id": "257094886",
+        "name": "02_MHWilds_PV6_Multi_KR_1080p",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257094886/9b5f62e4a58338d475f11a7d95921f0c8f09e5e7/movie_600x337.jpg?t=1739425928",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/823300/432fa171a28f085f7ce2e575461624ac67b0533c/1748032643/hls_264_master.m3u8?t=1739425928",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/823300/432fa171a28f085f7ce2e575461624ac67b0533c/1748032643/dash_h264.mpd?t=1739425928",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2246340/823300/432fa171a28f085f7ce2e575461624ac67b0533c/1748032643/dash_av1.mpd?t=1739425928",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/2246340/823300/432fa171a28f085f7ce2e575461624ac67b0533c/1748032643/hls_264_master.m3u8?t=1739425928"
+      },
+      {
+        "id": "257068937",
+        "name": "02_MHWilds_PV5_Multi_KR_1080p",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257068937/587ceff321831e80b8a2cdace618249c1f6ac209/movie_600x337.jpg?t=1730266635",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/778036/935107b76eb94c1594da908cf570e7dbccc6c5b0/1748031233/hls_264_master.m3u8?t=1730266635",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/778036/935107b76eb94c1594da908cf570e7dbccc6c5b0/1748031233/dash_h264.mpd?t=1730266635",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2246340/778036/935107b76eb94c1594da908cf570e7dbccc6c5b0/1748031233/dash_av1.mpd?t=1730266635",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/2246340/778036/935107b76eb94c1594da908cf570e7dbccc6c5b0/1748031233/hls_264_master.m3u8?t=1730266635"
+      },
+      {
+        "id": "257069235",
+        "name": "02_MHWilds_PV4_Multi_KR_1080p_0926",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257069235/aba4ff6100abadd9343ce4bbf03ddee17b652faf/movie_600x337.jpg?t=1730266707",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/778496/31c375304761e1d279b958cc8981ff5854925f81/1748032568/hls_264_master.m3u8?t=1730266707",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/778496/31c375304761e1d279b958cc8981ff5854925f81/1748032568/dash_h264.mpd?t=1730266707",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2246340/778496/31c375304761e1d279b958cc8981ff5854925f81/1748032568/dash_av1.mpd?t=1730266707",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/2246340/778496/31c375304761e1d279b958cc8981ff5854925f81/1748032568/hls_264_master.m3u8?t=1730266707"
+      },
+      {
+        "id": "257069217",
+        "name": "02_MHWilds_PV3_Multi_KR_1080p",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257069217/ad718a00c58fef2be8371dfd0891afa20729bba3/movie_600x337.jpg?t=1730266779",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/778477/2395e11365dd486d339e2f745bc5a8e8172645a3/1748031780/hls_264_master.m3u8?t=1730266779",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/778477/2395e11365dd486d339e2f745bc5a8e8172645a3/1748031780/dash_h264.mpd?t=1730266779",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2246340/778477/2395e11365dd486d339e2f745bc5a8e8172645a3/1748031780/dash_av1.mpd?t=1730266779",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/2246340/778477/2395e11365dd486d339e2f745bc5a8e8172645a3/1748031780/hls_264_master.m3u8?t=1730266779"
+      },
+      {
+        "id": "257027126",
+        "name": "02_MHWilds_PV1_Multi_KR_1080P",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257027126/movie.293x165.jpg?t=1717124049",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/707264/2a3639eea5fb4de063a77def8a8b6ce9b129ce20/1748031166/hls_264_master.m3u8?t=1717124049",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/707264/2a3639eea5fb4de063a77def8a8b6ce9b129ce20/1748031166/dash_h264.mpd?t=1717124049",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2246340/707264/2a3639eea5fb4de063a77def8a8b6ce9b129ce20/1748031166/dash_av1.mpd?t=1717124049",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/2246340/707264/2a3639eea5fb4de063a77def8a8b6ce9b129ce20/1748031166/hls_264_master.m3u8?t=1717124049"
+      },
+      {
+        "id": "256988304",
+        "name": "02_MHWilds_AnnouncePV_Multi_KR_1080P",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256988304/movie.293x165.jpg?t=1702947733",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/639411/59a4ca7bc27c308e836a1b79dbbb9514ab8d93da/1748031157/hls_264_master.m3u8?t=1702947733",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/639411/59a4ca7bc27c308e836a1b79dbbb9514ab8d93da/1748031157/dash_h264.mpd?t=1702947733",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2246340/639411/59a4ca7bc27c308e836a1b79dbbb9514ab8d93da/1748031157/dash_av1.mpd?t=1702947733",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/2246340/639411/59a4ca7bc27c308e836a1b79dbbb9514ab8d93da/1748031157/hls_264_master.m3u8?t=1702947733"
+      }
+    ],
+    "short_description": "거칠고 치열한 자연의 습격. 시시각각 역동적으로 그 모습을 바꾸는 필드. 양면성을 지닌 세계를 살아가는 몬스터와 사람들의 이야기. 더욱더 발전한 헌팅 액션과 끊임없는 몰입감을 추구하는 궁극의 사냥 체험이 당신을 기다리고 있다.",
+    "steam_store_url": "https://store.steampowered.com/app/2246340",
+    "steam_recommendation_count": 192846,
+    "steam_review_score_desc": "Mixed",
+    "steam_total_positive": 9682,
+    "steam_total_negative": 7918,
+    "steam_total_reviews": 17600,
+    "price_currency": "KRW",
+    "price_current": 8480000,
+    "price_original": 8480000,
+    "price_current_formatted": "₩ 84,800",
+    "price_original_formatted": null,
+    "price_discount_percent": 0
+  },
+  "report_plan": {
+    "decision_anchor": {
+      "buy_recommendation": "wait",
+      "primary_reason_ids": [
+        "risk_1",
+        "risk_2"
+      ],
+      "rationale_short": "오류와 끊김 리스크 관련 불편을 호소하는 후기가 늘어 업데이트 방향을 확인한 뒤 결정하는 편이 안전합니다."
+    },
+    "section_blueprint": {
+      "strength_block_count": 3,
+      "risk_block_count": 3,
+      "evidence_per_block": 3
+    },
+    "theme_priorities": {
+      "strengths": [
+        {
+          "reason_id": "str_1",
+          "aspect": "gameplay",
+          "theme": "빌드 / 무기 다양성"
+        },
+        {
+          "reason_id": "str_2",
+          "aspect": "graphics",
+          "theme": "그래픽 / 비주얼 호평"
+        },
+        {
+          "reason_id": "str_3",
+          "aspect": "story",
+          "theme": "스토리 / 서사 몰입"
+        }
+      ],
+      "risks": [
+        {
+          "reason_id": "risk_1",
+          "aspect": "performance",
+          "theme": "최적화 문제"
+        },
+        {
+          "reason_id": "risk_2",
+          "aspect": "content_depth",
+          "theme": "콘텐츠 부족"
+        },
+        {
+          "reason_id": "risk_3",
+          "aspect": "bugs",
+          "theme": "충돌 / 크래시"
+        }
+      ]
+    }
+  },
+  "report_display": {
+    "headline": "장비 파밍과 성장 루프의 장점이 보여 무료로 가볍게 시작해보고 맞는지 판단하기 좋습니다.",
+    "buy_recommendation": "wait",
+    "buy_timing_summary": "최적화와 콘텐츠 부족에 대한 불만이 많아 업데이트 방향을 확인한 뒤 결정하는 것이 안전합니다.",
+    "good_for": [
+      "세계관과 맥락을 스스로 읽어가는 플레이어",
+      "장비와 빌드를 오래 다듬는 플레이어",
+      "배경과 연출이 만드는 분위기를 중요하게 보는 플레이어"
+    ],
+    "not_good_for": [
+      "진행 중 오류나 끊김을 거의 허용하지 않는 플레이어",
+      "비용 대비 만족을 꼼꼼하게 따지는 플레이어",
+      "같은 흐름이 길어지면 피로를 크게 느끼는 플레이어"
+    ],
+    "top_strengths": [
+      {
+        "title": "다채로운 빌드와 무기 선택이 있다",
+        "summary": "다양한 무기와 세밀한 빌드 조합이 플레이에 깊이를 더해, 자신만의 스타일로 사냥을 즐길 수 있어 몰입감을 높여 줍니다."
+      },
+      {
+        "title": "풍부한 그래픽과 생태계 연출",
+        "summary": "계절과 날씨 변화에 따른 필드의 생동감 넘치는 연출이 시각적 즐거움을 선사하며, 자연스러운 생태계 변화가 탐험의 재미를 더합니다."
+      },
+      {
+        "title": "몰입도가 높은 스토리와 캐릭터 연출",
+        "summary": "주요 인물들의 개성과 스토리 전개가 자연스럽게 녹아들어, 사냥과 이야기가 유기적으로 연결되어 플레이 내내 집중할 수 있습니다."
+      }
+    ],
+    "top_risks": [
+      {
+        "title": "잦은 크래시와 튕김 현상",
+        "summary": "게임 도중 빈번한 크래시와 연결 끊김이 발생해 플레이가 중단되고 불쾌감을 유발합니다."
+      },
+      {
+        "title": "심각한 프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크",
+        "summary": "고사양 PC에서도 프레임 드랍과 렉이 잦아 쾌적한 플레이가 어렵고, 일부 구간에서는 실행 자체가 불가능할 수 있습니다."
+      },
+      {
+        "title": "플레이 시간이 누적될수록 새로움이 빨리 소진될 수 있는 리스크와 반복 파밍 피로",
+        "summary": "초반 이후 할 만한 콘텐츠가 부족해지고, 특정 몬스터 반복 사냥에 지루함과 피로가 쌓입니다."
+      }
+    ],
+    "recent_state": {
+      "status": "declining",
+      "summary": "최적화 문제와 콘텐츠 부족에 대한 불만이 계속되며 전투의 재미와 몰입감도 떨어지고 있습니다."
+    }
+  },
+  "evidence_sections": {
+    "strengths": [
+      {
+        "block_id": "str_1",
+        "title": "장비 파밍과 성장 루프가 오래 붙잡는다는 반응",
+        "theme": "빌드 / 무기 다양성",
+        "why_it_matters": "장비 파밍과 성장 루프를 좋게 보는 반응이 많아 반복 임무 속에서 강해지는 구조를 즐기면 잘 맞습니다.",
+        "explanation": "장비 파밍과 성장 루프를 좋게 보는 반응이 많아 반복 임무 속에서 강해지는 구조를 즐기면 잘 맞습니다.",
+        "aspect_keys": [
+          "gameplay"
+        ],
+        "stance": "positive",
+        "consensus_level": "high",
+        "mention_count": 2376,
+        "evidence_quality_level": "strict",
+        "evidence_candidate_snippets": [
+          "눈부신 가드 성능(밀림[대])를 지닌 무기. 빈틈(과 멋)이 없는 찌르기 공격이 주특기입니다. 다양한 가드 액션을 이용해 사냥을 유리하게 이끌(고 있다 착각 할) 수 있습니다.",
+          "개인적으론 수많은 패치를 거친 후 나온 몬헌의 정수와도 같은 게임이라고 생각합니다. 앞으로 몬헌이 가야할 방향성을 이 게임으로 테스트 한 것 같고, 전 정말 즐겁게 플레이 하고 있습니다. 다만 아쉬운 점이 있다면 후반으로 갈수록 잡을 몬스터는 많지만 잡아야 하는 몬스터는 적어지는 현상이 있습니다. 무기 밸런스를 전체적으로 조정하면서 조작 난이도를 완화하여 몬스터 헌터 월드, 아이스본, 라이즈, 썬브레이크를 플레이할때는 못느꼈던 재미를 느끼게 해 준 좋은 작품인 것 같습니다. 여전히 최적화 면에선 조금 아쉬운 부분도 없지않아 있지만 저는 최소 200시간은 즐길 것 같네요.",
+          "이번에 상향받은 건랜스는 꽤 재미있었음. 갓본도랑 원거리 무기 제외하고 재미있는거 있으면 추천받을 생각. 그나저나 온라인 플레이를 억지로 시키는 느낌이 있네 오프라인 컨텐츠가 벌써 다 끝나다니...이 게임도 월드처럼 될때까지 묵혀둬야 하나..."
+        ],
+        "evidence_snippets": [
+          "이번에 상향받은 건랜스는 꽤 재미있었음. 갓본도랑 원거리 무기 제외하고 재미있는거 있으면 추천받을 생각. 그나저나 온라인 플레이를 억지로 시키는 느낌이 있네 오프라인 컨텐츠가 벌써 다 끝나다니... 이 게임도 월드처럼 될때까지 묵혀둬야 하나...",
+          "개인적으론 수많은 패치를 거친 후 나온 몬헌의 정수와도 같은 게임이라고 생각합니다. 앞으로 몬헌이 가야할 방향성을 이 게임으로 테스트 한 것 같고, 전 정말 즐겁게 플레이 하고 있습니다. 다만 아쉬운 점이 있다면 후반으로 갈수록 잡을 몬스터는 많지만 잡아야 하는 몬스터는 적어지는 현상이 있습니다. 무기 밸런스를 전체적으로 조정하면서 조작 난이도를 완화하여 몬스터 헌터 월드, 아이스본, 라이즈, 썬브레이크를 플레이할때는 못느꼈던 재미를 느끼게 해 준 좋은 작품인 것 같습니다. 여전히 최적화 면에선 조금 아쉬운 부분도 없지않아 있지만 저는 최소 200시간은 즐길 것 같네요."
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-positive-1-1-4707266306831168196",
+            "text": "눈부신 가드 성능(밀림[대])를 지닌 무기. 빈틈(과 멋)이 없는 찌르기 공격이 주특기입니다. 다양한 가드 액션을 이용해 사냥을 유리하게 이끌(고 있다 착각 할) 수 있습니다."
+          },
+          {
+            "review_id": "compress-v3-positive-1-2-5495868087358567894",
+            "text": "개인적으론 수많은 패치를 거친 후 나온 몬헌의 정수와도 같은 게임이라고 생각합니다. 앞으로 몬헌이 가야할 방향성을 이 게임으로 테스트 한 것 같고, 전 정말 즐겁게 플레이 하고 있습니다. 다만 아쉬운 점이 있다면 후반으로 갈수록 잡을 몬스터는 많지만 잡아야 하는 몬스터는 적어지는 현상이 있습니다. 무기 밸런스를 전체적으로 조정하면서 조작 난이도를 완화하여 몬스터 헌터 월드, 아이스본, 라이즈, 썬브레이크를 플레이할때는 못느꼈던 재미를 느끼게 해 준 좋은 작품인 것 같습니다. 여전히 최적화 면에선 조금 아쉬운 부분도 없지않아 있지만 저는 최소 200시간은 즐길 것 같네요."
+          },
+          {
+            "review_id": "compress-v3-positive-1-3-2216420113297251378",
+            "text": "이번에 상향받은 건랜스는 꽤 재미있었음. 갓본도랑 원거리 무기 제외하고 재미있는거 있으면 추천받을 생각. 그나저나 온라인 플레이를 억지로 시키는 느낌이 있네 오프라인 컨텐츠가 벌써 다 끝나다니...이 게임도 월드처럼 될때까지 묵혀둬야 하나..."
+          }
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "block_id": "risk_1",
+        "title": "프레임과 반응성이 흔들린다는 반응",
+        "theme": "프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크",
+        "why_it_matters": "프레임과 반응성 문제를 지적하는 반응이 이어져 기술 안정성에 민감하면 거슬릴 수 있습니다.",
+        "explanation": "프레임과 반응성 문제를 지적하는 반응이 이어져 기술 안정성에 민감하면 거슬릴 수 있습니다.",
+        "aspect_keys": [
+          "performance"
+        ],
+        "stance": "negative",
+        "consensus_level": "high",
+        "mention_count": 4632,
+        "evidence_quality_level": "strict",
+        "evidence_candidate_snippets": [
+          "최적화 패치 좀 됏다길래 오랜만에 들어왔더니 여전한 ㅄ겜이구나 게임 시작도 안된다 ㅋㅋㅋㅋㅋ 월드때보다 쉽게 만들어서 진입장벽을 낮춘듯 하나, 그만큼 풍부한 컨텐츠로 유저를 잡아놔야지 알슈 뺑뺑이만 돌리고 몹 수도 적은 게임",
+          "게임 최적화 문젠지 실행만 하면 그냥 꺼집니다. 해결 방법 찾아서 해봐고 재설치 해봐도 똑같이 반복 그냥 이 회사꺼 안하는게 맞는듯 합니다",
+          "새 시리즈나 최적화 해서 다시 만들어라",
+          "이게임 출시한지가 얼만데 아직도 최적화 못해냄. 이런거는 게임이 아님"
+        ],
+        "evidence_snippets": [
+          "최적화 패치 좀 됏다길래 오랜만에 들어왔더니 여전한 ㅄ겜이구나 게임 시작도 안된다 ㅋㅋㅋㅋㅋ 월드때보다 쉽게 만들어서 진입장벽을 낮춘듯 하나, 그만큼 풍부한 컨텐츠로 유저를 잡아놔야지 알슈 뺑뺑이만 돌리고 몹 수도 적은 게임",
+          "게임 최적화 문젠지 실행만 하면 그냥 꺼집니다. 해결 방법 찾아서 해봐고 재설치 해봐도 똑같가 반복 그냥 이 회사꺼 안하는게 맞는듯 합니다",
+          "새 시리즈나 최적화 해서 다시 만들어라"
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-negative-1-1-6791085424848972252",
+            "text": "최적화 패치 좀 됏다길래 오랜만에 들어왔더니 여전한 ㅄ겜이구나 게임 시작도 안된다 ㅋㅋㅋㅋㅋ 월드때보다 쉽게 만들어서 진입장벽을 낮춘듯 하나, 그만큼 풍부한 컨텐츠로 유저를 잡아놔야지 알슈 뺑뺑이만 돌리고 몹 수도 적은 게임"
+          },
+          {
+            "review_id": "compress-v3-negative-1-2-3088526005607884083",
+            "text": "게임 최적화 문젠지 실행만 하면 그냥 꺼집니다. 해결 방법 찾아서 해봐고 재설치 해봐도 똑같이 반복 그냥 이 회사꺼 안하는게 맞는듯 합니다"
+          },
+          {
+            "review_id": "compress-v3-negative-1-3-4375706160703631679",
+            "text": "새 시리즈나 최적화 해서 다시 만들어라"
+          },
+          {
+            "review_id": "compress-v3-negative-1-4-5650469022938733990",
+            "text": "이게임 출시한지가 얼만데 아직도 최적화 못해냄. 이런거는 게임이 아님"
+          }
+        ]
+      },
+      {
+        "block_id": "risk_2",
+        "title": "반복감이 피로로 이어진다는 반응",
+        "theme": "플레이 시간이 누적될수록 새로움이 빨리 소진될 수 있는 리스크",
+        "why_it_matters": "반복감이 피로로 이어진다는 반응이 있어 새로움이 빨리 줄어드는 구간은 감수해야 할 수 있습니다.",
+        "explanation": "반복감이 피로로 이어진다는 반응이 있어 새로움이 빨리 줄어드는 구간은 감수해야 할 수 있습니다.",
+        "aspect_keys": [
+          "content_depth"
+        ],
+        "stance": "negative",
+        "consensus_level": "high",
+        "mention_count": 2566,
+        "evidence_quality_level": "strict",
+        "evidence_candidate_snippets": [
+          "월드에 비해 많이 실망스러운건 사실임. 그래도 라이즈보다는 선녀다!!!! DLC에서 만회하길 기대할게요 고그마지오스 개쓰레기 똥몹 이딴걸 반복으로 잡으라고 만든거냐? 죽어 토쿠다",
+          "ㅈ같은 테이블작이나 좀 없애라. 하루종일 세이브 로드 반복하면서 똑같은 행동을 몇백번 반복할 때마다 수렵겜을 하는건지 빠칭코를 돌리는건지 분간이 안간다. 내세울게 없으니까 이런식으로 플탐뻥을 유도하는건가?"
+        ],
+        "evidence_snippets": [
+          "월드에 비해 많이 실망스러운건 사실임. 그래도 라이즈보다는 선녀다!!!! DLC에서 만회하길 기대할게요 고그마지오스 개쓰레기 똥몹 이딴걸 반복으로 잡으라고 만든거냐? 죽어 토쿠다",
+          "ㅈ같은 테이블작이나 좀 없애라. 하루종일 세이브 로드 반복하면서 똑같은 행동을 몇백번 반복할 때마다 수렵겜을 하는건지 빠칭코를 돌리는건지 분간이 안간다. 내세울게 없으니까 이런식으로 플탐뻥을 유도하는건가?"
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-negative-2-2-270665296875116187",
+            "text": "월드에 비해 많이 실망스러운건 사실임. 그래도 라이즈보다는 선녀다!!!! DLC에서 만회하길 기대할게요 고그마지오스 개쓰레기 똥몹 이딴걸 반복으로 잡으라고 만든거냐? 죽어 토쿠다"
+          },
+          {
+            "review_id": "compress-v3-negative-2-3-3468264032549916245",
+            "text": "ㅈ같은 테이블작이나 좀 없애라. 하루종일 세이브 로드 반복하면서 똑같은 행동을 몇백번 반복할 때마다 수렵겜을 하는건지 빠칭코를 돌리는건지 분간이 안간다. 내세울게 없으니까 이런식으로 플탐뻥을 유도하는건가?"
+          }
+        ]
+      },
+      {
+        "block_id": "risk_3",
+        "title": "오류와 끊김이 흐름을 끊는다는 반응",
+        "theme": "충돌 / 크래시",
+        "why_it_matters": "오류와 끊김을 지적하는 반응이 이어져 흐름이 끊기는 상황은 감수할 필요가 있습니다.",
+        "explanation": "오류와 끊김을 지적하는 반응이 이어져 흐름이 끊기는 상황은 감수할 필요가 있습니다.",
+        "aspect_keys": [
+          "bugs"
+        ],
+        "stance": "negative",
+        "consensus_level": "high",
+        "mention_count": 1658,
+        "evidence_quality_level": "strict",
+        "evidence_candidate_snippets": [
+          "잠깐 해볼까 했더니 아직도 크래시가 뜨네",
+          "줜나 팅기네 크래시 진짜 개빡치게",
+          "월즈가 얼마나 잘 만들었던 게임인지 알겠고 아직 최적화 패치가 더 필요할듯 월즈때 50분 꽉꽉 채워가며 사냥했었는데 지금은 10분 15분 이렇게 짧게 끝나니깐 다른 게임하는 기분임. 그리고 이동수단 생기니깐 맵을 감상하는 시간도 매우 줄어들었음 그래서 그런지 맵이 월즈에 비해 별로 안예쁘고 어두컴컴함 내 컴퓨터가 안좋은 컴퓨터도 아니고 옵타안하는 것도 아닌데 퀘스트 창이나 장비창에서 자꾸 렉걸리고 끊김 옵타해서 못생기고 안예쁜것도 있고 이해하는데 멈추고 글카드라이버 오류뜰때마다 화가 너무나서 안하고 접고 싶어짐 스토리도 재미없고 짜증나 웅장한 맛도 없어 네르기간테같이 멋있는 얘들도 안나와 장점이 뭔지 나도 좀 알고싶음 20시간 넘으면 어느정도 겜인지는 감이 오는데 이건 그냥 순수 노잼임 초반에 월즈때 추억으로 참고참고 했는데 그냥 순수 노잼임 이게 4만원짜리 인디겜이면 이해할텐데 니들은 따봉먹을 자격없다 그래도 노력 인정해서 웬만하면 따봉주는데 가격을 한번보고 생각해봐라"
+        ],
+        "evidence_snippets": [
+          "줜나 팅기네 크래시 진짜 개빡치게",
+          "월즈가 얼마나 잘 만들었던 게임인지 알겠고 아직 최적화 패치가 더 필요할듯 월즈때 50분 꽉꽉 채워가며 사냥했었는데 지금은 10분 15분 이렇게 짧게 끝나니깐 다른 게임하는 기분임. 그리고 이동수단 생기니깐 맵을 감상하는 시간도 매우 줄어들었음 그래서 그런지 맵이 월즈에 비해 별로 안예쁘고 어두컴컴함 내 컴퓨터가 안좋은 컴퓨터도 아니고 옵타안하는 것도 아닌데 퀘스트 창이나 장비창에서 자꾸 렉걸리고 끊김 옵타해서 못생기고 안예쁜것도 있고 이해하는데 멈추고 글카드라이버 오류뜰때마다 화가 너무나서 안하고 접고 싶어짐 스토리도 재미없고 짜증나 웅장한 맛도 없어 네르기간테같이 멋있는 얘들도 안나와 장점이 뭔지 나도 좀 알고싶음 20시간 넘으면 어느정도 겜인지는 감이 오는데 이건 그냥 순수 노잼임 초반에 월즈때 추억으로 참고참고 했는데 그냥 순수 노잼임 이게 4만원짜리 인디겜이면 이해할텐데 니들은 따봉먹을 자격없다 그래도 노력 인정해서 웬만하면 따봉주는데 가격을 한번보고 생각해봐라"
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-negative-3-1-8231664780485120906",
+            "text": "잠깐 해볼까 했더니 아직도 크래시가 뜨네"
+          },
+          {
+            "review_id": "compress-v3-negative-3-2-8824519527047893139",
+            "text": "줜나 팅기네 크래시 진짜 개빡치게"
+          },
+          {
+            "review_id": "compress-v3-negative-3-3-4458746553964783508",
+            "text": "월즈가 얼마나 잘 만들었던 게임인지 알겠고 아직 최적화 패치가 더 필요할듯 월즈때 50분 꽉꽉 채워가며 사냥했었는데 지금은 10분 15분 이렇게 짧게 끝나니깐 다른 게임하는 기분임. 그리고 이동수단 생기니깐 맵을 감상하는 시간도 매우 줄어들었음 그래서 그런지 맵이 월즈에 비해 별로 안예쁘고 어두컴컴함 내 컴퓨터가 안좋은 컴퓨터도 아니고 옵타안하는 것도 아닌데 퀘스트 창이나 장비창에서 자꾸 렉걸리고 끊김 옵타해서 못생기고 안예쁜것도 있고 이해하는데 멈추고 글카드라이버 오류뜰때마다 화가 너무나서 안하고 접고 싶어짐 스토리도 재미없고 짜증나 웅장한 맛도 없어 네르기간테같이 멋있는 얘들도 안나와 장점이 뭔지 나도 좀 알고싶음 20시간 넘으면 어느정도 겜인지는 감이 오는데 이건 그냥 순수 노잼임 초반에 월즈때 추억으로 참고참고 했는데 그냥 순수 노잼임 이게 4만원짜리 인디겜이면 이해할텐데 니들은 따봉먹을 자격없다 그래도 노력 인정해서 웬만하면 따봉주는데 가격을 한번보고 생각해봐라"
+          }
+        ]
+      }
+    ]
+  },
+  "disclaimer": "여러 유저 리뷰를 바탕으로 정리했어요. 플레이 경험은 사람마다 다를 수 있어요.",
+  "headline": "장비 파밍과 성장 루프의 장점이 보여 무료로 가볍게 시작해보고 맞는지 판단하기 좋습니다.",
+  "buy_recommendation": "wait",
+  "buy_timing_summary": "최적화와 콘텐츠 부족에 대한 불만이 많아 업데이트 방향을 확인한 뒤 결정하는 것이 안전합니다.",
+  "good_for": [
+    "세계관과 맥락을 스스로 읽어가는 플레이어",
+    "장비와 빌드를 오래 다듬는 플레이어",
+    "배경과 연출이 만드는 분위기를 중요하게 보는 플레이어"
+  ],
+  "not_good_for": [
+    "진행 중 오류나 끊김을 거의 허용하지 않는 플레이어",
+    "비용 대비 만족을 꼼꼼하게 따지는 플레이어",
+    "같은 흐름이 길어지면 피로를 크게 느끼는 플레이어"
+  ],
+  "top_strengths": [
+    {
+      "title": "다채로운 빌드와 무기 선택이 있다",
+      "summary": "다양한 무기와 세밀한 빌드 조합이 플레이에 깊이를 더해, 자신만의 스타일로 사냥을 즐길 수 있어 몰입감을 높여 줍니다."
+    },
+    {
+      "title": "풍부한 그래픽과 생태계 연출",
+      "summary": "계절과 날씨 변화에 따른 필드의 생동감 넘치는 연출이 시각적 즐거움을 선사하며, 자연스러운 생태계 변화가 탐험의 재미를 더합니다."
+    },
+    {
+      "title": "몰입도가 높은 스토리와 캐릭터 연출",
+      "summary": "주요 인물들의 개성과 스토리 전개가 자연스럽게 녹아들어, 사냥과 이야기가 유기적으로 연결되어 플레이 내내 집중할 수 있습니다."
+    }
+  ],
+  "top_risks": [
+    {
+      "title": "잦은 크래시와 튕김 현상",
+      "summary": "게임 도중 빈번한 크래시와 연결 끊김이 발생해 플레이가 중단되고 불쾌감을 유발합니다."
+    },
+    {
+      "title": "심각한 프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크",
+      "summary": "고사양 PC에서도 프레임 드랍과 렉이 잦아 쾌적한 플레이가 어렵고, 일부 구간에서는 실행 자체가 불가능할 수 있습니다."
+    },
+    {
+      "title": "플레이 시간이 누적될수록 새로움이 빨리 소진될 수 있는 리스크와 반복 파밍 피로",
+      "summary": "초반 이후 할 만한 콘텐츠가 부족해지고, 특정 몬스터 반복 사냥에 지루함과 피로가 쌓입니다."
+    }
+  ],
+  "recent_state": {
+    "status": "declining",
+    "summary": "최적화 문제와 콘텐츠 부족에 대한 불만이 계속되며 전투의 재미와 몰입감도 떨어지고 있습니다."
+  },
+  "evidence_reviews": [
+    {
+      "block_id": "str_1",
+      "title": "장비 파밍과 성장 루프가 오래 붙잡는다는 반응",
+      "theme": "빌드 / 무기 다양성",
+      "why_it_matters": "장비 파밍과 성장 루프를 좋게 보는 반응이 많아 반복 임무 속에서 강해지는 구조를 즐기면 잘 맞습니다.",
+      "explanation": "장비 파밍과 성장 루프를 좋게 보는 반응이 많아 반복 임무 속에서 강해지는 구조를 즐기면 잘 맞습니다.",
+      "aspect_keys": [
+        "gameplay"
+      ],
+      "stance": "positive",
+      "consensus_level": "high",
+      "mention_count": 2376,
+      "evidence_quality_level": "strict",
+      "evidence_candidate_snippets": [
+        "눈부신 가드 성능(밀림[대])를 지닌 무기. 빈틈(과 멋)이 없는 찌르기 공격이 주특기입니다. 다양한 가드 액션을 이용해 사냥을 유리하게 이끌(고 있다 착각 할) 수 있습니다.",
+        "개인적으론 수많은 패치를 거친 후 나온 몬헌의 정수와도 같은 게임이라고 생각합니다. 앞으로 몬헌이 가야할 방향성을 이 게임으로 테스트 한 것 같고, 전 정말 즐겁게 플레이 하고 있습니다. 다만 아쉬운 점이 있다면 후반으로 갈수록 잡을 몬스터는 많지만 잡아야 하는 몬스터는 적어지는 현상이 있습니다. 무기 밸런스를 전체적으로 조정하면서 조작 난이도를 완화하여 몬스터 헌터 월드, 아이스본, 라이즈, 썬브레이크를 플레이할때는 못느꼈던 재미를 느끼게 해 준 좋은 작품인 것 같습니다. 여전히 최적화 면에선 조금 아쉬운 부분도 없지않아 있지만 저는 최소 200시간은 즐길 것 같네요.",
+        "이번에 상향받은 건랜스는 꽤 재미있었음. 갓본도랑 원거리 무기 제외하고 재미있는거 있으면 추천받을 생각. 그나저나 온라인 플레이를 억지로 시키는 느낌이 있네 오프라인 컨텐츠가 벌써 다 끝나다니...이 게임도 월드처럼 될때까지 묵혀둬야 하나..."
+      ],
+      "evidence_snippets": [
+        "이번에 상향받은 건랜스는 꽤 재미있었음. 갓본도랑 원거리 무기 제외하고 재미있는거 있으면 추천받을 생각. 그나저나 온라인 플레이를 억지로 시키는 느낌이 있네 오프라인 컨텐츠가 벌써 다 끝나다니... 이 게임도 월드처럼 될때까지 묵혀둬야 하나...",
+        "개인적으론 수많은 패치를 거친 후 나온 몬헌의 정수와도 같은 게임이라고 생각합니다. 앞으로 몬헌이 가야할 방향성을 이 게임으로 테스트 한 것 같고, 전 정말 즐겁게 플레이 하고 있습니다. 다만 아쉬운 점이 있다면 후반으로 갈수록 잡을 몬스터는 많지만 잡아야 하는 몬스터는 적어지는 현상이 있습니다. 무기 밸런스를 전체적으로 조정하면서 조작 난이도를 완화하여 몬스터 헌터 월드, 아이스본, 라이즈, 썬브레이크를 플레이할때는 못느꼈던 재미를 느끼게 해 준 좋은 작품인 것 같습니다. 여전히 최적화 면에선 조금 아쉬운 부분도 없지않아 있지만 저는 최소 200시간은 즐길 것 같네요."
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-positive-1-1-4707266306831168196",
+          "text": "눈부신 가드 성능(밀림[대])를 지닌 무기. 빈틈(과 멋)이 없는 찌르기 공격이 주특기입니다. 다양한 가드 액션을 이용해 사냥을 유리하게 이끌(고 있다 착각 할) 수 있습니다."
+        },
+        {
+          "review_id": "compress-v3-positive-1-2-5495868087358567894",
+          "text": "개인적으론 수많은 패치를 거친 후 나온 몬헌의 정수와도 같은 게임이라고 생각합니다. 앞으로 몬헌이 가야할 방향성을 이 게임으로 테스트 한 것 같고, 전 정말 즐겁게 플레이 하고 있습니다. 다만 아쉬운 점이 있다면 후반으로 갈수록 잡을 몬스터는 많지만 잡아야 하는 몬스터는 적어지는 현상이 있습니다. 무기 밸런스를 전체적으로 조정하면서 조작 난이도를 완화하여 몬스터 헌터 월드, 아이스본, 라이즈, 썬브레이크를 플레이할때는 못느꼈던 재미를 느끼게 해 준 좋은 작품인 것 같습니다. 여전히 최적화 면에선 조금 아쉬운 부분도 없지않아 있지만 저는 최소 200시간은 즐길 것 같네요."
+        },
+        {
+          "review_id": "compress-v3-positive-1-3-2216420113297251378",
+          "text": "이번에 상향받은 건랜스는 꽤 재미있었음. 갓본도랑 원거리 무기 제외하고 재미있는거 있으면 추천받을 생각. 그나저나 온라인 플레이를 억지로 시키는 느낌이 있네 오프라인 컨텐츠가 벌써 다 끝나다니...이 게임도 월드처럼 될때까지 묵혀둬야 하나..."
+        }
+      ]
+    },
+    {
+      "block_id": "risk_1",
+      "title": "프레임과 반응성이 흔들린다는 반응",
+      "theme": "프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크",
+      "why_it_matters": "프레임과 반응성 문제를 지적하는 반응이 이어져 기술 안정성에 민감하면 거슬릴 수 있습니다.",
+      "explanation": "프레임과 반응성 문제를 지적하는 반응이 이어져 기술 안정성에 민감하면 거슬릴 수 있습니다.",
+      "aspect_keys": [
+        "performance"
+      ],
+      "stance": "negative",
+      "consensus_level": "high",
+      "mention_count": 4632,
+      "evidence_quality_level": "strict",
+      "evidence_candidate_snippets": [
+        "최적화 패치 좀 됏다길래 오랜만에 들어왔더니 여전한 ㅄ겜이구나 게임 시작도 안된다 ㅋㅋㅋㅋㅋ 월드때보다 쉽게 만들어서 진입장벽을 낮춘듯 하나, 그만큼 풍부한 컨텐츠로 유저를 잡아놔야지 알슈 뺑뺑이만 돌리고 몹 수도 적은 게임",
+        "게임 최적화 문젠지 실행만 하면 그냥 꺼집니다. 해결 방법 찾아서 해봐고 재설치 해봐도 똑같이 반복 그냥 이 회사꺼 안하는게 맞는듯 합니다",
+        "새 시리즈나 최적화 해서 다시 만들어라",
+        "이게임 출시한지가 얼만데 아직도 최적화 못해냄. 이런거는 게임이 아님"
+      ],
+      "evidence_snippets": [
+        "최적화 패치 좀 됏다길래 오랜만에 들어왔더니 여전한 ㅄ겜이구나 게임 시작도 안된다 ㅋㅋㅋㅋㅋ 월드때보다 쉽게 만들어서 진입장벽을 낮춘듯 하나, 그만큼 풍부한 컨텐츠로 유저를 잡아놔야지 알슈 뺑뺑이만 돌리고 몹 수도 적은 게임",
+        "게임 최적화 문젠지 실행만 하면 그냥 꺼집니다. 해결 방법 찾아서 해봐고 재설치 해봐도 똑같가 반복 그냥 이 회사꺼 안하는게 맞는듯 합니다",
+        "새 시리즈나 최적화 해서 다시 만들어라"
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-negative-1-1-6791085424848972252",
+          "text": "최적화 패치 좀 됏다길래 오랜만에 들어왔더니 여전한 ㅄ겜이구나 게임 시작도 안된다 ㅋㅋㅋㅋㅋ 월드때보다 쉽게 만들어서 진입장벽을 낮춘듯 하나, 그만큼 풍부한 컨텐츠로 유저를 잡아놔야지 알슈 뺑뺑이만 돌리고 몹 수도 적은 게임"
+        },
+        {
+          "review_id": "compress-v3-negative-1-2-3088526005607884083",
+          "text": "게임 최적화 문젠지 실행만 하면 그냥 꺼집니다. 해결 방법 찾아서 해봐고 재설치 해봐도 똑같이 반복 그냥 이 회사꺼 안하는게 맞는듯 합니다"
+        },
+        {
+          "review_id": "compress-v3-negative-1-3-4375706160703631679",
+          "text": "새 시리즈나 최적화 해서 다시 만들어라"
+        },
+        {
+          "review_id": "compress-v3-negative-1-4-5650469022938733990",
+          "text": "이게임 출시한지가 얼만데 아직도 최적화 못해냄. 이런거는 게임이 아님"
+        }
+      ]
+    },
+    {
+      "block_id": "risk_2",
+      "title": "반복감이 피로로 이어진다는 반응",
+      "theme": "플레이 시간이 누적될수록 새로움이 빨리 소진될 수 있는 리스크",
+      "why_it_matters": "반복감이 피로로 이어진다는 반응이 있어 새로움이 빨리 줄어드는 구간은 감수해야 할 수 있습니다.",
+      "explanation": "반복감이 피로로 이어진다는 반응이 있어 새로움이 빨리 줄어드는 구간은 감수해야 할 수 있습니다.",
+      "aspect_keys": [
+        "content_depth"
+      ],
+      "stance": "negative",
+      "consensus_level": "high",
+      "mention_count": 2566,
+      "evidence_quality_level": "strict",
+      "evidence_candidate_snippets": [
+        "월드에 비해 많이 실망스러운건 사실임. 그래도 라이즈보다는 선녀다!!!! DLC에서 만회하길 기대할게요 고그마지오스 개쓰레기 똥몹 이딴걸 반복으로 잡으라고 만든거냐? 죽어 토쿠다",
+        "ㅈ같은 테이블작이나 좀 없애라. 하루종일 세이브 로드 반복하면서 똑같은 행동을 몇백번 반복할 때마다 수렵겜을 하는건지 빠칭코를 돌리는건지 분간이 안간다. 내세울게 없으니까 이런식으로 플탐뻥을 유도하는건가?"
+      ],
+      "evidence_snippets": [
+        "월드에 비해 많이 실망스러운건 사실임. 그래도 라이즈보다는 선녀다!!!! DLC에서 만회하길 기대할게요 고그마지오스 개쓰레기 똥몹 이딴걸 반복으로 잡으라고 만든거냐? 죽어 토쿠다",
+        "ㅈ같은 테이블작이나 좀 없애라. 하루종일 세이브 로드 반복하면서 똑같은 행동을 몇백번 반복할 때마다 수렵겜을 하는건지 빠칭코를 돌리는건지 분간이 안간다. 내세울게 없으니까 이런식으로 플탐뻥을 유도하는건가?"
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-negative-2-2-270665296875116187",
+          "text": "월드에 비해 많이 실망스러운건 사실임. 그래도 라이즈보다는 선녀다!!!! DLC에서 만회하길 기대할게요 고그마지오스 개쓰레기 똥몹 이딴걸 반복으로 잡으라고 만든거냐? 죽어 토쿠다"
+        },
+        {
+          "review_id": "compress-v3-negative-2-3-3468264032549916245",
+          "text": "ㅈ같은 테이블작이나 좀 없애라. 하루종일 세이브 로드 반복하면서 똑같은 행동을 몇백번 반복할 때마다 수렵겜을 하는건지 빠칭코를 돌리는건지 분간이 안간다. 내세울게 없으니까 이런식으로 플탐뻥을 유도하는건가?"
+        }
+      ]
+    },
+    {
+      "block_id": "risk_3",
+      "title": "오류와 끊김이 흐름을 끊는다는 반응",
+      "theme": "충돌 / 크래시",
+      "why_it_matters": "오류와 끊김을 지적하는 반응이 이어져 흐름이 끊기는 상황은 감수할 필요가 있습니다.",
+      "explanation": "오류와 끊김을 지적하는 반응이 이어져 흐름이 끊기는 상황은 감수할 필요가 있습니다.",
+      "aspect_keys": [
+        "bugs"
+      ],
+      "stance": "negative",
+      "consensus_level": "high",
+      "mention_count": 1658,
+      "evidence_quality_level": "strict",
+      "evidence_candidate_snippets": [
+        "잠깐 해볼까 했더니 아직도 크래시가 뜨네",
+        "줜나 팅기네 크래시 진짜 개빡치게",
+        "월즈가 얼마나 잘 만들었던 게임인지 알겠고 아직 최적화 패치가 더 필요할듯 월즈때 50분 꽉꽉 채워가며 사냥했었는데 지금은 10분 15분 이렇게 짧게 끝나니깐 다른 게임하는 기분임. 그리고 이동수단 생기니깐 맵을 감상하는 시간도 매우 줄어들었음 그래서 그런지 맵이 월즈에 비해 별로 안예쁘고 어두컴컴함 내 컴퓨터가 안좋은 컴퓨터도 아니고 옵타안하는 것도 아닌데 퀘스트 창이나 장비창에서 자꾸 렉걸리고 끊김 옵타해서 못생기고 안예쁜것도 있고 이해하는데 멈추고 글카드라이버 오류뜰때마다 화가 너무나서 안하고 접고 싶어짐 스토리도 재미없고 짜증나 웅장한 맛도 없어 네르기간테같이 멋있는 얘들도 안나와 장점이 뭔지 나도 좀 알고싶음 20시간 넘으면 어느정도 겜인지는 감이 오는데 이건 그냥 순수 노잼임 초반에 월즈때 추억으로 참고참고 했는데 그냥 순수 노잼임 이게 4만원짜리 인디겜이면 이해할텐데 니들은 따봉먹을 자격없다 그래도 노력 인정해서 웬만하면 따봉주는데 가격을 한번보고 생각해봐라"
+      ],
+      "evidence_snippets": [
+        "줜나 팅기네 크래시 진짜 개빡치게",
+        "월즈가 얼마나 잘 만들었던 게임인지 알겠고 아직 최적화 패치가 더 필요할듯 월즈때 50분 꽉꽉 채워가며 사냥했었는데 지금은 10분 15분 이렇게 짧게 끝나니깐 다른 게임하는 기분임. 그리고 이동수단 생기니깐 맵을 감상하는 시간도 매우 줄어들었음 그래서 그런지 맵이 월즈에 비해 별로 안예쁘고 어두컴컴함 내 컴퓨터가 안좋은 컴퓨터도 아니고 옵타안하는 것도 아닌데 퀘스트 창이나 장비창에서 자꾸 렉걸리고 끊김 옵타해서 못생기고 안예쁜것도 있고 이해하는데 멈추고 글카드라이버 오류뜰때마다 화가 너무나서 안하고 접고 싶어짐 스토리도 재미없고 짜증나 웅장한 맛도 없어 네르기간테같이 멋있는 얘들도 안나와 장점이 뭔지 나도 좀 알고싶음 20시간 넘으면 어느정도 겜인지는 감이 오는데 이건 그냥 순수 노잼임 초반에 월즈때 추억으로 참고참고 했는데 그냥 순수 노잼임 이게 4만원짜리 인디겜이면 이해할텐데 니들은 따봉먹을 자격없다 그래도 노력 인정해서 웬만하면 따봉주는데 가격을 한번보고 생각해봐라"
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-negative-3-1-8231664780485120906",
+          "text": "잠깐 해볼까 했더니 아직도 크래시가 뜨네"
+        },
+        {
+          "review_id": "compress-v3-negative-3-2-8824519527047893139",
+          "text": "줜나 팅기네 크래시 진짜 개빡치게"
+        },
+        {
+          "review_id": "compress-v3-negative-3-3-4458746553964783508",
+          "text": "월즈가 얼마나 잘 만들었던 게임인지 알겠고 아직 최적화 패치가 더 필요할듯 월즈때 50분 꽉꽉 채워가며 사냥했었는데 지금은 10분 15분 이렇게 짧게 끝나니깐 다른 게임하는 기분임. 그리고 이동수단 생기니깐 맵을 감상하는 시간도 매우 줄어들었음 그래서 그런지 맵이 월즈에 비해 별로 안예쁘고 어두컴컴함 내 컴퓨터가 안좋은 컴퓨터도 아니고 옵타안하는 것도 아닌데 퀘스트 창이나 장비창에서 자꾸 렉걸리고 끊김 옵타해서 못생기고 안예쁜것도 있고 이해하는데 멈추고 글카드라이버 오류뜰때마다 화가 너무나서 안하고 접고 싶어짐 스토리도 재미없고 짜증나 웅장한 맛도 없어 네르기간테같이 멋있는 얘들도 안나와 장점이 뭔지 나도 좀 알고싶음 20시간 넘으면 어느정도 겜인지는 감이 오는데 이건 그냥 순수 노잼임 초반에 월즈때 추억으로 참고참고 했는데 그냥 순수 노잼임 이게 4만원짜리 인디겜이면 이해할텐데 니들은 따봉먹을 자격없다 그래도 노력 인정해서 웬만하면 따봉주는데 가격을 한번보고 생각해봐라"
+        }
+      ]
+    }
+  ]
+}

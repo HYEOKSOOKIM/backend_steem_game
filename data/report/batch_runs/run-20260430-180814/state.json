@@ -1,0 +1,17 @@
+﻿{
+    "current":  {
+                    "pid":  10912,
+                    "elapsed_seconds":  5,
+                    "index":  1,
+                    "started_at":  "2026-04-30T18:08:14.6898138+09:00",
+                    "appid":  1145350,
+                    "name":  "Hades II",
+                    "stdout":  "C:\\Users\\rubys\\OneDrive\\문서\\IntelAI\\steam__game_recommand\\backend\\data\\report\\batch_runs\\run-20260430-180814\\games\\01-1145350-Hades II.stdout.log",
+                    "stderr":  "C:\\Users\\rubys\\OneDrive\\문서\\IntelAI\\steam__game_recommand\\backend\\data\\report\\batch_runs\\run-20260430-180814\\games\\01-1145350-Hades II.stderr.log"
+                },
+    "completed":  0,
+    "total":  37,
+    "run_dir":  "C:\\Users\\rubys\\OneDrive\\문서\\IntelAI\\steam__game_recommand\\backend\\data\\report\\batch_runs\\run-20260430-180814",
+    "status":  "running",
+    "started_at":  "2026-04-30T18:08:19.7484130+09:00"
+}

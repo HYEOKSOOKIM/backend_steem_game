@@ -1,0 +1,76 @@
+{
+  "appid": 394360,
+  "name": "Hearts of Iron IV",
+  "name_en": "Hearts of Iron IV",
+  "name_ko": "Hearts of Iron IV",
+  "genres": [
+    "시뮬레이션",
+    "전략"
+  ],
+  "price_model": "paid",
+  "release_stage": "released",
+  "release_date_text": "2016년 6월 6일",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/67bbd0057627fc2244793bcdd09260c2539499cf/header.jpg?t=1776862899",
+  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/08a0a8f6c28071017611aa39b835c193a27f2518/capsule_231x87.jpg?t=1776862899",
+  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/08a0a8f6c28071017611aa39b835c193a27f2518/capsule_184x69.jpg?t=1776862899",
+  "screenshots": [
+    {
+      "id": "0",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/ss_242abc1c2ca21f7d8694ba8d9239d8944217b29f.600x338.jpg?t=1776862899",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/ss_242abc1c2ca21f7d8694ba8d9239d8944217b29f.1920x1080.jpg?t=1776862899"
+    },
+    {
+      "id": "1",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/ss_679ae0d56f3a3b33591262839588c4b1dc6bef12.600x338.jpg?t=1776862899",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/ss_679ae0d56f3a3b33591262839588c4b1dc6bef12.1920x1080.jpg?t=1776862899"
+    },
+    {
+      "id": "2",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/ss_ebcec59e821aa1ee43c6d047eaef4e846af99358.600x338.jpg?t=1776862899",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/ss_ebcec59e821aa1ee43c6d047eaef4e846af99358.1920x1080.jpg?t=1776862899"
+    },
+    {
+      "id": "3",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/ss_fc239db7ed07e8ec4e6440cd0c6ced88a955d90e.600x338.jpg?t=1776862899",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/ss_fc239db7ed07e8ec4e6440cd0c6ced88a955d90e.1920x1080.jpg?t=1776862899"
+    },
+    {
+      "id": "4",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/ss_c7916f607a289830f424daebe3e2f281afbb456b.600x338.jpg?t=1776862899",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/ss_c7916f607a289830f424daebe3e2f281afbb456b.1920x1080.jpg?t=1776862899"
+    },
+    {
+      "id": "5",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/ss_f07f7ebc18d5e6a9692ec748a4f203fe0c748feb.600x338.jpg?t=1776862899",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/ss_f07f7ebc18d5e6a9692ec748a4f203fe0c748feb.1920x1080.jpg?t=1776862899"
+    }
+  ],
+  "movies": [
+    {
+      "id": "257012977",
+      "name": "Hearts of Iron IV - Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257012977/movie.293x165.jpg?t=1712235668",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/394360/682731/bd7bbea629ccbef568dd3c4d8552ba6e05b3c0ed/1750525316/hls_264_master.m3u8?t=1712235668",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/394360/682731/bd7bbea629ccbef568dd3c4d8552ba6e05b3c0ed/1750525316/dash_h264.mpd?t=1712235668",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/394360/682731/bd7bbea629ccbef568dd3c4d8552ba6e05b3c0ed/1750525316/dash_av1.mpd?t=1712235668",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/394360/682731/bd7bbea629ccbef568dd3c4d8552ba6e05b3c0ed/1750525316/hls_264_master.m3u8?t=1712235668"
+    }
+  ],
+  "short_description": "Victory is at your fingertips! Your ability to lead your nation is your supreme weapon, the strategy game Hearts of Iron IV lets you take command of any nation in World War II; the most engaging conflict in world history.",
+  "steam_store_url": "https://store.steampowered.com/app/394360",
+  "steam_recommendation_count": 272690,
+  "steam_review_score_desc": "Very Positive",
+  "steam_total_positive": 6476,
+  "steam_total_negative": 849,
+  "steam_total_reviews": 7325,
+  "price_currency": "KRW",
+  "price_current": 5500000,
+  "price_original": 5500000,
+  "price_current_formatted": "₩ 55,000",
+  "price_original_formatted": null,
+  "price_discount_percent": 0,
+  "is_free": false,
+  "coming_soon": false
+}

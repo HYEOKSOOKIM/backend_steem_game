@@ -1,6 +1,8 @@
 {
   "appid": 230410,
   "name": "Warframe",
+  "name_en": "Warframe",
+  "name_ko": "Warframe",
   "genres": [
     "액션",
     "RPG",
@@ -12,13 +14,97 @@
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230410/60ce7425b864dd3c0dd855bfc66004c6f9ca4844/header.jpg?t=1775661175",
   "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230410/80dd2d83df77e9037b14b0076713d2e63666192d/capsule_231x87.jpg?t=1775661175",
   "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230410/80dd2d83df77e9037b14b0076713d2e63666192d/capsule_184x69.jpg?t=1775661175",
+  "screenshots": [
+    {
+      "id": "0",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230410/ss_2e4077f215eccde84171a4b8e0f2bc8a3264c776.600x338.jpg?t=1775661175",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230410/ss_2e4077f215eccde84171a4b8e0f2bc8a3264c776.1920x1080.jpg?t=1775661175"
+    },
+    {
+      "id": "1",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230410/ss_0a541a8bf59e212870ea8d82260ac1b3ae2d0354.600x338.jpg?t=1775661175",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230410/ss_0a541a8bf59e212870ea8d82260ac1b3ae2d0354.1920x1080.jpg?t=1775661175"
+    },
+    {
+      "id": "2",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230410/ss_ce00a212a29e9a6c1fc37b16dbd802b2844a901d.600x338.jpg?t=1775661175",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230410/ss_ce00a212a29e9a6c1fc37b16dbd802b2844a901d.1920x1080.jpg?t=1775661175"
+    },
+    {
+      "id": "3",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230410/ss_29355e0546599c72002b34b42fe952329df61c2e.600x338.jpg?t=1775661175",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230410/ss_29355e0546599c72002b34b42fe952329df61c2e.1920x1080.jpg?t=1775661175"
+    },
+    {
+      "id": "4",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230410/ss_e1d1bfebe225c85ea284ffecfe279c2695ddf3a5.600x338.jpg?t=1775661175",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230410/ss_e1d1bfebe225c85ea284ffecfe279c2695ddf3a5.1920x1080.jpg?t=1775661175"
+    },
+    {
+      "id": "5",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230410/ss_b06620c448c51d2bc5b71144a184da9ba37b703e.600x338.jpg?t=1775661175",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230410/ss_b06620c448c51d2bc5b71144a184da9ba37b703e.1920x1080.jpg?t=1775661175"
+    }
+  ],
+  "movies": [
+    {
+      "id": "257308474",
+      "name": "The Shadowgrapher Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257308474/641acc06c44474f43791d52e08ee06a543e9b67f/movie_600x337.jpg?t=1774451710",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/230410/1955828003/fb2f20b2adc7e8d0bd0587dbe065b0ff7e54e84d/1774375579/hls_264_master.m3u8?t=1774451710",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/230410/1955828003/fb2f20b2adc7e8d0bd0587dbe065b0ff7e54e84d/1774375579/dash_h264.mpd?t=1774451710",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/230410/1955828003/fb2f20b2adc7e8d0bd0587dbe065b0ff7e54e84d/1774375579/dash_av1.mpd?t=1774451710",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/230410/1955828003/fb2f20b2adc7e8d0bd0587dbe065b0ff7e54e84d/1774375579/hls_264_master.m3u8?t=1774451710"
+    },
+    {
+      "id": "257246819",
+      "name": "Warframe: Wake Up, Tenno (featuring Werner Herzog)",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257246819/59bc0fc536f846e9f59fecf89bc4be01d3b88577/movie_600x337.jpg?t=1765508205",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/230410/160012719/eca41bedd450abcc4200c0e166e02068bef8a26a/1765393015/hls_264_master.m3u8?t=1765508205",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/230410/160012719/eca41bedd450abcc4200c0e166e02068bef8a26a/1765393015/dash_h264.mpd?t=1765508205",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/230410/160012719/eca41bedd450abcc4200c0e166e02068bef8a26a/1765393015/dash_av1.mpd?t=1765508205",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/230410/160012719/eca41bedd450abcc4200c0e166e02068bef8a26a/1765393015/hls_264_master.m3u8?t=1765508205"
+    },
+    {
+      "id": "257245955",
+      "name": "Warframe The Old Peace Official Gameplay Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257245955/e714553f8be6131d981bffce928d16133e504d7d/movie_600x337.jpg?t=1765384565",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/230410/653695401/9794e6770ab8ab566ebca02b8b5763f58b55462a/1765303267/hls_264_master.m3u8?t=1765384565",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/230410/653695401/9794e6770ab8ab566ebca02b8b5763f58b55462a/1765303267/dash_h264.mpd?t=1765384565",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/230410/653695401/9794e6770ab8ab566ebca02b8b5763f58b55462a/1765303267/dash_av1.mpd?t=1765384565",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/230410/653695401/9794e6770ab8ab566ebca02b8b5763f58b55462a/1765303267/hls_264_master.m3u8?t=1765384565"
+    },
+    {
+      "id": "257217935",
+      "name": "Warframe The Vallis Undermind Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257217935/a0506d38c0b2513d49eb861dbc6deab7c982f8c3/movie_600x337.jpg?t=1760542341",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/230410/249062949/9f06dec0d589872d520032668cbf800d7ad1f8ac/1760476285/hls_264_master.m3u8?t=1760542341",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/230410/249062949/9f06dec0d589872d520032668cbf800d7ad1f8ac/1760476285/dash_h264.mpd?t=1760542341",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/230410/249062949/9f06dec0d589872d520032668cbf800d7ad1f8ac/1760476285/dash_av1.mpd?t=1760542341",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/230410/249062949/9f06dec0d589872d520032668cbf800d7ad1f8ac/1760476285/hls_264_master.m3u8?t=1760542341"
+    }
+  ],
   "short_description": "이 스토리 중심의 부분 유료 온라인 액션 게임에서 그 누구도 멈출 수 없는 강력한 전사로 깨어나 동료들과 함께 싸움에 임하세요. 여러 행성에 걸쳐 뻗어나가는 성계 이곳저곳에서 전쟁을 벌이는 세력들과 맞서며, 신비로운 인물, 로터스의 안내에 따르며 워프레임을 레벨업하고, 파괴적인 화력을 가진 무기고를 쌓아올리고, 이 짜릿한, 전혀 새로운 장르의 3인칭 전투 경험 속의 거대한 오픈 월드에서 여러분의 진짜 잠재력을 불러일으키세요.",
   "steam_store_url": "https://store.steampowered.com/app/230410",
   "steam_recommendation_count": 2879,
   "steam_review_score_desc": "Very Positive",
-  "steam_total_positive": 9797,
-  "steam_total_negative": 1312,
+  "steam_total_positive": 9798,
+  "steam_total_negative": 1311,
   "steam_total_reviews": 11109,
+  "price_currency": null,
+  "price_current": null,
+  "price_original": null,
+  "price_current_formatted": null,
+  "price_original_formatted": null,
+  "price_discount_percent": null,
   "is_free": true,
   "coming_soon": false
 }

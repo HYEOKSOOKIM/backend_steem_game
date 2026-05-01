@@ -1,0 +1,195 @@
+{
+  "appid": 1086940,
+  "name": "Baldur's Gate 3",
+  "genres": [
+    "어드벤처",
+    "RPG",
+    "전략"
+  ],
+  "price_model": "paid",
+  "release_stage": "released",
+  "release_date_text": "2023년 8월 3일",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/48a2fcbda8565bb45025e98fd8ebde8a7203f6a0/header.jpg?t=1777363040",
+  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/3dd81008e9c385caf68152450c22353f6a8abec9/capsule_231x87.jpg?t=1777363040",
+  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/3dd81008e9c385caf68152450c22353f6a8abec9/capsule_184x69.jpg?t=1777363040",
+  "screenshots": [
+    {
+      "id": "0",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_c73bc54415178c07fef85f54ee26621728c77504.600x338.jpg?t=1777363040",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_c73bc54415178c07fef85f54ee26621728c77504.1920x1080.jpg?t=1777363040"
+    },
+    {
+      "id": "1",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_73d93bea842b93914d966622104dcb8c0f42972b.600x338.jpg?t=1777363040",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_73d93bea842b93914d966622104dcb8c0f42972b.1920x1080.jpg?t=1777363040"
+    },
+    {
+      "id": "2",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_cf936d31061b58e98e0c646aee00e6030c410cda.600x338.jpg?t=1777363040",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_cf936d31061b58e98e0c646aee00e6030c410cda.1920x1080.jpg?t=1777363040"
+    },
+    {
+      "id": "3",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_b6a6ee6e046426d08ceea7a4506a1b5f44181543.600x338.jpg?t=1777363040",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_b6a6ee6e046426d08ceea7a4506a1b5f44181543.1920x1080.jpg?t=1777363040"
+    },
+    {
+      "id": "4",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_6b8faba0f6831a406ce015648958da9612d14dbb.600x338.jpg?t=1777363040",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_6b8faba0f6831a406ce015648958da9612d14dbb.1920x1080.jpg?t=1777363040"
+    },
+    {
+      "id": "5",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_8fc5eba770b4a1639b31666908bdd2bbc1aa2ae4.600x338.jpg?t=1777363040",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_8fc5eba770b4a1639b31666908bdd2bbc1aa2ae4.1920x1080.jpg?t=1777363040"
+    },
+    {
+      "id": "6",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_31c13d137706fb4d9a4210513274a3ed9c3c7c96.600x338.jpg?t=1777363040",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_31c13d137706fb4d9a4210513274a3ed9c3c7c96.1920x1080.jpg?t=1777363040"
+    },
+    {
+      "id": "7",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_0efa1a469a37beeb4fd0cb8e16dc99bd36357dc4.600x338.jpg?t=1777363040",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_0efa1a469a37beeb4fd0cb8e16dc99bd36357dc4.1920x1080.jpg?t=1777363040"
+    },
+    {
+      "id": "8",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_387896248b42a15239a9256844b3e4bff72fbc2a.600x338.jpg?t=1777363040",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_387896248b42a15239a9256844b3e4bff72fbc2a.1920x1080.jpg?t=1777363040"
+    },
+    {
+      "id": "9",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_44d30da9c3e4622b46f2978e89bda0515856eaf4.600x338.jpg?t=1777363040",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_44d30da9c3e4622b46f2978e89bda0515856eaf4.1920x1080.jpg?t=1777363040"
+    },
+    {
+      "id": "10",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_f8c7fcdeccbfe77e3fad33330a464fed30f781f0.600x338.jpg?t=1777363040",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_f8c7fcdeccbfe77e3fad33330a464fed30f781f0.1920x1080.jpg?t=1777363040"
+    },
+    {
+      "id": "11",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_332cd26db210d4b10df744485ecf0a9b3f2e9024.600x338.jpg?t=1777363040",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_332cd26db210d4b10df744485ecf0a9b3f2e9024.1920x1080.jpg?t=1777363040"
+    },
+    {
+      "id": "12",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_b9f6f2d2ac2b7b2fe63d776e8e13c24b481a7b19.600x338.jpg?t=1777363040",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_b9f6f2d2ac2b7b2fe63d776e8e13c24b481a7b19.1920x1080.jpg?t=1777363040"
+    },
+    {
+      "id": "13",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_2c576a8e563e3338826268f172c9032c84366d16.600x338.jpg?t=1777363040",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_2c576a8e563e3338826268f172c9032c84366d16.1920x1080.jpg?t=1777363040"
+    },
+    {
+      "id": "14",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_d0b50351676da10c5403ec904cf7582636e65346.600x338.jpg?t=1777363040",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_d0b50351676da10c5403ec904cf7582636e65346.1920x1080.jpg?t=1777363040"
+    },
+    {
+      "id": "15",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_74d11c230ebb44ff9a69b4533a7333551d5bfc6c.600x338.jpg?t=1777363040",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_74d11c230ebb44ff9a69b4533a7333551d5bfc6c.1920x1080.jpg?t=1777363040"
+    },
+    {
+      "id": "16",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_1c3ff278ac430948dc31efeb1f7d2bb0466a1493.600x338.jpg?t=1777363040",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_1c3ff278ac430948dc31efeb1f7d2bb0466a1493.1920x1080.jpg?t=1777363040"
+    },
+    {
+      "id": "17",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_49168eeefdfb6e6030a5aed3fd7c1a83da870a9f.600x338.jpg?t=1777363040",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_49168eeefdfb6e6030a5aed3fd7c1a83da870a9f.1920x1080.jpg?t=1777363040"
+    },
+    {
+      "id": "18",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_3cc4e8cfcfb8a91d19d96f631f076d252ba2c0c4.600x338.jpg?t=1777363040",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_3cc4e8cfcfb8a91d19d96f631f076d252ba2c0c4.1920x1080.jpg?t=1777363040"
+    }
+  ],
+  "movies": [
+    {
+      "id": "256987424",
+      "name": "Baldur's Gate 3 - Accolades Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256987424/movie.293x165.jpg?t=1702007645",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1086940/637951/59ca25b847b0e471638d1e2474acf71b068d57f0/1750615003/hls_264_master.m3u8?t=1702007645",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1086940/637951/59ca25b847b0e471638d1e2474acf71b068d57f0/1750615003/dash_h264.mpd?t=1702007645",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1086940/637951/59ca25b847b0e471638d1e2474acf71b068d57f0/1750615003/dash_av1.mpd?t=1702007645",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/1086940/637951/59ca25b847b0e471638d1e2474acf71b068d57f0/1750615003/hls_264_master.m3u8?t=1702007645"
+    },
+    {
+      "id": "256961600",
+      "name": "Baldur's Gate 3 - Launch Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256961600/movie.293x165.jpg?t=1695393579",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1086940/593544/008e33be9c000c5fdb38e630f13b1d5917d4561d/1750615002/hls_264_master.m3u8?t=1695393579",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1086940/593544/008e33be9c000c5fdb38e630f13b1d5917d4561d/1750615002/dash_h264.mpd?t=1695393579",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1086940/593544/008e33be9c000c5fdb38e630f13b1d5917d4561d/1750615002/dash_av1.mpd?t=1695393579",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/1086940/593544/008e33be9c000c5fdb38e630f13b1d5917d4561d/1750615002/hls_264_master.m3u8?t=1695393579"
+    },
+    {
+      "id": "256957679",
+      "name": "Baldur's Gate 3 - Release Teaser",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256957679/movie.293x165.jpg?t=1692294107",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1086940/586640/b3d5692dc27af2874f96d23ff281523f26bd5476/1750614981/hls_264_master.m3u8?t=1692294107",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1086940/586640/b3d5692dc27af2874f96d23ff281523f26bd5476/1750614981/dash_h264.mpd?t=1692294107",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1086940/586640/b3d5692dc27af2874f96d23ff281523f26bd5476/1750614981/dash_av1.mpd?t=1692294107",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/1086940/586640/b3d5692dc27af2874f96d23ff281523f26bd5476/1750614981/hls_264_master.m3u8?t=1692294107"
+    },
+    {
+      "id": "256952190",
+      "name": "Baldur's Gate 3 - First Look at the City",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256952190/movie.293x165.jpg?t=1692294111",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1086940/577019/052954500a03f7bfb69c9abf7c2969e00833b569/1750614972/hls_264_master.m3u8?t=1692294111",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1086940/577019/052954500a03f7bfb69c9abf7c2969e00833b569/1750614972/dash_h264.mpd?t=1692294111",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1086940/577019/052954500a03f7bfb69c9abf7c2969e00833b569/1750614972/dash_av1.mpd?t=1692294111",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/1086940/577019/052954500a03f7bfb69c9abf7c2969e00833b569/1750614972/hls_264_master.m3u8?t=1692294111"
+    },
+    {
+      "id": "256932354",
+      "name": "Baldur's Gate 3 - Release Date Reveal Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256932354/movie.293x165.jpg?t=1692294115",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1086940/542118/27157a92e289b26416759be7b45bdfcf159dfd49/1750614949/hls_264_master.m3u8?t=1692294115",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1086940/542118/27157a92e289b26416759be7b45bdfcf159dfd49/1750614949/dash_h264.mpd?t=1692294115",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1086940/542118/27157a92e289b26416759be7b45bdfcf159dfd49/1750614949/dash_av1.mpd?t=1692294115",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/1086940/542118/27157a92e289b26416759be7b45bdfcf159dfd49/1750614949/hls_264_master.m3u8?t=1692294115"
+    },
+    {
+      "id": "256920587",
+      "name": "Baldur's Gate 3 - The Game Awards Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256920587/movie.293x165.jpg?t=1692294120",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1086940/521182/53c2be911d121fc8ebda8bc9183e0fb55dbd53b7/1750614929/hls_264_master.m3u8?t=1692294120",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1086940/521182/53c2be911d121fc8ebda8bc9183e0fb55dbd53b7/1750614929/dash_h264.mpd?t=1692294120",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1086940/521182/53c2be911d121fc8ebda8bc9183e0fb55dbd53b7/1750614929/dash_av1.mpd?t=1692294120",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/1086940/521182/53c2be911d121fc8ebda8bc9183e0fb55dbd53b7/1750614929/hls_264_master.m3u8?t=1692294120"
+    }
+  ],
+  "short_description": "Baldur’s Gate 3 is a story-rich, party-based RPG set in the universe of Dungeons &amp; Dragons, where your choices shape a tale of fellowship and betrayal, survival and sacrifice, and the lure of absolute power.",
+  "steam_store_url": "https://store.steampowered.com/app/1086940",
+  "steam_recommendation_count": 736367,
+  "steam_review_score_desc": "Overwhelmingly Positive",
+  "steam_total_positive": 15673,
+  "steam_total_negative": 455,
+  "steam_total_reviews": 16128,
+  "price_currency": "KRW",
+  "price_current": 6600000,
+  "price_original": 6600000,
+  "price_current_formatted": "₩ 66,000",
+  "price_original_formatted": null,
+  "price_discount_percent": 0,
+  "is_free": false,
+  "coming_soon": false
+}

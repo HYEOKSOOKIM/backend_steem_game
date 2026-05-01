@@ -1,0 +1,85 @@
+{
+  "appid": 949230,
+  "name": "Cities: Skylines II",
+  "name_en": "Cities: Skylines II",
+  "name_ko": "Cities: Skylines II",
+  "genres": [
+    "시뮬레이션"
+  ],
+  "price_model": "paid",
+  "release_stage": "released",
+  "release_date_text": "2023년 10월 24일",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/header.jpg?t=1777533035",
+  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/2b264fcfffbdc89083c626e70d8e5f0b352672a9/capsule_231x87.jpg?t=1777533035",
+  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/2b264fcfffbdc89083c626e70d8e5f0b352672a9/capsule_184x69.jpg?t=1777533035",
+  "screenshots": [
+    {
+      "id": "0",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/ss_5f34572d699cb4884aed4bd9a857e87362260f0a.600x338.jpg?t=1777533035",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/ss_5f34572d699cb4884aed4bd9a857e87362260f0a.1920x1080.jpg?t=1777533035"
+    },
+    {
+      "id": "1",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/ss_ce1621944da65d271f6954266bd0c8a7f452fdfd.600x338.jpg?t=1777533035",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/ss_ce1621944da65d271f6954266bd0c8a7f452fdfd.1920x1080.jpg?t=1777533035"
+    },
+    {
+      "id": "2",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/ss_593d4dd71ee3b1afe8cd1c9c1a0b513ef6a8d368.600x338.jpg?t=1777533035",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/ss_593d4dd71ee3b1afe8cd1c9c1a0b513ef6a8d368.1920x1080.jpg?t=1777533035"
+    },
+    {
+      "id": "3",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/ss_74a14b28d038c901c432c435856ea980fa8c7390.600x338.jpg?t=1777533035",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/ss_74a14b28d038c901c432c435856ea980fa8c7390.1920x1080.jpg?t=1777533035"
+    },
+    {
+      "id": "4",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/ss_bdaa3e801d5c8abb6c842f41db2943d4316e7cc0.600x338.jpg?t=1777533035",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/ss_bdaa3e801d5c8abb6c842f41db2943d4316e7cc0.1920x1080.jpg?t=1777533035"
+    },
+    {
+      "id": "5",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/ss_b68cb601c12c5a9bc8e736c8adff7c640b22514e.600x338.jpg?t=1777533035",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/ss_b68cb601c12c5a9bc8e736c8adff7c640b22514e.1920x1080.jpg?t=1777533035"
+    },
+    {
+      "id": "6",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/ss_7a742e413fa0b411b741899ae75b972bf2f7c131.600x338.jpg?t=1777533035",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/ss_7a742e413fa0b411b741899ae75b972bf2f7c131.1920x1080.jpg?t=1777533035"
+    },
+    {
+      "id": "7",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/ss_8201697e698f66e89d73147d744c9c7918acd83d.600x338.jpg?t=1777533035",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/ss_8201697e698f66e89d73147d744c9c7918acd83d.1920x1080.jpg?t=1777533035"
+    }
+  ],
+  "movies": [
+    {
+      "id": "257297826",
+      "name": "Release Trailer 2026",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257297826/ecc455362a26e2c0d09da9016409a5634c7640a3/movie_600x337.jpg?t=1772701099",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/949230/1520289042/151ea02f187729b5aa0d7da491dfd8fd9c34da5e/1772640568/hls_264_master.m3u8?t=1772701099",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/949230/1520289042/151ea02f187729b5aa0d7da491dfd8fd9c34da5e/1772640568/dash_h264.mpd?t=1772701099",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/949230/1520289042/151ea02f187729b5aa0d7da491dfd8fd9c34da5e/1772640568/dash_av1.mpd?t=1772701099",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/949230/1520289042/151ea02f187729b5aa0d7da491dfd8fd9c34da5e/1772640568/hls_264_master.m3u8?t=1772701099"
+    }
+  ],
+  "short_description": "역대 가장 현실적인 도시 건설 게임의 허허벌판에 도시를 세워 메트로폴리스로 키워보세요. 창의력과 문제 해결 능력을 한층 더 자극하게 됩니다. 정교한 시뮬레이션과 살아 숨 쉬는 경제를 활용해 제한 없이 나만의 세계를 그려보세요.",
+  "steam_store_url": "https://store.steampowered.com/app/949230",
+  "steam_recommendation_count": 60503,
+  "steam_review_score_desc": "Mixed",
+  "steam_total_positive": 1042,
+  "steam_total_negative": 849,
+  "steam_total_reviews": 1891,
+  "price_currency": "KRW",
+  "price_current": 3850000,
+  "price_original": 5500000,
+  "price_current_formatted": "₩ 38,500",
+  "price_original_formatted": "₩ 55,000",
+  "price_discount_percent": 30,
+  "is_free": false,
+  "coming_soon": false
+}

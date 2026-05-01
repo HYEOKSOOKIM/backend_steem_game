@@ -1,10 +1,10 @@
 {
   "report_version": "v4-planned-sections",
   "appid": 1091500,
-  "pipeline_run_id": "1091500-20260424T071815Z",
-  "generated_at": "2026-04-24T07:25:01.200050+00:00",
+  "pipeline_run_id": "1091500-20260430T064717Z",
+  "generated_at": "2026-04-30T06:50:39.779061+00:00",
   "source_review_count": 19998,
-  "included_review_count": 14700,
+  "included_review_count": 14697,
   "min_report_review_count": 100,
   "report_state": "ready",
   "review_trend": {
@@ -13,9 +13,9 @@
     "points": [
       {
         "month": "2020-12",
-        "positive_count": 2699,
-        "review_count": 4377,
-        "positive_ratio": 0.6166
+        "positive_count": 2684,
+        "review_count": 4355,
+        "positive_ratio": 0.6163
       },
       {
         "month": "2021-01",
@@ -151,9 +151,9 @@
       },
       {
         "month": "2022-11",
-        "positive_count": 426,
-        "review_count": 482,
-        "positive_ratio": 0.8838
+        "positive_count": 425,
+        "review_count": 481,
+        "positive_ratio": 0.8836
       },
       {
         "month": "2022-12",
@@ -295,21 +295,21 @@
       },
       {
         "month": "2024-11",
-        "positive_count": 216,
+        "positive_count": 217,
         "review_count": 231,
-        "positive_ratio": 0.9351
+        "positive_ratio": 0.9394
       },
       {
         "month": "2024-12",
-        "positive_count": 296,
-        "review_count": 313,
-        "positive_ratio": 0.9457
+        "positive_count": 295,
+        "review_count": 312,
+        "positive_ratio": 0.9455
       },
       {
         "month": "2025-01",
-        "positive_count": 297,
-        "review_count": 312,
-        "positive_ratio": 0.9519
+        "positive_count": 298,
+        "review_count": 313,
+        "positive_ratio": 0.9521
       },
       {
         "month": "2025-02",
@@ -343,9 +343,9 @@
       },
       {
         "month": "2025-07",
-        "positive_count": 348,
-        "review_count": 372,
-        "positive_ratio": 0.9355
+        "positive_count": 347,
+        "review_count": 371,
+        "positive_ratio": 0.9353
       },
       {
         "month": "2025-08",
@@ -355,9 +355,9 @@
       },
       {
         "month": "2025-09",
-        "positive_count": 196,
-        "review_count": 212,
-        "positive_ratio": 0.9245
+        "positive_count": 195,
+        "review_count": 211,
+        "positive_ratio": 0.9242
       },
       {
         "month": "2025-10",
@@ -379,9 +379,9 @@
       },
       {
         "month": "2026-01",
-        "positive_count": 215,
-        "review_count": 227,
-        "positive_ratio": 0.9471
+        "positive_count": 213,
+        "review_count": 225,
+        "positive_ratio": 0.9467
       },
       {
         "month": "2026-02",
@@ -391,15 +391,15 @@
       },
       {
         "month": "2026-03",
-        "positive_count": 208,
-        "review_count": 218,
-        "positive_ratio": 0.9541
+        "positive_count": 207,
+        "review_count": 217,
+        "positive_ratio": 0.9539
       },
       {
         "month": "2026-04",
-        "positive_count": 119,
-        "review_count": 127,
-        "positive_ratio": 0.937
+        "positive_count": 145,
+        "review_count": 155,
+        "positive_ratio": 0.9355
       }
     ]
   },
@@ -415,13 +415,265 @@
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/26b96fa9c8af43189cbecbbc329ade29d9c9cf3e/header_koreana.jpg?t=1769690377",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/b1b2dce17e7d3adabcfa0cbb6cbda8cf861badc3/capsule_231x87_koreana.jpg?t=1769690377",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/b1b2dce17e7d3adabcfa0cbb6cbda8cf861badc3/capsule_184x69_koreana.jpg?t=1769690377",
+    "screenshots": [
+      {
+        "id": "0",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_2f649b68d579bf87011487d29bc4ccbfdd97d34f.600x338.jpg?t=1769690377",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_2f649b68d579bf87011487d29bc4ccbfdd97d34f.1920x1080.jpg?t=1769690377"
+      },
+      {
+        "id": "1",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_0e64170751e1ae20ff8fdb7001a8892fd48260e7.600x338.jpg?t=1769690377",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_0e64170751e1ae20ff8fdb7001a8892fd48260e7.1920x1080.jpg?t=1769690377"
+      },
+      {
+        "id": "2",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_af2804aa4bf35d4251043744412ce3b359a125ef.600x338.jpg?t=1769690377",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_af2804aa4bf35d4251043744412ce3b359a125ef.1920x1080.jpg?t=1769690377"
+      },
+      {
+        "id": "3",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_7924f64b6e5d586a80418c9896a1c92881a7905b.600x338.jpg?t=1769690377",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_7924f64b6e5d586a80418c9896a1c92881a7905b.1920x1080.jpg?t=1769690377"
+      },
+      {
+        "id": "4",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_4eb068b1cf52c91b57157b84bed18a186ed7714b.600x338.jpg?t=1769690377",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_4eb068b1cf52c91b57157b84bed18a186ed7714b.1920x1080.jpg?t=1769690377"
+      },
+      {
+        "id": "5",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_b529b0abc43f55fc23fe8058eddb6e37c9629a6a.600x338.jpg?t=1769690377",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_b529b0abc43f55fc23fe8058eddb6e37c9629a6a.1920x1080.jpg?t=1769690377"
+      },
+      {
+        "id": "6",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_8640d9db74f7cad714f6ecfb0e1aceaa3f887e58.600x338.jpg?t=1769690377",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_8640d9db74f7cad714f6ecfb0e1aceaa3f887e58.1920x1080.jpg?t=1769690377"
+      },
+      {
+        "id": "7",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_9284d1c5b248726760233a933dbb83757d7d5d95.600x338.jpg?t=1769690377",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_9284d1c5b248726760233a933dbb83757d7d5d95.1920x1080.jpg?t=1769690377"
+      },
+      {
+        "id": "8",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_4bda6f67580d94832ed2d5814e41ebe018ba1d9e.600x338.jpg?t=1769690377",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_4bda6f67580d94832ed2d5814e41ebe018ba1d9e.1920x1080.jpg?t=1769690377"
+      },
+      {
+        "id": "9",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_e5a94665dbfa5a30931cff2f45cdc0ebea9fcebb.600x338.jpg?t=1769690377",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_e5a94665dbfa5a30931cff2f45cdc0ebea9fcebb.1920x1080.jpg?t=1769690377"
+      },
+      {
+        "id": "10",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_429db1d013a0366417d650d84f1eff02d1a18c2d.600x338.jpg?t=1769690377",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_429db1d013a0366417d650d84f1eff02d1a18c2d.1920x1080.jpg?t=1769690377"
+      },
+      {
+        "id": "11",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_872822c5e50dc71f345416098d29fc3ae5cd26c1.600x338.jpg?t=1769690377",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_872822c5e50dc71f345416098d29fc3ae5cd26c1.1920x1080.jpg?t=1769690377"
+      },
+      {
+        "id": "12",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_ae4465fa8a44dd330dbeb7992ba196c2f32cabb1.600x338.jpg?t=1769690377",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_ae4465fa8a44dd330dbeb7992ba196c2f32cabb1.1920x1080.jpg?t=1769690377"
+      },
+      {
+        "id": "13",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_f79fda81e6f3a37e0978054102102d71840f8b57.600x338.jpg?t=1769690377",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_f79fda81e6f3a37e0978054102102d71840f8b57.1920x1080.jpg?t=1769690377"
+      },
+      {
+        "id": "14",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_bb1a60b8e5061caef7208369f42c5c9d574c9ac4.600x338.jpg?t=1769690377",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_bb1a60b8e5061caef7208369f42c5c9d574c9ac4.1920x1080.jpg?t=1769690377"
+      },
+      {
+        "id": "15",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_a0c4e4015b5cf766d19bf97eee8b086183510e04.600x338.jpg?t=1769690377",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_a0c4e4015b5cf766d19bf97eee8b086183510e04.1920x1080.jpg?t=1769690377"
+      },
+      {
+        "id": "16",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_b20689e73e3ac19bcc5fad2c18d0353c769de144.600x338.jpg?t=1769690377",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_b20689e73e3ac19bcc5fad2c18d0353c769de144.1920x1080.jpg?t=1769690377"
+      },
+      {
+        "id": "17",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_ff3d920e254d18aa2a25d3765ac2ebe845efd208.600x338.jpg?t=1769690377",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_ff3d920e254d18aa2a25d3765ac2ebe845efd208.1920x1080.jpg?t=1769690377"
+      },
+      {
+        "id": "18",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_0002f18563d313bdd1d82c725d411408ebf762b0.600x338.jpg?t=1769690377",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_0002f18563d313bdd1d82c725d411408ebf762b0.1920x1080.jpg?t=1769690377"
+      },
+      {
+        "id": "19",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_526123764d1c628caa1eb62c596f1b732f416c8c.600x338.jpg?t=1769690377",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_526123764d1c628caa1eb62c596f1b732f416c8c.1920x1080.jpg?t=1769690377"
+      },
+      {
+        "id": "20",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_284ba40590de8f604ae693631c751a0aefdc452e.600x338.jpg?t=1769690377",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_284ba40590de8f604ae693631c751a0aefdc452e.1920x1080.jpg?t=1769690377"
+      },
+      {
+        "id": "21",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_9beef14102f164fa1163536d0fb3a51d0a2e4a3f.600x338.jpg?t=1769690377",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_9beef14102f164fa1163536d0fb3a51d0a2e4a3f.1920x1080.jpg?t=1769690377"
+      }
+    ],
+    "movies": [
+      {
+        "id": "257082804",
+        "name": "사이버펑크 2077: 얼티밋 에디션 — 꿈의 도시",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257082804/98240e9c3532ce4571d03408091e05cd3ad90d1b/movie_600x337.jpg?t=1734434733",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1091500/801245/4590b15b6ed3359b36851a0c792d954be5eceb45/1750618010/hls_264_master.m3u8?t=1734434733",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1091500/801245/4590b15b6ed3359b36851a0c792d954be5eceb45/1750618010/dash_h264.mpd?t=1734434733",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1091500/801245/4590b15b6ed3359b36851a0c792d954be5eceb45/1750618010/dash_av1.mpd?t=1734434733",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1091500/801245/4590b15b6ed3359b36851a0c792d954be5eceb45/1750618010/hls_264_master.m3u8?t=1734434733"
+      },
+      {
+        "id": "256987140",
+        "name": "039_2_1_UpdateTrailer_KO_NoRating_16x9_1080_Burned in Subs",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256987140/movie.293x165.jpg?t=1701872729",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1091500/637452/2fd77b03035350789f7d65bbeeaffdcfc1a34b7a/1750617843/hls_264_master.m3u8?t=1701872729",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1091500/637452/2fd77b03035350789f7d65bbeeaffdcfc1a34b7a/1750617843/dash_h264.mpd?t=1701872729",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1091500/637452/2fd77b03035350789f7d65bbeeaffdcfc1a34b7a/1750617843/dash_av1.mpd?t=1701872729",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1091500/637452/2fd77b03035350789f7d65bbeeaffdcfc1a34b7a/1750617843/hls_264_master.m3u8?t=1701872729"
+      },
+      {
+        "id": "256984153",
+        "name": "008 BaseGame Accolades Trailer KO NoRating 16x9 1080",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256984153/movie.293x165.jpg?t=1700653152",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1091500/632430/bbd3f2cc85b4aca6d7998bda87c509387c9f976f/1750617671/hls_264_master.m3u8?t=1700653152",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1091500/632430/bbd3f2cc85b4aca6d7998bda87c509387c9f976f/1750617671/dash_h264.mpd?t=1700653152",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1091500/632430/bbd3f2cc85b4aca6d7998bda87c509387c9f976f/1750617671/dash_av1.mpd?t=1700653152",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1091500/632430/bbd3f2cc85b4aca6d7998bda87c509387c9f976f/1750617671/hls_264_master.m3u8?t=1700653152"
+      },
+      {
+        "id": "256977939",
+        "name": "008_EP1_2.0_trailer_KO_NoRating_16x9_1080",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256977939/movie.293x165.jpg?t=1698157608",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1091500/622168/9fb524f58ef00ece42c408ccbf38f039315ae32b/1750617465/hls_264_master.m3u8?t=1698157608",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1091500/622168/9fb524f58ef00ece42c408ccbf38f039315ae32b/1750617465/dash_h264.mpd?t=1698157608",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1091500/622168/9fb524f58ef00ece42c408ccbf38f039315ae32b/1750617465/dash_av1.mpd?t=1698157608",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1091500/622168/9fb524f58ef00ece42c408ccbf38f039315ae32b/1750617465/hls_264_master.m3u8?t=1698157608"
+      },
+      {
+        "id": "256979905",
+        "name": "104_NWTP_trailer_KO_NoRating_16x9_1080_",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256979905/movie.293x165.jpg?t=1699262650",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1091500/625546/ab5f71c4674fe5ce8b9bb94353a56ae14bfef6a3/1750617603/hls_264_master.m3u8?t=1699262650",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1091500/625546/ab5f71c4674fe5ce8b9bb94353a56ae14bfef6a3/1750617603/dash_h264.mpd?t=1699262650",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1091500/625546/ab5f71c4674fe5ce8b9bb94353a56ae14bfef6a3/1750617603/dash_av1.mpd?t=1699262650",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1091500/625546/ab5f71c4674fe5ce8b9bb94353a56ae14bfef6a3/1750617603/hls_264_master.m3u8?t=1699262650"
+      },
+      {
+        "id": "256975598",
+        "name": "073_BuildVideos_Ninja_KO_NoRating_16x9_1080__Burned in Subs",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256975598/movie.293x165.jpg?t=1697117076",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1091500/617960/a4ba6d2471c7ecf3c337e5540ba10ac02808e9d0/1750617395/hls_264_master.m3u8?t=1697117076",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1091500/617960/a4ba6d2471c7ecf3c337e5540ba10ac02808e9d0/1750617395/dash_h264.mpd?t=1697117076",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1091500/617960/a4ba6d2471c7ecf3c337e5540ba10ac02808e9d0/1750617395/dash_av1.mpd?t=1697117076",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1091500/617960/a4ba6d2471c7ecf3c337e5540ba10ac02808e9d0/1750617395/hls_264_master.m3u8?t=1697117076"
+      },
+      {
+        "id": "256975559",
+        "name": "055_BuildVideos_Netrunner_KO_NoRating_16x9_1080__Burned in Subs",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256975559/movie.293x165.jpg?t=1697117164",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1091500/617895/121d2f43190543b51a3037e26bce3353670a3d33/1750617242/hls_264_master.m3u8?t=1697117164",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1091500/617895/121d2f43190543b51a3037e26bce3353670a3d33/1750617242/dash_h264.mpd?t=1697117164",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1091500/617895/121d2f43190543b51a3037e26bce3353670a3d33/1750617242/dash_av1.mpd?t=1697117164",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1091500/617895/121d2f43190543b51a3037e26bce3353670a3d33/1750617242/hls_264_master.m3u8?t=1697117164"
+      },
+      {
+        "id": "256975523",
+        "name": "037_BuildVideos_Solo_KO_NoRating_16x9_1080__Burned in Subs",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256975523/movie.293x165.jpg?t=1697117252",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1091500/617838/4a1bb16d9b82aa59405efaf00ea02d92fc10d932/1750616993/hls_264_master.m3u8?t=1697117252",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1091500/617838/4a1bb16d9b82aa59405efaf00ea02d92fc10d932/1750616993/dash_h264.mpd?t=1697117252",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1091500/617838/4a1bb16d9b82aa59405efaf00ea02d92fc10d932/1750616993/dash_av1.mpd?t=1697117252",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1091500/617838/4a1bb16d9b82aa59405efaf00ea02d92fc10d932/1750616993/hls_264_master.m3u8?t=1697117252"
+      },
+      {
+        "id": "256904433",
+        "name": "059_CP_ER_trailer_KO_NoRating_16x9_1080__",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256904433/movie.293x165.jpg?t=1662623882",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1091500/493795/1ff3dc36f60c46fb1c758475f71990e27206d30f/1750616730/hls_264_master.m3u8?t=1662623882",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1091500/493795/1ff3dc36f60c46fb1c758475f71990e27206d30f/1750616730/dash_h264.mpd?t=1662623882",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1091500/493795/1ff3dc36f60c46fb1c758475f71990e27206d30f/1750616730/dash_av1.mpd?t=1662623882",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1091500/493795/1ff3dc36f60c46fb1c758475f71990e27206d30f/1750616730/hls_264_master.m3u8?t=1662623882"
+      },
+      {
+        "id": "256876065",
+        "name": "183_CPNG_LOBI_KO_NoRating_16x9_1080_PC__",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256876065/movie.293x165.jpg?t=1646231404",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1091500/443840/c8466f50f8aadb5d46972b9fe4b03aa9547fbd2a/1750616546/hls_264_master.m3u8?t=1646231404",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1091500/443840/c8466f50f8aadb5d46972b9fe4b03aa9547fbd2a/1750616546/dash_h264.mpd?t=1646231404",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1091500/443840/c8466f50f8aadb5d46972b9fe4b03aa9547fbd2a/1750616546/dash_av1.mpd?t=1646231404",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1091500/443840/c8466f50f8aadb5d46972b9fe4b03aa9547fbd2a/1750616546/hls_264_master.m3u8?t=1646231404"
+      },
+      {
+        "id": "256810269",
+        "name": "035_CP_Gameplay_Trailer_KO_NoRating_16x9_1080__",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256810269/movie.293x165.jpg?t=1611327286",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1091500/327954/56ba3e1686d6cedcbf998f1ada526cc21bf605ec/1750616242/hls_264_master.m3u8?t=1611327286",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1091500/327954/56ba3e1686d6cedcbf998f1ada526cc21bf605ec/1750616242/dash_h264.mpd?t=1611327286",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1091500/327954/56ba3e1686d6cedcbf998f1ada526cc21bf605ec/1750616242/dash_av1.mpd?t=1611327286",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1091500/327954/56ba3e1686d6cedcbf998f1ada526cc21bf605ec/1750616242/hls_264_master.m3u8?t=1611327286"
+      },
+      {
+        "id": "256812933",
+        "name": "037_CP_Launch_Trailer_KO_NoRating_16x9_1080__",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256812933/movie.293x165.jpg?t=1611328266",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1091500/332465/cc028ae3402804fb58088b737d66483343c9bb69/1750616428/hls_264_master.m3u8?t=1611328266",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1091500/332465/cc028ae3402804fb58088b737d66483343c9bb69/1750616428/dash_h264.mpd?t=1611328266",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1091500/332465/cc028ae3402804fb58088b737d66483343c9bb69/1750616428/dash_av1.mpd?t=1611328266",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1091500/332465/cc028ae3402804fb58088b737d66483343c9bb69/1750616428/hls_264_master.m3u8?t=1611328266"
+      }
+    ],
     "short_description": "사이버펑크 2077은 권력과 돈, 끝없는 신체 개조에 집착하는 어두운 미래의 위험천만한 메갈로폴리스, '나이트 시티'를 배경으로 한 오픈 월드 액션 어드벤처 RPG입니다.",
     "steam_store_url": "https://store.steampowered.com/app/1091500",
-    "steam_recommendation_count": 844326,
+    "steam_recommendation_count": 845898,
     "steam_review_score_desc": "Mostly Positive",
-    "steam_total_positive": 18927,
-    "steam_total_negative": 5590,
-    "steam_total_reviews": 24517
+    "steam_total_positive": 18948,
+    "steam_total_negative": 5591,
+    "steam_total_reviews": 24539,
+    "price_currency": "KRW",
+    "price_current": 2310000,
+    "price_original": 6600000,
+    "price_current_formatted": "₩ 23,100",
+    "price_original_formatted": "₩ 66,000",
+    "price_discount_percent": 65
   },
   "report_plan": {
     "decision_anchor": {
@@ -475,109 +727,109 @@
     }
   },
   "report_display": {
-    "headline": "세계와 사건에 빨려드는 몰입감 체감이 좋아 지금 바로 시작해도 만족도가 높은 편입니다.",
+    "headline": "탐험과 세계 해석의 몰입감 체감이 좋아 지금 바로 시작해도 만족도가 높은 편입니다.",
     "buy_recommendation": "buy_now",
     "buy_timing_summary": "최근 후기 흐름에서 체감 불편이 크게 늘지 않아 지금 시작해도 부담이 낮은 편입니다.",
     "good_for": [
-      "서사와 분위기에 오래 몰입하는 플레이어",
-      "풍경과 연출까지 천천히 즐기는 플레이어",
-      "짧고 강한 교전 템포를 좋아하는 플레이어"
+      "세계관과 맥락을 스스로 읽어가는 플레이어",
+      "배경과 연출이 만드는 분위기를 중요하게 보는 플레이어",
+      "플레이 흐름이 점점 또렷해지는 재미를 좋아하는 플레이어"
     ],
     "not_good_for": [
-      "프레임과 반응성이 조금만 흔들려도 예민하게 느끼는 플레이어",
+      "프레임과 반응성에 민감한 플레이어",
       "진행 중 오류나 끊김을 거의 허용하지 않는 플레이어",
-      "반복 구간이 조금만 보여도 금방 지루해지는 플레이어"
+      "같은 흐름이 길어지면 피로를 크게 느끼는 플레이어"
     ],
     "top_strengths": [
       {
-        "title": "몰입감 넘치는 스토리와 세계관이",
-        "summary": "나이트 시티의 생생한 묘사와 깊이 있는 스토리가 플레이어를 끌어당겨 게임 내내 집중하게 만듭니다."
+        "title": "몰입감이 높은 스토리 경험",
+        "summary": "나이트 시티의 생생한 세계관과 깊이 있는 스토리가 플레이 내내 강한 몰입감을 선사하여, 각기 다른 선택에 따른 다양한 엔딩까지 즐길 수 있습니다."
       },
       {
-        "title": "다양한 전투 빌드와 쾌감 있는 액션",
-        "summary": "각기 다른 무기와 사이버웨어를 활용해 자신만의 플레이 스타일로 전투를 즐길 수 있어 재미가 배가됩니다."
+        "title": "다양한 전투 빌드와 액션 쾌감",
+        "summary": "다양한 무기와 사이버웨어를 활용한 전투가 다채로워 자신만의 플레이 스타일을 만들어가며 긴장감 넘치는 전투를 경험할 수 있습니다."
       },
       {
-        "title": "탁월한 그래픽과 비주얼 완성도",
-        "summary": "압도적인 네온사인과 디테일한 도시 디자인이 사이버펑크 세계관을 생생하게 구현해 몰입도를 높여 줍니다."
+        "title": "압도적인 그래픽과 세밀한 도시 연출이",
+        "summary": "화려한 네온사인과 디테일한 도시 디자인이 어우러져 사이버펑크 세계관을 깊게 체험할 수 있는 시각적 즐거움을 제공합니다."
       }
     ],
     "top_risks": [
       {
-        "title": "진행을 방해하는 잔존 버그",
-        "summary": "퀘스트 꼬임과 갑작스러운 튕김 현상이 게임 몰입을 자주 끊어 불편함을 줍니다."
+        "title": "잦은 진행 방해 버그",
+        "summary": "게임 도중 갑작스러운 튕김과 퀘스트 꼬임으로 플레이 흐름이 끊겨 답답함을 느낄 수 있습니다."
       },
       {
-        "title": "심한 프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크",
-        "summary": "낮은 프레임과 잦은 성능 저하로 전투와 이동이 매끄럽지 않아 피로감을 느낄 수 있습니다."
+        "title": "심한 최적화 불안정성",
+        "summary": "낮은 프레임과 로딩 지연으로 인해 몰입이 저해되고 장시간 플레이가 피로할 수 있습니다."
       },
       {
-        "title": "반복적이고 단조로운 콘텐츠",
-        "summary": "서브 퀘스트와 오픈 월드 활동이 단순 반복 위주라 금세 지루함을 유발할 수 있습니다."
+        "title": "단조로운 반복 콘텐츠",
+        "summary": "반복되는 단순 임무와 부족한 오픈 월드 요소로 인해 플레이가 지루하고 신선함이 부족합니다."
       }
     ],
     "recent_state": {
-      "status": "mixed",
-      "summary": "버그와 최적화 문제는 많이 개선되었으나 여전히 일부 불편함이 남아 있어 플레이 경험에 영향을 주고 있습니다."
+      "status": "improving",
+      "summary": "지속적인 업데이트로 나이트 시티의 세계와 스토리에 몰입하며 즐길 수 있는 게임으로 거듭났습니다."
     }
   },
   "evidence_sections": {
     "strengths": [
       {
         "block_id": "str_1",
-        "title": "세계와 사건의 몰입감이 오래 간다는 반응",
+        "title": "탐험과 맥락 해석의 재미가 있다는 반응",
         "theme": "세계관과 연출 덕분에 플레이를 계속하게 되는 몰입 경험",
-        "why_it_matters": "세계와 사건에 대한 몰입 이야기가 많아, 분위기와 서사를 중시한다면 만족도가 높은 편입니다.",
-        "explanation": "세계와 사건에 대한 몰입 이야기가 많아, 분위기와 서사를 중시한다면 만족도가 높은 편입니다.",
+        "why_it_matters": "세계의 단서와 맥락을 읽어가는 재미를 좋게 보는 반응이 많아 서서히 몰입하는 플레이와 잘 맞습니다.",
+        "explanation": "세계의 단서와 맥락을 읽어가는 재미를 좋게 보는 반응이 많아 서서히 몰입하는 플레이와 잘 맞습니다.",
         "aspect_keys": [
           "story"
         ],
         "stance": "positive",
         "consensus_level": "high",
-        "mention_count": 3737,
+        "mention_count": 3732,
         "evidence_quality_level": "strict",
         "evidence_candidate_snippets": [
-          "사후지원이 끝난 시점에선 게임 진행에 영향을 줄 만큼 심각한 버그도 없고 테크트리도 다양해서 본인이 원하는 대로 플레이 할 수 도 있어 엔딩 보기까지 즐겁게 플레이했음. 메인스토리 분량은 평범하지만 사이드 퀘스트나 의뢰 양이 꽤 많기 때문에 서브퀘스트도 즐긴다면 정가 주고 사도 만족할만한 분량이라 생각함.",
-          "정말 리뷰 잘 안남기는데 재밌게 했습니다. 가끔씩 버그 걸리는게 좀 몰입을 깨는게 있네요. 저는 애니를 먼저 보고 너무 재밌게 봤는데, 데이비드 옷 입고 산데비스탄 끼고 재밌게 놀았습니다. 애니 보고 빠지신 분들한테는 대 추천합니다.",
-          "내게 가장 큰 벽은 아담 스매셔가 아니었다. 내게 가장 큰 벽은... 군 시절의 중대장과 거의 똑같이 생긴 솔로몬 리드였다... 악! 중대장님! 게임에 몰입이 안 되니까 제발 저리 가 주십쇼! 결국 엔딩 포기하고 도망감... 진짜 못하겠다..",
-          "아직까지 별로 안하긴했지만 자유도 높고 스토리 보는 재미가 있음 시간 잘감"
+          "사이버 펑크 세계관을 충분히 즐길 수 있고, 스토리도 아주 좋은 갓겜, 한국어 더빙이 처음엔 어색하지만, 적응만 되면 엄청난 몰입감을 줌",
+          "그래픽도 너무 좋고 게임 스토리도 재밌고 정말 재밌게 한 게임",
+          "여캐 못생겨서 스토리 몰입안되면 모드깔고 하시면 몰입 굉장히 잘됩니다",
+          "GTA는 재미있게 안했는데 이거는 재미있게 했다. 그래픽과 난이도 모두 적당하고 스토리도 약간의 헛점만 빼면 매우 훌륭하다. 강추 게임."
         ],
         "evidence_snippets": [
-          "정말 리뷰 잘 안남기는데 재밌게 했습니다. 가끔씩 버그 걸리는게 좀 몰입을 깨는게 있네요. 저는 애니를 먼저 보고 너무 재밌게 봤는데, 데이비드 옷 입고 산데비스탄 끼고 재밌게 놀았습니다. 애니 보고 빠지신 분들한테는 대 추천합니다.",
-          "내게 가장 큰 벽은 아담 스매셔가 아니었다. 내게 가장 큰 벽은... 군 시절의 중대장과 거의 똑같이 생긴 솔로몬 리드였다... 악! 중대장님! 게임에 몰입이 안 되니까 제발 저리 가 주십쇼! 결국 엔딩 포기하고 도망감... 진짜 못하겠다..",
-          "아직까지 별로 안하긴했지만 자유도 높고 스토리 보는 재미가 있음 시간 잘감"
+          "사이버 펑크 세계관을 충분히 즐길 수 있고, 스토리도 아주 좋은 갓겜, 한국어 더빙이 처음엔 어색하지만, 적응만 되면 엄청난 몰입감을 줌",
+          "여캐 못생겨서 스토리 몰입안되면 모드깔고 하시면 몰입 굉장히 잘됩니다",
+          "그래픽도 너무 좋고 게임 스토리도 재밌고 정말 재밌게 한 게임"
         ],
         "evidence_candidate_items": [
           {
-            "review_id": "compress-v3-positive-1-1-9175133507278147946",
-            "text": "사후지원이 끝난 시점에선 게임 진행에 영향을 줄 만큼 심각한 버그도 없고 테크트리도 다양해서 본인이 원하는 대로 플레이 할 수 도 있어 엔딩 보기까지 즐겁게 플레이했음. 메인스토리 분량은 평범하지만 사이드 퀘스트나 의뢰 양이 꽤 많기 때문에 서브퀘스트도 즐긴다면 정가 주고 사도 만족할만한 분량이라 생각함."
+            "review_id": "compress-v3-positive-1-1-3651639450852064419",
+            "text": "사이버 펑크 세계관을 충분히 즐길 수 있고, 스토리도 아주 좋은 갓겜, 한국어 더빙이 처음엔 어색하지만, 적응만 되면 엄청난 몰입감을 줌"
           },
           {
-            "review_id": "compress-v3-positive-1-2-6752898182633844846",
-            "text": "정말 리뷰 잘 안남기는데 재밌게 했습니다. 가끔씩 버그 걸리는게 좀 몰입을 깨는게 있네요. 저는 애니를 먼저 보고 너무 재밌게 봤는데, 데이비드 옷 입고 산데비스탄 끼고 재밌게 놀았습니다. 애니 보고 빠지신 분들한테는 대 추천합니다."
+            "review_id": "compress-v3-positive-1-2-8084010600179860615",
+            "text": "그래픽도 너무 좋고 게임 스토리도 재밌고 정말 재밌게 한 게임"
           },
           {
-            "review_id": "compress-v3-positive-1-3-8268422427220872615",
-            "text": "내게 가장 큰 벽은 아담 스매셔가 아니었다. 내게 가장 큰 벽은... 군 시절의 중대장과 거의 똑같이 생긴 솔로몬 리드였다... 악! 중대장님! 게임에 몰입이 안 되니까 제발 저리 가 주십쇼! 결국 엔딩 포기하고 도망감... 진짜 못하겠다.."
+            "review_id": "compress-v3-positive-1-3-4682946318361611164",
+            "text": "여캐 못생겨서 스토리 몰입안되면 모드깔고 하시면 몰입 굉장히 잘됩니다"
           },
           {
-            "review_id": "compress-v3-positive-1-4-6069843663826582782",
-            "text": "아직까지 별로 안하긴했지만 자유도 높고 스토리 보는 재미가 있음 시간 잘감"
+            "review_id": "compress-v3-positive-1-4-7034160310726326149",
+            "text": "GTA는 재미있게 안했는데 이거는 재미있게 했다. 그래픽과 난이도 모두 적당하고 스토리도 약간의 헛점만 빼면 매우 훌륭하다. 강추 게임."
           }
         ]
       },
       {
         "block_id": "str_2",
-        "title": "교전 손맛과 템포가 좋다는 반응이 있다.",
+        "title": "플레이 흐름이 안정적으로 잡힌다는 반응",
         "theme": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험",
-        "why_it_matters": "교전 감각이 좋다는 반응이 많아, 손맛과 템포를 중시한다면 만족도가 높을 가능성이 큽니다.",
-        "explanation": "교전 감각이 좋다는 반응이 많아, 손맛과 템포를 중시한다면 만족도가 높을 가능성이 큽니다.",
+        "why_it_matters": "플레이 흐름이 안정적으로 잡힌다는 반응이 많아 익숙해질수록 리듬을 타기 좋은 편입니다.",
+        "explanation": "플레이 흐름이 안정적으로 잡힌다는 반응이 많아 익숙해질수록 리듬을 타기 좋은 편입니다.",
         "aspect_keys": [
           "gameplay"
         ],
         "stance": "positive",
         "consensus_level": "high",
-        "mention_count": 1774,
+        "mention_count": 1771,
         "evidence_quality_level": "relaxed",
         "evidence_candidate_snippets": [
           "내가 너무 기대를 한건지 약간 아쉬웠음. 개판으로 출시한 후에 많이 뜯어고쳐서 갓겜됐다길래 해봤는데 재미는 있긴한데 아직도 없는 편의 기능들이 좀 있음. 자신만의 빌드를 짜고 어떻게든 적 한방컷내려고 세팅 쥐어짜는 재미가 있음.",
@@ -592,19 +844,19 @@
         ],
         "evidence_candidate_items": [
           {
-            "review_id": "compress-v3-positive-2-1-6017155922312931160",
+            "review_id": "compress-v3-positive-2-1-8835814570610029527",
             "text": "내가 너무 기대를 한건지 약간 아쉬웠음. 개판으로 출시한 후에 많이 뜯어고쳐서 갓겜됐다길래 해봤는데 재미는 있긴한데 아직도 없는 편의 기능들이 좀 있음. 자신만의 빌드를 짜고 어떻게든 적 한방컷내려고 세팅 쥐어짜는 재미가 있음."
           },
           {
-            "review_id": "compress-v3-positive-2-5-5997327130410891330",
+            "review_id": "compress-v3-positive-2-5-2448530354171901025",
             "text": "발매 초에는 웃음거리 그 자체였지만 지금은 충분히 수작에 들만한 게임이 됐다고 말할 수 있다. 여전히 아이템이 공중에 떠 있거나 시체가 바닥으로 꺼지는 등의 사소한 버그는 남아있다. 하지만 게임 진행에 지장을 줄 정도는 아니기에 충분히 용인할 수 있는 수준까지 개선되었다. 아쉬운 점으로는 운전이나 액션에서의 디테일이라고 볼 수 있다. 특히 운전 AI의 지능이 낮아 툭하면 NPC끼리 사고가 나고, 자동운전모드를 켜놨을 때도 주변 장애물에 부딪혀 끊기는 경우가 잦다. 암살모션도 무기별로 다양하게 있었으면 좋았을텐데 그렇지 않아서 금방 질리는 감이 있었다. 대화 선택지도 큰 의미가 없었던게 아쉬웠다. 퀘스트 진행과 관련된 내용이 아니라면 대부분 뭘 선택하던 돌아오는 대답은 비슷했고, 굵직한 퀘스트 진행에 따라 대화 내용이 바뀌는 점이 있었으면 좋겠다고 느꼈음. 게임의 전체적인 스토리는 정말 좋았다. 1막이 짧았던건 아쉬웠지만 게임을 진행하면서 자연스럽게 조니와 유대감을 쌓게 되고 각 엔딩에서 보여주는 에필로그도 여운이 깊었다. 그리고 한국어 더빙이 된 덕분에 게임의 대한 몰입도도 높일 수 있었다. DLC인 팬텀 리버티는 필수로 구매해야할정도로 본편에 비해 스토리적인 면에서 완성도가 높다. 서브퀘스트같은 경우에도 무조건 옳은 선택 없이 플레이어의 판단에 맡기고 항상 좋은 결만만은 없다는걸 알려주는게 인상적이었다."
           },
           {
-            "review_id": "compress-v3-positive-2-6-1175249575493974050",
+            "review_id": "compress-v3-positive-2-6-7096752483089251756",
             "text": "[게임 닉값 하는 게임] 액션도 나쁘지 않고 타격감도 좋음 플레이어의 선택에 따라 나눠지는 결과나 하고 싶은 것이나 빌드 만드는 자유도 등 자유도가 정말 높음 물론 자유도에는 그게 맞는 플레이어의 현재 스펙이 필요하지만 점차 성장해가는 재미가 무엇인지 확실하게 느껴짐 스토리도 정말 재밌음. 세계관에 맞는 비극이나 가슴 찡해지는 느낌은 아직도 여운이 남음. 다만 처음 시작하는 사람은 고유명사가 남발하거나 이해가 안될 수도 있고 지역이 넓다못해 존나 큰 정도라서 초반에 이동하기 살짝 지루하단 느낌도 좀 있음 그럼에도 이동하는 도중에 나타나는 임무라던가 숨겨진 임무라던게 정말 재밌음 [총평: 사이버펑크 스타일, 높은 자유도, 잘짜여진 스토리, 빌드 구성 이런거 좋아하면 극추 +할거면 돈 더 써서 DLC도 사는게 좋음. DLC 엔딩도 맛있고 추가 무기, 컨텐츠도 잘 짜여져 있어서 할거면 DLC도 포함해야함"
           },
           {
-            "review_id": "compress-v3-positive-2-8-5014025280297773318",
+            "review_id": "compress-v3-positive-2-8-6778350744365388833",
             "text": "이제야 CDPR에게 기대했던 퀄리티를 내주는 게임이 되었다. 할인 20~30퍼에 탑승해도 제값하는 게임이 됨. 물론 게임이 출시된지 오래되었기에 할인율 굉장히 혜자니 할인 기간때 사면 개이득일 작품 ++ 매우 훌륭한 ost 및 사운드 api 옵션까지 제공하는 공들인 사운드 효과들 ++ 1인칭으로 인해 굉장한 몰입감 ++ 단순 유비식 킹픈월드 떼우기가 아닌 굉장히 밀도 높은 도심과 하나하나 공들인 서브퀘스트 ++ 매력적인 세계관, 그 세계관을 활용한 다양한 빌드 ++ 욕설, 19금 드립에 필터링이 일체 없는 풀 한국어 더빙(영화 드라마 게임 통틀어서 이렇게 적나라한 작품이 있었나 싶음, 게다가 이걸 제작비 사정상 취소했다가 한국 팬들의 성원에 보답하기 위해 다시 한국어 더빙 하기로 결정한 CDPR에 박수를 보냄) ++ 확장팩은 위쳐3의 확장팩들 생각날 정도로 굉장히 고 퀄리티니 할인 기간 때 꼭 사두실것 -- 3d 멀미에 굉장히 취약하신 분은 1인칭 강제가 부담스러우실 수 있음 -- 폭발 및 차량 파괴 이펙트나 그 과정들이 좀 짜치고 아쉬움 -- 도심 속 시민&차량들 행동 스크립트가 개선 패치를 많이했음에도, 2020년 작 작품임에도 상당히 아쉬움 -- 이건 걍 한국 성우 풀의 문제인데, 다중 캐스팅이 상당히 많아 어디서 다 들어본 목소리임 -- 퀘스트는 엄청 많은데 반해 만렙이 너무 빨리 달성되서 뉴겜플 같은게 존재하여 만렙 확장이 된다든지 보지 못한 다른 루트들을 본다든지 하는 요소가 있었으면 하는 개인적 아쉬움"
           }
         ]
@@ -613,189 +865,189 @@
     "risks": [
       {
         "block_id": "risk_1",
-        "title": "예상치 못한 오류가 흐름을 끊는다는 반응이다.",
+        "title": "오류와 끊김이 흐름을 끊는다는 반응",
         "theme": "예상치 못한 오류가 플레이 리듬을 끊을 수 있는 리스크",
-        "why_it_matters": "오류와 끊김 이야기가 반복돼 흐름이 한 번 끊기면 피로가 크게 올라올 수 있습니다.",
-        "explanation": "오류와 끊김 이야기가 반복돼 흐름이 한 번 끊기면 피로가 크게 올라올 수 있습니다.",
+        "why_it_matters": "오류와 끊김을 지적하는 반응이 이어져 흐름이 끊기는 상황은 감수할 필요가 있습니다.",
+        "explanation": "오류와 끊김을 지적하는 반응이 이어져 흐름이 끊기는 상황은 감수할 필요가 있습니다.",
         "aspect_keys": [
           "bugs"
         ],
         "stance": "negative",
         "consensus_level": "high",
-        "mention_count": 5096,
+        "mention_count": 5088,
         "evidence_quality_level": "strict",
         "evidence_candidate_snippets": [
-          "아직까지도 버그 투성이 심지어 퀘스트 위치마저도 버그 도무지 용서해줄 수 없는 수준",
-          "버그가 너무 심함 게임 진행 자체를 못함 (시작 화면부터 옵션 아무것도 안보임. 맵 텍스쳐 못 불러옴. 캐릭터 투명화 걸림 등등) pc 5700x 5060ti",
-          "출시 당시엔 말도 많고 탈도 많았다고 하는데, 수 년 동안 문제점이 대폭 개선되어서인지 이제 처음 시작하는 입장에선 굉장히 재밌었습니다. 사이버펑크라는 세계관에 굉장히 충실한 동시에 도시 디자인이 너무 예쁩니다. 100시간을 넘겼는데도 돌아다니다가 감탄이 나올 지경 엔딩이 다가오는 게 아쉬워서 진행을 일부러 미룰 정도였으니 강력하게 추천합니다 단점이라면 사람 많은 곳에서 프레임 드랍이 좀 심한 정도, 그리고 잔잔바리 버그가 조금 남아 있기는 한 것 같네요",
-          "재미있음 완성도 있는 게임이라고는 볼 수 없지만 제미는 있음 총 쏠 생각 마셈 그냥 해킹하고 다니는게 최고임 플레이하면서 이렇게 많은 버그를 본 적은 이 게임이 처음임 별 희한한 버그가 다 있음 너무 신박해서 웃게 됨 정가에 사지 마셈 버그 볼 때마다 빡칠 듯"
+          "아니 무슨 버그가 아직도 이렇게 많아 무기 변경하는 것도 버벅대고, 보스는 버그때문에 허수아비처럼 굳어버리고 무기/상점/업그레이드 시스템도 중간에 고치다가 유기해버려서 엄청 조잡함",
+          "첫 출시에는 버그 투성이였지만, 최근 버그 픽스 및 업데이트를 통해 바뀐 후로는 인생 게임 중에 하나로 등극했네요 장점으로는 몰입감있는 한글 풀더빙과 메인스토리 및 비중있는 서브스토리까지.. 플레이 하는 동안 지루하지 않았습니다. 모든 엔딩을 전부 보았는데 특히 V가 시한부였던 생명을 건졌으나 사이버웨어의 능력과 지인들과의 관계가 끊기며 인파속에서 멀어지는 마지막 엔딩 장면이 가슴아팠네요",
+          "버그만 없어졌지 출시 전 약속했던 모든 것 들이 현재도 없음",
+          "버그가 너무 심함 게임 진행 자체를 못함 (시작 화면부터 옵션 아무것도 안보임. 맵 텍스쳐 못 불러옴. 캐릭터 투명화 걸림 등등) pc 5700x 5060ti"
         ],
         "evidence_snippets": [
-          "버그가 너무 심함 게임 진행 자체를 못함 (시작 화면부터 옵션 아무것도 안보임. 맵 텍스쳐 못 불러옴. 캐릭터 투명화 걸림 등등) pc 5700x 5060ti",
-          "아직까지도 버그 투성이 심지어 퀘스트 위치마저도 버그 도무지 용서해줄 수 없는 수준",
-          "재미있음 완성도 있는 게임이라고는 볼 수 없지만 제미는 있음 총 쏠 생각 마셈 그냥 해킹하고 다니는게 최고임 플레이하면서 이렇게 많은 버그를 본 적은 이 게임이 처음임 별 희한한 버그가 다 있음 너무 신박해서 웃게 됨 정가에 사지 마셈 버그 볼 때마다 빡칠 듯"
+          "아니 무슨 버그가 아직도 이렇게 많아 무기 변경하는 것도 버벅대고, 보스는 버그때문에 허수아비처럼 굳어버리고 무기/상점/업그레이드 시스템도 중간에 고치다가 유기해버려서 엄청 조잡함",
+          "버그만 없어졌지 출시 전 약속했던 모든 것 들이 현재도 없음",
+          "첫 출시에는 버그 투성이였지만, 최근 버그 픽스 및 업데이트를 통해 바뀐 후로는 인생 게임 중에 하나로 등극했네요 장점으로는 몰입감있는 한글 풀더빙과 메인스토리 및 비중있는 서브스토리까지.. 플레이 하는 동안 지루하지 않았습니다. 모든 엔딩을 전부 보았는데 특히 V가 시한부였던 생명을 건졌으나 사이버웨어의 능력과 지인들과의 관계가 끊기며 인파속에서 멀어지는 마지막 엔딩 장면이 가슴아팠네요"
         ],
         "evidence_candidate_items": [
           {
-            "review_id": "compress-v3-negative-1-1-7435847588151994061",
-            "text": "아직까지도 버그 투성이 심지어 퀘스트 위치마저도 버그 도무지 용서해줄 수 없는 수준"
+            "review_id": "compress-v3-negative-1-1-2648550817923271033",
+            "text": "아니 무슨 버그가 아직도 이렇게 많아 무기 변경하는 것도 버벅대고, 보스는 버그때문에 허수아비처럼 굳어버리고 무기/상점/업그레이드 시스템도 중간에 고치다가 유기해버려서 엄청 조잡함"
           },
           {
-            "review_id": "compress-v3-negative-1-2-4813529045948121463",
+            "review_id": "compress-v3-negative-1-2-7349847332214828640",
+            "text": "첫 출시에는 버그 투성이였지만, 최근 버그 픽스 및 업데이트를 통해 바뀐 후로는 인생 게임 중에 하나로 등극했네요 장점으로는 몰입감있는 한글 풀더빙과 메인스토리 및 비중있는 서브스토리까지.. 플레이 하는 동안 지루하지 않았습니다. 모든 엔딩을 전부 보았는데 특히 V가 시한부였던 생명을 건졌으나 사이버웨어의 능력과 지인들과의 관계가 끊기며 인파속에서 멀어지는 마지막 엔딩 장면이 가슴아팠네요"
+          },
+          {
+            "review_id": "compress-v3-negative-1-3-4925270373047308664",
+            "text": "버그만 없어졌지 출시 전 약속했던 모든 것 들이 현재도 없음"
+          },
+          {
+            "review_id": "compress-v3-negative-1-4-7067599544057898904",
             "text": "버그가 너무 심함 게임 진행 자체를 못함 (시작 화면부터 옵션 아무것도 안보임. 맵 텍스쳐 못 불러옴. 캐릭터 투명화 걸림 등등) pc 5700x 5060ti"
-          },
-          {
-            "review_id": "compress-v3-negative-1-3-1146696155946571022",
-            "text": "출시 당시엔 말도 많고 탈도 많았다고 하는데, 수 년 동안 문제점이 대폭 개선되어서인지 이제 처음 시작하는 입장에선 굉장히 재밌었습니다. 사이버펑크라는 세계관에 굉장히 충실한 동시에 도시 디자인이 너무 예쁩니다. 100시간을 넘겼는데도 돌아다니다가 감탄이 나올 지경 엔딩이 다가오는 게 아쉬워서 진행을 일부러 미룰 정도였으니 강력하게 추천합니다 단점이라면 사람 많은 곳에서 프레임 드랍이 좀 심한 정도, 그리고 잔잔바리 버그가 조금 남아 있기는 한 것 같네요"
-          },
-          {
-            "review_id": "compress-v3-negative-1-4-5452928065438414148",
-            "text": "재미있음 완성도 있는 게임이라고는 볼 수 없지만 제미는 있음 총 쏠 생각 마셈 그냥 해킹하고 다니는게 최고임 플레이하면서 이렇게 많은 버그를 본 적은 이 게임이 처음임 별 희한한 버그가 다 있음 너무 신박해서 웃게 됨 정가에 사지 마셈 버그 볼 때마다 빡칠 듯"
           }
         ]
       },
       {
         "block_id": "risk_2",
-        "title": "가격 대비 만족이 갈린다는 반응입니다.",
+        "title": "가격 대비 만족이 갈린다는 반응",
         "theme": "가격 대비 만족도가 갈려 구매 타이밍을 따져봐야 하는 포인트",
-        "why_it_matters": "가격 대비 만족 편차를 언급한 리뷰가 있어, 비용 대비 만족을 엄격히 보면 아쉬울 수 있습니다.",
-        "explanation": "가격 대비 만족 편차를 언급한 리뷰가 있어, 비용 대비 만족을 엄격히 보면 아쉬울 수 있습니다.",
+        "why_it_matters": "가격 대비 만족을 지적하는 반응이 있어 비용 대비 만족을 꼼꼼히 보면 고민이 필요할 수 있습니다.",
+        "explanation": "가격 대비 만족을 지적하는 반응이 있어 비용 대비 만족을 꼼꼼히 보면 고민이 필요할 수 있습니다.",
         "aspect_keys": [
           "monetization"
         ],
         "stance": "negative",
         "consensus_level": "high",
-        "mention_count": 2290,
+        "mention_count": 2287,
         "evidence_quality_level": "relaxed",
         "evidence_candidate_snippets": [
+          "재미있음 완성도 있는 게임이라고는 볼 수 없지만 제미는 있음 총 쏠 생각 마셈 그냥 해킹하고 다니는게 최고임 플레이하면서 이렇게 많은 버그를 본 적은 이 게임이 처음임 별 희한한 버그가 다 있음 너무 신박해서 웃게 됨 정가에 사지 마셈 버그 볼 때마다 빡칠 듯",
           "사펑2077 버그가 아직 많이 있지만 그래도 할인 도중 구매하면 100시간 넘는다 다만 100시간정도 퀘스트 하니까 슬슬 질린다 내가 맥스택이 와도 못 막는 날 근데 신화 무기는 팔면 안돼 메인 스토리 라인에서 얻는 신화 무기는 CET 모드로도 못 얻으니까 메인 스토리 신화는 절대 상점행X 그리고 후반 쯔음~ 캐릭터들이 2077년에 기술력으로 벽을 뚫고 차를 뚫고 바닥까지 뚫으니까 너그럽게 사진모드로 남기자",
-          "GTX 1070 쓰던 시절 예약구매했었고 각종 버그(검은 화면 , T포즈 버그 , 튕김)와 조악한 차량 조작감 등의 문제 등을 겪고... 게임 되려면 멀었다 생각하며 한동안 라이브러리에 묵혀두었습니다. 팬텀 리버티 출시와 2.0 패치 몇년 뒤에 PC를 바꿔서 묵혀둔 게임을 켜봤더니 , 모든 것이 달라졌습니다. 이제 과거의 악평을 잊으시고 플레이해도 좋고 , 레이트레이싱이 진가를 발휘하는 게임이니 PC 사양이 허락한다면 레이트레이싱 켜보세요. 메인 퀘스트는 물론 서브 퀘스트에도 힘이 실린 DLC 팬텀 리버티까지 같이 구입하시길 추천합니다.",
-          "아직도 버그 자유도없고 시발 차운전 본편에서도 겨우 했는데 dlc애서도 만들어 났네 폴란드겜 똥겜"
+          "GTX 1070 쓰던 시절 예약구매했었고 각종 버그(검은 화면 , T포즈 버그 , 튕김)와 조악한 차량 조작감 등의 문제 등을 겪고... 게임 되려면 멀었다 생각하며 한동안 라이브러리에 묵혀두었습니다. 팬텀 리버티 출시와 2.0 패치 몇년 뒤에 PC를 바꿔서 묵혀둔 게임을 켜봤더니 , 모든 것이 달라졌습니다. 이제 과거의 악평을 잊으시고 플레이해도 좋고 , 레이트레이싱이 진가를 발휘하는 게임이니 PC 사양이 허락한다면 레이트레이싱 켜보세요. 메인 퀘스트는 물론 서브 퀘스트에도 힘이 실린 DLC 팬텀 리버티까지 같이 구입하시길 추천합니다."
         ],
         "evidence_snippets": [
-          "아직도 버그 자유도없고 시발 차운전 본편에서도 겨우 했는데 dlc애서도 만들어 났네 폴란드겜 똥겜",
+          "재미있음 완성도 있는 게임이라고는 볼 수 없지만 제미는 있음 총 쏠 생각 마셈 그냥 해킹하고 다니는게 최고임 플레이하면서 이렇게 많은 버그를 본 적은 이 게임이 처음임 별 희한한 버그가 다 있음 너무 신박해서 웃게 됨 정가에 사지 마셈 버그 볼 때마다 빡칠 듯",
           "사펑2077 버그가 아직 많이 있지만 그래도 할인 도중 구매하면 100시간 넘는다 다만 100시간정도 퀘스트 하니까 슬슬 질린다 내가 맥스택이 와도 못 막는 날 근데 신화 무기는 팔면 안돼 메인 스토리 라인에서 얻는 신화 무기는 CET 모드로도 못 얻으니까 메인 스토리 신화는 절대 상점행X 그리고 후반 쯔음~ 캐릭터들이 2077년에 기술력으로 벽을 뚫고 차를 뚫고 바닥까지 뚫으니까 너그럽게 사진모드로 남기자",
           "GTX 1070 쓰던 시절 예약구매했었고 각종 버그(검은 화면, T포즈 버그, 튕김)와 조악한 차량 조작감 등의 문제 등을 겪고... 게임 되려면 멀었다 생각하며 한동안 라이브러리에 묵혀두었습니다. 팬텀 리버티 출시와 2. 0 패치 몇년 뒤에 PC를 바꿔서 묵혀둔 게임을 켜봤더니, 모든 것이 달라졌습니다. 이제 과거의 악평을 잊으시고 플레이해도 좋고, 레이트레이싱이 진가를 발휘하는 게임이니 PC 사양이 허락한다면 레이트레이싱 켜보세요. 메인 퀘스트는 물론 서브 퀘스트에도 힘이 실린 DLC 팬텀 리버티까지 같이 구입하시길 추천합니다."
         ],
         "evidence_candidate_items": [
           {
-            "review_id": "compress-v3-negative-2-2-516963403005537417",
+            "review_id": "compress-v3-negative-2-2-7509474400064678653",
+            "text": "재미있음 완성도 있는 게임이라고는 볼 수 없지만 제미는 있음 총 쏠 생각 마셈 그냥 해킹하고 다니는게 최고임 플레이하면서 이렇게 많은 버그를 본 적은 이 게임이 처음임 별 희한한 버그가 다 있음 너무 신박해서 웃게 됨 정가에 사지 마셈 버그 볼 때마다 빡칠 듯"
+          },
+          {
+            "review_id": "compress-v3-negative-2-3-4823238149160758022",
             "text": "사펑2077 버그가 아직 많이 있지만 그래도 할인 도중 구매하면 100시간 넘는다 다만 100시간정도 퀘스트 하니까 슬슬 질린다 내가 맥스택이 와도 못 막는 날 근데 신화 무기는 팔면 안돼 메인 스토리 라인에서 얻는 신화 무기는 CET 모드로도 못 얻으니까 메인 스토리 신화는 절대 상점행X 그리고 후반 쯔음~ 캐릭터들이 2077년에 기술력으로 벽을 뚫고 차를 뚫고 바닥까지 뚫으니까 너그럽게 사진모드로 남기자"
           },
           {
-            "review_id": "compress-v3-negative-2-3-7309285277018373406",
+            "review_id": "compress-v3-negative-2-4-427610481923046999",
             "text": "GTX 1070 쓰던 시절 예약구매했었고 각종 버그(검은 화면 , T포즈 버그 , 튕김)와 조악한 차량 조작감 등의 문제 등을 겪고... 게임 되려면 멀었다 생각하며 한동안 라이브러리에 묵혀두었습니다. 팬텀 리버티 출시와 2.0 패치 몇년 뒤에 PC를 바꿔서 묵혀둔 게임을 켜봤더니 , 모든 것이 달라졌습니다. 이제 과거의 악평을 잊으시고 플레이해도 좋고 , 레이트레이싱이 진가를 발휘하는 게임이니 PC 사양이 허락한다면 레이트레이싱 켜보세요. 메인 퀘스트는 물론 서브 퀘스트에도 힘이 실린 DLC 팬텀 리버티까지 같이 구입하시길 추천합니다."
-          },
-          {
-            "review_id": "compress-v3-negative-2-4-1379555906315775259",
-            "text": "아직도 버그 자유도없고 시발 차운전 본편에서도 겨우 했는데 dlc애서도 만들어 났네 폴란드겜 똥겜"
           }
         ]
       }
     ]
   },
   "disclaimer": "여러 유저 리뷰를 바탕으로 정리했어요. 플레이 경험은 사람마다 다를 수 있어요.",
-  "headline": "세계와 사건에 빨려드는 몰입감 체감이 좋아 지금 바로 시작해도 만족도가 높은 편입니다.",
+  "headline": "탐험과 세계 해석의 몰입감 체감이 좋아 지금 바로 시작해도 만족도가 높은 편입니다.",
   "buy_recommendation": "buy_now",
   "buy_timing_summary": "최근 후기 흐름에서 체감 불편이 크게 늘지 않아 지금 시작해도 부담이 낮은 편입니다.",
   "good_for": [
-    "서사와 분위기에 오래 몰입하는 플레이어",
-    "풍경과 연출까지 천천히 즐기는 플레이어",
-    "짧고 강한 교전 템포를 좋아하는 플레이어"
+    "세계관과 맥락을 스스로 읽어가는 플레이어",
+    "배경과 연출이 만드는 분위기를 중요하게 보는 플레이어",
+    "플레이 흐름이 점점 또렷해지는 재미를 좋아하는 플레이어"
   ],
   "not_good_for": [
-    "프레임과 반응성이 조금만 흔들려도 예민하게 느끼는 플레이어",
+    "프레임과 반응성에 민감한 플레이어",
     "진행 중 오류나 끊김을 거의 허용하지 않는 플레이어",
-    "반복 구간이 조금만 보여도 금방 지루해지는 플레이어"
+    "같은 흐름이 길어지면 피로를 크게 느끼는 플레이어"
   ],
   "top_strengths": [
     {
-      "title": "몰입감 넘치는 스토리와 세계관이",
-      "summary": "나이트 시티의 생생한 묘사와 깊이 있는 스토리가 플레이어를 끌어당겨 게임 내내 집중하게 만듭니다."
+      "title": "몰입감이 높은 스토리 경험",
+      "summary": "나이트 시티의 생생한 세계관과 깊이 있는 스토리가 플레이 내내 강한 몰입감을 선사하여, 각기 다른 선택에 따른 다양한 엔딩까지 즐길 수 있습니다."
     },
     {
-      "title": "다양한 전투 빌드와 쾌감 있는 액션",
-      "summary": "각기 다른 무기와 사이버웨어를 활용해 자신만의 플레이 스타일로 전투를 즐길 수 있어 재미가 배가됩니다."
+      "title": "다양한 전투 빌드와 액션 쾌감",
+      "summary": "다양한 무기와 사이버웨어를 활용한 전투가 다채로워 자신만의 플레이 스타일을 만들어가며 긴장감 넘치는 전투를 경험할 수 있습니다."
     },
     {
-      "title": "탁월한 그래픽과 비주얼 완성도",
-      "summary": "압도적인 네온사인과 디테일한 도시 디자인이 사이버펑크 세계관을 생생하게 구현해 몰입도를 높여 줍니다."
+      "title": "압도적인 그래픽과 세밀한 도시 연출이",
+      "summary": "화려한 네온사인과 디테일한 도시 디자인이 어우러져 사이버펑크 세계관을 깊게 체험할 수 있는 시각적 즐거움을 제공합니다."
     }
   ],
   "top_risks": [
     {
-      "title": "진행을 방해하는 잔존 버그",
-      "summary": "퀘스트 꼬임과 갑작스러운 튕김 현상이 게임 몰입을 자주 끊어 불편함을 줍니다."
+      "title": "잦은 진행 방해 버그",
+      "summary": "게임 도중 갑작스러운 튕김과 퀘스트 꼬임으로 플레이 흐름이 끊겨 답답함을 느낄 수 있습니다."
     },
     {
-      "title": "심한 프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크",
-      "summary": "낮은 프레임과 잦은 성능 저하로 전투와 이동이 매끄럽지 않아 피로감을 느낄 수 있습니다."
+      "title": "심한 최적화 불안정성",
+      "summary": "낮은 프레임과 로딩 지연으로 인해 몰입이 저해되고 장시간 플레이가 피로할 수 있습니다."
     },
     {
-      "title": "반복적이고 단조로운 콘텐츠",
-      "summary": "서브 퀘스트와 오픈 월드 활동이 단순 반복 위주라 금세 지루함을 유발할 수 있습니다."
+      "title": "단조로운 반복 콘텐츠",
+      "summary": "반복되는 단순 임무와 부족한 오픈 월드 요소로 인해 플레이가 지루하고 신선함이 부족합니다."
     }
   ],
   "recent_state": {
-    "status": "mixed",
-    "summary": "버그와 최적화 문제는 많이 개선되었으나 여전히 일부 불편함이 남아 있어 플레이 경험에 영향을 주고 있습니다."
+    "status": "improving",
+    "summary": "지속적인 업데이트로 나이트 시티의 세계와 스토리에 몰입하며 즐길 수 있는 게임으로 거듭났습니다."
   },
   "evidence_reviews": [
     {
       "block_id": "str_1",
-      "title": "세계와 사건의 몰입감이 오래 간다는 반응",
+      "title": "탐험과 맥락 해석의 재미가 있다는 반응",
       "theme": "세계관과 연출 덕분에 플레이를 계속하게 되는 몰입 경험",
-      "why_it_matters": "세계와 사건에 대한 몰입 이야기가 많아, 분위기와 서사를 중시한다면 만족도가 높은 편입니다.",
-      "explanation": "세계와 사건에 대한 몰입 이야기가 많아, 분위기와 서사를 중시한다면 만족도가 높은 편입니다.",
+      "why_it_matters": "세계의 단서와 맥락을 읽어가는 재미를 좋게 보는 반응이 많아 서서히 몰입하는 플레이와 잘 맞습니다.",
+      "explanation": "세계의 단서와 맥락을 읽어가는 재미를 좋게 보는 반응이 많아 서서히 몰입하는 플레이와 잘 맞습니다.",
       "aspect_keys": [
         "story"
       ],
       "stance": "positive",
       "consensus_level": "high",
-      "mention_count": 3737,
+      "mention_count": 3732,
       "evidence_quality_level": "strict",
       "evidence_candidate_snippets": [
-        "사후지원이 끝난 시점에선 게임 진행에 영향을 줄 만큼 심각한 버그도 없고 테크트리도 다양해서 본인이 원하는 대로 플레이 할 수 도 있어 엔딩 보기까지 즐겁게 플레이했음. 메인스토리 분량은 평범하지만 사이드 퀘스트나 의뢰 양이 꽤 많기 때문에 서브퀘스트도 즐긴다면 정가 주고 사도 만족할만한 분량이라 생각함.",
-        "정말 리뷰 잘 안남기는데 재밌게 했습니다. 가끔씩 버그 걸리는게 좀 몰입을 깨는게 있네요. 저는 애니를 먼저 보고 너무 재밌게 봤는데, 데이비드 옷 입고 산데비스탄 끼고 재밌게 놀았습니다. 애니 보고 빠지신 분들한테는 대 추천합니다.",
-        "내게 가장 큰 벽은 아담 스매셔가 아니었다. 내게 가장 큰 벽은... 군 시절의 중대장과 거의 똑같이 생긴 솔로몬 리드였다... 악! 중대장님! 게임에 몰입이 안 되니까 제발 저리 가 주십쇼! 결국 엔딩 포기하고 도망감... 진짜 못하겠다..",
-        "아직까지 별로 안하긴했지만 자유도 높고 스토리 보는 재미가 있음 시간 잘감"
+        "사이버 펑크 세계관을 충분히 즐길 수 있고, 스토리도 아주 좋은 갓겜, 한국어 더빙이 처음엔 어색하지만, 적응만 되면 엄청난 몰입감을 줌",
+        "그래픽도 너무 좋고 게임 스토리도 재밌고 정말 재밌게 한 게임",
+        "여캐 못생겨서 스토리 몰입안되면 모드깔고 하시면 몰입 굉장히 잘됩니다",
+        "GTA는 재미있게 안했는데 이거는 재미있게 했다. 그래픽과 난이도 모두 적당하고 스토리도 약간의 헛점만 빼면 매우 훌륭하다. 강추 게임."
       ],
       "evidence_snippets": [
-        "정말 리뷰 잘 안남기는데 재밌게 했습니다. 가끔씩 버그 걸리는게 좀 몰입을 깨는게 있네요. 저는 애니를 먼저 보고 너무 재밌게 봤는데, 데이비드 옷 입고 산데비스탄 끼고 재밌게 놀았습니다. 애니 보고 빠지신 분들한테는 대 추천합니다.",
-        "내게 가장 큰 벽은 아담 스매셔가 아니었다. 내게 가장 큰 벽은... 군 시절의 중대장과 거의 똑같이 생긴 솔로몬 리드였다... 악! 중대장님! 게임에 몰입이 안 되니까 제발 저리 가 주십쇼! 결국 엔딩 포기하고 도망감... 진짜 못하겠다..",
-        "아직까지 별로 안하긴했지만 자유도 높고 스토리 보는 재미가 있음 시간 잘감"
+        "사이버 펑크 세계관을 충분히 즐길 수 있고, 스토리도 아주 좋은 갓겜, 한국어 더빙이 처음엔 어색하지만, 적응만 되면 엄청난 몰입감을 줌",
+        "여캐 못생겨서 스토리 몰입안되면 모드깔고 하시면 몰입 굉장히 잘됩니다",
+        "그래픽도 너무 좋고 게임 스토리도 재밌고 정말 재밌게 한 게임"
       ],
       "evidence_candidate_items": [
         {
-          "review_id": "compress-v3-positive-1-1-9175133507278147946",
-          "text": "사후지원이 끝난 시점에선 게임 진행에 영향을 줄 만큼 심각한 버그도 없고 테크트리도 다양해서 본인이 원하는 대로 플레이 할 수 도 있어 엔딩 보기까지 즐겁게 플레이했음. 메인스토리 분량은 평범하지만 사이드 퀘스트나 의뢰 양이 꽤 많기 때문에 서브퀘스트도 즐긴다면 정가 주고 사도 만족할만한 분량이라 생각함."
+          "review_id": "compress-v3-positive-1-1-3651639450852064419",
+          "text": "사이버 펑크 세계관을 충분히 즐길 수 있고, 스토리도 아주 좋은 갓겜, 한국어 더빙이 처음엔 어색하지만, 적응만 되면 엄청난 몰입감을 줌"
         },
         {
-          "review_id": "compress-v3-positive-1-2-6752898182633844846",
-          "text": "정말 리뷰 잘 안남기는데 재밌게 했습니다. 가끔씩 버그 걸리는게 좀 몰입을 깨는게 있네요. 저는 애니를 먼저 보고 너무 재밌게 봤는데, 데이비드 옷 입고 산데비스탄 끼고 재밌게 놀았습니다. 애니 보고 빠지신 분들한테는 대 추천합니다."
+          "review_id": "compress-v3-positive-1-2-8084010600179860615",
+          "text": "그래픽도 너무 좋고 게임 스토리도 재밌고 정말 재밌게 한 게임"
         },
         {
-          "review_id": "compress-v3-positive-1-3-8268422427220872615",
-          "text": "내게 가장 큰 벽은 아담 스매셔가 아니었다. 내게 가장 큰 벽은... 군 시절의 중대장과 거의 똑같이 생긴 솔로몬 리드였다... 악! 중대장님! 게임에 몰입이 안 되니까 제발 저리 가 주십쇼! 결국 엔딩 포기하고 도망감... 진짜 못하겠다.."
+          "review_id": "compress-v3-positive-1-3-4682946318361611164",
+          "text": "여캐 못생겨서 스토리 몰입안되면 모드깔고 하시면 몰입 굉장히 잘됩니다"
         },
         {
-          "review_id": "compress-v3-positive-1-4-6069843663826582782",
-          "text": "아직까지 별로 안하긴했지만 자유도 높고 스토리 보는 재미가 있음 시간 잘감"
+          "review_id": "compress-v3-positive-1-4-7034160310726326149",
+          "text": "GTA는 재미있게 안했는데 이거는 재미있게 했다. 그래픽과 난이도 모두 적당하고 스토리도 약간의 헛점만 빼면 매우 훌륭하다. 강추 게임."
         }
       ]
     },
     {
       "block_id": "str_2",
-      "title": "교전 손맛과 템포가 좋다는 반응이 있다.",
+      "title": "플레이 흐름이 안정적으로 잡힌다는 반응",
       "theme": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험",
-      "why_it_matters": "교전 감각이 좋다는 반응이 많아, 손맛과 템포를 중시한다면 만족도가 높을 가능성이 큽니다.",
-      "explanation": "교전 감각이 좋다는 반응이 많아, 손맛과 템포를 중시한다면 만족도가 높을 가능성이 큽니다.",
+      "why_it_matters": "플레이 흐름이 안정적으로 잡힌다는 반응이 많아 익숙해질수록 리듬을 타기 좋은 편입니다.",
+      "explanation": "플레이 흐름이 안정적으로 잡힌다는 반응이 많아 익숙해질수록 리듬을 타기 좋은 편입니다.",
       "aspect_keys": [
         "gameplay"
       ],
       "stance": "positive",
       "consensus_level": "high",
-      "mention_count": 1774,
+      "mention_count": 1771,
       "evidence_quality_level": "relaxed",
       "evidence_candidate_snippets": [
         "내가 너무 기대를 한건지 약간 아쉬웠음. 개판으로 출시한 후에 많이 뜯어고쳐서 갓겜됐다길래 해봤는데 재미는 있긴한데 아직도 없는 편의 기능들이 좀 있음. 자신만의 빌드를 짜고 어떻게든 적 한방컷내려고 세팅 쥐어짜는 재미가 있음.",
@@ -810,101 +1062,101 @@
       ],
       "evidence_candidate_items": [
         {
-          "review_id": "compress-v3-positive-2-1-6017155922312931160",
+          "review_id": "compress-v3-positive-2-1-8835814570610029527",
           "text": "내가 너무 기대를 한건지 약간 아쉬웠음. 개판으로 출시한 후에 많이 뜯어고쳐서 갓겜됐다길래 해봤는데 재미는 있긴한데 아직도 없는 편의 기능들이 좀 있음. 자신만의 빌드를 짜고 어떻게든 적 한방컷내려고 세팅 쥐어짜는 재미가 있음."
         },
         {
-          "review_id": "compress-v3-positive-2-5-5997327130410891330",
+          "review_id": "compress-v3-positive-2-5-2448530354171901025",
           "text": "발매 초에는 웃음거리 그 자체였지만 지금은 충분히 수작에 들만한 게임이 됐다고 말할 수 있다. 여전히 아이템이 공중에 떠 있거나 시체가 바닥으로 꺼지는 등의 사소한 버그는 남아있다. 하지만 게임 진행에 지장을 줄 정도는 아니기에 충분히 용인할 수 있는 수준까지 개선되었다. 아쉬운 점으로는 운전이나 액션에서의 디테일이라고 볼 수 있다. 특히 운전 AI의 지능이 낮아 툭하면 NPC끼리 사고가 나고, 자동운전모드를 켜놨을 때도 주변 장애물에 부딪혀 끊기는 경우가 잦다. 암살모션도 무기별로 다양하게 있었으면 좋았을텐데 그렇지 않아서 금방 질리는 감이 있었다. 대화 선택지도 큰 의미가 없었던게 아쉬웠다. 퀘스트 진행과 관련된 내용이 아니라면 대부분 뭘 선택하던 돌아오는 대답은 비슷했고, 굵직한 퀘스트 진행에 따라 대화 내용이 바뀌는 점이 있었으면 좋겠다고 느꼈음. 게임의 전체적인 스토리는 정말 좋았다. 1막이 짧았던건 아쉬웠지만 게임을 진행하면서 자연스럽게 조니와 유대감을 쌓게 되고 각 엔딩에서 보여주는 에필로그도 여운이 깊었다. 그리고 한국어 더빙이 된 덕분에 게임의 대한 몰입도도 높일 수 있었다. DLC인 팬텀 리버티는 필수로 구매해야할정도로 본편에 비해 스토리적인 면에서 완성도가 높다. 서브퀘스트같은 경우에도 무조건 옳은 선택 없이 플레이어의 판단에 맡기고 항상 좋은 결만만은 없다는걸 알려주는게 인상적이었다."
         },
         {
-          "review_id": "compress-v3-positive-2-6-1175249575493974050",
+          "review_id": "compress-v3-positive-2-6-7096752483089251756",
           "text": "[게임 닉값 하는 게임] 액션도 나쁘지 않고 타격감도 좋음 플레이어의 선택에 따라 나눠지는 결과나 하고 싶은 것이나 빌드 만드는 자유도 등 자유도가 정말 높음 물론 자유도에는 그게 맞는 플레이어의 현재 스펙이 필요하지만 점차 성장해가는 재미가 무엇인지 확실하게 느껴짐 스토리도 정말 재밌음. 세계관에 맞는 비극이나 가슴 찡해지는 느낌은 아직도 여운이 남음. 다만 처음 시작하는 사람은 고유명사가 남발하거나 이해가 안될 수도 있고 지역이 넓다못해 존나 큰 정도라서 초반에 이동하기 살짝 지루하단 느낌도 좀 있음 그럼에도 이동하는 도중에 나타나는 임무라던가 숨겨진 임무라던게 정말 재밌음 [총평: 사이버펑크 스타일, 높은 자유도, 잘짜여진 스토리, 빌드 구성 이런거 좋아하면 극추 +할거면 돈 더 써서 DLC도 사는게 좋음. DLC 엔딩도 맛있고 추가 무기, 컨텐츠도 잘 짜여져 있어서 할거면 DLC도 포함해야함"
         },
         {
-          "review_id": "compress-v3-positive-2-8-5014025280297773318",
+          "review_id": "compress-v3-positive-2-8-6778350744365388833",
           "text": "이제야 CDPR에게 기대했던 퀄리티를 내주는 게임이 되었다. 할인 20~30퍼에 탑승해도 제값하는 게임이 됨. 물론 게임이 출시된지 오래되었기에 할인율 굉장히 혜자니 할인 기간때 사면 개이득일 작품 ++ 매우 훌륭한 ost 및 사운드 api 옵션까지 제공하는 공들인 사운드 효과들 ++ 1인칭으로 인해 굉장한 몰입감 ++ 단순 유비식 킹픈월드 떼우기가 아닌 굉장히 밀도 높은 도심과 하나하나 공들인 서브퀘스트 ++ 매력적인 세계관, 그 세계관을 활용한 다양한 빌드 ++ 욕설, 19금 드립에 필터링이 일체 없는 풀 한국어 더빙(영화 드라마 게임 통틀어서 이렇게 적나라한 작품이 있었나 싶음, 게다가 이걸 제작비 사정상 취소했다가 한국 팬들의 성원에 보답하기 위해 다시 한국어 더빙 하기로 결정한 CDPR에 박수를 보냄) ++ 확장팩은 위쳐3의 확장팩들 생각날 정도로 굉장히 고 퀄리티니 할인 기간 때 꼭 사두실것 -- 3d 멀미에 굉장히 취약하신 분은 1인칭 강제가 부담스러우실 수 있음 -- 폭발 및 차량 파괴 이펙트나 그 과정들이 좀 짜치고 아쉬움 -- 도심 속 시민&차량들 행동 스크립트가 개선 패치를 많이했음에도, 2020년 작 작품임에도 상당히 아쉬움 -- 이건 걍 한국 성우 풀의 문제인데, 다중 캐스팅이 상당히 많아 어디서 다 들어본 목소리임 -- 퀘스트는 엄청 많은데 반해 만렙이 너무 빨리 달성되서 뉴겜플 같은게 존재하여 만렙 확장이 된다든지 보지 못한 다른 루트들을 본다든지 하는 요소가 있었으면 하는 개인적 아쉬움"
         }
       ]
     },
     {
       "block_id": "risk_1",
-      "title": "예상치 못한 오류가 흐름을 끊는다는 반응이다.",
+      "title": "오류와 끊김이 흐름을 끊는다는 반응",
       "theme": "예상치 못한 오류가 플레이 리듬을 끊을 수 있는 리스크",
-      "why_it_matters": "오류와 끊김 이야기가 반복돼 흐름이 한 번 끊기면 피로가 크게 올라올 수 있습니다.",
-      "explanation": "오류와 끊김 이야기가 반복돼 흐름이 한 번 끊기면 피로가 크게 올라올 수 있습니다.",
+      "why_it_matters": "오류와 끊김을 지적하는 반응이 이어져 흐름이 끊기는 상황은 감수할 필요가 있습니다.",
+      "explanation": "오류와 끊김을 지적하는 반응이 이어져 흐름이 끊기는 상황은 감수할 필요가 있습니다.",
       "aspect_keys": [
         "bugs"
       ],
       "stance": "negative",
       "consensus_level": "high",
-      "mention_count": 5096,
+      "mention_count": 5088,
       "evidence_quality_level": "strict",
       "evidence_candidate_snippets": [
-        "아직까지도 버그 투성이 심지어 퀘스트 위치마저도 버그 도무지 용서해줄 수 없는 수준",
-        "버그가 너무 심함 게임 진행 자체를 못함 (시작 화면부터 옵션 아무것도 안보임. 맵 텍스쳐 못 불러옴. 캐릭터 투명화 걸림 등등) pc 5700x 5060ti",
-        "출시 당시엔 말도 많고 탈도 많았다고 하는데, 수 년 동안 문제점이 대폭 개선되어서인지 이제 처음 시작하는 입장에선 굉장히 재밌었습니다. 사이버펑크라는 세계관에 굉장히 충실한 동시에 도시 디자인이 너무 예쁩니다. 100시간을 넘겼는데도 돌아다니다가 감탄이 나올 지경 엔딩이 다가오는 게 아쉬워서 진행을 일부러 미룰 정도였으니 강력하게 추천합니다 단점이라면 사람 많은 곳에서 프레임 드랍이 좀 심한 정도, 그리고 잔잔바리 버그가 조금 남아 있기는 한 것 같네요",
-        "재미있음 완성도 있는 게임이라고는 볼 수 없지만 제미는 있음 총 쏠 생각 마셈 그냥 해킹하고 다니는게 최고임 플레이하면서 이렇게 많은 버그를 본 적은 이 게임이 처음임 별 희한한 버그가 다 있음 너무 신박해서 웃게 됨 정가에 사지 마셈 버그 볼 때마다 빡칠 듯"
+        "아니 무슨 버그가 아직도 이렇게 많아 무기 변경하는 것도 버벅대고, 보스는 버그때문에 허수아비처럼 굳어버리고 무기/상점/업그레이드 시스템도 중간에 고치다가 유기해버려서 엄청 조잡함",
+        "첫 출시에는 버그 투성이였지만, 최근 버그 픽스 및 업데이트를 통해 바뀐 후로는 인생 게임 중에 하나로 등극했네요 장점으로는 몰입감있는 한글 풀더빙과 메인스토리 및 비중있는 서브스토리까지.. 플레이 하는 동안 지루하지 않았습니다. 모든 엔딩을 전부 보았는데 특히 V가 시한부였던 생명을 건졌으나 사이버웨어의 능력과 지인들과의 관계가 끊기며 인파속에서 멀어지는 마지막 엔딩 장면이 가슴아팠네요",
+        "버그만 없어졌지 출시 전 약속했던 모든 것 들이 현재도 없음",
+        "버그가 너무 심함 게임 진행 자체를 못함 (시작 화면부터 옵션 아무것도 안보임. 맵 텍스쳐 못 불러옴. 캐릭터 투명화 걸림 등등) pc 5700x 5060ti"
       ],
       "evidence_snippets": [
-        "버그가 너무 심함 게임 진행 자체를 못함 (시작 화면부터 옵션 아무것도 안보임. 맵 텍스쳐 못 불러옴. 캐릭터 투명화 걸림 등등) pc 5700x 5060ti",
-        "아직까지도 버그 투성이 심지어 퀘스트 위치마저도 버그 도무지 용서해줄 수 없는 수준",
-        "재미있음 완성도 있는 게임이라고는 볼 수 없지만 제미는 있음 총 쏠 생각 마셈 그냥 해킹하고 다니는게 최고임 플레이하면서 이렇게 많은 버그를 본 적은 이 게임이 처음임 별 희한한 버그가 다 있음 너무 신박해서 웃게 됨 정가에 사지 마셈 버그 볼 때마다 빡칠 듯"
+        "아니 무슨 버그가 아직도 이렇게 많아 무기 변경하는 것도 버벅대고, 보스는 버그때문에 허수아비처럼 굳어버리고 무기/상점/업그레이드 시스템도 중간에 고치다가 유기해버려서 엄청 조잡함",
+        "버그만 없어졌지 출시 전 약속했던 모든 것 들이 현재도 없음",
+        "첫 출시에는 버그 투성이였지만, 최근 버그 픽스 및 업데이트를 통해 바뀐 후로는 인생 게임 중에 하나로 등극했네요 장점으로는 몰입감있는 한글 풀더빙과 메인스토리 및 비중있는 서브스토리까지.. 플레이 하는 동안 지루하지 않았습니다. 모든 엔딩을 전부 보았는데 특히 V가 시한부였던 생명을 건졌으나 사이버웨어의 능력과 지인들과의 관계가 끊기며 인파속에서 멀어지는 마지막 엔딩 장면이 가슴아팠네요"
       ],
       "evidence_candidate_items": [
         {
-          "review_id": "compress-v3-negative-1-1-7435847588151994061",
-          "text": "아직까지도 버그 투성이 심지어 퀘스트 위치마저도 버그 도무지 용서해줄 수 없는 수준"
+          "review_id": "compress-v3-negative-1-1-2648550817923271033",
+          "text": "아니 무슨 버그가 아직도 이렇게 많아 무기 변경하는 것도 버벅대고, 보스는 버그때문에 허수아비처럼 굳어버리고 무기/상점/업그레이드 시스템도 중간에 고치다가 유기해버려서 엄청 조잡함"
         },
         {
-          "review_id": "compress-v3-negative-1-2-4813529045948121463",
+          "review_id": "compress-v3-negative-1-2-7349847332214828640",
+          "text": "첫 출시에는 버그 투성이였지만, 최근 버그 픽스 및 업데이트를 통해 바뀐 후로는 인생 게임 중에 하나로 등극했네요 장점으로는 몰입감있는 한글 풀더빙과 메인스토리 및 비중있는 서브스토리까지.. 플레이 하는 동안 지루하지 않았습니다. 모든 엔딩을 전부 보았는데 특히 V가 시한부였던 생명을 건졌으나 사이버웨어의 능력과 지인들과의 관계가 끊기며 인파속에서 멀어지는 마지막 엔딩 장면이 가슴아팠네요"
+        },
+        {
+          "review_id": "compress-v3-negative-1-3-4925270373047308664",
+          "text": "버그만 없어졌지 출시 전 약속했던 모든 것 들이 현재도 없음"
+        },
+        {
+          "review_id": "compress-v3-negative-1-4-7067599544057898904",
           "text": "버그가 너무 심함 게임 진행 자체를 못함 (시작 화면부터 옵션 아무것도 안보임. 맵 텍스쳐 못 불러옴. 캐릭터 투명화 걸림 등등) pc 5700x 5060ti"
-        },
-        {
-          "review_id": "compress-v3-negative-1-3-1146696155946571022",
-          "text": "출시 당시엔 말도 많고 탈도 많았다고 하는데, 수 년 동안 문제점이 대폭 개선되어서인지 이제 처음 시작하는 입장에선 굉장히 재밌었습니다. 사이버펑크라는 세계관에 굉장히 충실한 동시에 도시 디자인이 너무 예쁩니다. 100시간을 넘겼는데도 돌아다니다가 감탄이 나올 지경 엔딩이 다가오는 게 아쉬워서 진행을 일부러 미룰 정도였으니 강력하게 추천합니다 단점이라면 사람 많은 곳에서 프레임 드랍이 좀 심한 정도, 그리고 잔잔바리 버그가 조금 남아 있기는 한 것 같네요"
-        },
-        {
-          "review_id": "compress-v3-negative-1-4-5452928065438414148",
-          "text": "재미있음 완성도 있는 게임이라고는 볼 수 없지만 제미는 있음 총 쏠 생각 마셈 그냥 해킹하고 다니는게 최고임 플레이하면서 이렇게 많은 버그를 본 적은 이 게임이 처음임 별 희한한 버그가 다 있음 너무 신박해서 웃게 됨 정가에 사지 마셈 버그 볼 때마다 빡칠 듯"
         }
       ]
     },
     {
       "block_id": "risk_2",
-      "title": "가격 대비 만족이 갈린다는 반응입니다.",
+      "title": "가격 대비 만족이 갈린다는 반응",
       "theme": "가격 대비 만족도가 갈려 구매 타이밍을 따져봐야 하는 포인트",
-      "why_it_matters": "가격 대비 만족 편차를 언급한 리뷰가 있어, 비용 대비 만족을 엄격히 보면 아쉬울 수 있습니다.",
-      "explanation": "가격 대비 만족 편차를 언급한 리뷰가 있어, 비용 대비 만족을 엄격히 보면 아쉬울 수 있습니다.",
+      "why_it_matters": "가격 대비 만족을 지적하는 반응이 있어 비용 대비 만족을 꼼꼼히 보면 고민이 필요할 수 있습니다.",
+      "explanation": "가격 대비 만족을 지적하는 반응이 있어 비용 대비 만족을 꼼꼼히 보면 고민이 필요할 수 있습니다.",
       "aspect_keys": [
         "monetization"
       ],
       "stance": "negative",
       "consensus_level": "high",
-      "mention_count": 2290,
+      "mention_count": 2287,
       "evidence_quality_level": "relaxed",
       "evidence_candidate_snippets": [
+        "재미있음 완성도 있는 게임이라고는 볼 수 없지만 제미는 있음 총 쏠 생각 마셈 그냥 해킹하고 다니는게 최고임 플레이하면서 이렇게 많은 버그를 본 적은 이 게임이 처음임 별 희한한 버그가 다 있음 너무 신박해서 웃게 됨 정가에 사지 마셈 버그 볼 때마다 빡칠 듯",
         "사펑2077 버그가 아직 많이 있지만 그래도 할인 도중 구매하면 100시간 넘는다 다만 100시간정도 퀘스트 하니까 슬슬 질린다 내가 맥스택이 와도 못 막는 날 근데 신화 무기는 팔면 안돼 메인 스토리 라인에서 얻는 신화 무기는 CET 모드로도 못 얻으니까 메인 스토리 신화는 절대 상점행X 그리고 후반 쯔음~ 캐릭터들이 2077년에 기술력으로 벽을 뚫고 차를 뚫고 바닥까지 뚫으니까 너그럽게 사진모드로 남기자",
-        "GTX 1070 쓰던 시절 예약구매했었고 각종 버그(검은 화면 , T포즈 버그 , 튕김)와 조악한 차량 조작감 등의 문제 등을 겪고... 게임 되려면 멀었다 생각하며 한동안 라이브러리에 묵혀두었습니다. 팬텀 리버티 출시와 2.0 패치 몇년 뒤에 PC를 바꿔서 묵혀둔 게임을 켜봤더니 , 모든 것이 달라졌습니다. 이제 과거의 악평을 잊으시고 플레이해도 좋고 , 레이트레이싱이 진가를 발휘하는 게임이니 PC 사양이 허락한다면 레이트레이싱 켜보세요. 메인 퀘스트는 물론 서브 퀘스트에도 힘이 실린 DLC 팬텀 리버티까지 같이 구입하시길 추천합니다.",
-        "아직도 버그 자유도없고 시발 차운전 본편에서도 겨우 했는데 dlc애서도 만들어 났네 폴란드겜 똥겜"
+        "GTX 1070 쓰던 시절 예약구매했었고 각종 버그(검은 화면 , T포즈 버그 , 튕김)와 조악한 차량 조작감 등의 문제 등을 겪고... 게임 되려면 멀었다 생각하며 한동안 라이브러리에 묵혀두었습니다. 팬텀 리버티 출시와 2.0 패치 몇년 뒤에 PC를 바꿔서 묵혀둔 게임을 켜봤더니 , 모든 것이 달라졌습니다. 이제 과거의 악평을 잊으시고 플레이해도 좋고 , 레이트레이싱이 진가를 발휘하는 게임이니 PC 사양이 허락한다면 레이트레이싱 켜보세요. 메인 퀘스트는 물론 서브 퀘스트에도 힘이 실린 DLC 팬텀 리버티까지 같이 구입하시길 추천합니다."
       ],
       "evidence_snippets": [
-        "아직도 버그 자유도없고 시발 차운전 본편에서도 겨우 했는데 dlc애서도 만들어 났네 폴란드겜 똥겜",
+        "재미있음 완성도 있는 게임이라고는 볼 수 없지만 제미는 있음 총 쏠 생각 마셈 그냥 해킹하고 다니는게 최고임 플레이하면서 이렇게 많은 버그를 본 적은 이 게임이 처음임 별 희한한 버그가 다 있음 너무 신박해서 웃게 됨 정가에 사지 마셈 버그 볼 때마다 빡칠 듯",
         "사펑2077 버그가 아직 많이 있지만 그래도 할인 도중 구매하면 100시간 넘는다 다만 100시간정도 퀘스트 하니까 슬슬 질린다 내가 맥스택이 와도 못 막는 날 근데 신화 무기는 팔면 안돼 메인 스토리 라인에서 얻는 신화 무기는 CET 모드로도 못 얻으니까 메인 스토리 신화는 절대 상점행X 그리고 후반 쯔음~ 캐릭터들이 2077년에 기술력으로 벽을 뚫고 차를 뚫고 바닥까지 뚫으니까 너그럽게 사진모드로 남기자",
         "GTX 1070 쓰던 시절 예약구매했었고 각종 버그(검은 화면, T포즈 버그, 튕김)와 조악한 차량 조작감 등의 문제 등을 겪고... 게임 되려면 멀었다 생각하며 한동안 라이브러리에 묵혀두었습니다. 팬텀 리버티 출시와 2. 0 패치 몇년 뒤에 PC를 바꿔서 묵혀둔 게임을 켜봤더니, 모든 것이 달라졌습니다. 이제 과거의 악평을 잊으시고 플레이해도 좋고, 레이트레이싱이 진가를 발휘하는 게임이니 PC 사양이 허락한다면 레이트레이싱 켜보세요. 메인 퀘스트는 물론 서브 퀘스트에도 힘이 실린 DLC 팬텀 리버티까지 같이 구입하시길 추천합니다."
       ],
       "evidence_candidate_items": [
         {
-          "review_id": "compress-v3-negative-2-2-516963403005537417",
+          "review_id": "compress-v3-negative-2-2-7509474400064678653",
+          "text": "재미있음 완성도 있는 게임이라고는 볼 수 없지만 제미는 있음 총 쏠 생각 마셈 그냥 해킹하고 다니는게 최고임 플레이하면서 이렇게 많은 버그를 본 적은 이 게임이 처음임 별 희한한 버그가 다 있음 너무 신박해서 웃게 됨 정가에 사지 마셈 버그 볼 때마다 빡칠 듯"
+        },
+        {
+          "review_id": "compress-v3-negative-2-3-4823238149160758022",
           "text": "사펑2077 버그가 아직 많이 있지만 그래도 할인 도중 구매하면 100시간 넘는다 다만 100시간정도 퀘스트 하니까 슬슬 질린다 내가 맥스택이 와도 못 막는 날 근데 신화 무기는 팔면 안돼 메인 스토리 라인에서 얻는 신화 무기는 CET 모드로도 못 얻으니까 메인 스토리 신화는 절대 상점행X 그리고 후반 쯔음~ 캐릭터들이 2077년에 기술력으로 벽을 뚫고 차를 뚫고 바닥까지 뚫으니까 너그럽게 사진모드로 남기자"
         },
         {
-          "review_id": "compress-v3-negative-2-3-7309285277018373406",
+          "review_id": "compress-v3-negative-2-4-427610481923046999",
           "text": "GTX 1070 쓰던 시절 예약구매했었고 각종 버그(검은 화면 , T포즈 버그 , 튕김)와 조악한 차량 조작감 등의 문제 등을 겪고... 게임 되려면 멀었다 생각하며 한동안 라이브러리에 묵혀두었습니다. 팬텀 리버티 출시와 2.0 패치 몇년 뒤에 PC를 바꿔서 묵혀둔 게임을 켜봤더니 , 모든 것이 달라졌습니다. 이제 과거의 악평을 잊으시고 플레이해도 좋고 , 레이트레이싱이 진가를 발휘하는 게임이니 PC 사양이 허락한다면 레이트레이싱 켜보세요. 메인 퀘스트는 물론 서브 퀘스트에도 힘이 실린 DLC 팬텀 리버티까지 같이 구입하시길 추천합니다."
-        },
-        {
-          "review_id": "compress-v3-negative-2-4-1379555906315775259",
-          "text": "아직도 버그 자유도없고 시발 차운전 본편에서도 겨우 했는데 dlc애서도 만들어 났네 폴란드겜 똥겜"
         }
       ]
     }

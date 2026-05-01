@@ -50,10 +50,10 @@
       ]
     },
     "content_depth": {
-      "mention_count": 686,
-      "negative_ratio": 0.023323615160349854,
+      "mention_count": 685,
+      "negative_ratio": 0.02335766423357664,
       "recent_trend": "down",
-      "experienced_player_share": 0.9956268221574344,
+      "experienced_player_share": 0.9956204379562044,
       "themes": [
         "콘텐츠 부족",
         "중독성 / 시간순삭",
@@ -81,7 +81,7 @@
     "customization": {
       "mention_count": 45,
       "negative_ratio": 0.022222222222222223,
-      "recent_trend": "up",
+      "recent_trend": "flat",
       "experienced_player_share": 0.9777777777777777,
       "themes": [
         "헤어 / 의상 옵션 부족",
@@ -124,10 +124,10 @@
       ]
     },
     "graphics": {
-      "mention_count": 137,
-      "negative_ratio": 0.043795620437956206,
+      "mention_count": 136,
+      "negative_ratio": 0.04411764705882353,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9781021897810219,
+      "experienced_player_share": 0.9779411764705882,
       "themes": [
         "그래픽 / 비주얼 호평"
       ],
@@ -150,30 +150,30 @@
       ]
     },
     "mod_support": {
-      "mention_count": 692,
-      "negative_ratio": 0.02167630057803468,
+      "mention_count": 694,
+      "negative_ratio": 0.021613832853025938,
       "recent_trend": "down",
-      "experienced_player_share": 0.9942196531791907,
+      "experienced_player_share": 0.9942363112391931,
       "themes": [
         "모드 지원 / 호환 문제"
       ],
       "sample_reviews": [
-        "인간 도축이랑 장기뽑는다 해서 뭔 이런 겜이 있나 싶어서 시작했는데 너무 내 취향게임이어서 시간 순삭했음 \r\n내가 만든 캐릭터들한테 이입을 잘 못하는편인데 200시간 정도하니깐 슬슬 애들 외형 모드 깔아서 스타일도 꾸미게 되고 뭣보다 대가족을 만드니깐 내 초반림 포함 걔네 자식들 손주들 죽는거 잘 못보겠음 \r\n인간냉장고만들어서 무드 회복될때 비워주는데 까먹다보니 몇년된 시체도 생겨서 이건 쫌 크리피했음",
-        "바닐라 클리어까진 아니여도 어느정도는 감잡고 모드 떡칠이든 뭐든 해보는거 추천 바닐라로도 개씹슈퍼갓게임이니까"
+        "모드확장성이 좋은 게임은 예로부터 폐인양성기더라",
+        "아직도 할 모드가 산더미임. 하지마셈 인생망함"
       ]
     },
     "monetization": {
-      "mention_count": 475,
-      "negative_ratio": 0.05263157894736842,
+      "mention_count": 476,
+      "negative_ratio": 0.052521008403361345,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9747368421052631,
+      "experienced_player_share": 0.9747899159663865,
       "themes": [
         "DLC / 확장팩 언급",
         "가격 / 과금 불만"
       ],
       "sample_reviews": [
-        "dlc 더 만들어주세요",
-        "그냥 잠깐 즐길 생각이었는데 한번 키면 거의 무조건 밤새는 것 같아요 미치겠습니다. 처음엔 너무 재미없어서 환불 각 보고 있었는데 저도 모르게 빠져드는 신기한 게임이네요."
+        "세계를 자유롭게 운영.. dlc도 나중에 구매할지 고려중",
+        "dlc 더 만들어주세요"
       ]
     },
     "multiplayer": {
@@ -192,17 +192,17 @@
       ]
     },
     "performance": {
-      "mention_count": 53,
-      "negative_ratio": 0.03773584905660377,
+      "mention_count": 54,
+      "negative_ratio": 0.037037037037037035,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9811320754716981,
+      "experienced_player_share": 0.9814814814814815,
       "themes": [
         "최적화 문제",
         "로딩 / 발열 문제"
       ],
       "sample_reviews": [
-        "저장공간도 별로 안잡아먹고 렉도 별로 안심해서 좋음 모드도 많음",
-        "렉걸려요"
+        "타이난!!! 최적화좀 제대로 해라!!!!",
+        "저장공간도 별로 안잡아먹고 렉도 별로 안심해서 좋음 모드도 많음"
       ]
     },
     "save_progression": {
@@ -236,43 +236,43 @@
   "summary": {
     "what_players_like": "상대적으로 긍정 신호가 보이는 영역은 mod_support이며, 대표 테마는 모드 지원 / 호환 문제입니다.",
     "what_players_dislike": "가장 자주 언급되는 불만 영역은 mod_support이며, 대표 테마는 모드 지원 / 호환 문제입니다.",
-    "recent_change": "최근 기간에는 customization 관련 언급이 상대적으로 증가하는 흐름이 보입니다.",
+    "recent_change": "최근 기간에는 특정 카테고리의 급격한 변화보다 전반적인 유지 신호가 보입니다.",
     "fit_for": "초반 진입 장벽이나 조작 적응 여부를 중요하게 보는 플레이어는 사전 확인이 필요합니다.",
     "risks": "mod_support 관련 이슈는 반복적으로 언급되지만 최근 급격한 악화 신호는 제한적입니다."
   },
-  "pipeline_run_id": "294100-20260427T065255Z",
-  "generated_at": "2026-04-27T06:54:33.673948+00:00",
-  "source_review_count": 7960,
+  "pipeline_run_id": "294100-20260430T095719Z",
+  "generated_at": "2026-04-30T09:58:21.826603+00:00",
+  "source_review_count": 7975,
   "review_pages": "all",
   "fetched_pages": 81,
-  "fetched_review_count": 7960,
+  "fetched_review_count": 7975,
   "fetch_timeout_seconds": 20,
   "fetch_filter": "recent",
   "all_mode_page_cap": 200,
   "all_mode_cap_reached": false,
   "llm_stats": {
-    "considered": 5568,
-    "selected": 20,
-    "invoked": 20,
-    "success": 20,
+    "considered": 5579,
+    "selected": 50,
+    "invoked": 50,
+    "success": 50,
     "schema_invalid": 0,
     "low_confidence": 0,
-    "cache_hits": 0,
+    "cache_hits": 50,
     "fallback_used": 0
   },
   "report_material_refiner": {
     "enabled": true,
-    "max_llm_reviews": 20,
+    "max_llm_reviews": 50,
     "llm_min_confidence": 0.7,
-    "material_count": 20,
+    "material_count": 50,
     "stats": {
-      "considered": 5568,
-      "selected": 20,
-      "invoked": 20,
-      "success": 20,
+      "considered": 5579,
+      "selected": 50,
+      "invoked": 50,
+      "success": 50,
       "schema_invalid": 0,
       "low_confidence": 0,
-      "cache_hits": 0,
+      "cache_hits": 50,
       "fallback_used": 0
     }
   }

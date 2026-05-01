@@ -65,10 +65,10 @@
       ]
     },
     "controls": {
-      "mention_count": 316,
-      "negative_ratio": 0.1518987341772152,
+      "mention_count": 317,
+      "negative_ratio": 0.15141955835962145,
       "recent_trend": "flat",
-      "experienced_player_share": 0.8924050632911392,
+      "experienced_player_share": 0.8927444794952681,
       "themes": [
         "조작감 문제",
         "시점 / 멀미 이슈",
@@ -110,10 +110,10 @@
       ]
     },
     "gameplay": {
-      "mention_count": 2043,
-      "negative_ratio": 0.032794909446891826,
+      "mention_count": 2045,
+      "negative_ratio": 0.03276283618581907,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9804209495839452,
+      "experienced_player_share": 0.980440097799511,
       "themes": [
         "전투 손맛 / 액션 호평",
         "빌드 / 무기 다양성",
@@ -125,10 +125,10 @@
       ]
     },
     "graphics": {
-      "mention_count": 194,
-      "negative_ratio": 0.061855670103092786,
+      "mention_count": 195,
+      "negative_ratio": 0.06153846153846154,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9484536082474226,
+      "experienced_player_share": 0.9487179487179487,
       "themes": [
         "그래픽 / 비주얼 호평"
       ],
@@ -221,10 +221,10 @@
       ]
     },
     "story": {
-      "mention_count": 568,
-      "negative_ratio": 0.045774647887323945,
+      "mention_count": 569,
+      "negative_ratio": 0.04569420035149385,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9647887323943662,
+      "experienced_player_share": 0.9648506151142355,
       "themes": [
         "스토리 / 서사 몰입",
         "캐릭터 / 연출 인상"
@@ -242,39 +242,39 @@
     "fit_for": "초반 진입 장벽이나 조작 적응 여부를 중요하게 보는 플레이어는 사전 확인이 필요합니다.",
     "risks": "gameplay 관련 이슈는 반복적으로 언급되지만 최근 급격한 악화 신호는 제한적입니다."
   },
-  "pipeline_run_id": "814380-20260427T064301Z",
-  "generated_at": "2026-04-27T06:45:07.203217+00:00",
-  "source_review_count": 10710,
+  "pipeline_run_id": "814380-20260430T092559Z",
+  "generated_at": "2026-04-30T09:27:18.488892+00:00",
+  "source_review_count": 10711,
   "review_pages": "all",
   "fetched_pages": 109,
-  "fetched_review_count": 10710,
+  "fetched_review_count": 10711,
   "fetch_timeout_seconds": 20,
   "fetch_filter": "recent",
   "all_mode_page_cap": 200,
   "all_mode_cap_reached": false,
   "llm_stats": {
-    "considered": 7461,
-    "selected": 20,
-    "invoked": 20,
-    "success": 20,
+    "considered": 7463,
+    "selected": 50,
+    "invoked": 50,
+    "success": 50,
     "schema_invalid": 0,
     "low_confidence": 0,
-    "cache_hits": 0,
+    "cache_hits": 50,
     "fallback_used": 0
   },
   "report_material_refiner": {
     "enabled": true,
-    "max_llm_reviews": 20,
+    "max_llm_reviews": 50,
     "llm_min_confidence": 0.7,
-    "material_count": 20,
+    "material_count": 50,
     "stats": {
-      "considered": 7461,
-      "selected": 20,
-      "invoked": 20,
-      "success": 20,
+      "considered": 7463,
+      "selected": 50,
+      "invoked": 50,
+      "success": 50,
       "schema_invalid": 0,
       "low_confidence": 0,
-      "cache_hits": 0,
+      "cache_hits": 50,
       "fallback_used": 0
     }
   }

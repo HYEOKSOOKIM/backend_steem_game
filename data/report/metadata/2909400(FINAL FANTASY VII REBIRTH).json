@@ -1,0 +1,105 @@
+{
+  "appid": 2909400,
+  "name": "FINAL FANTASY VII REBIRTH",
+  "name_en": "FINAL FANTASY VII REBIRTH",
+  "name_ko": "FINAL FANTASY VII REBIRTH",
+  "genres": [
+    "액션",
+    "어드벤처",
+    "RPG"
+  ],
+  "price_model": "paid",
+  "release_stage": "released",
+  "release_date_text": "2025년 1월 23일",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/header.jpg?t=1775124617",
+  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/159fb57397e436d35ae20ba0f62ba7a7f2974cb9/capsule_231x87.jpg?t=1775124617",
+  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/159fb57397e436d35ae20ba0f62ba7a7f2974cb9/capsule_184x69.jpg?t=1775124617",
+  "screenshots": [
+    {
+      "id": "0",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/ss_7a83a64967a06edbf0d43821153a0188471d596a.600x338.jpg?t=1775124617",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/ss_7a83a64967a06edbf0d43821153a0188471d596a.1920x1080.jpg?t=1775124617"
+    },
+    {
+      "id": "1",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/ss_7c389d8ed52b6bd2350a3bc9866ac45c919fb2e9.600x338.jpg?t=1775124617",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/ss_7c389d8ed52b6bd2350a3bc9866ac45c919fb2e9.1920x1080.jpg?t=1775124617"
+    },
+    {
+      "id": "2",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/ss_5540aef3258019f77559ca77ef29ba893b61010f.600x338.jpg?t=1775124617",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/ss_5540aef3258019f77559ca77ef29ba893b61010f.1920x1080.jpg?t=1775124617"
+    },
+    {
+      "id": "3",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/ss_45513682d4c2e77b2a89e7bea00ec2851c110116.600x338.jpg?t=1775124617",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/ss_45513682d4c2e77b2a89e7bea00ec2851c110116.1920x1080.jpg?t=1775124617"
+    },
+    {
+      "id": "4",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/ss_e20893c29ecb3211e9d2dd4b0c043a209ea15c07.600x338.jpg?t=1775124617",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/ss_e20893c29ecb3211e9d2dd4b0c043a209ea15c07.1920x1080.jpg?t=1775124617"
+    }
+  ],
+  "movies": [
+    {
+      "id": "257091399",
+      "name": "EN PEGI - launch",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257091399/97c439908c967cf8cc09e0c25c8528b14dfaa78d/movie_600x337.jpg?t=1737642805",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2909400/817024/bdf5f79046e5a931b097a2e8931cd4555c24c5ac/1750821385/hls_264_master.m3u8?t=1737642805",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2909400/817024/bdf5f79046e5a931b097a2e8931cd4555c24c5ac/1750821385/dash_h264.mpd?t=1737642805",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2909400/817024/bdf5f79046e5a931b097a2e8931cd4555c24c5ac/1750821385/dash_av1.mpd?t=1737642805",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/2909400/817024/bdf5f79046e5a931b097a2e8931cd4555c24c5ac/1750821385/hls_264_master.m3u8?t=1737642805"
+    },
+    {
+      "id": "257089671",
+      "name": "EN PEGI - comparison",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257089671/0e6bea75f8410101e1894646f45465679308ee8a/movie_600x337.jpg?t=1737640945",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2909400/813955/31e1b72624e4b3e72458bf9c13bac3c7abcd4efb/1750821349/hls_264_master.m3u8?t=1737640945",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2909400/813955/31e1b72624e4b3e72458bf9c13bac3c7abcd4efb/1750821349/dash_h264.mpd?t=1737640945",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2909400/813955/31e1b72624e4b3e72458bf9c13bac3c7abcd4efb/1750821349/dash_av1.mpd?t=1737640945",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/2909400/813955/31e1b72624e4b3e72458bf9c13bac3c7abcd4efb/1750821349/hls_264_master.m3u8?t=1737640945"
+    },
+    {
+      "id": "257087396",
+      "name": "EN PEGI- deep dive",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257087396/0d907a60692642f6aa1e40579311a991f8551528/movie_600x337.jpg?t=1736491182",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2909400/809715/a4815765de18616ed28de3784f8a816df6330c99/1750821329/hls_264_master.m3u8?t=1736491182",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2909400/809715/a4815765de18616ed28de3784f8a816df6330c99/1750821329/dash_h264.mpd?t=1736491182",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2909400/809715/a4815765de18616ed28de3784f8a816df6330c99/1750821329/dash_av1.mpd?t=1736491182",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/2909400/809715/a4815765de18616ed28de3784f8a816df6330c99/1750821329/hls_264_master.m3u8?t=1736491182"
+    },
+    {
+      "id": "257081672",
+      "name": "EN PEGI - prepurchase",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257081672/02c052f79ee10377bfd19879e7c776806aeb914c/movie_600x337.jpg?t=1734064110",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2909400/799413/f856500f0f9a2397b4203d038e285170facf24ed/1750821312/hls_264_master.m3u8?t=1734064110",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2909400/799413/f856500f0f9a2397b4203d038e285170facf24ed/1750821312/dash_h264.mpd?t=1734064110",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2909400/799413/f856500f0f9a2397b4203d038e285170facf24ed/1750821312/dash_av1.mpd?t=1734064110",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/2909400/799413/f856500f0f9a2397b4203d038e285170facf24ed/1750821312/hls_264_master.m3u8?t=1734064110"
+    }
+  ],
+  "short_description": "마황 도시 미드가르에서 탈출한 클라우드와 동료들은 광대한 세계로 떠난다. 새롭게 그려지는 스토리, 광대한 세계에서 펼쳐지는 자유로운 모험, 동료들과의 인연이 더욱 깊어지는 배틀―― 『FINAL FANTASY VII REMAKE』로부터 더욱 진화된 게임 체험이 재탄생한다.",
+  "steam_store_url": "https://store.steampowered.com/app/2909400",
+  "steam_recommendation_count": 21322,
+  "steam_review_score_desc": "Mostly Positive",
+  "steam_total_positive": 532,
+  "steam_total_negative": 215,
+  "steam_total_reviews": 747,
+  "price_currency": "KRW",
+  "price_current": 3768000,
+  "price_original": 6280000,
+  "price_current_formatted": "₩ 37,680",
+  "price_original_formatted": "₩ 62,800",
+  "price_discount_percent": 40,
+  "is_free": false,
+  "coming_soon": false
+}

@@ -196,6 +196,8 @@ def regenerate_from_raw(
         Path(data_root) / "catalog" / "demo_games.json",
         appid=appid,
         name=game_name or f"appid-{appid}",
+        name_en=metadata.name_en,
+        name_ko=metadata.name_ko,
         enabled_for_demo=True,
     )
 

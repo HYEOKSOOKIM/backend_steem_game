@@ -61,8 +61,13 @@ def run_offline_pipeline_for_appid(
     )
     fetch_stats = steam_payload.get("_fetch_stats", {}) if isinstance(steam_payload, dict) else {}
     metadata_payload = fetch_steam_game_metadata(appid)
+    metadata_payload_en = fetch_steam_game_metadata(appid, language="english")
 
     metadata = normalize_steam_game_metadata(appid, metadata_payload)
+    metadata_en = normalize_steam_game_metadata(appid, metadata_payload_en)
+    metadata.name_ko = metadata.name
+    metadata.name_en = metadata_en.name or metadata.name
+    metadata.name = metadata.name_ko or metadata.name_en or metadata.name
     for key, value in normalize_steam_review_summary(steam_payload).items():
         setattr(metadata, key, value)
     # Keep saved filenames aligned with Steam appdetails name by default.
@@ -168,6 +173,8 @@ def run_offline_pipeline_for_appid(
         catalog_path,
         appid=appid,
         name=metadata.name or output_game_name or f"appid-{appid}",
+        name_en=metadata.name_en,
+        name_ko=metadata.name_ko,
         enabled_for_demo=True,
     )
 

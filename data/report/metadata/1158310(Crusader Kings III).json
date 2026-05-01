@@ -1,6 +1,8 @@
 {
   "appid": 1158310,
   "name": "Crusader Kings III",
+  "name_en": "Crusader Kings III",
+  "name_ko": "Crusader Kings III",
   "genres": [
     "RPG",
     "시뮬레이션",
@@ -12,13 +14,126 @@
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/26512f9fd71590fe280dc7172665d88c20b92a7a/header_alt_assets_15_koreana.jpg?t=1776764652",
   "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/77aa6949129ebac3f9cd21dd4d2efe05a59330b4/capsule_231x87_alt_assets_15_koreana.jpg?t=1776764652",
   "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/77aa6949129ebac3f9cd21dd4d2efe05a59330b4/capsule_184x69_alt_assets_15_koreana.jpg?t=1776764652",
+  "screenshots": [
+    {
+      "id": "0",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/addd6bec0b1afb02a24be1ed08991d79ea8fe86a/ss_addd6bec0b1afb02a24be1ed08991d79ea8fe86a.600x338.jpg?t=1776764652",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/addd6bec0b1afb02a24be1ed08991d79ea8fe86a/ss_addd6bec0b1afb02a24be1ed08991d79ea8fe86a.1920x1080.jpg?t=1776764652"
+    },
+    {
+      "id": "1",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/1ac444deae721a595e8043786d86a992166b0ee0/ss_1ac444deae721a595e8043786d86a992166b0ee0.600x338.jpg?t=1776764652",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/1ac444deae721a595e8043786d86a992166b0ee0/ss_1ac444deae721a595e8043786d86a992166b0ee0.1920x1080.jpg?t=1776764652"
+    },
+    {
+      "id": "2",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/632d85ce9147a63f9eb13fc0db7b2a97686deadc/ss_632d85ce9147a63f9eb13fc0db7b2a97686deadc.600x338.jpg?t=1776764652",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/632d85ce9147a63f9eb13fc0db7b2a97686deadc/ss_632d85ce9147a63f9eb13fc0db7b2a97686deadc.1920x1080.jpg?t=1776764652"
+    },
+    {
+      "id": "3",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/439b0cb4f8bf1fba52885b32578378003ddca3a6/ss_439b0cb4f8bf1fba52885b32578378003ddca3a6.600x338.jpg?t=1776764652",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/439b0cb4f8bf1fba52885b32578378003ddca3a6/ss_439b0cb4f8bf1fba52885b32578378003ddca3a6.1920x1080.jpg?t=1776764652"
+    },
+    {
+      "id": "4",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/bbb3fa629e29080e82a122bbd45a3f5eed713c83/ss_bbb3fa629e29080e82a122bbd45a3f5eed713c83.600x338.jpg?t=1776764652",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/bbb3fa629e29080e82a122bbd45a3f5eed713c83/ss_bbb3fa629e29080e82a122bbd45a3f5eed713c83.1920x1080.jpg?t=1776764652"
+    },
+    {
+      "id": "5",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/a307c6ce9611faa01f264610d386df4b4c9fb34d/ss_a307c6ce9611faa01f264610d386df4b4c9fb34d.600x338.jpg?t=1776764652",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/a307c6ce9611faa01f264610d386df4b4c9fb34d/ss_a307c6ce9611faa01f264610d386df4b4c9fb34d.1920x1080.jpg?t=1776764652"
+    },
+    {
+      "id": "6",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/b40a53526f506cf2c6f1f22868f91dca34d049c3/ss_b40a53526f506cf2c6f1f22868f91dca34d049c3.600x338.jpg?t=1776764652",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/b40a53526f506cf2c6f1f22868f91dca34d049c3/ss_b40a53526f506cf2c6f1f22868f91dca34d049c3.1920x1080.jpg?t=1776764652"
+    },
+    {
+      "id": "7",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/563094df54cc603ce9136996c999cff1addecceb/ss_563094df54cc603ce9136996c999cff1addecceb.600x338.jpg?t=1776764652",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/563094df54cc603ce9136996c999cff1addecceb/ss_563094df54cc603ce9136996c999cff1addecceb.1920x1080.jpg?t=1776764652"
+    },
+    {
+      "id": "8",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/e867721a88fec4db325f5efcfbe8a70cb49891f0/ss_e867721a88fec4db325f5efcfbe8a70cb49891f0.600x338.jpg?t=1776764652",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/e867721a88fec4db325f5efcfbe8a70cb49891f0/ss_e867721a88fec4db325f5efcfbe8a70cb49891f0.1920x1080.jpg?t=1776764652"
+    },
+    {
+      "id": "9",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/6aee3709273ddd53a8157201d116983032db4ecc/ss_6aee3709273ddd53a8157201d116983032db4ecc.600x338.jpg?t=1776764652",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/6aee3709273ddd53a8157201d116983032db4ecc/ss_6aee3709273ddd53a8157201d116983032db4ecc.1920x1080.jpg?t=1776764652"
+    },
+    {
+      "id": "10",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/285f0d4a2fcc8b0cf86ede090192671e87acaa15/ss_285f0d4a2fcc8b0cf86ede090192671e87acaa15.600x338.jpg?t=1776764652",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/285f0d4a2fcc8b0cf86ede090192671e87acaa15/ss_285f0d4a2fcc8b0cf86ede090192671e87acaa15.1920x1080.jpg?t=1776764652"
+    },
+    {
+      "id": "11",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/b9be6cab51a5fdf8b54e9acdf13f4271549aa57f/ss_b9be6cab51a5fdf8b54e9acdf13f4271549aa57f.600x338.jpg?t=1776764652",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/b9be6cab51a5fdf8b54e9acdf13f4271549aa57f/ss_b9be6cab51a5fdf8b54e9acdf13f4271549aa57f.1920x1080.jpg?t=1776764652"
+    },
+    {
+      "id": "12",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/aae9febf93b47695bca5c87e528a2d1bc80e6f55/ss_aae9febf93b47695bca5c87e528a2d1bc80e6f55.600x338.jpg?t=1776764652",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/aae9febf93b47695bca5c87e528a2d1bc80e6f55/ss_aae9febf93b47695bca5c87e528a2d1bc80e6f55.1920x1080.jpg?t=1776764652"
+    },
+    {
+      "id": "13",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/04257d86f50420d846da8f5235b82d9f07a532b3/ss_04257d86f50420d846da8f5235b82d9f07a532b3.600x338.jpg?t=1776764652",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/04257d86f50420d846da8f5235b82d9f07a532b3/ss_04257d86f50420d846da8f5235b82d9f07a532b3.1920x1080.jpg?t=1776764652"
+    }
+  ],
+  "movies": [
+    {
+      "id": "257057629",
+      "name": "Crusader Kings III - Gameplay Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257057629/movie.293x165.jpg?t=1727193628",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1158310/759975/7cc72dfe9418c56944f7b91f1030374be3a971ea/1750630363/hls_264_master.m3u8?t=1727193628",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1158310/759975/7cc72dfe9418c56944f7b91f1030374be3a971ea/1750630363/dash_h264.mpd?t=1727193628",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1158310/759975/7cc72dfe9418c56944f7b91f1030374be3a971ea/1750630363/dash_av1.mpd?t=1727193628",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/1158310/759975/7cc72dfe9418c56944f7b91f1030374be3a971ea/1750630363/hls_264_master.m3u8?t=1727193628"
+    },
+    {
+      "id": "257057619",
+      "name": "Crusader Kings III - Release Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257057619/movie.293x165.jpg?t=1727193633",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1158310/759963/31c74513b57fb0626bc7ab3d2915172debfb681f/1750630346/hls_264_master.m3u8?t=1727193633",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1158310/759963/31c74513b57fb0626bc7ab3d2915172debfb681f/1750630346/dash_h264.mpd?t=1727193633",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1158310/759963/31c74513b57fb0626bc7ab3d2915172debfb681f/1750630346/dash_av1.mpd?t=1727193633",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/1158310/759963/31c74513b57fb0626bc7ab3d2915172debfb681f/1750630346/hls_264_master.m3u8?t=1727193633"
+    },
+    {
+      "id": "257014334",
+      "name": "Crusader Kings III - Story Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257014334/movie.293x165.jpg?t=1712656227",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1158310/684841/d3cb11c1ae7849ddd9622f200e71f7f96c7cc807/1750630297/hls_264_master.m3u8?t=1712656227",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1158310/684841/d3cb11c1ae7849ddd9622f200e71f7f96c7cc807/1750630297/dash_h264.mpd?t=1712656227",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1158310/684841/d3cb11c1ae7849ddd9622f200e71f7f96c7cc807/1750630297/dash_av1.mpd?t=1712656227",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/1158310/684841/d3cb11c1ae7849ddd9622f200e71f7f96c7cc807/1750630297/hls_264_master.m3u8?t=1712656227"
+    }
+  ],
   "short_description": "사랑하고, 싸우고, 계략을 세우고, 위대함을 쟁취하세요. Crusader Kings III의 마구 뻗어 나가는 대전략 게임에서 귀족 가문의 유산을 결정하세요. 풍부하고 개성 넘치는 중세 시대 시뮬레이션 속 왕조 혈통을 이어나가는 이곳에서, 죽음은 단지 시작일 뿐입니다.",
   "steam_store_url": "https://store.steampowered.com/app/1158310",
-  "steam_recommendation_count": 93280,
+  "steam_recommendation_count": 93377,
   "steam_review_score_desc": "Very Positive",
   "steam_total_positive": 3408,
   "steam_total_negative": 253,
   "steam_total_reviews": 3661,
+  "price_currency": "KRW",
+  "price_current": 1650000,
+  "price_original": 5500000,
+  "price_current_formatted": "₩ 16,500",
+  "price_original_formatted": "₩ 55,000",
+  "price_discount_percent": 70,
   "is_free": false,
   "coming_soon": false
 }

@@ -1,0 +1,96 @@
+{
+  "appid": 2054970,
+  "name": "Dragon's Dogma 2",
+  "name_en": "Dragon's Dogma 2",
+  "name_ko": "Dragon's Dogma 2",
+  "genres": [
+    "액션",
+    "RPG"
+  ],
+  "price_model": "paid",
+  "release_stage": "released",
+  "release_date_text": "2024년 3월 21일",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2054970/header.jpg?t=1768870094",
+  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2054970/capsule_231x87.jpg?t=1768870094",
+  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2054970/capsule_184x69.jpg?t=1768870094",
+  "screenshots": [
+    {
+      "id": "0",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2054970/ss_f419f8b6577558b40ce8c384f4bfaabbf44c8a8e.600x338.jpg?t=1768870094",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2054970/ss_f419f8b6577558b40ce8c384f4bfaabbf44c8a8e.1920x1080.jpg?t=1768870094"
+    },
+    {
+      "id": "1",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2054970/ss_084be4d2bf3c7365c2b684c4b5578a1ad8deefac.600x338.jpg?t=1768870094",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2054970/ss_084be4d2bf3c7365c2b684c4b5578a1ad8deefac.1920x1080.jpg?t=1768870094"
+    },
+    {
+      "id": "2",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2054970/ss_037861574d85abdfb8908204e446544abd92effe.600x338.jpg?t=1768870094",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2054970/ss_037861574d85abdfb8908204e446544abd92effe.1920x1080.jpg?t=1768870094"
+    },
+    {
+      "id": "3",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2054970/ss_ef263c112e274dc73a4bb00596aee1ebfc2b0ed8.600x338.jpg?t=1768870094",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2054970/ss_ef263c112e274dc73a4bb00596aee1ebfc2b0ed8.1920x1080.jpg?t=1768870094"
+    },
+    {
+      "id": "4",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2054970/ss_8979e7af203f7405845f76ffa73749d924540e97.600x338.jpg?t=1768870094",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2054970/ss_8979e7af203f7405845f76ffa73749d924540e97.1920x1080.jpg?t=1768870094"
+    },
+    {
+      "id": "5",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2054970/ss_a2878bf879ea6c36cc2c5a554007a5116e8ede14.600x338.jpg?t=1768870094",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2054970/ss_a2878bf879ea6c36cc2c5a554007a5116e8ede14.1920x1080.jpg?t=1768870094"
+    },
+    {
+      "id": "6",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2054970/ss_06cdf45af9fa89bc9a6e9d46f830fe0e9d84f1e3.600x338.jpg?t=1768870094",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2054970/ss_06cdf45af9fa89bc9a6e9d46f830fe0e9d84f1e3.1920x1080.jpg?t=1768870094"
+    },
+    {
+      "id": "7",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2054970/ss_7818dbd3504400f13f5924adc9d81999b791e87b.600x338.jpg?t=1768870094",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2054970/ss_7818dbd3504400f13f5924adc9d81999b791e87b.1920x1080.jpg?t=1768870094"
+    },
+    {
+      "id": "8",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2054970/ss_db618332718d8a6c4f450dd3c6658ad154d328b4.600x338.jpg?t=1768870094",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2054970/ss_db618332718d8a6c4f450dd3c6658ad154d328b4.1920x1080.jpg?t=1768870094"
+    },
+    {
+      "id": "9",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2054970/ss_6d2e03c518137d89e8b82a4ada6f3d0a2e804cc5.600x338.jpg?t=1768870094",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2054970/ss_6d2e03c518137d89e8b82a4ada6f3d0a2e804cc5.1920x1080.jpg?t=1768870094"
+    }
+  ],
+  "movies": [
+    {
+      "id": "257009945",
+      "name": "01_DD2_MainTrailer_Multi_2K_KR_after",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257009945/movie.293x165.jpg?t=1711065725",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2054970/677553/bc418e6314aa30bc1263aa5bc2b7182f304e5fb3/1750745468/hls_264_master.m3u8?t=1711065725",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2054970/677553/bc418e6314aa30bc1263aa5bc2b7182f304e5fb3/1750745468/dash_h264.mpd?t=1711065725",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2054970/677553/bc418e6314aa30bc1263aa5bc2b7182f304e5fb3/1750745468/dash_av1.mpd?t=1711065725",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/2054970/677553/bc418e6314aa30bc1263aa5bc2b7182f304e5fb3/1750745468/hls_264_master.m3u8?t=1711065725"
+    }
+  ],
+  "short_description": "플레이어의 상상에 부응하는 다채로운 액션과, 싱글 플레이여도 “다른 누군가와 함께 모험하는 재미”를 맛볼 수 있는 게임 체험. 최신 그래픽과 물리 연산, AI를 통해 면밀하게 짜여진 왕도 판타지의 세계에는 놀라움과 리얼리티가 가득합니다. 나의 여정을 함께 하는 동료 '폰'과 함께 유일무이한 모험을 시작하세요.",
+  "steam_store_url": "https://store.steampowered.com/app/2054970",
+  "steam_recommendation_count": 74370,
+  "steam_review_score_desc": "Mixed",
+  "steam_total_positive": 1731,
+  "steam_total_negative": 1452,
+  "steam_total_reviews": 3183,
+  "price_currency": "KRW",
+  "price_current": 3646000,
+  "price_original": 8680000,
+  "price_current_formatted": "₩ 36,460",
+  "price_original_formatted": "₩ 86,800",
+  "price_discount_percent": 58,
+  "is_free": false,
+  "coming_soon": false
+}

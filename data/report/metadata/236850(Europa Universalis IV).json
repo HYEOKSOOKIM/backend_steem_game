@@ -1,6 +1,8 @@
 {
   "appid": 236850,
   "name": "Europa Universalis IV",
+  "name_en": "Europa Universalis IV",
+  "name_ko": "Europa Universalis IV",
   "genres": [
     "시뮬레이션",
     "전략"
@@ -11,13 +13,95 @@
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236850/header.jpg?t=1746720143",
   "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236850/f4e714d0f5a6be6b76e4b7cfddd692ccc689884a/capsule_231x87.jpg?t=1746720143",
   "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236850/f4e714d0f5a6be6b76e4b7cfddd692ccc689884a/capsule_184x69.jpg?t=1746720143",
+  "screenshots": [
+    {
+      "id": "0",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236850/ss_505866198168d5ebaf3b4b76caeca2ee55883786.600x338.jpg?t=1746720143",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236850/ss_505866198168d5ebaf3b4b76caeca2ee55883786.1920x1080.jpg?t=1746720143"
+    },
+    {
+      "id": "1",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236850/ss_a7a6735657b6aafd1125b9b4280a0f73e5fc2981.600x338.jpg?t=1746720143",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236850/ss_a7a6735657b6aafd1125b9b4280a0f73e5fc2981.1920x1080.jpg?t=1746720143"
+    },
+    {
+      "id": "2",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236850/ss_0f31b85193b9e40fd70f710c0ac8fa843c96b604.600x338.jpg?t=1746720143",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236850/ss_0f31b85193b9e40fd70f710c0ac8fa843c96b604.1920x1080.jpg?t=1746720143"
+    },
+    {
+      "id": "3",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236850/ss_83179e7c220e4bf9a396c77e8a566a4c9d30d686.600x338.jpg?t=1746720143",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236850/ss_83179e7c220e4bf9a396c77e8a566a4c9d30d686.1920x1080.jpg?t=1746720143"
+    },
+    {
+      "id": "4",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236850/ss_d3ca5ede1b13ce7c1782ddd2a182d313f914d937.600x338.jpg?t=1746720143",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236850/ss_d3ca5ede1b13ce7c1782ddd2a182d313f914d937.1920x1080.jpg?t=1746720143"
+    },
+    {
+      "id": "5",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236850/ss_b17cebc702b38599cfce8d6bc50b48946fb5a14e.600x338.jpg?t=1746720143",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236850/ss_b17cebc702b38599cfce8d6bc50b48946fb5a14e.1920x1080.jpg?t=1746720143"
+    },
+    {
+      "id": "6",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236850/ss_375685e265563ba8240939189ee6afbaf681596c.600x338.jpg?t=1746720143",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236850/ss_375685e265563ba8240939189ee6afbaf681596c.1920x1080.jpg?t=1746720143"
+    },
+    {
+      "id": "7",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236850/ss_5f121c7e811451deee1fa15b3fcfd95ea072f6b2.600x338.jpg?t=1746720143",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236850/ss_5f121c7e811451deee1fa15b3fcfd95ea072f6b2.1920x1080.jpg?t=1746720143"
+    },
+    {
+      "id": "8",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236850/ss_cc4dfbcd841948ebf45ab082466064ff7cfbfd94.600x338.jpg?t=1746720143",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236850/ss_cc4dfbcd841948ebf45ab082466064ff7cfbfd94.1920x1080.jpg?t=1746720143"
+    },
+    {
+      "id": "9",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236850/ss_4d65ea97a30ab87a81159cdda7c5e0952fb55b01.600x338.jpg?t=1746720143",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236850/ss_4d65ea97a30ab87a81159cdda7c5e0952fb55b01.1920x1080.jpg?t=1746720143"
+    }
+  ],
+  "movies": [
+    {
+      "id": "256961262",
+      "name": "Europa Universalis IV: 10th Anniversary Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256961262/movie.293x165.jpg?t=1690890454",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/236850/592925/9956cfde3066da891920dcc5ee5886cd53bf850a/1750496978/hls_264_master.m3u8?t=1690890454",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/236850/592925/9956cfde3066da891920dcc5ee5886cd53bf850a/1750496978/dash_h264.mpd?t=1690890454",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/236850/592925/9956cfde3066da891920dcc5ee5886cd53bf850a/1750496978/dash_av1.mpd?t=1690890454",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/236850/592925/9956cfde3066da891920dcc5ee5886cd53bf850a/1750496978/hls_264_master.m3u8?t=1690890454"
+    },
+    {
+      "id": "256835289",
+      "name": "Europa Universalis IV: Subscription Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256835289/movie.293x165.jpg?t=1628784026",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/236850/370699/06e4e34c2af625ec796678160f2061672a6fa3f1/1750496975/hls_264_master.m3u8?t=1628784026",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/236850/370699/06e4e34c2af625ec796678160f2061672a6fa3f1/1750496975/dash_h264.mpd?t=1628784026",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/236850/370699/06e4e34c2af625ec796678160f2061672a6fa3f1/1750496975/dash_av1.mpd?t=1628784026",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/236850/370699/06e4e34c2af625ec796678160f2061672a6fa3f1/1750496975/hls_264_master.m3u8?t=1628784026"
+    }
+  ],
   "short_description": "비교할 수 없는 자유도, 깊이 있는 스토리, 정확한 역사적 고증을 즐기며 국토를 다스리고 세계를 정복하세요. 세계 역사를 새롭게 쓰며 시대를 풍미할 제국을 만드세요.",
   "steam_store_url": "https://store.steampowered.com/app/236850",
-  "steam_recommendation_count": 94856,
+  "steam_recommendation_count": 94875,
   "steam_review_score_desc": "Very Positive",
   "steam_total_positive": 1343,
   "steam_total_negative": 196,
   "steam_total_reviews": 1539,
+  "price_currency": "KRW",
+  "price_current": 5500000,
+  "price_original": 5500000,
+  "price_current_formatted": "₩ 55,000",
+  "price_original_formatted": null,
+  "price_discount_percent": 0,
   "is_free": false,
   "coming_soon": false
 }

@@ -242,8 +242,8 @@
     "fit_for": "초반 진입 장벽이나 조작 적응 여부를 중요하게 보는 플레이어는 사전 확인이 필요합니다.",
     "risks": "monetization 관련 이슈는 반복적으로 언급되지만 최근 급격한 악화 신호는 제한적입니다."
   },
-  "pipeline_run_id": "1158310-20260427T065026Z",
-  "generated_at": "2026-04-27T06:51:40.938375+00:00",
+  "pipeline_run_id": "1158310-20260430T100355Z",
+  "generated_at": "2026-04-30T10:04:45.815373+00:00",
   "source_review_count": 3660,
   "review_pages": "all",
   "fetched_pages": 38,
@@ -254,27 +254,27 @@
   "all_mode_cap_reached": false,
   "llm_stats": {
     "considered": 2512,
-    "selected": 20,
-    "invoked": 20,
-    "success": 20,
+    "selected": 50,
+    "invoked": 50,
+    "success": 50,
     "schema_invalid": 0,
     "low_confidence": 0,
-    "cache_hits": 0,
+    "cache_hits": 50,
     "fallback_used": 0
   },
   "report_material_refiner": {
     "enabled": true,
-    "max_llm_reviews": 20,
+    "max_llm_reviews": 50,
     "llm_min_confidence": 0.7,
-    "material_count": 20,
+    "material_count": 50,
     "stats": {
       "considered": 2512,
-      "selected": 20,
-      "invoked": 20,
-      "success": 20,
+      "selected": 50,
+      "invoked": 50,
+      "success": 50,
       "schema_invalid": 0,
       "low_confidence": 0,
-      "cache_hits": 0,
+      "cache_hits": 50,
       "fallback_used": 0
     }
   }

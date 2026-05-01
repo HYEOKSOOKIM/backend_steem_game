@@ -1,0 +1,623 @@
+{
+  "report_version": "v4-planned-sections",
+  "appid": 949230,
+  "pipeline_run_id": "949230-20260430T092414Z",
+  "generated_at": "2026-04-30T09:25:33.545801+00:00",
+  "source_review_count": 1891,
+  "included_review_count": 1536,
+  "min_report_review_count": 100,
+  "report_state": "ready",
+  "review_trend": {
+    "granularity": "month",
+    "metric": "positive_ratio",
+    "points": [
+      {
+        "month": "2023-10",
+        "positive_count": 241,
+        "review_count": 426,
+        "positive_ratio": 0.5657
+      },
+      {
+        "month": "2023-11",
+        "positive_count": 178,
+        "review_count": 284,
+        "positive_ratio": 0.6268
+      },
+      {
+        "month": "2023-12",
+        "positive_count": 39,
+        "review_count": 84,
+        "positive_ratio": 0.4643
+      },
+      {
+        "month": "2024-01",
+        "positive_count": 31,
+        "review_count": 62,
+        "positive_ratio": 0.5
+      },
+      {
+        "month": "2024-02",
+        "positive_count": 19,
+        "review_count": 40,
+        "positive_ratio": 0.475
+      },
+      {
+        "month": "2024-03",
+        "positive_count": 24,
+        "review_count": 86,
+        "positive_ratio": 0.2791
+      },
+      {
+        "month": "2024-04",
+        "positive_count": 14,
+        "review_count": 49,
+        "positive_ratio": 0.2857
+      },
+      {
+        "month": "2024-05",
+        "positive_count": 15,
+        "review_count": 30,
+        "positive_ratio": 0.5
+      },
+      {
+        "month": "2024-06",
+        "positive_count": 19,
+        "review_count": 38,
+        "positive_ratio": 0.5
+      },
+      {
+        "month": "2024-07",
+        "positive_count": 23,
+        "review_count": 40,
+        "positive_ratio": 0.575
+      },
+      {
+        "month": "2024-08",
+        "positive_count": 21,
+        "review_count": 34,
+        "positive_ratio": 0.6176
+      },
+      {
+        "month": "2024-09",
+        "positive_count": 16,
+        "review_count": 30,
+        "positive_ratio": 0.5333
+      },
+      {
+        "month": "2024-10",
+        "positive_count": 18,
+        "review_count": 32,
+        "positive_ratio": 0.5625
+      },
+      {
+        "month": "2024-11",
+        "positive_count": 18,
+        "review_count": 36,
+        "positive_ratio": 0.5
+      },
+      {
+        "month": "2024-12",
+        "positive_count": 35,
+        "review_count": 69,
+        "positive_ratio": 0.5072
+      },
+      {
+        "month": "2025-01",
+        "positive_count": 29,
+        "review_count": 55,
+        "positive_ratio": 0.5273
+      },
+      {
+        "month": "2025-02",
+        "positive_count": 23,
+        "review_count": 38,
+        "positive_ratio": 0.6053
+      },
+      {
+        "month": "2025-03",
+        "positive_count": 22,
+        "review_count": 49,
+        "positive_ratio": 0.449
+      },
+      {
+        "month": "2025-04",
+        "positive_count": 23,
+        "review_count": 36,
+        "positive_ratio": 0.6389
+      },
+      {
+        "month": "2025-05",
+        "positive_count": 19,
+        "review_count": 28,
+        "positive_ratio": 0.6786
+      },
+      {
+        "month": "2025-06",
+        "positive_count": 12,
+        "review_count": 30,
+        "positive_ratio": 0.4
+      },
+      {
+        "month": "2025-07",
+        "positive_count": 19,
+        "review_count": 30,
+        "positive_ratio": 0.6333
+      },
+      {
+        "month": "2025-08",
+        "positive_count": 23,
+        "review_count": 30,
+        "positive_ratio": 0.7667
+      },
+      {
+        "month": "2025-09",
+        "positive_count": 12,
+        "review_count": 20,
+        "positive_ratio": 0.6
+      },
+      {
+        "month": "2025-10",
+        "positive_count": 17,
+        "review_count": 31,
+        "positive_ratio": 0.5484
+      },
+      {
+        "month": "2025-11",
+        "positive_count": 24,
+        "review_count": 42,
+        "positive_ratio": 0.5714
+      },
+      {
+        "month": "2025-12",
+        "positive_count": 19,
+        "review_count": 34,
+        "positive_ratio": 0.5588
+      },
+      {
+        "month": "2026-01",
+        "positive_count": 16,
+        "review_count": 26,
+        "positive_ratio": 0.6154
+      },
+      {
+        "month": "2026-02",
+        "positive_count": 25,
+        "review_count": 36,
+        "positive_ratio": 0.6944
+      },
+      {
+        "month": "2026-03",
+        "positive_count": 30,
+        "review_count": 35,
+        "positive_ratio": 0.8571
+      },
+      {
+        "month": "2026-04",
+        "positive_count": 18,
+        "review_count": 31,
+        "positive_ratio": 0.5806
+      }
+    ]
+  },
+  "game": {
+    "name": "Cities: Skylines II",
+    "genres": [
+      "시뮬레이션"
+    ],
+    "price_model": "paid",
+    "is_free": false,
+    "release_stage": "released",
+    "release_date_text": "2023년 10월 24일",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/header.jpg?t=1777533035",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/2b264fcfffbdc89083c626e70d8e5f0b352672a9/capsule_231x87.jpg?t=1777533035",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/2b264fcfffbdc89083c626e70d8e5f0b352672a9/capsule_184x69.jpg?t=1777533035",
+    "screenshots": [
+      {
+        "id": "0",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/ss_5f34572d699cb4884aed4bd9a857e87362260f0a.600x338.jpg?t=1777533035",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/ss_5f34572d699cb4884aed4bd9a857e87362260f0a.1920x1080.jpg?t=1777533035"
+      },
+      {
+        "id": "1",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/ss_ce1621944da65d271f6954266bd0c8a7f452fdfd.600x338.jpg?t=1777533035",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/ss_ce1621944da65d271f6954266bd0c8a7f452fdfd.1920x1080.jpg?t=1777533035"
+      },
+      {
+        "id": "2",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/ss_593d4dd71ee3b1afe8cd1c9c1a0b513ef6a8d368.600x338.jpg?t=1777533035",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/ss_593d4dd71ee3b1afe8cd1c9c1a0b513ef6a8d368.1920x1080.jpg?t=1777533035"
+      },
+      {
+        "id": "3",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/ss_74a14b28d038c901c432c435856ea980fa8c7390.600x338.jpg?t=1777533035",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/ss_74a14b28d038c901c432c435856ea980fa8c7390.1920x1080.jpg?t=1777533035"
+      },
+      {
+        "id": "4",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/ss_bdaa3e801d5c8abb6c842f41db2943d4316e7cc0.600x338.jpg?t=1777533035",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/ss_bdaa3e801d5c8abb6c842f41db2943d4316e7cc0.1920x1080.jpg?t=1777533035"
+      },
+      {
+        "id": "5",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/ss_b68cb601c12c5a9bc8e736c8adff7c640b22514e.600x338.jpg?t=1777533035",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/ss_b68cb601c12c5a9bc8e736c8adff7c640b22514e.1920x1080.jpg?t=1777533035"
+      },
+      {
+        "id": "6",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/ss_7a742e413fa0b411b741899ae75b972bf2f7c131.600x338.jpg?t=1777533035",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/ss_7a742e413fa0b411b741899ae75b972bf2f7c131.1920x1080.jpg?t=1777533035"
+      },
+      {
+        "id": "7",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/ss_8201697e698f66e89d73147d744c9c7918acd83d.600x338.jpg?t=1777533035",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/ss_8201697e698f66e89d73147d744c9c7918acd83d.1920x1080.jpg?t=1777533035"
+      }
+    ],
+    "movies": [
+      {
+        "id": "257297826",
+        "name": "Release Trailer 2026",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257297826/ecc455362a26e2c0d09da9016409a5634c7640a3/movie_600x337.jpg?t=1772701099",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/949230/1520289042/151ea02f187729b5aa0d7da491dfd8fd9c34da5e/1772640568/hls_264_master.m3u8?t=1772701099",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/949230/1520289042/151ea02f187729b5aa0d7da491dfd8fd9c34da5e/1772640568/dash_h264.mpd?t=1772701099",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/949230/1520289042/151ea02f187729b5aa0d7da491dfd8fd9c34da5e/1772640568/dash_av1.mpd?t=1772701099",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/949230/1520289042/151ea02f187729b5aa0d7da491dfd8fd9c34da5e/1772640568/hls_264_master.m3u8?t=1772701099"
+      }
+    ],
+    "short_description": "역대 가장 현실적인 도시 건설 게임의 허허벌판에 도시를 세워 메트로폴리스로 키워보세요. 창의력과 문제 해결 능력을 한층 더 자극하게 됩니다. 정교한 시뮬레이션과 살아 숨 쉬는 경제를 활용해 제한 없이 나만의 세계를 그려보세요.",
+    "steam_store_url": "https://store.steampowered.com/app/949230",
+    "steam_recommendation_count": 60503,
+    "steam_review_score_desc": "Mixed",
+    "steam_total_positive": 1042,
+    "steam_total_negative": 849,
+    "steam_total_reviews": 1891,
+    "price_currency": "KRW",
+    "price_current": 3850000,
+    "price_original": 5500000,
+    "price_current_formatted": "₩ 38,500",
+    "price_original_formatted": "₩ 55,000",
+    "price_discount_percent": 30
+  },
+  "report_plan": {
+    "decision_anchor": {
+      "buy_recommendation": "wait",
+      "primary_reason_ids": [
+        "risk_1",
+        "risk_2"
+      ],
+      "rationale_short": "오류와 끊김 리스크 관련 불편을 호소하는 후기가 늘어 업데이트 방향을 확인한 뒤 결정하는 편이 안전합니다."
+    },
+    "section_blueprint": {
+      "strength_block_count": 3,
+      "risk_block_count": 3,
+      "evidence_per_block": 3
+    },
+    "theme_priorities": {
+      "strengths": [
+        {
+          "reason_id": "str_1",
+          "aspect": "graphics",
+          "theme": "그래픽 / 비주얼 호평"
+        }
+      ],
+      "risks": [
+        {
+          "reason_id": "risk_1",
+          "aspect": "performance",
+          "theme": "최적화 문제"
+        },
+        {
+          "reason_id": "risk_2",
+          "aspect": "mod_support",
+          "theme": "모드 지원 / 호환 문제"
+        },
+        {
+          "reason_id": "risk_3",
+          "aspect": "bugs",
+          "theme": "일반 버그"
+        }
+      ]
+    }
+  },
+  "report_display": {
+    "headline": "비주얼과 분위기 연출은 매력적이지만 오류와 끊김 리스크, 불편이 남아 있어 업데이트를 본 뒤 결정하는 편이 좋습니다.",
+    "buy_recommendation": "wait",
+    "buy_timing_summary": "오류와 끊김 문제로 불편한 후기가 많습니다. 안정적인 플레이를 원한다면 업데이트 이후에 구매를 권장합니다.",
+    "good_for": [
+      "배경과 연출이 만드는 분위기를 중요하게 보는 플레이어"
+    ],
+    "not_good_for": [
+      "진행 중 오류나 끊김을 거의 허용하지 않는 플레이어",
+      "비용 대비 만족을 꼼꼼하게 따지는 플레이어"
+    ],
+    "top_strengths": [
+      {
+        "title": "현실적인 도시 건설 경험",
+        "summary": "복잡한 교통과 경제 시스템을 직접 설계하며 나만의 도시를 만들어 가는 과정이 몰입감을 높여줍니다."
+      },
+      {
+        "title": "뛰어난 그래픽과 비주얼",
+        "summary": "전작 대비 향상된 그래픽과 세밀한 건물 디자인 덕분에 도시의 풍경을 감상하는 재미가 큽니다."
+      },
+      {
+        "title": "높은 자유도와 창의성",
+        "summary": "도로망과 도시 구조를 자유롭게 설계하며 다양한 건축물을 배치하는 재미가 플레이의 핵심입니다."
+      }
+    ],
+    "top_risks": [
+      {
+        "title": "예상치 못한 오류가 흐름을 끊는 구간",
+        "summary": "도시 규모가 커질수록 심한 렉과 프레임 저하가 발생해 진행 템포가 크게 떨어지고, 고사양 컴퓨터에서도 30만 인구 이상부터는 체감 속도가 급격히 느려집니다."
+      },
+      {
+        "title": "불안정한 저장과 잦은 튕김",
+        "summary": "예고 없이 게임이 종료되거나 튕기는 현상이 잦아, 자동 저장 기능이 없거나 꺼져 있으면 오랜 시간 공들인 도시가 한순간에 사라질 수 있습니다."
+      },
+      {
+        "title": "모드 지원과 호환성의 불편",
+        "summary": "모드가 필수적임에도 불구하고 독자 플랫폼 전환과 잦은 업데이트로 호환성 문제가 많아 모드 관리가 번거롭고, 이로 인해 플레이가 자주 방해받습니다."
+      }
+    ],
+    "recent_state": {
+      "status": "declining",
+      "summary": "최적화 문제와 버그, 모드 호환성 이슈로 인해 도시 운영과 교통 관리에 불편함이 커지고 있어 아쉬움이 많습니다."
+    }
+  },
+  "evidence_sections": {
+    "strengths": [
+      {
+        "block_id": "str_1",
+        "title": "비주얼과 분위기가 몰입을 만든다는 반응",
+        "theme": "도시 풍경",
+        "why_it_matters": "비주얼과 연출의 분위기를 좋게 보는 반응이 많아 장면과 감각을 중시하면 만족도가 높습니다.",
+        "explanation": "비주얼과 연출의 분위기를 좋게 보는 반응이 많아 장면과 감각을 중시하면 만족도가 높습니다.",
+        "aspect_keys": [
+          "graphics"
+        ],
+        "stance": "positive",
+        "consensus_level": "high",
+        "mention_count": 145,
+        "evidence_quality_level": "guaranteed_fill",
+        "evidence_candidate_snippets": [
+          "나만의 도시를 만든다는게 재밌네요. 다만 모드는 필수 ^^",
+          "몇몇 아쉬운 부분 분명히 있지만 이만한 도시 건설 시뮬이 없기도 하고 DLC까지 구매하게 되는거 보면 확실히 재미는 있음."
+        ],
+        "evidence_snippets": [
+          "나만의 도시를 만든다는게 재밌네요. 다만 모드는 필수 ^^",
+          "몇몇 아쉬운 부분 분명히 있지만 이만한 도시 건설 시뮬이 없기도 하고 DLC까지 구매하게 되는거 보면 확실히 재미는 있음."
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-positive-1-3-6558269460999449151",
+            "text": "나만의 도시를 만든다는게 재밌네요. 다만 모드는 필수 ^^"
+          },
+          {
+            "review_id": "compress-v3-positive-1-8-3834738675932776450",
+            "text": "몇몇 아쉬운 부분 분명히 있지만 이만한 도시 건설 시뮬이 없기도 하고 DLC까지 구매하게 되는거 보면 확실히 재미는 있음."
+          }
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "block_id": "risk_1",
+        "title": "프레임과 반응성이 흔들린다는 반응",
+        "theme": "도시 규모가 커질수록 무거워지는 흐름",
+        "why_it_matters": "프레임과 반응성 문제를 지적하는 반응이 이어져 기술 안정성에 민감하면 거슬릴 수 있습니다.",
+        "explanation": "프레임과 반응성 문제를 지적하는 반응이 이어져 기술 안정성에 민감하면 거슬릴 수 있습니다.",
+        "aspect_keys": [
+          "performance"
+        ],
+        "stance": "negative",
+        "consensus_level": "high",
+        "mention_count": 587,
+        "evidence_quality_level": "strict",
+        "evidence_candidate_snippets": [
+          "맵이커지면서 렉이졸라심해지고 저장버그인지 오류걸려서 몇주간 다져놓은 내도시 게임불러오기가 안됨 오류 쩐다 돈아깝다 환불안되나",
+          "게임도중 튕김이 심함. 도시가 커질수록 튕김수는 많아짐"
+        ],
+        "evidence_snippets": [
+          "게임도중 튕김이 심함. 도시가 커질수록 튕김수는 많아짐",
+          "맵이커지면서 렉이졸라심해지고 저장버그인지 오류걸려서 몇주간 다져놓은 내도시 게임불러오기가 안됨 오류 쩐다 돈아깝다 환불안되나"
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-negative-1-1-6371168607079720825",
+            "text": "맵이커지면서 렉이졸라심해지고 저장버그인지 오류걸려서 몇주간 다져놓은 내도시 게임불러오기가 안됨 오류 쩐다 돈아깝다 환불안되나"
+          },
+          {
+            "review_id": "compress-v3-negative-1-2-6029162879904845683",
+            "text": "게임도중 튕김이 심함. 도시가 커질수록 튕김수는 많아짐"
+          }
+        ]
+      },
+      {
+        "block_id": "risk_2",
+        "title": "오류와 끊김이 흐름을 끊는다는 반응",
+        "theme": "모드 지원 / 호환 문제",
+        "why_it_matters": "오류와 끊김을 지적하는 반응이 이어져 흐름이 끊기는 상황은 감수할 필요가 있습니다.",
+        "explanation": "오류와 끊김을 지적하는 반응이 이어져 흐름이 끊기는 상황은 감수할 필요가 있습니다.",
+        "aspect_keys": [
+          "mod_support"
+        ],
+        "stance": "negative",
+        "consensus_level": "high",
+        "mention_count": 267,
+        "evidence_quality_level": "strict",
+        "evidence_candidate_snippets": [
+          "도대체 하루에 한번씩 모드 오류 띄울거면 왜 모드 기능을 넣어놓은거냐?",
+          "그냥 최적화 쓰레기 게임에다가 모드 설치 때문에 스트레스 존나 받는 게임. 하지마셈 그냥 하지마셈. 특히 초보자면 더 하지마셈. 그냥 쓰레기 게임임. 게임 개발자들이 노력을 안함.",
+          "아직까지 최적화가 완벽하다고 보기는 좀 그렇지만, 초창기에 비해선 많이 나아졌고, 도시 건설 분야에서 대체할 수 없는 게임인건 분명합니다. 다만 cpu를 굉장히 많이 타니, 인구 30만 이상 플레이하실 분들은 최소 9800x3d 이상은 가셔야 될 것 같습니다. 모드랑 애셋 좀 깔 생각이면 램은 기본 32기가는 필요하고요."
+        ],
+        "evidence_snippets": [
+          "도대체 하루에 한번씩 모드 오류 띄울거면 왜 모드 기능을 넣어놓은거냐?",
+          "아직까지 최적화가 완벽하다고 보기는 좀 그렇지만, 초창기에 비해선 많이 나아졌고, 도시 건설 분야에서 대체할 수 없는 게임인건 분명합니다. 다만 cpu를 굉장히 많이 타니, 인구 30만 이상 플레이하실 분들은 최소 9800x3d 이상은 가셔야 될 것 같습니다. 모드랑 애셋 좀 깔 생각이면 램은 기본 32기가는 필요하고요.",
+          "그냥 최적화 쓰레기 게임에다가 모드 설치 때문에 스트레스 존나 받는 게임. 하지마셈 그냥 하지마셈. 특히 초보자면 더 하지마셈. 그냥 쓰레기 게임임. 게임 개발자들이 노력을 안함."
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-negative-2-1-8774988725266482404",
+            "text": "도대체 하루에 한번씩 모드 오류 띄울거면 왜 모드 기능을 넣어놓은거냐?"
+          },
+          {
+            "review_id": "compress-v3-negative-2-2-2509256215894323306",
+            "text": "그냥 최적화 쓰레기 게임에다가 모드 설치 때문에 스트레스 존나 받는 게임. 하지마셈 그냥 하지마셈. 특히 초보자면 더 하지마셈. 그냥 쓰레기 게임임. 게임 개발자들이 노력을 안함."
+          },
+          {
+            "review_id": "compress-v3-negative-2-3-6814828198558293422",
+            "text": "아직까지 최적화가 완벽하다고 보기는 좀 그렇지만, 초창기에 비해선 많이 나아졌고, 도시 건설 분야에서 대체할 수 없는 게임인건 분명합니다. 다만 cpu를 굉장히 많이 타니, 인구 30만 이상 플레이하실 분들은 최소 9800x3d 이상은 가셔야 될 것 같습니다. 모드랑 애셋 좀 깔 생각이면 램은 기본 32기가는 필요하고요."
+          }
+        ]
+      }
+    ]
+  },
+  "disclaimer": "여러 유저 리뷰를 바탕으로 정리했어요. 플레이 경험은 사람마다 다를 수 있어요.",
+  "headline": "비주얼과 분위기 연출은 매력적이지만 오류와 끊김 리스크, 불편이 남아 있어 업데이트를 본 뒤 결정하는 편이 좋습니다.",
+  "buy_recommendation": "wait",
+  "buy_timing_summary": "오류와 끊김 문제로 불편한 후기가 많습니다. 안정적인 플레이를 원한다면 업데이트 이후에 구매를 권장합니다.",
+  "good_for": [
+    "배경과 연출이 만드는 분위기를 중요하게 보는 플레이어"
+  ],
+  "not_good_for": [
+    "진행 중 오류나 끊김을 거의 허용하지 않는 플레이어",
+    "비용 대비 만족을 꼼꼼하게 따지는 플레이어"
+  ],
+  "top_strengths": [
+    {
+      "title": "현실적인 도시 건설 경험",
+      "summary": "복잡한 교통과 경제 시스템을 직접 설계하며 나만의 도시를 만들어 가는 과정이 몰입감을 높여줍니다."
+    },
+    {
+      "title": "뛰어난 그래픽과 비주얼",
+      "summary": "전작 대비 향상된 그래픽과 세밀한 건물 디자인 덕분에 도시의 풍경을 감상하는 재미가 큽니다."
+    },
+    {
+      "title": "높은 자유도와 창의성",
+      "summary": "도로망과 도시 구조를 자유롭게 설계하며 다양한 건축물을 배치하는 재미가 플레이의 핵심입니다."
+    }
+  ],
+  "top_risks": [
+    {
+      "title": "예상치 못한 오류가 흐름을 끊는 구간",
+      "summary": "도시 규모가 커질수록 심한 렉과 프레임 저하가 발생해 진행 템포가 크게 떨어지고, 고사양 컴퓨터에서도 30만 인구 이상부터는 체감 속도가 급격히 느려집니다."
+    },
+    {
+      "title": "불안정한 저장과 잦은 튕김",
+      "summary": "예고 없이 게임이 종료되거나 튕기는 현상이 잦아, 자동 저장 기능이 없거나 꺼져 있으면 오랜 시간 공들인 도시가 한순간에 사라질 수 있습니다."
+    },
+    {
+      "title": "모드 지원과 호환성의 불편",
+      "summary": "모드가 필수적임에도 불구하고 독자 플랫폼 전환과 잦은 업데이트로 호환성 문제가 많아 모드 관리가 번거롭고, 이로 인해 플레이가 자주 방해받습니다."
+    }
+  ],
+  "recent_state": {
+    "status": "declining",
+    "summary": "최적화 문제와 버그, 모드 호환성 이슈로 인해 도시 운영과 교통 관리에 불편함이 커지고 있어 아쉬움이 많습니다."
+  },
+  "evidence_reviews": [
+    {
+      "block_id": "str_1",
+      "title": "비주얼과 분위기가 몰입을 만든다는 반응",
+      "theme": "도시 풍경",
+      "why_it_matters": "비주얼과 연출의 분위기를 좋게 보는 반응이 많아 장면과 감각을 중시하면 만족도가 높습니다.",
+      "explanation": "비주얼과 연출의 분위기를 좋게 보는 반응이 많아 장면과 감각을 중시하면 만족도가 높습니다.",
+      "aspect_keys": [
+        "graphics"
+      ],
+      "stance": "positive",
+      "consensus_level": "high",
+      "mention_count": 145,
+      "evidence_quality_level": "guaranteed_fill",
+      "evidence_candidate_snippets": [
+        "나만의 도시를 만든다는게 재밌네요. 다만 모드는 필수 ^^",
+        "몇몇 아쉬운 부분 분명히 있지만 이만한 도시 건설 시뮬이 없기도 하고 DLC까지 구매하게 되는거 보면 확실히 재미는 있음."
+      ],
+      "evidence_snippets": [
+        "나만의 도시를 만든다는게 재밌네요. 다만 모드는 필수 ^^",
+        "몇몇 아쉬운 부분 분명히 있지만 이만한 도시 건설 시뮬이 없기도 하고 DLC까지 구매하게 되는거 보면 확실히 재미는 있음."
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-positive-1-3-6558269460999449151",
+          "text": "나만의 도시를 만든다는게 재밌네요. 다만 모드는 필수 ^^"
+        },
+        {
+          "review_id": "compress-v3-positive-1-8-3834738675932776450",
+          "text": "몇몇 아쉬운 부분 분명히 있지만 이만한 도시 건설 시뮬이 없기도 하고 DLC까지 구매하게 되는거 보면 확실히 재미는 있음."
+        }
+      ]
+    },
+    {
+      "block_id": "risk_1",
+      "title": "프레임과 반응성이 흔들린다는 반응",
+      "theme": "도시 규모가 커질수록 무거워지는 흐름",
+      "why_it_matters": "프레임과 반응성 문제를 지적하는 반응이 이어져 기술 안정성에 민감하면 거슬릴 수 있습니다.",
+      "explanation": "프레임과 반응성 문제를 지적하는 반응이 이어져 기술 안정성에 민감하면 거슬릴 수 있습니다.",
+      "aspect_keys": [
+        "performance"
+      ],
+      "stance": "negative",
+      "consensus_level": "high",
+      "mention_count": 587,
+      "evidence_quality_level": "strict",
+      "evidence_candidate_snippets": [
+        "맵이커지면서 렉이졸라심해지고 저장버그인지 오류걸려서 몇주간 다져놓은 내도시 게임불러오기가 안됨 오류 쩐다 돈아깝다 환불안되나",
+        "게임도중 튕김이 심함. 도시가 커질수록 튕김수는 많아짐"
+      ],
+      "evidence_snippets": [
+        "게임도중 튕김이 심함. 도시가 커질수록 튕김수는 많아짐",
+        "맵이커지면서 렉이졸라심해지고 저장버그인지 오류걸려서 몇주간 다져놓은 내도시 게임불러오기가 안됨 오류 쩐다 돈아깝다 환불안되나"
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-negative-1-1-6371168607079720825",
+          "text": "맵이커지면서 렉이졸라심해지고 저장버그인지 오류걸려서 몇주간 다져놓은 내도시 게임불러오기가 안됨 오류 쩐다 돈아깝다 환불안되나"
+        },
+        {
+          "review_id": "compress-v3-negative-1-2-6029162879904845683",
+          "text": "게임도중 튕김이 심함. 도시가 커질수록 튕김수는 많아짐"
+        }
+      ]
+    },
+    {
+      "block_id": "risk_2",
+      "title": "오류와 끊김이 흐름을 끊는다는 반응",
+      "theme": "모드 지원 / 호환 문제",
+      "why_it_matters": "오류와 끊김을 지적하는 반응이 이어져 흐름이 끊기는 상황은 감수할 필요가 있습니다.",
+      "explanation": "오류와 끊김을 지적하는 반응이 이어져 흐름이 끊기는 상황은 감수할 필요가 있습니다.",
+      "aspect_keys": [
+        "mod_support"
+      ],
+      "stance": "negative",
+      "consensus_level": "high",
+      "mention_count": 267,
+      "evidence_quality_level": "strict",
+      "evidence_candidate_snippets": [
+        "도대체 하루에 한번씩 모드 오류 띄울거면 왜 모드 기능을 넣어놓은거냐?",
+        "그냥 최적화 쓰레기 게임에다가 모드 설치 때문에 스트레스 존나 받는 게임. 하지마셈 그냥 하지마셈. 특히 초보자면 더 하지마셈. 그냥 쓰레기 게임임. 게임 개발자들이 노력을 안함.",
+        "아직까지 최적화가 완벽하다고 보기는 좀 그렇지만, 초창기에 비해선 많이 나아졌고, 도시 건설 분야에서 대체할 수 없는 게임인건 분명합니다. 다만 cpu를 굉장히 많이 타니, 인구 30만 이상 플레이하실 분들은 최소 9800x3d 이상은 가셔야 될 것 같습니다. 모드랑 애셋 좀 깔 생각이면 램은 기본 32기가는 필요하고요."
+      ],
+      "evidence_snippets": [
+        "도대체 하루에 한번씩 모드 오류 띄울거면 왜 모드 기능을 넣어놓은거냐?",
+        "아직까지 최적화가 완벽하다고 보기는 좀 그렇지만, 초창기에 비해선 많이 나아졌고, 도시 건설 분야에서 대체할 수 없는 게임인건 분명합니다. 다만 cpu를 굉장히 많이 타니, 인구 30만 이상 플레이하실 분들은 최소 9800x3d 이상은 가셔야 될 것 같습니다. 모드랑 애셋 좀 깔 생각이면 램은 기본 32기가는 필요하고요.",
+        "그냥 최적화 쓰레기 게임에다가 모드 설치 때문에 스트레스 존나 받는 게임. 하지마셈 그냥 하지마셈. 특히 초보자면 더 하지마셈. 그냥 쓰레기 게임임. 게임 개발자들이 노력을 안함."
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-negative-2-1-8774988725266482404",
+          "text": "도대체 하루에 한번씩 모드 오류 띄울거면 왜 모드 기능을 넣어놓은거냐?"
+        },
+        {
+          "review_id": "compress-v3-negative-2-2-2509256215894323306",
+          "text": "그냥 최적화 쓰레기 게임에다가 모드 설치 때문에 스트레스 존나 받는 게임. 하지마셈 그냥 하지마셈. 특히 초보자면 더 하지마셈. 그냥 쓰레기 게임임. 게임 개발자들이 노력을 안함."
+        },
+        {
+          "review_id": "compress-v3-negative-2-3-6814828198558293422",
+          "text": "아직까지 최적화가 완벽하다고 보기는 좀 그렇지만, 초창기에 비해선 많이 나아졌고, 도시 건설 분야에서 대체할 수 없는 게임인건 분명합니다. 다만 cpu를 굉장히 많이 타니, 인구 30만 이상 플레이하실 분들은 최소 9800x3d 이상은 가셔야 될 것 같습니다. 모드랑 애셋 좀 깔 생각이면 램은 기본 32기가는 필요하고요."
+        }
+      ]
+    }
+  ]
+}

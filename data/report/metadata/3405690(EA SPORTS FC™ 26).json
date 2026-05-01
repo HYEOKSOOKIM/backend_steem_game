@@ -1,0 +1,102 @@
+{
+  "appid": 3405690,
+  "name": "EA SPORTS FC™ 26",
+  "name_en": "EA SPORTS FC™ 26",
+  "name_ko": "EA SPORTS FC™ 26",
+  "genres": [
+    "시뮬레이션",
+    "스포츠"
+  ],
+  "price_model": "paid",
+  "release_stage": "released",
+  "release_date_text": "2025년 9월 25일",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/2d96aa1b06e453cd62dae9029d412f19e61932c3/header.jpg?t=1777414590",
+  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/abca0fd9695521a046d407327d82f808162315f7/capsule_231x87.jpg?t=1777414590",
+  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/abca0fd9695521a046d407327d82f808162315f7/capsule_184x69.jpg?t=1777414590",
+  "screenshots": [
+    {
+      "id": "0",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/d01fbbd32769bd7cd70215dedd22e4ffb7bc42bc/ss_d01fbbd32769bd7cd70215dedd22e4ffb7bc42bc.600x338.jpg?t=1777414590",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/d01fbbd32769bd7cd70215dedd22e4ffb7bc42bc/ss_d01fbbd32769bd7cd70215dedd22e4ffb7bc42bc.1920x1080.jpg?t=1777414590"
+    },
+    {
+      "id": "1",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/b2bcda2e36966161937db451509f9922901b6145/ss_b2bcda2e36966161937db451509f9922901b6145.600x338.jpg?t=1777414590",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/b2bcda2e36966161937db451509f9922901b6145/ss_b2bcda2e36966161937db451509f9922901b6145.1920x1080.jpg?t=1777414590"
+    },
+    {
+      "id": "2",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/2048e95987d01af065fdcb67c380e7a0e53df069/ss_2048e95987d01af065fdcb67c380e7a0e53df069.600x338.jpg?t=1777414590",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/2048e95987d01af065fdcb67c380e7a0e53df069/ss_2048e95987d01af065fdcb67c380e7a0e53df069.1920x1080.jpg?t=1777414590"
+    },
+    {
+      "id": "3",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/bcf8cde56e46d969dfaff90c8a9d85a22b6342fc/ss_bcf8cde56e46d969dfaff90c8a9d85a22b6342fc.600x338.jpg?t=1777414590",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/bcf8cde56e46d969dfaff90c8a9d85a22b6342fc/ss_bcf8cde56e46d969dfaff90c8a9d85a22b6342fc.1920x1080.jpg?t=1777414590"
+    },
+    {
+      "id": "4",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/7570de99060a6abd39202cd3fe532b2e2d6f0f21/ss_7570de99060a6abd39202cd3fe532b2e2d6f0f21.600x338.jpg?t=1777414590",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/7570de99060a6abd39202cd3fe532b2e2d6f0f21/ss_7570de99060a6abd39202cd3fe532b2e2d6f0f21.1920x1080.jpg?t=1777414590"
+    },
+    {
+      "id": "5",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/bb68762a90b41d0f9f66d570a8cf11c73aa5f598/ss_bb68762a90b41d0f9f66d570a8cf11c73aa5f598.600x338.jpg?t=1777414590",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/bb68762a90b41d0f9f66d570a8cf11c73aa5f598/ss_bb68762a90b41d0f9f66d570a8cf11c73aa5f598.1920x1080.jpg?t=1777414590"
+    },
+    {
+      "id": "6",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/efeed8175e64c95a1a24d9f4b27bffab9a9101c3/ss_efeed8175e64c95a1a24d9f4b27bffab9a9101c3.600x338.jpg?t=1777414590",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/efeed8175e64c95a1a24d9f4b27bffab9a9101c3/ss_efeed8175e64c95a1a24d9f4b27bffab9a9101c3.1920x1080.jpg?t=1777414590"
+    },
+    {
+      "id": "7",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/e746dd5cc1e4c2b36bcc66d6b0780a02e7c55cea/ss_e746dd5cc1e4c2b36bcc66d6b0780a02e7c55cea.600x338.jpg?t=1777414590",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/e746dd5cc1e4c2b36bcc66d6b0780a02e7c55cea/ss_e746dd5cc1e4c2b36bcc66d6b0780a02e7c55cea.1920x1080.jpg?t=1777414590"
+    },
+    {
+      "id": "8",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/a6bccb1a48725a97a2b3ce77435d50996e12e7f9/ss_a6bccb1a48725a97a2b3ce77435d50996e12e7f9.600x338.jpg?t=1777414590",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/a6bccb1a48725a97a2b3ce77435d50996e12e7f9/ss_a6bccb1a48725a97a2b3ce77435d50996e12e7f9.1920x1080.jpg?t=1777414590"
+    }
+  ],
+  "movies": [
+    {
+      "id": "257194796",
+      "name": "EA SPORTS FC™ 26 | Official Reveal Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257194796/34d3f4af610e407a8e6a55afba81fdb281cc940e/movie_600x337.jpg?t=1761904809",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3405690/237661147/3bb5c19649877457ec2f75c9fd2c2909189d80d3/1757381480/hls_264_master.m3u8?t=1761904809",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3405690/237661147/3bb5c19649877457ec2f75c9fd2c2909189d80d3/1757381480/dash_h264.mpd?t=1761904809",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3405690/237661147/3bb5c19649877457ec2f75c9fd2c2909189d80d3/1757381480/dash_av1.mpd?t=1761904809",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/3405690/237661147/3bb5c19649877457ec2f75c9fd2c2909189d80d3/1757381480/hls_264_master.m3u8?t=1761904809"
+    },
+    {
+      "id": "257209653",
+      "name": "EA SPORTS FC 26 Official Launch Trailer | The Club is Yours",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257209653/965a47d6c72f2261acb5547bf4c6e190eada561b/movie_600x337.jpg?t=1759272928",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3405690/1511561457/f41eb818b7851cfc72dce9043ff16b7251bc9ab4/1759270894/hls_264_master.m3u8?t=1759272928",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3405690/1511561457/f41eb818b7851cfc72dce9043ff16b7251bc9ab4/1759270894/dash_h264.mpd?t=1759272928",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3405690/1511561457/f41eb818b7851cfc72dce9043ff16b7251bc9ab4/1759270894/dash_av1.mpd?t=1759272928",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/3405690/1511561457/f41eb818b7851cfc72dce9043ff16b7251bc9ab4/1759270894/hls_264_master.m3u8?t=1759272928"
+    }
+  ],
+  "short_description": "EA SPORTS FC™ 26에서 클럽은 여러분의 것입니다. 커뮤니티 피드백을 기반으로 개선된 게임플레이 경험, 새로운 시즌에 새로운 스토리라인을 제공하는 감독 라이브 챌린지, 위대한 선수들에게 영감을 받은 유형 등으로 여러분이 원하는 방식으로 플레이하세요.",
+  "steam_store_url": "https://store.steampowered.com/app/3405690",
+  "steam_recommendation_count": 56459,
+  "steam_review_score_desc": "Mostly Negative",
+  "steam_total_positive": 186,
+  "steam_total_negative": 422,
+  "steam_total_reviews": 608,
+  "price_currency": "KRW",
+  "price_current": 2400000,
+  "price_original": 8000000,
+  "price_current_formatted": "₩ 24,000",
+  "price_original_formatted": "₩ 80,000",
+  "price_discount_percent": 70,
+  "is_free": false,
+  "coming_soon": false
+}

@@ -1,0 +1,87 @@
+{
+  "appid": 2483190,
+  "name": "Forza Horizon 6",
+  "name_en": "Forza Horizon 6",
+  "name_ko": "Forza Horizon 6",
+  "genres": [
+    "레이싱",
+    "시뮬레이션",
+    "스포츠"
+  ],
+  "price_model": "paid",
+  "release_stage": "coming_soon",
+  "release_date_text": "2026년 5월 18일",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/b64e27bcf6021146c383c83b586a4186a0c835fc/header_alt_assets_0.jpg?t=1776732396",
+  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/8126c2213722669eeec82c2afdcf4545ef569541/capsule_231x87_alt_assets_0.jpg?t=1776732396",
+  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/8126c2213722669eeec82c2afdcf4545ef569541/capsule_184x69_alt_assets_0.jpg?t=1776732396",
+  "screenshots": [
+    {
+      "id": "0",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/706eb79418b2a74192de059693ddcbfaa803108a/ss_706eb79418b2a74192de059693ddcbfaa803108a.600x338.jpg?t=1776732396",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/706eb79418b2a74192de059693ddcbfaa803108a/ss_706eb79418b2a74192de059693ddcbfaa803108a.1920x1080.jpg?t=1776732396"
+    },
+    {
+      "id": "1",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/383ace7815eaa8f8f5128a58fd8ca7df911d3e14/ss_383ace7815eaa8f8f5128a58fd8ca7df911d3e14.600x338.jpg?t=1776732396",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/383ace7815eaa8f8f5128a58fd8ca7df911d3e14/ss_383ace7815eaa8f8f5128a58fd8ca7df911d3e14.1920x1080.jpg?t=1776732396"
+    },
+    {
+      "id": "2",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/d4b81f0cafcfba410371e53bd696fb5cc9b434c0/ss_d4b81f0cafcfba410371e53bd696fb5cc9b434c0.600x338.jpg?t=1776732396",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/d4b81f0cafcfba410371e53bd696fb5cc9b434c0/ss_d4b81f0cafcfba410371e53bd696fb5cc9b434c0.1920x1080.jpg?t=1776732396"
+    },
+    {
+      "id": "3",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/041b9a2854dc647bf54d7d8b36d2f4186ed72c13/ss_041b9a2854dc647bf54d7d8b36d2f4186ed72c13.600x338.jpg?t=1776732396",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/041b9a2854dc647bf54d7d8b36d2f4186ed72c13/ss_041b9a2854dc647bf54d7d8b36d2f4186ed72c13.1920x1080.jpg?t=1776732396"
+    },
+    {
+      "id": "4",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/945a08124625ffa26ec0077761fcbe19df07dad5/ss_945a08124625ffa26ec0077761fcbe19df07dad5.600x338.jpg?t=1776732396",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/945a08124625ffa26ec0077761fcbe19df07dad5/ss_945a08124625ffa26ec0077761fcbe19df07dad5.1920x1080.jpg?t=1776732396"
+    },
+    {
+      "id": "5",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/0824558c70b2e5ed67fe239d577434929f157a26/ss_0824558c70b2e5ed67fe239d577434929f157a26.600x338.jpg?t=1776732396",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/0824558c70b2e5ed67fe239d577434929f157a26/ss_0824558c70b2e5ed67fe239d577434929f157a26.1920x1080.jpg?t=1776732396"
+    },
+    {
+      "id": "6",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/701382eb1431c978e0c7e2518f47aa02b3fe6583/ss_701382eb1431c978e0c7e2518f47aa02b3fe6583.600x338.jpg?t=1776732396",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/701382eb1431c978e0c7e2518f47aa02b3fe6583/ss_701382eb1431c978e0c7e2518f47aa02b3fe6583.1920x1080.jpg?t=1776732396"
+    },
+    {
+      "id": "7",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/ffea3efe4e67b24ceb6f9bd0919b1ebac344b61b/ss_ffea3efe4e67b24ceb6f9bd0919b1ebac344b61b.600x338.jpg?t=1776732396",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/ffea3efe4e67b24ceb6f9bd0919b1ebac344b61b/ss_ffea3efe4e67b24ceb6f9bd0919b1ebac344b61b.1920x1080.jpg?t=1776732396"
+    }
+  ],
+  "movies": [
+    {
+      "id": "257270546",
+      "name": "Forza Horizon 6 Teaser Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257270546/c77f5af8502aae63bc12b94ba1f1daf15bfad1c8/movie_600x337.jpg?t=1769736902",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2483190/1169545394/8da9e6cb4283cb01c39f8870366ce363845db134/1769110721/hls_264_master.m3u8?t=1769736902",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2483190/1169545394/8da9e6cb4283cb01c39f8870366ce363845db134/1769110721/dash_h264.mpd?t=1769736902",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2483190/1169545394/8da9e6cb4283cb01c39f8870366ce363845db134/1769110721/dash_av1.mpd?t=1769736902",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/2483190/1169545394/8da9e6cb4283cb01c39f8870366ce363845db134/1769110721/hls_264_master.m3u8?t=1769736902"
+    }
+  ],
+  "short_description": "Forza Horizon이 역대 최대 규모의 오픈 월드 드라이빙 모험을 선사합니다. 550대 이상의 실제 차량을 타고 일본의 숨 막히게 아름다운 풍경을 만나고, Horizon 페스티벌에서 레이싱의 전설이 되어보세요.",
+  "steam_store_url": "https://store.steampowered.com/app/2483190",
+  "steam_recommendation_count": null,
+  "steam_review_score_desc": "No user reviews",
+  "steam_total_positive": 0,
+  "steam_total_negative": 0,
+  "steam_total_reviews": 0,
+  "price_currency": "KRW",
+  "price_current": 7980000,
+  "price_original": 7980000,
+  "price_current_formatted": "₩ 79,800",
+  "price_original_formatted": null,
+  "price_discount_percent": 0,
+  "is_free": false,
+  "coming_soon": true
+}

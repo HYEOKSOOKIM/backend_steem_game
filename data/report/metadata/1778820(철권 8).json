@@ -1,0 +1,106 @@
+{
+  "appid": 1778820,
+  "name": "철권 8",
+  "name_en": "TEKKEN 8",
+  "name_ko": "철권 8",
+  "genres": [
+    "액션"
+  ],
+  "price_model": "paid",
+  "release_stage": "released",
+  "release_date_text": "2024년 1월 25일",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/f69b0f7c35aa8c966d9ff74c2bae548dbea072e4/header.jpg?t=1770678135",
+  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/capsule_231x87.jpg?t=1770678135",
+  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/capsule_184x69.jpg?t=1770678135",
+  "screenshots": [
+    {
+      "id": "0",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/ss_bf44cb458f130ad18b31840ce8d4c8630997cf05.600x338.jpg?t=1770678135",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/ss_bf44cb458f130ad18b31840ce8d4c8630997cf05.1920x1080.jpg?t=1770678135"
+    },
+    {
+      "id": "1",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/ss_5442971c2e7a745a92e8a6f41968f443b6980cd2.600x338.jpg?t=1770678135",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/ss_5442971c2e7a745a92e8a6f41968f443b6980cd2.1920x1080.jpg?t=1770678135"
+    },
+    {
+      "id": "2",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/ss_8eb42b64e7f6fb0433de29f689a3596474014ace.600x338.jpg?t=1770678135",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/ss_8eb42b64e7f6fb0433de29f689a3596474014ace.1920x1080.jpg?t=1770678135"
+    },
+    {
+      "id": "3",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/ss_838b1e84c8b6e39dde105e48be92de08ff520ef9.600x338.jpg?t=1770678135",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/ss_838b1e84c8b6e39dde105e48be92de08ff520ef9.1920x1080.jpg?t=1770678135"
+    },
+    {
+      "id": "4",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/ss_e2ef7c9f971027407a6d5bf19743bb090b57bb08.600x338.jpg?t=1770678135",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/ss_e2ef7c9f971027407a6d5bf19743bb090b57bb08.1920x1080.jpg?t=1770678135"
+    },
+    {
+      "id": "5",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/ss_5115ee8e47dda957a648a1fedb5325c7b49ec898.600x338.jpg?t=1770678135",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/ss_5115ee8e47dda957a648a1fedb5325c7b49ec898.1920x1080.jpg?t=1770678135"
+    },
+    {
+      "id": "6",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/ss_5007f900bd02bd8c61f09cb3e38457003937c94d.600x338.jpg?t=1770678135",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/ss_5007f900bd02bd8c61f09cb3e38457003937c94d.1920x1080.jpg?t=1770678135"
+    },
+    {
+      "id": "7",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/ss_f89b87fa86ebc09d1c723db7c15adbc9e6c68619.600x338.jpg?t=1770678135",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/ss_f89b87fa86ebc09d1c723db7c15adbc9e6c68619.1920x1080.jpg?t=1770678135"
+    },
+    {
+      "id": "8",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/ss_6a76637d4e19b7da47a5806ee56a55f93dcc4c6b.600x338.jpg?t=1770678135",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/ss_6a76637d4e19b7da47a5806ee56a55f93dcc4c6b.1920x1080.jpg?t=1770678135"
+    },
+    {
+      "id": "9",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/ss_c1c0d6535d7a610ec655e9b8f3d1cae877375a7e.600x338.jpg?t=1770678135",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/ss_c1c0d6535d7a610ec655e9b8f3d1cae877375a7e.1920x1080.jpg?t=1770678135"
+    }
+  ],
+  "movies": [
+    {
+      "id": "256997871",
+      "name": "TEKKEN 8 Hwoarang trailer - KR",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256997871/movie.293x165.jpg?t=1706779229",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1778820/657126/8d02970fa87fb4709c99859ef8ad769131d8ef5f/1750735228/hls_264_master.m3u8?t=1706779229",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1778820/657126/8d02970fa87fb4709c99859ef8ad769131d8ef5f/1750735228/dash_h264.mpd?t=1706779229",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1778820/657126/8d02970fa87fb4709c99859ef8ad769131d8ef5f/1750735228/dash_av1.mpd?t=1706779229",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/1778820/657126/8d02970fa87fb4709c99859ef8ad769131d8ef5f/1750735228/hls_264_master.m3u8?t=1706779229"
+    },
+    {
+      "id": "256921566",
+      "name": "Steam_No8_TGA_Trailer_KR",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256921566/movie.293x165.jpg?t=1671696058",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1778820/522842/33f4a6ba8f86554d26e6753cbfb81e7e96c14a77/1750734658/hls_264_master.m3u8?t=1671696058",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1778820/522842/33f4a6ba8f86554d26e6753cbfb81e7e96c14a77/1750734658/dash_h264.mpd?t=1671696058",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1778820/522842/33f4a6ba8f86554d26e6753cbfb81e7e96c14a77/1750734658/dash_av1.mpd?t=1671696058",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/1778820/522842/33f4a6ba8f86554d26e6753cbfb81e7e96c14a77/1750734658/hls_264_master.m3u8?t=1671696058"
+    }
+  ],
+  "short_description": "3D 대전 격투 게임의 최고봉 『철권』 시리즈 넘버링 최신작 『철권 8』. 32명 이상의 캐릭터가 격돌. 『철권』 사가가 새로운 막을 연다. 시리즈 사상 최고로 호쾌함이 넘치는 배틀이 여기서 극에 달한다.",
+  "steam_store_url": "https://store.steampowered.com/app/1778820",
+  "steam_recommendation_count": 45253,
+  "steam_review_score_desc": "Mostly Negative",
+  "steam_total_positive": 3635,
+  "steam_total_negative": 6437,
+  "steam_total_reviews": 10072,
+  "price_currency": "KRW",
+  "price_current": 4980000,
+  "price_original": 4980000,
+  "price_current_formatted": "₩ 49,800",
+  "price_original_formatted": null,
+  "price_discount_percent": 0,
+  "is_free": false,
+  "coming_soon": false
+}

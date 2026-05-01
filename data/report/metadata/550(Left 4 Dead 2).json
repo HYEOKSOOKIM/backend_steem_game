@@ -1,0 +1,152 @@
+{
+  "appid": 550,
+  "name": "Left 4 Dead 2",
+  "name_en": "Left 4 Dead 2",
+  "name_ko": "Left 4 Dead 2",
+  "genres": [
+    "액션"
+  ],
+  "price_model": "paid",
+  "release_stage": "released",
+  "release_date_text": "2009년 11월 16일",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/header.jpg?t=1772742214",
+  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/capsule_231x87.jpg?t=1772742214",
+  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/capsule_184x69.jpg?t=1772742214",
+  "screenshots": [
+    {
+      "id": "0",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/ss_2eae29fbdfe8e5e8999b96d8bb28c5db70507968.600x338.jpg?t=1772742214",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/ss_2eae29fbdfe8e5e8999b96d8bb28c5db70507968.1920x1080.jpg?t=1772742214"
+    },
+    {
+      "id": "1",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/ss_29b3b4f2a3994c889f6fc12e0781d9d4726ef33f.600x338.jpg?t=1772742214",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/ss_29b3b4f2a3994c889f6fc12e0781d9d4726ef33f.1920x1080.jpg?t=1772742214"
+    },
+    {
+      "id": "2",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/ss_9488e329bb42d792a059fb44cb7135d25b6262f5.600x338.jpg?t=1772742214",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/ss_9488e329bb42d792a059fb44cb7135d25b6262f5.1920x1080.jpg?t=1772742214"
+    },
+    {
+      "id": "3",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/ss_6ec4ee04d4924b099e25ce79f3d6571c3b623b3b.600x338.jpg?t=1772742214",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/ss_6ec4ee04d4924b099e25ce79f3d6571c3b623b3b.1920x1080.jpg?t=1772742214"
+    },
+    {
+      "id": "4",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/ss_73ad69168a263ce585e4823d9607d901719ca3c5.600x338.jpg?t=1772742214",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/ss_73ad69168a263ce585e4823d9607d901719ca3c5.1920x1080.jpg?t=1772742214"
+    },
+    {
+      "id": "5",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/ss_a9c1227ffe8a1968e234b3ebda08e773fc619e37.600x338.jpg?t=1772742214",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/ss_a9c1227ffe8a1968e234b3ebda08e773fc619e37.1920x1080.jpg?t=1772742214"
+    },
+    {
+      "id": "6",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/ss_ba2ea2eda245f89626277457ae2ab76ba997f46a.600x338.jpg?t=1772742214",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/ss_ba2ea2eda245f89626277457ae2ab76ba997f46a.1920x1080.jpg?t=1772742214"
+    },
+    {
+      "id": "7",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/ss_7098be159cfe3cc524fb68b2585f643324cc1078.600x338.jpg?t=1772742214",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/ss_7098be159cfe3cc524fb68b2585f643324cc1078.1920x1080.jpg?t=1772742214"
+    },
+    {
+      "id": "8",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/ss_67275710127ce20b62015718dbf84147fde7fc17.600x338.jpg?t=1772742214",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/ss_67275710127ce20b62015718dbf84147fde7fc17.1920x1080.jpg?t=1772742214"
+    },
+    {
+      "id": "9",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/ss_d97ee8bd9a512f350bd9433730db26da76ff7a29.600x338.jpg?t=1772742214",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/ss_d97ee8bd9a512f350bd9433730db26da76ff7a29.1920x1080.jpg?t=1772742214"
+    },
+    {
+      "id": "10",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/ss_6d2a44e590caa0cc2946d8397d4dd160cbd3f6ed.600x338.jpg?t=1772742214",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/ss_6d2a44e590caa0cc2946d8397d4dd160cbd3f6ed.1920x1080.jpg?t=1772742214"
+    },
+    {
+      "id": "11",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/ss_b7e72ed4d0af894a61d8c6bb5def3d169f56c702.600x338.jpg?t=1772742214",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/ss_b7e72ed4d0af894a61d8c6bb5def3d169f56c702.1920x1080.jpg?t=1772742214"
+    },
+    {
+      "id": "12",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/ss_b8bcf2ebdb67a32b4a1e7273a4e9eae92243ed64.600x338.jpg?t=1772742214",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/ss_b8bcf2ebdb67a32b4a1e7273a4e9eae92243ed64.1920x1080.jpg?t=1772742214"
+    },
+    {
+      "id": "13",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/ss_40c3f02a01ce435ea776b07fde7710c66532e6b6.600x338.jpg?t=1772742214",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/ss_40c3f02a01ce435ea776b07fde7710c66532e6b6.1920x1080.jpg?t=1772742214"
+    },
+    {
+      "id": "14",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/ss_13912b20f591bfde622fc87174b3265a579bd9c9.600x338.jpg?t=1772742214",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/ss_13912b20f591bfde622fc87174b3265a579bd9c9.1920x1080.jpg?t=1772742214"
+    },
+    {
+      "id": "15",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/ss_2b06e1786598ab033411c27600de1868f023c663.600x338.jpg?t=1772742214",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/ss_2b06e1786598ab033411c27600de1868f023c663.1920x1080.jpg?t=1772742214"
+    },
+    {
+      "id": "16",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/ss_1d9d6e638c8ad4b04fac0f49ca32947b31396f24.600x338.jpg?t=1772742214",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/ss_1d9d6e638c8ad4b04fac0f49ca32947b31396f24.1920x1080.jpg?t=1772742214"
+    }
+  ],
+  "movies": [
+    {
+      "id": "5952",
+      "name": "Left 4 Dead - The Sacrifice Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5952/movie.293x165.jpg?t=1682697457",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/550/4183/7fdfab73a52d6b4e69a693f77c66620c53086cbd/1749861554/hls_264_master.m3u8?t=1682697457",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/550/4183/7fdfab73a52d6b4e69a693f77c66620c53086cbd/1749861554/dash_h264.mpd?t=1682697457",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/550/4183/7fdfab73a52d6b4e69a693f77c66620c53086cbd/1749861554/dash_av1.mpd?t=1682697457",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/550/4183/7fdfab73a52d6b4e69a693f77c66620c53086cbd/1749861554/hls_264_master.m3u8?t=1682697457"
+    },
+    {
+      "id": "5489",
+      "name": "Left 4 Dead 2 - TV Spot 2",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5489/movie.jpg?t=1447352698",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/550/2835/ca3dc2781658e9eaa5129781204f7b126f04ecf7/1749861554/hls_264_master.m3u8?t=1447352698",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/550/2835/ca3dc2781658e9eaa5129781204f7b126f04ecf7/1749861554/dash_h264.mpd?t=1447352698",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/550/2835/ca3dc2781658e9eaa5129781204f7b126f04ecf7/1749861554/dash_av1.mpd?t=1447352698",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/550/2835/ca3dc2781658e9eaa5129781204f7b126f04ecf7/1749861554/hls_264_master.m3u8?t=1447352698"
+    },
+    {
+      "id": "5268",
+      "name": "Left 4 Dead 2 Teaser",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5268/movie.jpg?t=1447352170",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/550/2063/5a66ec1afd41bc64a8a84354bd9755acdb83b75e/1750107723/hls_264_master.m3u8?t=1447352170",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/550/2063/5a66ec1afd41bc64a8a84354bd9755acdb83b75e/1750107723/dash_h264.mpd?t=1447352170",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/550/2063/5a66ec1afd41bc64a8a84354bd9755acdb83b75e/1750107723/dash_av1.mpd?t=1447352170",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/550/2063/5a66ec1afd41bc64a8a84354bd9755acdb83b75e/1750107723/hls_264_master.m3u8?t=1447352170"
+    }
+  ],
+  "short_description": "Set in the zombie apocalypse, Left 4 Dead 2 is a co-operative action horror FPS takes you and your friends through the cities, swamps and cemeteries of the Deep South, from Savannah to New Orleans across five expansive campaigns.",
+  "steam_store_url": "https://store.steampowered.com/app/550",
+  "steam_recommendation_count": 791017,
+  "steam_review_score_desc": "Overwhelmingly Positive",
+  "steam_total_positive": 15674,
+  "steam_total_negative": 760,
+  "steam_total_reviews": 16434,
+  "price_currency": "KRW",
+  "price_current": 1100000,
+  "price_original": 1100000,
+  "price_current_formatted": "₩ 11,000",
+  "price_original_formatted": null,
+  "price_discount_percent": 0,
+  "is_free": false,
+  "coming_soon": false
+}

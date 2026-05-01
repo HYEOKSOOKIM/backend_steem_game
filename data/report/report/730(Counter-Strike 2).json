@@ -1,8 +1,8 @@
 {
   "report_version": "v4-planned-sections",
   "appid": 730,
-  "pipeline_run_id": "730-20260427T062851Z",
-  "generated_at": "2026-04-27T06:42:59.846282+00:00",
+  "pipeline_run_id": "730-20260430T093906Z",
+  "generated_at": "2026-04-30T09:42:03.813563+00:00",
   "source_review_count": 19995,
   "included_review_count": 9065,
   "min_report_review_count": 100,
@@ -13,9 +13,9 @@
     "points": [
       {
         "month": "2016-06",
-        "positive_count": 112,
-        "review_count": 129,
-        "positive_ratio": 0.8682
+        "positive_count": 99,
+        "review_count": 115,
+        "positive_ratio": 0.8609
       },
       {
         "month": "2016-07",
@@ -38,8 +38,8 @@
       {
         "month": "2016-10",
         "positive_count": 105,
-        "review_count": 144,
-        "positive_ratio": 0.7292
+        "review_count": 143,
+        "positive_ratio": 0.7343
       },
       {
         "month": "2016-11",
@@ -116,8 +116,8 @@
       {
         "month": "2017-11",
         "positive_count": 344,
-        "review_count": 395,
-        "positive_ratio": 0.8709
+        "review_count": 394,
+        "positive_ratio": 0.8731
       },
       {
         "month": "2017-12",
@@ -379,9 +379,9 @@
       },
       {
         "month": "2021-07",
-        "positive_count": 104,
-        "review_count": 137,
-        "positive_ratio": 0.7591
+        "positive_count": 103,
+        "review_count": 136,
+        "positive_ratio": 0.7574
       },
       {
         "month": "2021-08",
@@ -493,9 +493,9 @@
       },
       {
         "month": "2023-02",
-        "positive_count": 61,
-        "review_count": 82,
-        "positive_ratio": 0.7439
+        "positive_count": 60,
+        "review_count": 81,
+        "positive_ratio": 0.7407
       },
       {
         "month": "2023-03",
@@ -529,9 +529,9 @@
       },
       {
         "month": "2023-08",
-        "positive_count": 95,
-        "review_count": 114,
-        "positive_ratio": 0.8333
+        "positive_count": 94,
+        "review_count": 113,
+        "positive_ratio": 0.8319
       },
       {
         "month": "2023-09",
@@ -565,9 +565,9 @@
       },
       {
         "month": "2024-02",
-        "positive_count": 133,
-        "review_count": 167,
-        "positive_ratio": 0.7964
+        "positive_count": 134,
+        "review_count": 168,
+        "positive_ratio": 0.7976
       },
       {
         "month": "2024-03",
@@ -589,9 +589,9 @@
       },
       {
         "month": "2024-06",
-        "positive_count": 77,
-        "review_count": 117,
-        "positive_ratio": 0.6581
+        "positive_count": 78,
+        "review_count": 119,
+        "positive_ratio": 0.6555
       },
       {
         "month": "2024-07",
@@ -601,15 +601,15 @@
       },
       {
         "month": "2024-08",
-        "positive_count": 108,
-        "review_count": 144,
-        "positive_ratio": 0.75
+        "positive_count": 109,
+        "review_count": 145,
+        "positive_ratio": 0.7517
       },
       {
         "month": "2024-09",
-        "positive_count": 105,
-        "review_count": 141,
-        "positive_ratio": 0.7447
+        "positive_count": 106,
+        "review_count": 142,
+        "positive_ratio": 0.7465
       },
       {
         "month": "2024-10",
@@ -625,15 +625,15 @@
       },
       {
         "month": "2024-12",
-        "positive_count": 107,
-        "review_count": 129,
-        "positive_ratio": 0.8295
+        "positive_count": 106,
+        "review_count": 128,
+        "positive_ratio": 0.8281
       },
       {
         "month": "2025-01",
-        "positive_count": 129,
-        "review_count": 164,
-        "positive_ratio": 0.7866
+        "positive_count": 128,
+        "review_count": 163,
+        "positive_ratio": 0.7853
       },
       {
         "month": "2025-02",
@@ -685,9 +685,9 @@
       },
       {
         "month": "2025-10",
-        "positive_count": 127,
-        "review_count": 160,
-        "positive_ratio": 0.7937
+        "positive_count": 126,
+        "review_count": 159,
+        "positive_ratio": 0.7925
       },
       {
         "month": "2025-11",
@@ -703,15 +703,15 @@
       },
       {
         "month": "2026-01",
-        "positive_count": 134,
-        "review_count": 161,
-        "positive_ratio": 0.8323
+        "positive_count": 135,
+        "review_count": 162,
+        "positive_ratio": 0.8333
       },
       {
         "month": "2026-02",
-        "positive_count": 144,
-        "review_count": 169,
-        "positive_ratio": 0.8521
+        "positive_count": 143,
+        "review_count": 168,
+        "positive_ratio": 0.8512
       },
       {
         "month": "2026-03",
@@ -721,9 +721,9 @@
       },
       {
         "month": "2026-04",
-        "positive_count": 95,
-        "review_count": 124,
-        "positive_ratio": 0.7661
+        "positive_count": 107,
+        "review_count": 141,
+        "positive_ratio": 0.7589
       }
     ]
   },
@@ -740,22 +740,171 @@
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/header.jpg?t=1749053861",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/capsule_231x87.jpg?t=1749053861",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/capsule_184x69.jpg?t=1749053861",
+    "screenshots": [
+      {
+        "id": "0",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_796601d9d67faf53486eeb26d0724347cea67ddc.600x338.jpg?t=1749053861",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_796601d9d67faf53486eeb26d0724347cea67ddc.1920x1080.jpg?t=1749053861"
+      },
+      {
+        "id": "1",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_d830cfd0550fbb64d80e803e93c929c3abb02056.600x338.jpg?t=1749053861",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_d830cfd0550fbb64d80e803e93c929c3abb02056.1920x1080.jpg?t=1749053861"
+      },
+      {
+        "id": "2",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_13bb35638c0267759276f511ee97064773b37a51.600x338.jpg?t=1749053861",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_13bb35638c0267759276f511ee97064773b37a51.1920x1080.jpg?t=1749053861"
+      },
+      {
+        "id": "3",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_0f8cf82d019c614760fd20801f2bb4001da7ea77.600x338.jpg?t=1749053861",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_0f8cf82d019c614760fd20801f2bb4001da7ea77.1920x1080.jpg?t=1749053861"
+      },
+      {
+        "id": "4",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_ef82850f036dac5772cb07dbc2d1116ea13eb163.600x338.jpg?t=1749053861",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_ef82850f036dac5772cb07dbc2d1116ea13eb163.1920x1080.jpg?t=1749053861"
+      },
+      {
+        "id": "5",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_76f6730dbb911650ba1f41c8e5b4bac638b5beea.600x338.jpg?t=1749053861",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_76f6730dbb911650ba1f41c8e5b4bac638b5beea.1920x1080.jpg?t=1749053861"
+      },
+      {
+        "id": "6",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_808cdd373d78c3cf3a78e7026ebb1a15895e0670.600x338.jpg?t=1749053861",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_808cdd373d78c3cf3a78e7026ebb1a15895e0670.1920x1080.jpg?t=1749053861"
+      },
+      {
+        "id": "7",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_ef98db5d5a4d877531a5567df082b0fb62d75c80.600x338.jpg?t=1749053861",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_ef98db5d5a4d877531a5567df082b0fb62d75c80.1920x1080.jpg?t=1749053861"
+      },
+      {
+        "id": "8",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_2254a50f27951fb9028bc00b93a7f2ed7aac1e13.600x338.jpg?t=1749053861",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_2254a50f27951fb9028bc00b93a7f2ed7aac1e13.1920x1080.jpg?t=1749053861"
+      },
+      {
+        "id": "9",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_54b9c26b028c84d5f8a5316f31ae6203953ed84d.600x338.jpg?t=1749053861",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_54b9c26b028c84d5f8a5316f31ae6203953ed84d.1920x1080.jpg?t=1749053861"
+      },
+      {
+        "id": "10",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_1b3b5fd437939a7ed00a2155269e78994cb998d3.600x338.jpg?t=1749053861",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_1b3b5fd437939a7ed00a2155269e78994cb998d3.1920x1080.jpg?t=1749053861"
+      },
+      {
+        "id": "11",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_352666c1949ce3966bd966d6ea5a1afd532257bc.600x338.jpg?t=1749053861",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_352666c1949ce3966bd966d6ea5a1afd532257bc.1920x1080.jpg?t=1749053861"
+      },
+      {
+        "id": "12",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_63d2733b9b4ace01a41d5ba8afd653245d05d54a.600x338.jpg?t=1749053861",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_63d2733b9b4ace01a41d5ba8afd653245d05d54a.1920x1080.jpg?t=1749053861"
+      },
+      {
+        "id": "13",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_fe70d46859593aef623a0614f4686e2814405035.600x338.jpg?t=1749053861",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_fe70d46859593aef623a0614f4686e2814405035.1920x1080.jpg?t=1749053861"
+      },
+      {
+        "id": "14",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_bb2af3e83ac0385ff2055f2ab9697cdd83e351b7.600x338.jpg?t=1749053861",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_bb2af3e83ac0385ff2055f2ab9697cdd83e351b7.1920x1080.jpg?t=1749053861"
+      },
+      {
+        "id": "15",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_fb8e5e2ae29ce64e2898315c66b5db08989e8f91.600x338.jpg?t=1749053861",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_fb8e5e2ae29ce64e2898315c66b5db08989e8f91.1920x1080.jpg?t=1749053861"
+      },
+      {
+        "id": "16",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_0db84c628a798e38ca57d69abda119bee1358008.600x338.jpg?t=1749053861",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_0db84c628a798e38ca57d69abda119bee1358008.1920x1080.jpg?t=1749053861"
+      },
+      {
+        "id": "17",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_18e9ea2715f0407ee05e206073927a648db60d73.600x338.jpg?t=1749053861",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_18e9ea2715f0407ee05e206073927a648db60d73.1920x1080.jpg?t=1749053861"
+      },
+      {
+        "id": "18",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_2514675f364079b754b820cbc8b2e7c331d56a26.600x338.jpg?t=1749053861",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_2514675f364079b754b820cbc8b2e7c331d56a26.1920x1080.jpg?t=1749053861"
+      }
+    ],
+    "movies": [
+      {
+        "id": "256972298",
+        "name": "Launch Trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256972298/movie.293x165.jpg?t=1696005467",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/730/612468/aa5a28c78f12232e6b6839034550c28b162fad3e/1748810724/hls_264_master.m3u8?t=1696005467",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/730/612468/aa5a28c78f12232e6b6839034550c28b162fad3e/1748810724/dash_h264.mpd?t=1696005467",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/730/612468/aa5a28c78f12232e6b6839034550c28b162fad3e/1748810724/dash_av1.mpd?t=1696005467",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/730/612468/aa5a28c78f12232e6b6839034550c28b162fad3e/1748810724/hls_264_master.m3u8?t=1696005467"
+      },
+      {
+        "id": "256970298",
+        "name": "Moving Beyond Tick Rate",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256970298/movie.293x165.jpg?t=1696005475",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/730/608984/a3ae9d5b8de21282056059ca5e851a063a253a55/1748810722/hls_264_master.m3u8?t=1696005475",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/730/608984/a3ae9d5b8de21282056059ca5e851a063a253a55/1748810722/dash_h264.mpd?t=1696005475",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/730/608984/a3ae9d5b8de21282056059ca5e851a063a253a55/1748810722/dash_av1.mpd?t=1696005475",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/730/608984/a3ae9d5b8de21282056059ca5e851a063a253a55/1748810722/hls_264_master.m3u8?t=1696005475"
+      },
+      {
+        "id": "256969703",
+        "name": "Leveling Up",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256969703/movie.293x165.jpg?t=1696005483",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/730/607867/ed6e0afecb45c615095cf8d84cec9d31659a3cc7/1748810722/hls_264_master.m3u8?t=1696005483",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/730/607867/ed6e0afecb45c615095cf8d84cec9d31659a3cc7/1748810722/dash_h264.mpd?t=1696005483",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/730/607867/ed6e0afecb45c615095cf8d84cec9d31659a3cc7/1748810722/dash_av1.mpd?t=1696005483",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/730/607867/ed6e0afecb45c615095cf8d84cec9d31659a3cc7/1748810722/hls_264_master.m3u8?t=1696005483"
+      },
+      {
+        "id": "256969690",
+        "name": "Responsive Smokes",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256969690/movie.293x165.jpg?t=1696005491",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/730/607847/d73c6346bc3bf5dbc6d66a8f721bab640fa3d37c/1748810721/hls_264_master.m3u8?t=1696005491",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/730/607847/d73c6346bc3bf5dbc6d66a8f721bab640fa3d37c/1748810721/dash_h264.mpd?t=1696005491",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/730/607847/d73c6346bc3bf5dbc6d66a8f721bab640fa3d37c/1748810721/dash_av1.mpd?t=1696005491",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/730/607847/d73c6346bc3bf5dbc6d66a8f721bab640fa3d37c/1748810721/hls_264_master.m3u8?t=1696005491"
+      }
+    ],
     "short_description": "Counter-Strike는 20년이 넘는 시간 동안 전 세계 수백만 명의 플레이어가 모여 수준 높은 경쟁을 펼칠 수 있는 플랫폼을 제공해 왔습니다. 그리고 이제 곧 Counter-Strike 2와 함께 새로운 CS 시대의 막이 열립니다.",
     "steam_store_url": "https://store.steampowered.com/app/730",
-    "steam_recommendation_count": 5054158,
+    "steam_recommendation_count": 5059153,
     "steam_review_score_desc": "Very Positive",
-    "steam_total_positive": 20465,
-    "steam_total_negative": 5078,
-    "steam_total_reviews": 25543
+    "steam_total_positive": 20479,
+    "steam_total_negative": 5082,
+    "steam_total_reviews": 25561,
+    "price_currency": null,
+    "price_current": null,
+    "price_original": null,
+    "price_current_formatted": null,
+    "price_original_formatted": null,
+    "price_discount_percent": null
   },
   "report_plan": {
     "decision_anchor": {
-      "buy_recommendation": "try_lightly",
+      "buy_recommendation": "free_play_recommended",
       "primary_reason_ids": [
         "risk_1",
         "risk_2"
       ],
-      "rationale_short": "무료이므로 큰 진입 비용 없이 먼저 짧게 플레이해 취향 적합성을 확인하기 좋습니다."
+      "rationale_short": "무료 게임 기준으로 보면 지금 바로 플레이를 시작해도 체감 부담이 낮은 편입니다."
     },
     "section_blueprint": {
       "strength_block_count": 3,
@@ -790,91 +939,69 @@
     }
   },
   "report_display": {
-    "headline": "빌드 실험과 세팅의 재미 장점이 보여 무료로 가볍게 시작해보고 맞는지 판단하기 좋습니다.",
-    "buy_recommendation": "try_lightly",
-    "buy_timing_summary": "무료이므로 큰 진입 비용 없이 먼저 짧게 플레이해 취향 적합성을 확인하기 좋습니다.",
+    "headline": "세팅과 빌드 실험의 재미 체감이 좋아 무료로 지금 시작해 보기 좋은 상태입니다.",
+    "buy_recommendation": "free_play_recommended",
+    "buy_timing_summary": "무료 게임 기준으로 보면 지금 바로 플레이를 시작해도 체감 부담이 낮은 편입니다.",
     "good_for": [
-      "세팅과 빌드를 바꿔가며 내 스타일을 찾는 플레이어"
+      "세팅과 빌드를 바꿔가며 최적 해를 찾는 플레이어"
     ],
     "not_good_for": [
       "매칭과 서버 상태 변화에 스트레스를 크게 받는 플레이어",
       "프레임과 반응성에 민감한 플레이어",
       "진행 중 오류나 끊김을 거의 허용하지 않는 플레이어"
     ],
-    "player_fit_signals": {
-      "good_for": [
-        {
-          "aspect": "customization",
-          "theme": "스킨 / 외형 요소",
-          "subtype": "build_customization",
-          "negative": false
-        }
-      ],
-      "not_good_for": [
-        {
-          "aspect": "multiplayer",
-          "theme": "매칭 / 서버 문제",
-          "subtype": "matchmaking_variance",
-          "negative": true
-        },
-        {
-          "aspect": "performance",
-          "theme": "최적화 문제",
-          "subtype": "performance_instability",
-          "negative": true
-        },
-        {
-          "aspect": "bugs",
-          "theme": "일반 버그",
-          "subtype": "stability_interruptions",
-          "negative": true
-        }
-      ]
-    },
     "top_strengths": [
       {
-        "title": "세팅을 바꿔가며 즐기는 빌드 실험",
-        "summary": "세팅을 바꾸며 내 스타일을 찾는 재미가 분명해 여러 방식으로 오래 즐기기 좋습니다."
+        "title": "장비와 빌드를 오래 다듬는 성장 루프",
+        "summary": "장비를 파밍하고 세팅을 맞춰 가며 강해지는 과정이 반복 임무의 동력으로 잘 이어집니다."
+      },
+      {
+        "title": "풍부한 커스터마이징 요소들",
+        "summary": "다양한 무기와 스킨으로 나만의 스타일을 만들며 플레이하는 즐거움이 큽니다."
+      },
+      {
+        "title": "지속적인 업데이트와 밸런스 관리",
+        "summary": "오랜 기간 꾸준한 업데이트로 게임성이 유지되며, 다양한 맵과 모드가 플레이어를 끌어당깁니다."
       }
     ],
     "top_risks": [
       {
-        "title": "매칭과 서버 상태에 따라 체감이 흔들리는 구간",
-        "summary": "매칭과 서버 상태가 흔들리면 한 판의 완성도가 크게 달라질 수 있습니다."
+        "title": "잦은 핵 사용자와 부정 행위",
+        "summary": "핵 사용자가 빈번하게 등장해 공정한 플레이가 어렵고, 신고 시스템이 제대로 작동하지 않아 스트레스가 쌓입니다."
       },
       {
-        "title": "프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크",
-        "summary": "프레임과 반응성이 흔들리면 조작 감각이 무너져 답답하게 느껴질 수 있습니다."
+        "title": "불안정한 매칭과 팀원 수준의 편차",
+        "summary": "매칭 시스템이 불균형하여 실력 차이가 큰 팀원이 함께 배치되고, 팀 내 비매너 행동과 트롤링이 자주 발생합니다."
       },
       {
-        "title": "예상치 못한 오류가 플레이 리듬을 끊을 수 있는 리스크",
-        "summary": "예상치 못한 오류가 생기면 플레이 흐름이 끊겨 피로가 빠르게 쌓일 수 있습니다."
+        "title": "프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크와 성능 저하",
+        "summary": "고사양 PC에서도 간헐적인 프레임 드랍과 프리징 현상이 발생해 조작감과 플레이 흐름이 방해받을 수 있습니다."
       }
     ],
     "recent_state": {
-      "status": "mixed",
-      "summary": "좋았다는 반응과 아쉽다는 반응이 함께 보여 평가가 갈리는 편입니다."
+      "status": "declining",
+      "summary": "핵과 매칭 문제로 인한 불만이 많아 협동과 임무 수행에 어려움을 겪는 분위기입니다."
     }
   },
   "evidence_sections": {
     "strengths": [
       {
         "block_id": "str_1",
-        "title": "세팅을 바꿔보는 재미가 크다는 반응",
+        "title": "빌드와 세팅을 바꾸는 재미가 좋다는 반응이 있다.",
         "theme": "스킨 / 외형 요소",
-        "why_it_matters": "세팅을 바꾸며 즐기는 반응이 많아 여러 스타일을 시도해보는 플레이에 잘 맞습니다.",
-        "explanation": "세팅을 바꾸며 즐기는 반응이 많아 여러 스타일을 시도해보는 플레이에 잘 맞습니다.",
+        "why_it_matters": "세팅을 바꾸며 다른 답을 찾는 재미를 좋게 보는 반응이 많아 실험형 플레이와 잘 맞습니다.",
+        "explanation": "세팅을 바꾸며 다른 답을 찾는 재미를 좋게 보는 반응이 많아 실험형 플레이와 잘 맞습니다.",
         "aspect_keys": [
           "customization"
         ],
         "stance": "positive",
         "consensus_level": "medium",
-        "mention_count": 273,
+        "mention_count": 272,
         "evidence_quality_level": "guaranteed_fill",
         "evidence_candidate_snippets": [
+          "장점 : 외국인 친구 만들수있음 단점 : 외국어로 욕 먹음",
           "인페르노에서 가위바위보하면서 논 내 소중한 친구 둘 모가지 360도 비틀어 버린 다음 빽덤블링 돌다가 목이 부러지게 해주마~",
           "2026 04 08 기준 현재 가장 재밌고 할만한 FPS중 살아남은건 이놈뿐인것 같습니다..... 오버워치? (징징이 많음) 타르코프? (연차가 쌓이면 좀 그럼 솔직히) 레식? (망함) 서든?(너무 틀딱 플래시게임) 배틀필드? (몇판하면 질림) 델타포스? (할빠에 배필함) 데이즈?(노가다) 아르마?(진입장벽 + 그들만의 세계) 스쿼드?(뉴비배척) 그래도 여기는 중국인 러시아인 일본인 뭐 다있음 임마들도 못하는놈은 겁나 못하고 잘하는 놈은 잘해서 그냥 재밌어영 ~ 뇌빼고 하기 좋음",
-          "재밌음 일단 프라임 안하면 핵 존나 많음 짧게짧게 즐기기 좋음 근데 고인물이 너무많음",
           "카스 fps의 근본아닐가 싶습니다 최고의 게임이죠",
           "이런 긴장감있는 fps는 처음이네요",
           "이게 맞나... 보면 뒤지고 보면 뒤지고 내가 아프간전쟁 참여자인데 블루팀 아니고 레드팀 AK들고 난사하는거 마냥 뒤지게 안 맞네 정통 FPS 는 나랑 약간 안 맞는듯 그래도 5인큐 만들어서 하면 재밌다.",
@@ -882,41 +1009,41 @@
           "< 가격 > ■ 정가 줘도 좋음 □ 20% 세일 이상을 추천 □ 50% 세일 이상을 추천 □ 70% 이상 세일을 추천 □ 무료로 풀릴 때까지 기다려야 함 < 그래픽 > □ 눈 뜨고 볼 수 없음 □ 볼 수는 있음 □ 보통임 ■ 좋음 □ 매우 좋음 □ 눈이 가버림 < 음향 관련 > □ 지랄 □ 매우 나쁨 □ 나쁨 □ 보통 ■ 좋음 □ 아주 좋음 □ 귀가 가버림 < 권장 사양 > □ 콩순이컴 □ 하이마트컴 ■ 중상옵 ■ 상옵 □ 최상옵 □ 기상청 < 한글화 > ■ 공식 한글화가 됨 □ 한글화가 됨 □ 한글화가 안됨 < 자막> ■ 없어도 괜찮음 □ 없으면 무리임 □ 뭔 개소리야 < 전반적 난이도 > □ 기타 □ 발로 가능 □ 손은 사용해야 함 □ 쉬움 □ 보통 ■ 어려움 ■ 매우 어려움 □ 사람이 할 것이 아님 □ 제작자 ^^ㅣ발아 < 스토리 라인 / 배경스토리 > ■ 없음 □ 개소리를 늘어놓음 □ 보통 □ 좋음 □ 소설 < 평균 몰입도 / 플레이타임 > □ 0~ 1시간 (사람에 따라 다를 수 있습니다.) □ 1~ 3시간 □ 3~10시간 □ 10 ~ 24시간 □ 24 ~ 100시간 ■ 100시간 이상 < 버그 / 서버상태 > ■ 없다 □ 약간 있음 □ 있음 □ 지장이 될 정도로 있음 □ 너무 많아 플레이가 불가능 □ 아예 플레이 불가 < 게임성 / 종합평가 > □ 왜만들었을까..? □ 나쁨 □ 보통 ■ 좋음 □ 아주 좋음 □ 강력 추천 □ 완전 추천 <선정성 / 나이 > □ 전체 이용가 □ 3세 이상 □ 7세 이상 □ 13세 이상 ■ 16세 이상 □ 19세 이상 □ 19세 이상 / 선정적인 내용 포함 □ 19세 이상 / 잔인하거나 피 혹은 시체포함 *한줄평: 중국 핵쟁이련들"
         ],
         "evidence_snippets": [
-          "재밌음 일단 프라임 안하면 핵 존나 많음 짧게짧게 즐기기 좋음 근데 고인물이 너무많음",
           "이게 맞나... 보면 뒤지고 보면 뒤지고 내가 아프간전쟁 참여자인데 블루팀 아니고 레드팀 AK들고 난사하는거 마냥 뒤지게 안 맞네 정통 FPS 는 나랑 약간 안 맞는듯 그래도 5인큐 만들어서 하면 재밌다.",
-          "2026 04 08 기준 현재 가장 재밌고 할만한 FPS중 살아남은건 이놈뿐인것 같습니다..... 오버워치? (징징이 많음) 타르코프? (연차가 쌓이면 좀 그럼 솔직히) 레식? (망함) 서든?(너무 틀딱 플래시게임) 배틀필드? (몇판하면 질림) 델타포스? (할빠에 배필함) 데이즈?(노가다) 아르마?(진입장벽 + 그들만의 세계) 스쿼드?(뉴비배척) 그래도 여기는 중국인 러시아인 일본인 뭐 다있음 임마들도 못하는놈은 겁나 못하고 잘하는 놈은 잘해서 그냥 재밌어영 ~ 뇌빼고 하기 좋음"
+          "2026 04 08 기준 현재 가장 재밌고 할만한 FPS중 살아남은건 이놈뿐인것 같습니다..... 오버워치? (징징이 많음) 타르코프? (연차가 쌓이면 좀 그럼 솔직히) 레식? (망함) 서든?(너무 틀딱 플래시게임) 배틀필드? (몇판하면 질림) 델타포스? (할빠에 배필함) 데이즈?(노가다) 아르마?(진입장벽 + 그들만의 세계) 스쿼드?(뉴비배척) 그래도 여기는 중국인 러시아인 일본인 뭐 다있음 임마들도 못하는놈은 겁나 못하고 잘하는 놈은 잘해서 그냥 재밌어영 ~ 뇌빼고 하기 좋음",
+          "< 가격 > ■ 정가 줘도 좋음 □ 20% 세일 이상을 추천 □ 50% 세일 이상을 추천 □ 70% 이상 세일을 추천 □ 무료로 풀릴 때까지 기다려야 함 < 그래픽 > □ 눈 뜨고 볼 수 없음 □ 볼 수는 있음 □ 보통임 ■ 좋음 □ 매우 좋음 □ 눈이 가버림 < 음향 관련 > □ 지랄 □ 매우 나쁨 □ 나쁨 □ 보통 ■ 좋음 □ 아주 좋음 □ 귀가 가버림 < 권장 사양 > □ 콩순이컴 □ 하이마트컴 ■ 중상옵 ■ 상옵 □ 최상옵 □ 기상청 < 한글화 > ■ 공식 한글화가 됨 □ 한글화가 됨 □ 한글화가 안됨 < 자막> ■ 없어도 괜찮음 □ 없으면 무리임 □ 뭔 개소리야 < 전반적 난이도 > □ 기타 □ 발로 가능 □ 손은 사용해야 함 □ 쉬움 □ 보통 ■ 어려움 ■ 매우 어려움 □ 사람이 할 것이 아님 □ 제작자 ^^ㅣ발아 < 스토리 라인 / 배경스토리 > ■ 없음 □ 개소리를 늘어놓음 □ 보통 □ 좋음 □ 소설 < 평균 몰입도 / 플레이타임 > □ 0~ 1시간 (사람에 따라 다를 수 있습니다.) □ 1~ 3시간 □ 3~10시간 □ 10 ~ 24시간 □ 24 ~ 100시간 ■ 100시간 이상 < 버그 / 서버상태 > ■ 없다 □ 약간 있음 □ 있음 □ 지장이 될 정도로 있음 □ 너무 많아 플레이가 불가능 □ 아예 플레이 불가 < 게임성 / 종합평가 > □ 왜만들었을까..? □ 나쁨 □ 보통 ■ 좋음 □ 아주 좋음 □ 강력 추천 □ 완전 추천 <선정성 / 나이 > □ 전체 이용가 □ 3세 이상 □ 7세 이상 □ 13세 이상 ■ 16세 이상 □ 19세 이상 □ 19세 이상 / 선정적인 내용 포함 □ 19세 이상 / 잔인하거나 피 혹은 시체포함 *한줄평: 중국 핵쟁이련들"
         ],
         "evidence_candidate_items": [
           {
-            "review_id": "compress-v3-positive-1-1-1569913071843675288",
+            "review_id": "compress-v3-positive-1-1-4116112723176099264",
+            "text": "장점 : 외국인 친구 만들수있음 단점 : 외국어로 욕 먹음"
+          },
+          {
+            "review_id": "compress-v3-positive-1-2-1299132267250928693",
             "text": "인페르노에서 가위바위보하면서 논 내 소중한 친구 둘 모가지 360도 비틀어 버린 다음 빽덤블링 돌다가 목이 부러지게 해주마~"
           },
           {
-            "review_id": "compress-v3-positive-1-2-6085731478785647513",
+            "review_id": "compress-v3-positive-1-3-7277531185839303517",
             "text": "2026 04 08 기준 현재 가장 재밌고 할만한 FPS중 살아남은건 이놈뿐인것 같습니다..... 오버워치? (징징이 많음) 타르코프? (연차가 쌓이면 좀 그럼 솔직히) 레식? (망함) 서든?(너무 틀딱 플래시게임) 배틀필드? (몇판하면 질림) 델타포스? (할빠에 배필함) 데이즈?(노가다) 아르마?(진입장벽 + 그들만의 세계) 스쿼드?(뉴비배척) 그래도 여기는 중국인 러시아인 일본인 뭐 다있음 임마들도 못하는놈은 겁나 못하고 잘하는 놈은 잘해서 그냥 재밌어영 ~ 뇌빼고 하기 좋음"
           },
           {
-            "review_id": "compress-v3-positive-1-3-8976751784067554555",
-            "text": "재밌음 일단 프라임 안하면 핵 존나 많음 짧게짧게 즐기기 좋음 근데 고인물이 너무많음"
-          },
-          {
-            "review_id": "compress-v3-positive-1-4-2442546186610140799",
+            "review_id": "compress-v3-positive-1-4-7078626262633708683",
             "text": "카스 fps의 근본아닐가 싶습니다 최고의 게임이죠"
           },
           {
-            "review_id": "compress-v3-positive-1-5-4663023644545929694",
+            "review_id": "compress-v3-positive-1-5-1187823753356365543",
             "text": "이런 긴장감있는 fps는 처음이네요"
           },
           {
-            "review_id": "compress-v3-positive-1-6-5413272243631166154",
+            "review_id": "compress-v3-positive-1-6-5004435449948781262",
             "text": "이게 맞나... 보면 뒤지고 보면 뒤지고 내가 아프간전쟁 참여자인데 블루팀 아니고 레드팀 AK들고 난사하는거 마냥 뒤지게 안 맞네 정통 FPS 는 나랑 약간 안 맞는듯 그래도 5인큐 만들어서 하면 재밌다."
           },
           {
-            "review_id": "compress-v3-positive-1-7-1661514851138214763",
+            "review_id": "compress-v3-positive-1-7-3919353617037017221",
             "text": "과금 요소도 없고 초보자도무난히즐길수있으며 자신의 실력과 비슷한 팀원과 플레이 가능함 ㅋ"
           },
           {
-            "review_id": "compress-v3-positive-1-8-7300404585061883156",
+            "review_id": "compress-v3-positive-1-8-4634071495172862397",
             "text": "< 가격 > ■ 정가 줘도 좋음 □ 20% 세일 이상을 추천 □ 50% 세일 이상을 추천 □ 70% 이상 세일을 추천 □ 무료로 풀릴 때까지 기다려야 함 < 그래픽 > □ 눈 뜨고 볼 수 없음 □ 볼 수는 있음 □ 보통임 ■ 좋음 □ 매우 좋음 □ 눈이 가버림 < 음향 관련 > □ 지랄 □ 매우 나쁨 □ 나쁨 □ 보통 ■ 좋음 □ 아주 좋음 □ 귀가 가버림 < 권장 사양 > □ 콩순이컴 □ 하이마트컴 ■ 중상옵 ■ 상옵 □ 최상옵 □ 기상청 < 한글화 > ■ 공식 한글화가 됨 □ 한글화가 됨 □ 한글화가 안됨 < 자막> ■ 없어도 괜찮음 □ 없으면 무리임 □ 뭔 개소리야 < 전반적 난이도 > □ 기타 □ 발로 가능 □ 손은 사용해야 함 □ 쉬움 □ 보통 ■ 어려움 ■ 매우 어려움 □ 사람이 할 것이 아님 □ 제작자 ^^ㅣ발아 < 스토리 라인 / 배경스토리 > ■ 없음 □ 개소리를 늘어놓음 □ 보통 □ 좋음 □ 소설 < 평균 몰입도 / 플레이타임 > □ 0~ 1시간 (사람에 따라 다를 수 있습니다.) □ 1~ 3시간 □ 3~10시간 □ 10 ~ 24시간 □ 24 ~ 100시간 ■ 100시간 이상 < 버그 / 서버상태 > ■ 없다 □ 약간 있음 □ 있음 □ 지장이 될 정도로 있음 □ 너무 많아 플레이가 불가능 □ 아예 플레이 불가 < 게임성 / 종합평가 > □ 왜만들었을까..? □ 나쁨 □ 보통 ■ 좋음 □ 아주 좋음 □ 강력 추천 □ 완전 추천 <선정성 / 나이 > □ 전체 이용가 □ 3세 이상 □ 7세 이상 □ 13세 이상 ■ 16세 이상 □ 19세 이상 □ 19세 이상 / 선정적인 내용 포함 □ 19세 이상 / 잔인하거나 피 혹은 시체포함 *한줄평: 중국 핵쟁이련들"
           }
         ]
@@ -927,14 +1054,14 @@
         "block_id": "risk_1",
         "title": "매칭과 서버 상태가 체감을 흔든다는 반응",
         "theme": "매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크",
-        "why_it_matters": "매칭과 서버 상태를 문제로 보는 반응이 이어져, 한 판의 완성도가 상황에 따라 꽤 달라질 수 있습니다.",
-        "explanation": "매칭과 서버 상태를 문제로 보는 반응이 이어져, 한 판의 완성도가 상황에 따라 꽤 달라질 수 있습니다.",
+        "why_it_matters": "매칭과 서버 상태를 문제로 보는 반응이 있어 한 판의 안정성이 상황에 따라 갈릴 수 있습니다.",
+        "explanation": "매칭과 서버 상태를 문제로 보는 반응이 있어 한 판의 안정성이 상황에 따라 갈릴 수 있습니다.",
         "aspect_keys": [
           "multiplayer"
         ],
         "stance": "negative",
         "consensus_level": "high",
-        "mention_count": 2541,
+        "mention_count": 2542,
         "evidence_quality_level": "relaxed",
         "evidence_candidate_snippets": [
           "카운터 스트라이크 2 에 대한 리뷰: CSGO 장르의 몰락 카운터 스트라이크 2 는 전설적인 FPS 게임인 카운터 스트라이크: 글로벌 오펜시브(CSGO)의 후속작으로, 많은 기대와 함께 출시되었습니다. 그러나, CS2는 기대에 미치지 못하며 CSGO 장르의 몰락을 불러온 게임이라는 평가를 받기에 충분합니다. 다음은 그 이유를 설명하고자 합니다. 첫째, 게임 플레이의 변화가 지나치게 큽니다. CS2는 기존 CSGO의 핵심 메커니즘을 너무 많이 변경하여, 오리지널 팬들이 느끼던 그 독특한 손맛과 긴장감을 잃어버렸습니다. 이동 속도와 무기 반동, 탄 퍼짐 등의 요소가 변경되어, 기존의 전략적 플레이가 무색해졌습니다. 이는 많은 베테랑 플레이어들에게 실망을 안겨주었습니다. 둘째, 그래픽 업그레이드가 미흡합니다. CS2는 그래픽 향상을 약속했지만, 실제로는 큰 차이를 느끼기 어렵습니다. 몇몇 맵의 텍스처와 모델이 향상되었지만, 전반적인 시각적 향상은 기대 이하입니다. 특히, 경쟁작들과 비교했을 때 여전히 구시대적인 느낌을 주는 부분이 많아 최신 게임으로서의 매력이 떨어집니다. 셋째, 서버 안정성과 성능 문제입니다. CS2는 출시 이후 여러 차례 서버 불안정과 버그 문제로 비판을 받아왔습니다. 게임 도중 갑작스러운 랙과 서버 다운 현상은 플레이 경험을 심각하게 저해합니다. 이는 e스포츠 대회에서도 큰 문제로 작용하여, 신뢰할 수 없는 환경에서 경기가 진행되는 불상사를 초래합니다. 넷째, 밸런스 문제입니다. CS2는 새로운 무기와 아이템을 추가하면서 밸런스 조정에 실패했습니다. 특정 무기나 전략이 지나치게 강력하여 게임의 다양성을 해치는 경우가 빈번합니다. 이는 게임의 공정성과 재미를 감소시키며, 경쟁 요소가 중요한 FPS 게임에서 치명적인 단점으로 작용합니다. 다섯째, 커뮤니티와의 소통 부족입니다. CS2 개발진은 플레이어들의 피드백을 충분히 반영하지 않았습니다. 베타 테스트 기간 동안 수많은 피드백이 제출되었으나, 실제 게임에 반영된 부분은 매우 적었습니다. 이는 플레이어들의 불만을 증폭시키고, 게임에 대한 신뢰를 떨어뜨리는 결과를 초래했습니다. 여섯째, 신규 유저 유입의 어려움입니다. CS2는 기존 팬들에게는 실망스러운 게임이었지만, 신규 유저들에게도 큰 매력을 주지 못했습니다. 복잡한 게임 메커니즘과 높은 진입 장벽은 신규 유저들이 쉽게 접근하기 어렵게 만들었으며, 이로 인해 유저 베이스의 확대가 어려워졌습니다.",
@@ -946,21 +1073,21 @@
         ],
         "evidence_candidate_items": [
           {
-            "review_id": "compress-v3-negative-1-7-7990195162974050844",
+            "review_id": "compress-v3-negative-1-7-864895632119462867",
             "text": "카운터 스트라이크 2 에 대한 리뷰: CSGO 장르의 몰락 카운터 스트라이크 2 는 전설적인 FPS 게임인 카운터 스트라이크: 글로벌 오펜시브(CSGO)의 후속작으로, 많은 기대와 함께 출시되었습니다. 그러나, CS2는 기대에 미치지 못하며 CSGO 장르의 몰락을 불러온 게임이라는 평가를 받기에 충분합니다. 다음은 그 이유를 설명하고자 합니다. 첫째, 게임 플레이의 변화가 지나치게 큽니다. CS2는 기존 CSGO의 핵심 메커니즘을 너무 많이 변경하여, 오리지널 팬들이 느끼던 그 독특한 손맛과 긴장감을 잃어버렸습니다. 이동 속도와 무기 반동, 탄 퍼짐 등의 요소가 변경되어, 기존의 전략적 플레이가 무색해졌습니다. 이는 많은 베테랑 플레이어들에게 실망을 안겨주었습니다. 둘째, 그래픽 업그레이드가 미흡합니다. CS2는 그래픽 향상을 약속했지만, 실제로는 큰 차이를 느끼기 어렵습니다. 몇몇 맵의 텍스처와 모델이 향상되었지만, 전반적인 시각적 향상은 기대 이하입니다. 특히, 경쟁작들과 비교했을 때 여전히 구시대적인 느낌을 주는 부분이 많아 최신 게임으로서의 매력이 떨어집니다. 셋째, 서버 안정성과 성능 문제입니다. CS2는 출시 이후 여러 차례 서버 불안정과 버그 문제로 비판을 받아왔습니다. 게임 도중 갑작스러운 랙과 서버 다운 현상은 플레이 경험을 심각하게 저해합니다. 이는 e스포츠 대회에서도 큰 문제로 작용하여, 신뢰할 수 없는 환경에서 경기가 진행되는 불상사를 초래합니다. 넷째, 밸런스 문제입니다. CS2는 새로운 무기와 아이템을 추가하면서 밸런스 조정에 실패했습니다. 특정 무기나 전략이 지나치게 강력하여 게임의 다양성을 해치는 경우가 빈번합니다. 이는 게임의 공정성과 재미를 감소시키며, 경쟁 요소가 중요한 FPS 게임에서 치명적인 단점으로 작용합니다. 다섯째, 커뮤니티와의 소통 부족입니다. CS2 개발진은 플레이어들의 피드백을 충분히 반영하지 않았습니다. 베타 테스트 기간 동안 수많은 피드백이 제출되었으나, 실제 게임에 반영된 부분은 매우 적었습니다. 이는 플레이어들의 불만을 증폭시키고, 게임에 대한 신뢰를 떨어뜨리는 결과를 초래했습니다. 여섯째, 신규 유저 유입의 어려움입니다. CS2는 기존 팬들에게는 실망스러운 게임이었지만, 신규 유저들에게도 큰 매력을 주지 못했습니다. 복잡한 게임 메커니즘과 높은 진입 장벽은 신규 유저들이 쉽게 접근하기 어렵게 만들었으며, 이로 인해 유저 베이스의 확대가 어려워졌습니다."
           },
           {
-            "review_id": "compress-v3-negative-1-8-6299234212591866411",
+            "review_id": "compress-v3-negative-1-8-8340242518913783097",
             "text": "FPS 게임이 그래픽이 너무 과해도 호불호가 갈리듯이 적당한 점을 찾으려곤 했지만 인페르노를 제외하고는 솔직히 과거보다 그냥 좀 깔끔해졌다 정도 수준. 반응성 연막이라던지 소스2 특유의 물 물리엔진은 괜찮지만 풀옵 144 프레임을 아득히 뛰어넘는 컴퓨터에서도 간혈적으로 프리징이 걸린다. FPS에서.. 프리징..? 굳이 기존의 카운터 스트라이크의 이미지가 나쁜것도 아니였지만 BGM, UI 모든것들을 개편시켰는데, 굳이 이렇게까지 했어야 했나? 라는 의문이 든다. 아예 과거의 CS의 이미지를 없엤다고 봐도 무방함. 오버워치 처럼 강제 업데이트 형식으로 이주하는 방식인데, 이 방식의 문제점은 이주한 결과물이 쓰레기면 사람들이 게임을 접고 선택지를 주지 않는다는 점에서 아주 좋지않다고 생각하는데, CS:GO도 강제 업데이트 형식으로 CS2로 바뀌어버림. 물론 스킨이 워낙 비싼 게임이니 그럴수 있다곤 생각하지만.. 게임성 만큼은 여전하기에 사람들이 게임을 접는다 정도의 일은 나오진 않겠지만... 컨텐츠가 1:1 대응되는 것도 아니고 사실상 공식서버 5:5 pvp 전용 게임이 되어버림. CS:GO에서 넘어오지 못한 컨텐츠들이 너무나도 많다. 이후에 추가한다고 할 수는 있겠지만 그럼 벨브 본인들이 스스로 미완성으로 게임을 출시했다는걸 인정하는게 아닐까?"
           }
         ]
       },
       {
         "block_id": "risk_2",
-        "title": "프레임과 반응성이 걸림돌이 된다는 반응",
+        "title": "프레임과 반응성이 흔들린다는 반응",
         "theme": "프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크",
-        "why_it_matters": "프레임과 반응성 문제를 짚는 반응이 있어, 조작 감각이 중요하면 거슬릴 가능성이 있습니다.",
-        "explanation": "프레임과 반응성 문제를 짚는 반응이 있어, 조작 감각이 중요하면 거슬릴 가능성이 있습니다.",
+        "why_it_matters": "프레임과 반응성 문제를 지적하는 반응이 이어져 기술 안정성에 민감하면 거슬릴 수 있습니다.",
+        "explanation": "프레임과 반응성 문제를 지적하는 반응이 이어져 기술 안정성에 민감하면 거슬릴 수 있습니다.",
         "aspect_keys": [
           "performance"
         ],
@@ -978,11 +1105,11 @@
         ],
         "evidence_candidate_items": [
           {
-            "review_id": "compress-v3-negative-2-1-741688548855453384",
+            "review_id": "compress-v3-negative-2-1-8164729793256699825",
             "text": "병신같은 업데이트,없데이트,핵은 안잡고 작업장 봇도 안잡고 최적화도 안함"
           },
           {
-            "review_id": "compress-v3-negative-2-7-7973803324335104207",
+            "review_id": "compress-v3-negative-2-7-3050983476925778314",
             "text": "카스2를 한다는것은.. 마치 도시의 삶을 포기하고 야생의 삶으로 쳐 기어 들어가는것을 의미한다 문제점을 적어보자면 1. 핵이 너무 많다. 야생에는 경찰이 없다, 카스도 마찬가지다. 누군가가 핵쓰고 당신의 머리를 뚫어버린다면 그걸 복수해줄 경찰이나 시스템이 없다. 진짜 없는 수준이다. 3~4판하면 한판은 무조건 핵을 만난다고 봐야한다. 핵쟁이도 이걸 알아서 그냥 대놓고 핵질이나 하는 수준인데 유저들이 할 수 있는것은 그냥 핵쟁이의 장난감이나 되어주는것 뿐이다. 사설섭은 클린하다고 알지만 한국 환경에서 쉬운 접근성을 가진 사람 많은 사설섭 따위는 존재하지 않는다. 당장 카스2 설치버튼에 손 때고 당신의 소중한 평일 일과 시간을 챙기길 바란다. 2. 매칭 시스템이 병1신 같다. 야생에서는 당신의 눈앞에 마주칠 동물이 호랑이여도 토끼여도 싸워야한다. 카스도 마찬가지다 아무리 당신이 병1신같이 못해서 랭크가 낮더라도 우리팀은 봇 최고난이도가 나을정도의 실력을 가진 실버를 주지만 상대는 특급주작이 포함된 5인큐를 잡아준다. 물론 어느 게임이나 매칭 시스템이 좋은 게임은 없지만 카스2는 유독 심하게 매칭을 대충 잡아준다. 3~4판 하면 한판은 무조건 13:1로 떡발리는 판이 나온다고 보면 된다. 당장 카스2 설치버튼에 손 때고 당신의 앞으로 마주칠 불합리함을 미리 예방하길 바란다. 3. 카스2는 유저들이 매우 표독하다. 이게 그냥 하는소리가 아니라 만나는 모든 아군 팀원이 70프로 이상은 표독한 친구들이라고 보면 된다. 이거는 1번의 경찰이 없는 문제점에서 이어지는데 카스2는 비매너에 대한 일체 징벌을 내리지 않기에, 당신이 실수로 총을 못쏴 라운드를 졌다고 던짐, 총을 안사줘서 던짐, 자기 말을 안들어줬다고 던짐, 그냥 3판 내리져서 던짐, 지가 존나 못쏜건데 상대방 핵이라고 던짐, 아무 이유없이 팀샷을 하며 게임을 망치는 등의 굉장히 불쾌한 판이 3~4판 하면 무조건 한판이 있다고 보면 된다. 카스2를 하고싶다면 5인큐는 사실상 필수 선택이며 야생에 들어가는데 2~3명 정도의 소수정예로 들어갈려는 멍청한 생각은 하지 말기를 바란다. 카스2를 하고싶다면, 제발 야생에 이악물고 들어오지 말고 도시의 삶을 즐기길 바란다. 세상엔 좋은 FPS 게임이 많다. 이런 심연에 들오지 마라. 더이상의 희생자가 없어야 한다."
           }
         ]
@@ -990,11 +1117,11 @@
     ]
   },
   "disclaimer": "여러 유저 리뷰를 바탕으로 정리했어요. 플레이 경험은 사람마다 다를 수 있어요.",
-  "headline": "빌드 실험과 세팅의 재미 장점이 보여 무료로 가볍게 시작해보고 맞는지 판단하기 좋습니다.",
-  "buy_recommendation": "try_lightly",
-  "buy_timing_summary": "무료이므로 큰 진입 비용 없이 먼저 짧게 플레이해 취향 적합성을 확인하기 좋습니다.",
+  "headline": "세팅과 빌드 실험의 재미 체감이 좋아 무료로 지금 시작해 보기 좋은 상태입니다.",
+  "buy_recommendation": "free_play_recommended",
+  "buy_timing_summary": "무료 게임 기준으로 보면 지금 바로 플레이를 시작해도 체감 부담이 낮은 편입니다.",
   "good_for": [
-    "세팅과 빌드를 바꿔가며 내 스타일을 찾는 플레이어"
+    "세팅과 빌드를 바꿔가며 최적 해를 찾는 플레이어"
   ],
   "not_good_for": [
     "매칭과 서버 상태 변화에 스트레스를 크게 받는 플레이어",
@@ -1003,46 +1130,54 @@
   ],
   "top_strengths": [
     {
-      "title": "세팅을 바꿔가며 즐기는 빌드 실험",
-      "summary": "세팅을 바꾸며 내 스타일을 찾는 재미가 분명해 여러 방식으로 오래 즐기기 좋습니다."
+      "title": "장비와 빌드를 오래 다듬는 성장 루프",
+      "summary": "장비를 파밍하고 세팅을 맞춰 가며 강해지는 과정이 반복 임무의 동력으로 잘 이어집니다."
+    },
+    {
+      "title": "풍부한 커스터마이징 요소들",
+      "summary": "다양한 무기와 스킨으로 나만의 스타일을 만들며 플레이하는 즐거움이 큽니다."
+    },
+    {
+      "title": "지속적인 업데이트와 밸런스 관리",
+      "summary": "오랜 기간 꾸준한 업데이트로 게임성이 유지되며, 다양한 맵과 모드가 플레이어를 끌어당깁니다."
     }
   ],
   "top_risks": [
     {
-      "title": "매칭과 서버 상태에 따라 체감이 흔들리는 구간",
-      "summary": "매칭과 서버 상태가 흔들리면 한 판의 완성도가 크게 달라질 수 있습니다."
+      "title": "잦은 핵 사용자와 부정 행위",
+      "summary": "핵 사용자가 빈번하게 등장해 공정한 플레이가 어렵고, 신고 시스템이 제대로 작동하지 않아 스트레스가 쌓입니다."
     },
     {
-      "title": "프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크",
-      "summary": "프레임과 반응성이 흔들리면 조작 감각이 무너져 답답하게 느껴질 수 있습니다."
+      "title": "불안정한 매칭과 팀원 수준의 편차",
+      "summary": "매칭 시스템이 불균형하여 실력 차이가 큰 팀원이 함께 배치되고, 팀 내 비매너 행동과 트롤링이 자주 발생합니다."
     },
     {
-      "title": "예상치 못한 오류가 플레이 리듬을 끊을 수 있는 리스크",
-      "summary": "예상치 못한 오류가 생기면 플레이 흐름이 끊겨 피로가 빠르게 쌓일 수 있습니다."
+      "title": "프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크와 성능 저하",
+      "summary": "고사양 PC에서도 간헐적인 프레임 드랍과 프리징 현상이 발생해 조작감과 플레이 흐름이 방해받을 수 있습니다."
     }
   ],
   "recent_state": {
-    "status": "mixed",
-    "summary": "좋았다는 반응과 아쉽다는 반응이 함께 보여 평가가 갈리는 편입니다."
+    "status": "declining",
+    "summary": "핵과 매칭 문제로 인한 불만이 많아 협동과 임무 수행에 어려움을 겪는 분위기입니다."
   },
   "evidence_reviews": [
     {
       "block_id": "str_1",
-      "title": "세팅을 바꿔보는 재미가 크다는 반응",
+      "title": "빌드와 세팅을 바꾸는 재미가 좋다는 반응이 있다.",
       "theme": "스킨 / 외형 요소",
-      "why_it_matters": "세팅을 바꾸며 즐기는 반응이 많아 여러 스타일을 시도해보는 플레이에 잘 맞습니다.",
-      "explanation": "세팅을 바꾸며 즐기는 반응이 많아 여러 스타일을 시도해보는 플레이에 잘 맞습니다.",
+      "why_it_matters": "세팅을 바꾸며 다른 답을 찾는 재미를 좋게 보는 반응이 많아 실험형 플레이와 잘 맞습니다.",
+      "explanation": "세팅을 바꾸며 다른 답을 찾는 재미를 좋게 보는 반응이 많아 실험형 플레이와 잘 맞습니다.",
       "aspect_keys": [
         "customization"
       ],
       "stance": "positive",
       "consensus_level": "medium",
-      "mention_count": 273,
+      "mention_count": 272,
       "evidence_quality_level": "guaranteed_fill",
       "evidence_candidate_snippets": [
+        "장점 : 외국인 친구 만들수있음 단점 : 외국어로 욕 먹음",
         "인페르노에서 가위바위보하면서 논 내 소중한 친구 둘 모가지 360도 비틀어 버린 다음 빽덤블링 돌다가 목이 부러지게 해주마~",
         "2026 04 08 기준 현재 가장 재밌고 할만한 FPS중 살아남은건 이놈뿐인것 같습니다..... 오버워치? (징징이 많음) 타르코프? (연차가 쌓이면 좀 그럼 솔직히) 레식? (망함) 서든?(너무 틀딱 플래시게임) 배틀필드? (몇판하면 질림) 델타포스? (할빠에 배필함) 데이즈?(노가다) 아르마?(진입장벽 + 그들만의 세계) 스쿼드?(뉴비배척) 그래도 여기는 중국인 러시아인 일본인 뭐 다있음 임마들도 못하는놈은 겁나 못하고 잘하는 놈은 잘해서 그냥 재밌어영 ~ 뇌빼고 하기 좋음",
-        "재밌음 일단 프라임 안하면 핵 존나 많음 짧게짧게 즐기기 좋음 근데 고인물이 너무많음",
         "카스 fps의 근본아닐가 싶습니다 최고의 게임이죠",
         "이런 긴장감있는 fps는 처음이네요",
         "이게 맞나... 보면 뒤지고 보면 뒤지고 내가 아프간전쟁 참여자인데 블루팀 아니고 레드팀 AK들고 난사하는거 마냥 뒤지게 안 맞네 정통 FPS 는 나랑 약간 안 맞는듯 그래도 5인큐 만들어서 하면 재밌다.",
@@ -1050,41 +1185,41 @@
         "< 가격 > ■ 정가 줘도 좋음 □ 20% 세일 이상을 추천 □ 50% 세일 이상을 추천 □ 70% 이상 세일을 추천 □ 무료로 풀릴 때까지 기다려야 함 < 그래픽 > □ 눈 뜨고 볼 수 없음 □ 볼 수는 있음 □ 보통임 ■ 좋음 □ 매우 좋음 □ 눈이 가버림 < 음향 관련 > □ 지랄 □ 매우 나쁨 □ 나쁨 □ 보통 ■ 좋음 □ 아주 좋음 □ 귀가 가버림 < 권장 사양 > □ 콩순이컴 □ 하이마트컴 ■ 중상옵 ■ 상옵 □ 최상옵 □ 기상청 < 한글화 > ■ 공식 한글화가 됨 □ 한글화가 됨 □ 한글화가 안됨 < 자막> ■ 없어도 괜찮음 □ 없으면 무리임 □ 뭔 개소리야 < 전반적 난이도 > □ 기타 □ 발로 가능 □ 손은 사용해야 함 □ 쉬움 □ 보통 ■ 어려움 ■ 매우 어려움 □ 사람이 할 것이 아님 □ 제작자 ^^ㅣ발아 < 스토리 라인 / 배경스토리 > ■ 없음 □ 개소리를 늘어놓음 □ 보통 □ 좋음 □ 소설 < 평균 몰입도 / 플레이타임 > □ 0~ 1시간 (사람에 따라 다를 수 있습니다.) □ 1~ 3시간 □ 3~10시간 □ 10 ~ 24시간 □ 24 ~ 100시간 ■ 100시간 이상 < 버그 / 서버상태 > ■ 없다 □ 약간 있음 □ 있음 □ 지장이 될 정도로 있음 □ 너무 많아 플레이가 불가능 □ 아예 플레이 불가 < 게임성 / 종합평가 > □ 왜만들었을까..? □ 나쁨 □ 보통 ■ 좋음 □ 아주 좋음 □ 강력 추천 □ 완전 추천 <선정성 / 나이 > □ 전체 이용가 □ 3세 이상 □ 7세 이상 □ 13세 이상 ■ 16세 이상 □ 19세 이상 □ 19세 이상 / 선정적인 내용 포함 □ 19세 이상 / 잔인하거나 피 혹은 시체포함 *한줄평: 중국 핵쟁이련들"
       ],
       "evidence_snippets": [
-        "재밌음 일단 프라임 안하면 핵 존나 많음 짧게짧게 즐기기 좋음 근데 고인물이 너무많음",
         "이게 맞나... 보면 뒤지고 보면 뒤지고 내가 아프간전쟁 참여자인데 블루팀 아니고 레드팀 AK들고 난사하는거 마냥 뒤지게 안 맞네 정통 FPS 는 나랑 약간 안 맞는듯 그래도 5인큐 만들어서 하면 재밌다.",
-        "2026 04 08 기준 현재 가장 재밌고 할만한 FPS중 살아남은건 이놈뿐인것 같습니다..... 오버워치? (징징이 많음) 타르코프? (연차가 쌓이면 좀 그럼 솔직히) 레식? (망함) 서든?(너무 틀딱 플래시게임) 배틀필드? (몇판하면 질림) 델타포스? (할빠에 배필함) 데이즈?(노가다) 아르마?(진입장벽 + 그들만의 세계) 스쿼드?(뉴비배척) 그래도 여기는 중국인 러시아인 일본인 뭐 다있음 임마들도 못하는놈은 겁나 못하고 잘하는 놈은 잘해서 그냥 재밌어영 ~ 뇌빼고 하기 좋음"
+        "2026 04 08 기준 현재 가장 재밌고 할만한 FPS중 살아남은건 이놈뿐인것 같습니다..... 오버워치? (징징이 많음) 타르코프? (연차가 쌓이면 좀 그럼 솔직히) 레식? (망함) 서든?(너무 틀딱 플래시게임) 배틀필드? (몇판하면 질림) 델타포스? (할빠에 배필함) 데이즈?(노가다) 아르마?(진입장벽 + 그들만의 세계) 스쿼드?(뉴비배척) 그래도 여기는 중국인 러시아인 일본인 뭐 다있음 임마들도 못하는놈은 겁나 못하고 잘하는 놈은 잘해서 그냥 재밌어영 ~ 뇌빼고 하기 좋음",
+        "< 가격 > ■ 정가 줘도 좋음 □ 20% 세일 이상을 추천 □ 50% 세일 이상을 추천 □ 70% 이상 세일을 추천 □ 무료로 풀릴 때까지 기다려야 함 < 그래픽 > □ 눈 뜨고 볼 수 없음 □ 볼 수는 있음 □ 보통임 ■ 좋음 □ 매우 좋음 □ 눈이 가버림 < 음향 관련 > □ 지랄 □ 매우 나쁨 □ 나쁨 □ 보통 ■ 좋음 □ 아주 좋음 □ 귀가 가버림 < 권장 사양 > □ 콩순이컴 □ 하이마트컴 ■ 중상옵 ■ 상옵 □ 최상옵 □ 기상청 < 한글화 > ■ 공식 한글화가 됨 □ 한글화가 됨 □ 한글화가 안됨 < 자막> ■ 없어도 괜찮음 □ 없으면 무리임 □ 뭔 개소리야 < 전반적 난이도 > □ 기타 □ 발로 가능 □ 손은 사용해야 함 □ 쉬움 □ 보통 ■ 어려움 ■ 매우 어려움 □ 사람이 할 것이 아님 □ 제작자 ^^ㅣ발아 < 스토리 라인 / 배경스토리 > ■ 없음 □ 개소리를 늘어놓음 □ 보통 □ 좋음 □ 소설 < 평균 몰입도 / 플레이타임 > □ 0~ 1시간 (사람에 따라 다를 수 있습니다.) □ 1~ 3시간 □ 3~10시간 □ 10 ~ 24시간 □ 24 ~ 100시간 ■ 100시간 이상 < 버그 / 서버상태 > ■ 없다 □ 약간 있음 □ 있음 □ 지장이 될 정도로 있음 □ 너무 많아 플레이가 불가능 □ 아예 플레이 불가 < 게임성 / 종합평가 > □ 왜만들었을까..? □ 나쁨 □ 보통 ■ 좋음 □ 아주 좋음 □ 강력 추천 □ 완전 추천 <선정성 / 나이 > □ 전체 이용가 □ 3세 이상 □ 7세 이상 □ 13세 이상 ■ 16세 이상 □ 19세 이상 □ 19세 이상 / 선정적인 내용 포함 □ 19세 이상 / 잔인하거나 피 혹은 시체포함 *한줄평: 중국 핵쟁이련들"
       ],
       "evidence_candidate_items": [
         {
-          "review_id": "compress-v3-positive-1-1-1569913071843675288",
+          "review_id": "compress-v3-positive-1-1-4116112723176099264",
+          "text": "장점 : 외국인 친구 만들수있음 단점 : 외국어로 욕 먹음"
+        },
+        {
+          "review_id": "compress-v3-positive-1-2-1299132267250928693",
           "text": "인페르노에서 가위바위보하면서 논 내 소중한 친구 둘 모가지 360도 비틀어 버린 다음 빽덤블링 돌다가 목이 부러지게 해주마~"
         },
         {
-          "review_id": "compress-v3-positive-1-2-6085731478785647513",
+          "review_id": "compress-v3-positive-1-3-7277531185839303517",
           "text": "2026 04 08 기준 현재 가장 재밌고 할만한 FPS중 살아남은건 이놈뿐인것 같습니다..... 오버워치? (징징이 많음) 타르코프? (연차가 쌓이면 좀 그럼 솔직히) 레식? (망함) 서든?(너무 틀딱 플래시게임) 배틀필드? (몇판하면 질림) 델타포스? (할빠에 배필함) 데이즈?(노가다) 아르마?(진입장벽 + 그들만의 세계) 스쿼드?(뉴비배척) 그래도 여기는 중국인 러시아인 일본인 뭐 다있음 임마들도 못하는놈은 겁나 못하고 잘하는 놈은 잘해서 그냥 재밌어영 ~ 뇌빼고 하기 좋음"
         },
         {
-          "review_id": "compress-v3-positive-1-3-8976751784067554555",
-          "text": "재밌음 일단 프라임 안하면 핵 존나 많음 짧게짧게 즐기기 좋음 근데 고인물이 너무많음"
-        },
-        {
-          "review_id": "compress-v3-positive-1-4-2442546186610140799",
+          "review_id": "compress-v3-positive-1-4-7078626262633708683",
           "text": "카스 fps의 근본아닐가 싶습니다 최고의 게임이죠"
         },
         {
-          "review_id": "compress-v3-positive-1-5-4663023644545929694",
+          "review_id": "compress-v3-positive-1-5-1187823753356365543",
           "text": "이런 긴장감있는 fps는 처음이네요"
         },
         {
-          "review_id": "compress-v3-positive-1-6-5413272243631166154",
+          "review_id": "compress-v3-positive-1-6-5004435449948781262",
           "text": "이게 맞나... 보면 뒤지고 보면 뒤지고 내가 아프간전쟁 참여자인데 블루팀 아니고 레드팀 AK들고 난사하는거 마냥 뒤지게 안 맞네 정통 FPS 는 나랑 약간 안 맞는듯 그래도 5인큐 만들어서 하면 재밌다."
         },
         {
-          "review_id": "compress-v3-positive-1-7-1661514851138214763",
+          "review_id": "compress-v3-positive-1-7-3919353617037017221",
           "text": "과금 요소도 없고 초보자도무난히즐길수있으며 자신의 실력과 비슷한 팀원과 플레이 가능함 ㅋ"
         },
         {
-          "review_id": "compress-v3-positive-1-8-7300404585061883156",
+          "review_id": "compress-v3-positive-1-8-4634071495172862397",
           "text": "< 가격 > ■ 정가 줘도 좋음 □ 20% 세일 이상을 추천 □ 50% 세일 이상을 추천 □ 70% 이상 세일을 추천 □ 무료로 풀릴 때까지 기다려야 함 < 그래픽 > □ 눈 뜨고 볼 수 없음 □ 볼 수는 있음 □ 보통임 ■ 좋음 □ 매우 좋음 □ 눈이 가버림 < 음향 관련 > □ 지랄 □ 매우 나쁨 □ 나쁨 □ 보통 ■ 좋음 □ 아주 좋음 □ 귀가 가버림 < 권장 사양 > □ 콩순이컴 □ 하이마트컴 ■ 중상옵 ■ 상옵 □ 최상옵 □ 기상청 < 한글화 > ■ 공식 한글화가 됨 □ 한글화가 됨 □ 한글화가 안됨 < 자막> ■ 없어도 괜찮음 □ 없으면 무리임 □ 뭔 개소리야 < 전반적 난이도 > □ 기타 □ 발로 가능 □ 손은 사용해야 함 □ 쉬움 □ 보통 ■ 어려움 ■ 매우 어려움 □ 사람이 할 것이 아님 □ 제작자 ^^ㅣ발아 < 스토리 라인 / 배경스토리 > ■ 없음 □ 개소리를 늘어놓음 □ 보통 □ 좋음 □ 소설 < 평균 몰입도 / 플레이타임 > □ 0~ 1시간 (사람에 따라 다를 수 있습니다.) □ 1~ 3시간 □ 3~10시간 □ 10 ~ 24시간 □ 24 ~ 100시간 ■ 100시간 이상 < 버그 / 서버상태 > ■ 없다 □ 약간 있음 □ 있음 □ 지장이 될 정도로 있음 □ 너무 많아 플레이가 불가능 □ 아예 플레이 불가 < 게임성 / 종합평가 > □ 왜만들었을까..? □ 나쁨 □ 보통 ■ 좋음 □ 아주 좋음 □ 강력 추천 □ 완전 추천 <선정성 / 나이 > □ 전체 이용가 □ 3세 이상 □ 7세 이상 □ 13세 이상 ■ 16세 이상 □ 19세 이상 □ 19세 이상 / 선정적인 내용 포함 □ 19세 이상 / 잔인하거나 피 혹은 시체포함 *한줄평: 중국 핵쟁이련들"
         }
       ]
@@ -1093,14 +1228,14 @@
       "block_id": "risk_1",
       "title": "매칭과 서버 상태가 체감을 흔든다는 반응",
       "theme": "매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크",
-      "why_it_matters": "매칭과 서버 상태를 문제로 보는 반응이 이어져, 한 판의 완성도가 상황에 따라 꽤 달라질 수 있습니다.",
-      "explanation": "매칭과 서버 상태를 문제로 보는 반응이 이어져, 한 판의 완성도가 상황에 따라 꽤 달라질 수 있습니다.",
+      "why_it_matters": "매칭과 서버 상태를 문제로 보는 반응이 있어 한 판의 안정성이 상황에 따라 갈릴 수 있습니다.",
+      "explanation": "매칭과 서버 상태를 문제로 보는 반응이 있어 한 판의 안정성이 상황에 따라 갈릴 수 있습니다.",
       "aspect_keys": [
         "multiplayer"
       ],
       "stance": "negative",
       "consensus_level": "high",
-      "mention_count": 2541,
+      "mention_count": 2542,
       "evidence_quality_level": "relaxed",
       "evidence_candidate_snippets": [
         "카운터 스트라이크 2 에 대한 리뷰: CSGO 장르의 몰락 카운터 스트라이크 2 는 전설적인 FPS 게임인 카운터 스트라이크: 글로벌 오펜시브(CSGO)의 후속작으로, 많은 기대와 함께 출시되었습니다. 그러나, CS2는 기대에 미치지 못하며 CSGO 장르의 몰락을 불러온 게임이라는 평가를 받기에 충분합니다. 다음은 그 이유를 설명하고자 합니다. 첫째, 게임 플레이의 변화가 지나치게 큽니다. CS2는 기존 CSGO의 핵심 메커니즘을 너무 많이 변경하여, 오리지널 팬들이 느끼던 그 독특한 손맛과 긴장감을 잃어버렸습니다. 이동 속도와 무기 반동, 탄 퍼짐 등의 요소가 변경되어, 기존의 전략적 플레이가 무색해졌습니다. 이는 많은 베테랑 플레이어들에게 실망을 안겨주었습니다. 둘째, 그래픽 업그레이드가 미흡합니다. CS2는 그래픽 향상을 약속했지만, 실제로는 큰 차이를 느끼기 어렵습니다. 몇몇 맵의 텍스처와 모델이 향상되었지만, 전반적인 시각적 향상은 기대 이하입니다. 특히, 경쟁작들과 비교했을 때 여전히 구시대적인 느낌을 주는 부분이 많아 최신 게임으로서의 매력이 떨어집니다. 셋째, 서버 안정성과 성능 문제입니다. CS2는 출시 이후 여러 차례 서버 불안정과 버그 문제로 비판을 받아왔습니다. 게임 도중 갑작스러운 랙과 서버 다운 현상은 플레이 경험을 심각하게 저해합니다. 이는 e스포츠 대회에서도 큰 문제로 작용하여, 신뢰할 수 없는 환경에서 경기가 진행되는 불상사를 초래합니다. 넷째, 밸런스 문제입니다. CS2는 새로운 무기와 아이템을 추가하면서 밸런스 조정에 실패했습니다. 특정 무기나 전략이 지나치게 강력하여 게임의 다양성을 해치는 경우가 빈번합니다. 이는 게임의 공정성과 재미를 감소시키며, 경쟁 요소가 중요한 FPS 게임에서 치명적인 단점으로 작용합니다. 다섯째, 커뮤니티와의 소통 부족입니다. CS2 개발진은 플레이어들의 피드백을 충분히 반영하지 않았습니다. 베타 테스트 기간 동안 수많은 피드백이 제출되었으나, 실제 게임에 반영된 부분은 매우 적었습니다. 이는 플레이어들의 불만을 증폭시키고, 게임에 대한 신뢰를 떨어뜨리는 결과를 초래했습니다. 여섯째, 신규 유저 유입의 어려움입니다. CS2는 기존 팬들에게는 실망스러운 게임이었지만, 신규 유저들에게도 큰 매력을 주지 못했습니다. 복잡한 게임 메커니즘과 높은 진입 장벽은 신규 유저들이 쉽게 접근하기 어렵게 만들었으며, 이로 인해 유저 베이스의 확대가 어려워졌습니다.",
@@ -1112,21 +1247,21 @@
       ],
       "evidence_candidate_items": [
         {
-          "review_id": "compress-v3-negative-1-7-7990195162974050844",
+          "review_id": "compress-v3-negative-1-7-864895632119462867",
           "text": "카운터 스트라이크 2 에 대한 리뷰: CSGO 장르의 몰락 카운터 스트라이크 2 는 전설적인 FPS 게임인 카운터 스트라이크: 글로벌 오펜시브(CSGO)의 후속작으로, 많은 기대와 함께 출시되었습니다. 그러나, CS2는 기대에 미치지 못하며 CSGO 장르의 몰락을 불러온 게임이라는 평가를 받기에 충분합니다. 다음은 그 이유를 설명하고자 합니다. 첫째, 게임 플레이의 변화가 지나치게 큽니다. CS2는 기존 CSGO의 핵심 메커니즘을 너무 많이 변경하여, 오리지널 팬들이 느끼던 그 독특한 손맛과 긴장감을 잃어버렸습니다. 이동 속도와 무기 반동, 탄 퍼짐 등의 요소가 변경되어, 기존의 전략적 플레이가 무색해졌습니다. 이는 많은 베테랑 플레이어들에게 실망을 안겨주었습니다. 둘째, 그래픽 업그레이드가 미흡합니다. CS2는 그래픽 향상을 약속했지만, 실제로는 큰 차이를 느끼기 어렵습니다. 몇몇 맵의 텍스처와 모델이 향상되었지만, 전반적인 시각적 향상은 기대 이하입니다. 특히, 경쟁작들과 비교했을 때 여전히 구시대적인 느낌을 주는 부분이 많아 최신 게임으로서의 매력이 떨어집니다. 셋째, 서버 안정성과 성능 문제입니다. CS2는 출시 이후 여러 차례 서버 불안정과 버그 문제로 비판을 받아왔습니다. 게임 도중 갑작스러운 랙과 서버 다운 현상은 플레이 경험을 심각하게 저해합니다. 이는 e스포츠 대회에서도 큰 문제로 작용하여, 신뢰할 수 없는 환경에서 경기가 진행되는 불상사를 초래합니다. 넷째, 밸런스 문제입니다. CS2는 새로운 무기와 아이템을 추가하면서 밸런스 조정에 실패했습니다. 특정 무기나 전략이 지나치게 강력하여 게임의 다양성을 해치는 경우가 빈번합니다. 이는 게임의 공정성과 재미를 감소시키며, 경쟁 요소가 중요한 FPS 게임에서 치명적인 단점으로 작용합니다. 다섯째, 커뮤니티와의 소통 부족입니다. CS2 개발진은 플레이어들의 피드백을 충분히 반영하지 않았습니다. 베타 테스트 기간 동안 수많은 피드백이 제출되었으나, 실제 게임에 반영된 부분은 매우 적었습니다. 이는 플레이어들의 불만을 증폭시키고, 게임에 대한 신뢰를 떨어뜨리는 결과를 초래했습니다. 여섯째, 신규 유저 유입의 어려움입니다. CS2는 기존 팬들에게는 실망스러운 게임이었지만, 신규 유저들에게도 큰 매력을 주지 못했습니다. 복잡한 게임 메커니즘과 높은 진입 장벽은 신규 유저들이 쉽게 접근하기 어렵게 만들었으며, 이로 인해 유저 베이스의 확대가 어려워졌습니다."
         },
         {
-          "review_id": "compress-v3-negative-1-8-6299234212591866411",
+          "review_id": "compress-v3-negative-1-8-8340242518913783097",
           "text": "FPS 게임이 그래픽이 너무 과해도 호불호가 갈리듯이 적당한 점을 찾으려곤 했지만 인페르노를 제외하고는 솔직히 과거보다 그냥 좀 깔끔해졌다 정도 수준. 반응성 연막이라던지 소스2 특유의 물 물리엔진은 괜찮지만 풀옵 144 프레임을 아득히 뛰어넘는 컴퓨터에서도 간혈적으로 프리징이 걸린다. FPS에서.. 프리징..? 굳이 기존의 카운터 스트라이크의 이미지가 나쁜것도 아니였지만 BGM, UI 모든것들을 개편시켰는데, 굳이 이렇게까지 했어야 했나? 라는 의문이 든다. 아예 과거의 CS의 이미지를 없엤다고 봐도 무방함. 오버워치 처럼 강제 업데이트 형식으로 이주하는 방식인데, 이 방식의 문제점은 이주한 결과물이 쓰레기면 사람들이 게임을 접고 선택지를 주지 않는다는 점에서 아주 좋지않다고 생각하는데, CS:GO도 강제 업데이트 형식으로 CS2로 바뀌어버림. 물론 스킨이 워낙 비싼 게임이니 그럴수 있다곤 생각하지만.. 게임성 만큼은 여전하기에 사람들이 게임을 접는다 정도의 일은 나오진 않겠지만... 컨텐츠가 1:1 대응되는 것도 아니고 사실상 공식서버 5:5 pvp 전용 게임이 되어버림. CS:GO에서 넘어오지 못한 컨텐츠들이 너무나도 많다. 이후에 추가한다고 할 수는 있겠지만 그럼 벨브 본인들이 스스로 미완성으로 게임을 출시했다는걸 인정하는게 아닐까?"
         }
       ]
     },
     {
       "block_id": "risk_2",
-      "title": "프레임과 반응성이 걸림돌이 된다는 반응",
+      "title": "프레임과 반응성이 흔들린다는 반응",
       "theme": "프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크",
-      "why_it_matters": "프레임과 반응성 문제를 짚는 반응이 있어, 조작 감각이 중요하면 거슬릴 가능성이 있습니다.",
-      "explanation": "프레임과 반응성 문제를 짚는 반응이 있어, 조작 감각이 중요하면 거슬릴 가능성이 있습니다.",
+      "why_it_matters": "프레임과 반응성 문제를 지적하는 반응이 이어져 기술 안정성에 민감하면 거슬릴 수 있습니다.",
+      "explanation": "프레임과 반응성 문제를 지적하는 반응이 이어져 기술 안정성에 민감하면 거슬릴 수 있습니다.",
       "aspect_keys": [
         "performance"
       ],
@@ -1144,11 +1279,11 @@
       ],
       "evidence_candidate_items": [
         {
-          "review_id": "compress-v3-negative-2-1-741688548855453384",
+          "review_id": "compress-v3-negative-2-1-8164729793256699825",
           "text": "병신같은 업데이트,없데이트,핵은 안잡고 작업장 봇도 안잡고 최적화도 안함"
         },
         {
-          "review_id": "compress-v3-negative-2-7-7973803324335104207",
+          "review_id": "compress-v3-negative-2-7-3050983476925778314",
           "text": "카스2를 한다는것은.. 마치 도시의 삶을 포기하고 야생의 삶으로 쳐 기어 들어가는것을 의미한다 문제점을 적어보자면 1. 핵이 너무 많다. 야생에는 경찰이 없다, 카스도 마찬가지다. 누군가가 핵쓰고 당신의 머리를 뚫어버린다면 그걸 복수해줄 경찰이나 시스템이 없다. 진짜 없는 수준이다. 3~4판하면 한판은 무조건 핵을 만난다고 봐야한다. 핵쟁이도 이걸 알아서 그냥 대놓고 핵질이나 하는 수준인데 유저들이 할 수 있는것은 그냥 핵쟁이의 장난감이나 되어주는것 뿐이다. 사설섭은 클린하다고 알지만 한국 환경에서 쉬운 접근성을 가진 사람 많은 사설섭 따위는 존재하지 않는다. 당장 카스2 설치버튼에 손 때고 당신의 소중한 평일 일과 시간을 챙기길 바란다. 2. 매칭 시스템이 병1신 같다. 야생에서는 당신의 눈앞에 마주칠 동물이 호랑이여도 토끼여도 싸워야한다. 카스도 마찬가지다 아무리 당신이 병1신같이 못해서 랭크가 낮더라도 우리팀은 봇 최고난이도가 나을정도의 실력을 가진 실버를 주지만 상대는 특급주작이 포함된 5인큐를 잡아준다. 물론 어느 게임이나 매칭 시스템이 좋은 게임은 없지만 카스2는 유독 심하게 매칭을 대충 잡아준다. 3~4판 하면 한판은 무조건 13:1로 떡발리는 판이 나온다고 보면 된다. 당장 카스2 설치버튼에 손 때고 당신의 앞으로 마주칠 불합리함을 미리 예방하길 바란다. 3. 카스2는 유저들이 매우 표독하다. 이게 그냥 하는소리가 아니라 만나는 모든 아군 팀원이 70프로 이상은 표독한 친구들이라고 보면 된다. 이거는 1번의 경찰이 없는 문제점에서 이어지는데 카스2는 비매너에 대한 일체 징벌을 내리지 않기에, 당신이 실수로 총을 못쏴 라운드를 졌다고 던짐, 총을 안사줘서 던짐, 자기 말을 안들어줬다고 던짐, 그냥 3판 내리져서 던짐, 지가 존나 못쏜건데 상대방 핵이라고 던짐, 아무 이유없이 팀샷을 하며 게임을 망치는 등의 굉장히 불쾌한 판이 3~4판 하면 무조건 한판이 있다고 보면 된다. 카스2를 하고싶다면 5인큐는 사실상 필수 선택이며 야생에 들어가는데 2~3명 정도의 소수정예로 들어갈려는 멍청한 생각은 하지 말기를 바란다. 카스2를 하고싶다면, 제발 야생에 이악물고 들어오지 말고 도시의 삶을 즐기길 바란다. 세상엔 좋은 FPS 게임이 많다. 이런 심연에 들오지 마라. 더이상의 희생자가 없어야 한다."
         }
       ]

@@ -1,0 +1,125 @@
+{
+  "appid": 2537590,
+  "name": "Microsoft Flight Simulator 2024",
+  "name_en": "Microsoft Flight Simulator 2024",
+  "name_ko": "Microsoft Flight Simulator 2024",
+  "genres": [
+    "시뮬레이션"
+  ],
+  "price_model": "paid",
+  "release_stage": "released",
+  "release_date_text": "2024년 11월 19일",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/header.jpg?t=1747324291",
+  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/c992a0851b2714fdeaa65469ba5e7b8e60c06a96/capsule_231x87.jpg?t=1747324291",
+  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/c992a0851b2714fdeaa65469ba5e7b8e60c06a96/capsule_184x69.jpg?t=1747324291",
+  "screenshots": [
+    {
+      "id": "0",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/ss_62dee3ea5e0ef5989a33b93eecab18c41d865b72.600x338.jpg?t=1747324291",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/ss_62dee3ea5e0ef5989a33b93eecab18c41d865b72.1920x1080.jpg?t=1747324291"
+    },
+    {
+      "id": "1",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/ss_2c5ad31f74f8787cd1f2180ec3001d6b6d46b8f9.600x338.jpg?t=1747324291",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/ss_2c5ad31f74f8787cd1f2180ec3001d6b6d46b8f9.1920x1080.jpg?t=1747324291"
+    },
+    {
+      "id": "2",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/ss_632088560168c4be6e1b8c6b85fbf6901220ca71.600x338.jpg?t=1747324291",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/ss_632088560168c4be6e1b8c6b85fbf6901220ca71.1920x1080.jpg?t=1747324291"
+    },
+    {
+      "id": "3",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/ss_b4cdc13836299a875d57b3a5b17f845eef131930.600x338.jpg?t=1747324291",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/ss_b4cdc13836299a875d57b3a5b17f845eef131930.1920x1080.jpg?t=1747324291"
+    },
+    {
+      "id": "4",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/ss_b031d4853f9ec7bb4b353410a75cabc5d770b9a0.600x338.jpg?t=1747324291",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/ss_b031d4853f9ec7bb4b353410a75cabc5d770b9a0.1920x1080.jpg?t=1747324291"
+    },
+    {
+      "id": "5",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/ss_9bccd11f151b75c3b54dbaa0a972715606102925.600x338.jpg?t=1747324291",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/ss_9bccd11f151b75c3b54dbaa0a972715606102925.1920x1080.jpg?t=1747324291"
+    },
+    {
+      "id": "6",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/ss_36d622f53dcfb8b1564a1edff4647bd487b10958.600x338.jpg?t=1747324291",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/ss_36d622f53dcfb8b1564a1edff4647bd487b10958.1920x1080.jpg?t=1747324291"
+    },
+    {
+      "id": "7",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/ss_f2d3074f57e94210c2e1d48341a644785c52d2ae.600x338.jpg?t=1747324291",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/ss_f2d3074f57e94210c2e1d48341a644785c52d2ae.1920x1080.jpg?t=1747324291"
+    },
+    {
+      "id": "8",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/ss_868397f04f4b30ffca3e76f42a6ebc252f954777.600x338.jpg?t=1747324291",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/ss_868397f04f4b30ffca3e76f42a6ebc252f954777.1920x1080.jpg?t=1747324291"
+    },
+    {
+      "id": "9",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/ss_860e895e1e8ada3b3db5d85743d1caff35650704.600x338.jpg?t=1747324291",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/ss_860e895e1e8ada3b3db5d85743d1caff35650704.1920x1080.jpg?t=1747324291"
+    },
+    {
+      "id": "10",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/ss_d60dc790af18a3aa6fd71b1ba835b39a4add84bc.600x338.jpg?t=1747324291",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/ss_d60dc790af18a3aa6fd71b1ba835b39a4add84bc.1920x1080.jpg?t=1747324291"
+    },
+    {
+      "id": "11",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/ss_d3edc204e690a40538dc8f91171b8ba52497d42f.600x338.jpg?t=1747324291",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/ss_d3edc204e690a40538dc8f91171b8ba52497d42f.1920x1080.jpg?t=1747324291"
+    },
+    {
+      "id": "12",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/ss_d9ee5342a23df208728bc2d062e34c2fcdc6194f.600x338.jpg?t=1747324291",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/ss_d9ee5342a23df208728bc2d062e34c2fcdc6194f.1920x1080.jpg?t=1747324291"
+    },
+    {
+      "id": "13",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/ss_9539a4b6c09539dc61adcb06bc01e4f72785d106.600x338.jpg?t=1747324291",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/ss_9539a4b6c09539dc61adcb06bc01e4f72785d106.1920x1080.jpg?t=1747324291"
+    },
+    {
+      "id": "14",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/ss_5ec36e4ebb03c43fcc5d659d9a2d6d55384541e7.600x338.jpg?t=1747324291",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/ss_5ec36e4ebb03c43fcc5d659d9a2d6d55384541e7.1920x1080.jpg?t=1747324291"
+    },
+    {
+      "id": "15",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/ss_95930ffacabdc250ae4b00c4229da1b279d53766.600x338.jpg?t=1747324291",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/ss_95930ffacabdc250ae4b00c4229da1b279d53766.1920x1080.jpg?t=1747324291"
+    }
+  ],
+  "movies": [
+    {
+      "id": "257058239",
+      "name": "MSFS2024Showcase-esrb",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257058239/movie.293x165.jpg?t=1727283024",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2537590/760939/f28881c08d849aa85895361bbc0e7d08d20ecb4c/1750816661/hls_264_master.m3u8?t=1727283024",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2537590/760939/f28881c08d849aa85895361bbc0e7d08d20ecb4c/1750816661/dash_h264.mpd?t=1727283024",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2537590/760939/f28881c08d849aa85895361bbc0e7d08d20ecb4c/1750816661/dash_av1.mpd?t=1727283024",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/2537590/760939/f28881c08d849aa85895361bbc0e7d08d20ecb4c/1750816661/hls_264_master.m3u8?t=1727283024"
+    }
+  ],
+  "short_description": "Microsoft Flight Simulator 2024에서 역대 최대 규모의 비행기를 조종하면서 전 세계를 탐험하고 흥미진진한 시뮬레이션을 진행하면서 우수한 비행사로 거듭날 수 있습니다.",
+  "steam_store_url": "https://store.steampowered.com/app/2537590",
+  "steam_recommendation_count": 18915,
+  "steam_review_score_desc": "Mixed",
+  "steam_total_positive": 96,
+  "steam_total_negative": 76,
+  "steam_total_reviews": 172,
+  "price_currency": "KRW",
+  "price_current": 6400000,
+  "price_original": 8000000,
+  "price_current_formatted": "₩ 64,000",
+  "price_original_formatted": "₩ 80,000",
+  "price_discount_percent": 20,
+  "is_free": false,
+  "coming_soon": false
+}

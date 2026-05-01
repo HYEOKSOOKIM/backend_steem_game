@@ -1,0 +1,142 @@
+{
+  "appid": 1145350,
+  "name": "Hades II",
+  "name_en": "Hades II",
+  "name_ko": "Hades II",
+  "genres": [
+    "액션",
+    "인디",
+    "RPG"
+  ],
+  "price_model": "paid",
+  "release_stage": "released",
+  "release_date_text": "2025년 9월 25일",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/91ac334a2c137d08968ccc0bc474a02579602100/header.jpg?t=1765831644",
+  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/10c9138570a8d7ac9144f601ab0f2ccbc820337e/capsule_231x87.jpg?t=1765831644",
+  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/10c9138570a8d7ac9144f601ab0f2ccbc820337e/capsule_184x69.jpg?t=1765831644",
+  "screenshots": [
+    {
+      "id": "0",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/ss_ef0f63061d0a0a9a7e46f3b84f125d25330e8f19.600x338.jpg?t=1765831644",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/ss_ef0f63061d0a0a9a7e46f3b84f125d25330e8f19.1920x1080.jpg?t=1765831644"
+    },
+    {
+      "id": "1",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/ss_b21b0dda96dd78c14372040fc404ea062862bc21.600x338.jpg?t=1765831644",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/ss_b21b0dda96dd78c14372040fc404ea062862bc21.1920x1080.jpg?t=1765831644"
+    },
+    {
+      "id": "2",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/ss_b88cb7b48a86f07a7288bf37141f6558279f9bfc.600x338.jpg?t=1765831644",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/ss_b88cb7b48a86f07a7288bf37141f6558279f9bfc.1920x1080.jpg?t=1765831644"
+    },
+    {
+      "id": "3",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/ss_c8d2b18451a2cc4d5b4fdd78ed84a5e64e051eac.600x338.jpg?t=1765831644",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/ss_c8d2b18451a2cc4d5b4fdd78ed84a5e64e051eac.1920x1080.jpg?t=1765831644"
+    },
+    {
+      "id": "4",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/ss_f366f20f4fb699f6735581e04c7c45a1ef7bd1b8.600x338.jpg?t=1765831644",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/ss_f366f20f4fb699f6735581e04c7c45a1ef7bd1b8.1920x1080.jpg?t=1765831644"
+    },
+    {
+      "id": "5",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/ss_47e14ed55ac7f1bf9266b2cd5b3e4d9eae0ca54c.600x338.jpg?t=1765831644",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/ss_47e14ed55ac7f1bf9266b2cd5b3e4d9eae0ca54c.1920x1080.jpg?t=1765831644"
+    },
+    {
+      "id": "6",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/ss_4372c72d364db72d344c4644658a845bbf32c60f.600x338.jpg?t=1765831644",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/ss_4372c72d364db72d344c4644658a845bbf32c60f.1920x1080.jpg?t=1765831644"
+    },
+    {
+      "id": "7",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/ss_93a2b3a39788031aac115b2edeebcefe585d6c8d.600x338.jpg?t=1765831644",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/ss_93a2b3a39788031aac115b2edeebcefe585d6c8d.1920x1080.jpg?t=1765831644"
+    }
+  ],
+  "movies": [
+    {
+      "id": "257204779",
+      "name": "Hades II – v1.0 Launch Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257204779/2f6767807df172946f5d638093dcc1c933eb24bb/movie_600x337.jpg?t=1758942439",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1145350/1067641820/dfba9c6a8b09f5bd9b323d6e699ac685065b93d3/1758924611/hls_264_master.m3u8?t=1758942439",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1145350/1067641820/dfba9c6a8b09f5bd9b323d6e699ac685065b93d3/1758924611/dash_h264.mpd?t=1758942439",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1145350/1067641820/dfba9c6a8b09f5bd9b323d6e699ac685065b93d3/1758924611/dash_av1.mpd?t=1758942439",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/1145350/1067641820/dfba9c6a8b09f5bd9b323d6e699ac685065b93d3/1758924611/hls_264_master.m3u8?t=1758942439"
+    },
+    {
+      "id": "257206304",
+      "name": "Hades II – v1.0 Showcase",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257206304/15bba1cdfa1aa30b3b772c1c5535e1c6bf9d9fc1/movie_600x337.jpg?t=1758942440",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1145350/1078171228/d92eb59e06a0bc11acbab62a2fcc3981383b80fa/1758820310/hls_264_master.m3u8?t=1758942440",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1145350/1078171228/d92eb59e06a0bc11acbab62a2fcc3981383b80fa/1758820310/dash_h264.mpd?t=1758942440",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1145350/1078171228/d92eb59e06a0bc11acbab62a2fcc3981383b80fa/1758820310/dash_av1.mpd?t=1758942440",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/1145350/1078171228/d92eb59e06a0bc11acbab62a2fcc3981383b80fa/1758820310/hls_264_master.m3u8?t=1758942440"
+    },
+    {
+      "id": "256919374",
+      "name": "Hades II Coming Soon",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256919374/movie.293x165.jpg?t=1715021708",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1145350/519255/5ca763163ded88a590accd47a774c99b9deec03c/1750627491/hls_264_master.m3u8?t=1715021708",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1145350/519255/5ca763163ded88a590accd47a774c99b9deec03c/1750627491/dash_h264.mpd?t=1715021708",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1145350/519255/5ca763163ded88a590accd47a774c99b9deec03c/1750627491/dash_av1.mpd?t=1715021708",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/1145350/519255/5ca763163ded88a590accd47a774c99b9deec03c/1750627491/hls_264_master.m3u8?t=1715021708"
+    },
+    {
+      "id": "257099837",
+      "name": "Hades II Warsong Update",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257099837/7f2156a64f8c06471e2538f1a9b86e7c00d9174c/movie_600x337.jpg?t=1750178949",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1145350/831414/c475e29924acd1c3b6f49a8231230834e7e52d05/1750627511/hls_264_master.m3u8?t=1750178949",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1145350/831414/c475e29924acd1c3b6f49a8231230834e7e52d05/1750627511/dash_h264.mpd?t=1750178949",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1145350/831414/c475e29924acd1c3b6f49a8231230834e7e52d05/1750627511/dash_av1.mpd?t=1750178949",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/1145350/831414/c475e29924acd1c3b6f49a8231230834e7e52d05/1750627511/hls_264_master.m3u8?t=1750178949"
+    },
+    {
+      "id": "257065656",
+      "name": "Hades II Olympic Update",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257065656/7da92850173b26004fce56641e25711a42b96a2b/movie_600x337.jpg?t=1729112202",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1145350/772664/5050056d051c58906915540f8cb0f172eab1f73e/1750627505/hls_264_master.m3u8?t=1729112202",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1145350/772664/5050056d051c58906915540f8cb0f172eab1f73e/1750627505/dash_h264.mpd?t=1729112202",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1145350/772664/5050056d051c58906915540f8cb0f172eab1f73e/1750627505/dash_av1.mpd?t=1729112202",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/1145350/772664/5050056d051c58906915540f8cb0f172eab1f73e/1750627505/hls_264_master.m3u8?t=1729112202"
+    },
+    {
+      "id": "257020788",
+      "name": "Hades II Early Access Showcase",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257020788/movie.293x165.jpg?t=1715021703",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1145350/695850/0b4a736847005fc3bf0110bb100cf8eb01fa20d1/1750627504/hls_264_master.m3u8?t=1715021703",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1145350/695850/0b4a736847005fc3bf0110bb100cf8eb01fa20d1/1750627504/dash_h264.mpd?t=1715021703",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1145350/695850/0b4a736847005fc3bf0110bb100cf8eb01fa20d1/1750627504/dash_av1.mpd?t=1715021703",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/1145350/695850/0b4a736847005fc3bf0110bb100cf8eb01fa20d1/1750627504/hls_264_master.m3u8?t=1715021703"
+    }
+  ],
+  "short_description": "수상 경력에 빛나는 로그라이크 던전 크롤러의 매혹적인 속편에서 어둠의 마법을 펼치며 시간의 티탄에게 맞서 지하세계 너머에서 전투를 벌이세요.",
+  "steam_store_url": "https://store.steampowered.com/app/1145350",
+  "steam_recommendation_count": 109363,
+  "steam_review_score_desc": "Overwhelmingly Positive",
+  "steam_total_positive": 1868,
+  "steam_total_negative": 89,
+  "steam_total_reviews": 1957,
+  "price_currency": "KRW",
+  "price_current": 3200000,
+  "price_original": 3200000,
+  "price_current_formatted": "₩ 32,000",
+  "price_original_formatted": null,
+  "price_discount_percent": 0,
+  "is_free": false,
+  "coming_soon": false
+}

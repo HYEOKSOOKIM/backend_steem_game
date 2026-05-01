@@ -49,10 +49,10 @@
       ]
     },
     "content_depth": {
-      "mention_count": 192,
-      "negative_ratio": 0.2916666666666667,
+      "mention_count": 191,
+      "negative_ratio": 0.2931937172774869,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9947916666666666,
+      "experienced_player_share": 0.9947643979057592,
       "themes": [
         "콘텐츠 부족",
         "반복 / 목적성 부족",
@@ -79,10 +79,10 @@
       ]
     },
     "customization": {
-      "mention_count": 273,
-      "negative_ratio": 0.21611721611721613,
+      "mention_count": 272,
+      "negative_ratio": 0.21691176470588236,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9926739926739927,
+      "experienced_player_share": 0.9926470588235294,
       "themes": [
         "스킨 / 외형 요소",
         "헤어 / 의상 옵션 부족",
@@ -177,18 +177,18 @@
       ]
     },
     "multiplayer": {
-      "mention_count": 2541,
-      "negative_ratio": 0.4612357339630067,
-      "recent_trend": "flat",
-      "experienced_player_share": 0.9862258953168044,
+      "mention_count": 2542,
+      "negative_ratio": 0.4618410700236035,
+      "recent_trend": "down",
+      "experienced_player_share": 0.9862313139260425,
       "themes": [
         "부정행위 / 보안 이슈",
         "매칭 / 서버 문제",
         "멀티플레이 경험"
       ],
       "sample_reviews": [
-        "공식에서 핵안잡는 ㅄ게임",
-        "재밌는데 배그 처럼 경쟁 사야됨"
+        "ㄱ같은 신고 시스템 때문에 강제로  팀원들이 겁나 못하거나 아예 할줄모르는 사람들만 나왔음.",
+        "핵쟁이 시@@@ㅂ놈들 바글바글하네 바퀴벌레 같은 놈들"
       ]
     },
     "performance": {
@@ -241,8 +241,8 @@
     "fit_for": "초반 진입 장벽이나 조작 적응 여부를 중요하게 보는 플레이어는 사전 확인이 필요합니다.",
     "risks": "multiplayer 관련 이슈는 반복적으로 언급되지만 최근 급격한 악화 신호는 제한적입니다."
   },
-  "pipeline_run_id": "730-20260427T062851Z",
-  "generated_at": "2026-04-27T06:31:39.786497+00:00",
+  "pipeline_run_id": "730-20260430T093906Z",
+  "generated_at": "2026-04-30T09:41:14.689199+00:00",
   "source_review_count": 19995,
   "review_pages": "all",
   "fetched_pages": 200,
@@ -253,27 +253,27 @@
   "all_mode_cap_reached": true,
   "llm_stats": {
     "considered": 9065,
-    "selected": 20,
-    "invoked": 20,
-    "success": 20,
+    "selected": 50,
+    "invoked": 50,
+    "success": 50,
     "schema_invalid": 0,
     "low_confidence": 0,
-    "cache_hits": 0,
+    "cache_hits": 50,
     "fallback_used": 0
   },
   "report_material_refiner": {
     "enabled": true,
-    "max_llm_reviews": 20,
+    "max_llm_reviews": 50,
     "llm_min_confidence": 0.7,
-    "material_count": 20,
+    "material_count": 50,
     "stats": {
       "considered": 9065,
-      "selected": 20,
-      "invoked": 20,
-      "success": 20,
+      "selected": 50,
+      "invoked": 50,
+      "success": 50,
       "schema_invalid": 0,
       "low_confidence": 0,
-      "cache_hits": 0,
+      "cache_hits": 50,
       "fallback_used": 0
     }
   }

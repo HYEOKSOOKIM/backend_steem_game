@@ -1,6 +1,8 @@
 {
   "appid": 1085660,
   "name": "데스티니 가디언즈",
+  "name_en": "Destiny 2",
+  "name_ko": "데스티니 가디언즈",
   "genres": [
     "액션",
     "어드벤처",
@@ -12,13 +14,112 @@
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085660/header_koreana.jpg?t=1765904462",
   "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085660/capsule_231x87_koreana.jpg?t=1765904462",
   "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085660/capsule_184x69_koreana.jpg?t=1765904462",
+  "screenshots": [
+    {
+      "id": "0",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085660/ss_7fcc82f468fcf8278c7ffa95cebf949bfc6845fc.600x338.jpg?t=1765904462",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085660/ss_7fcc82f468fcf8278c7ffa95cebf949bfc6845fc.1920x1080.jpg?t=1765904462"
+    },
+    {
+      "id": "1",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085660/ss_c142f5078ace9f5e2eb2c80aa3bf768e156b4ee9.600x338.jpg?t=1765904462",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085660/ss_c142f5078ace9f5e2eb2c80aa3bf768e156b4ee9.1920x1080.jpg?t=1765904462"
+    },
+    {
+      "id": "2",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085660/ss_a9642404e586be28f856e8f02d038828f691a5ba.600x338.jpg?t=1765904462",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085660/ss_a9642404e586be28f856e8f02d038828f691a5ba.1920x1080.jpg?t=1765904462"
+    },
+    {
+      "id": "3",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085660/ss_01fdd090ed1dd70112ce2c6d6fc208df0a008ac7.600x338.jpg?t=1765904462",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085660/ss_01fdd090ed1dd70112ce2c6d6fc208df0a008ac7.1920x1080.jpg?t=1765904462"
+    },
+    {
+      "id": "4",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085660/ss_d230d30da82a7b92c842e7447ee5a8458b866251.600x338.jpg?t=1765904462",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085660/ss_d230d30da82a7b92c842e7447ee5a8458b866251.1920x1080.jpg?t=1765904462"
+    },
+    {
+      "id": "5",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085660/ss_5065e2bb5de91535dc5e390e27e391a8b9b367ee.600x338.jpg?t=1765904462",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085660/ss_5065e2bb5de91535dc5e390e27e391a8b9b367ee.1920x1080.jpg?t=1765904462"
+    },
+    {
+      "id": "6",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085660/ss_afc1f202f7ab71adca7d1e503138d89c5689e716.600x338.jpg?t=1765904462",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085660/ss_afc1f202f7ab71adca7d1e503138d89c5689e716.1920x1080.jpg?t=1765904462"
+    },
+    {
+      "id": "7",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085660/ss_324e79ed624f3abd7a2eea2d187d6f616be17102.600x338.jpg?t=1765904462",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085660/ss_324e79ed624f3abd7a2eea2d187d6f616be17102.1920x1080.jpg?t=1765904462"
+    },
+    {
+      "id": "8",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085660/ss_a35aaa73e605c0738a53a74abbcb53768e8f39e1.600x338.jpg?t=1765904462",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085660/ss_a35aaa73e605c0738a53a74abbcb53768e8f39e1.1920x1080.jpg?t=1765904462"
+    }
+  ],
+  "movies": [
+    {
+      "id": "257033491",
+      "name": "TFS Accolades - KO",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257033491/movie.293x165.jpg?t=1719265559",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1085660/718089/a5af5342181de470edaf3c1f52c96319cff72f94/1750614697/hls_264_master.m3u8?t=1719265559",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1085660/718089/a5af5342181de470edaf3c1f52c96319cff72f94/1750614697/dash_h264.mpd?t=1719265559",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1085660/718089/a5af5342181de470edaf3c1f52c96319cff72f94/1750614697/dash_av1.mpd?t=1719265559",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/1085660/718089/a5af5342181de470edaf3c1f52c96319cff72f94/1750614697/hls_264_master.m3u8?t=1719265559"
+    },
+    {
+      "id": "256877355",
+      "name": "Heroes Welcome - KO",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256877355/movie.293x165.jpg?t=1646944799",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1085660/446108/87729f8fdc4dda51ae5e92d94b36773769e29496/1750614192/hls_264_master.m3u8?t=1646944799",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1085660/446108/87729f8fdc4dda51ae5e92d94b36773769e29496/1750614192/dash_h264.mpd?t=1646944799",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1085660/446108/87729f8fdc4dda51ae5e92d94b36773769e29496/1750614192/dash_av1.mpd?t=1646944799",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/1085660/446108/87729f8fdc4dda51ae5e92d94b36773769e29496/1750614192/hls_264_master.m3u8?t=1646944799"
+    },
+    {
+      "id": "256902410",
+      "name": "Destiny Calls - KO",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256902410/movie.293x165.jpg?t=1661325626",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1085660/490330/eec5331e981a2274867103326a1e5d69103d8d08/1750614351/hls_264_master.m3u8?t=1661325626",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1085660/490330/eec5331e981a2274867103326a1e5d69103d8d08/1750614351/dash_h264.mpd?t=1661325626",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1085660/490330/eec5331e981a2274867103326a1e5d69103d8d08/1750614351/dash_av1.mpd?t=1661325626",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/1085660/490330/eec5331e981a2274867103326a1e5d69103d8d08/1750614351/hls_264_master.m3u8?t=1661325626"
+    },
+    {
+      "id": "256988867",
+      "name": "FireteamFinder - KO",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256988867/movie.293x165.jpg?t=1702506488",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1085660/640367/20374fc90df91e034004c50556c971a6aba7fe9e/1750614525/hls_264_master.m3u8?t=1702506488",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1085660/640367/20374fc90df91e034004c50556c971a6aba7fe9e/1750614525/dash_h264.mpd?t=1702506488",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1085660/640367/20374fc90df91e034004c50556c971a6aba7fe9e/1750614525/dash_av1.mpd?t=1702506488",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/1085660/640367/20374fc90df91e034004c50556c971a6aba7fe9e/1750614525/hls_264_master.m3u8?t=1702506488"
+    }
+  ],
   "short_description": "데스티니 가디언즈는 끝없이 진화하는 하나의 세계에서 플레이하는 액션 MMO입니다. 언제 어디서든 친구들과 함께 무료로 플레이하세요.",
   "steam_store_url": "https://store.steampowered.com/app/1085660",
-  "steam_recommendation_count": 133937,
+  "steam_recommendation_count": 133939,
   "steam_review_score_desc": "Mostly Positive",
-  "steam_total_positive": 10571,
-  "steam_total_negative": 3786,
+  "steam_total_positive": 10570,
+  "steam_total_negative": 3787,
   "steam_total_reviews": 14357,
+  "price_currency": null,
+  "price_current": null,
+  "price_original": null,
+  "price_current_formatted": null,
+  "price_original_formatted": null,
+  "price_discount_percent": null,
   "is_free": true,
   "coming_soon": false
 }

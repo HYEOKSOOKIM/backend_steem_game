@@ -1,10 +1,10 @@
 {
   "report_version": "v4-planned-sections",
   "appid": 892970,
-  "pipeline_run_id": "892970-20260427T070305Z",
-  "generated_at": "2026-04-27T07:06:29.870547+00:00",
-  "source_review_count": 7554,
-  "included_review_count": 5067,
+  "pipeline_run_id": "892970-20260501T005247Z-raw",
+  "generated_at": "2026-05-01T00:56:18.968805+00:00",
+  "source_review_count": 7559,
+  "included_review_count": 5069,
   "min_report_review_count": 100,
   "report_state": "ready",
   "review_trend": {
@@ -13,8 +13,8 @@
     "points": [
       {
         "month": "2021-02",
-        "positive_count": 1212,
-        "review_count": 1272,
+        "positive_count": 1211,
+        "review_count": 1271,
         "positive_ratio": 0.9528
       },
       {
@@ -151,9 +151,9 @@
       },
       {
         "month": "2023-01",
-        "positive_count": 107,
-        "review_count": 124,
-        "positive_ratio": 0.8629
+        "positive_count": 108,
+        "review_count": 125,
+        "positive_ratio": 0.864
       },
       {
         "month": "2023-02",
@@ -163,9 +163,9 @@
       },
       {
         "month": "2023-03",
-        "positive_count": 78,
-        "review_count": 84,
-        "positive_ratio": 0.9286
+        "positive_count": 77,
+        "review_count": 83,
+        "positive_ratio": 0.9277
       },
       {
         "month": "2023-04",
@@ -349,9 +349,9 @@
       },
       {
         "month": "2025-10",
-        "positive_count": 68,
+        "positive_count": 69,
         "review_count": 81,
-        "positive_ratio": 0.8395
+        "positive_ratio": 0.8519
       },
       {
         "month": "2025-11",
@@ -385,9 +385,9 @@
       },
       {
         "month": "2026-04",
-        "positive_count": 32,
-        "review_count": 35,
-        "positive_ratio": 0.9143
+        "positive_count": 38,
+        "review_count": 41,
+        "positive_ratio": 0.9268
       }
     ]
   },
@@ -407,20 +407,197 @@
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/de0bdcf6c008c508a79d8e75eb91fc67f4bebd5d/header.jpg?t=1765967243",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/3b25991b8a19244cfd979a2766e7490cc7894e09/capsule_231x87.jpg?t=1765967243",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/3b25991b8a19244cfd979a2766e7490cc7894e09/capsule_184x69.jpg?t=1765967243",
+    "screenshots": [
+      {
+        "id": "0",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_a600a7d4ca954543e22f571a9629521a13f82143.600x338.jpg?t=1765967243",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_a600a7d4ca954543e22f571a9629521a13f82143.1920x1080.jpg?t=1765967243"
+      },
+      {
+        "id": "1",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_cd0262c5abf8a90ee5e1059acafc5a92b6be0e73.600x338.jpg?t=1765967243",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_cd0262c5abf8a90ee5e1059acafc5a92b6be0e73.1920x1080.jpg?t=1765967243"
+      },
+      {
+        "id": "2",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_3db385fc1223914dadb199ac8682683a8c59454e.600x338.jpg?t=1765967243",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_3db385fc1223914dadb199ac8682683a8c59454e.1920x1080.jpg?t=1765967243"
+      },
+      {
+        "id": "3",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_6032c9336c6cf9c1ebc914cedf022b38e97fd271.600x338.jpg?t=1765967243",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_6032c9336c6cf9c1ebc914cedf022b38e97fd271.1920x1080.jpg?t=1765967243"
+      },
+      {
+        "id": "4",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_f6cbfeea728d557fa9f483685fea3205f08f5d9e.600x338.jpg?t=1765967243",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_f6cbfeea728d557fa9f483685fea3205f08f5d9e.1920x1080.jpg?t=1765967243"
+      },
+      {
+        "id": "5",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_551f06a43b72609d7ca3cd63e93c58e949d58384.600x338.jpg?t=1765967243",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_551f06a43b72609d7ca3cd63e93c58e949d58384.1920x1080.jpg?t=1765967243"
+      },
+      {
+        "id": "6",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_f4ea4f0f93cc8b38042f6d5916413da185ec221c.600x338.jpg?t=1765967243",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_f4ea4f0f93cc8b38042f6d5916413da185ec221c.1920x1080.jpg?t=1765967243"
+      },
+      {
+        "id": "7",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_553301e2432883e9f026fe1dd0e91d7a8886d6f1.600x338.jpg?t=1765967243",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_553301e2432883e9f026fe1dd0e91d7a8886d6f1.1920x1080.jpg?t=1765967243"
+      },
+      {
+        "id": "8",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_9b4abc60696de192c40064364a1395ad5074e5c3.600x338.jpg?t=1765967243",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_9b4abc60696de192c40064364a1395ad5074e5c3.1920x1080.jpg?t=1765967243"
+      },
+      {
+        "id": "9",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_15a86a1c4175f9392127265735c177a91535de65.600x338.jpg?t=1765967243",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_15a86a1c4175f9392127265735c177a91535de65.1920x1080.jpg?t=1765967243"
+      },
+      {
+        "id": "10",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_ad81cc7ced8585ad344ba50e9d0b4bf9c597e62e.600x338.jpg?t=1765967243",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_ad81cc7ced8585ad344ba50e9d0b4bf9c597e62e.1920x1080.jpg?t=1765967243"
+      },
+      {
+        "id": "11",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_4ba939a383dc363c14e6cb7995322f39a5a26b07.600x338.jpg?t=1765967243",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_4ba939a383dc363c14e6cb7995322f39a5a26b07.1920x1080.jpg?t=1765967243"
+      },
+      {
+        "id": "12",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_988d92f03856895ef73a636ad20c2951086b865c.600x338.jpg?t=1765967243",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_988d92f03856895ef73a636ad20c2951086b865c.1920x1080.jpg?t=1765967243"
+      },
+      {
+        "id": "13",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_8db2e5f40b64e105c7174b3d3679fce6d7a04d20.600x338.jpg?t=1765967243",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_8db2e5f40b64e105c7174b3d3679fce6d7a04d20.1920x1080.jpg?t=1765967243"
+      },
+      {
+        "id": "14",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_b3c171e257dd1a3173254b1b61a7995dec204df4.600x338.jpg?t=1765967243",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_b3c171e257dd1a3173254b1b61a7995dec204df4.1920x1080.jpg?t=1765967243"
+      },
+      {
+        "id": "15",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_64ae63dcfde6612266cf72884132fa144908b777.600x338.jpg?t=1765967243",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_64ae63dcfde6612266cf72884132fa144908b777.1920x1080.jpg?t=1765967243"
+      },
+      {
+        "id": "16",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_0c218f8040f1d7850baff4ff4e3109942388ac98.600x338.jpg?t=1765967243",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_0c218f8040f1d7850baff4ff4e3109942388ac98.1920x1080.jpg?t=1765967243"
+      },
+      {
+        "id": "17",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_e79d3106549c1269a14888f2095e4c667643c3ad.600x338.jpg?t=1765967243",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_e79d3106549c1269a14888f2095e4c667643c3ad.1920x1080.jpg?t=1765967243"
+      }
+    ],
+    "movies": [
+      {
+        "id": "257023147",
+        "name": "Ashlands Animated Trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257023147/movie.293x165.jpg?t=1715688262",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/892970/700057/92243856917a479ef44b4ab22d3378a272c6fffc/1750594091/hls_264_master.m3u8?t=1715688262",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/892970/700057/92243856917a479ef44b4ab22d3378a272c6fffc/1750594091/dash_h264.mpd?t=1715688262",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/892970/700057/92243856917a479ef44b4ab22d3378a272c6fffc/1750594091/dash_av1.mpd?t=1715688262",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/892970/700057/92243856917a479ef44b4ab22d3378a272c6fffc/1750594091/hls_264_master.m3u8?t=1715688262"
+      },
+      {
+        "id": "257017624",
+        "name": "Ashlands Gameplay Trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257017624/movie.293x165.jpg?t=1713783864",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/892970/690390/d72844d76fc153a859f5f9be77c5b3edb3b2b89f/1750594074/hls_264_master.m3u8?t=1713783864",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/892970/690390/d72844d76fc153a859f5f9be77c5b3edb3b2b89f/1750594074/dash_h264.mpd?t=1713783864",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/892970/690390/d72844d76fc153a859f5f9be77c5b3edb3b2b89f/1750594074/dash_av1.mpd?t=1713783864",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/892970/690390/d72844d76fc153a859f5f9be77c5b3edb3b2b89f/1750594074/hls_264_master.m3u8?t=1713783864"
+      },
+      {
+        "id": "256919598",
+        "name": "Mistlands Gameplay Trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256919598/movie.293x165.jpg?t=1670328406",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/892970/519670/86e103a5d064fec1944deba945aabbb77099e877/1750594068/hls_264_master.m3u8?t=1670328406",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/892970/519670/86e103a5d064fec1944deba945aabbb77099e877/1750594068/dash_h264.mpd?t=1670328406",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/892970/519670/86e103a5d064fec1944deba945aabbb77099e877/1750594068/dash_av1.mpd?t=1670328406",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/892970/519670/86e103a5d064fec1944deba945aabbb77099e877/1750594068/hls_264_master.m3u8?t=1670328406"
+      },
+      {
+        "id": "256820008",
+        "name": "Early Access Launch Trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256820008/movie.293x165.jpg?t=1612278985",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/892970/343833/29b59654b58ce6153f88c9d00200f78793f59323/1750594040/hls_264_master.m3u8?t=1612278985",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/892970/343833/29b59654b58ce6153f88c9d00200f78793f59323/1750594040/dash_h264.mpd?t=1612278985",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/892970/343833/29b59654b58ce6153f88c9d00200f78793f59323/1750594040/dash_av1.mpd?t=1612278985",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/892970/343833/29b59654b58ce6153f88c9d00200f78793f59323/1750594040/hls_264_master.m3u8?t=1612278985"
+      },
+      {
+        "id": "256919597",
+        "name": "Mistlands Animated trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256919597/movie.293x165.jpg?t=1670328411",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/892970/519666/7c43b29816e1ddfd923185f048b5676f69943d79/1750594068/hls_264_master.m3u8?t=1670328411",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/892970/519666/7c43b29816e1ddfd923185f048b5676f69943d79/1750594068/dash_h264.mpd?t=1670328411",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/892970/519666/7c43b29816e1ddfd923185f048b5676f69943d79/1750594068/dash_av1.mpd?t=1670328411",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/892970/519666/7c43b29816e1ddfd923185f048b5676f69943d79/1750594068/hls_264_master.m3u8?t=1670328411"
+      },
+      {
+        "id": "256863747",
+        "name": "Hearth & Home Animated Trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256863747/movie.293x165.jpg?t=1715688266",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/892970/422769/3140449b4695a04a8fbdfd90680723458c935bcf/1750594060/hls_264_master.m3u8?t=1715688266",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/892970/422769/3140449b4695a04a8fbdfd90680723458c935bcf/1750594060/dash_h264.mpd?t=1715688266",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/892970/422769/3140449b4695a04a8fbdfd90680723458c935bcf/1750594060/dash_av1.mpd?t=1715688266",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/892970/422769/3140449b4695a04a8fbdfd90680723458c935bcf/1750594060/hls_264_master.m3u8?t=1715688266"
+      },
+      {
+        "id": "256851823",
+        "name": "Hearth & Home Gameplay Trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256851823/movie.293x165.jpg?t=1715688270",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/892970/401761/429c130b298d4f58bef31c97ccaeed0a6052ead9/1750594057/hls_264_master.m3u8?t=1715688270",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/892970/401761/429c130b298d4f58bef31c97ccaeed0a6052ead9/1750594057/dash_h264.mpd?t=1715688270",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/892970/401761/429c130b298d4f58bef31c97ccaeed0a6052ead9/1750594057/dash_av1.mpd?t=1715688270",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/892970/401761/429c130b298d4f58bef31c97ccaeed0a6052ead9/1750594057/hls_264_master.m3u8?t=1715688270"
+      }
+    ],
     "short_description": "북구 신화와 바이킹 문화에 기반한 판타지 세계를 배경으로 펼쳐지는 생존 및 탐험 게임.",
     "steam_store_url": "https://store.steampowered.com/app/892970",
-    "steam_recommendation_count": 450729,
+    "steam_recommendation_count": 450968,
     "steam_review_score_desc": "Very Positive",
-    "steam_total_positive": 6994,
-    "steam_total_negative": 563,
-    "steam_total_reviews": 7557
+    "steam_total_positive": 6998,
+    "steam_total_negative": 562,
+    "steam_total_reviews": 7560,
+    "price_currency": "KRW",
+    "price_current": 1100000,
+    "price_original": 2200000,
+    "price_current_formatted": "₩ 11,000",
+    "price_original_formatted": "₩ 22,000",
+    "price_discount_percent": 50
   },
   "report_plan": {
     "decision_anchor": {
       "buy_recommendation": "buy_now",
       "primary_reason_ids": [
-        "str_1",
-        "str_2"
+        "risk_1",
+        "risk_2"
       ],
       "rationale_short": "최근 후기 흐름에서 체감 불편이 크게 늘지 않아 지금 시작해도 부담이 낮은 편입니다."
     },
@@ -467,11 +644,11 @@
     }
   },
   "report_display": {
-    "headline": "팀 합과 협업의 재미 체감이 좋아 지금 바로 시작해도 만족도가 높은 편입니다.",
+    "headline": "팀 합이 살아나는 멀티플레이 흐름 체감이 좋아 지금 바로 시작해도 만족도가 높은 편입니다.",
     "buy_recommendation": "buy_now",
     "buy_timing_summary": "최근 후기 흐름에서 체감 불편이 크게 늘지 않아 지금 시작해도 부담이 낮은 편입니다.",
     "good_for": [
-      "팀원과 호흡을 맞추는 재미를 중요하게 보는 플레이어",
+      "팀원과 호흡을 맞추는 플레이를 중요하게 보는 플레이어",
       "맵을 돌아다니며 발견하는 재미를 중요하게 보는 플레이어",
       "배경과 연출이 만드는 분위기를 중요하게 보는 플레이어"
     ],
@@ -480,18 +657,60 @@
       "비용 대비 만족을 꼼꼼하게 따지는 플레이어",
       "프레임과 반응성에 민감한 플레이어"
     ],
+    "player_fit_signals": {
+      "good_for": [
+        {
+          "aspect": "multiplayer",
+          "theme": "멀티플레이 경험",
+          "subtype": "teamplay_synergy",
+          "negative": false
+        },
+        {
+          "aspect": "gameplay",
+          "theme": "전투 손맛 / 액션 호평",
+          "subtype": "openworld_exploration",
+          "negative": false
+        },
+        {
+          "aspect": "graphics",
+          "theme": "그래픽 / 비주얼 호평",
+          "subtype": "visual_atmosphere",
+          "negative": false
+        }
+      ],
+      "not_good_for": [
+        {
+          "aspect": "content_depth",
+          "theme": "콘텐츠 부족",
+          "subtype": "repetition_fatigue",
+          "negative": true
+        },
+        {
+          "aspect": "monetization",
+          "theme": "가격 / 과금 불만",
+          "subtype": "price_sensitivity",
+          "negative": true
+        },
+        {
+          "aspect": "performance",
+          "theme": "최적화 문제",
+          "subtype": "performance_instability",
+          "negative": true
+        }
+      ]
+    },
     "top_strengths": [
       {
         "title": "멀티플레이 경험",
-        "summary": "팀 합이 맞을수록 재미가 분명해져 함께 호흡을 맞추는 플레이에 잘 맞습니다."
+        "summary": "팀 합이 맞을수록 만족도가 올라가 협동 호흡을 맞추는 플레이에 잘 맞습니다."
       },
       {
-        "title": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험",
-        "summary": "타격감이 뛰어나고, 적의 공격을 피하며 반격하는 재미가 있어 긴장감 넘치는 전투를 즐길 수 있습니다."
+        "title": "발견이 이어지는 탐험 경험",
+        "summary": "이동과 발견 그 자체가 재미로 이어져 탐험 비중이 높은 플레이와 잘 맞습니다."
       },
       {
-        "title": "그래픽/비주얼 호평",
-        "summary": "비주얼과 연출이 분위기를 오래 밀어줘 화면과 감각을 즐기는 플레이에 잘 맞습니다."
+        "title": "비주얼과 분위기를 오래 붙잡는 연출",
+        "summary": "비주얼과 연출이 만든 분위기가 길게 남아 화면과 감각을 즐기기 좋습니다."
       }
     ],
     "top_risks": [
@@ -501,58 +720,58 @@
       },
       {
         "title": "가격 대비 만족이 갈릴 수 있는 부분",
-        "summary": "가격 부담이 크면 기대만큼 만족하지 못했다는 반응이 나올 수 있습니다."
+        "summary": "가격 부담이 있으면 기대만큼 만족하지 못했다는 반응도 함께 나올 수 있습니다."
       },
       {
         "title": "프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크",
-        "summary": "프레임과 반응성이 흔들리면 조작 감각이 무너져 답답하게 느껴질 수 있습니다."
+        "summary": "프레임과 반응성이 흔들리면 조작 감각과 플레이 리듬이 함께 무너질 수 있습니다."
       }
     ],
     "recent_state": {
       "status": "improving",
-      "summary": "불편이 줄었다는 후기가 늘어 전반적인 분위기가 나아지는 편입니다."
+      "summary": "불편함이 줄었다는 후기가 늘어 전반적인 분위기가 나아지는 편입니다."
     }
   },
   "evidence_sections": {
     "strengths": [
       {
         "block_id": "str_1",
-        "title": "팀 합이 맞을 때 재미가 커진다는 반응",
+        "title": "팀 합의의 재미가 크다는 반응",
         "theme": "멀티플레이 경험",
-        "why_it_matters": "팀 합이 맞을 때 만족도가 올라간다는 반응이 많아, 함께 맞춰가는 플레이를 좋아하면 잘 맞습니다.",
-        "explanation": "팀 합이 맞을 때 만족도가 올라간다는 반응이 많아, 함께 맞춰가는 플레이를 좋아하면 잘 맞습니다.",
+        "why_it_matters": "팀 합이 맞을 때 만족도가 올라간다는 반응이 많아 함께 맞춰 가는 플레이에 잘 맞습니다.",
+        "explanation": "팀 합이 맞을 때 만족도가 올라간다는 반응이 많아 함께 맞춰 가는 플레이에 잘 맞습니다.",
         "aspect_keys": [
           "multiplayer"
         ],
         "stance": "positive",
         "consensus_level": "high",
         "mention_count": 935,
-        "evidence_quality_level": "relaxed",
+        "evidence_quality_level": "strict",
         "evidence_candidate_snippets": [
-          "그래픽 때문에 입문이 어려웠는데 같이 할 친구가 있으면 그냥 일단 뛰어드셈 재밌음 최근에 했던 생존협동게임 중에서 탑",
-          "이런류 좋아하시면 갓겜. 기지짓기+재료 수집해서 장비 및 기지 업글 + 보스 사냥 의 반복. 작은 집을 짓고. 주변 재료 모으고. 초반 적을 어렵게 상대하고. 테크 조금 올려서 장비 맞추고. 초반 적이 쉬워지고. 좀더 어려운 지역 가서 어려운 적 잡으며 테크 올리고. 보스 잡고. 다음 지역 장비 모으니깐 이전 적들이 너무 쉬워지고!! 새로운 지역 계속 나와서 항상 새롭고 !!! 심지어 패링이 쉽고 임팩트가 강해서 더 재밌음! 다만 무쌍류는 장비 맞추기 전엔 힘듬 하드코어 생존 좋아해도 비추. 굶는다고 죽지 않아요. 음식은 버프일뿐. 물론 종류는 많음. +++ 솔플보다 멀티가 훨 잼씀. 같이 할 친구나 시참 비빌 스트리머 없으면 재미가 절반 정도로 하락함 +++ ... 근데 얼리 언제 끝나냐고..."
+          "아주 갓겜입니다. 혼자도 여럿이서도 재밌게 즐길 수 있는 게임으로 건설, 생산, 전투, 모험, 보스전 등등 다양하게 즐길 거리가 있는 게임입니다. 물론 그만큼 각 요소에 특화된 게임들과 비교하면 딸리겠지만요. 장점 -상당히 자유로운 건축 -패링과 치명적인 공격의 타격감이 제법 좋다. -자유도가 있음에도 명확히 나아갈 길이 있으므로 자유도를 중시하든 확실한 목적이 있는 것을 추구하든 모두 즐길 수 있는 하이브리드 -착실히 강화해나가는 재미 -여러 지역의 명확한 차별화로 느낄 수 있는 모험감 -솔플로도 멀티로도 각자 느낄 수 있는 재미가 있다. 단점 -왜 아직도 얼리엑세스? -재료수급, 지역탐색, 건축 등등 할 게 많은데 잡몹이 쉬지않고 조금씩 쳐 다가오는데 이 ㄱ새끼들이 빨리 안 싸우고 자꾸 둥글게 둥글게 하면서 시간 ㅈㄴ 끌음. 추구하는 바는 알겠는데 둥글게 좀 적당히 쳐하게 하는 게 나았을듯. -스태미나가 전투시에는 나름 쫄깃한 맛을 선사하지만 땅 평탄화 시에는 너무 답답하다. 몬헌같은 게임에서 전투 여부에 따라 스태미나가 유기적으로 적용되는 것처럼 이것도 건축에 스태미나 소비를 없애거나 지금보다 상당히 줄이는 게 게임편의상 낫지 않을까? -비주얼이 예쁜 게 좋은 사람들에겐 다소 투박한 그래픽(아 진짜 재미있는데 안 예쁘다고 안 하면 너무 안타까운데) -활 집중에 시간 너무 오래걸리는 건 그래 그렇다 치자. 근데 파워는 뭔가 이상하지 않니? 활 최대로 땡기는데 시간이 왜 필요한데. 조준하는 건 오래 걸린다 쳐. 근데 그냥 빨리 땡겨도 화살이 느려지고 약해지지는 않잖아. 뭔 애들이 다 헬창이라 활 땡길 때도 근육자극이라도 느끼는 거임?",
+          "그래픽 때문에 입문이 어려웠는데 같이 할 친구가 있으면 그냥 일단 뛰어드셈 재밌음 최근에 했던 생존협동게임 중에서 탑"
         ],
         "evidence_snippets": [
           "그래픽 때문에 입문이 어려웠는데 같이 할 친구가 있으면 그냥 일단 뛰어드셈 재밌음 최근에 했던 생존협동게임 중에서 탑",
-          "이런류 좋아하시면 갓겜. 기지짓기+재료 수집해서 장비 및 기지 업글 + 보스 사냥 의 반복. 작은 집을 짓고. 주변 재료 모으고. 초반 적을 어렵게 상대하고. 테크 조금 올려서 장비 맞추고. 초반 적이 쉬워지고. 좀더 어려운 지역 가서 어려운 적 잡으며 테크 올리고. 보스 잡고. 다음 지역 장비 모으니깐 이전 적들이 너무 쉬워지고!! 새로운 지역 계속 나와서 항상 새롭고!!! 심지어 패링이 쉽고 임팩트가 강해서 더 재밌음! 다만 무쌍류는 장비 맞추기 전엔 힘듬 하드코어 생존 좋아해도 비추. 굶는다고 죽지 않아요. 음식은 버프일뿐. 물론 종류는 많음. +++ 솔플보다 멀티가 훨 잼씀. 같이 할 친구나 시참 비빌 스트리머 없으면 재미가 절반 정도로 하락함 +++... 근데 얼리 언제 끝나냐고..."
+          "아주 갓겜입니다. 혼자도 여럿이서도 재밌게 즐길 수 있는 게임으로 건설, 생산, 전투, 모험, 보스전 등등 다양하게 즐길 거리가 있는 게임입니다. 물론 그만큼 각 요소에 특화된 게임들과 비교하면 딸리겠지만요. 장점 -상당히 자유로운 건축 -패링과 치명적인 공격의 타격감이 제법 좋다. -자유도가 있음에도 명확히 나아갈 길이 있으므로 자유도를 중시하든 확실한 목적이 있는 것을 추구하든 모두 즐길 수 있는 하이브리드 -착실히 강화해나가는 재미 -여러 지역의 명확한 차별화로 느낄 수 있는 모험감 -솔플로도 멀티로도 각자 느낄 수 있는 재미가 있다. 단점 -왜 아직도 얼리엑세스? -재료수급, 지역탐색, 건축 등등 할 게 많은데 잡몹이 쉬지않고 조금씩 쳐 다가오는데 이 ㄱ새끼들이 빨리 안 싸우고 자꾸 둥글게 둥글게 하면서 시간 ㅈㄴ 끌음. 추구하는 바는 알겠는데 둥글게 좀 적당히 쳐하게 하는 게 나았을듯. -스태미나가 전투시에는 나름 쫄깃한 맛을 선사하지만 땅 평탄화 시에는 너무 답답하다. 몬헌같은 게임에서 전투 여부에 따라 스태미나가 유기적으로 적용되는 것처럼 이것도 건축에 스태미나 소비를 없애거나 지금보다 상당히 줄이는 게 게임편의상 낫지 않을까? -비주얼이 예쁜 게 좋은 사람들에겐 다소 투박한 그래픽(아 진짜 재미있는데 안 예쁘다고 안 하면 너무 안타까운데) -활 집중에 시간 너무 오래걸리는 건 그래 그렇다 치자. 근데 파워는 뭔가 이상하지 않니? 활 최대로 땡기는데 시간이 왜 필요한데. 조준하는 건 오래 걸린다 쳐. 근데 그냥 빨리 땡겨도 화살이 느려지고 약해지지는 않잖아. 뭔 애들이 다 헬창이라 활 땡길 때도 근육자극이라도 느끼는 거임?"
         ],
         "evidence_candidate_items": [
           {
-            "review_id": "compress-v3-positive-1-1-6634487466141866964",
-            "text": "그래픽 때문에 입문이 어려웠는데 같이 할 친구가 있으면 그냥 일단 뛰어드셈 재밌음 최근에 했던 생존협동게임 중에서 탑"
+            "review_id": "compress-v3-positive-1-1-650755770877651936",
+            "text": "아주 갓겜입니다. 혼자도 여럿이서도 재밌게 즐길 수 있는 게임으로 건설, 생산, 전투, 모험, 보스전 등등 다양하게 즐길 거리가 있는 게임입니다. 물론 그만큼 각 요소에 특화된 게임들과 비교하면 딸리겠지만요. 장점 -상당히 자유로운 건축 -패링과 치명적인 공격의 타격감이 제법 좋다. -자유도가 있음에도 명확히 나아갈 길이 있으므로 자유도를 중시하든 확실한 목적이 있는 것을 추구하든 모두 즐길 수 있는 하이브리드 -착실히 강화해나가는 재미 -여러 지역의 명확한 차별화로 느낄 수 있는 모험감 -솔플로도 멀티로도 각자 느낄 수 있는 재미가 있다. 단점 -왜 아직도 얼리엑세스? -재료수급, 지역탐색, 건축 등등 할 게 많은데 잡몹이 쉬지않고 조금씩 쳐 다가오는데 이 ㄱ새끼들이 빨리 안 싸우고 자꾸 둥글게 둥글게 하면서 시간 ㅈㄴ 끌음. 추구하는 바는 알겠는데 둥글게 좀 적당히 쳐하게 하는 게 나았을듯. -스태미나가 전투시에는 나름 쫄깃한 맛을 선사하지만 땅 평탄화 시에는 너무 답답하다. 몬헌같은 게임에서 전투 여부에 따라 스태미나가 유기적으로 적용되는 것처럼 이것도 건축에 스태미나 소비를 없애거나 지금보다 상당히 줄이는 게 게임편의상 낫지 않을까? -비주얼이 예쁜 게 좋은 사람들에겐 다소 투박한 그래픽(아 진짜 재미있는데 안 예쁘다고 안 하면 너무 안타까운데) -활 집중에 시간 너무 오래걸리는 건 그래 그렇다 치자. 근데 파워는 뭔가 이상하지 않니? 활 최대로 땡기는데 시간이 왜 필요한데. 조준하는 건 오래 걸린다 쳐. 근데 그냥 빨리 땡겨도 화살이 느려지고 약해지지는 않잖아. 뭔 애들이 다 헬창이라 활 땡길 때도 근육자극이라도 느끼는 거임?"
           },
           {
-            "review_id": "compress-v3-positive-1-5-1518006602650460022",
-            "text": "이런류 좋아하시면 갓겜. 기지짓기+재료 수집해서 장비 및 기지 업글 + 보스 사냥 의 반복. 작은 집을 짓고. 주변 재료 모으고. 초반 적을 어렵게 상대하고. 테크 조금 올려서 장비 맞추고. 초반 적이 쉬워지고. 좀더 어려운 지역 가서 어려운 적 잡으며 테크 올리고. 보스 잡고. 다음 지역 장비 모으니깐 이전 적들이 너무 쉬워지고!! 새로운 지역 계속 나와서 항상 새롭고 !!! 심지어 패링이 쉽고 임팩트가 강해서 더 재밌음! 다만 무쌍류는 장비 맞추기 전엔 힘듬 하드코어 생존 좋아해도 비추. 굶는다고 죽지 않아요. 음식은 버프일뿐. 물론 종류는 많음. +++ 솔플보다 멀티가 훨 잼씀. 같이 할 친구나 시참 비빌 스트리머 없으면 재미가 절반 정도로 하락함 +++ ... 근데 얼리 언제 끝나냐고..."
+            "review_id": "compress-v3-positive-1-2-2408758551770632411",
+            "text": "그래픽 때문에 입문이 어려웠는데 같이 할 친구가 있으면 그냥 일단 뛰어드셈 재밌음 최근에 했던 생존협동게임 중에서 탑"
           }
         ]
       },
       {
         "block_id": "str_2",
-        "title": "탐험하며 발견하는 재미가 크다는 반응",
+        "title": "탐험과 발견의 재미가 좋다는 반응",
         "theme": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험",
-        "why_it_matters": "탐험과 발견 그 자체를 좋게 보는 반응이 많아, 돌아다니며 찾는 플레이를 좋아하면 잘 맞습니다.",
-        "explanation": "탐험과 발견 그 자체를 좋게 보는 반응이 많아, 돌아다니며 찾는 플레이를 좋아하면 잘 맞습니다.",
+        "why_it_matters": "맵을 돌아다니며 발견하는 재미를 좋게 보는 반응이 많아 탐험 중심 플레이에 잘 맞습니다.",
+        "explanation": "맵을 돌아다니며 발견하는 재미를 좋게 보는 반응이 많아 탐험 중심 플레이에 잘 맞습니다.",
         "aspect_keys": [
           "gameplay"
         ],
@@ -570,21 +789,21 @@
         ],
         "evidence_candidate_items": [
           {
-            "review_id": "compress-v3-positive-2-1-9035640925603151454",
+            "review_id": "compress-v3-positive-2-2-8781984270727050535",
             "text": "난이도 돌아버린 개재밋는 게임 사실 친구 없이 혼자 했다고 생각하면 좀 우울할 뻔 하긴 했음 처음엔 한 6-7명 정도 모여서 하다가 둘 도망가서 5명이서 게임했음 (그 마저도 한 명은 접률 낮았음 ㅡㅡ) 근데 이게 새로운 지형 넘어갈 때마다 난이도가 너무 기하급수적으로 뛰어버림 전 지역에서 장비 풀강하고 무기까지 다 맞췄는데도 겨우겨우 다른 지역 파밍할 수 있게 됨 물론 한 두명 제외하고는 다 쌉뉴비였기 때문에 벌어진 해프닝 같기도 함 (아무것도 모르는 원시인 세명이 껴있는데 게임 진행이 스무스하게 될리가 없음) 그래도 나름 아래 멤버로 모여서 겜하니까 재밌기는 했음 1. 모험 좋아하는 애 2. 집안일 하는 애 3. 집 짓는 거 좋아하는 애 < 얘가 나임 4. 발헤임 쫌 해본 애 5. 발헤임 꽤 오래 해본 애 바닐라로 게임하면 너무 힘들다고 하길래 있으면 좋을 것 같은 모드만 몇 개 추가해서 플레이함 치트성 모드라고 소개해주는 건 다 걸렀음! 잔버그만 없었으면 그래도 지금 나와있는 보스까진 다 잡았을 거 같은데 서버장인 내가 비석 만질 때마다 게임이 튕겨버려서 우울증 걸려서 게임 끔.. 모드랑 충돌나서 그런건가 뭐때문인지는 모르겟음 해결방법이 있다면 제발 알려주시오 다음 업데이트 때는 꼭 엔딩을 보고싶소"
           },
           {
-            "review_id": "compress-v3-positive-2-2-7772499885587738052",
+            "review_id": "compress-v3-positive-2-3-2359970224437638567",
             "text": "킹갓 재미있는 시간순삭겜 제작, 파밍, 모험 , 사냥 , 탐험 ,보스전 다있다"
           }
         ]
       },
       {
         "block_id": "str_3",
-        "title": "비주얼과 분위기가 몰입을 끌어준다는 반응",
+        "title": "비주얼과 분위기가 몰입을 만든다는 반응",
         "theme": "그래픽 / 비주얼 호평",
-        "why_it_matters": "비주얼과 분위기를 좋게 보는 반응이 많아, 화면과 연출을 중요하게 보면 만족도가 높습니다.",
-        "explanation": "비주얼과 분위기를 좋게 보는 반응이 많아, 화면과 연출을 중요하게 보면 만족도가 높습니다.",
+        "why_it_matters": "비주얼과 연출의 분위기를 좋게 보는 반응이 많아, 장면과 감각을 중시하면 만족도가 높습니다.",
+        "explanation": "비주얼과 연출의 분위기를 좋게 보는 반응이 많아, 장면과 감각을 중시하면 만족도가 높습니다.",
         "aspect_keys": [
           "graphics"
         ],
@@ -594,26 +813,20 @@
         "evidence_quality_level": "strict",
         "evidence_candidate_snippets": [
           "광활한 게임. 근데 그래픽이 옛날게임 느낌남.",
-          "그래픽은 게임의 극히 일부라는걸 깨닫게 해준 게임. 북유럽 신화를 토대로하는 수많은 몬스터와 지역을 만날수 있다. 대규모 멀티가 가능하단것도 하나의 장점. 나무와의 1대1에서 진건 이 게임이 처음이였다..",
-          "크래프팅 생존계의 최강자. 그래픽 구린건 눈에 들어오지도 않습니다"
+          "그래픽은 게임의 극히 일부라는걸 깨닫게 해준 게임. 북유럽 신화를 토대로하는 수많은 몬스터와 지역을 만날수 있다. 대규모 멀티가 가능하단것도 하나의 장점. 나무와의 1대1에서 진건 이 게임이 처음이였다.."
         ],
         "evidence_snippets": [
           "그래픽은 게임의 극히 일부라는걸 깨닫게 해준 게임. 북유럽 신화를 토대로하는 수많은 몬스터와 지역을 만날수 있다. 대규모 멀티가 가능하단것도 하나의 장점. 나무와의 1대1에서 진건 이 게임이 처음이였다..",
-          "크래프팅 생존계의 최강자. 그래픽 구린건 눈에 들어오지도 않습니다",
           "광활한 게임. 근데 그래픽이 옛날게임 느낌남."
         ],
         "evidence_candidate_items": [
           {
-            "review_id": "compress-v3-positive-3-2-5891590901439254876",
+            "review_id": "compress-v3-positive-3-3-6782292370041864536",
             "text": "광활한 게임. 근데 그래픽이 옛날게임 느낌남."
           },
           {
-            "review_id": "compress-v3-positive-3-3-3210300880449761831",
+            "review_id": "compress-v3-positive-3-4-3588852792915883838",
             "text": "그래픽은 게임의 극히 일부라는걸 깨닫게 해준 게임. 북유럽 신화를 토대로하는 수많은 몬스터와 지역을 만날수 있다. 대규모 멀티가 가능하단것도 하나의 장점. 나무와의 1대1에서 진건 이 게임이 처음이였다.."
-          },
-          {
-            "review_id": "compress-v3-positive-3-4-7598599577920882536",
-            "text": "크래프팅 생존계의 최강자. 그래픽 구린건 눈에 들어오지도 않습니다"
           }
         ]
       }
@@ -621,16 +834,16 @@
     "risks": [
       {
         "block_id": "risk_1",
-        "title": "반복감 때문에 동기 유지가 어렵다는 반응",
+        "title": "반복감이 피로로 이어진다는 반응",
         "theme": "플레이 시간이 누적될수록 새로움이 빨리 소진될 수 있는 리스크",
-        "why_it_matters": "반복감이 피로로 이어진다는 반응이 있어, 새로움이 빨리 줄어드는 구간은 감수해야 할 수 있습니다.",
-        "explanation": "반복감이 피로로 이어진다는 반응이 있어, 새로움이 빨리 줄어드는 구간은 감수해야 할 수 있습니다.",
+        "why_it_matters": "반복감이 피로로 이어진다는 반응이 있어 새로움이 빨리 줄어드는 구간은 감수해야 할 수 있습니다.",
+        "explanation": "반복감이 피로로 이어진다는 반응이 있어 새로움이 빨리 줄어드는 구간은 감수해야 할 수 있습니다.",
         "aspect_keys": [
           "content_depth"
         ],
         "stance": "negative",
         "consensus_level": "high",
-        "mention_count": 1033,
+        "mention_count": 1031,
         "evidence_quality_level": "strict",
         "evidence_candidate_snippets": [
           "1GB대의 용량이라고 믿기지 않는 맵의 크기. 하지만 그것이 단점인 게임. 너무나도 거대한 맵의 크기로 인해 가짓 수가 얼마 없는 콘텐츠의 부실함이 잘보임... 바이옴 내에서의 1~2단계밖에 존재하지 않는 업그레이드를 마치고 보스를 죽여도 너무 멀리 존재하는 다음 바이옴의 존재가 너무 불쾌하고 지루함. 와중 이 넓은 맵의 이동을 보조하는 오브젝트는 포탈 단 하나. 심지어 선박의 경우 해체도 안되어 섬을 이동할 때 마다 미리 선박을 준비하던가 세이브포인트를 마련해야함. 아무리 정발이 아니라 해도 출시 한지 3년이 지난 게임임에도 이정도로 콘텐츠의 공백이 느껴지는건 개발자의 욕심과 게으름이 불러 온 참사가 아닐까 싶음... 추가 모드를 적용하면 즐길 수 있을까 하는 기대가 있지만 여태 바닐라로 느낀 이 게임의 진행은 너무 불쾌했음.",
@@ -644,15 +857,15 @@
         ],
         "evidence_candidate_items": [
           {
-            "review_id": "compress-v3-negative-1-1-4882813161681933563",
+            "review_id": "compress-v3-negative-1-1-4132199037117668978",
             "text": "1GB대의 용량이라고 믿기지 않는 맵의 크기. 하지만 그것이 단점인 게임. 너무나도 거대한 맵의 크기로 인해 가짓 수가 얼마 없는 콘텐츠의 부실함이 잘보임... 바이옴 내에서의 1~2단계밖에 존재하지 않는 업그레이드를 마치고 보스를 죽여도 너무 멀리 존재하는 다음 바이옴의 존재가 너무 불쾌하고 지루함. 와중 이 넓은 맵의 이동을 보조하는 오브젝트는 포탈 단 하나. 심지어 선박의 경우 해체도 안되어 섬을 이동할 때 마다 미리 선박을 준비하던가 세이브포인트를 마련해야함. 아무리 정발이 아니라 해도 출시 한지 3년이 지난 게임임에도 이정도로 콘텐츠의 공백이 느껴지는건 개발자의 욕심과 게으름이 불러 온 참사가 아닐까 싶음... 추가 모드를 적용하면 즐길 수 있을까 하는 기대가 있지만 여태 바닐라로 느낀 이 게임의 진행은 너무 불쾌했음."
           },
           {
-            "review_id": "compress-v3-negative-1-2-1909799766820938375",
+            "review_id": "compress-v3-negative-1-2-226078668048961881",
             "text": "바이킹의 영혼으로 살아가는 생존과 탐험의 서사 Valheim을 직접 플레이해보면, 이 게임은 단순한 생존 게임을 넘어서 노르드 신화의 분위기 속에서 바이킹이 되어 살아가는 체험을 선사한다. 처음에는 맨몸으로 숲속에 떨어져 나무를 베고 돌을 주워 작은 도구를 만들고, 허기와 추위를 견디며 살아가는 전형적인 생존 게임의 출발을 보여준다. 하지만 시간이 지날수록 자원을 모아 집을 짓고, 배를 만들어 항해하며, 거대한 보스를 쓰러뜨리는 장대한 모험으로 확장된다. 가장 인상적인 건 탐험의 매력이다. Valheim의 세계는 절차적으로 생성되지만, 항상 웅장하고 신비로운 풍경을 품고 있다. 안개 낀 숲을 헤매다 거대한 트롤을 만나거나, 바다 위를 항해하다 갑자기 몰아치는 폭풍을 맞이하는 순간마다 예측 불가능한 긴장과 몰입이 찾아온다. 특히 새로운 바이옴에 들어설 때 느껴지는 공포와 설렘은 이 게임의 백미다. 전투는 단순하면서도 묵직하다. 방패로 적의 공격을 막고, 타이밍을 맞춰 무기를 휘두르는 방식인데, 장비와 준비가 부족하면 작은 몬스터에게도 쉽게 쓰러질 수 있다. 때문에 보스에 도전하기 전, 집을 짓고 농사를 하며 물자를 비축하는 과정이 자연스럽게 동기부여가 된다. “살아남기 위해 준비하고, 준비가 끝나면 모험에 나서는” 흐름이 게임의 본질이다. 또한 건축과 협동 요소도 빼놓을 수 없다. 나무와 돌을 모아 집을 짓고, 장식품까지 더해 자신만의 바이킹 거점을 세우는 과정은 굉장히 자유롭다. 멀티플레이에서는 친구들과 함께 항해를 나서고, 보스를 공략하며, 거대한 요새를 세우는 경험이 특히 빛난다. 혼자 할 때는 외롭고 고독한 생존기지만, 여럿이 함께하면 서사시 같은 모험담이 된다. 물론 단점도 있다. 초반에는 진행이 더디고, 자원 수집과 제작 반복이 지루하게 느껴질 수 있다. 후반부로 갈수록 콘텐츠가 부족하다는 지적도 있었고, 최적화 문제나 버그 때문에 불편함을 겪는 경우도 있었다. 하지만 개발진이 꾸준히 업데이트를 이어가며 새로운 바이옴과 콘텐츠를 추가하고 있어, 시간이 지날수록 완성도가 높아지고 있다. 결국 Valheim은 생존, 탐험, 건축, 신화적 분위기가 어우러진 특별한 경험이다. 작은 오두막에서 시작해 거대한 드래곤을 쓰러뜨리기까지의 여정은, 플레이어마다 완전히 다른 이야기를 만들어낸다. 바이킹이 되어 미지의 세계를 항해하고 싶은 사람에게, Valheim은 긴 시간을 들일 가치가 충분한 작품이다."
           },
           {
-            "review_id": "compress-v3-negative-1-3-4865134216170634442",
+            "review_id": "compress-v3-negative-1-3-1960267157804096474",
             "text": "1. 애자같은 편의성 시스템 주변 상자에 자동 정리 없음, 아이템 제작하려면 인벤에 템 들고 있어야됨. 근대 이 씹헐것이 가죽은 종류별로 존나게 많아도 거적대기 가방 하나도 못만들어서 기본4x8 인벤토리에 탬 다 넣어야 되는데 장비칸마저도 따로 없어서 옷,망토,유물,렌턴,포션,무기,물밥 등등 하면 씨@발 남는 칸도 없고 무게도 씹창남. 2. 시간 끄는 요소가 존나 많아서 노가다 하다가 지루됨. 기본 설정은 광물이 텔포가 안되기 때문에 씨2발 게임 템포가 미친듯이 질질 끌림. 초반 바이옴에서 나오는 재료가 일부 후반 무기에도 쓰이는데, 광물이 텔포가 안되서 후반 지역에 있는 집까지 배를 타든 수레를 끌든 질질 끌면서 고렙 지역 통과하다가 죽으면 개썩창 헬게이트 오픈임. 체력25 방어력0 공격력0 스테50 인 원시인으로 템 수거 하고 다시 짐 끌고 가야되는데 여기서 발기 풀려서 꼬접할 뻔함. 이건 머 언럭키 데스스트렌딩 이라고 할 수 있겠음. 극후반 바이옴을 가면 이 문제는 해결 되지만, 그땐 이미 고통 받을 거 다 받고 게임 엔딩봄. 3. 숙련도 시스템 썩창임. 2번 문제가 여기서 오는데 배 쫄쫄 노팬티 은가누 VS 잘 먹은 새끼 멧돼지 랑 싸우면 씨발 멧ㅈ돼지가 압승함. 숙련도 존나 쌓아도 뒤지면 템 찾을 떄 까지 아무런 혜택을 못 보는데 죽을 때 마다 달달 떨리는 불알과 점점 떨어지는 숙도를 보며 다시 올리려고 훈련봇만 존나 떄리고 있는 나를 보게됨. 4. 해당 바이옴 보스 찾을 때 까지 졸업 불가. 맵이 씨발 작은 것도 아니고 같은 바이옴도 여기저기 흩뿌려져 있는데, 파밍 다해도 보스 소환 위치 못 찾으면 뻉뺑이 존나 쳐야됨. 운 없이 한 곳에 여러 바이옴 보스 곂쳐 있으면 버리는 시간 수직상승함. 퉁퉁이 정도의 강함을 여기서 체감할 수 있는데 실수로 죽으면 3번됨. 5. 바이킹 세계에 정통 메이지 따위는 없음 이 겜은 중후반까지 마법지팡이가 없어서 씹발 싹다 주먹질, 칼질, 도끼질만 좃나게 하다가, 게임 후반에 얻은 지팡이로 사람답게 좀 살려고 하면 ㅈ같은 숙련도 때문에 또 훈련봇만 존나 따먹는 나를 보게 됨. (다른 무기 숙련도 50 찍을 때 혼자 0) 6. 낚시는 하라고 만든 컨텐츠 아님 정상적인 방법으로는 낚기 존나 힘듬. 엔딩 볼 떄까지 얼굴도 못 본 물고기도 많음. 맨몸 낚시, 창 낚시, 통발, 그물 그딴거 없음."
           }
         ]
@@ -660,11 +873,11 @@
     ]
   },
   "disclaimer": "여러 유저 리뷰를 바탕으로 정리했어요. 플레이 경험은 사람마다 다를 수 있어요.",
-  "headline": "팀 합과 협업의 재미 체감이 좋아 지금 바로 시작해도 만족도가 높은 편입니다.",
+  "headline": "팀 합이 살아나는 멀티플레이 흐름 체감이 좋아 지금 바로 시작해도 만족도가 높은 편입니다.",
   "buy_recommendation": "buy_now",
   "buy_timing_summary": "최근 후기 흐름에서 체감 불편이 크게 늘지 않아 지금 시작해도 부담이 낮은 편입니다.",
   "good_for": [
-    "팀원과 호흡을 맞추는 재미를 중요하게 보는 플레이어",
+    "팀원과 호흡을 맞추는 플레이를 중요하게 보는 플레이어",
     "맵을 돌아다니며 발견하는 재미를 중요하게 보는 플레이어",
     "배경과 연출이 만드는 분위기를 중요하게 보는 플레이어"
   ],
@@ -676,15 +889,15 @@
   "top_strengths": [
     {
       "title": "멀티플레이 경험",
-      "summary": "팀 합이 맞을수록 재미가 분명해져 함께 호흡을 맞추는 플레이에 잘 맞습니다."
+      "summary": "팀 합이 맞을수록 만족도가 올라가 협동 호흡을 맞추는 플레이에 잘 맞습니다."
     },
     {
-      "title": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험",
-      "summary": "타격감이 뛰어나고, 적의 공격을 피하며 반격하는 재미가 있어 긴장감 넘치는 전투를 즐길 수 있습니다."
+      "title": "발견이 이어지는 탐험 경험",
+      "summary": "이동과 발견 그 자체가 재미로 이어져 탐험 비중이 높은 플레이와 잘 맞습니다."
     },
     {
-      "title": "그래픽/비주얼 호평",
-      "summary": "비주얼과 연출이 분위기를 오래 밀어줘 화면과 감각을 즐기는 플레이에 잘 맞습니다."
+      "title": "비주얼과 분위기를 오래 붙잡는 연출",
+      "summary": "비주얼과 연출이 만든 분위기가 길게 남아 화면과 감각을 즐기기 좋습니다."
     }
   ],
   "top_risks": [
@@ -694,56 +907,56 @@
     },
     {
       "title": "가격 대비 만족이 갈릴 수 있는 부분",
-      "summary": "가격 부담이 크면 기대만큼 만족하지 못했다는 반응이 나올 수 있습니다."
+      "summary": "가격 부담이 있으면 기대만큼 만족하지 못했다는 반응도 함께 나올 수 있습니다."
     },
     {
       "title": "프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크",
-      "summary": "프레임과 반응성이 흔들리면 조작 감각이 무너져 답답하게 느껴질 수 있습니다."
+      "summary": "프레임과 반응성이 흔들리면 조작 감각과 플레이 리듬이 함께 무너질 수 있습니다."
     }
   ],
   "recent_state": {
     "status": "improving",
-    "summary": "불편이 줄었다는 후기가 늘어 전반적인 분위기가 나아지는 편입니다."
+    "summary": "불편함이 줄었다는 후기가 늘어 전반적인 분위기가 나아지는 편입니다."
   },
   "evidence_reviews": [
     {
       "block_id": "str_1",
-      "title": "팀 합이 맞을 때 재미가 커진다는 반응",
+      "title": "팀 합의의 재미가 크다는 반응",
       "theme": "멀티플레이 경험",
-      "why_it_matters": "팀 합이 맞을 때 만족도가 올라간다는 반응이 많아, 함께 맞춰가는 플레이를 좋아하면 잘 맞습니다.",
-      "explanation": "팀 합이 맞을 때 만족도가 올라간다는 반응이 많아, 함께 맞춰가는 플레이를 좋아하면 잘 맞습니다.",
+      "why_it_matters": "팀 합이 맞을 때 만족도가 올라간다는 반응이 많아 함께 맞춰 가는 플레이에 잘 맞습니다.",
+      "explanation": "팀 합이 맞을 때 만족도가 올라간다는 반응이 많아 함께 맞춰 가는 플레이에 잘 맞습니다.",
       "aspect_keys": [
         "multiplayer"
       ],
       "stance": "positive",
       "consensus_level": "high",
       "mention_count": 935,
-      "evidence_quality_level": "relaxed",
+      "evidence_quality_level": "strict",
       "evidence_candidate_snippets": [
-        "그래픽 때문에 입문이 어려웠는데 같이 할 친구가 있으면 그냥 일단 뛰어드셈 재밌음 최근에 했던 생존협동게임 중에서 탑",
-        "이런류 좋아하시면 갓겜. 기지짓기+재료 수집해서 장비 및 기지 업글 + 보스 사냥 의 반복. 작은 집을 짓고. 주변 재료 모으고. 초반 적을 어렵게 상대하고. 테크 조금 올려서 장비 맞추고. 초반 적이 쉬워지고. 좀더 어려운 지역 가서 어려운 적 잡으며 테크 올리고. 보스 잡고. 다음 지역 장비 모으니깐 이전 적들이 너무 쉬워지고!! 새로운 지역 계속 나와서 항상 새롭고 !!! 심지어 패링이 쉽고 임팩트가 강해서 더 재밌음! 다만 무쌍류는 장비 맞추기 전엔 힘듬 하드코어 생존 좋아해도 비추. 굶는다고 죽지 않아요. 음식은 버프일뿐. 물론 종류는 많음. +++ 솔플보다 멀티가 훨 잼씀. 같이 할 친구나 시참 비빌 스트리머 없으면 재미가 절반 정도로 하락함 +++ ... 근데 얼리 언제 끝나냐고..."
+        "아주 갓겜입니다. 혼자도 여럿이서도 재밌게 즐길 수 있는 게임으로 건설, 생산, 전투, 모험, 보스전 등등 다양하게 즐길 거리가 있는 게임입니다. 물론 그만큼 각 요소에 특화된 게임들과 비교하면 딸리겠지만요. 장점 -상당히 자유로운 건축 -패링과 치명적인 공격의 타격감이 제법 좋다. -자유도가 있음에도 명확히 나아갈 길이 있으므로 자유도를 중시하든 확실한 목적이 있는 것을 추구하든 모두 즐길 수 있는 하이브리드 -착실히 강화해나가는 재미 -여러 지역의 명확한 차별화로 느낄 수 있는 모험감 -솔플로도 멀티로도 각자 느낄 수 있는 재미가 있다. 단점 -왜 아직도 얼리엑세스? -재료수급, 지역탐색, 건축 등등 할 게 많은데 잡몹이 쉬지않고 조금씩 쳐 다가오는데 이 ㄱ새끼들이 빨리 안 싸우고 자꾸 둥글게 둥글게 하면서 시간 ㅈㄴ 끌음. 추구하는 바는 알겠는데 둥글게 좀 적당히 쳐하게 하는 게 나았을듯. -스태미나가 전투시에는 나름 쫄깃한 맛을 선사하지만 땅 평탄화 시에는 너무 답답하다. 몬헌같은 게임에서 전투 여부에 따라 스태미나가 유기적으로 적용되는 것처럼 이것도 건축에 스태미나 소비를 없애거나 지금보다 상당히 줄이는 게 게임편의상 낫지 않을까? -비주얼이 예쁜 게 좋은 사람들에겐 다소 투박한 그래픽(아 진짜 재미있는데 안 예쁘다고 안 하면 너무 안타까운데) -활 집중에 시간 너무 오래걸리는 건 그래 그렇다 치자. 근데 파워는 뭔가 이상하지 않니? 활 최대로 땡기는데 시간이 왜 필요한데. 조준하는 건 오래 걸린다 쳐. 근데 그냥 빨리 땡겨도 화살이 느려지고 약해지지는 않잖아. 뭔 애들이 다 헬창이라 활 땡길 때도 근육자극이라도 느끼는 거임?",
+        "그래픽 때문에 입문이 어려웠는데 같이 할 친구가 있으면 그냥 일단 뛰어드셈 재밌음 최근에 했던 생존협동게임 중에서 탑"
       ],
       "evidence_snippets": [
         "그래픽 때문에 입문이 어려웠는데 같이 할 친구가 있으면 그냥 일단 뛰어드셈 재밌음 최근에 했던 생존협동게임 중에서 탑",
-        "이런류 좋아하시면 갓겜. 기지짓기+재료 수집해서 장비 및 기지 업글 + 보스 사냥 의 반복. 작은 집을 짓고. 주변 재료 모으고. 초반 적을 어렵게 상대하고. 테크 조금 올려서 장비 맞추고. 초반 적이 쉬워지고. 좀더 어려운 지역 가서 어려운 적 잡으며 테크 올리고. 보스 잡고. 다음 지역 장비 모으니깐 이전 적들이 너무 쉬워지고!! 새로운 지역 계속 나와서 항상 새롭고!!! 심지어 패링이 쉽고 임팩트가 강해서 더 재밌음! 다만 무쌍류는 장비 맞추기 전엔 힘듬 하드코어 생존 좋아해도 비추. 굶는다고 죽지 않아요. 음식은 버프일뿐. 물론 종류는 많음. +++ 솔플보다 멀티가 훨 잼씀. 같이 할 친구나 시참 비빌 스트리머 없으면 재미가 절반 정도로 하락함 +++... 근데 얼리 언제 끝나냐고..."
+        "아주 갓겜입니다. 혼자도 여럿이서도 재밌게 즐길 수 있는 게임으로 건설, 생산, 전투, 모험, 보스전 등등 다양하게 즐길 거리가 있는 게임입니다. 물론 그만큼 각 요소에 특화된 게임들과 비교하면 딸리겠지만요. 장점 -상당히 자유로운 건축 -패링과 치명적인 공격의 타격감이 제법 좋다. -자유도가 있음에도 명확히 나아갈 길이 있으므로 자유도를 중시하든 확실한 목적이 있는 것을 추구하든 모두 즐길 수 있는 하이브리드 -착실히 강화해나가는 재미 -여러 지역의 명확한 차별화로 느낄 수 있는 모험감 -솔플로도 멀티로도 각자 느낄 수 있는 재미가 있다. 단점 -왜 아직도 얼리엑세스? -재료수급, 지역탐색, 건축 등등 할 게 많은데 잡몹이 쉬지않고 조금씩 쳐 다가오는데 이 ㄱ새끼들이 빨리 안 싸우고 자꾸 둥글게 둥글게 하면서 시간 ㅈㄴ 끌음. 추구하는 바는 알겠는데 둥글게 좀 적당히 쳐하게 하는 게 나았을듯. -스태미나가 전투시에는 나름 쫄깃한 맛을 선사하지만 땅 평탄화 시에는 너무 답답하다. 몬헌같은 게임에서 전투 여부에 따라 스태미나가 유기적으로 적용되는 것처럼 이것도 건축에 스태미나 소비를 없애거나 지금보다 상당히 줄이는 게 게임편의상 낫지 않을까? -비주얼이 예쁜 게 좋은 사람들에겐 다소 투박한 그래픽(아 진짜 재미있는데 안 예쁘다고 안 하면 너무 안타까운데) -활 집중에 시간 너무 오래걸리는 건 그래 그렇다 치자. 근데 파워는 뭔가 이상하지 않니? 활 최대로 땡기는데 시간이 왜 필요한데. 조준하는 건 오래 걸린다 쳐. 근데 그냥 빨리 땡겨도 화살이 느려지고 약해지지는 않잖아. 뭔 애들이 다 헬창이라 활 땡길 때도 근육자극이라도 느끼는 거임?"
       ],
       "evidence_candidate_items": [
         {
-          "review_id": "compress-v3-positive-1-1-6634487466141866964",
-          "text": "그래픽 때문에 입문이 어려웠는데 같이 할 친구가 있으면 그냥 일단 뛰어드셈 재밌음 최근에 했던 생존협동게임 중에서 탑"
+          "review_id": "compress-v3-positive-1-1-650755770877651936",
+          "text": "아주 갓겜입니다. 혼자도 여럿이서도 재밌게 즐길 수 있는 게임으로 건설, 생산, 전투, 모험, 보스전 등등 다양하게 즐길 거리가 있는 게임입니다. 물론 그만큼 각 요소에 특화된 게임들과 비교하면 딸리겠지만요. 장점 -상당히 자유로운 건축 -패링과 치명적인 공격의 타격감이 제법 좋다. -자유도가 있음에도 명확히 나아갈 길이 있으므로 자유도를 중시하든 확실한 목적이 있는 것을 추구하든 모두 즐길 수 있는 하이브리드 -착실히 강화해나가는 재미 -여러 지역의 명확한 차별화로 느낄 수 있는 모험감 -솔플로도 멀티로도 각자 느낄 수 있는 재미가 있다. 단점 -왜 아직도 얼리엑세스? -재료수급, 지역탐색, 건축 등등 할 게 많은데 잡몹이 쉬지않고 조금씩 쳐 다가오는데 이 ㄱ새끼들이 빨리 안 싸우고 자꾸 둥글게 둥글게 하면서 시간 ㅈㄴ 끌음. 추구하는 바는 알겠는데 둥글게 좀 적당히 쳐하게 하는 게 나았을듯. -스태미나가 전투시에는 나름 쫄깃한 맛을 선사하지만 땅 평탄화 시에는 너무 답답하다. 몬헌같은 게임에서 전투 여부에 따라 스태미나가 유기적으로 적용되는 것처럼 이것도 건축에 스태미나 소비를 없애거나 지금보다 상당히 줄이는 게 게임편의상 낫지 않을까? -비주얼이 예쁜 게 좋은 사람들에겐 다소 투박한 그래픽(아 진짜 재미있는데 안 예쁘다고 안 하면 너무 안타까운데) -활 집중에 시간 너무 오래걸리는 건 그래 그렇다 치자. 근데 파워는 뭔가 이상하지 않니? 활 최대로 땡기는데 시간이 왜 필요한데. 조준하는 건 오래 걸린다 쳐. 근데 그냥 빨리 땡겨도 화살이 느려지고 약해지지는 않잖아. 뭔 애들이 다 헬창이라 활 땡길 때도 근육자극이라도 느끼는 거임?"
         },
         {
-          "review_id": "compress-v3-positive-1-5-1518006602650460022",
-          "text": "이런류 좋아하시면 갓겜. 기지짓기+재료 수집해서 장비 및 기지 업글 + 보스 사냥 의 반복. 작은 집을 짓고. 주변 재료 모으고. 초반 적을 어렵게 상대하고. 테크 조금 올려서 장비 맞추고. 초반 적이 쉬워지고. 좀더 어려운 지역 가서 어려운 적 잡으며 테크 올리고. 보스 잡고. 다음 지역 장비 모으니깐 이전 적들이 너무 쉬워지고!! 새로운 지역 계속 나와서 항상 새롭고 !!! 심지어 패링이 쉽고 임팩트가 강해서 더 재밌음! 다만 무쌍류는 장비 맞추기 전엔 힘듬 하드코어 생존 좋아해도 비추. 굶는다고 죽지 않아요. 음식은 버프일뿐. 물론 종류는 많음. +++ 솔플보다 멀티가 훨 잼씀. 같이 할 친구나 시참 비빌 스트리머 없으면 재미가 절반 정도로 하락함 +++ ... 근데 얼리 언제 끝나냐고..."
+          "review_id": "compress-v3-positive-1-2-2408758551770632411",
+          "text": "그래픽 때문에 입문이 어려웠는데 같이 할 친구가 있으면 그냥 일단 뛰어드셈 재밌음 최근에 했던 생존협동게임 중에서 탑"
         }
       ]
     },
     {
       "block_id": "str_2",
-      "title": "탐험하며 발견하는 재미가 크다는 반응",
+      "title": "탐험과 발견의 재미가 좋다는 반응",
       "theme": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험",
-      "why_it_matters": "탐험과 발견 그 자체를 좋게 보는 반응이 많아, 돌아다니며 찾는 플레이를 좋아하면 잘 맞습니다.",
-      "explanation": "탐험과 발견 그 자체를 좋게 보는 반응이 많아, 돌아다니며 찾는 플레이를 좋아하면 잘 맞습니다.",
+      "why_it_matters": "맵을 돌아다니며 발견하는 재미를 좋게 보는 반응이 많아 탐험 중심 플레이에 잘 맞습니다.",
+      "explanation": "맵을 돌아다니며 발견하는 재미를 좋게 보는 반응이 많아 탐험 중심 플레이에 잘 맞습니다.",
       "aspect_keys": [
         "gameplay"
       ],
@@ -761,21 +974,21 @@
       ],
       "evidence_candidate_items": [
         {
-          "review_id": "compress-v3-positive-2-1-9035640925603151454",
+          "review_id": "compress-v3-positive-2-2-8781984270727050535",
           "text": "난이도 돌아버린 개재밋는 게임 사실 친구 없이 혼자 했다고 생각하면 좀 우울할 뻔 하긴 했음 처음엔 한 6-7명 정도 모여서 하다가 둘 도망가서 5명이서 게임했음 (그 마저도 한 명은 접률 낮았음 ㅡㅡ) 근데 이게 새로운 지형 넘어갈 때마다 난이도가 너무 기하급수적으로 뛰어버림 전 지역에서 장비 풀강하고 무기까지 다 맞췄는데도 겨우겨우 다른 지역 파밍할 수 있게 됨 물론 한 두명 제외하고는 다 쌉뉴비였기 때문에 벌어진 해프닝 같기도 함 (아무것도 모르는 원시인 세명이 껴있는데 게임 진행이 스무스하게 될리가 없음) 그래도 나름 아래 멤버로 모여서 겜하니까 재밌기는 했음 1. 모험 좋아하는 애 2. 집안일 하는 애 3. 집 짓는 거 좋아하는 애 < 얘가 나임 4. 발헤임 쫌 해본 애 5. 발헤임 꽤 오래 해본 애 바닐라로 게임하면 너무 힘들다고 하길래 있으면 좋을 것 같은 모드만 몇 개 추가해서 플레이함 치트성 모드라고 소개해주는 건 다 걸렀음! 잔버그만 없었으면 그래도 지금 나와있는 보스까진 다 잡았을 거 같은데 서버장인 내가 비석 만질 때마다 게임이 튕겨버려서 우울증 걸려서 게임 끔.. 모드랑 충돌나서 그런건가 뭐때문인지는 모르겟음 해결방법이 있다면 제발 알려주시오 다음 업데이트 때는 꼭 엔딩을 보고싶소"
         },
         {
-          "review_id": "compress-v3-positive-2-2-7772499885587738052",
+          "review_id": "compress-v3-positive-2-3-2359970224437638567",
           "text": "킹갓 재미있는 시간순삭겜 제작, 파밍, 모험 , 사냥 , 탐험 ,보스전 다있다"
         }
       ]
     },
     {
       "block_id": "str_3",
-      "title": "비주얼과 분위기가 몰입을 끌어준다는 반응",
+      "title": "비주얼과 분위기가 몰입을 만든다는 반응",
       "theme": "그래픽 / 비주얼 호평",
-      "why_it_matters": "비주얼과 분위기를 좋게 보는 반응이 많아, 화면과 연출을 중요하게 보면 만족도가 높습니다.",
-      "explanation": "비주얼과 분위기를 좋게 보는 반응이 많아, 화면과 연출을 중요하게 보면 만족도가 높습니다.",
+      "why_it_matters": "비주얼과 연출의 분위기를 좋게 보는 반응이 많아, 장면과 감각을 중시하면 만족도가 높습니다.",
+      "explanation": "비주얼과 연출의 분위기를 좋게 보는 반응이 많아, 장면과 감각을 중시하면 만족도가 높습니다.",
       "aspect_keys": [
         "graphics"
       ],
@@ -785,41 +998,35 @@
       "evidence_quality_level": "strict",
       "evidence_candidate_snippets": [
         "광활한 게임. 근데 그래픽이 옛날게임 느낌남.",
-        "그래픽은 게임의 극히 일부라는걸 깨닫게 해준 게임. 북유럽 신화를 토대로하는 수많은 몬스터와 지역을 만날수 있다. 대규모 멀티가 가능하단것도 하나의 장점. 나무와의 1대1에서 진건 이 게임이 처음이였다..",
-        "크래프팅 생존계의 최강자. 그래픽 구린건 눈에 들어오지도 않습니다"
+        "그래픽은 게임의 극히 일부라는걸 깨닫게 해준 게임. 북유럽 신화를 토대로하는 수많은 몬스터와 지역을 만날수 있다. 대규모 멀티가 가능하단것도 하나의 장점. 나무와의 1대1에서 진건 이 게임이 처음이였다.."
       ],
       "evidence_snippets": [
         "그래픽은 게임의 극히 일부라는걸 깨닫게 해준 게임. 북유럽 신화를 토대로하는 수많은 몬스터와 지역을 만날수 있다. 대규모 멀티가 가능하단것도 하나의 장점. 나무와의 1대1에서 진건 이 게임이 처음이였다..",
-        "크래프팅 생존계의 최강자. 그래픽 구린건 눈에 들어오지도 않습니다",
         "광활한 게임. 근데 그래픽이 옛날게임 느낌남."
       ],
       "evidence_candidate_items": [
         {
-          "review_id": "compress-v3-positive-3-2-5891590901439254876",
+          "review_id": "compress-v3-positive-3-3-6782292370041864536",
           "text": "광활한 게임. 근데 그래픽이 옛날게임 느낌남."
         },
         {
-          "review_id": "compress-v3-positive-3-3-3210300880449761831",
+          "review_id": "compress-v3-positive-3-4-3588852792915883838",
           "text": "그래픽은 게임의 극히 일부라는걸 깨닫게 해준 게임. 북유럽 신화를 토대로하는 수많은 몬스터와 지역을 만날수 있다. 대규모 멀티가 가능하단것도 하나의 장점. 나무와의 1대1에서 진건 이 게임이 처음이였다.."
-        },
-        {
-          "review_id": "compress-v3-positive-3-4-7598599577920882536",
-          "text": "크래프팅 생존계의 최강자. 그래픽 구린건 눈에 들어오지도 않습니다"
         }
       ]
     },
     {
       "block_id": "risk_1",
-      "title": "반복감 때문에 동기 유지가 어렵다는 반응",
+      "title": "반복감이 피로로 이어진다는 반응",
       "theme": "플레이 시간이 누적될수록 새로움이 빨리 소진될 수 있는 리스크",
-      "why_it_matters": "반복감이 피로로 이어진다는 반응이 있어, 새로움이 빨리 줄어드는 구간은 감수해야 할 수 있습니다.",
-      "explanation": "반복감이 피로로 이어진다는 반응이 있어, 새로움이 빨리 줄어드는 구간은 감수해야 할 수 있습니다.",
+      "why_it_matters": "반복감이 피로로 이어진다는 반응이 있어 새로움이 빨리 줄어드는 구간은 감수해야 할 수 있습니다.",
+      "explanation": "반복감이 피로로 이어진다는 반응이 있어 새로움이 빨리 줄어드는 구간은 감수해야 할 수 있습니다.",
       "aspect_keys": [
         "content_depth"
       ],
       "stance": "negative",
       "consensus_level": "high",
-      "mention_count": 1033,
+      "mention_count": 1031,
       "evidence_quality_level": "strict",
       "evidence_candidate_snippets": [
         "1GB대의 용량이라고 믿기지 않는 맵의 크기. 하지만 그것이 단점인 게임. 너무나도 거대한 맵의 크기로 인해 가짓 수가 얼마 없는 콘텐츠의 부실함이 잘보임... 바이옴 내에서의 1~2단계밖에 존재하지 않는 업그레이드를 마치고 보스를 죽여도 너무 멀리 존재하는 다음 바이옴의 존재가 너무 불쾌하고 지루함. 와중 이 넓은 맵의 이동을 보조하는 오브젝트는 포탈 단 하나. 심지어 선박의 경우 해체도 안되어 섬을 이동할 때 마다 미리 선박을 준비하던가 세이브포인트를 마련해야함. 아무리 정발이 아니라 해도 출시 한지 3년이 지난 게임임에도 이정도로 콘텐츠의 공백이 느껴지는건 개발자의 욕심과 게으름이 불러 온 참사가 아닐까 싶음... 추가 모드를 적용하면 즐길 수 있을까 하는 기대가 있지만 여태 바닐라로 느낀 이 게임의 진행은 너무 불쾌했음.",
@@ -833,15 +1040,15 @@
       ],
       "evidence_candidate_items": [
         {
-          "review_id": "compress-v3-negative-1-1-4882813161681933563",
+          "review_id": "compress-v3-negative-1-1-4132199037117668978",
           "text": "1GB대의 용량이라고 믿기지 않는 맵의 크기. 하지만 그것이 단점인 게임. 너무나도 거대한 맵의 크기로 인해 가짓 수가 얼마 없는 콘텐츠의 부실함이 잘보임... 바이옴 내에서의 1~2단계밖에 존재하지 않는 업그레이드를 마치고 보스를 죽여도 너무 멀리 존재하는 다음 바이옴의 존재가 너무 불쾌하고 지루함. 와중 이 넓은 맵의 이동을 보조하는 오브젝트는 포탈 단 하나. 심지어 선박의 경우 해체도 안되어 섬을 이동할 때 마다 미리 선박을 준비하던가 세이브포인트를 마련해야함. 아무리 정발이 아니라 해도 출시 한지 3년이 지난 게임임에도 이정도로 콘텐츠의 공백이 느껴지는건 개발자의 욕심과 게으름이 불러 온 참사가 아닐까 싶음... 추가 모드를 적용하면 즐길 수 있을까 하는 기대가 있지만 여태 바닐라로 느낀 이 게임의 진행은 너무 불쾌했음."
         },
         {
-          "review_id": "compress-v3-negative-1-2-1909799766820938375",
+          "review_id": "compress-v3-negative-1-2-226078668048961881",
           "text": "바이킹의 영혼으로 살아가는 생존과 탐험의 서사 Valheim을 직접 플레이해보면, 이 게임은 단순한 생존 게임을 넘어서 노르드 신화의 분위기 속에서 바이킹이 되어 살아가는 체험을 선사한다. 처음에는 맨몸으로 숲속에 떨어져 나무를 베고 돌을 주워 작은 도구를 만들고, 허기와 추위를 견디며 살아가는 전형적인 생존 게임의 출발을 보여준다. 하지만 시간이 지날수록 자원을 모아 집을 짓고, 배를 만들어 항해하며, 거대한 보스를 쓰러뜨리는 장대한 모험으로 확장된다. 가장 인상적인 건 탐험의 매력이다. Valheim의 세계는 절차적으로 생성되지만, 항상 웅장하고 신비로운 풍경을 품고 있다. 안개 낀 숲을 헤매다 거대한 트롤을 만나거나, 바다 위를 항해하다 갑자기 몰아치는 폭풍을 맞이하는 순간마다 예측 불가능한 긴장과 몰입이 찾아온다. 특히 새로운 바이옴에 들어설 때 느껴지는 공포와 설렘은 이 게임의 백미다. 전투는 단순하면서도 묵직하다. 방패로 적의 공격을 막고, 타이밍을 맞춰 무기를 휘두르는 방식인데, 장비와 준비가 부족하면 작은 몬스터에게도 쉽게 쓰러질 수 있다. 때문에 보스에 도전하기 전, 집을 짓고 농사를 하며 물자를 비축하는 과정이 자연스럽게 동기부여가 된다. “살아남기 위해 준비하고, 준비가 끝나면 모험에 나서는” 흐름이 게임의 본질이다. 또한 건축과 협동 요소도 빼놓을 수 없다. 나무와 돌을 모아 집을 짓고, 장식품까지 더해 자신만의 바이킹 거점을 세우는 과정은 굉장히 자유롭다. 멀티플레이에서는 친구들과 함께 항해를 나서고, 보스를 공략하며, 거대한 요새를 세우는 경험이 특히 빛난다. 혼자 할 때는 외롭고 고독한 생존기지만, 여럿이 함께하면 서사시 같은 모험담이 된다. 물론 단점도 있다. 초반에는 진행이 더디고, 자원 수집과 제작 반복이 지루하게 느껴질 수 있다. 후반부로 갈수록 콘텐츠가 부족하다는 지적도 있었고, 최적화 문제나 버그 때문에 불편함을 겪는 경우도 있었다. 하지만 개발진이 꾸준히 업데이트를 이어가며 새로운 바이옴과 콘텐츠를 추가하고 있어, 시간이 지날수록 완성도가 높아지고 있다. 결국 Valheim은 생존, 탐험, 건축, 신화적 분위기가 어우러진 특별한 경험이다. 작은 오두막에서 시작해 거대한 드래곤을 쓰러뜨리기까지의 여정은, 플레이어마다 완전히 다른 이야기를 만들어낸다. 바이킹이 되어 미지의 세계를 항해하고 싶은 사람에게, Valheim은 긴 시간을 들일 가치가 충분한 작품이다."
         },
         {
-          "review_id": "compress-v3-negative-1-3-4865134216170634442",
+          "review_id": "compress-v3-negative-1-3-1960267157804096474",
           "text": "1. 애자같은 편의성 시스템 주변 상자에 자동 정리 없음, 아이템 제작하려면 인벤에 템 들고 있어야됨. 근대 이 씹헐것이 가죽은 종류별로 존나게 많아도 거적대기 가방 하나도 못만들어서 기본4x8 인벤토리에 탬 다 넣어야 되는데 장비칸마저도 따로 없어서 옷,망토,유물,렌턴,포션,무기,물밥 등등 하면 씨@발 남는 칸도 없고 무게도 씹창남. 2. 시간 끄는 요소가 존나 많아서 노가다 하다가 지루됨. 기본 설정은 광물이 텔포가 안되기 때문에 씨2발 게임 템포가 미친듯이 질질 끌림. 초반 바이옴에서 나오는 재료가 일부 후반 무기에도 쓰이는데, 광물이 텔포가 안되서 후반 지역에 있는 집까지 배를 타든 수레를 끌든 질질 끌면서 고렙 지역 통과하다가 죽으면 개썩창 헬게이트 오픈임. 체력25 방어력0 공격력0 스테50 인 원시인으로 템 수거 하고 다시 짐 끌고 가야되는데 여기서 발기 풀려서 꼬접할 뻔함. 이건 머 언럭키 데스스트렌딩 이라고 할 수 있겠음. 극후반 바이옴을 가면 이 문제는 해결 되지만, 그땐 이미 고통 받을 거 다 받고 게임 엔딩봄. 3. 숙련도 시스템 썩창임. 2번 문제가 여기서 오는데 배 쫄쫄 노팬티 은가누 VS 잘 먹은 새끼 멧돼지 랑 싸우면 씨발 멧ㅈ돼지가 압승함. 숙련도 존나 쌓아도 뒤지면 템 찾을 떄 까지 아무런 혜택을 못 보는데 죽을 때 마다 달달 떨리는 불알과 점점 떨어지는 숙도를 보며 다시 올리려고 훈련봇만 존나 떄리고 있는 나를 보게됨. 4. 해당 바이옴 보스 찾을 때 까지 졸업 불가. 맵이 씨발 작은 것도 아니고 같은 바이옴도 여기저기 흩뿌려져 있는데, 파밍 다해도 보스 소환 위치 못 찾으면 뻉뺑이 존나 쳐야됨. 운 없이 한 곳에 여러 바이옴 보스 곂쳐 있으면 버리는 시간 수직상승함. 퉁퉁이 정도의 강함을 여기서 체감할 수 있는데 실수로 죽으면 3번됨. 5. 바이킹 세계에 정통 메이지 따위는 없음 이 겜은 중후반까지 마법지팡이가 없어서 씹발 싹다 주먹질, 칼질, 도끼질만 좃나게 하다가, 게임 후반에 얻은 지팡이로 사람답게 좀 살려고 하면 ㅈ같은 숙련도 때문에 또 훈련봇만 존나 따먹는 나를 보게 됨. (다른 무기 숙련도 50 찍을 때 혼자 0) 6. 낚시는 하라고 만든 컨텐츠 아님 정상적인 방법으로는 낚기 존나 힘듬. 엔딩 볼 떄까지 얼굴도 못 본 물고기도 많음. 맨몸 낚시, 창 낚시, 통발, 그물 그딴거 없음."
         }
       ]

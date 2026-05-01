@@ -1,10 +1,10 @@
 {
   "report_version": "v4-planned-sections",
   "appid": 427520,
-  "pipeline_run_id": "427520-20260427T025120Z",
-  "generated_at": "2026-04-27T02:55:21.662314+00:00",
-  "source_review_count": 4022,
-  "included_review_count": 2953,
+  "pipeline_run_id": "427520-20260430T095524Z",
+  "generated_at": "2026-04-30T09:57:16.452828+00:00",
+  "source_review_count": 4024,
+  "included_review_count": 2955,
   "min_report_review_count": 100,
   "report_state": "ready",
   "review_trend": {
@@ -745,8 +745,8 @@
       },
       {
         "month": "2026-04",
-        "positive_count": 11,
-        "review_count": 11,
+        "positive_count": 13,
+        "review_count": 13,
         "positive_ratio": 1.0
       }
     ]
@@ -766,13 +766,226 @@
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/header.jpg?t=1763986204",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/capsule_231x87.jpg?t=1763986204",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/capsule_184x69.jpg?t=1763986204",
+    "screenshots": [
+      {
+        "id": "0",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_36e4d8e5540805f5ed492d24d784ed9ba661752b.600x338.jpg?t=1763986204",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_36e4d8e5540805f5ed492d24d784ed9ba661752b.1920x1080.jpg?t=1763986204"
+      },
+      {
+        "id": "1",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_171f398a8e347fad650a9c1b6c3b77c612781510.600x338.jpg?t=1763986204",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_171f398a8e347fad650a9c1b6c3b77c612781510.1920x1080.jpg?t=1763986204"
+      },
+      {
+        "id": "2",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_0bf814493f247b6baa093511b46c352cf9e98435.600x338.jpg?t=1763986204",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_0bf814493f247b6baa093511b46c352cf9e98435.1920x1080.jpg?t=1763986204"
+      },
+      {
+        "id": "3",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_2533e54b0bd90a29adbedb60108ed277536ad445.600x338.jpg?t=1763986204",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_2533e54b0bd90a29adbedb60108ed277536ad445.1920x1080.jpg?t=1763986204"
+      },
+      {
+        "id": "4",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_192864c00fc38b5ef97b97ca7fa655a9aed7c0da.600x338.jpg?t=1763986204",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_192864c00fc38b5ef97b97ca7fa655a9aed7c0da.1920x1080.jpg?t=1763986204"
+      },
+      {
+        "id": "5",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_e301bde0fc0e996ba93e92639cd49dd90ae47b36.600x338.jpg?t=1763986204",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_e301bde0fc0e996ba93e92639cd49dd90ae47b36.1920x1080.jpg?t=1763986204"
+      },
+      {
+        "id": "6",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_57665be6cc629906ae7004799e90699c69c07c97.600x338.jpg?t=1763986204",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_57665be6cc629906ae7004799e90699c69c07c97.1920x1080.jpg?t=1763986204"
+      },
+      {
+        "id": "7",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_9dba6c91d45eededca01f9f61bf1435be2dfbf0d.600x338.jpg?t=1763986204",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_9dba6c91d45eededca01f9f61bf1435be2dfbf0d.1920x1080.jpg?t=1763986204"
+      },
+      {
+        "id": "8",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_124dc8dc3fd282f6feb2d9ee20aebd2d73188e02.600x338.jpg?t=1763986204",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_124dc8dc3fd282f6feb2d9ee20aebd2d73188e02.1920x1080.jpg?t=1763986204"
+      },
+      {
+        "id": "9",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_2c4dcb9195a91014ce1189707af3127c4db9b2b0.600x338.jpg?t=1763986204",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_2c4dcb9195a91014ce1189707af3127c4db9b2b0.1920x1080.jpg?t=1763986204"
+      },
+      {
+        "id": "10",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_5903f8ff243e9a89b4f1e15e6e7982159578f8ec.600x338.jpg?t=1763986204",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_5903f8ff243e9a89b4f1e15e6e7982159578f8ec.1920x1080.jpg?t=1763986204"
+      },
+      {
+        "id": "11",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_0e6d3c0d1af06fcde28ef1f1703e142f416ace44.600x338.jpg?t=1763986204",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_0e6d3c0d1af06fcde28ef1f1703e142f416ace44.1920x1080.jpg?t=1763986204"
+      },
+      {
+        "id": "12",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_aee9573a97f97fbb7daac6c76709c62228ec5e00.600x338.jpg?t=1763986204",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_aee9573a97f97fbb7daac6c76709c62228ec5e00.1920x1080.jpg?t=1763986204"
+      },
+      {
+        "id": "13",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_b3cbbdb8e10d2f172297c4cc792d908fdb68529e.600x338.jpg?t=1763986204",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_b3cbbdb8e10d2f172297c4cc792d908fdb68529e.1920x1080.jpg?t=1763986204"
+      },
+      {
+        "id": "14",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_caac427e023e8682cc4bf1aba233538cf267e6fa.600x338.jpg?t=1763986204",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_caac427e023e8682cc4bf1aba233538cf267e6fa.1920x1080.jpg?t=1763986204"
+      },
+      {
+        "id": "15",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_0714db2482893b77d8622604eaf9d3788734c7a6.600x338.jpg?t=1763986204",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_0714db2482893b77d8622604eaf9d3788734c7a6.1920x1080.jpg?t=1763986204"
+      },
+      {
+        "id": "16",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_3f93f2655cbc3db0da1b3e888aa68a8a9f5f6a47.600x338.jpg?t=1763986204",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_3f93f2655cbc3db0da1b3e888aa68a8a9f5f6a47.1920x1080.jpg?t=1763986204"
+      },
+      {
+        "id": "17",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_0a6e8dbaa59e8fa5327d4fd2c8bb2a6909dc864c.600x338.jpg?t=1763986204",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_0a6e8dbaa59e8fa5327d4fd2c8bb2a6909dc864c.1920x1080.jpg?t=1763986204"
+      },
+      {
+        "id": "18",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_46b600e169426189343f525860cb705fecbbc3db.600x338.jpg?t=1763986204",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_46b600e169426189343f525860cb705fecbbc3db.1920x1080.jpg?t=1763986204"
+      },
+      {
+        "id": "19",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_707a4120fed96e579f56d350ae076c20e205ae8f.600x338.jpg?t=1763986204",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_707a4120fed96e579f56d350ae076c20e205ae8f.1920x1080.jpg?t=1763986204"
+      },
+      {
+        "id": "20",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_88545f5f01c635ea0001f3849f064f058dbdf81d.600x338.jpg?t=1763986204",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_88545f5f01c635ea0001f3849f064f058dbdf81d.1920x1080.jpg?t=1763986204"
+      },
+      {
+        "id": "21",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_0a6343acf3b3a3d2b1d23e3bc4a21cb890ec14b8.600x338.jpg?t=1763986204",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_0a6343acf3b3a3d2b1d23e3bc4a21cb890ec14b8.1920x1080.jpg?t=1763986204"
+      },
+      {
+        "id": "22",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_4a8af525907d5711cee45f9df4f55565484fb409.600x338.jpg?t=1763986204",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_4a8af525907d5711cee45f9df4f55565484fb409.1920x1080.jpg?t=1763986204"
+      },
+      {
+        "id": "23",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_75c02d35dcecc57a747e7a9ec9df4806ef8b3be2.600x338.jpg?t=1763986204",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_75c02d35dcecc57a747e7a9ec9df4806ef8b3be2.1920x1080.jpg?t=1763986204"
+      },
+      {
+        "id": "24",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_37aa19e26e20e18a220fd8870dac6efb0e98b5f0.600x338.jpg?t=1763986204",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_37aa19e26e20e18a220fd8870dac6efb0e98b5f0.1920x1080.jpg?t=1763986204"
+      },
+      {
+        "id": "25",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_b9a77ea7a73d9acf22d6e86215d7376cdcd0eb9c.600x338.jpg?t=1763986204",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_b9a77ea7a73d9acf22d6e86215d7376cdcd0eb9c.1920x1080.jpg?t=1763986204"
+      },
+      {
+        "id": "26",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_5b4ca37921ff8a0b9ad328028179d3d3a952f1a4.600x338.jpg?t=1763986204",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_5b4ca37921ff8a0b9ad328028179d3d3a952f1a4.1920x1080.jpg?t=1763986204"
+      },
+      {
+        "id": "27",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_a849d4a6b7d990ad6669906be9d8de44c4fb2ef2.600x338.jpg?t=1763986204",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_a849d4a6b7d990ad6669906be9d8de44c4fb2ef2.1920x1080.jpg?t=1763986204"
+      },
+      {
+        "id": "28",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_6418c33bc4ce393557507089ba28fc5220e2b8e0.600x338.jpg?t=1763986204",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_6418c33bc4ce393557507089ba28fc5220e2b8e0.1920x1080.jpg?t=1763986204"
+      },
+      {
+        "id": "29",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_a066c38bbd26f5b5e8b0385e6e84efc4de4aceed.600x338.jpg?t=1763986204",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_a066c38bbd26f5b5e8b0385e6e84efc4de4aceed.1920x1080.jpg?t=1763986204"
+      },
+      {
+        "id": "30",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_00c51f1518de5ff75ef884cf3f66ee50e4e5ded1.600x338.jpg?t=1763986204",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_00c51f1518de5ff75ef884cf3f66ee50e4e5ded1.1920x1080.jpg?t=1763986204"
+      },
+      {
+        "id": "31",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_21820439ab772913e4be55ec2db5165eac655e8c.600x338.jpg?t=1763986204",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_21820439ab772913e4be55ec2db5165eac655e8c.1920x1080.jpg?t=1763986204"
+      },
+      {
+        "id": "32",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_773b26c58fede6b7e6df879d1d3a73f840f72114.600x338.jpg?t=1763986204",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_773b26c58fede6b7e6df879d1d3a73f840f72114.1920x1080.jpg?t=1763986204"
+      },
+      {
+        "id": "33",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_3e68dabdf5c6f465d7ec891beba137c8f7e31f78.600x338.jpg?t=1763986204",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ss_3e68dabdf5c6f465d7ec891beba137c8f7e31f78.1920x1080.jpg?t=1763986204"
+      }
+    ],
+    "movies": [
+      {
+        "id": "256796273",
+        "name": "Teaser 2020",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256796273/movie.293x165.jpg?t=1597395499",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/427520/304275/352d361477488a88ba2274620093d8a4c67ec908/1750529745/hls_264_master.m3u8?t=1597395499",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/427520/304275/352d361477488a88ba2274620093d8a4c67ec908/1750529745/dash_h264.mpd?t=1597395499",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/427520/304275/352d361477488a88ba2274620093d8a4c67ec908/1750529745/dash_av1.mpd?t=1597395499",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/427520/304275/352d361477488a88ba2274620093d8a4c67ec908/1750529745/hls_264_master.m3u8?t=1597395499"
+      },
+      {
+        "id": "256660593",
+        "name": "Gameplay Trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256660593/movie.293x165.jpg?t=1456427081",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/427520/51955/69c15fc9a9f17f659effe7747375e96322b34eae/1750529735/hls_264_master.m3u8?t=1456427081",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/427520/51955/69c15fc9a9f17f659effe7747375e96322b34eae/1750529735/dash_h264.mpd?t=1456427081",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/427520/51955/69c15fc9a9f17f659effe7747375e96322b34eae/1750529735/dash_av1.mpd?t=1456427081",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/427520/51955/69c15fc9a9f17f659effe7747375e96322b34eae/1750529735/hls_264_master.m3u8?t=1456427081"
+      },
+      {
+        "id": "256796265",
+        "name": "1.0 launch trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256796265/movie.293x165.jpg?t=1597395492",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/427520/304267/85d20dca016cf0be38ac38dbfd4d0b19d4455faf/1750529741/hls_264_master.m3u8?t=1597395492",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/427520/304267/85d20dca016cf0be38ac38dbfd4d0b19d4455faf/1750529741/dash_h264.mpd?t=1597395492",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/427520/304267/85d20dca016cf0be38ac38dbfd4d0b19d4455faf/1750529741/dash_av1.mpd?t=1597395492",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/427520/304267/85d20dca016cf0be38ac38dbfd4d0b19d4455faf/1750529741/hls_264_master.m3u8?t=1597395492"
+      }
+    ],
     "short_description": "Factorio는 무한한 2D 세상에서 복잡성이 증가하는 아이템을 생산하기 위해 자동화 공장을 만드는 게임입니다. - 당신의 상상력으로 공장을 설계, 독창적인 방법으로 간단한 요소를 결합하고 마지막엔 당신을 좋아하지 않는 생물들로 부터 공장을 지키세요.",
     "steam_store_url": "https://store.steampowered.com/app/427520",
-    "steam_recommendation_count": 190124,
+    "steam_recommendation_count": 190241,
     "steam_review_score_desc": "Overwhelmingly Positive",
-    "steam_total_positive": 3956,
+    "steam_total_positive": 3958,
     "steam_total_negative": 67,
-    "steam_total_reviews": 4023
+    "steam_total_reviews": 4025,
+    "price_currency": "KRW",
+    "price_current": 4000000,
+    "price_original": 4000000,
+    "price_current_formatted": "₩ 40,000",
+    "price_original_formatted": null,
+    "price_discount_percent": 0
   },
   "report_plan": {
     "decision_anchor": {
@@ -820,59 +1033,64 @@
         {
           "reason_id": "str_6",
           "aspect": "building_ux",
-          "theme": "조작 / 규칙 학습 난이도"
+          "theme": "건축 조작 불편"
         }
       ]
     }
   },
   "report_display": {
-    "headline": "자동화와 최적화의 재미 경험은 분명한 강점입니다. 다만 가격 대비 만족의 편차 때문에 할인 시점에 시작하는 편이 더 안전합니다.",
+    "headline": "자동화와 최적화의 재미가 뛰어나지만 가격 부담은 고려하세요.",
     "buy_recommendation": "buy_on_sale",
-    "buy_timing_summary": "가격 대비 만족의 편차와 불편을 감수해야 할 수 있어 가격 메리트가 있는 시점이 더 낫습니다.",
+    "buy_timing_summary": "가격 대비 만족도가 다소 갈리니 할인 시점에 구매하는 것을 권장합니다.",
     "good_for": [
-      "자동화 라인을 다듬으며 효율을 올리는 플레이어"
+      "자동화 라인을 다듬으며 효율을 올리는 플레이어",
+      "플레이 흐름이 점점 또렷해지는 재미를 좋아하는 플레이어"
     ],
     "not_good_for": [
-      "가격 대비 만족을 매우 엄격하게 따지는 플레이어",
+      "비용 대비 만족을 꼼꼼하게 따지는 플레이어",
       "복잡한 동선과 관리 피로에 민감한 플레이어"
     ],
     "top_strengths": [
       {
-        "title": "자동화 라인",
-        "summary": "병목을 풀고 생산 라인을 확장하는 과정이 재미의 중심이라 최적화를 즐길수록 만족도가 높습니다."
+        "title": "중독성이 강한 자동화 설계",
+        "summary": "복잡한 생산 라인을 직접 설계하고 최적화하는 과정이 계속해서 도전 욕구를 자극해 오랜 시간 몰입하게 만듭니다."
       },
       {
-        "title": "계속 손에 붙는 핵심 플레이 감각",
-        "summary": "기본 플레이 감각이 좋아 손에 익을수록 재미가 커지는 편입니다."
+        "title": "완성도가 높은 레벨 디자인",
+        "summary": "끊임없이 새로운 목표와 물류 퍼즐을 제공해 지루함 없이 다양한 방식으로 도전할 수 있어 플레이 만족도가 높습니다."
+      },
+      {
+        "title": "풍부한 DLC와 확장 콘텐츠",
+        "summary": "DLC를 통해 본편 이상의 방대한 콘텐츠와 새로운 행성, 기술, 빌드 확장으로 게임의 재미와 깊이가 크게 증가합니다."
       }
     ],
     "top_risks": [
       {
-        "title": "가격 대비 만족이 갈릴 수 있는 부분",
-        "summary": "가격 부담이 크면 기대만큼 만족하지 못했다는 반응이 나올 수 있습니다."
+        "title": "높은 진입 장벽과 복잡한 온보딩",
+        "summary": "튜토리얼이 부족하고 게임 시스템이 복잡해 초보자가 적응하기 어렵습니다. 처음부터 많은 것을 배우고 이해해야 해 피로감이 쌓일 수 있습니다."
       },
       {
-        "title": "복잡한 동선",
-        "summary": "조작과 인터페이스 적응에 시간이 걸리면 재미보다 답답함이 먼저 올 수 있습니다."
+        "title": "반복 작업과 성장 체감 부족",
+        "summary": "후반으로 갈수록 무한 반복되는 작업이 많아지고 성취감이 떨어집니다. 공장 확장과 자동화가 지루하고 귀찮게 느껴질 수 있습니다."
       },
       {
-        "title": "튜토리얼이 부족하다",
-        "summary": "초보자가 게임을 시작할 때 필요한 안내가 부족해 혼란을 느낄 수 있습니다."
+        "title": "높은 가격과 할인의 부재",
+        "summary": "정가가 부담스럽고 세일이 거의 없어 구매 결정에 부담이 큽니다. 가격 대비 콘텐츠 양과 가치에 대한 의견이 엇갈립니다."
       }
     ],
     "recent_state": {
       "status": "mixed",
-      "summary": "최근 리뷰는 좋았다는 반응과 아쉽다는 반응이 함께 보여 평가가 갈리는 편입니다."
+      "summary": "팩토리오의 자동화와 공장 설계의 깊이에 빠져드는 유저가 있는 반면, 난이도와 반복 작업, 가격 부담으로 아쉬움을 느끼는 의견도 공존합니다."
     }
   },
   "evidence_sections": {
     "strengths": [
       {
         "block_id": "str_1",
-        "title": "자동화와 병목 해소의 재미가 분명하다는 반응이다.",
+        "title": "자동화와 병목 해소의 재미가 분명하다는 반응",
         "theme": "자동화 라인",
-        "why_it_matters": "자동화와 효율 설계를 좋게 보는 반응이 많아, 병목을 풀고 확장하는 과정이 핵심 재미로 읽힙니다.",
-        "explanation": "자동화와 효율 설계를 좋게 보는 반응이 많아, 병목을 풀고 확장하는 과정이 핵심 재미로 읽힙니다.",
+        "why_it_matters": "자동화와 효율 설계를 좋게 보는 반응이 많아 병목을 풀고 확장하는 과정이 핵심 재미로 읽힙니다.",
+        "explanation": "자동화와 효율 설계를 좋게 보는 반응이 많아 병목을 풀고 확장하는 과정이 핵심 재미로 읽힙니다.",
         "aspect_keys": [
           "content_depth"
         ],
@@ -890,21 +1108,21 @@
         ],
         "evidence_candidate_items": [
           {
-            "review_id": "compress-v3-positive-1-1-7968806338166832891",
+            "review_id": "compress-v3-positive-1-1-9054335663404872140",
             "text": "1.생산라인이 갈수록 복잡해져서 머리가 xx게 뜨거워짐 2.현타 와서 겜 끔 3.끄자마자 머릿속으로 생산라인 구상하고 있음 4.다시 차근차근 설치해보자면서 또 겜 켬 무한반복 안 그래도 머리 아파 디지겠는데 원주민 새x들 덩치만 자꾸 커짐"
           },
           {
-            "review_id": "compress-v3-positive-1-6-1462986754408684581",
+            "review_id": "compress-v3-positive-1-6-8587431685311731874",
             "text": "다이슨스피어프로그램과 함께 공장게임의 대표라고 할만한 게임 DLC 출시 전 기준으로는 우주적인 풍경과 비주얼을 즐기고 싶으면 다이슨스피어를 추천하고 라인을 만들고 공정을 짜는 공장게임 본연의 재미를 즐기고 싶다면 팩토리오를 추천하겠으나 팩토리오는 이번 DLC의 등장으로 공장을 짜는 맛에 성간물류까지 더해 한결 맛이 깊어졌다. 공장게임을 좋아한다면 반드시 해보아야 할 게임이라 하겠다. 다만 DLC는 컨텐츠가 많아지는 만큼 라이트 유저는 좀 버겁게 느껴질지도 모르겠다."
           }
         ]
       },
       {
         "block_id": "str_2",
-        "title": "핵심 플레이 감각이 좋다는 반응이다.",
+        "title": "플레이 흐름이 안정적으로 잡힌다는 반응",
         "theme": "난이도 / 진입장벽",
-        "why_it_matters": "기본 플레이 감각을 좋게 보는 반응이 많아, 손에 익는 재미가 중요한 쪽에 잘 맞습니다.",
-        "explanation": "기본 플레이 감각을 좋게 보는 반응이 많아, 손에 익는 재미가 중요한 쪽에 잘 맞습니다.",
+        "why_it_matters": "플레이 흐름이 안정적으로 잡힌다는 반응이 많아 익숙해질수록 리듬을 타기 좋은 편입니다.",
+        "explanation": "플레이 흐름이 안정적으로 잡힌다는 반응이 많아 익숙해질수록 리듬을 타기 좋은 편입니다.",
         "aspect_keys": [
           "difficulty"
         ],
@@ -920,24 +1138,24 @@
         ],
         "evidence_snippets": [
           "본편 엔딩과 우주시대 엔딩까지 약 300시간 정도 소요되었습니다. 끝이 있을까 싶었던 우주시대에도 끝이 있었네요! 팩토리오: 우주시대를 끝내고 별이 된 6만명의 사람 중에 제 별도 있습니다! https://factorio. com/galaxy/Quantum%20II:%20Gamma2-2. F7V2 팩토리오는 그야말로 완벽한 레벨 디자인으로 플레이어에게 끊임없는 목표를 제공하고 각기 새로운 방법으로 도전하게 만듭니다. 본편 역시도 훌륭한 게임이지만, 우주시대의 레벨 디자인은 게임 역사상 최고에 가깝지 않나 생각 됩니다. 새로운 행성, 새로운 기술 체인이 등장할 때 마다 끊임없이 새로운 형식의 물류 퍼즐을 풀어야 했음에도 이를 지루하지 않게 해준 것은 몇번이고 말해도 부족한 아주 정교하고 놀라운 레벨 디자인 덕분입니다. 본편과 우주시대는 연장선상이 아닌 새로운 게임으로, DLC 단돈 4만원으로 팩토리오를 모르던 뇌로 돌아갈 수 있으니 꼭 본편 먼저 엔딩을 보고, 새로운 세이브 파일로 우주시대를 시작하는 것을 추천 드립니다. 게임 외적으로는 5개 행성에서 초당 백만 단위의 아이템, 유체, 전기 생산/소비 및 시뮬레이션에도 전혀 버벅임이 없는 완벽한 최적화를 보여주었고, 컨트롤러로 플레이 할 수 있는 게임은 아니라고 생각하지만 어쨌든 윈도우즈/맥/스팀OS 멀티플랫폼을 지원합니다. 다만 게임의 장르 특성상 다소 진입장벽이 있는 것은 사실일것 같습니다. 하지만 게임 초반에 다소 복잡해 보여 이런거까지 배워서 해야하나 싶던 요소들 (드론, 청사진, 논리회로, 품질작 등) 역시도 좋은 레벨 디자인과 맞물려 자연스럽게 배우고 사용하게끔 되어 걱정했던 만큼의 부담은 없는것 같습니다. 제 인생 최고의 게임으로 뽑는데 조금의 망설임도 없습니다.",
-          "이 게임에서 효율충은 언제나 승리함 근데 뉴비라서 그런가 효율적으로 돌아가게 맞추는게 은근 어려움",
+          "이 게임 더 파볼까 잠깐 고민했다가, \"아 이러다 20대 싹 다 증발하고 나는 사이버 공장 관리자 되는 거 아니냐?”싶어서 바로 삭제함. 솔직히 중·고등학교 때 만났으면 지금쯤 공부, 친구 모두 공장 벨트 위로 사라졌을듯 입문하기 전에 내 발목을 스스로 잘라버림..",
           "원숭이와 인간의 사이 그 어딘가 나는 존재했고, 아직도 초보다"
         ],
         "evidence_candidate_items": [
           {
-            "review_id": "compress-v3-positive-2-1-8888353133547823987",
+            "review_id": "compress-v3-positive-2-1-6742570442564593510",
             "text": "이 게임에서 효율충은 언제나 승리함 근데 뉴비라서 그런가 효율적으로 돌아가게 맞추는게 은근 어려움"
           },
           {
-            "review_id": "compress-v3-positive-2-2-4691166405072091089",
+            "review_id": "compress-v3-positive-2-2-2949548948580765545",
             "text": "원숭이와 인간의 사이 그 어딘가 나는 존재했고, 아직도 초보다"
           },
           {
-            "review_id": "compress-v3-positive-2-3-2919160927881058265",
+            "review_id": "compress-v3-positive-2-3-8686944118378371680",
             "text": "이 게임 더 파볼까 잠깐 고민했다가, \"아 이러다 20대 싹 다 증발하고 나는 사이버 공장 관리자 되는 거 아니냐?”싶어서 바로 삭제함. 솔직히 중·고등학교 때 만났으면 지금쯤 공부, 친구 모두 공장 벨트 위로 사라졌을듯 입문하기 전에 내 발목을 스스로 잘라버림.."
           },
           {
-            "review_id": "compress-v3-positive-2-4-4667009930502762948",
+            "review_id": "compress-v3-positive-2-4-6197614105708308349",
             "text": "본편 엔딩과 우주시대 엔딩까지 약 300시간 정도 소요되었습니다. 끝이 있을까 싶었던 우주시대에도 끝이 있었네요! 팩토리오: 우주시대를 끝내고 별이 된 6만명의 사람 중에 제 별도 있습니다! https://factorio.com/galaxy/Quantum%20II:%20Gamma2-2.F7V2 팩토리오는 그야말로 완벽한 레벨 디자인으로 플레이어에게 끊임없는 목표를 제공하고 각기 새로운 방법으로 도전하게 만듭니다. 본편 역시도 훌륭한 게임이지만, 우주시대의 레벨 디자인은 게임 역사상 최고에 가깝지 않나 생각 됩니다. 새로운 행성, 새로운 기술 체인이 등장할 때 마다 끊임없이 새로운 형식의 물류 퍼즐을 풀어야 했음에도 이를 지루하지 않게 해준 것은 몇번이고 말해도 부족한 아주 정교하고 놀라운 레벨 디자인 덕분입니다. 본편과 우주시대는 연장선상이 아닌 새로운 게임으로, DLC 단돈 4만원으로 팩토리오를 모르던 뇌로 돌아갈 수 있으니 꼭 본편 먼저 엔딩을 보고, 새로운 세이브 파일로 우주시대를 시작하는 것을 추천 드립니다. 게임 외적으로는 5개 행성에서 초당 백만 단위의 아이템, 유체, 전기 생산/소비 및 시뮬레이션에도 전혀 버벅임이 없는 완벽한 최적화를 보여주었고, 컨트롤러로 플레이 할 수 있는 게임은 아니라고 생각하지만 어쨌든 윈도우즈/맥/스팀OS 멀티플랫폼을 지원합니다. 다만 게임의 장르 특성상 다소 진입장벽이 있는 것은 사실일것 같습니다. 하지만 게임 초반에 다소 복잡해 보여 이런거까지 배워서 해야하나 싶던 요소들 (드론, 청사진, 논리회로, 품질작 등) 역시도 좋은 레벨 디자인과 맞물려 자연스럽게 배우고 사용하게끔 되어 걱정했던 만큼의 부담은 없는것 같습니다. 제 인생 최고의 게임으로 뽑는데 조금의 망설임도 없습니다."
           }
         ]
@@ -946,10 +1164,10 @@
     "risks": [
       {
         "block_id": "risk_1",
-        "title": "초반 적응이 답답하다는 반응이다.",
+        "title": "초반 적응이 답답하다는 반응",
         "theme": "튜토리얼 / 온보딩 부족",
-        "why_it_matters": "초반 적응이 답답하다는 반응이 있어, 바로 손에 익는 경험을 원하면 진입 장벽이 높을 수 있습니다.",
-        "explanation": "초반 적응이 답답하다는 반응이 있어, 바로 손에 익는 경험을 원하면 진입 장벽이 높을 수 있습니다.",
+        "why_it_matters": "초반 적응이 느리다는 반응이 있어 바로 손에 붙는 경험을 원하면 답답함이 먼저 올 수 있습니다.",
+        "explanation": "초반 적응이 느리다는 반응이 있어 바로 손에 붙는 경험을 원하면 답답함이 먼저 올 수 있습니다.",
         "aspect_keys": [
           "difficulty"
         ],
@@ -970,39 +1188,39 @@
         "evidence_snippets": [
           "표면적으로는 게임플레이가 반복적으로 보일 수 있지만 실제로는 그렇지 않음 새로운 기술이 잠금 해제 될 때마다 새로운 아이템을 만드는 데 필요한 자원의 난이도가 증가함 지루하지 않고 자유롭고 창의적인 플레이가 가능함",
           "공장 최적화 중독 영토 확장 벌레 학살 시간 순삭 계산기 필요",
-          "핵분열로 탄소중립을 달성하는 것에 성공했지만 탄소배출을 싫어하는 친환경적 적대적 원주생명체와는 화해하지 못했습니다. 핵이 있어서 평화가 필요없어졌거든요."
+          "이 정도로 완성도 높은겜 거의 본적 없는데, 제작자 블로그에서 꾸역꾸역 문제점 찾아서 고치려는거 보고 경이로웠음. 할인 안해도 ㅇㅈ하고, dlc풀프로 내도 살거임."
         ],
         "evidence_candidate_items": [
           {
-            "review_id": "compress-v3-negative-1-1-7833742555300557485",
+            "review_id": "compress-v3-negative-1-1-8336214907663062155",
             "text": "공장 최적화 중독 영토 확장 벌레 학살 시간 순삭 계산기 필요"
           },
           {
-            "review_id": "compress-v3-negative-1-2-6057994012300080678",
+            "review_id": "compress-v3-negative-1-2-7246302004299828016",
             "text": "표면적으로는 게임플레이가 반복적으로 보일 수 있지만 실제로는 그렇지 않음 새로운 기술이 잠금 해제 될 때마다 새로운 아이템을 만드는 데 필요한 자원의 난이도가 증가함 지루하지 않고 자유롭고 창의적인 플레이가 가능함"
           },
           {
-            "review_id": "compress-v3-negative-1-3-2588666679865452424",
+            "review_id": "compress-v3-negative-1-3-2915799752374190514",
             "text": "이 정도로 완성도 높은겜 거의 본적 없는데, 제작자 블로그에서 꾸역꾸역 문제점 찾아서 고치려는거 보고 경이로웠음. 할인 안해도 ㅇㅈ하고, dlc풀프로 내도 살거임."
           },
           {
-            "review_id": "compress-v3-negative-1-4-8480543435132864573",
+            "review_id": "compress-v3-negative-1-4-695622383584556969",
             "text": "얘넨 디지털로 발매했으면서 가격은 왜 싯가냐 볼 때 마다 올라있어"
           },
           {
-            "review_id": "compress-v3-negative-1-5-4944311078993548423",
+            "review_id": "compress-v3-negative-1-5-1021991444985621674",
             "text": "기지 건설 + 바퀴벌레 = 핵폭탄"
           },
           {
-            "review_id": "compress-v3-negative-1-6-5506246146553512573",
+            "review_id": "compress-v3-negative-1-6-10816595619669019",
             "text": "친구가 하자고해서 샀짐나 ... 눈이넘으 아픔.."
           },
           {
-            "review_id": "compress-v3-negative-1-7-9021766405573926454",
+            "review_id": "compress-v3-negative-1-7-7456623775112289096",
             "text": "핵분열로 탄소중립을 달성하는 것에 성공했지만 탄소배출을 싫어하는 친환경적 적대적 원주생명체와는 화해하지 못했습니다. 핵이 있어서 평화가 필요없어졌거든요."
           },
           {
-            "review_id": "compress-v3-negative-1-8-4428438704999196831",
+            "review_id": "compress-v3-negative-1-8-403408231653823768",
             "text": "이 게임을 하기 전에도 저는 정리하는 방법을 잘 모르고 살았습니다. 이 게임을 하면서도 저는 정리하는 방법을 잘 모르고 했습니다. 이 게임에서 로켓을 쏜 후, 저는 정리하는 방법을 참 모르는 사람이구나 라고 확신하게 되었습니다. 밥 모드를 설치한 후, 저는 공장 최적화 설계를 하는 모든 분들을 존경하게 되었습니다."
           }
         ]
@@ -1010,51 +1228,56 @@
     ]
   },
   "disclaimer": "여러 유저 리뷰를 바탕으로 정리했어요. 플레이 경험은 사람마다 다를 수 있어요.",
-  "headline": "자동화와 최적화의 재미 경험은 분명한 강점입니다. 다만 가격 대비 만족의 편차 때문에 할인 시점에 시작하는 편이 더 안전합니다.",
+  "headline": "자동화와 최적화의 재미가 뛰어나지만 가격 부담은 고려하세요.",
   "buy_recommendation": "buy_on_sale",
-  "buy_timing_summary": "가격 대비 만족의 편차와 불편을 감수해야 할 수 있어 가격 메리트가 있는 시점이 더 낫습니다.",
+  "buy_timing_summary": "가격 대비 만족도가 다소 갈리니 할인 시점에 구매하는 것을 권장합니다.",
   "good_for": [
-    "자동화 라인을 다듬으며 효율을 올리는 플레이어"
+    "자동화 라인을 다듬으며 효율을 올리는 플레이어",
+    "플레이 흐름이 점점 또렷해지는 재미를 좋아하는 플레이어"
   ],
   "not_good_for": [
-    "가격 대비 만족을 매우 엄격하게 따지는 플레이어",
+    "비용 대비 만족을 꼼꼼하게 따지는 플레이어",
     "복잡한 동선과 관리 피로에 민감한 플레이어"
   ],
   "top_strengths": [
     {
-      "title": "자동화 라인",
-      "summary": "병목을 풀고 생산 라인을 확장하는 과정이 재미의 중심이라 최적화를 즐길수록 만족도가 높습니다."
+      "title": "중독성이 강한 자동화 설계",
+      "summary": "복잡한 생산 라인을 직접 설계하고 최적화하는 과정이 계속해서 도전 욕구를 자극해 오랜 시간 몰입하게 만듭니다."
     },
     {
-      "title": "계속 손에 붙는 핵심 플레이 감각",
-      "summary": "기본 플레이 감각이 좋아 손에 익을수록 재미가 커지는 편입니다."
+      "title": "완성도가 높은 레벨 디자인",
+      "summary": "끊임없이 새로운 목표와 물류 퍼즐을 제공해 지루함 없이 다양한 방식으로 도전할 수 있어 플레이 만족도가 높습니다."
+    },
+    {
+      "title": "풍부한 DLC와 확장 콘텐츠",
+      "summary": "DLC를 통해 본편 이상의 방대한 콘텐츠와 새로운 행성, 기술, 빌드 확장으로 게임의 재미와 깊이가 크게 증가합니다."
     }
   ],
   "top_risks": [
     {
-      "title": "가격 대비 만족이 갈릴 수 있는 부분",
-      "summary": "가격 부담이 크면 기대만큼 만족하지 못했다는 반응이 나올 수 있습니다."
+      "title": "높은 진입 장벽과 복잡한 온보딩",
+      "summary": "튜토리얼이 부족하고 게임 시스템이 복잡해 초보자가 적응하기 어렵습니다. 처음부터 많은 것을 배우고 이해해야 해 피로감이 쌓일 수 있습니다."
     },
     {
-      "title": "복잡한 동선",
-      "summary": "조작과 인터페이스 적응에 시간이 걸리면 재미보다 답답함이 먼저 올 수 있습니다."
+      "title": "반복 작업과 성장 체감 부족",
+      "summary": "후반으로 갈수록 무한 반복되는 작업이 많아지고 성취감이 떨어집니다. 공장 확장과 자동화가 지루하고 귀찮게 느껴질 수 있습니다."
     },
     {
-      "title": "튜토리얼이 부족하다",
-      "summary": "초보자가 게임을 시작할 때 필요한 안내가 부족해 혼란을 느낄 수 있습니다."
+      "title": "높은 가격과 할인의 부재",
+      "summary": "정가가 부담스럽고 세일이 거의 없어 구매 결정에 부담이 큽니다. 가격 대비 콘텐츠 양과 가치에 대한 의견이 엇갈립니다."
     }
   ],
   "recent_state": {
     "status": "mixed",
-    "summary": "최근 리뷰는 좋았다는 반응과 아쉽다는 반응이 함께 보여 평가가 갈리는 편입니다."
+    "summary": "팩토리오의 자동화와 공장 설계의 깊이에 빠져드는 유저가 있는 반면, 난이도와 반복 작업, 가격 부담으로 아쉬움을 느끼는 의견도 공존합니다."
   },
   "evidence_reviews": [
     {
       "block_id": "str_1",
-      "title": "자동화와 병목 해소의 재미가 분명하다는 반응이다.",
+      "title": "자동화와 병목 해소의 재미가 분명하다는 반응",
       "theme": "자동화 라인",
-      "why_it_matters": "자동화와 효율 설계를 좋게 보는 반응이 많아, 병목을 풀고 확장하는 과정이 핵심 재미로 읽힙니다.",
-      "explanation": "자동화와 효율 설계를 좋게 보는 반응이 많아, 병목을 풀고 확장하는 과정이 핵심 재미로 읽힙니다.",
+      "why_it_matters": "자동화와 효율 설계를 좋게 보는 반응이 많아 병목을 풀고 확장하는 과정이 핵심 재미로 읽힙니다.",
+      "explanation": "자동화와 효율 설계를 좋게 보는 반응이 많아 병목을 풀고 확장하는 과정이 핵심 재미로 읽힙니다.",
       "aspect_keys": [
         "content_depth"
       ],
@@ -1072,21 +1295,21 @@
       ],
       "evidence_candidate_items": [
         {
-          "review_id": "compress-v3-positive-1-1-7968806338166832891",
+          "review_id": "compress-v3-positive-1-1-9054335663404872140",
           "text": "1.생산라인이 갈수록 복잡해져서 머리가 xx게 뜨거워짐 2.현타 와서 겜 끔 3.끄자마자 머릿속으로 생산라인 구상하고 있음 4.다시 차근차근 설치해보자면서 또 겜 켬 무한반복 안 그래도 머리 아파 디지겠는데 원주민 새x들 덩치만 자꾸 커짐"
         },
         {
-          "review_id": "compress-v3-positive-1-6-1462986754408684581",
+          "review_id": "compress-v3-positive-1-6-8587431685311731874",
           "text": "다이슨스피어프로그램과 함께 공장게임의 대표라고 할만한 게임 DLC 출시 전 기준으로는 우주적인 풍경과 비주얼을 즐기고 싶으면 다이슨스피어를 추천하고 라인을 만들고 공정을 짜는 공장게임 본연의 재미를 즐기고 싶다면 팩토리오를 추천하겠으나 팩토리오는 이번 DLC의 등장으로 공장을 짜는 맛에 성간물류까지 더해 한결 맛이 깊어졌다. 공장게임을 좋아한다면 반드시 해보아야 할 게임이라 하겠다. 다만 DLC는 컨텐츠가 많아지는 만큼 라이트 유저는 좀 버겁게 느껴질지도 모르겠다."
         }
       ]
     },
     {
       "block_id": "str_2",
-      "title": "핵심 플레이 감각이 좋다는 반응이다.",
+      "title": "플레이 흐름이 안정적으로 잡힌다는 반응",
       "theme": "난이도 / 진입장벽",
-      "why_it_matters": "기본 플레이 감각을 좋게 보는 반응이 많아, 손에 익는 재미가 중요한 쪽에 잘 맞습니다.",
-      "explanation": "기본 플레이 감각을 좋게 보는 반응이 많아, 손에 익는 재미가 중요한 쪽에 잘 맞습니다.",
+      "why_it_matters": "플레이 흐름이 안정적으로 잡힌다는 반응이 많아 익숙해질수록 리듬을 타기 좋은 편입니다.",
+      "explanation": "플레이 흐름이 안정적으로 잡힌다는 반응이 많아 익숙해질수록 리듬을 타기 좋은 편입니다.",
       "aspect_keys": [
         "difficulty"
       ],
@@ -1102,34 +1325,34 @@
       ],
       "evidence_snippets": [
         "본편 엔딩과 우주시대 엔딩까지 약 300시간 정도 소요되었습니다. 끝이 있을까 싶었던 우주시대에도 끝이 있었네요! 팩토리오: 우주시대를 끝내고 별이 된 6만명의 사람 중에 제 별도 있습니다! https://factorio. com/galaxy/Quantum%20II:%20Gamma2-2. F7V2 팩토리오는 그야말로 완벽한 레벨 디자인으로 플레이어에게 끊임없는 목표를 제공하고 각기 새로운 방법으로 도전하게 만듭니다. 본편 역시도 훌륭한 게임이지만, 우주시대의 레벨 디자인은 게임 역사상 최고에 가깝지 않나 생각 됩니다. 새로운 행성, 새로운 기술 체인이 등장할 때 마다 끊임없이 새로운 형식의 물류 퍼즐을 풀어야 했음에도 이를 지루하지 않게 해준 것은 몇번이고 말해도 부족한 아주 정교하고 놀라운 레벨 디자인 덕분입니다. 본편과 우주시대는 연장선상이 아닌 새로운 게임으로, DLC 단돈 4만원으로 팩토리오를 모르던 뇌로 돌아갈 수 있으니 꼭 본편 먼저 엔딩을 보고, 새로운 세이브 파일로 우주시대를 시작하는 것을 추천 드립니다. 게임 외적으로는 5개 행성에서 초당 백만 단위의 아이템, 유체, 전기 생산/소비 및 시뮬레이션에도 전혀 버벅임이 없는 완벽한 최적화를 보여주었고, 컨트롤러로 플레이 할 수 있는 게임은 아니라고 생각하지만 어쨌든 윈도우즈/맥/스팀OS 멀티플랫폼을 지원합니다. 다만 게임의 장르 특성상 다소 진입장벽이 있는 것은 사실일것 같습니다. 하지만 게임 초반에 다소 복잡해 보여 이런거까지 배워서 해야하나 싶던 요소들 (드론, 청사진, 논리회로, 품질작 등) 역시도 좋은 레벨 디자인과 맞물려 자연스럽게 배우고 사용하게끔 되어 걱정했던 만큼의 부담은 없는것 같습니다. 제 인생 최고의 게임으로 뽑는데 조금의 망설임도 없습니다.",
-        "이 게임에서 효율충은 언제나 승리함 근데 뉴비라서 그런가 효율적으로 돌아가게 맞추는게 은근 어려움",
+        "이 게임 더 파볼까 잠깐 고민했다가, \"아 이러다 20대 싹 다 증발하고 나는 사이버 공장 관리자 되는 거 아니냐?”싶어서 바로 삭제함. 솔직히 중·고등학교 때 만났으면 지금쯤 공부, 친구 모두 공장 벨트 위로 사라졌을듯 입문하기 전에 내 발목을 스스로 잘라버림..",
         "원숭이와 인간의 사이 그 어딘가 나는 존재했고, 아직도 초보다"
       ],
       "evidence_candidate_items": [
         {
-          "review_id": "compress-v3-positive-2-1-8888353133547823987",
+          "review_id": "compress-v3-positive-2-1-6742570442564593510",
           "text": "이 게임에서 효율충은 언제나 승리함 근데 뉴비라서 그런가 효율적으로 돌아가게 맞추는게 은근 어려움"
         },
         {
-          "review_id": "compress-v3-positive-2-2-4691166405072091089",
+          "review_id": "compress-v3-positive-2-2-2949548948580765545",
           "text": "원숭이와 인간의 사이 그 어딘가 나는 존재했고, 아직도 초보다"
         },
         {
-          "review_id": "compress-v3-positive-2-3-2919160927881058265",
+          "review_id": "compress-v3-positive-2-3-8686944118378371680",
           "text": "이 게임 더 파볼까 잠깐 고민했다가, \"아 이러다 20대 싹 다 증발하고 나는 사이버 공장 관리자 되는 거 아니냐?”싶어서 바로 삭제함. 솔직히 중·고등학교 때 만났으면 지금쯤 공부, 친구 모두 공장 벨트 위로 사라졌을듯 입문하기 전에 내 발목을 스스로 잘라버림.."
         },
         {
-          "review_id": "compress-v3-positive-2-4-4667009930502762948",
+          "review_id": "compress-v3-positive-2-4-6197614105708308349",
           "text": "본편 엔딩과 우주시대 엔딩까지 약 300시간 정도 소요되었습니다. 끝이 있을까 싶었던 우주시대에도 끝이 있었네요! 팩토리오: 우주시대를 끝내고 별이 된 6만명의 사람 중에 제 별도 있습니다! https://factorio.com/galaxy/Quantum%20II:%20Gamma2-2.F7V2 팩토리오는 그야말로 완벽한 레벨 디자인으로 플레이어에게 끊임없는 목표를 제공하고 각기 새로운 방법으로 도전하게 만듭니다. 본편 역시도 훌륭한 게임이지만, 우주시대의 레벨 디자인은 게임 역사상 최고에 가깝지 않나 생각 됩니다. 새로운 행성, 새로운 기술 체인이 등장할 때 마다 끊임없이 새로운 형식의 물류 퍼즐을 풀어야 했음에도 이를 지루하지 않게 해준 것은 몇번이고 말해도 부족한 아주 정교하고 놀라운 레벨 디자인 덕분입니다. 본편과 우주시대는 연장선상이 아닌 새로운 게임으로, DLC 단돈 4만원으로 팩토리오를 모르던 뇌로 돌아갈 수 있으니 꼭 본편 먼저 엔딩을 보고, 새로운 세이브 파일로 우주시대를 시작하는 것을 추천 드립니다. 게임 외적으로는 5개 행성에서 초당 백만 단위의 아이템, 유체, 전기 생산/소비 및 시뮬레이션에도 전혀 버벅임이 없는 완벽한 최적화를 보여주었고, 컨트롤러로 플레이 할 수 있는 게임은 아니라고 생각하지만 어쨌든 윈도우즈/맥/스팀OS 멀티플랫폼을 지원합니다. 다만 게임의 장르 특성상 다소 진입장벽이 있는 것은 사실일것 같습니다. 하지만 게임 초반에 다소 복잡해 보여 이런거까지 배워서 해야하나 싶던 요소들 (드론, 청사진, 논리회로, 품질작 등) 역시도 좋은 레벨 디자인과 맞물려 자연스럽게 배우고 사용하게끔 되어 걱정했던 만큼의 부담은 없는것 같습니다. 제 인생 최고의 게임으로 뽑는데 조금의 망설임도 없습니다."
         }
       ]
     },
     {
       "block_id": "risk_1",
-      "title": "초반 적응이 답답하다는 반응이다.",
+      "title": "초반 적응이 답답하다는 반응",
       "theme": "튜토리얼 / 온보딩 부족",
-      "why_it_matters": "초반 적응이 답답하다는 반응이 있어, 바로 손에 익는 경험을 원하면 진입 장벽이 높을 수 있습니다.",
-      "explanation": "초반 적응이 답답하다는 반응이 있어, 바로 손에 익는 경험을 원하면 진입 장벽이 높을 수 있습니다.",
+      "why_it_matters": "초반 적응이 느리다는 반응이 있어 바로 손에 붙는 경험을 원하면 답답함이 먼저 올 수 있습니다.",
+      "explanation": "초반 적응이 느리다는 반응이 있어 바로 손에 붙는 경험을 원하면 답답함이 먼저 올 수 있습니다.",
       "aspect_keys": [
         "difficulty"
       ],
@@ -1150,39 +1373,39 @@
       "evidence_snippets": [
         "표면적으로는 게임플레이가 반복적으로 보일 수 있지만 실제로는 그렇지 않음 새로운 기술이 잠금 해제 될 때마다 새로운 아이템을 만드는 데 필요한 자원의 난이도가 증가함 지루하지 않고 자유롭고 창의적인 플레이가 가능함",
         "공장 최적화 중독 영토 확장 벌레 학살 시간 순삭 계산기 필요",
-        "핵분열로 탄소중립을 달성하는 것에 성공했지만 탄소배출을 싫어하는 친환경적 적대적 원주생명체와는 화해하지 못했습니다. 핵이 있어서 평화가 필요없어졌거든요."
+        "이 정도로 완성도 높은겜 거의 본적 없는데, 제작자 블로그에서 꾸역꾸역 문제점 찾아서 고치려는거 보고 경이로웠음. 할인 안해도 ㅇㅈ하고, dlc풀프로 내도 살거임."
       ],
       "evidence_candidate_items": [
         {
-          "review_id": "compress-v3-negative-1-1-7833742555300557485",
+          "review_id": "compress-v3-negative-1-1-8336214907663062155",
           "text": "공장 최적화 중독 영토 확장 벌레 학살 시간 순삭 계산기 필요"
         },
         {
-          "review_id": "compress-v3-negative-1-2-6057994012300080678",
+          "review_id": "compress-v3-negative-1-2-7246302004299828016",
           "text": "표면적으로는 게임플레이가 반복적으로 보일 수 있지만 실제로는 그렇지 않음 새로운 기술이 잠금 해제 될 때마다 새로운 아이템을 만드는 데 필요한 자원의 난이도가 증가함 지루하지 않고 자유롭고 창의적인 플레이가 가능함"
         },
         {
-          "review_id": "compress-v3-negative-1-3-2588666679865452424",
+          "review_id": "compress-v3-negative-1-3-2915799752374190514",
           "text": "이 정도로 완성도 높은겜 거의 본적 없는데, 제작자 블로그에서 꾸역꾸역 문제점 찾아서 고치려는거 보고 경이로웠음. 할인 안해도 ㅇㅈ하고, dlc풀프로 내도 살거임."
         },
         {
-          "review_id": "compress-v3-negative-1-4-8480543435132864573",
+          "review_id": "compress-v3-negative-1-4-695622383584556969",
           "text": "얘넨 디지털로 발매했으면서 가격은 왜 싯가냐 볼 때 마다 올라있어"
         },
         {
-          "review_id": "compress-v3-negative-1-5-4944311078993548423",
+          "review_id": "compress-v3-negative-1-5-1021991444985621674",
           "text": "기지 건설 + 바퀴벌레 = 핵폭탄"
         },
         {
-          "review_id": "compress-v3-negative-1-6-5506246146553512573",
+          "review_id": "compress-v3-negative-1-6-10816595619669019",
           "text": "친구가 하자고해서 샀짐나 ... 눈이넘으 아픔.."
         },
         {
-          "review_id": "compress-v3-negative-1-7-9021766405573926454",
+          "review_id": "compress-v3-negative-1-7-7456623775112289096",
           "text": "핵분열로 탄소중립을 달성하는 것에 성공했지만 탄소배출을 싫어하는 친환경적 적대적 원주생명체와는 화해하지 못했습니다. 핵이 있어서 평화가 필요없어졌거든요."
         },
         {
-          "review_id": "compress-v3-negative-1-8-4428438704999196831",
+          "review_id": "compress-v3-negative-1-8-403408231653823768",
           "text": "이 게임을 하기 전에도 저는 정리하는 방법을 잘 모르고 살았습니다. 이 게임을 하면서도 저는 정리하는 방법을 잘 모르고 했습니다. 이 게임에서 로켓을 쏜 후, 저는 정리하는 방법을 참 모르는 사람이구나 라고 확신하게 되었습니다. 밥 모드를 설치한 후, 저는 공장 최적화 설계를 하는 모든 분들을 존경하게 되었습니다."
         }
       ]

@@ -1,0 +1,229 @@
+{
+  "appid": 2246340,
+  "name": "Monster Hunter Wilds",
+  "name_en": "Monster Hunter Wilds",
+  "name_ko": "Monster Hunter Wilds",
+  "genres": [
+    "액션",
+    "어드벤처",
+    "RPG"
+  ],
+  "price_model": "paid",
+  "release_stage": "released",
+  "release_date_text": "2025년 2월 27일",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/header.jpg?t=1771382452",
+  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/970508d58e4f11f6f9ff3e2921b7eec558a50af8/capsule_231x87.jpg?t=1771382452",
+  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/970508d58e4f11f6f9ff3e2921b7eec558a50af8/capsule_184x69.jpg?t=1771382452",
+  "screenshots": [
+    {
+      "id": "0",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_31b5597fecf2d9a2904bc9bbf8011aacb18143db.600x338.jpg?t=1771382452",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_31b5597fecf2d9a2904bc9bbf8011aacb18143db.1920x1080.jpg?t=1771382452"
+    },
+    {
+      "id": "1",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_9245c1ede8c3fc2cd65e4890a74a01ef50b726da.600x338.jpg?t=1771382452",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_9245c1ede8c3fc2cd65e4890a74a01ef50b726da.1920x1080.jpg?t=1771382452"
+    },
+    {
+      "id": "2",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_c722e74607ffda9a1472093ccc934f1bdde10ab8.600x338.jpg?t=1771382452",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_c722e74607ffda9a1472093ccc934f1bdde10ab8.1920x1080.jpg?t=1771382452"
+    },
+    {
+      "id": "3",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_d439e321350c004c4d866c248019aefdc6a50600.600x338.jpg?t=1771382452",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_d439e321350c004c4d866c248019aefdc6a50600.1920x1080.jpg?t=1771382452"
+    },
+    {
+      "id": "4",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_fa2361b39da8e8bde3cbc282879de97f2f3e57af.600x338.jpg?t=1771382452",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_fa2361b39da8e8bde3cbc282879de97f2f3e57af.1920x1080.jpg?t=1771382452"
+    },
+    {
+      "id": "5",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_c1dd8c8af4e0fd3bb233888b4155d94f7988debd.600x338.jpg?t=1771382452",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_c1dd8c8af4e0fd3bb233888b4155d94f7988debd.1920x1080.jpg?t=1771382452"
+    },
+    {
+      "id": "6",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_c1c31d5252307bd9e331f21509c8fd8dc39c2d61.600x338.jpg?t=1771382452",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_c1c31d5252307bd9e331f21509c8fd8dc39c2d61.1920x1080.jpg?t=1771382452"
+    },
+    {
+      "id": "7",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_5b3101fafdfb638384a5cc0024a9801fe6af06b6.600x338.jpg?t=1771382452",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_5b3101fafdfb638384a5cc0024a9801fe6af06b6.1920x1080.jpg?t=1771382452"
+    },
+    {
+      "id": "8",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_e78e739e1cd881de7a7c4cbec0b3ada2df155678.600x338.jpg?t=1771382452",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_e78e739e1cd881de7a7c4cbec0b3ada2df155678.1920x1080.jpg?t=1771382452"
+    },
+    {
+      "id": "9",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_d17898c5f18d4e081fe185d28fd0eb8155fbf529.600x338.jpg?t=1771382452",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_d17898c5f18d4e081fe185d28fd0eb8155fbf529.1920x1080.jpg?t=1771382452"
+    }
+  ],
+  "movies": [
+    {
+      "id": "257283344",
+      "name": "02_MHWilds_TU4.5_Multi_KR_NoRating_1080p",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257283344/f56fc8e58afb3467141df79a3f449fab20649949/movie_600x337.jpg?t=1770710685",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/1541253526/042a92b2d007ade5d0c28ffb0ccb8c5bc42fe0cd/1770702160/hls_264_master.m3u8?t=1770710685",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/1541253526/042a92b2d007ade5d0c28ffb0ccb8c5bc42fe0cd/1770702160/dash_h264.mpd?t=1770710685",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2246340/1541253526/042a92b2d007ade5d0c28ffb0ccb8c5bc42fe0cd/1770702160/dash_av1.mpd?t=1770710685",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/2246340/1541253526/042a92b2d007ade5d0c28ffb0ccb8c5bc42fe0cd/1770702160/hls_264_master.m3u8?t=1770710685"
+    },
+    {
+      "id": "257247847",
+      "name": "02_MHWilds_TU4_Multi_KR_NoRating_1080p",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257247847/a65be8c16e8d198844dfe817412b441c5d1f352e/movie_600x337.jpg?t=1765526407",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/1042235984/13810532c2dcbb9bc51318bf84c954a0044e42f6/1765505266/hls_264_master.m3u8?t=1765526407",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/1042235984/13810532c2dcbb9bc51318bf84c954a0044e42f6/1765505266/dash_h264.mpd?t=1765526407",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2246340/1042235984/13810532c2dcbb9bc51318bf84c954a0044e42f6/1765505266/dash_av1.mpd?t=1765526407",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/2246340/1042235984/13810532c2dcbb9bc51318bf84c954a0044e42f6/1765505266/hls_264_master.m3u8?t=1765526407"
+    },
+    {
+      "id": "257205912",
+      "name": "02_MHWilds_TU3_Multi_KR_NoRating_1080p",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257205912/9dfa3c12cb51aefbc31d546a232181be24c19322/movie_600x337.jpg?t=1758783962",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/311642500/8bac47e9264998812e526c1aa530893584dd58b7/1758775999/hls_264_master.m3u8?t=1758783962",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/311642500/8bac47e9264998812e526c1aa530893584dd58b7/1758775999/dash_h264.mpd?t=1758783962",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2246340/311642500/8bac47e9264998812e526c1aa530893584dd58b7/1758775999/dash_av1.mpd?t=1758783962",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/2246340/311642500/8bac47e9264998812e526c1aa530893584dd58b7/1758775999/hls_264_master.m3u8?t=1758783962"
+    },
+    {
+      "id": "257162144",
+      "name": "02_MHWilds_TU2_Multi_KR_NoRating_1080p",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257162144/7abdbb66cc73fe48c5d83286a334fb9e83c6bbe5/movie_600x337.jpg?t=1750999199",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/1582877284/53ae83153516409edeed977b05287ccdbce9fe81/1750990362/hls_264_master.m3u8?t=1750999199",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/1582877284/53ae83153516409edeed977b05287ccdbce9fe81/1750990362/dash_h264.mpd?t=1750999199",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2246340/1582877284/53ae83153516409edeed977b05287ccdbce9fe81/1750990362/dash_av1.mpd?t=1750999199",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/2246340/1582877284/53ae83153516409edeed977b05287ccdbce9fe81/1750990362/hls_264_master.m3u8?t=1750999199"
+    },
+    {
+      "id": "257118552",
+      "name": "02_MHWilds_TU1_Multi_KR_1080p",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257118552/d9f67f524a5de835fc81740acae8e4178c4dc8d9/movie_600x337.jpg?t=1742961813",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/857801/182ace032aff9058a1fcb1412c576ae75cb21485/1748034205/hls_264_master.m3u8?t=1742961813",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/857801/182ace032aff9058a1fcb1412c576ae75cb21485/1748034205/dash_h264.mpd?t=1742961813",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2246340/857801/182ace032aff9058a1fcb1412c576ae75cb21485/1748034205/dash_av1.mpd?t=1742961813",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/2246340/857801/182ace032aff9058a1fcb1412c576ae75cb21485/1748034205/hls_264_master.m3u8?t=1742961813"
+    },
+    {
+      "id": "257108892",
+      "name": "02_MHWilds_StoryPV_Multi_KR_1080p",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257108892/b6cc301baf2b1a852fb956fb6ac547046e48b0ce/movie_600x337.jpg?t=1740977495",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/842756/44cfbbf15a3ff77f044ed73b649d9921d78ad45a/1748034075/hls_264_master.m3u8?t=1740977495",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/842756/44cfbbf15a3ff77f044ed73b649d9921d78ad45a/1748034075/dash_h264.mpd?t=1740977495",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2246340/842756/44cfbbf15a3ff77f044ed73b649d9921d78ad45a/1748034075/dash_av1.mpd?t=1740977495",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/2246340/842756/44cfbbf15a3ff77f044ed73b649d9921d78ad45a/1748034075/hls_264_master.m3u8?t=1740977495"
+    },
+    {
+      "id": "257097894",
+      "name": "02_MHWilds_PV7_Multi_KR_1080p",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257097894/14271d82fae23158bde2f51f4af8216d6046ed3a/movie_600x337.jpg?t=1739425886",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/828214/d91d56a018e371170bc8a01fc648be69682e81bf/1748033109/hls_264_master.m3u8?t=1739425886",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/828214/d91d56a018e371170bc8a01fc648be69682e81bf/1748033109/dash_h264.mpd?t=1739425886",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2246340/828214/d91d56a018e371170bc8a01fc648be69682e81bf/1748033109/dash_av1.mpd?t=1739425886",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/2246340/828214/d91d56a018e371170bc8a01fc648be69682e81bf/1748033109/hls_264_master.m3u8?t=1739425886"
+    },
+    {
+      "id": "257094886",
+      "name": "02_MHWilds_PV6_Multi_KR_1080p",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257094886/9b5f62e4a58338d475f11a7d95921f0c8f09e5e7/movie_600x337.jpg?t=1739425928",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/823300/432fa171a28f085f7ce2e575461624ac67b0533c/1748032643/hls_264_master.m3u8?t=1739425928",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/823300/432fa171a28f085f7ce2e575461624ac67b0533c/1748032643/dash_h264.mpd?t=1739425928",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2246340/823300/432fa171a28f085f7ce2e575461624ac67b0533c/1748032643/dash_av1.mpd?t=1739425928",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/2246340/823300/432fa171a28f085f7ce2e575461624ac67b0533c/1748032643/hls_264_master.m3u8?t=1739425928"
+    },
+    {
+      "id": "257068937",
+      "name": "02_MHWilds_PV5_Multi_KR_1080p",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257068937/587ceff321831e80b8a2cdace618249c1f6ac209/movie_600x337.jpg?t=1730266635",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/778036/935107b76eb94c1594da908cf570e7dbccc6c5b0/1748031233/hls_264_master.m3u8?t=1730266635",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/778036/935107b76eb94c1594da908cf570e7dbccc6c5b0/1748031233/dash_h264.mpd?t=1730266635",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2246340/778036/935107b76eb94c1594da908cf570e7dbccc6c5b0/1748031233/dash_av1.mpd?t=1730266635",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/2246340/778036/935107b76eb94c1594da908cf570e7dbccc6c5b0/1748031233/hls_264_master.m3u8?t=1730266635"
+    },
+    {
+      "id": "257069235",
+      "name": "02_MHWilds_PV4_Multi_KR_1080p_0926",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257069235/aba4ff6100abadd9343ce4bbf03ddee17b652faf/movie_600x337.jpg?t=1730266707",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/778496/31c375304761e1d279b958cc8981ff5854925f81/1748032568/hls_264_master.m3u8?t=1730266707",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/778496/31c375304761e1d279b958cc8981ff5854925f81/1748032568/dash_h264.mpd?t=1730266707",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2246340/778496/31c375304761e1d279b958cc8981ff5854925f81/1748032568/dash_av1.mpd?t=1730266707",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/2246340/778496/31c375304761e1d279b958cc8981ff5854925f81/1748032568/hls_264_master.m3u8?t=1730266707"
+    },
+    {
+      "id": "257069217",
+      "name": "02_MHWilds_PV3_Multi_KR_1080p",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257069217/ad718a00c58fef2be8371dfd0891afa20729bba3/movie_600x337.jpg?t=1730266779",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/778477/2395e11365dd486d339e2f745bc5a8e8172645a3/1748031780/hls_264_master.m3u8?t=1730266779",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/778477/2395e11365dd486d339e2f745bc5a8e8172645a3/1748031780/dash_h264.mpd?t=1730266779",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2246340/778477/2395e11365dd486d339e2f745bc5a8e8172645a3/1748031780/dash_av1.mpd?t=1730266779",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/2246340/778477/2395e11365dd486d339e2f745bc5a8e8172645a3/1748031780/hls_264_master.m3u8?t=1730266779"
+    },
+    {
+      "id": "257027126",
+      "name": "02_MHWilds_PV1_Multi_KR_1080P",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257027126/movie.293x165.jpg?t=1717124049",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/707264/2a3639eea5fb4de063a77def8a8b6ce9b129ce20/1748031166/hls_264_master.m3u8?t=1717124049",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/707264/2a3639eea5fb4de063a77def8a8b6ce9b129ce20/1748031166/dash_h264.mpd?t=1717124049",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2246340/707264/2a3639eea5fb4de063a77def8a8b6ce9b129ce20/1748031166/dash_av1.mpd?t=1717124049",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/2246340/707264/2a3639eea5fb4de063a77def8a8b6ce9b129ce20/1748031166/hls_264_master.m3u8?t=1717124049"
+    },
+    {
+      "id": "256988304",
+      "name": "02_MHWilds_AnnouncePV_Multi_KR_1080P",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256988304/movie.293x165.jpg?t=1702947733",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/639411/59a4ca7bc27c308e836a1b79dbbb9514ab8d93da/1748031157/hls_264_master.m3u8?t=1702947733",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2246340/639411/59a4ca7bc27c308e836a1b79dbbb9514ab8d93da/1748031157/dash_h264.mpd?t=1702947733",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2246340/639411/59a4ca7bc27c308e836a1b79dbbb9514ab8d93da/1748031157/dash_av1.mpd?t=1702947733",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/2246340/639411/59a4ca7bc27c308e836a1b79dbbb9514ab8d93da/1748031157/hls_264_master.m3u8?t=1702947733"
+    }
+  ],
+  "short_description": "거칠고 치열한 자연의 습격. 시시각각 역동적으로 그 모습을 바꾸는 필드. 양면성을 지닌 세계를 살아가는 몬스터와 사람들의 이야기. 더욱더 발전한 헌팅 액션과 끊임없는 몰입감을 추구하는 궁극의 사냥 체험이 당신을 기다리고 있다.",
+  "steam_store_url": "https://store.steampowered.com/app/2246340",
+  "steam_recommendation_count": 192846,
+  "steam_review_score_desc": "Mixed",
+  "steam_total_positive": 9682,
+  "steam_total_negative": 7918,
+  "steam_total_reviews": 17600,
+  "price_currency": "KRW",
+  "price_current": 8480000,
+  "price_original": 8480000,
+  "price_current_formatted": "₩ 84,800",
+  "price_original_formatted": null,
+  "price_discount_percent": 0,
+  "is_free": false,
+  "coming_soon": false
+}

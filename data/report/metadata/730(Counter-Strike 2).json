@@ -1,6 +1,8 @@
 {
   "appid": 730,
   "name": "Counter-Strike 2",
+  "name_en": "Counter-Strike 2",
+  "name_ko": "Counter-Strike 2",
   "genres": [
     "액션",
     "무료 플레이"
@@ -11,13 +13,162 @@
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/header.jpg?t=1749053861",
   "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/capsule_231x87.jpg?t=1749053861",
   "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/capsule_184x69.jpg?t=1749053861",
+  "screenshots": [
+    {
+      "id": "0",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_796601d9d67faf53486eeb26d0724347cea67ddc.600x338.jpg?t=1749053861",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_796601d9d67faf53486eeb26d0724347cea67ddc.1920x1080.jpg?t=1749053861"
+    },
+    {
+      "id": "1",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_d830cfd0550fbb64d80e803e93c929c3abb02056.600x338.jpg?t=1749053861",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_d830cfd0550fbb64d80e803e93c929c3abb02056.1920x1080.jpg?t=1749053861"
+    },
+    {
+      "id": "2",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_13bb35638c0267759276f511ee97064773b37a51.600x338.jpg?t=1749053861",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_13bb35638c0267759276f511ee97064773b37a51.1920x1080.jpg?t=1749053861"
+    },
+    {
+      "id": "3",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_0f8cf82d019c614760fd20801f2bb4001da7ea77.600x338.jpg?t=1749053861",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_0f8cf82d019c614760fd20801f2bb4001da7ea77.1920x1080.jpg?t=1749053861"
+    },
+    {
+      "id": "4",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_ef82850f036dac5772cb07dbc2d1116ea13eb163.600x338.jpg?t=1749053861",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_ef82850f036dac5772cb07dbc2d1116ea13eb163.1920x1080.jpg?t=1749053861"
+    },
+    {
+      "id": "5",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_76f6730dbb911650ba1f41c8e5b4bac638b5beea.600x338.jpg?t=1749053861",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_76f6730dbb911650ba1f41c8e5b4bac638b5beea.1920x1080.jpg?t=1749053861"
+    },
+    {
+      "id": "6",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_808cdd373d78c3cf3a78e7026ebb1a15895e0670.600x338.jpg?t=1749053861",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_808cdd373d78c3cf3a78e7026ebb1a15895e0670.1920x1080.jpg?t=1749053861"
+    },
+    {
+      "id": "7",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_ef98db5d5a4d877531a5567df082b0fb62d75c80.600x338.jpg?t=1749053861",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_ef98db5d5a4d877531a5567df082b0fb62d75c80.1920x1080.jpg?t=1749053861"
+    },
+    {
+      "id": "8",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_2254a50f27951fb9028bc00b93a7f2ed7aac1e13.600x338.jpg?t=1749053861",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_2254a50f27951fb9028bc00b93a7f2ed7aac1e13.1920x1080.jpg?t=1749053861"
+    },
+    {
+      "id": "9",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_54b9c26b028c84d5f8a5316f31ae6203953ed84d.600x338.jpg?t=1749053861",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_54b9c26b028c84d5f8a5316f31ae6203953ed84d.1920x1080.jpg?t=1749053861"
+    },
+    {
+      "id": "10",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_1b3b5fd437939a7ed00a2155269e78994cb998d3.600x338.jpg?t=1749053861",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_1b3b5fd437939a7ed00a2155269e78994cb998d3.1920x1080.jpg?t=1749053861"
+    },
+    {
+      "id": "11",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_352666c1949ce3966bd966d6ea5a1afd532257bc.600x338.jpg?t=1749053861",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_352666c1949ce3966bd966d6ea5a1afd532257bc.1920x1080.jpg?t=1749053861"
+    },
+    {
+      "id": "12",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_63d2733b9b4ace01a41d5ba8afd653245d05d54a.600x338.jpg?t=1749053861",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_63d2733b9b4ace01a41d5ba8afd653245d05d54a.1920x1080.jpg?t=1749053861"
+    },
+    {
+      "id": "13",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_fe70d46859593aef623a0614f4686e2814405035.600x338.jpg?t=1749053861",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_fe70d46859593aef623a0614f4686e2814405035.1920x1080.jpg?t=1749053861"
+    },
+    {
+      "id": "14",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_bb2af3e83ac0385ff2055f2ab9697cdd83e351b7.600x338.jpg?t=1749053861",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_bb2af3e83ac0385ff2055f2ab9697cdd83e351b7.1920x1080.jpg?t=1749053861"
+    },
+    {
+      "id": "15",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_fb8e5e2ae29ce64e2898315c66b5db08989e8f91.600x338.jpg?t=1749053861",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_fb8e5e2ae29ce64e2898315c66b5db08989e8f91.1920x1080.jpg?t=1749053861"
+    },
+    {
+      "id": "16",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_0db84c628a798e38ca57d69abda119bee1358008.600x338.jpg?t=1749053861",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_0db84c628a798e38ca57d69abda119bee1358008.1920x1080.jpg?t=1749053861"
+    },
+    {
+      "id": "17",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_18e9ea2715f0407ee05e206073927a648db60d73.600x338.jpg?t=1749053861",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_18e9ea2715f0407ee05e206073927a648db60d73.1920x1080.jpg?t=1749053861"
+    },
+    {
+      "id": "18",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_2514675f364079b754b820cbc8b2e7c331d56a26.600x338.jpg?t=1749053861",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_2514675f364079b754b820cbc8b2e7c331d56a26.1920x1080.jpg?t=1749053861"
+    }
+  ],
+  "movies": [
+    {
+      "id": "256972298",
+      "name": "Launch Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256972298/movie.293x165.jpg?t=1696005467",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/730/612468/aa5a28c78f12232e6b6839034550c28b162fad3e/1748810724/hls_264_master.m3u8?t=1696005467",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/730/612468/aa5a28c78f12232e6b6839034550c28b162fad3e/1748810724/dash_h264.mpd?t=1696005467",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/730/612468/aa5a28c78f12232e6b6839034550c28b162fad3e/1748810724/dash_av1.mpd?t=1696005467",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/730/612468/aa5a28c78f12232e6b6839034550c28b162fad3e/1748810724/hls_264_master.m3u8?t=1696005467"
+    },
+    {
+      "id": "256970298",
+      "name": "Moving Beyond Tick Rate",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256970298/movie.293x165.jpg?t=1696005475",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/730/608984/a3ae9d5b8de21282056059ca5e851a063a253a55/1748810722/hls_264_master.m3u8?t=1696005475",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/730/608984/a3ae9d5b8de21282056059ca5e851a063a253a55/1748810722/dash_h264.mpd?t=1696005475",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/730/608984/a3ae9d5b8de21282056059ca5e851a063a253a55/1748810722/dash_av1.mpd?t=1696005475",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/730/608984/a3ae9d5b8de21282056059ca5e851a063a253a55/1748810722/hls_264_master.m3u8?t=1696005475"
+    },
+    {
+      "id": "256969703",
+      "name": "Leveling Up",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256969703/movie.293x165.jpg?t=1696005483",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/730/607867/ed6e0afecb45c615095cf8d84cec9d31659a3cc7/1748810722/hls_264_master.m3u8?t=1696005483",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/730/607867/ed6e0afecb45c615095cf8d84cec9d31659a3cc7/1748810722/dash_h264.mpd?t=1696005483",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/730/607867/ed6e0afecb45c615095cf8d84cec9d31659a3cc7/1748810722/dash_av1.mpd?t=1696005483",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/730/607867/ed6e0afecb45c615095cf8d84cec9d31659a3cc7/1748810722/hls_264_master.m3u8?t=1696005483"
+    },
+    {
+      "id": "256969690",
+      "name": "Responsive Smokes",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256969690/movie.293x165.jpg?t=1696005491",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/730/607847/d73c6346bc3bf5dbc6d66a8f721bab640fa3d37c/1748810721/hls_264_master.m3u8?t=1696005491",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/730/607847/d73c6346bc3bf5dbc6d66a8f721bab640fa3d37c/1748810721/dash_h264.mpd?t=1696005491",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/730/607847/d73c6346bc3bf5dbc6d66a8f721bab640fa3d37c/1748810721/dash_av1.mpd?t=1696005491",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/730/607847/d73c6346bc3bf5dbc6d66a8f721bab640fa3d37c/1748810721/hls_264_master.m3u8?t=1696005491"
+    }
+  ],
   "short_description": "Counter-Strike는 20년이 넘는 시간 동안 전 세계 수백만 명의 플레이어가 모여 수준 높은 경쟁을 펼칠 수 있는 플랫폼을 제공해 왔습니다. 그리고 이제 곧 Counter-Strike 2와 함께 새로운 CS 시대의 막이 열립니다.",
   "steam_store_url": "https://store.steampowered.com/app/730",
-  "steam_recommendation_count": 5054158,
+  "steam_recommendation_count": 5059153,
   "steam_review_score_desc": "Very Positive",
-  "steam_total_positive": 20465,
-  "steam_total_negative": 5078,
-  "steam_total_reviews": 25543,
+  "steam_total_positive": 20479,
+  "steam_total_negative": 5082,
+  "steam_total_reviews": 25561,
+  "price_currency": null,
+  "price_current": null,
+  "price_original": null,
+  "price_current_formatted": null,
+  "price_original_formatted": null,
+  "price_discount_percent": null,
   "is_free": true,
   "coming_soon": false
 }
