@@ -1,0 +1,140 @@
+{
+  "appid": 1551360,
+  "name": "Forza Horizon 5",
+  "name_en": "Forza Horizon 5",
+  "name_ko": "Forza Horizon 5",
+  "genres": [
+    "액션",
+    "어드벤처",
+    "레이싱",
+    "시뮬레이션",
+    "스포츠"
+  ],
+  "price_model": "paid",
+  "release_stage": "released",
+  "release_date_text": "2021년 11월 8일",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg?t=1746471508",
+  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_231x87.jpg?t=1746471508",
+  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_184x69.jpg?t=1746471508",
+  "screenshots": [
+    {
+      "id": "0",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_cf56e25a0290556ba83229eb0ab370d10be0407c.600x338.jpg?t=1746471508",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_cf56e25a0290556ba83229eb0ab370d10be0407c.1920x1080.jpg?t=1746471508"
+    },
+    {
+      "id": "1",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_00f0090174380eeaf8753bd3d1028b6772c3aebf.600x338.jpg?t=1746471508",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_00f0090174380eeaf8753bd3d1028b6772c3aebf.1920x1080.jpg?t=1746471508"
+    },
+    {
+      "id": "2",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_b65236b365315ebb6da6114ce42cd74b59cab3c8.600x338.jpg?t=1746471508",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_b65236b365315ebb6da6114ce42cd74b59cab3c8.1920x1080.jpg?t=1746471508"
+    },
+    {
+      "id": "3",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_0a13a7ccd38e7c3e6a5f1720050732833b53b6a8.600x338.jpg?t=1746471508",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_0a13a7ccd38e7c3e6a5f1720050732833b53b6a8.1920x1080.jpg?t=1746471508"
+    },
+    {
+      "id": "4",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_3654a5988db68f9b47740f9f6a9299682c365599.600x338.jpg?t=1746471508",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_3654a5988db68f9b47740f9f6a9299682c365599.1920x1080.jpg?t=1746471508"
+    },
+    {
+      "id": "5",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_0bc32360d32b21abdf889422385cd753862dd73e.600x338.jpg?t=1746471508",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_0bc32360d32b21abdf889422385cd753862dd73e.1920x1080.jpg?t=1746471508"
+    },
+    {
+      "id": "6",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_1da0673f82eccc3c9d222237dec40e36bf10eef3.600x338.jpg?t=1746471508",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_1da0673f82eccc3c9d222237dec40e36bf10eef3.1920x1080.jpg?t=1746471508"
+    },
+    {
+      "id": "7",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_78e4f63e05d50e59b9966ba8da9a53dbf84fd8f4.600x338.jpg?t=1746471508",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_78e4f63e05d50e59b9966ba8da9a53dbf84fd8f4.1920x1080.jpg?t=1746471508"
+    },
+    {
+      "id": "8",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_c8390c1e88ba5e660a58e8e435ebc77dcda5c91d.600x338.jpg?t=1746471508",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_c8390c1e88ba5e660a58e8e435ebc77dcda5c91d.1920x1080.jpg?t=1746471508"
+    },
+    {
+      "id": "9",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_3c16188972c826942f47991d91b0f6dc17e01fc9.600x338.jpg?t=1746471508",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_3c16188972c826942f47991d91b0f6dc17e01fc9.1920x1080.jpg?t=1746471508"
+    },
+    {
+      "id": "10",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_49297af1ddef7779e644c2deb1df611a5f5cd344.600x338.jpg?t=1746471508",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_49297af1ddef7779e644c2deb1df611a5f5cd344.1920x1080.jpg?t=1746471508"
+    },
+    {
+      "id": "11",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_733100a0e305025cfea4797c14cb55a9e2673521.600x338.jpg?t=1746471508",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_733100a0e305025cfea4797c14cb55a9e2673521.1920x1080.jpg?t=1746471508"
+    },
+    {
+      "id": "12",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_4f2da231c28c5cb6a1ed4f62aaad6f51ca4a5c05.600x338.jpg?t=1746471508",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_4f2da231c28c5cb6a1ed4f62aaad6f51ca4a5c05.1920x1080.jpg?t=1746471508"
+    },
+    {
+      "id": "13",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_af9712cbc5121307926cb3e7dfc7228d45940557.600x338.jpg?t=1746471508",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_af9712cbc5121307926cb3e7dfc7228d45940557.1920x1080.jpg?t=1746471508"
+    },
+    {
+      "id": "14",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_d26239d188301bb6f2475c6d323ae007195b7542.600x338.jpg?t=1746471508",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_d26239d188301bb6f2475c6d323ae007195b7542.1920x1080.jpg?t=1746471508"
+    },
+    {
+      "id": "15",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_16be1ecc46e7c0a3aa68e646af904c66ea8e1c81.600x338.jpg?t=1746471508",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_16be1ecc46e7c0a3aa68e646af904c66ea8e1c81.1920x1080.jpg?t=1746471508"
+    }
+  ],
+  "movies": [
+    {
+      "id": "256875134",
+      "name": "Forza Horizon 5 Accolades Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256875134/movie.293x165.jpg?t=1647525311",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1551360/442268/66eddb8cdf196bf7c8d9bb8e8895bd7f60133cc1/1750700745/hls_264_master.m3u8?t=1647525311",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1551360/442268/66eddb8cdf196bf7c8d9bb8e8895bd7f60133cc1/1750700745/dash_h264.mpd?t=1647525311",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1551360/442268/66eddb8cdf196bf7c8d9bb8e8895bd7f60133cc1/1750700745/dash_av1.mpd?t=1647525311",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/1551360/442268/66eddb8cdf196bf7c8d9bb8e8895bd7f60133cc1/1750700745/hls_264_master.m3u8?t=1647525311"
+    },
+    {
+      "id": "256859757",
+      "name": "Forza Horizon 5 Launch Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256859757/movie.293x165.jpg?t=1636489104",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1551360/415818/c7f56150fb05a56618bd5675f8d2770a2c9b1a20/1750700743/hls_264_master.m3u8?t=1636489104",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1551360/415818/c7f56150fb05a56618bd5675f8d2770a2c9b1a20/1750700743/dash_h264.mpd?t=1636489104",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1551360/415818/c7f56150fb05a56618bd5675f8d2770a2c9b1a20/1750700743/dash_av1.mpd?t=1636489104",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/1551360/415818/c7f56150fb05a56618bd5675f8d2770a2c9b1a20/1750700743/hls_264_master.m3u8?t=1636489104"
+    }
+  ],
+  "short_description": "세계 최고의 자동차를 타고 생동감 넘치는 멕시코의 대자연을 탐험하며 재미있는 드라이빙 액션을 마음껏 즐겨보세요.",
+  "steam_store_url": "https://store.steampowered.com/app/1551360",
+  "steam_recommendation_count": 249953,
+  "steam_review_score_desc": "Very Positive",
+  "steam_total_positive": 4701,
+  "steam_total_negative": 631,
+  "steam_total_reviews": 5332,
+  "price_currency": "KRW",
+  "price_current": 5990000,
+  "price_original": 5990000,
+  "price_current_formatted": "₩ 59,900",
+  "price_original_formatted": null,
+  "price_discount_percent": 0,
+  "is_free": false,
+  "coming_soon": false
+}
