@@ -55,22 +55,43 @@ def _contains_korean(text: str) -> bool:
 
 
 def _ensure_polite_ko(text: str) -> str:
-    t = re.sub(r"\s+", " ", str(text or "")).strip()
-    if not t:
+    raw = re.sub(r"\s+", " ", str(text or "")).strip()
+    if not raw:
         return ""
-    # If sentence already ends politely, keep it.
-    if re.search(r"(습니다|입니다|요)[.!?]?$", t):
-        return t
-    # Mild normalization for common casual endings.
-    t = re.sub(r"해줘[.!?]?$", "해 주세요.", t)
-    t = re.sub(r"할게[.!?]?$", "하겠습니다.", t)
-    t = re.sub(r"좋아[.!?]?$", "좋습니다.", t)
-    # If still not polite, append a polite ending.
-    if not re.search(r"(습니다|입니다|요)[.!?]?$", t):
-        if t.endswith("."):
-            t = t[:-1]
-        t = t + "입니다."
-    return t
+
+    def _to_polite_sentence(s: str) -> str:
+        s = s.strip()
+        if not s:
+            return ""
+        end = ""
+        if s[-1:] in ".!?":
+            end = s[-1]
+            s = s[:-1].rstrip()
+
+        # Normalize awkward merged endings first.
+        s = re.sub(r"합니다입니다$", "합니다", s)
+        s = re.sub(r"됩니다입니다$", "됩니다", s)
+        s = re.sub(r"이다입니다$", "입니다", s)
+        s = re.sub(r"한다입니다$", "합니다", s)
+        s = re.sub(r"된다입니다$", "됩니다", s)
+
+        # Convert plain/casual endings into polite style.
+        s = re.sub(r"해줘$", "해 주세요", s)
+        s = re.sub(r"할게$", "하겠습니다", s)
+        s = re.sub(r"좋아$", "좋습니다", s)
+        s = re.sub(r"한다$", "합니다", s)
+        s = re.sub(r"된다$", "됩니다", s)
+        s = re.sub(r"이다$", "입니다", s)
+
+        if not re.search(r"(합니다|됩니다|습니다|입니다|해요|돼요|이에요|예요|요)$", s):
+            s = s + "입니다"
+
+        return s + (end or ".")
+
+    parts = [p for p in re.split(r"(?<=[.!?])\s+", raw) if p.strip()]
+    if not parts:
+        return _to_polite_sentence(raw)
+    return " ".join(_to_polite_sentence(p) for p in parts if p.strip())
 
 
 def _normalize_categories(genres: list[str], evidence_texts: list[str]) -> list[str]:

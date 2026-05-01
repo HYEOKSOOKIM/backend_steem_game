@@ -46,20 +46,61 @@ def _ensure_db_schema_ready() -> None:
 if APIRouter is not None:
     recommend_router = APIRouter(prefix="/api/recommend")
 
+    def _normalize_game_tokens(values: list[Any] | None) -> tuple[list[str], list[int]]:
+        names: list[str] = []
+        app_ids: list[int] = []
+        for v in list(values or []):
+            if v is None:
+                continue
+            if isinstance(v, dict):
+                raw_id = v.get("app_id")
+                if raw_id is not None and str(raw_id).strip().isdigit():
+                    app_ids.append(int(str(raw_id).strip()))
+                raw_name = v.get("name")
+                if raw_name is not None:
+                    nm = str(raw_name).strip()
+                    if nm:
+                        names.append(nm)
+                continue
+            s = str(v).strip()
+            if not s:
+                continue
+            if s.isdigit():
+                app_ids.append(int(s))
+            else:
+                names.append(s)
+        # Keep order while removing duplicates.
+        uniq_names: list[str] = []
+        seen_names: set[str] = set()
+        for n in names:
+            k = n.lower()
+            if k in seen_names:
+                continue
+            seen_names.add(k)
+            uniq_names.append(n)
+        uniq_ids: list[int] = []
+        seen_ids: set[int] = set()
+        for i in app_ids:
+            if i in seen_ids:
+                continue
+            seen_ids.add(i)
+            uniq_ids.append(i)
+        return uniq_names, uniq_ids
+
     class RecommendRequest(BaseModel):
         query: str
         top_k: int = 5
-        played_games: list[str] = []
+        played_games: list[Any] = []
         played_app_ids: list[int] = []
-        liked_games: list[str] = []
-        disliked_games: list[str] = []
+        liked_games: list[Any] = []
+        disliked_games: list[Any] = []
         liked_app_ids: list[int] = []
         disliked_app_ids: list[int] = []
         require_korean_support: bool = False
 
     class PreferenceRecommendRequest(BaseModel):
-        liked_games: list[str]
-        disliked_games: list[str] = []
+        liked_games: list[Any]
+        disliked_games: list[Any] = []
         top_k: int = 5
 
     @recommend_router.get("/health")
@@ -110,20 +151,24 @@ if APIRouter is not None:
             from recommender.src.web_ui import _prepare_result_payload
 
             settings = load_settings()
+            played_names, played_ids_from_tokens = _normalize_game_tokens(req.played_games)
+            liked_names, liked_ids_from_tokens = _normalize_game_tokens(req.liked_games)
+            disliked_names, disliked_ids_from_tokens = _normalize_game_tokens(req.disliked_games)
             exclude_app_ids: set[int] = {
                 int(x)
                 for x in list(req.played_app_ids or [])
                 if str(x).strip().isdigit()
             }
+            exclude_app_ids.update(int(x) for x in played_ids_from_tokens if str(x).strip().isdigit())
             played_resolved: list[dict[str, Any]] = []
             played_unresolved: list[str] = []
             liked_resolved: list[dict[str, Any]] = []
             liked_unresolved: list[str] = []
             disliked_resolved: list[dict[str, Any]] = []
             disliked_unresolved: list[str] = []
-            if req.played_games:
+            if played_names:
                 with get_connection(_resolve_db_path(), readonly=True) as conn:
-                    resolved, unresolved = _resolve_games(conn, list(req.played_games or []))
+                    resolved, unresolved = _resolve_games(conn, list(played_names or []))
                 exclude_app_ids.update(int(x.app_id) for x in resolved)
                 played_resolved = [{"app_id": int(x.app_id), "name": str(x.name)} for x in resolved]
                 played_unresolved = [str(x) for x in unresolved]
@@ -133,19 +178,21 @@ if APIRouter is not None:
                 for x in list(req.liked_app_ids or [])
                 if str(x).strip().isdigit()
             }
+            liked_app_ids_set.update(int(x) for x in liked_ids_from_tokens if str(x).strip().isdigit())
             disliked_app_ids_set: set[int] = {
                 int(x)
                 for x in list(req.disliked_app_ids or [])
                 if str(x).strip().isdigit()
             }
+            disliked_app_ids_set.update(int(x) for x in disliked_ids_from_tokens if str(x).strip().isdigit())
             with get_connection(_resolve_db_path(), readonly=True) as conn:
-                if req.liked_games:
-                    resolved, unresolved = _resolve_games(conn, list(req.liked_games or []))
+                if liked_names:
+                    resolved, unresolved = _resolve_games(conn, list(liked_names or []))
                     liked_app_ids_set.update(int(x.app_id) for x in resolved)
                     liked_resolved = [{"app_id": int(x.app_id), "name": str(x.name)} for x in resolved]
                     liked_unresolved = [str(x) for x in unresolved]
-                if req.disliked_games:
-                    resolved, unresolved = _resolve_games(conn, list(req.disliked_games or []))
+                if disliked_names:
+                    resolved, unresolved = _resolve_games(conn, list(disliked_names or []))
                     disliked_app_ids_set.update(int(x.app_id) for x in resolved)
                     disliked_resolved = [{"app_id": int(x.app_id), "name": str(x.name)} for x in resolved]
                     disliked_unresolved = [str(x) for x in unresolved]
@@ -221,10 +268,14 @@ if APIRouter is not None:
             from recommender.src.web_ui import _prepare_result_payload
 
             settings = load_settings()
+            liked_names, liked_ids_from_tokens = _normalize_game_tokens(req.liked_games)
+            disliked_names, disliked_ids_from_tokens = _normalize_game_tokens(req.disliked_games)
+            liked_input = list(liked_names) + [str(x) for x in liked_ids_from_tokens]
+            disliked_input = list(disliked_names) + [str(x) for x in disliked_ids_from_tokens]
             result = recommend_from_preferences(
                 db_path=_resolve_db_path(),
-                liked_games=list(req.liked_games or []),
-                disliked_games=list(req.disliked_games or []),
+                liked_games=liked_input,
+                disliked_games=disliked_input,
                 top_k=req.top_k,
                 chroma_path=(os.getenv("CHROMA_PATH") or "").strip() or None,
                 chroma_collection=(os.getenv("CHROMA_COLLECTION") or "").strip() or None,
