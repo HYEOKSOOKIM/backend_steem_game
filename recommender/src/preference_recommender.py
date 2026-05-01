@@ -17,6 +17,10 @@ import numpy as np
 
 from .chroma_store import query_profiles_from_chroma
 from .db import get_connection
+from .game_aliases import compact_text as _alias_compact_text
+from .game_aliases import get_aliases_by_app_id
+from .game_aliases import lookup_alias_app_ids
+from .game_aliases import norm_text as _alias_norm_text
 
 _MODEL_CACHE: dict[str, Any] = {}
 _SEM_NAME_INDEX_CACHE: dict[str, tuple[list[int], list[str], np.ndarray]] = {}
@@ -246,6 +250,22 @@ def _resolve_single_game(conn, raw: str) -> ResolvedGame | None:
     token = (raw or "").strip()
     if not token:
         return None
+
+    # 0) Alias dictionary first (Korean shorthand / nicknames / typo-prone forms).
+    alias_app_ids = lookup_alias_app_ids(token)
+    for app_id in alias_app_ids:
+        row = conn.execute(
+            """
+            SELECT g.app_id, COALESCE(NULLIF(g.name_ko, ''), NULLIF(g.name_en, ''), g.name) AS name
+            FROM games g
+            JOIN game_profiles p ON p.app_id = g.app_id
+            WHERE g.app_id = ?
+            LIMIT 1
+            """,
+            (int(app_id),),
+        ).fetchone()
+        if row is not None:
+            return ResolvedGame(app_id=int(row["app_id"]), name=str(row["name"] or ""))
 
     if token.isdigit():
         row = conn.execute(
@@ -631,6 +651,61 @@ def suggest_games(
                     scored.append((score, int(row["recent_review_count"] or 0), row))
                 scored.sort(key=lambda x: (x[0], x[1]), reverse=True)
                 rows = [x[2] for x in scored[:limit]]
+
+        # Alias-based suggestion top-up (for Korean shorthand inputs).
+        alias_hits: list[Any] = []
+        if q or compact:
+            alias_by_app = get_aliases_by_app_id()
+            query_keys = {_alias_norm_text(query), _alias_compact_text(query)}
+            query_keys = {k for k in query_keys if k}
+            if query_keys:
+                scored_alias: list[tuple[int, int, int]] = []
+                for app_id, aliases in alias_by_app.items():
+                    best = 0
+                    for alias in aliases:
+                        an = _alias_norm_text(alias)
+                        ac = _alias_compact_text(alias)
+                        for key in query_keys:
+                            if key == an or key == ac:
+                                best = max(best, 10)
+                            elif key and (an.startswith(key) or ac.startswith(key)):
+                                best = max(best, 8)
+                            elif key and (key in an or key in ac):
+                                best = max(best, 6)
+                    if best > 0:
+                        scored_alias.append((best, int(app_id), int(app_id)))
+                scored_alias.sort(key=lambda x: (x[0], -x[1]), reverse=True)
+                if scored_alias:
+                    alias_ids = [int(x[1]) for x in scored_alias[: max(limit, 20)]]
+                    placeholders = ",".join("?" for _ in alias_ids)
+                    alias_rows = conn.execute(
+                        f"""
+                        SELECT g.app_id,
+                               COALESCE(NULLIF(g.name_ko, ''), NULLIF(g.name_en, ''), g.name) AS display_name,
+                               g.name_en,
+                               g.name_ko,
+                               p.recent_review_count
+                        FROM games g
+                        JOIN game_profiles p ON p.app_id = g.app_id
+                        WHERE g.app_id IN ({placeholders})
+                        """,
+                        tuple(alias_ids),
+                    ).fetchall()
+                    by_id = {int(r["app_id"]): r for r in alias_rows}
+                    for app_id in alias_ids:
+                        r = by_id.get(int(app_id))
+                        if r is not None:
+                            alias_hits.append(r)
+
+        if alias_hits:
+            merged = list(alias_hits)
+            merged_ids = {int(x["app_id"]) for x in merged}
+            for r in rows:
+                if int(r["app_id"]) in merged_ids:
+                    continue
+                merged.append(r)
+                merged_ids.add(int(r["app_id"]))
+            rows = merged[:limit]
 
     out: list[dict[str, Any]] = []
     for row in rows:
