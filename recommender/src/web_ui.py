@@ -79,9 +79,17 @@ def _ensure_polite_ko(text: str) -> str:
         s = re.sub(r"해줘$", "해 주세요", s)
         s = re.sub(r"할게$", "하겠습니다", s)
         s = re.sub(r"좋아$", "좋습니다", s)
+        s = re.sub(r"좋다$", "좋습니다", s)
+        s = re.sub(r"있다$", "있습니다", s)
+        s = re.sub(r"없다$", "없습니다", s)
+        s = re.sub(r"가능하다$", "가능합니다", s)
+        s = re.sub(r"필요하다$", "필요합니다", s)
         s = re.sub(r"한다$", "합니다", s)
         s = re.sub(r"된다$", "됩니다", s)
         s = re.sub(r"이다$", "입니다", s)
+        # Generic declarative ending fallback: "...다" -> "...습니다"
+        if re.search(r"[가-힣]다$", s) and not re.search(r"(합니다|됩니다|습니다|입니다|요)$", s):
+            s = re.sub(r"다$", "습니다", s)
 
         if not re.search(r"(합니다|됩니다|습니다|입니다|해요|돼요|이에요|예요|요)$", s):
             s = s + "입니다"
@@ -131,9 +139,16 @@ def _prepare_result_payload(result: dict, query: str, top_k: int) -> dict:
     rows: list[dict] = []
     for item in result.get("results", []) or []:
         app_id = int(item.get("app_id", 0) or 0)
+        summaries = [str(x) for x in (item.get("evidence_summaries_ko") or []) if str(x).strip()]
         evidence = [str(x) for x in (item.get("evidence_reviews") or [])]
         ko_evidence = [ev for ev in evidence if _contains_korean(ev)]
-        base_evidence = ko_evidence[:4] if ko_evidence else evidence[:2]
+        # Keep Korean-first output. Do not expose untranslated English evidence lines.
+        if summaries:
+            base_evidence = summaries[:4]
+        elif ko_evidence:
+            base_evidence = ko_evidence[:4]
+        else:
+            base_evidence = ["리뷰 근거의 한국어 요약을 준비 중입니다."]
         evidence_ko = [_clip_evidence(ev, max_chars=220) for ev in base_evidence]
         rows.append(
             {
