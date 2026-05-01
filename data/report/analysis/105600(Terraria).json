@@ -50,10 +50,10 @@
       ]
     },
     "content_depth": {
-      "mention_count": 1744,
-      "negative_ratio": 0.017775229357798166,
+      "mention_count": 1743,
+      "negative_ratio": 0.01778542742398164,
       "recent_trend": "down",
-      "experienced_player_share": 0.9850917431192661,
+      "experienced_player_share": 0.985083189902467,
       "themes": [
         "콘텐츠 부족",
         "반복 / 목적성 부족",
@@ -95,10 +95,10 @@
       ]
     },
     "difficulty": {
-      "mention_count": 620,
-      "negative_ratio": 0.03387096774193549,
-      "recent_trend": "flat",
-      "experienced_player_share": 0.967741935483871,
+      "mention_count": 619,
+      "negative_ratio": 0.033925686591276254,
+      "recent_trend": "down",
+      "experienced_player_share": 0.9676898222940227,
       "themes": [
         "난이도 / 진입장벽",
         "조작 / 규칙 학습 난이도",
@@ -178,25 +178,25 @@
       ]
     },
     "multiplayer": {
-      "mention_count": 1542,
-      "negative_ratio": 0.03955901426718547,
+      "mention_count": 1543,
+      "negative_ratio": 0.03953337653920933,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9714656290531777,
+      "experienced_player_share": 0.9714841218405703,
       "themes": [
         "멀티플레이 경험",
         "매칭 / 서버 문제",
         "부정행위 / 보안 이슈"
       ],
       "sample_reviews": [
-        "친구랑 같이 했을때 기준 통곡의 30시간을 못 넘는 게임, 혼자하면 취향 맞으면 몇시간이고 하는데, 난 뇌가 도파민으로 절여져 있다, 개 초딩이라서 천천히 성장하는 게임은 못버티는 허접 팝콘 뇌다 빠르게 분비되는 도파민 아니면 만족못하는 개 씹 조루 프로 딸잡이다, 그럼 이 게임 못함 멀티를 지원하면서 멀티에 이리 멀티에 안 맞는 게임이 있을까, 물론 갓겜이긴 한데, 혼자하면 혼자서 호빗부터 반지의 제왕을 찍어낼수 있는데, 이것도 취향에 맞아야지 가능함 반대로 취향에 안맞으면 골든 아머 못 만들고 너무 힘들엉ㅠㅠ 하고 그만둘수 있음 개인적으론 멀티에 안 맞는다 라고 생각할뿐 사실 내가 한 게임중 가장 고 평가긴 함",
-        "마크 광질에 보스전이랑 마법 첨가됨. 근데 ㅈㄴ 재밌음\n-난이도: 처음에는 클래식으로 하는 거 추천. 위키는 사실상 필수. 일단 이상한 지형 나오면 뒤로 빠지는 걸 추천\n-광질: 일단 첨부터 광질하는 건 비추; 자연동굴 돌아다니면서 상자 여는 게 초반엔 제일 효율이 좋은 듯. 나중 가면 월핵이 합법이 됨(?)\n-전투: 극초반에는 슬라임 빼곤 몬스터 피하는 게 좋음 (-1일차 밤에 10번 넘게 죽은 사람)\n-보스전: 재밌음. 패턴 뚜렷함, 대미지도 크진 않음(클래식 기준. 그 위는 직접 해보시길..ㅋㅋ)\n\nㄹㅇ 인생겜. 리로직 개발자님들 사랑해요"
+        "혼자 할 땐 개노잼 뭐이런 불친절한 겜이 다 있나 했는데 멀티로 하니까 꽤괜찮음",
+        "친구랑 같이 했을때 기준 통곡의 30시간을 못 넘는 게임, 혼자하면 취향 맞으면 몇시간이고 하는데, 난 뇌가 도파민으로 절여져 있다, 개 초딩이라서 천천히 성장하는 게임은 못버티는 허접 팝콘 뇌다 빠르게 분비되는 도파민 아니면 만족못하는 개 씹 조루 프로 딸잡이다, 그럼 이 게임 못함 멀티를 지원하면서 멀티에 이리 멀티에 안 맞는 게임이 있을까, 물론 갓겜이긴 한데, 혼자하면 혼자서 호빗부터 반지의 제왕을 찍어낼수 있는데, 이것도 취향에 맞아야지 가능함 반대로 취향에 안맞으면 골든 아머 못 만들고 너무 힘들엉ㅠㅠ 하고 그만둘수 있음 개인적으론 멀티에 안 맞는다 라고 생각할뿐 사실 내가 한 게임중 가장 고 평가긴 함"
       ]
     },
     "performance": {
-      "mention_count": 57,
-      "negative_ratio": 0.19298245614035087,
+      "mention_count": 56,
+      "negative_ratio": 0.19642857142857142,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9649122807017544,
+      "experienced_player_share": 0.9642857142857143,
       "themes": [
         "최적화 문제",
         "로딩 / 발열 문제",
@@ -242,39 +242,33 @@
     "fit_for": "초반 진입 장벽이나 조작 적응 여부를 중요하게 보는 플레이어는 사전 확인이 필요합니다.",
     "risks": "content_depth 관련 이슈는 반복적으로 언급되지만 최근 급격한 악화 신호는 제한적입니다."
   },
-  "pipeline_run_id": "105600-20260427T055936Z",
-  "generated_at": "2026-04-27T06:02:18.785397+00:00",
+  "pipeline_run_id": "105600-20260501T004809Z-raw",
+  "generated_at": "2026-05-01T00:48:32.497809+00:00",
   "source_review_count": 17687,
-  "review_pages": "all",
-  "fetched_pages": 178,
-  "fetched_review_count": 17687,
-  "fetch_timeout_seconds": 20,
-  "fetch_filter": "recent",
-  "all_mode_page_cap": 200,
-  "all_mode_cap_reached": false,
+  "review_pages": "stored_raw",
   "llm_stats": {
-    "considered": 10324,
-    "selected": 20,
-    "invoked": 20,
-    "success": 20,
+    "considered": 10323,
+    "selected": 50,
+    "invoked": 50,
+    "success": 50,
     "schema_invalid": 0,
     "low_confidence": 0,
-    "cache_hits": 0,
+    "cache_hits": 50,
     "fallback_used": 0
   },
   "report_material_refiner": {
     "enabled": true,
-    "max_llm_reviews": 20,
+    "max_llm_reviews": 50,
     "llm_min_confidence": 0.7,
-    "material_count": 20,
+    "material_count": 50,
     "stats": {
-      "considered": 10324,
-      "selected": 20,
-      "invoked": 20,
-      "success": 20,
+      "considered": 10323,
+      "selected": 50,
+      "invoked": 50,
+      "success": 50,
       "schema_invalid": 0,
       "low_confidence": 0,
-      "cache_hits": 0,
+      "cache_hits": 50,
       "fallback_used": 0
     }
   }

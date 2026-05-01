@@ -1,0 +1,995 @@
+{
+  "report_version": "v4-planned-sections",
+  "appid": 1364780,
+  "pipeline_run_id": "1364780-20260501T003907Z-raw",
+  "generated_at": "2026-05-01T00:41:04.554053+00:00",
+  "source_review_count": 1975,
+  "included_review_count": 1444,
+  "min_report_review_count": 100,
+  "report_state": "ready",
+  "review_trend": {
+    "granularity": "month",
+    "metric": "positive_ratio",
+    "points": [
+      {
+        "month": "2023-06",
+        "positive_count": 353,
+        "review_count": 397,
+        "positive_ratio": 0.8892
+      },
+      {
+        "month": "2023-07",
+        "positive_count": 109,
+        "review_count": 126,
+        "positive_ratio": 0.8651
+      },
+      {
+        "month": "2023-08",
+        "positive_count": 42,
+        "review_count": 52,
+        "positive_ratio": 0.8077
+      },
+      {
+        "month": "2023-09",
+        "positive_count": 34,
+        "review_count": 34,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2023-10",
+        "positive_count": 28,
+        "review_count": 31,
+        "positive_ratio": 0.9032
+      },
+      {
+        "month": "2023-11",
+        "positive_count": 83,
+        "review_count": 90,
+        "positive_ratio": 0.9222
+      },
+      {
+        "month": "2023-12",
+        "positive_count": 42,
+        "review_count": 47,
+        "positive_ratio": 0.8936
+      },
+      {
+        "month": "2024-01",
+        "positive_count": 28,
+        "review_count": 33,
+        "positive_ratio": 0.8485
+      },
+      {
+        "month": "2024-02",
+        "positive_count": 17,
+        "review_count": 20,
+        "positive_ratio": 0.85
+      },
+      {
+        "month": "2024-03",
+        "positive_count": 35,
+        "review_count": 35,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2024-04",
+        "positive_count": 37,
+        "review_count": 42,
+        "positive_ratio": 0.881
+      },
+      {
+        "month": "2024-05",
+        "positive_count": 35,
+        "review_count": 44,
+        "positive_ratio": 0.7955
+      },
+      {
+        "month": "2024-06",
+        "positive_count": 75,
+        "review_count": 84,
+        "positive_ratio": 0.8929
+      },
+      {
+        "month": "2024-07",
+        "positive_count": 76,
+        "review_count": 86,
+        "positive_ratio": 0.8837
+      },
+      {
+        "month": "2024-08",
+        "positive_count": 37,
+        "review_count": 39,
+        "positive_ratio": 0.9487
+      },
+      {
+        "month": "2024-09",
+        "positive_count": 34,
+        "review_count": 39,
+        "positive_ratio": 0.8718
+      },
+      {
+        "month": "2024-10",
+        "positive_count": 33,
+        "review_count": 38,
+        "positive_ratio": 0.8684
+      },
+      {
+        "month": "2024-11",
+        "positive_count": 25,
+        "review_count": 35,
+        "positive_ratio": 0.7143
+      },
+      {
+        "month": "2024-12",
+        "positive_count": 26,
+        "review_count": 28,
+        "positive_ratio": 0.9286
+      },
+      {
+        "month": "2025-01",
+        "positive_count": 20,
+        "review_count": 27,
+        "positive_ratio": 0.7407
+      },
+      {
+        "month": "2025-02",
+        "positive_count": 75,
+        "review_count": 81,
+        "positive_ratio": 0.9259
+      },
+      {
+        "month": "2025-03",
+        "positive_count": 29,
+        "review_count": 34,
+        "positive_ratio": 0.8529
+      },
+      {
+        "month": "2025-04",
+        "positive_count": 22,
+        "review_count": 28,
+        "positive_ratio": 0.7857
+      },
+      {
+        "month": "2025-05",
+        "positive_count": 32,
+        "review_count": 37,
+        "positive_ratio": 0.8649
+      },
+      {
+        "month": "2025-06",
+        "positive_count": 58,
+        "review_count": 70,
+        "positive_ratio": 0.8286
+      },
+      {
+        "month": "2025-07",
+        "positive_count": 41,
+        "review_count": 48,
+        "positive_ratio": 0.8542
+      },
+      {
+        "month": "2025-08",
+        "positive_count": 75,
+        "review_count": 89,
+        "positive_ratio": 0.8427
+      },
+      {
+        "month": "2025-09",
+        "positive_count": 29,
+        "review_count": 37,
+        "positive_ratio": 0.7838
+      },
+      {
+        "month": "2025-10",
+        "positive_count": 27,
+        "review_count": 32,
+        "positive_ratio": 0.8438
+      },
+      {
+        "month": "2025-11",
+        "positive_count": 29,
+        "review_count": 34,
+        "positive_ratio": 0.8529
+      },
+      {
+        "month": "2025-12",
+        "positive_count": 26,
+        "review_count": 31,
+        "positive_ratio": 0.8387
+      },
+      {
+        "month": "2026-01",
+        "positive_count": 20,
+        "review_count": 22,
+        "positive_ratio": 0.9091
+      },
+      {
+        "month": "2026-02",
+        "positive_count": 17,
+        "review_count": 24,
+        "positive_ratio": 0.7083
+      },
+      {
+        "month": "2026-03",
+        "positive_count": 26,
+        "review_count": 59,
+        "positive_ratio": 0.4407
+      },
+      {
+        "month": "2026-04",
+        "positive_count": 12,
+        "review_count": 22,
+        "positive_ratio": 0.5455
+      }
+    ]
+  },
+  "game": {
+    "name": "Street Fighter 6",
+    "genres": [
+      "액션",
+      "어드벤처"
+    ],
+    "price_model": "paid",
+    "is_free": false,
+    "release_stage": "released",
+    "release_date_text": "2023년 6월 1일",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/header.jpg?t=1776917924",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/7f4bcdebc8dc0d9c1e77d70fe2c6ed13a3ab2381/capsule_231x87_alt_assets_18.jpg?t=1776917924",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/7f4bcdebc8dc0d9c1e77d70fe2c6ed13a3ab2381/capsule_184x69_alt_assets_18.jpg?t=1776917924",
+    "screenshots": [
+      {
+        "id": "0",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/ss_387137f8cccb048c35a8685634372e97785d40aa.600x338.jpg?t=1776917924",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/ss_387137f8cccb048c35a8685634372e97785d40aa.1920x1080.jpg?t=1776917924"
+      },
+      {
+        "id": "1",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/ss_a381f1b3b450c18900d47b991ce8e7456e9cdba5.600x338.jpg?t=1776917924",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/ss_a381f1b3b450c18900d47b991ce8e7456e9cdba5.1920x1080.jpg?t=1776917924"
+      },
+      {
+        "id": "2",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/ss_f62ce93269a6d8e0027853358af4d6368e2c4b93.600x338.jpg?t=1776917924",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/ss_f62ce93269a6d8e0027853358af4d6368e2c4b93.1920x1080.jpg?t=1776917924"
+      },
+      {
+        "id": "3",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/ss_d186566a92ada8cdb08b04769a8c95cd1e380006.600x338.jpg?t=1776917924",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/ss_d186566a92ada8cdb08b04769a8c95cd1e380006.1920x1080.jpg?t=1776917924"
+      },
+      {
+        "id": "4",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/ss_ed46aaa9ed94dd6f35a703070f8df16cee5aef61.600x338.jpg?t=1776917924",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/ss_ed46aaa9ed94dd6f35a703070f8df16cee5aef61.1920x1080.jpg?t=1776917924"
+      },
+      {
+        "id": "5",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/ss_10191fb5ab48cee99d7a43e636db9202938f143e.600x338.jpg?t=1776917924",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/ss_10191fb5ab48cee99d7a43e636db9202938f143e.1920x1080.jpg?t=1776917924"
+      },
+      {
+        "id": "6",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/ss_449d488d2edbe785c4e6010fede1c3b8dae8e388.600x338.jpg?t=1776917924",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/ss_449d488d2edbe785c4e6010fede1c3b8dae8e388.1920x1080.jpg?t=1776917924"
+      },
+      {
+        "id": "7",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/ss_2cfc2472e7ff99fd354935135d91e36e81951795.600x338.jpg?t=1776917924",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/ss_2cfc2472e7ff99fd354935135d91e36e81951795.1920x1080.jpg?t=1776917924"
+      },
+      {
+        "id": "8",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/ss_3ceb422dbef5f8495e690ed526f684fdcb1022ec.600x338.jpg?t=1776917924",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/ss_3ceb422dbef5f8495e690ed526f684fdcb1022ec.1920x1080.jpg?t=1776917924"
+      },
+      {
+        "id": "9",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/ss_201488fc9f1aa5e29e2fc6d96ef2b66e41ddf32e.600x338.jpg?t=1776917924",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/ss_201488fc9f1aa5e29e2fc6d96ef2b66e41ddf32e.1920x1080.jpg?t=1776917924"
+      }
+    ],
+    "movies": [
+      {
+        "id": "257324648",
+        "name": "SF6_INGRID_Gameplaytrailer_Multi_EN_ESRB_HD_Steam",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257324648/f566fefe4f698bcc0155a4cea92ac49aeab3dbb6/movie_600x337.jpg?t=1776917919",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1364780/329401047/bb68a7c02366b50c84817183e9d45959a8f790d9/1776910935/hls_264_master.m3u8?t=1776917919",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1364780/329401047/bb68a7c02366b50c84817183e9d45959a8f790d9/1776910935/dash_h264.mpd?t=1776917919",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1364780/329401047/bb68a7c02366b50c84817183e9d45959a8f790d9/1776910935/dash_av1.mpd?t=1776917919",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1364780/329401047/bb68a7c02366b50c84817183e9d45959a8f790d9/1776910935/hls_264_master.m3u8?t=1776917919"
+      },
+      {
+        "id": "257298758",
+        "name": "SF6_Outfit4_Elena_DeeJay_Steam_EN_ESRB_HD_Steam",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257298758/fc35a0d4846ccb11bde750c74e8bffb3dcee0d9c/movie_600x337.jpg?t=1773366388",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1364780/1772179895/b31581bc0ad0d540ceb40af9a321b0bcc728f288/1772781449/hls_264_master.m3u8?t=1773366388",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1364780/1772179895/b31581bc0ad0d540ceb40af9a321b0bcc728f288/1772781449/dash_h264.mpd?t=1773366388",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1364780/1772179895/b31581bc0ad0d540ceb40af9a321b0bcc728f288/1772781449/dash_av1.mpd?t=1773366388",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1364780/1772179895/b31581bc0ad0d540ceb40af9a321b0bcc728f288/1772781449/hls_264_master.m3u8?t=1773366388"
+      },
+      {
+        "id": "257270651",
+        "name": "SF6_ALEX_Gameplaytrailer_Multi_EN_ESRB_HD_Steam",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257270651/f0f66fda217e3184c1a71057c4c9692287ba2690/movie_600x337.jpg?t=1769142439",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1364780/1659974978/e2cc6b24bc61a2692becfadca7a5687f36d6324b/1769127372/hls_264_master.m3u8?t=1769142439",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1364780/1659974978/e2cc6b24bc61a2692becfadca7a5687f36d6324b/1769127372/dash_h264.mpd?t=1769142439",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1364780/1659974978/e2cc6b24bc61a2692becfadca7a5687f36d6324b/1769127372/dash_av1.mpd?t=1769142439",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1364780/1659974978/e2cc6b24bc61a2692becfadca7a5687f36d6324b/1769127372/hls_264_master.m3u8?t=1769142439"
+      },
+      {
+        "id": "257206554",
+        "name": "SF6_C.Viepr_Gameplaytrailer_Multi_EN_ESRB_HD_Steam",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257206554/0d506b75d9cc789e0f98a8822f8ffa3663dc6c9e/movie_600x337.jpg?t=1758859600",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1364780/1203483622/09b491864ab63ad41a5bd7f4cea64a175473e159/1758851990/hls_264_master.m3u8?t=1758859600",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1364780/1203483622/09b491864ab63ad41a5bd7f4cea64a175473e159/1758851990/dash_h264.mpd?t=1758859600",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1364780/1203483622/09b491864ab63ad41a5bd7f4cea64a175473e159/1758851990/dash_av1.mpd?t=1758859600",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1364780/1203483622/09b491864ab63ad41a5bd7f4cea64a175473e159/1758851990/hls_264_master.m3u8?t=1758859600"
+      },
+      {
+        "id": "257178234",
+        "name": "SF6_Outfit4_7Character_Multi_EN_ESRB_1080P_Steam",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257178234/0ee78ee04f32462ca565019b611006da23b7fd16/movie_600x337.jpg?t=1754370599",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1364780/237504138/5101bf5149356409cba6dc48ff27b2bd2d64a83d/1754355780/hls_264_master.m3u8?t=1754370599",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1364780/237504138/5101bf5149356409cba6dc48ff27b2bd2d64a83d/1754355780/dash_h264.mpd?t=1754370599",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1364780/237504138/5101bf5149356409cba6dc48ff27b2bd2d64a83d/1754355780/dash_av1.mpd?t=1754370599",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1364780/237504138/5101bf5149356409cba6dc48ff27b2bd2d64a83d/1754355780/hls_264_master.m3u8?t=1754370599"
+      },
+      {
+        "id": "257170007",
+        "name": "SF6_SAGAT_Gameplaytrailer_Multi_EN_ESRB_HD",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257170007/9c69c84ef08c1b0c08500345f01b3a70261cdcb1/movie_600x337.jpg?t=1752729336",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1364780/1575847105/d85f1d95ebfac16efb684f2f523219583531f396/1752720673/hls_264_master.m3u8?t=1752729336",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1364780/1575847105/d85f1d95ebfac16efb684f2f523219583531f396/1752720673/dash_h264.mpd?t=1752729336",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1364780/1575847105/d85f1d95ebfac16efb684f2f523219583531f396/1752720673/dash_av1.mpd?t=1752729336",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1364780/1575847105/d85f1d95ebfac16efb684f2f523219583531f396/1752720673/hls_264_master.m3u8?t=1752729336"
+      },
+      {
+        "id": "257151474",
+        "name": "HATO_FE_LaunchPV_Multi_EN_ESRB_1080P_FIX_Store_v2",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257151474/9dd37cb3b4e20ed60f9e3f64e68b28727f1bbf02/movie_600x337.jpg?t=1749099731",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1364780/1816352465/610ac3e954e6271510651b9e310ff2949a4447cf/1750678692/hls_264_master.m3u8?t=1749099731",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1364780/1816352465/610ac3e954e6271510651b9e310ff2949a4447cf/1750678692/dash_h264.mpd?t=1749099731",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1364780/1816352465/610ac3e954e6271510651b9e310ff2949a4447cf/1750678692/dash_av1.mpd?t=1749099731",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1364780/1816352465/610ac3e954e6271510651b9e310ff2949a4447cf/1750678692/hls_264_master.m3u8?t=1749099731"
+      },
+      {
+        "id": "257131911",
+        "name": "SF6_ELENA_Gameplaytrailer_Multi_EN_ESRB_HD_Stemstore_FIX",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257131911/efec79808c5705182449cfd9ec9c7a64d022d489/movie_600x337.jpg?t=1745814258",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1364780/879577/cec513f1569b45ff6f6b2c507a0bdeb7de4e0d96/1750678681/hls_264_master.m3u8?t=1745814258",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1364780/879577/cec513f1569b45ff6f6b2c507a0bdeb7de4e0d96/1750678681/dash_h264.mpd?t=1745814258",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1364780/879577/cec513f1569b45ff6f6b2c507a0bdeb7de4e0d96/1750678681/dash_av1.mpd?t=1745814258",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1364780/879577/cec513f1569b45ff6f6b2c507a0bdeb7de4e0d96/1750678681/hls_264_master.m3u8?t=1745814258"
+      },
+      {
+        "id": "257088720",
+        "name": "SF6_MAI_Gameplaytrailer_02_Multi_EN_ESRB_HD_Steamstore_FIX",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257088720/e090a3c6bc7af8e192c9c8a574e0dbcd9930a3b7/movie_600x337.jpg?t=1736904328",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1364780/812197/100efbf7e961abaa62defc5f8368c0230e034a43/1750678700/hls_264_master.m3u8?t=1736904328",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1364780/812197/100efbf7e961abaa62defc5f8368c0230e034a43/1750678700/dash_h264.mpd?t=1736904328",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1364780/812197/100efbf7e961abaa62defc5f8368c0230e034a43/1750678700/dash_av1.mpd?t=1736904328",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1364780/812197/100efbf7e961abaa62defc5f8368c0230e034a43/1750678700/hls_264_master.m3u8?t=1736904328"
+      },
+      {
+        "id": "257048074",
+        "name": "SF6_TERRY_GamePlayTrailer_Multi_EN_ESRB_1080P_Steamstore",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257048074/movie.293x165.jpg?t=1724216001",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1364780/743538/45b3d58ab594a0e1b7e9524d0706ef0330bd4f8e/1750678640/hls_264_master.m3u8?t=1724216001",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1364780/743538/45b3d58ab594a0e1b7e9524d0706ef0330bd4f8e/1750678640/dash_h264.mpd?t=1724216001",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1364780/743538/45b3d58ab594a0e1b7e9524d0706ef0330bd4f8e/1750678640/dash_av1.mpd?t=1724216001",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1364780/743538/45b3d58ab594a0e1b7e9524d0706ef0330bd4f8e/1750678640/hls_264_master.m3u8?t=1724216001"
+      },
+      {
+        "id": "257029847",
+        "name": "SF6_M.Bison_GamePlayTrailer_Multi_EN_ESRB_1080P_Steamstore",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257029847/movie.293x165.jpg?t=1717986914",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1364780/711676/0cdfd8d036f73a75a1838b0bcf2733b52ae394ef/1750678626/hls_264_master.m3u8?t=1717986914",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1364780/711676/0cdfd8d036f73a75a1838b0bcf2733b52ae394ef/1750678626/dash_h264.mpd?t=1717986914",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1364780/711676/0cdfd8d036f73a75a1838b0bcf2733b52ae394ef/1750678626/dash_av1.mpd?t=1717986914",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1364780/711676/0cdfd8d036f73a75a1838b0bcf2733b52ae394ef/1750678626/hls_264_master.m3u8?t=1717986914"
+      },
+      {
+        "id": "257029842",
+        "name": "SF6_Year2_Announce_Multi_US_ESRB_1080P_FIX_Steam",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257029842/movie.293x165.jpg?t=1717986925",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1364780/711669/d077dd14cfee8d7ce65989fec87a5ce89bd04c57/1750678607/hls_264_master.m3u8?t=1717986925",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1364780/711669/d077dd14cfee8d7ce65989fec87a5ce89bd04c57/1750678607/dash_h264.mpd?t=1717986925",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1364780/711669/d077dd14cfee8d7ce65989fec87a5ce89bd04c57/1750678607/dash_av1.mpd?t=1717986925",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1364780/711669/d077dd14cfee8d7ce65989fec87a5ce89bd04c57/1750678607/hls_264_master.m3u8?t=1717986925"
+      },
+      {
+        "id": "257022144",
+        "name": "SF6_Akuma_Gouki_GamePlayTrailer_Multi_EN_ESRB_1080P_Steamstore",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257022144/movie.293x165.jpg?t=1715314192",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1364780/698292/6536a222130677297241cd85bd04b4c0054fcbe4/1750678590/hls_264_master.m3u8?t=1715314192",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1364780/698292/6536a222130677297241cd85bd04b4c0054fcbe4/1750678590/dash_h264.mpd?t=1715314192",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1364780/698292/6536a222130677297241cd85bd04b4c0054fcbe4/1750678590/dash_av1.mpd?t=1715314192",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1364780/698292/6536a222130677297241cd85bd04b4c0054fcbe4/1750678590/hls_264_master.m3u8?t=1715314192"
+      },
+      {
+        "id": "257001257",
+        "name": "SF6_Ed_GamePlay_Trailer_Multi_EN_ESRB_1080P_FIX_Steamstore",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257001257/movie.293x165.jpg?t=1707970757",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1364780/662837/d22be3a86610f1d763c367fbf6b4a2ff3839d188/1750678548/hls_264_master.m3u8?t=1707970757",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1364780/662837/d22be3a86610f1d763c367fbf6b4a2ff3839d188/1750678548/dash_h264.mpd?t=1707970757",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1364780/662837/d22be3a86610f1d763c367fbf6b4a2ff3839d188/1750678548/dash_av1.mpd?t=1707970757",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1364780/662837/d22be3a86610f1d763c367fbf6b4a2ff3839d188/1750678548/hls_264_master.m3u8?t=1707970757"
+      },
+      {
+        "id": "256984090",
+        "name": "SF6_Outfit 3 Showcase Trailer EN",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256984090/movie.293x165.jpg?t=1700629501",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1364780/632323/9211b7bbd389c494f97554fe1d92c3487c3254cd/1750678517/hls_264_master.m3u8?t=1700629501",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1364780/632323/9211b7bbd389c494f97554fe1d92c3487c3254cd/1750678517/dash_h264.mpd?t=1700629501",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1364780/632323/9211b7bbd389c494f97554fe1d92c3487c3254cd/1750678517/dash_av1.mpd?t=1700629501",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1364780/632323/9211b7bbd389c494f97554fe1d92c3487c3254cd/1750678517/hls_264_master.m3u8?t=1700629501"
+      },
+      {
+        "id": "256950421",
+        "name": "SF6_Launch_AvailableNow_Multi_EN_1080p_FIX",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256950421/movie.293x165.jpg?t=1685677608",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1364780/574060/acace936344ec737668cb6d25eed6d71e171b451/1750678470/hls_264_master.m3u8?t=1685677608",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1364780/574060/acace936344ec737668cb6d25eed6d71e171b451/1750678470/dash_h264.mpd?t=1685677608",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1364780/574060/acace936344ec737668cb6d25eed6d71e171b451/1750678470/dash_av1.mpd?t=1685677608",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1364780/574060/acace936344ec737668cb6d25eed6d71e171b451/1750678470/hls_264_master.m3u8?t=1685677608"
+      }
+    ],
+    "short_description": "시리즈 최신작 『Street Fighter 6』, 2023년 6월 2일 발매 결정! RE ENGINE으로 개발된 본 작품은 대형 모드 「World Tour」, 「Fighting Ground」, 「Battle Hub」로 구성되어 있다. 새로운 「스트리트 파이터」에는 지금까지의 시리즈에는 없었던 새로운 체험이 기다리고 있다.",
+    "steam_store_url": "https://store.steampowered.com/app/1364780",
+    "steam_recommendation_count": 45920,
+    "steam_review_score_desc": "Very Positive",
+    "steam_total_positive": 1688,
+    "steam_total_negative": 288,
+    "steam_total_reviews": 1976,
+    "price_currency": "KRW",
+    "price_current": 2240000,
+    "price_original": 4480000,
+    "price_current_formatted": "₩ 22,400",
+    "price_original_formatted": "₩ 44,800",
+    "price_discount_percent": 50
+  },
+  "report_plan": {
+    "decision_anchor": {
+      "buy_recommendation": "buy_on_sale",
+      "primary_reason_ids": [
+        "risk_1",
+        "risk_2"
+      ],
+      "rationale_short": "밸런스 문제와 매칭/서버 문제 등 리스크 존재로 가격 메리트가 있는 시점 구매 권장."
+    },
+    "section_blueprint": {
+      "strength_block_count": 3,
+      "risk_block_count": 3,
+      "evidence_per_block": 3
+    },
+    "theme_priorities": {
+      "strengths": [
+        {
+          "reason_id": "str_1",
+          "aspect": "difficulty",
+          "theme": "조작 / 규칙 학습 난이도"
+        },
+        {
+          "reason_id": "str_2",
+          "aspect": "gameplay",
+          "theme": "전투 손맛 / 액션 호평"
+        },
+        {
+          "reason_id": "str_3",
+          "aspect": "story",
+          "theme": "캐릭터 / 연출 인상"
+        }
+      ],
+      "risks": [
+        {
+          "reason_id": "risk_1",
+          "aspect": "mod_support",
+          "theme": "모드 지원 / 호환 문제"
+        },
+        {
+          "reason_id": "risk_2",
+          "aspect": "multiplayer",
+          "theme": "매칭 / 서버 문제"
+        },
+        {
+          "reason_id": "risk_3",
+          "aspect": "controls",
+          "theme": "조작감 문제"
+        }
+      ]
+    }
+  },
+  "report_display": {
+    "headline": "사건과 인물의 여운이 오래 남는 경험은 분명한 강점이지만 긴 호흡의 진행 템포는 취향을 탈 수 있습니다.",
+    "buy_recommendation": "buy_on_sale",
+    "buy_timing_summary": "밸런스 변화 변수 불편을 감수해야 할 수 있어 가격 메리트가 있는 시점이 더 낫습니다.",
+    "good_for": [
+      "플레이 흐름이 점점 또렷해지는 재미를 좋아하는 플레이어",
+      "맵을 돌아다니며 발견하는 재미를 중요하게 보는 플레이어",
+      "서사와 분위기에 오래 몰입하는 플레이어"
+    ],
+    "not_good_for": [
+      "밸런스 변화에 민감하게 반응하는 플레이어",
+      "같은 흐름이 길어지면 피로를 크게 느끼는 플레이어",
+      "조작과 인터페이스 적응 스트레스를 크게 받는 플레이어"
+    ],
+    "player_fit_signals": {
+      "good_for": [
+        {
+          "aspect": "difficulty",
+          "theme": "조작 / 규칙 학습 난이도",
+          "subtype": "core_play_mastery",
+          "negative": false
+        },
+        {
+          "aspect": "gameplay",
+          "theme": "전투 손맛 / 액션 호평",
+          "subtype": "openworld_exploration",
+          "negative": false
+        },
+        {
+          "aspect": "story",
+          "theme": "캐릭터 / 연출 인상",
+          "subtype": "narrative_immersion",
+          "negative": false
+        }
+      ],
+      "not_good_for": [
+        {
+          "aspect": "balance",
+          "theme": "밸런스 불만",
+          "subtype": "balance_swings",
+          "negative": true
+        },
+        {
+          "aspect": "content_depth",
+          "theme": "콘텐츠 부족",
+          "subtype": "repetition_fatigue",
+          "negative": true
+        },
+        {
+          "aspect": "controls",
+          "theme": "조작감 문제",
+          "subtype": "control_friction",
+          "negative": true
+        }
+      ]
+    },
+    "top_strengths": [
+      {
+        "title": "사건과 인물이 오래 남는 서사 경험",
+        "summary": "사건과 인물의 여운이 길게 남아 세계를 천천히 체험하는 몰입감이 또렷합니다."
+      },
+      {
+        "title": "발견이 이어지는 탐험 경험",
+        "summary": "이동과 발견 그 자체가 재미로 이어져 탐험 비중이 높은 플레이와 잘 맞습니다."
+      },
+      {
+        "title": "세계와 사건에 빨려 드는 몰입감",
+        "summary": "세계와 사건의 흐름이 강하게 이어져 분위기와 서사를 중시하면 만족도가 높습니다."
+      }
+    ],
+    "top_risks": [
+      {
+        "title": "특정 구간의 불공정 체감이 누적되면 피로도가 높아질 수 있는 리스크",
+        "summary": "밸런스 변화가 직접적인 플레이 감각 차이로 이어질 수 있습니다."
+      },
+      {
+        "title": "플레이 시간이 누적될수록 새로움이 빨리 소진될 수 있는 리스크",
+        "summary": "익숙해진 뒤에는 새로움보다 반복감이 먼저 느껴질 수 있습니다."
+      },
+      {
+        "title": "조작감 문제",
+        "summary": "조작과 인터페이스 적응에 시간이 걸리면 플레이보다 답답함이 먼저 커질 수 있습니다."
+      }
+    ],
+    "recent_state": {
+      "status": "mixed",
+      "summary": "좋았다는 반응과 아쉽다는 반응이 함께 보여 평가가 갈리는 편입니다."
+    }
+  },
+  "evidence_sections": {
+    "strengths": [
+      {
+        "block_id": "str_1",
+        "title": "플레이 흐름이 안정적으로 잡힌다는 반응",
+        "theme": "초반 적응은 필요하지만 익숙해지면 손맛이 살아나는 플레이 구조",
+        "why_it_matters": "플레이 흐름이 안정적으로 잡힌다는 반응이 많아 익숙해질수록 리듬을 타기 좋은 편입니다.",
+        "explanation": "플레이 흐름이 안정적으로 잡힌다는 반응이 많아 익숙해질수록 리듬을 타기 좋은 편입니다.",
+        "aspect_keys": [
+          "difficulty"
+        ],
+        "stance": "positive",
+        "consensus_level": "high",
+        "mention_count": 282,
+        "evidence_quality_level": "strict",
+        "evidence_candidate_snippets": [
+          "격투게임 입문하기 역대 가장 좋은 게임 상대나 나나 똑같다.",
+          "격겜초보자 입문하기좋음 어릴때 스파좀해보고 처음 입문했는데 갓겜 1천시간돌파ㅋ",
+          "격투게임 중에서 입문하기도 좋고 오래하기도 편한 게임입니다. 오랫동안 철권했던 사람이지만 스파6 강력추천해요",
+          "대전격투 | 추천도 : ★★★★★ 한줄평 : 모두를 위한 격투게임. 월드투어, 배틀허브, 따라곰까지… 초보부터 고수까지 전부 품어버린 완성형 격투게임. 화려하지만 부담 없고, 빠르지만 난해하지 않은 밸런스가 정말 절묘함. 격투게임이지만 높은 몰입감이 일품."
+        ],
+        "evidence_snippets": [
+          "격투게임 입문하기 역대 가장 좋은 게임 상대나 나나 똑같다.",
+          "격투게임 중에서 입문하기도 좋고 오래하기도 편한 게임입니다. 오랫동안 철권했던 사람이지만 스파6 강력추천해요",
+          "격겜초보자 입문하기좋음 어릴때 스파좀해보고 처음 입문했는데 갓겜 1천시간돌파ㅋ"
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-positive-1-1-8560526964929756202",
+            "text": "격투게임 입문하기 역대 가장 좋은 게임 상대나 나나 똑같다."
+          },
+          {
+            "review_id": "compress-v3-positive-1-2-4373212743133480696",
+            "text": "격겜초보자 입문하기좋음 어릴때 스파좀해보고 처음 입문했는데 갓겜 1천시간돌파ㅋ"
+          },
+          {
+            "review_id": "compress-v3-positive-1-3-3018781678237682896",
+            "text": "격투게임 중에서 입문하기도 좋고 오래하기도 편한 게임입니다. 오랫동안 철권했던 사람이지만 스파6 강력추천해요"
+          },
+          {
+            "review_id": "compress-v3-positive-1-4-5002251627647374971",
+            "text": "대전격투 | 추천도 : ★★★★★ 한줄평 : 모두를 위한 격투게임. 월드투어, 배틀허브, 따라곰까지… 초보부터 고수까지 전부 품어버린 완성형 격투게임. 화려하지만 부담 없고, 빠르지만 난해하지 않은 밸런스가 정말 절묘함. 격투게임이지만 높은 몰입감이 일품."
+          }
+        ]
+      },
+      {
+        "block_id": "str_2",
+        "title": "탐험과 발견의 재미가 좋다는 반응",
+        "theme": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험",
+        "why_it_matters": "맵을 돌아다니며 발견하는 재미를 좋게 보는 반응이 많아 탐험 중심 플레이에 잘 맞습니다.",
+        "explanation": "맵을 돌아다니며 발견하는 재미를 좋게 보는 반응이 많아 탐험 중심 플레이에 잘 맞습니다.",
+        "aspect_keys": [
+          "gameplay"
+        ],
+        "stance": "positive",
+        "consensus_level": "high",
+        "mention_count": 174,
+        "evidence_quality_level": "relaxed",
+        "evidence_candidate_snippets": [
+          "대전격투게임이지만 사람들과 대전하는 것만이 아닌 액션어드벤처게임으로도 오랜 시간 즐길 수 있다는 점에 놀랐습니다. 플레이시간 중 절반 이상을 월드투어에서 보냈네요. 월드투어 자체는 튜토리얼을 아주 길게 늘려놓았다고도 할 수 있겠지만, 그 내용이 알차게 들어있어 굉장히 즐거웠습니다. 스트리트파이터 등장인물 개개인의 세세한 이야기를 알 수 있는 점도 좋았구요. 메트로시티를 돌아다니며 둘러보는 재미도 좋았고, 스승들의 기술을 조합해 나만의 격투게임케릭터를 만드는 것도 정말 마음에 들었습니다. 다양한 복장들과 외모커스터마이징이 있어 자신만의 아바타를 만드는 게 정말 재밌네요. 이번에 선보인 모던조작방식도 잘 다듬어져 있어서 게임을 즐기기 편했습니다. 오락실세대이고 격투게임은 조이스틱으로 하는 것에 익숙해 패드로는 도통 손에 붙질 않아 다른 격투게임들은 사놓고선 그다지 진득하니 즐기지 못했는데, 본작의 모던조작은 패드의 아날로그스틱으로도 충분히 원하는 대로 케릭터를 움직이고 있다고 느끼게 해주네요. 덕분에 오랜만에 격투게임에서 느낄 수 있는 긴장감을 즐겼습니다. 일단 기회만 잡으면 충분한 콤보를 넣을 수 있다는 걸 보장받으니, 상대방이 뭘 하는지 볼 수 있게 되네요. 유저 수가 많아서 비슷한 실력의 사람들과 금방 매치가 잡힌다는 점도 좋았구요. 드라이브시스템은 정말 감탄했는데, 공격과 방어가 하나의 자원을 사용하고 번아웃의 존재로 공격을 위해 방어가 취약해지는 리스크를 감안해야 한다는 구조가 굉장히 매력적이었습니다. 러시와 임팩트로 공방에 돌발상황이 자주 발생한다는 점도 재밌었구요. 게임 흐름을 기존 시리즈에 가졌던 인상과는 완전히 달라지게 만드네요. 고만고만한 실력에 어쩌다 연승하면 기분 좋아 만세 한 번 해주고, 일방적으로 두들겨맞으면 분해서 패드 머리 위로 치켜들고 흔들면서 끙그리는 소리 내게 되는 게, 오래전 오락실이 활기를 띠던 시절이 떠올라 기분좋게 웃었습니다. 그때 만큼의 열정은 없어 큰물에서 놀진 못하겠지만, 그래도 오랫동안 즐길 격투게임이 되어줄 듯하네요.",
+          "가장 참신하고 좋았다고 생각된 부분은 오픈월드 RPG 컨샙의 스토리모드인 월드투어 모드를 꼽고 싶다. 기존 격겜들이 가지고 있던 단점인 부실한 스토리분량과 싱글 컨탠츠를 한번에 해결했다고 좋을 정도로 방대한 분량을 가지고 있다. 또 기존 시리즈에선 주요 캐릭터들의 개별 서사가 항상 부족하다고 느꼈는데 월드투어 모드에선 그 캐릭터들의 제자로 들어가 수련을 받고 유대감이 상승할 수록 자신들의 과거 이력이나 개인적인 이야기를 풀어나가는 모습이 인상적이였다. (예를 들어 류는 평소에도 도복을 입는 지나 고우키는 뭐하면서 먹고 사는 지 등) 그리고 월드투어의 기본적인 의의는 싱글컨탠츠 강화나 초보자 유입이겠지만 스파 시리즈 팬이나 캡콤의 오락실 시절 (80~90년대)의 팬들에 대한 헌정이라고도 할 수 있다. 다양한 팬서비스와 과거작 오마쥬들이 산재해 있고 실제 당시 게임들도 수록되어 있다. 격투게임으로서도 완성도가 높다. 근본답게 훌륭한 타격감과 압도적인 필살기 연출, 심장 쫄리는 심리공방이 일품이고 격겜의 단점인 온라인에서의 양학 방지를 위해 배치고사를 통한 비슷한 등급끼리만 통신 대전이 이루지는 것도 칭찬하고 싶다. 모던 조작 도입은 개인적으로 기존에 조작난이도가 높아 잘 못 썻던 캐릭터들(장기에프, 가일)을 써볼 수 있는 기회가 생겨 좋았다. 처음에는 너무 쉬운 거 아닌가 싶었는데 클래식모드랑 다르게 제한적인 조작도 있어서 마냥 이지모드라고 생각하진 않는다. 메타버스 컨샙의 온라인 로비인 배틀허브에서의 아바타 배틀은 그 병맛 감성덕에 정말 보는 재미가 있다. 관전만 해도 웃기다. 몇 안되는 단점이라면 too much 캐시템 정도? 이런 부분은 본인 플레이 스타일에 맞게 걸러 내면 좋을 거 같다. 발매 1주년을 맞이한 스파6는 입문 시기가 바로 지금이다. (snk야 캡콤 좀 보고 배워라)"
+        ],
+        "evidence_snippets": [
+          "가장 참신하고 좋았다고 생각된 부분은 오픈월드 RPG 컨샙의 스토리모드인 월드투어 모드를 꼽고 싶다. 기존 격겜들이 가지고 있던 단점인 부실한 스토리분량과 싱글 컨탠츠를 한번에 해결했다고 좋을 정도로 방대한 분량을 가지고 있다. 또 기존 시리즈에선 주요 캐릭터들의 개별 서사가 항상 부족하다고 느꼈는데 월드투어 모드에선 그 캐릭터들의 제자로 들어가 수련을 받고 유대감이 상승할 수록 자신들의 과거 이력이나 개인적인 이야기를 풀어나가는 모습이 인상적이였다. (예를 들어 류는 평소에도 도복을 입는 지나 고우키는 뭐하면서 먹고 사는 지 등) 그리고 월드투어의 기본적인 의의는 싱글컨탠츠 강화나 초보자 유입이겠지만 스파 시리즈 팬이나 캡콤의 오락실 시절 (80~90년대)의 팬들에 대한 헌정이라고도 할 수 있다. 다양한 팬서비스와 과거작 오마쥬들이 산재해 있고 실제 당시 게임들도 수록되어 있다. 격투게임으로서도 완성도가 높다. 근본답게 훌륭한 타격감과 압도적인 필살기 연출, 심장 쫄리는 심리공방이 일품이고 격겜의 단점인 온라인에서의 양학 방지를 위해 배치고사를 통한 비슷한 등급끼리만 통신 대전이 이루지는 것도 칭찬하고 싶다. 모던 조작 도입은 개인적으로 기존에 조작난이도가 높아 잘 못 썻던 캐릭터들(장기에프, 가일)을 써볼 수 있는 기회가 생겨 좋았다. 처음에는 너무 쉬운 거 아닌가 싶었는데 클래식모드랑 다르게 제한적인 조작도 있어서 마냥 이지모드라고 생각하진 않는다. 메타버스 컨샙의 온라인 로비인 배틀허브에서의 아바타 배틀은 그 병맛 감성덕에 정말 보는 재미가 있다. 관전만 해도 웃기다. 몇 안되는 단점이라면 too much 캐시템 정도? 이런 부분은 본인 플레이 스타일에 맞게 걸러 내면 좋을 거 같다. 발매 1주년을 맞이한 스파6는 입문 시기가 바로 지금이다. (snk야 캡콤 좀 보고 배워라)",
+          "대전격투게임이지만 사람들과 대전하는 것만이 아닌 액션어드벤처게임으로도 오랜 시간 즐길 수 있다는 점에 놀랐습니다. 플레이시간 중 절반 이상을 월드투어에서 보냈네요. 월드투어 자체는 튜토리얼을 아주 길게 늘려놓았다고도 할 수 있겠지만, 그 내용이 알차게 들어있어 굉장히 즐거웠습니다. 스트리트파이터 등장인물 개개인의 세세한 이야기를 알 수 있는 점도 좋았구요. 메트로시티를 돌아다니며 둘러보는 재미도 좋았고, 스승들의 기술을 조합해 나만의 격투게임케릭터를 만드는 것도 정말 마음에 들었습니다. 다양한 복장들과 외모커스터마이징이 있어 자신만의 아바타를 만드는 게 정말 재밌네요. 이번에 선보인 모던조작방식도 잘 다듬어져 있어서 게임을 즐기기 편했습니다. 오락실세대이고 격투게임은 조이스틱으로 하는 것에 익숙해 패드로는 도통 손에 붙질 않아 다른 격투게임들은 사놓고선 그다지 진득하니 즐기지 못했는데, 본작의 모던조작은 패드의 아날로그스틱으로도 충분히 원하는 대로 케릭터를 움직이고 있다고 느끼게 해주네요. 덕분에 오랜만에 격투게임에서 느낄 수 있는 긴장감을 즐겼습니다. 일단 기회만 잡으면 충분한 콤보를 넣을 수 있다는 걸 보장받으니, 상대방이 뭘 하는지 볼 수 있게 되네요. 유저 수가 많아서 비슷한 실력의 사람들과 금방 매치가 잡힌다는 점도 좋았구요. 드라이브시스템은 정말 감탄했는데, 공격과 방어가 하나의 자원을 사용하고 번아웃의 존재로 공격을 위해 방어가 취약해지는 리스크를 감안해야 한다는 구조가 굉장히 매력적이었습니다. 러시와 임팩트로 공방에 돌발상황이 자주 발생한다는 점도 재밌었구요. 게임 흐름을 기존 시리즈에 가졌던 인상과는 완전히 달라지게 만드네요. 고만고만한 실력에 어쩌다 연승하면 기분 좋아 만세 한 번 해주고, 일방적으로 두들겨맞으면 분해서 패드 머리 위로 치켜들고 흔들면서 끙그리는 소리 내게 되는 게, 오래전 오락실이 활기를 띠던 시절이 떠올라 기분좋게 웃었습니다. 그때 만큼의 열정은 없어 큰물에서 놀진 못하겠지만, 그래도 오랫동안 즐길 격투게임이 되어줄 듯하네요."
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-positive-2-5-7162373941465275805",
+            "text": "대전격투게임이지만 사람들과 대전하는 것만이 아닌 액션어드벤처게임으로도 오랜 시간 즐길 수 있다는 점에 놀랐습니다. 플레이시간 중 절반 이상을 월드투어에서 보냈네요. 월드투어 자체는 튜토리얼을 아주 길게 늘려놓았다고도 할 수 있겠지만, 그 내용이 알차게 들어있어 굉장히 즐거웠습니다. 스트리트파이터 등장인물 개개인의 세세한 이야기를 알 수 있는 점도 좋았구요. 메트로시티를 돌아다니며 둘러보는 재미도 좋았고, 스승들의 기술을 조합해 나만의 격투게임케릭터를 만드는 것도 정말 마음에 들었습니다. 다양한 복장들과 외모커스터마이징이 있어 자신만의 아바타를 만드는 게 정말 재밌네요. 이번에 선보인 모던조작방식도 잘 다듬어져 있어서 게임을 즐기기 편했습니다. 오락실세대이고 격투게임은 조이스틱으로 하는 것에 익숙해 패드로는 도통 손에 붙질 않아 다른 격투게임들은 사놓고선 그다지 진득하니 즐기지 못했는데, 본작의 모던조작은 패드의 아날로그스틱으로도 충분히 원하는 대로 케릭터를 움직이고 있다고 느끼게 해주네요. 덕분에 오랜만에 격투게임에서 느낄 수 있는 긴장감을 즐겼습니다. 일단 기회만 잡으면 충분한 콤보를 넣을 수 있다는 걸 보장받으니, 상대방이 뭘 하는지 볼 수 있게 되네요. 유저 수가 많아서 비슷한 실력의 사람들과 금방 매치가 잡힌다는 점도 좋았구요. 드라이브시스템은 정말 감탄했는데, 공격과 방어가 하나의 자원을 사용하고 번아웃의 존재로 공격을 위해 방어가 취약해지는 리스크를 감안해야 한다는 구조가 굉장히 매력적이었습니다. 러시와 임팩트로 공방에 돌발상황이 자주 발생한다는 점도 재밌었구요. 게임 흐름을 기존 시리즈에 가졌던 인상과는 완전히 달라지게 만드네요. 고만고만한 실력에 어쩌다 연승하면 기분 좋아 만세 한 번 해주고, 일방적으로 두들겨맞으면 분해서 패드 머리 위로 치켜들고 흔들면서 끙그리는 소리 내게 되는 게, 오래전 오락실이 활기를 띠던 시절이 떠올라 기분좋게 웃었습니다. 그때 만큼의 열정은 없어 큰물에서 놀진 못하겠지만, 그래도 오랫동안 즐길 격투게임이 되어줄 듯하네요."
+          },
+          {
+            "review_id": "compress-v3-positive-2-8-4212743288179582092",
+            "text": "가장 참신하고 좋았다고 생각된 부분은 오픈월드 RPG 컨샙의 스토리모드인 월드투어 모드를 꼽고 싶다. 기존 격겜들이 가지고 있던 단점인 부실한 스토리분량과 싱글 컨탠츠를 한번에 해결했다고 좋을 정도로 방대한 분량을 가지고 있다. 또 기존 시리즈에선 주요 캐릭터들의 개별 서사가 항상 부족하다고 느꼈는데 월드투어 모드에선 그 캐릭터들의 제자로 들어가 수련을 받고 유대감이 상승할 수록 자신들의 과거 이력이나 개인적인 이야기를 풀어나가는 모습이 인상적이였다. (예를 들어 류는 평소에도 도복을 입는 지나 고우키는 뭐하면서 먹고 사는 지 등) 그리고 월드투어의 기본적인 의의는 싱글컨탠츠 강화나 초보자 유입이겠지만 스파 시리즈 팬이나 캡콤의 오락실 시절 (80~90년대)의 팬들에 대한 헌정이라고도 할 수 있다. 다양한 팬서비스와 과거작 오마쥬들이 산재해 있고 실제 당시 게임들도 수록되어 있다. 격투게임으로서도 완성도가 높다. 근본답게 훌륭한 타격감과 압도적인 필살기 연출, 심장 쫄리는 심리공방이 일품이고 격겜의 단점인 온라인에서의 양학 방지를 위해 배치고사를 통한 비슷한 등급끼리만 통신 대전이 이루지는 것도 칭찬하고 싶다. 모던 조작 도입은 개인적으로 기존에 조작난이도가 높아 잘 못 썻던 캐릭터들(장기에프, 가일)을 써볼 수 있는 기회가 생겨 좋았다. 처음에는 너무 쉬운 거 아닌가 싶었는데 클래식모드랑 다르게 제한적인 조작도 있어서 마냥 이지모드라고 생각하진 않는다. 메타버스 컨샙의 온라인 로비인 배틀허브에서의 아바타 배틀은 그 병맛 감성덕에 정말 보는 재미가 있다. 관전만 해도 웃기다. 몇 안되는 단점이라면 too much 캐시템 정도? 이런 부분은 본인 플레이 스타일에 맞게 걸러 내면 좋을 거 같다. 발매 1주년을 맞이한 스파6는 입문 시기가 바로 지금이다. (snk야 캡콤 좀 보고 배워라)"
+          }
+        ]
+      },
+      {
+        "block_id": "str_3",
+        "title": "세계와 사건에 몰입하게 된다는 반응",
+        "theme": "캐릭터 / 연출 인상",
+        "why_it_matters": "세계와 사건에 몰입한다는 반응이 많아 분위기와 서사를 중시하는 플레이와 잘 맞습니다.",
+        "explanation": "세계와 사건에 몰입한다는 반응이 많아 분위기와 서사를 중시하는 플레이와 잘 맞습니다.",
+        "aspect_keys": [
+          "story"
+        ],
+        "stance": "positive",
+        "consensus_level": "high",
+        "mention_count": 168,
+        "evidence_quality_level": "strict",
+        "evidence_candidate_snippets": [
+          "대전격투 | 추천도 : ★★★★★ 한줄평 : 모두를 위한 격투게임. 월드투어, 배틀허브, 따라곰까지… 초보부터 고수까지 전부 품어버린 완성형 격투게임. 화려하지만 부담 없고, 빠르지만 난해하지 않은 밸런스가 정말 절묘함. 격투게임이지만 높은 몰입감이 일품.",
+          "제발 이상한 밸런스 파괴하는 캐릭터만 만들거면 있는 캐릭터들 스킨이나 만들어 주던가 밸런스 패치좀.....",
+          "캐릭터가 너무 적고, 기술도 다양하지도 않아서 재미도 없음... 철권보다 오래되었는데도 불구하고 오히려 이게 철권아류작같음... 그냥 철권하는게 나을듯...",
+          "갓갬이긴 한데 캐릭터 가격정책이 부모가 없음"
+        ],
+        "evidence_snippets": [
+          "캐릭터가 너무 적고, 기술도 다양하지도 않아서 재미도 없음... 철권보다 오래되었는데도 불구하고 오히려 이게 철권아류작같음... 그냥 철권하는게 나을듯...",
+          "대전격투 | 추천도 : ★★★★★ 한줄평 : 모두를 위한 격투게임. 월드투어, 배틀허브, 따라곰까지… 초보부터 고수까지 전부 품어버린 완성형 격투게임. 화려하지만 부담 없고, 빠르지만 난해하지 않은 밸런스가 정말 절묘함. 격투게임이지만 높은 몰입감이 일품."
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-positive-3-1-5002251627647374971",
+            "text": "대전격투 | 추천도 : ★★★★★ 한줄평 : 모두를 위한 격투게임. 월드투어, 배틀허브, 따라곰까지… 초보부터 고수까지 전부 품어버린 완성형 격투게임. 화려하지만 부담 없고, 빠르지만 난해하지 않은 밸런스가 정말 절묘함. 격투게임이지만 높은 몰입감이 일품."
+          },
+          {
+            "review_id": "compress-v3-positive-3-2-4842949811239531578",
+            "text": "제발 이상한 밸런스 파괴하는 캐릭터만 만들거면 있는 캐릭터들 스킨이나 만들어 주던가 밸런스 패치좀....."
+          },
+          {
+            "review_id": "compress-v3-positive-3-3-4918310390396486609",
+            "text": "캐릭터가 너무 적고, 기술도 다양하지도 않아서 재미도 없음... 철권보다 오래되었는데도 불구하고 오히려 이게 철권아류작같음... 그냥 철권하는게 나을듯..."
+          },
+          {
+            "review_id": "compress-v3-positive-3-4-7534357435025302710",
+            "text": "갓갬이긴 한데 캐릭터 가격정책이 부모가 없음"
+          }
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "block_id": "risk_1",
+        "title": "오류와 끊김이 흐름을 끊는다는 반응",
+        "theme": "모드 지원 / 호환 문제",
+        "why_it_matters": "오류와 끊김을 지적하는 반응이 이어져 흐름이 끊기는 상황은 감수할 필요가 있습니다.",
+        "explanation": "오류와 끊김을 지적하는 반응이 이어져 흐름이 끊기는 상황은 감수할 필요가 있습니다.",
+        "aspect_keys": [
+          "mod_support"
+        ],
+        "stance": "negative",
+        "consensus_level": "high",
+        "mention_count": 159,
+        "evidence_quality_level": "strict",
+        "evidence_candidate_snippets": [
+          "인류가 만들 수 있는 최악의 고혈압 유발 게임 이 게임을 하고있으면 게임을 질병이라고 정의한 WHO의 큰 뜻을 깨닫게 된다 전세계 유저들이 입모아 밸패를 하라고 해도 개씹마이웨이를 가는 스트리트 파이터 6 디렉터의 오락실 꼬꼬마시절 딸감이 최악의 공책노트 캐릭터가 되어 기존에 있던 모든 캐릭들을 하위호환으로 만들어버리는 스트리트 파이터 6 씹게이들과 고릴라들이 모여 서로 자웅을 겨루는 사람새끼가 없는 스트리트 파이터 6 지금 바로 시작해",
+          "진짜 잘만든 게임이네요 초보인데도 시스템 튜토리얼 조금 진행 후 모던모드로 쉽게 게임 시작할 수 있었습니다 간단하게 랭크매치 하면서 내가 답답하고 연습해야겠다 하는부분들은 트레이닝 모드에서 쉽게 시험해볼 수 있어서 진짜 잘만들었다 라는 말이 딱 어울리는 격투게임같습니다",
+          "연습모드 클래식으로 바꿔도 월드투어도 모던으로 돼있어서 또 바꾸고 랭크게임도 모던으로 돼있어서 또 바꾸고 뭐 할 때마다 계속 바꿔줘야하네",
+          "키보드 하나로 멀티를 못함. 격겜 스토리모드에서 레벨노가다를 해야됨."
+        ],
+        "evidence_snippets": [
+          "진짜 잘만든 게임이네요 초보인데도 시스템 튜토리얼 조금 진행 후 모던모드로 쉽게 게임 시작할 수 있었습니다 간단하게 랭크매치 하면서 내가 답답하고 연습해야겠다 하는부분들은 트레이닝 모드에서 쉽게 시험해볼 수 있어서 진짜 잘만들었다 라는 말이 딱 어울리는 격투게임같습니다",
+          "인류가 만들 수 있는 최악의 고혈압 유발 게임 이 게임을 하고있으면 게임을 질병이라고 정의한 WHO의 큰 뜻을 깨닫게 된다 전세계 유저들이 입모아 밸패를 하라고 해도 개씹마이웨이를 가는 스트리트 파이터 6 디렉터의 오락실 꼬꼬마시절 딸감이 최악의 공책노트 캐릭터가 되어 기존에 있던 모든 캐릭들을 하위호환으로 만들어버리는 스트리트 파이터 6 씹게이들과 고릴라들이 모여 서로 자웅을 겨루는 사람새끼가 없는 스트리트 파이터 6 지금 바로 시작해"
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-negative-1-1-3381086975958383673",
+            "text": "인류가 만들 수 있는 최악의 고혈압 유발 게임 이 게임을 하고있으면 게임을 질병이라고 정의한 WHO의 큰 뜻을 깨닫게 된다 전세계 유저들이 입모아 밸패를 하라고 해도 개씹마이웨이를 가는 스트리트 파이터 6 디렉터의 오락실 꼬꼬마시절 딸감이 최악의 공책노트 캐릭터가 되어 기존에 있던 모든 캐릭들을 하위호환으로 만들어버리는 스트리트 파이터 6 씹게이들과 고릴라들이 모여 서로 자웅을 겨루는 사람새끼가 없는 스트리트 파이터 6 지금 바로 시작해"
+          },
+          {
+            "review_id": "compress-v3-negative-1-2-6579271031558191216",
+            "text": "진짜 잘만든 게임이네요 초보인데도 시스템 튜토리얼 조금 진행 후 모던모드로 쉽게 게임 시작할 수 있었습니다 간단하게 랭크매치 하면서 내가 답답하고 연습해야겠다 하는부분들은 트레이닝 모드에서 쉽게 시험해볼 수 있어서 진짜 잘만들었다 라는 말이 딱 어울리는 격투게임같습니다"
+          },
+          {
+            "review_id": "compress-v3-negative-1-3-4588417911957545930",
+            "text": "연습모드 클래식으로 바꿔도 월드투어도 모던으로 돼있어서 또 바꾸고 랭크게임도 모던으로 돼있어서 또 바꾸고 뭐 할 때마다 계속 바꿔줘야하네"
+          },
+          {
+            "review_id": "compress-v3-negative-1-4-154172559608937497",
+            "text": "키보드 하나로 멀티를 못함. 격겜 스토리모드에서 레벨노가다를 해야됨."
+          }
+        ]
+      }
+    ]
+  },
+  "disclaimer": "여러 유저 리뷰를 바탕으로 정리했어요. 플레이 경험은 사람마다 다를 수 있어요.",
+  "headline": "사건과 인물의 여운이 오래 남는 경험은 분명한 강점이지만 긴 호흡의 진행 템포는 취향을 탈 수 있습니다.",
+  "buy_recommendation": "buy_on_sale",
+  "buy_timing_summary": "밸런스 변화 변수 불편을 감수해야 할 수 있어 가격 메리트가 있는 시점이 더 낫습니다.",
+  "good_for": [
+    "플레이 흐름이 점점 또렷해지는 재미를 좋아하는 플레이어",
+    "맵을 돌아다니며 발견하는 재미를 중요하게 보는 플레이어",
+    "서사와 분위기에 오래 몰입하는 플레이어"
+  ],
+  "not_good_for": [
+    "밸런스 변화에 민감하게 반응하는 플레이어",
+    "같은 흐름이 길어지면 피로를 크게 느끼는 플레이어",
+    "조작과 인터페이스 적응 스트레스를 크게 받는 플레이어"
+  ],
+  "top_strengths": [
+    {
+      "title": "사건과 인물이 오래 남는 서사 경험",
+      "summary": "사건과 인물의 여운이 길게 남아 세계를 천천히 체험하는 몰입감이 또렷합니다."
+    },
+    {
+      "title": "발견이 이어지는 탐험 경험",
+      "summary": "이동과 발견 그 자체가 재미로 이어져 탐험 비중이 높은 플레이와 잘 맞습니다."
+    },
+    {
+      "title": "세계와 사건에 빨려 드는 몰입감",
+      "summary": "세계와 사건의 흐름이 강하게 이어져 분위기와 서사를 중시하면 만족도가 높습니다."
+    }
+  ],
+  "top_risks": [
+    {
+      "title": "특정 구간의 불공정 체감이 누적되면 피로도가 높아질 수 있는 리스크",
+      "summary": "밸런스 변화가 직접적인 플레이 감각 차이로 이어질 수 있습니다."
+    },
+    {
+      "title": "플레이 시간이 누적될수록 새로움이 빨리 소진될 수 있는 리스크",
+      "summary": "익숙해진 뒤에는 새로움보다 반복감이 먼저 느껴질 수 있습니다."
+    },
+    {
+      "title": "조작감 문제",
+      "summary": "조작과 인터페이스 적응에 시간이 걸리면 플레이보다 답답함이 먼저 커질 수 있습니다."
+    }
+  ],
+  "recent_state": {
+    "status": "mixed",
+    "summary": "좋았다는 반응과 아쉽다는 반응이 함께 보여 평가가 갈리는 편입니다."
+  },
+  "evidence_reviews": [
+    {
+      "block_id": "str_1",
+      "title": "플레이 흐름이 안정적으로 잡힌다는 반응",
+      "theme": "초반 적응은 필요하지만 익숙해지면 손맛이 살아나는 플레이 구조",
+      "why_it_matters": "플레이 흐름이 안정적으로 잡힌다는 반응이 많아 익숙해질수록 리듬을 타기 좋은 편입니다.",
+      "explanation": "플레이 흐름이 안정적으로 잡힌다는 반응이 많아 익숙해질수록 리듬을 타기 좋은 편입니다.",
+      "aspect_keys": [
+        "difficulty"
+      ],
+      "stance": "positive",
+      "consensus_level": "high",
+      "mention_count": 282,
+      "evidence_quality_level": "strict",
+      "evidence_candidate_snippets": [
+        "격투게임 입문하기 역대 가장 좋은 게임 상대나 나나 똑같다.",
+        "격겜초보자 입문하기좋음 어릴때 스파좀해보고 처음 입문했는데 갓겜 1천시간돌파ㅋ",
+        "격투게임 중에서 입문하기도 좋고 오래하기도 편한 게임입니다. 오랫동안 철권했던 사람이지만 스파6 강력추천해요",
+        "대전격투 | 추천도 : ★★★★★ 한줄평 : 모두를 위한 격투게임. 월드투어, 배틀허브, 따라곰까지… 초보부터 고수까지 전부 품어버린 완성형 격투게임. 화려하지만 부담 없고, 빠르지만 난해하지 않은 밸런스가 정말 절묘함. 격투게임이지만 높은 몰입감이 일품."
+      ],
+      "evidence_snippets": [
+        "격투게임 입문하기 역대 가장 좋은 게임 상대나 나나 똑같다.",
+        "격투게임 중에서 입문하기도 좋고 오래하기도 편한 게임입니다. 오랫동안 철권했던 사람이지만 스파6 강력추천해요",
+        "격겜초보자 입문하기좋음 어릴때 스파좀해보고 처음 입문했는데 갓겜 1천시간돌파ㅋ"
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-positive-1-1-8560526964929756202",
+          "text": "격투게임 입문하기 역대 가장 좋은 게임 상대나 나나 똑같다."
+        },
+        {
+          "review_id": "compress-v3-positive-1-2-4373212743133480696",
+          "text": "격겜초보자 입문하기좋음 어릴때 스파좀해보고 처음 입문했는데 갓겜 1천시간돌파ㅋ"
+        },
+        {
+          "review_id": "compress-v3-positive-1-3-3018781678237682896",
+          "text": "격투게임 중에서 입문하기도 좋고 오래하기도 편한 게임입니다. 오랫동안 철권했던 사람이지만 스파6 강력추천해요"
+        },
+        {
+          "review_id": "compress-v3-positive-1-4-5002251627647374971",
+          "text": "대전격투 | 추천도 : ★★★★★ 한줄평 : 모두를 위한 격투게임. 월드투어, 배틀허브, 따라곰까지… 초보부터 고수까지 전부 품어버린 완성형 격투게임. 화려하지만 부담 없고, 빠르지만 난해하지 않은 밸런스가 정말 절묘함. 격투게임이지만 높은 몰입감이 일품."
+        }
+      ]
+    },
+    {
+      "block_id": "str_2",
+      "title": "탐험과 발견의 재미가 좋다는 반응",
+      "theme": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험",
+      "why_it_matters": "맵을 돌아다니며 발견하는 재미를 좋게 보는 반응이 많아 탐험 중심 플레이에 잘 맞습니다.",
+      "explanation": "맵을 돌아다니며 발견하는 재미를 좋게 보는 반응이 많아 탐험 중심 플레이에 잘 맞습니다.",
+      "aspect_keys": [
+        "gameplay"
+      ],
+      "stance": "positive",
+      "consensus_level": "high",
+      "mention_count": 174,
+      "evidence_quality_level": "relaxed",
+      "evidence_candidate_snippets": [
+        "대전격투게임이지만 사람들과 대전하는 것만이 아닌 액션어드벤처게임으로도 오랜 시간 즐길 수 있다는 점에 놀랐습니다. 플레이시간 중 절반 이상을 월드투어에서 보냈네요. 월드투어 자체는 튜토리얼을 아주 길게 늘려놓았다고도 할 수 있겠지만, 그 내용이 알차게 들어있어 굉장히 즐거웠습니다. 스트리트파이터 등장인물 개개인의 세세한 이야기를 알 수 있는 점도 좋았구요. 메트로시티를 돌아다니며 둘러보는 재미도 좋았고, 스승들의 기술을 조합해 나만의 격투게임케릭터를 만드는 것도 정말 마음에 들었습니다. 다양한 복장들과 외모커스터마이징이 있어 자신만의 아바타를 만드는 게 정말 재밌네요. 이번에 선보인 모던조작방식도 잘 다듬어져 있어서 게임을 즐기기 편했습니다. 오락실세대이고 격투게임은 조이스틱으로 하는 것에 익숙해 패드로는 도통 손에 붙질 않아 다른 격투게임들은 사놓고선 그다지 진득하니 즐기지 못했는데, 본작의 모던조작은 패드의 아날로그스틱으로도 충분히 원하는 대로 케릭터를 움직이고 있다고 느끼게 해주네요. 덕분에 오랜만에 격투게임에서 느낄 수 있는 긴장감을 즐겼습니다. 일단 기회만 잡으면 충분한 콤보를 넣을 수 있다는 걸 보장받으니, 상대방이 뭘 하는지 볼 수 있게 되네요. 유저 수가 많아서 비슷한 실력의 사람들과 금방 매치가 잡힌다는 점도 좋았구요. 드라이브시스템은 정말 감탄했는데, 공격과 방어가 하나의 자원을 사용하고 번아웃의 존재로 공격을 위해 방어가 취약해지는 리스크를 감안해야 한다는 구조가 굉장히 매력적이었습니다. 러시와 임팩트로 공방에 돌발상황이 자주 발생한다는 점도 재밌었구요. 게임 흐름을 기존 시리즈에 가졌던 인상과는 완전히 달라지게 만드네요. 고만고만한 실력에 어쩌다 연승하면 기분 좋아 만세 한 번 해주고, 일방적으로 두들겨맞으면 분해서 패드 머리 위로 치켜들고 흔들면서 끙그리는 소리 내게 되는 게, 오래전 오락실이 활기를 띠던 시절이 떠올라 기분좋게 웃었습니다. 그때 만큼의 열정은 없어 큰물에서 놀진 못하겠지만, 그래도 오랫동안 즐길 격투게임이 되어줄 듯하네요.",
+        "가장 참신하고 좋았다고 생각된 부분은 오픈월드 RPG 컨샙의 스토리모드인 월드투어 모드를 꼽고 싶다. 기존 격겜들이 가지고 있던 단점인 부실한 스토리분량과 싱글 컨탠츠를 한번에 해결했다고 좋을 정도로 방대한 분량을 가지고 있다. 또 기존 시리즈에선 주요 캐릭터들의 개별 서사가 항상 부족하다고 느꼈는데 월드투어 모드에선 그 캐릭터들의 제자로 들어가 수련을 받고 유대감이 상승할 수록 자신들의 과거 이력이나 개인적인 이야기를 풀어나가는 모습이 인상적이였다. (예를 들어 류는 평소에도 도복을 입는 지나 고우키는 뭐하면서 먹고 사는 지 등) 그리고 월드투어의 기본적인 의의는 싱글컨탠츠 강화나 초보자 유입이겠지만 스파 시리즈 팬이나 캡콤의 오락실 시절 (80~90년대)의 팬들에 대한 헌정이라고도 할 수 있다. 다양한 팬서비스와 과거작 오마쥬들이 산재해 있고 실제 당시 게임들도 수록되어 있다. 격투게임으로서도 완성도가 높다. 근본답게 훌륭한 타격감과 압도적인 필살기 연출, 심장 쫄리는 심리공방이 일품이고 격겜의 단점인 온라인에서의 양학 방지를 위해 배치고사를 통한 비슷한 등급끼리만 통신 대전이 이루지는 것도 칭찬하고 싶다. 모던 조작 도입은 개인적으로 기존에 조작난이도가 높아 잘 못 썻던 캐릭터들(장기에프, 가일)을 써볼 수 있는 기회가 생겨 좋았다. 처음에는 너무 쉬운 거 아닌가 싶었는데 클래식모드랑 다르게 제한적인 조작도 있어서 마냥 이지모드라고 생각하진 않는다. 메타버스 컨샙의 온라인 로비인 배틀허브에서의 아바타 배틀은 그 병맛 감성덕에 정말 보는 재미가 있다. 관전만 해도 웃기다. 몇 안되는 단점이라면 too much 캐시템 정도? 이런 부분은 본인 플레이 스타일에 맞게 걸러 내면 좋을 거 같다. 발매 1주년을 맞이한 스파6는 입문 시기가 바로 지금이다. (snk야 캡콤 좀 보고 배워라)"
+      ],
+      "evidence_snippets": [
+        "가장 참신하고 좋았다고 생각된 부분은 오픈월드 RPG 컨샙의 스토리모드인 월드투어 모드를 꼽고 싶다. 기존 격겜들이 가지고 있던 단점인 부실한 스토리분량과 싱글 컨탠츠를 한번에 해결했다고 좋을 정도로 방대한 분량을 가지고 있다. 또 기존 시리즈에선 주요 캐릭터들의 개별 서사가 항상 부족하다고 느꼈는데 월드투어 모드에선 그 캐릭터들의 제자로 들어가 수련을 받고 유대감이 상승할 수록 자신들의 과거 이력이나 개인적인 이야기를 풀어나가는 모습이 인상적이였다. (예를 들어 류는 평소에도 도복을 입는 지나 고우키는 뭐하면서 먹고 사는 지 등) 그리고 월드투어의 기본적인 의의는 싱글컨탠츠 강화나 초보자 유입이겠지만 스파 시리즈 팬이나 캡콤의 오락실 시절 (80~90년대)의 팬들에 대한 헌정이라고도 할 수 있다. 다양한 팬서비스와 과거작 오마쥬들이 산재해 있고 실제 당시 게임들도 수록되어 있다. 격투게임으로서도 완성도가 높다. 근본답게 훌륭한 타격감과 압도적인 필살기 연출, 심장 쫄리는 심리공방이 일품이고 격겜의 단점인 온라인에서의 양학 방지를 위해 배치고사를 통한 비슷한 등급끼리만 통신 대전이 이루지는 것도 칭찬하고 싶다. 모던 조작 도입은 개인적으로 기존에 조작난이도가 높아 잘 못 썻던 캐릭터들(장기에프, 가일)을 써볼 수 있는 기회가 생겨 좋았다. 처음에는 너무 쉬운 거 아닌가 싶었는데 클래식모드랑 다르게 제한적인 조작도 있어서 마냥 이지모드라고 생각하진 않는다. 메타버스 컨샙의 온라인 로비인 배틀허브에서의 아바타 배틀은 그 병맛 감성덕에 정말 보는 재미가 있다. 관전만 해도 웃기다. 몇 안되는 단점이라면 too much 캐시템 정도? 이런 부분은 본인 플레이 스타일에 맞게 걸러 내면 좋을 거 같다. 발매 1주년을 맞이한 스파6는 입문 시기가 바로 지금이다. (snk야 캡콤 좀 보고 배워라)",
+        "대전격투게임이지만 사람들과 대전하는 것만이 아닌 액션어드벤처게임으로도 오랜 시간 즐길 수 있다는 점에 놀랐습니다. 플레이시간 중 절반 이상을 월드투어에서 보냈네요. 월드투어 자체는 튜토리얼을 아주 길게 늘려놓았다고도 할 수 있겠지만, 그 내용이 알차게 들어있어 굉장히 즐거웠습니다. 스트리트파이터 등장인물 개개인의 세세한 이야기를 알 수 있는 점도 좋았구요. 메트로시티를 돌아다니며 둘러보는 재미도 좋았고, 스승들의 기술을 조합해 나만의 격투게임케릭터를 만드는 것도 정말 마음에 들었습니다. 다양한 복장들과 외모커스터마이징이 있어 자신만의 아바타를 만드는 게 정말 재밌네요. 이번에 선보인 모던조작방식도 잘 다듬어져 있어서 게임을 즐기기 편했습니다. 오락실세대이고 격투게임은 조이스틱으로 하는 것에 익숙해 패드로는 도통 손에 붙질 않아 다른 격투게임들은 사놓고선 그다지 진득하니 즐기지 못했는데, 본작의 모던조작은 패드의 아날로그스틱으로도 충분히 원하는 대로 케릭터를 움직이고 있다고 느끼게 해주네요. 덕분에 오랜만에 격투게임에서 느낄 수 있는 긴장감을 즐겼습니다. 일단 기회만 잡으면 충분한 콤보를 넣을 수 있다는 걸 보장받으니, 상대방이 뭘 하는지 볼 수 있게 되네요. 유저 수가 많아서 비슷한 실력의 사람들과 금방 매치가 잡힌다는 점도 좋았구요. 드라이브시스템은 정말 감탄했는데, 공격과 방어가 하나의 자원을 사용하고 번아웃의 존재로 공격을 위해 방어가 취약해지는 리스크를 감안해야 한다는 구조가 굉장히 매력적이었습니다. 러시와 임팩트로 공방에 돌발상황이 자주 발생한다는 점도 재밌었구요. 게임 흐름을 기존 시리즈에 가졌던 인상과는 완전히 달라지게 만드네요. 고만고만한 실력에 어쩌다 연승하면 기분 좋아 만세 한 번 해주고, 일방적으로 두들겨맞으면 분해서 패드 머리 위로 치켜들고 흔들면서 끙그리는 소리 내게 되는 게, 오래전 오락실이 활기를 띠던 시절이 떠올라 기분좋게 웃었습니다. 그때 만큼의 열정은 없어 큰물에서 놀진 못하겠지만, 그래도 오랫동안 즐길 격투게임이 되어줄 듯하네요."
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-positive-2-5-7162373941465275805",
+          "text": "대전격투게임이지만 사람들과 대전하는 것만이 아닌 액션어드벤처게임으로도 오랜 시간 즐길 수 있다는 점에 놀랐습니다. 플레이시간 중 절반 이상을 월드투어에서 보냈네요. 월드투어 자체는 튜토리얼을 아주 길게 늘려놓았다고도 할 수 있겠지만, 그 내용이 알차게 들어있어 굉장히 즐거웠습니다. 스트리트파이터 등장인물 개개인의 세세한 이야기를 알 수 있는 점도 좋았구요. 메트로시티를 돌아다니며 둘러보는 재미도 좋았고, 스승들의 기술을 조합해 나만의 격투게임케릭터를 만드는 것도 정말 마음에 들었습니다. 다양한 복장들과 외모커스터마이징이 있어 자신만의 아바타를 만드는 게 정말 재밌네요. 이번에 선보인 모던조작방식도 잘 다듬어져 있어서 게임을 즐기기 편했습니다. 오락실세대이고 격투게임은 조이스틱으로 하는 것에 익숙해 패드로는 도통 손에 붙질 않아 다른 격투게임들은 사놓고선 그다지 진득하니 즐기지 못했는데, 본작의 모던조작은 패드의 아날로그스틱으로도 충분히 원하는 대로 케릭터를 움직이고 있다고 느끼게 해주네요. 덕분에 오랜만에 격투게임에서 느낄 수 있는 긴장감을 즐겼습니다. 일단 기회만 잡으면 충분한 콤보를 넣을 수 있다는 걸 보장받으니, 상대방이 뭘 하는지 볼 수 있게 되네요. 유저 수가 많아서 비슷한 실력의 사람들과 금방 매치가 잡힌다는 점도 좋았구요. 드라이브시스템은 정말 감탄했는데, 공격과 방어가 하나의 자원을 사용하고 번아웃의 존재로 공격을 위해 방어가 취약해지는 리스크를 감안해야 한다는 구조가 굉장히 매력적이었습니다. 러시와 임팩트로 공방에 돌발상황이 자주 발생한다는 점도 재밌었구요. 게임 흐름을 기존 시리즈에 가졌던 인상과는 완전히 달라지게 만드네요. 고만고만한 실력에 어쩌다 연승하면 기분 좋아 만세 한 번 해주고, 일방적으로 두들겨맞으면 분해서 패드 머리 위로 치켜들고 흔들면서 끙그리는 소리 내게 되는 게, 오래전 오락실이 활기를 띠던 시절이 떠올라 기분좋게 웃었습니다. 그때 만큼의 열정은 없어 큰물에서 놀진 못하겠지만, 그래도 오랫동안 즐길 격투게임이 되어줄 듯하네요."
+        },
+        {
+          "review_id": "compress-v3-positive-2-8-4212743288179582092",
+          "text": "가장 참신하고 좋았다고 생각된 부분은 오픈월드 RPG 컨샙의 스토리모드인 월드투어 모드를 꼽고 싶다. 기존 격겜들이 가지고 있던 단점인 부실한 스토리분량과 싱글 컨탠츠를 한번에 해결했다고 좋을 정도로 방대한 분량을 가지고 있다. 또 기존 시리즈에선 주요 캐릭터들의 개별 서사가 항상 부족하다고 느꼈는데 월드투어 모드에선 그 캐릭터들의 제자로 들어가 수련을 받고 유대감이 상승할 수록 자신들의 과거 이력이나 개인적인 이야기를 풀어나가는 모습이 인상적이였다. (예를 들어 류는 평소에도 도복을 입는 지나 고우키는 뭐하면서 먹고 사는 지 등) 그리고 월드투어의 기본적인 의의는 싱글컨탠츠 강화나 초보자 유입이겠지만 스파 시리즈 팬이나 캡콤의 오락실 시절 (80~90년대)의 팬들에 대한 헌정이라고도 할 수 있다. 다양한 팬서비스와 과거작 오마쥬들이 산재해 있고 실제 당시 게임들도 수록되어 있다. 격투게임으로서도 완성도가 높다. 근본답게 훌륭한 타격감과 압도적인 필살기 연출, 심장 쫄리는 심리공방이 일품이고 격겜의 단점인 온라인에서의 양학 방지를 위해 배치고사를 통한 비슷한 등급끼리만 통신 대전이 이루지는 것도 칭찬하고 싶다. 모던 조작 도입은 개인적으로 기존에 조작난이도가 높아 잘 못 썻던 캐릭터들(장기에프, 가일)을 써볼 수 있는 기회가 생겨 좋았다. 처음에는 너무 쉬운 거 아닌가 싶었는데 클래식모드랑 다르게 제한적인 조작도 있어서 마냥 이지모드라고 생각하진 않는다. 메타버스 컨샙의 온라인 로비인 배틀허브에서의 아바타 배틀은 그 병맛 감성덕에 정말 보는 재미가 있다. 관전만 해도 웃기다. 몇 안되는 단점이라면 too much 캐시템 정도? 이런 부분은 본인 플레이 스타일에 맞게 걸러 내면 좋을 거 같다. 발매 1주년을 맞이한 스파6는 입문 시기가 바로 지금이다. (snk야 캡콤 좀 보고 배워라)"
+        }
+      ]
+    },
+    {
+      "block_id": "str_3",
+      "title": "세계와 사건에 몰입하게 된다는 반응",
+      "theme": "캐릭터 / 연출 인상",
+      "why_it_matters": "세계와 사건에 몰입한다는 반응이 많아 분위기와 서사를 중시하는 플레이와 잘 맞습니다.",
+      "explanation": "세계와 사건에 몰입한다는 반응이 많아 분위기와 서사를 중시하는 플레이와 잘 맞습니다.",
+      "aspect_keys": [
+        "story"
+      ],
+      "stance": "positive",
+      "consensus_level": "high",
+      "mention_count": 168,
+      "evidence_quality_level": "strict",
+      "evidence_candidate_snippets": [
+        "대전격투 | 추천도 : ★★★★★ 한줄평 : 모두를 위한 격투게임. 월드투어, 배틀허브, 따라곰까지… 초보부터 고수까지 전부 품어버린 완성형 격투게임. 화려하지만 부담 없고, 빠르지만 난해하지 않은 밸런스가 정말 절묘함. 격투게임이지만 높은 몰입감이 일품.",
+        "제발 이상한 밸런스 파괴하는 캐릭터만 만들거면 있는 캐릭터들 스킨이나 만들어 주던가 밸런스 패치좀.....",
+        "캐릭터가 너무 적고, 기술도 다양하지도 않아서 재미도 없음... 철권보다 오래되었는데도 불구하고 오히려 이게 철권아류작같음... 그냥 철권하는게 나을듯...",
+        "갓갬이긴 한데 캐릭터 가격정책이 부모가 없음"
+      ],
+      "evidence_snippets": [
+        "캐릭터가 너무 적고, 기술도 다양하지도 않아서 재미도 없음... 철권보다 오래되었는데도 불구하고 오히려 이게 철권아류작같음... 그냥 철권하는게 나을듯...",
+        "대전격투 | 추천도 : ★★★★★ 한줄평 : 모두를 위한 격투게임. 월드투어, 배틀허브, 따라곰까지… 초보부터 고수까지 전부 품어버린 완성형 격투게임. 화려하지만 부담 없고, 빠르지만 난해하지 않은 밸런스가 정말 절묘함. 격투게임이지만 높은 몰입감이 일품."
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-positive-3-1-5002251627647374971",
+          "text": "대전격투 | 추천도 : ★★★★★ 한줄평 : 모두를 위한 격투게임. 월드투어, 배틀허브, 따라곰까지… 초보부터 고수까지 전부 품어버린 완성형 격투게임. 화려하지만 부담 없고, 빠르지만 난해하지 않은 밸런스가 정말 절묘함. 격투게임이지만 높은 몰입감이 일품."
+        },
+        {
+          "review_id": "compress-v3-positive-3-2-4842949811239531578",
+          "text": "제발 이상한 밸런스 파괴하는 캐릭터만 만들거면 있는 캐릭터들 스킨이나 만들어 주던가 밸런스 패치좀....."
+        },
+        {
+          "review_id": "compress-v3-positive-3-3-4918310390396486609",
+          "text": "캐릭터가 너무 적고, 기술도 다양하지도 않아서 재미도 없음... 철권보다 오래되었는데도 불구하고 오히려 이게 철권아류작같음... 그냥 철권하는게 나을듯..."
+        },
+        {
+          "review_id": "compress-v3-positive-3-4-7534357435025302710",
+          "text": "갓갬이긴 한데 캐릭터 가격정책이 부모가 없음"
+        }
+      ]
+    },
+    {
+      "block_id": "risk_1",
+      "title": "오류와 끊김이 흐름을 끊는다는 반응",
+      "theme": "모드 지원 / 호환 문제",
+      "why_it_matters": "오류와 끊김을 지적하는 반응이 이어져 흐름이 끊기는 상황은 감수할 필요가 있습니다.",
+      "explanation": "오류와 끊김을 지적하는 반응이 이어져 흐름이 끊기는 상황은 감수할 필요가 있습니다.",
+      "aspect_keys": [
+        "mod_support"
+      ],
+      "stance": "negative",
+      "consensus_level": "high",
+      "mention_count": 159,
+      "evidence_quality_level": "strict",
+      "evidence_candidate_snippets": [
+        "인류가 만들 수 있는 최악의 고혈압 유발 게임 이 게임을 하고있으면 게임을 질병이라고 정의한 WHO의 큰 뜻을 깨닫게 된다 전세계 유저들이 입모아 밸패를 하라고 해도 개씹마이웨이를 가는 스트리트 파이터 6 디렉터의 오락실 꼬꼬마시절 딸감이 최악의 공책노트 캐릭터가 되어 기존에 있던 모든 캐릭들을 하위호환으로 만들어버리는 스트리트 파이터 6 씹게이들과 고릴라들이 모여 서로 자웅을 겨루는 사람새끼가 없는 스트리트 파이터 6 지금 바로 시작해",
+        "진짜 잘만든 게임이네요 초보인데도 시스템 튜토리얼 조금 진행 후 모던모드로 쉽게 게임 시작할 수 있었습니다 간단하게 랭크매치 하면서 내가 답답하고 연습해야겠다 하는부분들은 트레이닝 모드에서 쉽게 시험해볼 수 있어서 진짜 잘만들었다 라는 말이 딱 어울리는 격투게임같습니다",
+        "연습모드 클래식으로 바꿔도 월드투어도 모던으로 돼있어서 또 바꾸고 랭크게임도 모던으로 돼있어서 또 바꾸고 뭐 할 때마다 계속 바꿔줘야하네",
+        "키보드 하나로 멀티를 못함. 격겜 스토리모드에서 레벨노가다를 해야됨."
+      ],
+      "evidence_snippets": [
+        "진짜 잘만든 게임이네요 초보인데도 시스템 튜토리얼 조금 진행 후 모던모드로 쉽게 게임 시작할 수 있었습니다 간단하게 랭크매치 하면서 내가 답답하고 연습해야겠다 하는부분들은 트레이닝 모드에서 쉽게 시험해볼 수 있어서 진짜 잘만들었다 라는 말이 딱 어울리는 격투게임같습니다",
+        "인류가 만들 수 있는 최악의 고혈압 유발 게임 이 게임을 하고있으면 게임을 질병이라고 정의한 WHO의 큰 뜻을 깨닫게 된다 전세계 유저들이 입모아 밸패를 하라고 해도 개씹마이웨이를 가는 스트리트 파이터 6 디렉터의 오락실 꼬꼬마시절 딸감이 최악의 공책노트 캐릭터가 되어 기존에 있던 모든 캐릭들을 하위호환으로 만들어버리는 스트리트 파이터 6 씹게이들과 고릴라들이 모여 서로 자웅을 겨루는 사람새끼가 없는 스트리트 파이터 6 지금 바로 시작해"
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-negative-1-1-3381086975958383673",
+          "text": "인류가 만들 수 있는 최악의 고혈압 유발 게임 이 게임을 하고있으면 게임을 질병이라고 정의한 WHO의 큰 뜻을 깨닫게 된다 전세계 유저들이 입모아 밸패를 하라고 해도 개씹마이웨이를 가는 스트리트 파이터 6 디렉터의 오락실 꼬꼬마시절 딸감이 최악의 공책노트 캐릭터가 되어 기존에 있던 모든 캐릭들을 하위호환으로 만들어버리는 스트리트 파이터 6 씹게이들과 고릴라들이 모여 서로 자웅을 겨루는 사람새끼가 없는 스트리트 파이터 6 지금 바로 시작해"
+        },
+        {
+          "review_id": "compress-v3-negative-1-2-6579271031558191216",
+          "text": "진짜 잘만든 게임이네요 초보인데도 시스템 튜토리얼 조금 진행 후 모던모드로 쉽게 게임 시작할 수 있었습니다 간단하게 랭크매치 하면서 내가 답답하고 연습해야겠다 하는부분들은 트레이닝 모드에서 쉽게 시험해볼 수 있어서 진짜 잘만들었다 라는 말이 딱 어울리는 격투게임같습니다"
+        },
+        {
+          "review_id": "compress-v3-negative-1-3-4588417911957545930",
+          "text": "연습모드 클래식으로 바꿔도 월드투어도 모던으로 돼있어서 또 바꾸고 랭크게임도 모던으로 돼있어서 또 바꾸고 뭐 할 때마다 계속 바꿔줘야하네"
+        },
+        {
+          "review_id": "compress-v3-negative-1-4-154172559608937497",
+          "text": "키보드 하나로 멀티를 못함. 격겜 스토리모드에서 레벨노가다를 해야됨."
+        }
+      ]
+    }
+  ]
+}

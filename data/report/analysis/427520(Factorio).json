@@ -52,7 +52,7 @@
     "content_depth": {
       "mention_count": 351,
       "negative_ratio": 0.017094017094017096,
-      "recent_trend": "down",
+      "recent_trend": "flat",
       "experienced_player_share": 0.9857549857549858,
       "themes": [
         "콘텐츠 부족",
@@ -164,17 +164,17 @@
       ]
     },
     "monetization": {
-      "mention_count": 171,
-      "negative_ratio": 0.07602339181286549,
+      "mention_count": 172,
+      "negative_ratio": 0.0755813953488372,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9532163742690059,
+      "experienced_player_share": 0.9534883720930233,
       "themes": [
         "DLC / 확장팩 언급",
         "가격 / 과금 불만"
       ],
       "sample_reviews": [
-        "갓-겜 dlc를 첨가하면 컨텐츠가 2배",
-        "걍 하세요 그리고 DLC를 사고 또 하세요"
+        "바닐라로 100%깼지만 DLC를 구매할 자신이 없다",
+        "갓-겜 dlc를 첨가하면 컨텐츠가 2배"
       ]
     },
     "multiplayer": {
@@ -241,24 +241,24 @@
     "fit_for": "초반 진입 장벽이나 조작 적응 여부를 중요하게 보는 플레이어는 사전 확인이 필요합니다.",
     "risks": "content_depth 관련 이슈는 반복적으로 언급되지만 최근 급격한 악화 신호는 제한적입니다."
   },
-  "pipeline_run_id": "427520-20260427T025120Z",
-  "generated_at": "2026-04-27T02:53:40.997836+00:00",
-  "source_review_count": 4022,
+  "pipeline_run_id": "427520-20260430T095524Z",
+  "generated_at": "2026-04-30T09:56:08.218533+00:00",
+  "source_review_count": 4024,
   "review_pages": "all",
   "fetched_pages": 42,
-  "fetched_review_count": 4022,
+  "fetched_review_count": 4024,
   "fetch_timeout_seconds": 20,
   "fetch_filter": "recent",
   "all_mode_page_cap": 200,
   "all_mode_cap_reached": false,
   "llm_stats": {
-    "considered": 2953,
+    "considered": 2955,
     "selected": 50,
     "invoked": 50,
     "success": 50,
     "schema_invalid": 0,
     "low_confidence": 0,
-    "cache_hits": 0,
+    "cache_hits": 50,
     "fallback_used": 0
   },
   "report_material_refiner": {
@@ -267,13 +267,13 @@
     "llm_min_confidence": 0.7,
     "material_count": 50,
     "stats": {
-      "considered": 2953,
+      "considered": 2955,
       "selected": 50,
       "invoked": 50,
       "success": 50,
       "schema_invalid": 0,
       "low_confidence": 0,
-      "cache_hits": 0,
+      "cache_hits": 50,
       "fallback_used": 0
     }
   }

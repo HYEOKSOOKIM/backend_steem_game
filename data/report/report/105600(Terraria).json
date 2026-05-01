@@ -1,10 +1,10 @@
 {
   "report_version": "v4-planned-sections",
   "appid": 105600,
-  "pipeline_run_id": "105600-20260427T055936Z",
-  "generated_at": "2026-04-27T06:03:56.716954+00:00",
+  "pipeline_run_id": "105600-20260501T004809Z-raw",
+  "generated_at": "2026-05-01T00:50:21.717883+00:00",
   "source_review_count": 17687,
-  "included_review_count": 10324,
+  "included_review_count": 10323,
   "min_report_review_count": 100,
   "report_state": "ready",
   "review_trend": {
@@ -823,9 +823,9 @@
       },
       {
         "month": "2022-12",
-        "positive_count": 146,
-        "review_count": 152,
-        "positive_ratio": 0.9605
+        "positive_count": 145,
+        "review_count": 151,
+        "positive_ratio": 0.9603
       },
       {
         "month": "2023-01",
@@ -895,9 +895,9 @@
       },
       {
         "month": "2023-12",
-        "positive_count": 127,
-        "review_count": 134,
-        "positive_ratio": 0.9478
+        "positive_count": 126,
+        "review_count": 133,
+        "positive_ratio": 0.9474
       },
       {
         "month": "2024-01",
@@ -973,9 +973,9 @@
       },
       {
         "month": "2025-01",
-        "positive_count": 121,
-        "review_count": 124,
-        "positive_ratio": 0.9758
+        "positive_count": 120,
+        "review_count": 123,
+        "positive_ratio": 0.9756
       },
       {
         "month": "2025-02",
@@ -1003,9 +1003,9 @@
       },
       {
         "month": "2025-06",
-        "positive_count": 166,
-        "review_count": 172,
-        "positive_ratio": 0.9651
+        "positive_count": 165,
+        "review_count": 171,
+        "positive_ratio": 0.9649
       },
       {
         "month": "2025-07",
@@ -1063,9 +1063,9 @@
       },
       {
         "month": "2026-04",
-        "positive_count": 68,
-        "review_count": 72,
-        "positive_ratio": 0.9444
+        "positive_count": 72,
+        "review_count": 76,
+        "positive_ratio": 0.9474
       }
     ]
   },
@@ -1084,22 +1084,182 @@
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg?t=1769844435",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/capsule_231x87.jpg?t=1769844435",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/capsule_184x69.jpg?t=1769844435",
+    "screenshots": [
+      {
+        "id": "0",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_8c03886f214d2108cafca13845533eaa3d87d83f.600x338.jpg?t=1769844435",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_8c03886f214d2108cafca13845533eaa3d87d83f.1920x1080.jpg?t=1769844435"
+      },
+      {
+        "id": "1",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_ae168a00ab08104ba266dc30232654d4b3c919e5.600x338.jpg?t=1769844435",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_ae168a00ab08104ba266dc30232654d4b3c919e5.1920x1080.jpg?t=1769844435"
+      },
+      {
+        "id": "2",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_9edd98caaf9357c2f40758f354475a56e356e8b0.600x338.jpg?t=1769844435",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_9edd98caaf9357c2f40758f354475a56e356e8b0.1920x1080.jpg?t=1769844435"
+      },
+      {
+        "id": "3",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_75ea9a7e39eb34b40efa1e6dfd2536098dc4734b.600x338.jpg?t=1769844435",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_75ea9a7e39eb34b40efa1e6dfd2536098dc4734b.1920x1080.jpg?t=1769844435"
+      },
+      {
+        "id": "4",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_782374517c1792debd74d24856203b876eba3a5d.600x338.jpg?t=1769844435",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_782374517c1792debd74d24856203b876eba3a5d.1920x1080.jpg?t=1769844435"
+      },
+      {
+        "id": "5",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_04dd9f0a5773b686a452ba480b951f83b3ed5061.600x338.jpg?t=1769844435",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_04dd9f0a5773b686a452ba480b951f83b3ed5061.1920x1080.jpg?t=1769844435"
+      },
+      {
+        "id": "6",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_26c4a091c482be28efe1ecf4dfb498273e5a9107.600x338.jpg?t=1769844435",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_26c4a091c482be28efe1ecf4dfb498273e5a9107.1920x1080.jpg?t=1769844435"
+      },
+      {
+        "id": "7",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_830aa37570410b80947636785ff62096c0bf276f.600x338.jpg?t=1769844435",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_830aa37570410b80947636785ff62096c0bf276f.1920x1080.jpg?t=1769844435"
+      },
+      {
+        "id": "8",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_0d805c81ef85dfd2a7a8b25da96f8066017fb3b3.600x338.jpg?t=1769844435",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_0d805c81ef85dfd2a7a8b25da96f8066017fb3b3.1920x1080.jpg?t=1769844435"
+      },
+      {
+        "id": "9",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_b28125b8b8ccacbbb38a3ab4ceaf406ec94d98a4.600x338.jpg?t=1769844435",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_b28125b8b8ccacbbb38a3ab4ceaf406ec94d98a4.1920x1080.jpg?t=1769844435"
+      },
+      {
+        "id": "10",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_900453507c3eb3df55175fb1362869cc75203594.600x338.jpg?t=1769844435",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_900453507c3eb3df55175fb1362869cc75203594.1920x1080.jpg?t=1769844435"
+      },
+      {
+        "id": "11",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_a1dbbda90ea1669da35cf277e65b5191565bcb12.600x338.jpg?t=1769844435",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_a1dbbda90ea1669da35cf277e65b5191565bcb12.1920x1080.jpg?t=1769844435"
+      },
+      {
+        "id": "12",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_a34d1ebdc99634e012ea19759c12822802164b0e.600x338.jpg?t=1769844435",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_a34d1ebdc99634e012ea19759c12822802164b0e.1920x1080.jpg?t=1769844435"
+      },
+      {
+        "id": "13",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_6f57075d0d8f9d2fd963b74f9a4526bbf91aab10.600x338.jpg?t=1769844435",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_6f57075d0d8f9d2fd963b74f9a4526bbf91aab10.1920x1080.jpg?t=1769844435"
+      },
+      {
+        "id": "14",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_ab3143003094dec454c5a76cc7d7948f17ca7517.600x338.jpg?t=1769844435",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_ab3143003094dec454c5a76cc7d7948f17ca7517.1920x1080.jpg?t=1769844435"
+      },
+      {
+        "id": "15",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_1a091473c0b53e98d7a0708dd3ec0978dd56ba45.600x338.jpg?t=1769844435",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_1a091473c0b53e98d7a0708dd3ec0978dd56ba45.1920x1080.jpg?t=1769844435"
+      },
+      {
+        "id": "16",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_a81bfb762197b0aafc207274a708d79e7c39e45f.600x338.jpg?t=1769844435",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_a81bfb762197b0aafc207274a708d79e7c39e45f.1920x1080.jpg?t=1769844435"
+      },
+      {
+        "id": "17",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_fefd40cad50a10c09f928f9dc3f9017f8fe50213.600x338.jpg?t=1769844435",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_fefd40cad50a10c09f928f9dc3f9017f8fe50213.1920x1080.jpg?t=1769844435"
+      },
+      {
+        "id": "18",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_fd3a47380882311f6ff80cb2d4491d1de4af9e8b.600x338.jpg?t=1769844435",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_fd3a47380882311f6ff80cb2d4491d1de4af9e8b.1920x1080.jpg?t=1769844435"
+      }
+    ],
+    "movies": [
+      {
+        "id": "257274214",
+        "name": "Terraria: Bigger & Boulder Trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257274214/3400c546ddc61c713c2a2da4df7032f0f264a2a4/movie_600x337.jpg?t=1769844434",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/105600/1114648825/03d62ed8c2a353ea17f36caf492d053746655032/1769541214/hls_264_master.m3u8?t=1769844434",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/105600/1114648825/03d62ed8c2a353ea17f36caf492d053746655032/1769541214/dash_h264.mpd?t=1769844434",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/105600/1114648825/03d62ed8c2a353ea17f36caf492d053746655032/1769541214/dash_av1.mpd?t=1769844434",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/105600/1114648825/03d62ed8c2a353ea17f36caf492d053746655032/1769541214/hls_264_master.m3u8?t=1769844434"
+      },
+      {
+        "id": "256785003",
+        "name": "Terraria: Journey's End Trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256785003/movie.293x165.jpg?t=1589654781",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/105600/284912/418f39cf00388fbdd8efcdc81e05c19c410dfb6d/1750498447/hls_264_master.m3u8?t=1589654781",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/105600/284912/418f39cf00388fbdd8efcdc81e05c19c410dfb6d/1750498447/dash_h264.mpd?t=1589654781",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/105600/284912/418f39cf00388fbdd8efcdc81e05c19c410dfb6d/1750498447/dash_av1.mpd?t=1589654781",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/105600/284912/418f39cf00388fbdd8efcdc81e05c19c410dfb6d/1750498447/hls_264_master.m3u8?t=1589654781"
+      },
+      {
+        "id": "2040428",
+        "name": "Terraria 1.3 Trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2040428/movie.293x165.jpg?t=1447376855",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/105600/38483/f6e095fa12b129c503f70d104eb2e0d2fd106db1/1750498447/hls_264_master.m3u8?t=1447376855",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/105600/38483/f6e095fa12b129c503f70d104eb2e0d2fd106db1/1750498447/dash_h264.mpd?t=1447376855",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/105600/38483/f6e095fa12b129c503f70d104eb2e0d2fd106db1/1750498447/dash_av1.mpd?t=1447376855",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/105600/38483/f6e095fa12b129c503f70d104eb2e0d2fd106db1/1750498447/hls_264_master.m3u8?t=1447376855"
+      },
+      {
+        "id": "2029566",
+        "name": "Terraria 1.2 Trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2029566/movie.293x165.jpg?t=1447358964",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/105600/13929/974ad9d2d714308f757f9cb4b09e2965cde67aa4/1750498444/hls_264_master.m3u8?t=1447358964",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/105600/13929/974ad9d2d714308f757f9cb4b09e2965cde67aa4/1750498444/dash_h264.mpd?t=1447358964",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/105600/13929/974ad9d2d714308f757f9cb4b09e2965cde67aa4/1750498444/dash_av1.mpd?t=1447358964",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/105600/13929/974ad9d2d714308f757f9cb4b09e2965cde67aa4/1750498444/hls_264_master.m3u8?t=1447358964"
+      },
+      {
+        "id": "81300",
+        "name": "Terraria 1.1 Trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/81300/movie.293x165.jpg?t=1447355104",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/105600/6446/096e6974d2ef94f2c5f55ff6ed6a8e29204e299f/1750498443/hls_264_master.m3u8?t=1447355104",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/105600/6446/096e6974d2ef94f2c5f55ff6ed6a8e29204e299f/1750498443/dash_h264.mpd?t=1447355104",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/105600/6446/096e6974d2ef94f2c5f55ff6ed6a8e29204e299f/1750498443/dash_av1.mpd?t=1447355104",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/105600/6446/096e6974d2ef94f2c5f55ff6ed6a8e29204e299f/1750498443/hls_264_master.m3u8?t=1447355104"
+      }
+    ],
     "short_description": "Dig, fight, explore, build! Nothing is impossible in this action-packed adventure game. Four Pack also available!",
     "steam_store_url": "https://store.steampowered.com/app/105600",
-    "steam_recommendation_count": 1210317,
+    "steam_recommendation_count": 1210693,
     "steam_review_score_desc": "Overwhelmingly Positive",
-    "steam_total_positive": 16976,
+    "steam_total_positive": 16972,
     "steam_total_negative": 714,
-    "steam_total_reviews": 17690
+    "steam_total_reviews": 17686,
+    "price_currency": "KRW",
+    "price_current": 1100000,
+    "price_original": 1100000,
+    "price_current_formatted": "₩ 11,000",
+    "price_original_formatted": null,
+    "price_discount_percent": 0
   },
   "report_plan": {
     "decision_anchor": {
-      "buy_recommendation": "buy_now",
+      "buy_recommendation": "buy_on_sale",
       "primary_reason_ids": [
         "str_1",
         "str_2"
       ],
-      "rationale_short": "게임의 콘텐츠 깊이와 멀티플레이 경험이 뛰어나며, 가격 대비 가성비가 우수합니다."
+      "rationale_short": "콘텐츠 볼륨과 멀티플레이 경험이 매우 우수하나, 불친절한 게임성과 매칭/서버 문제 등은 구매 시 주의가 필요합니다. 가격 메리트가 있는 세일 시점 구매를 권장합니다."
     },
     "section_blueprint": {
       "strength_block_count": 3,
@@ -1126,48 +1286,84 @@
       ],
       "risks": [
         {
-          "reason_id": "str_4",
+          "reason_id": "risk_1",
+          "aspect": "multiplayer",
+          "theme": "매칭 / 서버 문제"
+        },
+        {
+          "reason_id": "risk_2",
           "aspect": "difficulty",
           "theme": "난이도 / 진입장벽"
         },
         {
-          "reason_id": "str_5",
-          "aspect": "monetization",
-          "theme": "가격 / 과금 불만"
-        },
-        {
-          "reason_id": "str_6",
+          "reason_id": "risk_3",
           "aspect": "gameplay",
-          "theme": "전투 손맛 / 액션 호평"
+          "theme": "불친절한 게임성 및 조작 난이도"
         }
       ]
     }
   },
   "report_display": {
-    "headline": "게임의 콘텐츠 깊이와 멀티플레이 경험이 뛰어나며, 가격 대비 가성비가 우수합니다.",
-    "buy_recommendation": "buy_now",
-    "buy_timing_summary": "매칭과 서버 상태 변화의 불편을 감수해야 할 수 있어 가격 메리트가 있는 시점이 더 낫습니다.",
+    "headline": "장비 파밍과 성장 루프의 장점이 보여 무료로 가볍게 시작해보고 맞는지 판단하기 좋습니다.",
+    "buy_recommendation": "buy_on_sale",
+    "buy_timing_summary": "매칭과 서버 상태 변화 불편을 감수해야 할 수 있어 가격 메리트가 있는 시점이 더 낫습니다.",
     "good_for": [
       "플레이 흐름이 점점 또렷해지는 재미를 좋아하는 플레이어",
-      "하루에 오래 붙잡고 성장 루프를 깊게 파는 플레이어",
+      "하루보다 오래 붙잡고 성장 루프를 깊게 파는 플레이어",
       "맵을 돌아다니며 발견하는 재미를 중요하게 보는 플레이어"
     ],
     "not_good_for": [
       "매칭과 서버 상태 변화에 스트레스를 크게 받는 플레이어",
       "비용 대비 만족을 꼼꼼하게 따지는 플레이어"
     ],
+    "player_fit_signals": {
+      "good_for": [
+        {
+          "aspect": "mod_support",
+          "theme": "모드 지원 / 호환 문제",
+          "subtype": "core_play_mastery",
+          "negative": false
+        },
+        {
+          "aspect": "content_depth",
+          "theme": "중독성 / 시간순삭",
+          "subtype": "long_term_growth",
+          "negative": false
+        },
+        {
+          "aspect": "gameplay",
+          "theme": "전투 손맛 / 액션 호평",
+          "subtype": "openworld_exploration",
+          "negative": false
+        }
+      ],
+      "not_good_for": [
+        {
+          "aspect": "multiplayer",
+          "theme": "매칭 / 서버 문제",
+          "subtype": "matchmaking_variance",
+          "negative": true
+        },
+        {
+          "aspect": "monetization",
+          "theme": "가격 / 과금 불만",
+          "subtype": "price_sensitivity",
+          "negative": true
+        }
+      ]
+    },
     "top_strengths": [
       {
-        "title": "플레이 흐름이 점점 또렷해지는 재미",
-        "summary": "기본 흐름이 안정적으로 자리 잡아 익숙해질수록 재미 포인트가 더 분명해집니다."
+        "title": "장비와 빌드를 오래 다듬는 성장 루프",
+        "summary": "장비를 파밍하고 세팅을 맞춰 가며 강해지는 과정이 반복 임무의 동력으로 잘 이어집니다."
       },
       {
         "title": "오래 붙잡게 만드는 성장 루프",
-        "summary": "목표를 쌓아가며 오래 붙잡게 되는 성장 구조가 강해 장기 플레이와 잘 맞습니다."
+        "summary": "목표를 쌓아가며 오래 붙잡게 만드는 성장 구조가 있어 장기 플레이에 잘 맞습니다."
       },
       {
         "title": "발견이 이어지는 탐험 경험",
-        "summary": "이동하고 발견하는 과정 자체가 재미를 만들어 탐험 비중이 높은 플레이에 맞습니다."
+        "summary": "이동과 발견 그 자체가 재미로 이어져 탐험 비중이 높은 플레이와 잘 맞습니다."
       }
     ],
     "top_risks": [
@@ -1177,11 +1373,7 @@
       },
       {
         "title": "가격 대비 만족이 갈릴 수 있는 부분",
-        "summary": "가격 부담이 크면 기대만큼 만족하지 못했다는 반응이 나올 수 있습니다."
-      },
-      {
-        "title": "진입 장벽으로 인한 플레이 피로",
-        "summary": "초반의 높은 난이도와 불친절한 튜토리얼로 인해 많은 플레이어가 어려움을 느낄 수 있습니다."
+        "summary": "가격 부담이 있으면 기대만큼 만족하지 못했다는 반응도 함께 나올 수 있습니다."
       }
     ],
     "recent_state": {
@@ -1193,76 +1385,65 @@
     "strengths": [
       {
         "block_id": "str_1",
-        "title": "오래 붙잡게 되는 성장 루프가 있다는 반응.",
+        "title": "성장 루프를 오래 붙잡는다는 반응",
         "theme": "중독성 / 시간순삭",
-        "why_it_matters": "오래 붙잡는 이유가 분명하다는 반응이 많아, 장기 플레이 동기가 필요한 게임에 가깝습니다.",
-        "explanation": "오래 붙잡는 이유가 분명하다는 반응이 많아, 장기 플레이 동기가 필요한 게임에 가깝습니다.",
+        "why_it_matters": "장기 성장 동기가 분명하다는 반응이 많아 오래 파는 플레이와 잘 맞습니다.",
+        "explanation": "장기 성장 동기가 분명하다는 반응이 많아 오래 파는 플레이와 잘 맞습니다.",
         "aspect_keys": [
           "content_depth"
         ],
         "stance": "positive",
         "consensus_level": "high",
-        "mention_count": 1744,
+        "mention_count": 1743,
         "evidence_quality_level": "strict",
         "evidence_candidate_snippets": [
           "파밍만해도 재밌다 마크 감성은 안해봐서 모르겠지만 이런 느낌이려나",
           "마인크래프트 짭이라고 하는 잼민이들은 그냥 하지를마라. 이건 별개의게임이다. 비슷한 요소가 거의없다. 모드가 없는대신 마인크래프트보다 더 많은 자체 콘텐츠와 보스들이 재미있다."
         ],
         "evidence_snippets": [
-          "파밍만해도 재밌다 마크 감성은 안해봐서 모르겠지만 이런 느낌이려나",
-          "마인크래프트 짭이라고 하는 잼민이들은 그냥 하지를마라. 이건 별개의게임이다. 비슷한 요소가 거의없다. 모드가 없는대신 마인크래프트보다 더 많은 자체 콘텐츠와 보스들이 재미있다."
+          "마인크래프트 짭이라고 하는 잼민이들은 그냥 하지를마라. 이건 별개의게임이다. 비슷한 요소가 거의없다. 모드가 없는대신 마인크래프트보다 더 많은 자체 콘텐츠와 보스들이 재미있다.",
+          "파밍만해도 재밌다 마크 감성은 안해봐서 모르겠지만 이런 느낌이려나"
         ],
         "evidence_candidate_items": [
           {
-            "review_id": "compress-v3-positive-1-1-6038408767726996020",
+            "review_id": "compress-v3-positive-1-1-6644486238589959031",
             "text": "파밍만해도 재밌다 마크 감성은 안해봐서 모르겠지만 이런 느낌이려나"
           },
           {
-            "review_id": "compress-v3-positive-1-2-2744866993078580328",
+            "review_id": "compress-v3-positive-1-2-8415969383176856412",
             "text": "마인크래프트 짭이라고 하는 잼민이들은 그냥 하지를마라. 이건 별개의게임이다. 비슷한 요소가 거의없다. 모드가 없는대신 마인크래프트보다 더 많은 자체 콘텐츠와 보스들이 재미있다."
           }
         ]
       },
       {
         "block_id": "str_2",
-        "title": "팀 합이 맞을 때 재미가 커진다는 반응",
+        "title": "팀 합의의 재미가 크다는 반응",
         "theme": "멀티플레이 경험",
-        "why_it_matters": "팀 합이 맞을 때 만족도가 올라간다는 반응이 많아, 함께 맞춰가는 플레이를 좋아하면 잘 맞습니다.",
-        "explanation": "팀 합이 맞을 때 만족도가 올라간다는 반응이 많아, 함께 맞춰가는 플레이를 좋아하면 잘 맞습니다.",
+        "why_it_matters": "팀 합이 맞을 때 만족도가 올라간다는 반응이 많아 함께 맞춰 가는 플레이에 잘 맞습니다.",
+        "explanation": "팀 합이 맞을 때 만족도가 올라간다는 반응이 많아 함께 맞춰 가는 플레이에 잘 맞습니다.",
         "aspect_keys": [
           "multiplayer"
         ],
         "stance": "positive",
         "consensus_level": "high",
-        "mention_count": 1542,
-        "evidence_quality_level": "relaxed",
+        "mention_count": 1543,
+        "evidence_quality_level": "strict",
         "evidence_candidate_snippets": [
-          "친구랑 같이 했을때 기준 통곡의 30시간을 못 넘는 게임, 혼자하면 취향 맞으면 몇시간이고 하는데, 난 뇌가 도파민으로 절여져 있다, 개 초딩이라서 천천히 성장하는 게임은 못버티는 허접 팝콘 뇌다 빠르게 분비되는 도파민 아니면 만족못하는 개 씹 조루 프로 딸잡이다, 그럼 이 게임 못함 멀티를 지원하면서 멀티에 이리 멀티에 안 맞는 게임이 있을까, 물론 갓겜이긴 한데, 혼자하면 혼자서 호빗부터 반지의 제왕을 찍어낼수 있는데, 이것도 취향에 맞아야지 가능함 반대로 취향에 안맞으면 골든 아머 못 만들고 너무 힘들엉ㅠㅠ 하고 그만둘수 있음 개인적으론 멀티에 안 맞는다 라고 생각할뿐 사실 내가 한 게임중 가장 고 평가긴 함",
-          "테라리아 처음한 게 15년 전 거의 중학생 1학년 때 인 것 같은데 처음엔 항상 비교 당하는 마인크래프트에 비해서 완성도도 너무 낮고 컨텐츠도 너무 없었음. 1.2버전 오기 까지도 업데이트 주기가 너무 길어서 학생인 입장에선 굉장히 힘들었는데 그래도 한 번 업데이트 할 때마다 대규모 업데이트 수준의 많은 컨텐츠와 아이템들, 수준급 콜라보 등등. 그 뿐만 아니라 편의성 업데이트 및 유저 피드백 적극 수용. 심지어 모두 무료. 취향만 맞으면 정말 갓겜이 따로 없다. 샌드박스 형식에 RPG 요소가 강하고 캐릭터와 월드 별로 난이도도 분리해 솔플과 멀티 모두 재밌다. 난 마인크래프트 같은 경우는 아무리 해도 목적 의식이 없고 3D 멀미가 없음에도 불구하고 채광이나 농사, 낚시 등 반복적인 작업에서 오는 피로감이 굉장히 심해서 가끔 한 번씩 해도 오래 못하는데 테라리아는 가끔 한 번씩 정말 오래 하게 됨. 몬헌처럼 장비와 무기에 따라 직업도 나눌 수 있고 건축이면 건축, 사냥이면 사냥 정말 재밌는 요소가 많다. 아쉬운 점은 생활 컨텐츠가 부족하다는 점? 농사나 요리, 낚시 같은 부분에선 사실 마인크래프트 보다는 조금 부실하다고 생각하는데 컨텐츠 자체가 부족하다는 것보단 이 요소들은 생활 컨텐츠에 관련된 부분인데 전부 RPG적 요소하고만 관련되어 있다는 것이 조금 아쉽다. 농사 같은 경우는 약초 재배 정도인데 전부 버프 포션과 관련되어 있고 낚시도 퀘스트, 요리도 버프. 여하간 재밌는 갓겜임에는 틀림 없는 사실이다. 진입 장벽이라고 할만한 건 클래식한 도트 그래픽 정도? 그래도 여태까지 테라리아 추천해서 취향에 맞아가지고 한 사람들 중에 모두 최소 100시간 이상씩은 함. 대학교 졸업 시즌에 학교 후배들이랑 멀티 플레이 했었는데 거의 3주 동안 잠도 제대로 안자고 플레이 했음. 취향 맞으면 절대로 해봐야 할 게임 중 하나.",
-          "제가 이것을 친구들과 함께 했던 279시간에 추억을 말해보겠습니다... 게임을 구매하고 멀티를 킨다음 녀석과 함께 디코를 나누며 커마할때 나누던 개드립 그러다가 지하로 내려가서 죽은후에 잃어버린 돈이 아까워서 고생했던 얼척없는 노과다 감잡고 나서 같이 아이템을 찾고 곡괭이와 우정에 의지하며 나아갔던 탐험 보스 아이템을 얻고 본격적으로 전장을 만들고 싸우던 전투와 전투이후 아이템을 보며 웃던 기억 그렇게 하드모드도 들어가고... 그렇게 광물을 얻고... 광신도를 잡고 네개의 기둥을 파괴하고 준비하던 최종보스의 긴장감속 나누었던 대화... \"하...이 개같던 일상에 마지막이냐?\" \"병신아 그런 소리할 시간에 포션이나 한번더 채크해\" \"총알없으면 병신인 새끼가 할말이냐?\" \"너도 마나없으면 병신이잖냐\" \"아무튼 함께해서 좆같았고 좆같은 만큼 즐거웠다\" \"나는 그냥 개같았어\" \"...마지막까지 지랄이네\" 그러고 잡았던 최종보스에 추억 저는 아직도 잊지못합니다....",
-          "처음 들어가면 기본 캐릭터처럼 생긴 가이드가 여러분을 반겨줍니다. 어떻게 게임을 하는지, 단축키는 무엇인지, 목표가 무엇인지 조차 정확하게 알려주진 않지만, 결국 나중에 쓸모는 있는 그냥 가이드 npc예요. 굴을 파고 땅을 다지고 사지가 몇 번 찢어지다보면 '솟망겜 개어렵네 어떻게함?' 이라는 말이 절로 나오지만, 다시 상점페이지를 열어 '압도적으로 긍정적(845,178)'을 보면, 아 좀만 더 해볼까? 라는 생각이 듭니다. 뭔가 알 것 같고, 이렇게 하면 될 것 같을 때 꺼무위키를 켜게된 당신은 알 것 같았던건 다 모르는 거였고, 하면 될 것 같은건 하면 안되면 혹은 안 해도 되는 것이었다는 걸 깨닫습니다. 테라리아는 그때부터입니다. 갑자기 시간이 사라지기 시작하고, 실력은 선형적으로 성장하기 시작합니다. 하지만 뭔가 최종 보스같은걸 잡고 나서, 다시 뚝배기가 깨지기 시작합니다. 사실 테리리아는 이때부터입니다. 시간이 녹기 시작하고, 실력은 log 그래프를 그리며 성장하기 시작합니다. ... 이후 친구를 불러모으고, 멀티에 재미를 느끼기 시작하며, 직업의 다양성을 깨우치기 시작합니다. 마침내 최종보스_진짜_진짜.mob를 잡은 여러분은 tmodloader에 손을 대기 시작합니다. 진짜 마지막으로, 테라리아는 이때부터입니다."
+          "혼자 할 땐 개노잼 뭐이런 불친절한 겜이 다 있나 했는데 멀티로 하니까 꽤괜찮음",
+          "친구랑 같이 했을때 기준 통곡의 30시간을 못 넘는 게임, 혼자하면 취향 맞으면 몇시간이고 하는데, 난 뇌가 도파민으로 절여져 있다, 개 초딩이라서 천천히 성장하는 게임은 못버티는 허접 팝콘 뇌다 빠르게 분비되는 도파민 아니면 만족못하는 개 씹 조루 프로 딸잡이다, 그럼 이 게임 못함 멀티를 지원하면서 멀티에 이리 멀티에 안 맞는 게임이 있을까, 물론 갓겜이긴 한데, 혼자하면 혼자서 호빗부터 반지의 제왕을 찍어낼수 있는데, 이것도 취향에 맞아야지 가능함 반대로 취향에 안맞으면 골든 아머 못 만들고 너무 힘들엉ㅠㅠ 하고 그만둘수 있음 개인적으론 멀티에 안 맞는다 라고 생각할뿐 사실 내가 한 게임중 가장 고 평가긴 함"
         ],
         "evidence_snippets": [
           "친구랑 같이 했을때 기준 통곡의 30시간을 못 넘는 게임, 혼자하면 취향 맞으면 몇시간이고 하는데, 난 뇌가 도파민으로 절여져 있다, 개 초딩이라서 천천히 성장하는 게임은 못버티는 허접 팝콘 뇌다 빠르게 분비되는 도파민 아니면 만족못하는 개 씹 조루 프로 딸잡이다, 그럼 이 게임 못함 멀티를 지원하면서 멀티에 이리 멀티에 안 맞는 게임이 있을까, 물론 갓겜이긴 한데, 혼자하면 혼자서 호빗부터 반지의 제왕을 찍어낼수 있는데, 이것도 취향에 맞아야지 가능함 반대로 취향에 안맞으면 골든 아머 못 만들고 너무 힘들엉ㅠㅠ 하고 그만둘수 있음 개인적으론 멀티에 안 맞는다 라고 생각할뿐 사실 내가 한 게임중 가장 고 평가긴 함",
-          "테라리아 처음한 게 15년 전 거의 중학생 1학년 때 인 것 같은데 처음엔 항상 비교 당하는 마인크래프트에 비해서 완성도도 너무 낮고 컨텐츠도 너무 없었음. 1. 2버전 오기 까지도 업데이트 주기가 너무 길어서 학생인 입장에선 굉장히 힘들었는데 그래도 한 번 업데이트 할 때마다 대규모 업데이트 수준의 많은 컨텐츠와 아이템들, 수준급 콜라보 등등. 그 뿐만 아니라 편의성 업데이트 및 유저 피드백 적극 수용. 심지어 모두 무료. 취향만 맞으면 정말 갓겜이 따로 없다. 샌드박스 형식에 RPG 요소가 강하고 캐릭터와 월드 별로 난이도도 분리해 솔플과 멀티 모두 재밌다. 난 마인크래프트 같은 경우는 아무리 해도 목적 의식이 없고 3D 멀미가 없음에도 불구하고 채광이나 농사, 낚시 등 반복적인 작업에서 오는 피로감이 굉장히 심해서 가끔 한 번씩 해도 오래 못하는데 테라리아는 가끔 한 번씩 정말 오래 하게 됨. 몬헌처럼 장비와 무기에 따라 직업도 나눌 수 있고 건축이면 건축, 사냥이면 사냥 정말 재밌는 요소가 많다. 아쉬운 점은 생활 컨텐츠가 부족하다는 점? 농사나 요리, 낚시 같은 부분에선 사실 마인크래프트 보다는 조금 부실하다고 생각하는데 컨텐츠 자체가 부족하다는 것보단 이 요소들은 생활 컨텐츠에 관련된 부분인데 전부 RPG적 요소하고만 관련되어 있다는 것이 조금 아쉽다. 농사 같은 경우는 약초 재배 정도인데 전부 버프 포션과 관련되어 있고 낚시도 퀘스트, 요리도 버프. 여하간 재밌는 갓겜임에는 틀림 없는 사실이다. 진입 장벽이라고 할만한 건 클래식한 도트 그래픽 정도? 그래도 여태까지 테라리아 추천해서 취향에 맞아가지고 한 사람들 중에 모두 최소 100시간 이상씩은 함. 대학교 졸업 시즌에 학교 후배들이랑 멀티 플레이 했었는데 거의 3주 동안 잠도 제대로 안자고 플레이 했음. 취향 맞으면 절대로 해봐야 할 게임 중 하나.",
-          "처음 들어가면 기본 캐릭터처럼 생긴 가이드가 여러분을 반겨줍니다. 어떻게 게임을 하는지, 단축키는 무엇인지, 목표가 무엇인지 조차 정확하게 알려주진 않지만, 결국 나중에 쓸모는 있는 그냥 가이드 npc예요. 굴을 파고 땅을 다지고 사지가 몇 번 찢어지다보면 '솟망겜 개어렵네 어떻게함?' 이라는 말이 절로 나오지만, 다시 상점페이지를 열어 '압도적으로 긍정적(845, 178)'을 보면, 아 좀만 더 해볼까? 라는 생각이 듭니다. 뭔가 알 것 같고, 이렇게 하면 될 것 같을 때 꺼무위키를 켜게된 당신은 알 것 같았던건 다 모르는 거였고, 하면 될 것 같은건 하면 안되면 혹은 안 해도 되는 것이었다는 걸 깨닫습니다. 테라리아는 그때부터입니다. 갑자기 시간이 사라지기 시작하고, 실력은 선형적으로 성장하기 시작합니다. 하지만 뭔가 최종 보스같은걸 잡고 나서, 다시 뚝배기가 깨지기 시작합니다. 사실 테리리아는 이때부터입니다. 시간이 녹기 시작하고, 실력은 log 그래프를 그리며 성장하기 시작합니다.... 이후 친구를 불러모으고, 멀티에 재미를 느끼기 시작하며, 직업의 다양성을 깨우치기 시작합니다. 마침내 최종보스_진짜_진짜. mob를 잡은 여러분은 tmodloader에 손을 대기 시작합니다. 진짜 마지막으로, 테라리아는 이때부터입니다."
+          "혼자 할 땐 개노잼 뭐이런 불친절한 겜이 다 있나 했는데 멀티로 하니까 꽤괜찮음"
         ],
         "evidence_candidate_items": [
           {
-            "review_id": "compress-v3-positive-2-1-7383139495348870976",
+            "review_id": "compress-v3-positive-2-1-2191834283094581180",
+            "text": "혼자 할 땐 개노잼 뭐이런 불친절한 겜이 다 있나 했는데 멀티로 하니까 꽤괜찮음"
+          },
+          {
+            "review_id": "compress-v3-positive-2-2-1345967023942683503",
             "text": "친구랑 같이 했을때 기준 통곡의 30시간을 못 넘는 게임, 혼자하면 취향 맞으면 몇시간이고 하는데, 난 뇌가 도파민으로 절여져 있다, 개 초딩이라서 천천히 성장하는 게임은 못버티는 허접 팝콘 뇌다 빠르게 분비되는 도파민 아니면 만족못하는 개 씹 조루 프로 딸잡이다, 그럼 이 게임 못함 멀티를 지원하면서 멀티에 이리 멀티에 안 맞는 게임이 있을까, 물론 갓겜이긴 한데, 혼자하면 혼자서 호빗부터 반지의 제왕을 찍어낼수 있는데, 이것도 취향에 맞아야지 가능함 반대로 취향에 안맞으면 골든 아머 못 만들고 너무 힘들엉ㅠㅠ 하고 그만둘수 있음 개인적으론 멀티에 안 맞는다 라고 생각할뿐 사실 내가 한 게임중 가장 고 평가긴 함"
-          },
-          {
-            "review_id": "compress-v3-positive-2-5-8921004358935010347",
-            "text": "테라리아 처음한 게 15년 전 거의 중학생 1학년 때 인 것 같은데 처음엔 항상 비교 당하는 마인크래프트에 비해서 완성도도 너무 낮고 컨텐츠도 너무 없었음. 1.2버전 오기 까지도 업데이트 주기가 너무 길어서 학생인 입장에선 굉장히 힘들었는데 그래도 한 번 업데이트 할 때마다 대규모 업데이트 수준의 많은 컨텐츠와 아이템들, 수준급 콜라보 등등. 그 뿐만 아니라 편의성 업데이트 및 유저 피드백 적극 수용. 심지어 모두 무료. 취향만 맞으면 정말 갓겜이 따로 없다. 샌드박스 형식에 RPG 요소가 강하고 캐릭터와 월드 별로 난이도도 분리해 솔플과 멀티 모두 재밌다. 난 마인크래프트 같은 경우는 아무리 해도 목적 의식이 없고 3D 멀미가 없음에도 불구하고 채광이나 농사, 낚시 등 반복적인 작업에서 오는 피로감이 굉장히 심해서 가끔 한 번씩 해도 오래 못하는데 테라리아는 가끔 한 번씩 정말 오래 하게 됨. 몬헌처럼 장비와 무기에 따라 직업도 나눌 수 있고 건축이면 건축, 사냥이면 사냥 정말 재밌는 요소가 많다. 아쉬운 점은 생활 컨텐츠가 부족하다는 점? 농사나 요리, 낚시 같은 부분에선 사실 마인크래프트 보다는 조금 부실하다고 생각하는데 컨텐츠 자체가 부족하다는 것보단 이 요소들은 생활 컨텐츠에 관련된 부분인데 전부 RPG적 요소하고만 관련되어 있다는 것이 조금 아쉽다. 농사 같은 경우는 약초 재배 정도인데 전부 버프 포션과 관련되어 있고 낚시도 퀘스트, 요리도 버프. 여하간 재밌는 갓겜임에는 틀림 없는 사실이다. 진입 장벽이라고 할만한 건 클래식한 도트 그래픽 정도? 그래도 여태까지 테라리아 추천해서 취향에 맞아가지고 한 사람들 중에 모두 최소 100시간 이상씩은 함. 대학교 졸업 시즌에 학교 후배들이랑 멀티 플레이 했었는데 거의 3주 동안 잠도 제대로 안자고 플레이 했음. 취향 맞으면 절대로 해봐야 할 게임 중 하나."
-          },
-          {
-            "review_id": "compress-v3-positive-2-6-3376554409300948954",
-            "text": "제가 이것을 친구들과 함께 했던 279시간에 추억을 말해보겠습니다... 게임을 구매하고 멀티를 킨다음 녀석과 함께 디코를 나누며 커마할때 나누던 개드립 그러다가 지하로 내려가서 죽은후에 잃어버린 돈이 아까워서 고생했던 얼척없는 노과다 감잡고 나서 같이 아이템을 찾고 곡괭이와 우정에 의지하며 나아갔던 탐험 보스 아이템을 얻고 본격적으로 전장을 만들고 싸우던 전투와 전투이후 아이템을 보며 웃던 기억 그렇게 하드모드도 들어가고... 그렇게 광물을 얻고... 광신도를 잡고 네개의 기둥을 파괴하고 준비하던 최종보스의 긴장감속 나누었던 대화... \"하...이 개같던 일상에 마지막이냐?\" \"병신아 그런 소리할 시간에 포션이나 한번더 채크해\" \"총알없으면 병신인 새끼가 할말이냐?\" \"너도 마나없으면 병신이잖냐\" \"아무튼 함께해서 좆같았고 좆같은 만큼 즐거웠다\" \"나는 그냥 개같았어\" \"...마지막까지 지랄이네\" 그러고 잡았던 최종보스에 추억 저는 아직도 잊지못합니다...."
-          },
-          {
-            "review_id": "compress-v3-positive-2-8-2266938825187007114",
-            "text": "처음 들어가면 기본 캐릭터처럼 생긴 가이드가 여러분을 반겨줍니다. 어떻게 게임을 하는지, 단축키는 무엇인지, 목표가 무엇인지 조차 정확하게 알려주진 않지만, 결국 나중에 쓸모는 있는 그냥 가이드 npc예요. 굴을 파고 땅을 다지고 사지가 몇 번 찢어지다보면 '솟망겜 개어렵네 어떻게함?' 이라는 말이 절로 나오지만, 다시 상점페이지를 열어 '압도적으로 긍정적(845,178)'을 보면, 아 좀만 더 해볼까? 라는 생각이 듭니다. 뭔가 알 것 같고, 이렇게 하면 될 것 같을 때 꺼무위키를 켜게된 당신은 알 것 같았던건 다 모르는 거였고, 하면 될 것 같은건 하면 안되면 혹은 안 해도 되는 것이었다는 걸 깨닫습니다. 테라리아는 그때부터입니다. 갑자기 시간이 사라지기 시작하고, 실력은 선형적으로 성장하기 시작합니다. 하지만 뭔가 최종 보스같은걸 잡고 나서, 다시 뚝배기가 깨지기 시작합니다. 사실 테리리아는 이때부터입니다. 시간이 녹기 시작하고, 실력은 log 그래프를 그리며 성장하기 시작합니다. ... 이후 친구를 불러모으고, 멀티에 재미를 느끼기 시작하며, 직업의 다양성을 깨우치기 시작합니다. 마침내 최종보스_진짜_진짜.mob를 잡은 여러분은 tmodloader에 손을 대기 시작합니다. 진짜 마지막으로, 테라리아는 이때부터입니다."
           }
         ]
       },
@@ -1270,8 +1451,8 @@
         "block_id": "str_3",
         "title": "플레이 흐름이 안정적으로 잡힌다는 반응",
         "theme": "모드 지원 / 호환 문제",
-        "why_it_matters": "플레이 흐름이 자연스럽게 자리 잡는다는 반응이 많아, 익숙해질수록 재미가 선명해지는 쪽에 잘 맞습니다.",
-        "explanation": "플레이 흐름이 자연스럽게 자리 잡는다는 반응이 많아, 익숙해질수록 재미가 선명해지는 쪽에 잘 맞습니다.",
+        "why_it_matters": "플레이 흐름이 안정적으로 잡힌다는 반응이 많아 익숙해질수록 리듬을 타기 좋은 편입니다.",
+        "explanation": "플레이 흐름이 안정적으로 잡힌다는 반응이 많아 익숙해질수록 리듬을 타기 좋은 편입니다.",
         "aspect_keys": [
           "mod_support"
         ],
@@ -1292,19 +1473,19 @@
         ],
         "evidence_candidate_items": [
           {
-            "review_id": "compress-v3-positive-3-1-472511791245650962",
+            "review_id": "compress-v3-positive-3-1-372182951429814649",
             "text": "지하 밑에서 곤히 자고 있는 슝악한 크툴루 괴물들을 굳이! 굳이 지상으로 불러내 조각내고 굳이 전리품을 획득하세요! 즐거우셨다면 칼라미티 모드로 넘어가십쇼"
           },
           {
-            "review_id": "compress-v3-positive-3-2-2592410757275784428",
+            "review_id": "compress-v3-positive-3-2-7624857205298108532",
             "text": "테라리아는 보스 레이드에 중점을 둔 게임입니다. 장점 : 보스를 격파하면 전리품으로 장비를 만들어서 성장하는 구조가 정말 잘 구성 되어있어요. 단점 : 신규 유입 입장에서 진행 단계의 안내가 불친절해서 하나하나 직접 찾아가면서 해야합니다. 전문가 난이도 까지 클리어 하셧다면, TmodeLoader 에서 칼라미티 모드 까지 꼭 해보시길 바랍니다."
           },
           {
-            "review_id": "compress-v3-positive-3-3-758366387995676938",
+            "review_id": "compress-v3-positive-3-3-3724039833193673578",
             "text": "국밥의 시초 모드가 많아서 낫베드 점점 강해지는 나 하지만 한없ㅇ ㅣ무너진다..."
           },
           {
-            "review_id": "compress-v3-positive-3-4-2874924250042105490",
+            "review_id": "compress-v3-positive-3-4-2680932340091815771",
             "text": "컨텐츠의 축복이 끊이질 않는 게임. 개인적으로 마크보다 재밌게 함. 좀 많이 했다 싶어서 위키 켜보면 아직 하드모드 근처도 못 감. 11000원에 이만한 혜자가 없음. 괜히 압긍이 아님ㅋㅋㅋ"
           }
         ]
@@ -1315,14 +1496,14 @@
         "block_id": "risk_1",
         "title": "매칭과 서버 상태가 체감을 흔든다는 반응",
         "theme": "매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크",
-        "why_it_matters": "매칭과 서버 상태를 문제로 보는 반응이 이어져, 한 판의 완성도가 상황에 따라 꽤 달라질 수 있습니다.",
-        "explanation": "매칭과 서버 상태를 문제로 보는 반응이 이어져, 한 판의 완성도가 상황에 따라 꽤 달라질 수 있습니다.",
+        "why_it_matters": "매칭과 서버 상태를 문제로 보는 반응이 있어 한 판의 안정성이 상황에 따라 갈릴 수 있습니다.",
+        "explanation": "매칭과 서버 상태를 문제로 보는 반응이 있어 한 판의 안정성이 상황에 따라 갈릴 수 있습니다.",
         "aspect_keys": [
           "multiplayer"
         ],
         "stance": "negative",
         "consensus_level": "high",
-        "mention_count": 1542,
+        "mention_count": 1543,
         "evidence_quality_level": "guaranteed_fill",
         "evidence_candidate_snippets": [
           "크툴루의 눈이 너무 귀여워서 수상하게 보이는 눈 써서 소환하다가 볼따구 집어당기고 깨물다가 눈동자에 인중에 맞대서 비비고 쓰다듬고 물 주고 밥 주고 같이 놀아주고 또 쓰다듬고 뒤에 있는 핏줄을 하트 모양으로 만들고 올라 타서 아름답고 개성있는 커럽션 위에 산책 해주고 사지가 분해된 토끼의 머리랑 팔로 핑퐁 해주고 싶고 레몬 즙짜서 발라주고 지하에서 캔 금으로 장식 달아주고 뽀뽀 갈기고 데려가서 길들여가지고 입에 뼈다귀 달아줘서 여왕벌이랑 세상을 먹는 자한테 보여줘서 자랑하고 하트 크리스탈 잔뜩 먹여주고 구르는 바위로 좀비들한테 돌려 같이 볼링하고 킹 슬라임 위에서 같이 쉬고 옆집에 온 외눈사슴이랑 벳시랑 같이 술먹고 안주먹고 괴물 라자냐 먹고 택스쳐팩으로 모습도 바꿔주고 딸기쇼트케이크 먹이고 황금 별미 먹이고 또 볼따구 집어당기고 월 오브 플래시랑 또 닮아가지고 귀엽고 스파즈마티즘이랑 레티나이저랑 닮아서 더 귀여워서 또또 쓰다듬고 집어 던져서 연금술 탁자로 사랑의 포션, 신속 포션, 철피부 포션, 거인 포션 주고 코스프레 시켜주고 싶고 껴안아서 뽀뽀 마구마구 해주고 시아버지와 시어머니인 문로드랑 크툴루의 뇌한테 허락 받아서 해변가 앞에 떠밀려오는 낚시꾼 용암에 담궈 죽이고 크툴루의 눈에게 고백해서 다이아몬드 반지 주고 조개폰 주고 진정한 구리 단검 줘가지고 결혼식장에 뽀뽀해서 결혼하고 집 짓고 또또또 쓰다듬고 또 뽀뽀하고 또또 뽀뽀하고 페인터가 그린 액자 달고 행상인 죽여서 행상인 모자 주고 그 날이 왔을때 원한다면 !$를 잔뜩 해서 크툴루의 하수인 잔뜩 만들어주고 수상하게 웃는 눈 얻고 크툴루의 하수인들을 위해서 주민등록증 만들어주고 가족여행으로 밤하늘이 빛나는 오로라에 데려가서 모닥불에 마시멜로 구워서 마침 지나가던 얼음 슬라임이랑 기계공 죽여서 요리하고 가족들한테 나눠주고 사막에 가서 친구가 알려준 대로 개미귀신이랑 가족이랑 같이 사진 찍고 호박석 찾아서 도토리랑 조합해 농사 지어서 돈 벌다가 곰 만날때 벌벌 떠는 크툴루의 눈이랑 크툴루의 하수인들을 위해서 테라 블레이드로 잡고 결혼하기 전에 했었던 토끼 사지로 핑퐁 가족이랑 같이 하고 크툴루의 하수인들이 충분히 컸을때 학교에 데려가 혹시 무슨 일이라도 일어나는지 신경 써주고 어려워하는 문제 풀어주고 나도 못풀면 인터넷 검색해서 알려주고 장래는 피자집 사장 되든 옷가게 마네킹이 되든 범죄자가 되든 너무 잘못된 길만 아니면 어떻게 가는지 강요하지 않고 자유롭",
@@ -1334,11 +1515,11 @@
         ],
         "evidence_candidate_items": [
           {
-            "review_id": "compress-v3-negative-1-5-3640218677881416729",
+            "review_id": "compress-v3-negative-1-5-9000764062243809906",
             "text": "크툴루의 눈이 너무 귀여워서 수상하게 보이는 눈 써서 소환하다가 볼따구 집어당기고 깨물다가 눈동자에 인중에 맞대서 비비고 쓰다듬고 물 주고 밥 주고 같이 놀아주고 또 쓰다듬고 뒤에 있는 핏줄을 하트 모양으로 만들고 올라 타서 아름답고 개성있는 커럽션 위에 산책 해주고 사지가 분해된 토끼의 머리랑 팔로 핑퐁 해주고 싶고 레몬 즙짜서 발라주고 지하에서 캔 금으로 장식 달아주고 뽀뽀 갈기고 데려가서 길들여가지고 입에 뼈다귀 달아줘서 여왕벌이랑 세상을 먹는 자한테 보여줘서 자랑하고 하트 크리스탈 잔뜩 먹여주고 구르는 바위로 좀비들한테 돌려 같이 볼링하고 킹 슬라임 위에서 같이 쉬고 옆집에 온 외눈사슴이랑 벳시랑 같이 술먹고 안주먹고 괴물 라자냐 먹고 택스쳐팩으로 모습도 바꿔주고 딸기쇼트케이크 먹이고 황금 별미 먹이고 또 볼따구 집어당기고 월 오브 플래시랑 또 닮아가지고 귀엽고 스파즈마티즘이랑 레티나이저랑 닮아서 더 귀여워서 또또 쓰다듬고 집어 던져서 연금술 탁자로 사랑의 포션, 신속 포션, 철피부 포션, 거인 포션 주고 코스프레 시켜주고 싶고 껴안아서 뽀뽀 마구마구 해주고 시아버지와 시어머니인 문로드랑 크툴루의 뇌한테 허락 받아서 해변가 앞에 떠밀려오는 낚시꾼 용암에 담궈 죽이고 크툴루의 눈에게 고백해서 다이아몬드 반지 주고 조개폰 주고 진정한 구리 단검 줘가지고 결혼식장에 뽀뽀해서 결혼하고 집 짓고 또또또 쓰다듬고 또 뽀뽀하고 또또 뽀뽀하고 페인터가 그린 액자 달고 행상인 죽여서 행상인 모자 주고 그 날이 왔을때 원한다면 !$를 잔뜩 해서 크툴루의 하수인 잔뜩 만들어주고 수상하게 웃는 눈 얻고 크툴루의 하수인들을 위해서 주민등록증 만들어주고 가족여행으로 밤하늘이 빛나는 오로라에 데려가서 모닥불에 마시멜로 구워서 마침 지나가던 얼음 슬라임이랑 기계공 죽여서 요리하고 가족들한테 나눠주고 사막에 가서 친구가 알려준 대로 개미귀신이랑 가족이랑 같이 사진 찍고 호박석 찾아서 도토리랑 조합해 농사 지어서 돈 벌다가 곰 만날때 벌벌 떠는 크툴루의 눈이랑 크툴루의 하수인들을 위해서 테라 블레이드로 잡고 결혼하기 전에 했었던 토끼 사지로 핑퐁 가족이랑 같이 하고 크툴루의 하수인들이 충분히 컸을때 학교에 데려가 혹시 무슨 일이라도 일어나는지 신경 써주고 어려워하는 문제 풀어주고 나도 못풀면 인터넷 검색해서 알려주고 장래는 피자집 사장 되든 옷가게 마네킹이 되든 범죄자가 되든 너무 잘못된 길만 아니면 어떻게 가는지 강요하지 않고 자유롭"
           },
           {
-            "review_id": "compress-v3-negative-1-7-6395686737218363392",
+            "review_id": "compress-v3-negative-1-7-2958628334742427874",
             "text": "진짜 개빡치는게 게임 하는 방법도 ㅈㄴ 어렵고 ㅅㅂ 친구랑 멀티하는데 멀티방 안들어가져서 이차 화가났고 방법을 어찌저찌 찾았는데 들어가는 방법도 개어렵고 가지가지하네요. 이정도묜 옵데이트를 해서 방법을 쉽게 하던지 이게 지금 뭔지 모르겠네요;;;; 이런 게임은 처음입니다. 고객의 편의성은 개나 줘버린듯"
           }
         ]
@@ -1346,12 +1527,12 @@
     ]
   },
   "disclaimer": "여러 유저 리뷰를 바탕으로 정리했어요. 플레이 경험은 사람마다 다를 수 있어요.",
-  "headline": "게임의 콘텐츠 깊이와 멀티플레이 경험이 뛰어나며, 가격 대비 가성비가 우수합니다.",
-  "buy_recommendation": "buy_now",
-  "buy_timing_summary": "매칭과 서버 상태 변화의 불편을 감수해야 할 수 있어 가격 메리트가 있는 시점이 더 낫습니다.",
+  "headline": "장비 파밍과 성장 루프의 장점이 보여 무료로 가볍게 시작해보고 맞는지 판단하기 좋습니다.",
+  "buy_recommendation": "buy_on_sale",
+  "buy_timing_summary": "매칭과 서버 상태 변화 불편을 감수해야 할 수 있어 가격 메리트가 있는 시점이 더 낫습니다.",
   "good_for": [
     "플레이 흐름이 점점 또렷해지는 재미를 좋아하는 플레이어",
-    "하루에 오래 붙잡고 성장 루프를 깊게 파는 플레이어",
+    "하루보다 오래 붙잡고 성장 루프를 깊게 파는 플레이어",
     "맵을 돌아다니며 발견하는 재미를 중요하게 보는 플레이어"
   ],
   "not_good_for": [
@@ -1360,16 +1541,16 @@
   ],
   "top_strengths": [
     {
-      "title": "플레이 흐름이 점점 또렷해지는 재미",
-      "summary": "기본 흐름이 안정적으로 자리 잡아 익숙해질수록 재미 포인트가 더 분명해집니다."
+      "title": "장비와 빌드를 오래 다듬는 성장 루프",
+      "summary": "장비를 파밍하고 세팅을 맞춰 가며 강해지는 과정이 반복 임무의 동력으로 잘 이어집니다."
     },
     {
       "title": "오래 붙잡게 만드는 성장 루프",
-      "summary": "목표를 쌓아가며 오래 붙잡게 되는 성장 구조가 강해 장기 플레이와 잘 맞습니다."
+      "summary": "목표를 쌓아가며 오래 붙잡게 만드는 성장 구조가 있어 장기 플레이에 잘 맞습니다."
     },
     {
       "title": "발견이 이어지는 탐험 경험",
-      "summary": "이동하고 발견하는 과정 자체가 재미를 만들어 탐험 비중이 높은 플레이에 맞습니다."
+      "summary": "이동과 발견 그 자체가 재미로 이어져 탐험 비중이 높은 플레이와 잘 맞습니다."
     }
   ],
   "top_risks": [
@@ -1379,11 +1560,7 @@
     },
     {
       "title": "가격 대비 만족이 갈릴 수 있는 부분",
-      "summary": "가격 부담이 크면 기대만큼 만족하지 못했다는 반응이 나올 수 있습니다."
-    },
-    {
-      "title": "진입 장벽으로 인한 플레이 피로",
-      "summary": "초반의 높은 난이도와 불친절한 튜토리얼로 인해 많은 플레이어가 어려움을 느낄 수 있습니다."
+      "summary": "가격 부담이 있으면 기대만큼 만족하지 못했다는 반응도 함께 나올 수 있습니다."
     }
   ],
   "recent_state": {
@@ -1393,76 +1570,65 @@
   "evidence_reviews": [
     {
       "block_id": "str_1",
-      "title": "오래 붙잡게 되는 성장 루프가 있다는 반응.",
+      "title": "성장 루프를 오래 붙잡는다는 반응",
       "theme": "중독성 / 시간순삭",
-      "why_it_matters": "오래 붙잡는 이유가 분명하다는 반응이 많아, 장기 플레이 동기가 필요한 게임에 가깝습니다.",
-      "explanation": "오래 붙잡는 이유가 분명하다는 반응이 많아, 장기 플레이 동기가 필요한 게임에 가깝습니다.",
+      "why_it_matters": "장기 성장 동기가 분명하다는 반응이 많아 오래 파는 플레이와 잘 맞습니다.",
+      "explanation": "장기 성장 동기가 분명하다는 반응이 많아 오래 파는 플레이와 잘 맞습니다.",
       "aspect_keys": [
         "content_depth"
       ],
       "stance": "positive",
       "consensus_level": "high",
-      "mention_count": 1744,
+      "mention_count": 1743,
       "evidence_quality_level": "strict",
       "evidence_candidate_snippets": [
         "파밍만해도 재밌다 마크 감성은 안해봐서 모르겠지만 이런 느낌이려나",
         "마인크래프트 짭이라고 하는 잼민이들은 그냥 하지를마라. 이건 별개의게임이다. 비슷한 요소가 거의없다. 모드가 없는대신 마인크래프트보다 더 많은 자체 콘텐츠와 보스들이 재미있다."
       ],
       "evidence_snippets": [
-        "파밍만해도 재밌다 마크 감성은 안해봐서 모르겠지만 이런 느낌이려나",
-        "마인크래프트 짭이라고 하는 잼민이들은 그냥 하지를마라. 이건 별개의게임이다. 비슷한 요소가 거의없다. 모드가 없는대신 마인크래프트보다 더 많은 자체 콘텐츠와 보스들이 재미있다."
+        "마인크래프트 짭이라고 하는 잼민이들은 그냥 하지를마라. 이건 별개의게임이다. 비슷한 요소가 거의없다. 모드가 없는대신 마인크래프트보다 더 많은 자체 콘텐츠와 보스들이 재미있다.",
+        "파밍만해도 재밌다 마크 감성은 안해봐서 모르겠지만 이런 느낌이려나"
       ],
       "evidence_candidate_items": [
         {
-          "review_id": "compress-v3-positive-1-1-6038408767726996020",
+          "review_id": "compress-v3-positive-1-1-6644486238589959031",
           "text": "파밍만해도 재밌다 마크 감성은 안해봐서 모르겠지만 이런 느낌이려나"
         },
         {
-          "review_id": "compress-v3-positive-1-2-2744866993078580328",
+          "review_id": "compress-v3-positive-1-2-8415969383176856412",
           "text": "마인크래프트 짭이라고 하는 잼민이들은 그냥 하지를마라. 이건 별개의게임이다. 비슷한 요소가 거의없다. 모드가 없는대신 마인크래프트보다 더 많은 자체 콘텐츠와 보스들이 재미있다."
         }
       ]
     },
     {
       "block_id": "str_2",
-      "title": "팀 합이 맞을 때 재미가 커진다는 반응",
+      "title": "팀 합의의 재미가 크다는 반응",
       "theme": "멀티플레이 경험",
-      "why_it_matters": "팀 합이 맞을 때 만족도가 올라간다는 반응이 많아, 함께 맞춰가는 플레이를 좋아하면 잘 맞습니다.",
-      "explanation": "팀 합이 맞을 때 만족도가 올라간다는 반응이 많아, 함께 맞춰가는 플레이를 좋아하면 잘 맞습니다.",
+      "why_it_matters": "팀 합이 맞을 때 만족도가 올라간다는 반응이 많아 함께 맞춰 가는 플레이에 잘 맞습니다.",
+      "explanation": "팀 합이 맞을 때 만족도가 올라간다는 반응이 많아 함께 맞춰 가는 플레이에 잘 맞습니다.",
       "aspect_keys": [
         "multiplayer"
       ],
       "stance": "positive",
       "consensus_level": "high",
-      "mention_count": 1542,
-      "evidence_quality_level": "relaxed",
+      "mention_count": 1543,
+      "evidence_quality_level": "strict",
       "evidence_candidate_snippets": [
-        "친구랑 같이 했을때 기준 통곡의 30시간을 못 넘는 게임, 혼자하면 취향 맞으면 몇시간이고 하는데, 난 뇌가 도파민으로 절여져 있다, 개 초딩이라서 천천히 성장하는 게임은 못버티는 허접 팝콘 뇌다 빠르게 분비되는 도파민 아니면 만족못하는 개 씹 조루 프로 딸잡이다, 그럼 이 게임 못함 멀티를 지원하면서 멀티에 이리 멀티에 안 맞는 게임이 있을까, 물론 갓겜이긴 한데, 혼자하면 혼자서 호빗부터 반지의 제왕을 찍어낼수 있는데, 이것도 취향에 맞아야지 가능함 반대로 취향에 안맞으면 골든 아머 못 만들고 너무 힘들엉ㅠㅠ 하고 그만둘수 있음 개인적으론 멀티에 안 맞는다 라고 생각할뿐 사실 내가 한 게임중 가장 고 평가긴 함",
-        "테라리아 처음한 게 15년 전 거의 중학생 1학년 때 인 것 같은데 처음엔 항상 비교 당하는 마인크래프트에 비해서 완성도도 너무 낮고 컨텐츠도 너무 없었음. 1.2버전 오기 까지도 업데이트 주기가 너무 길어서 학생인 입장에선 굉장히 힘들었는데 그래도 한 번 업데이트 할 때마다 대규모 업데이트 수준의 많은 컨텐츠와 아이템들, 수준급 콜라보 등등. 그 뿐만 아니라 편의성 업데이트 및 유저 피드백 적극 수용. 심지어 모두 무료. 취향만 맞으면 정말 갓겜이 따로 없다. 샌드박스 형식에 RPG 요소가 강하고 캐릭터와 월드 별로 난이도도 분리해 솔플과 멀티 모두 재밌다. 난 마인크래프트 같은 경우는 아무리 해도 목적 의식이 없고 3D 멀미가 없음에도 불구하고 채광이나 농사, 낚시 등 반복적인 작업에서 오는 피로감이 굉장히 심해서 가끔 한 번씩 해도 오래 못하는데 테라리아는 가끔 한 번씩 정말 오래 하게 됨. 몬헌처럼 장비와 무기에 따라 직업도 나눌 수 있고 건축이면 건축, 사냥이면 사냥 정말 재밌는 요소가 많다. 아쉬운 점은 생활 컨텐츠가 부족하다는 점? 농사나 요리, 낚시 같은 부분에선 사실 마인크래프트 보다는 조금 부실하다고 생각하는데 컨텐츠 자체가 부족하다는 것보단 이 요소들은 생활 컨텐츠에 관련된 부분인데 전부 RPG적 요소하고만 관련되어 있다는 것이 조금 아쉽다. 농사 같은 경우는 약초 재배 정도인데 전부 버프 포션과 관련되어 있고 낚시도 퀘스트, 요리도 버프. 여하간 재밌는 갓겜임에는 틀림 없는 사실이다. 진입 장벽이라고 할만한 건 클래식한 도트 그래픽 정도? 그래도 여태까지 테라리아 추천해서 취향에 맞아가지고 한 사람들 중에 모두 최소 100시간 이상씩은 함. 대학교 졸업 시즌에 학교 후배들이랑 멀티 플레이 했었는데 거의 3주 동안 잠도 제대로 안자고 플레이 했음. 취향 맞으면 절대로 해봐야 할 게임 중 하나.",
-        "제가 이것을 친구들과 함께 했던 279시간에 추억을 말해보겠습니다... 게임을 구매하고 멀티를 킨다음 녀석과 함께 디코를 나누며 커마할때 나누던 개드립 그러다가 지하로 내려가서 죽은후에 잃어버린 돈이 아까워서 고생했던 얼척없는 노과다 감잡고 나서 같이 아이템을 찾고 곡괭이와 우정에 의지하며 나아갔던 탐험 보스 아이템을 얻고 본격적으로 전장을 만들고 싸우던 전투와 전투이후 아이템을 보며 웃던 기억 그렇게 하드모드도 들어가고... 그렇게 광물을 얻고... 광신도를 잡고 네개의 기둥을 파괴하고 준비하던 최종보스의 긴장감속 나누었던 대화... \"하...이 개같던 일상에 마지막이냐?\" \"병신아 그런 소리할 시간에 포션이나 한번더 채크해\" \"총알없으면 병신인 새끼가 할말이냐?\" \"너도 마나없으면 병신이잖냐\" \"아무튼 함께해서 좆같았고 좆같은 만큼 즐거웠다\" \"나는 그냥 개같았어\" \"...마지막까지 지랄이네\" 그러고 잡았던 최종보스에 추억 저는 아직도 잊지못합니다....",
-        "처음 들어가면 기본 캐릭터처럼 생긴 가이드가 여러분을 반겨줍니다. 어떻게 게임을 하는지, 단축키는 무엇인지, 목표가 무엇인지 조차 정확하게 알려주진 않지만, 결국 나중에 쓸모는 있는 그냥 가이드 npc예요. 굴을 파고 땅을 다지고 사지가 몇 번 찢어지다보면 '솟망겜 개어렵네 어떻게함?' 이라는 말이 절로 나오지만, 다시 상점페이지를 열어 '압도적으로 긍정적(845,178)'을 보면, 아 좀만 더 해볼까? 라는 생각이 듭니다. 뭔가 알 것 같고, 이렇게 하면 될 것 같을 때 꺼무위키를 켜게된 당신은 알 것 같았던건 다 모르는 거였고, 하면 될 것 같은건 하면 안되면 혹은 안 해도 되는 것이었다는 걸 깨닫습니다. 테라리아는 그때부터입니다. 갑자기 시간이 사라지기 시작하고, 실력은 선형적으로 성장하기 시작합니다. 하지만 뭔가 최종 보스같은걸 잡고 나서, 다시 뚝배기가 깨지기 시작합니다. 사실 테리리아는 이때부터입니다. 시간이 녹기 시작하고, 실력은 log 그래프를 그리며 성장하기 시작합니다. ... 이후 친구를 불러모으고, 멀티에 재미를 느끼기 시작하며, 직업의 다양성을 깨우치기 시작합니다. 마침내 최종보스_진짜_진짜.mob를 잡은 여러분은 tmodloader에 손을 대기 시작합니다. 진짜 마지막으로, 테라리아는 이때부터입니다."
+        "혼자 할 땐 개노잼 뭐이런 불친절한 겜이 다 있나 했는데 멀티로 하니까 꽤괜찮음",
+        "친구랑 같이 했을때 기준 통곡의 30시간을 못 넘는 게임, 혼자하면 취향 맞으면 몇시간이고 하는데, 난 뇌가 도파민으로 절여져 있다, 개 초딩이라서 천천히 성장하는 게임은 못버티는 허접 팝콘 뇌다 빠르게 분비되는 도파민 아니면 만족못하는 개 씹 조루 프로 딸잡이다, 그럼 이 게임 못함 멀티를 지원하면서 멀티에 이리 멀티에 안 맞는 게임이 있을까, 물론 갓겜이긴 한데, 혼자하면 혼자서 호빗부터 반지의 제왕을 찍어낼수 있는데, 이것도 취향에 맞아야지 가능함 반대로 취향에 안맞으면 골든 아머 못 만들고 너무 힘들엉ㅠㅠ 하고 그만둘수 있음 개인적으론 멀티에 안 맞는다 라고 생각할뿐 사실 내가 한 게임중 가장 고 평가긴 함"
       ],
       "evidence_snippets": [
         "친구랑 같이 했을때 기준 통곡의 30시간을 못 넘는 게임, 혼자하면 취향 맞으면 몇시간이고 하는데, 난 뇌가 도파민으로 절여져 있다, 개 초딩이라서 천천히 성장하는 게임은 못버티는 허접 팝콘 뇌다 빠르게 분비되는 도파민 아니면 만족못하는 개 씹 조루 프로 딸잡이다, 그럼 이 게임 못함 멀티를 지원하면서 멀티에 이리 멀티에 안 맞는 게임이 있을까, 물론 갓겜이긴 한데, 혼자하면 혼자서 호빗부터 반지의 제왕을 찍어낼수 있는데, 이것도 취향에 맞아야지 가능함 반대로 취향에 안맞으면 골든 아머 못 만들고 너무 힘들엉ㅠㅠ 하고 그만둘수 있음 개인적으론 멀티에 안 맞는다 라고 생각할뿐 사실 내가 한 게임중 가장 고 평가긴 함",
-        "테라리아 처음한 게 15년 전 거의 중학생 1학년 때 인 것 같은데 처음엔 항상 비교 당하는 마인크래프트에 비해서 완성도도 너무 낮고 컨텐츠도 너무 없었음. 1. 2버전 오기 까지도 업데이트 주기가 너무 길어서 학생인 입장에선 굉장히 힘들었는데 그래도 한 번 업데이트 할 때마다 대규모 업데이트 수준의 많은 컨텐츠와 아이템들, 수준급 콜라보 등등. 그 뿐만 아니라 편의성 업데이트 및 유저 피드백 적극 수용. 심지어 모두 무료. 취향만 맞으면 정말 갓겜이 따로 없다. 샌드박스 형식에 RPG 요소가 강하고 캐릭터와 월드 별로 난이도도 분리해 솔플과 멀티 모두 재밌다. 난 마인크래프트 같은 경우는 아무리 해도 목적 의식이 없고 3D 멀미가 없음에도 불구하고 채광이나 농사, 낚시 등 반복적인 작업에서 오는 피로감이 굉장히 심해서 가끔 한 번씩 해도 오래 못하는데 테라리아는 가끔 한 번씩 정말 오래 하게 됨. 몬헌처럼 장비와 무기에 따라 직업도 나눌 수 있고 건축이면 건축, 사냥이면 사냥 정말 재밌는 요소가 많다. 아쉬운 점은 생활 컨텐츠가 부족하다는 점? 농사나 요리, 낚시 같은 부분에선 사실 마인크래프트 보다는 조금 부실하다고 생각하는데 컨텐츠 자체가 부족하다는 것보단 이 요소들은 생활 컨텐츠에 관련된 부분인데 전부 RPG적 요소하고만 관련되어 있다는 것이 조금 아쉽다. 농사 같은 경우는 약초 재배 정도인데 전부 버프 포션과 관련되어 있고 낚시도 퀘스트, 요리도 버프. 여하간 재밌는 갓겜임에는 틀림 없는 사실이다. 진입 장벽이라고 할만한 건 클래식한 도트 그래픽 정도? 그래도 여태까지 테라리아 추천해서 취향에 맞아가지고 한 사람들 중에 모두 최소 100시간 이상씩은 함. 대학교 졸업 시즌에 학교 후배들이랑 멀티 플레이 했었는데 거의 3주 동안 잠도 제대로 안자고 플레이 했음. 취향 맞으면 절대로 해봐야 할 게임 중 하나.",
-        "처음 들어가면 기본 캐릭터처럼 생긴 가이드가 여러분을 반겨줍니다. 어떻게 게임을 하는지, 단축키는 무엇인지, 목표가 무엇인지 조차 정확하게 알려주진 않지만, 결국 나중에 쓸모는 있는 그냥 가이드 npc예요. 굴을 파고 땅을 다지고 사지가 몇 번 찢어지다보면 '솟망겜 개어렵네 어떻게함?' 이라는 말이 절로 나오지만, 다시 상점페이지를 열어 '압도적으로 긍정적(845, 178)'을 보면, 아 좀만 더 해볼까? 라는 생각이 듭니다. 뭔가 알 것 같고, 이렇게 하면 될 것 같을 때 꺼무위키를 켜게된 당신은 알 것 같았던건 다 모르는 거였고, 하면 될 것 같은건 하면 안되면 혹은 안 해도 되는 것이었다는 걸 깨닫습니다. 테라리아는 그때부터입니다. 갑자기 시간이 사라지기 시작하고, 실력은 선형적으로 성장하기 시작합니다. 하지만 뭔가 최종 보스같은걸 잡고 나서, 다시 뚝배기가 깨지기 시작합니다. 사실 테리리아는 이때부터입니다. 시간이 녹기 시작하고, 실력은 log 그래프를 그리며 성장하기 시작합니다.... 이후 친구를 불러모으고, 멀티에 재미를 느끼기 시작하며, 직업의 다양성을 깨우치기 시작합니다. 마침내 최종보스_진짜_진짜. mob를 잡은 여러분은 tmodloader에 손을 대기 시작합니다. 진짜 마지막으로, 테라리아는 이때부터입니다."
+        "혼자 할 땐 개노잼 뭐이런 불친절한 겜이 다 있나 했는데 멀티로 하니까 꽤괜찮음"
       ],
       "evidence_candidate_items": [
         {
-          "review_id": "compress-v3-positive-2-1-7383139495348870976",
+          "review_id": "compress-v3-positive-2-1-2191834283094581180",
+          "text": "혼자 할 땐 개노잼 뭐이런 불친절한 겜이 다 있나 했는데 멀티로 하니까 꽤괜찮음"
+        },
+        {
+          "review_id": "compress-v3-positive-2-2-1345967023942683503",
           "text": "친구랑 같이 했을때 기준 통곡의 30시간을 못 넘는 게임, 혼자하면 취향 맞으면 몇시간이고 하는데, 난 뇌가 도파민으로 절여져 있다, 개 초딩이라서 천천히 성장하는 게임은 못버티는 허접 팝콘 뇌다 빠르게 분비되는 도파민 아니면 만족못하는 개 씹 조루 프로 딸잡이다, 그럼 이 게임 못함 멀티를 지원하면서 멀티에 이리 멀티에 안 맞는 게임이 있을까, 물론 갓겜이긴 한데, 혼자하면 혼자서 호빗부터 반지의 제왕을 찍어낼수 있는데, 이것도 취향에 맞아야지 가능함 반대로 취향에 안맞으면 골든 아머 못 만들고 너무 힘들엉ㅠㅠ 하고 그만둘수 있음 개인적으론 멀티에 안 맞는다 라고 생각할뿐 사실 내가 한 게임중 가장 고 평가긴 함"
-        },
-        {
-          "review_id": "compress-v3-positive-2-5-8921004358935010347",
-          "text": "테라리아 처음한 게 15년 전 거의 중학생 1학년 때 인 것 같은데 처음엔 항상 비교 당하는 마인크래프트에 비해서 완성도도 너무 낮고 컨텐츠도 너무 없었음. 1.2버전 오기 까지도 업데이트 주기가 너무 길어서 학생인 입장에선 굉장히 힘들었는데 그래도 한 번 업데이트 할 때마다 대규모 업데이트 수준의 많은 컨텐츠와 아이템들, 수준급 콜라보 등등. 그 뿐만 아니라 편의성 업데이트 및 유저 피드백 적극 수용. 심지어 모두 무료. 취향만 맞으면 정말 갓겜이 따로 없다. 샌드박스 형식에 RPG 요소가 강하고 캐릭터와 월드 별로 난이도도 분리해 솔플과 멀티 모두 재밌다. 난 마인크래프트 같은 경우는 아무리 해도 목적 의식이 없고 3D 멀미가 없음에도 불구하고 채광이나 농사, 낚시 등 반복적인 작업에서 오는 피로감이 굉장히 심해서 가끔 한 번씩 해도 오래 못하는데 테라리아는 가끔 한 번씩 정말 오래 하게 됨. 몬헌처럼 장비와 무기에 따라 직업도 나눌 수 있고 건축이면 건축, 사냥이면 사냥 정말 재밌는 요소가 많다. 아쉬운 점은 생활 컨텐츠가 부족하다는 점? 농사나 요리, 낚시 같은 부분에선 사실 마인크래프트 보다는 조금 부실하다고 생각하는데 컨텐츠 자체가 부족하다는 것보단 이 요소들은 생활 컨텐츠에 관련된 부분인데 전부 RPG적 요소하고만 관련되어 있다는 것이 조금 아쉽다. 농사 같은 경우는 약초 재배 정도인데 전부 버프 포션과 관련되어 있고 낚시도 퀘스트, 요리도 버프. 여하간 재밌는 갓겜임에는 틀림 없는 사실이다. 진입 장벽이라고 할만한 건 클래식한 도트 그래픽 정도? 그래도 여태까지 테라리아 추천해서 취향에 맞아가지고 한 사람들 중에 모두 최소 100시간 이상씩은 함. 대학교 졸업 시즌에 학교 후배들이랑 멀티 플레이 했었는데 거의 3주 동안 잠도 제대로 안자고 플레이 했음. 취향 맞으면 절대로 해봐야 할 게임 중 하나."
-        },
-        {
-          "review_id": "compress-v3-positive-2-6-3376554409300948954",
-          "text": "제가 이것을 친구들과 함께 했던 279시간에 추억을 말해보겠습니다... 게임을 구매하고 멀티를 킨다음 녀석과 함께 디코를 나누며 커마할때 나누던 개드립 그러다가 지하로 내려가서 죽은후에 잃어버린 돈이 아까워서 고생했던 얼척없는 노과다 감잡고 나서 같이 아이템을 찾고 곡괭이와 우정에 의지하며 나아갔던 탐험 보스 아이템을 얻고 본격적으로 전장을 만들고 싸우던 전투와 전투이후 아이템을 보며 웃던 기억 그렇게 하드모드도 들어가고... 그렇게 광물을 얻고... 광신도를 잡고 네개의 기둥을 파괴하고 준비하던 최종보스의 긴장감속 나누었던 대화... \"하...이 개같던 일상에 마지막이냐?\" \"병신아 그런 소리할 시간에 포션이나 한번더 채크해\" \"총알없으면 병신인 새끼가 할말이냐?\" \"너도 마나없으면 병신이잖냐\" \"아무튼 함께해서 좆같았고 좆같은 만큼 즐거웠다\" \"나는 그냥 개같았어\" \"...마지막까지 지랄이네\" 그러고 잡았던 최종보스에 추억 저는 아직도 잊지못합니다...."
-        },
-        {
-          "review_id": "compress-v3-positive-2-8-2266938825187007114",
-          "text": "처음 들어가면 기본 캐릭터처럼 생긴 가이드가 여러분을 반겨줍니다. 어떻게 게임을 하는지, 단축키는 무엇인지, 목표가 무엇인지 조차 정확하게 알려주진 않지만, 결국 나중에 쓸모는 있는 그냥 가이드 npc예요. 굴을 파고 땅을 다지고 사지가 몇 번 찢어지다보면 '솟망겜 개어렵네 어떻게함?' 이라는 말이 절로 나오지만, 다시 상점페이지를 열어 '압도적으로 긍정적(845,178)'을 보면, 아 좀만 더 해볼까? 라는 생각이 듭니다. 뭔가 알 것 같고, 이렇게 하면 될 것 같을 때 꺼무위키를 켜게된 당신은 알 것 같았던건 다 모르는 거였고, 하면 될 것 같은건 하면 안되면 혹은 안 해도 되는 것이었다는 걸 깨닫습니다. 테라리아는 그때부터입니다. 갑자기 시간이 사라지기 시작하고, 실력은 선형적으로 성장하기 시작합니다. 하지만 뭔가 최종 보스같은걸 잡고 나서, 다시 뚝배기가 깨지기 시작합니다. 사실 테리리아는 이때부터입니다. 시간이 녹기 시작하고, 실력은 log 그래프를 그리며 성장하기 시작합니다. ... 이후 친구를 불러모으고, 멀티에 재미를 느끼기 시작하며, 직업의 다양성을 깨우치기 시작합니다. 마침내 최종보스_진짜_진짜.mob를 잡은 여러분은 tmodloader에 손을 대기 시작합니다. 진짜 마지막으로, 테라리아는 이때부터입니다."
         }
       ]
     },
@@ -1470,8 +1636,8 @@
       "block_id": "str_3",
       "title": "플레이 흐름이 안정적으로 잡힌다는 반응",
       "theme": "모드 지원 / 호환 문제",
-      "why_it_matters": "플레이 흐름이 자연스럽게 자리 잡는다는 반응이 많아, 익숙해질수록 재미가 선명해지는 쪽에 잘 맞습니다.",
-      "explanation": "플레이 흐름이 자연스럽게 자리 잡는다는 반응이 많아, 익숙해질수록 재미가 선명해지는 쪽에 잘 맞습니다.",
+      "why_it_matters": "플레이 흐름이 안정적으로 잡힌다는 반응이 많아 익숙해질수록 리듬을 타기 좋은 편입니다.",
+      "explanation": "플레이 흐름이 안정적으로 잡힌다는 반응이 많아 익숙해질수록 리듬을 타기 좋은 편입니다.",
       "aspect_keys": [
         "mod_support"
       ],
@@ -1492,19 +1658,19 @@
       ],
       "evidence_candidate_items": [
         {
-          "review_id": "compress-v3-positive-3-1-472511791245650962",
+          "review_id": "compress-v3-positive-3-1-372182951429814649",
           "text": "지하 밑에서 곤히 자고 있는 슝악한 크툴루 괴물들을 굳이! 굳이 지상으로 불러내 조각내고 굳이 전리품을 획득하세요! 즐거우셨다면 칼라미티 모드로 넘어가십쇼"
         },
         {
-          "review_id": "compress-v3-positive-3-2-2592410757275784428",
+          "review_id": "compress-v3-positive-3-2-7624857205298108532",
           "text": "테라리아는 보스 레이드에 중점을 둔 게임입니다. 장점 : 보스를 격파하면 전리품으로 장비를 만들어서 성장하는 구조가 정말 잘 구성 되어있어요. 단점 : 신규 유입 입장에서 진행 단계의 안내가 불친절해서 하나하나 직접 찾아가면서 해야합니다. 전문가 난이도 까지 클리어 하셧다면, TmodeLoader 에서 칼라미티 모드 까지 꼭 해보시길 바랍니다."
         },
         {
-          "review_id": "compress-v3-positive-3-3-758366387995676938",
+          "review_id": "compress-v3-positive-3-3-3724039833193673578",
           "text": "국밥의 시초 모드가 많아서 낫베드 점점 강해지는 나 하지만 한없ㅇ ㅣ무너진다..."
         },
         {
-          "review_id": "compress-v3-positive-3-4-2874924250042105490",
+          "review_id": "compress-v3-positive-3-4-2680932340091815771",
           "text": "컨텐츠의 축복이 끊이질 않는 게임. 개인적으로 마크보다 재밌게 함. 좀 많이 했다 싶어서 위키 켜보면 아직 하드모드 근처도 못 감. 11000원에 이만한 혜자가 없음. 괜히 압긍이 아님ㅋㅋㅋ"
         }
       ]
@@ -1513,14 +1679,14 @@
       "block_id": "risk_1",
       "title": "매칭과 서버 상태가 체감을 흔든다는 반응",
       "theme": "매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크",
-      "why_it_matters": "매칭과 서버 상태를 문제로 보는 반응이 이어져, 한 판의 완성도가 상황에 따라 꽤 달라질 수 있습니다.",
-      "explanation": "매칭과 서버 상태를 문제로 보는 반응이 이어져, 한 판의 완성도가 상황에 따라 꽤 달라질 수 있습니다.",
+      "why_it_matters": "매칭과 서버 상태를 문제로 보는 반응이 있어 한 판의 안정성이 상황에 따라 갈릴 수 있습니다.",
+      "explanation": "매칭과 서버 상태를 문제로 보는 반응이 있어 한 판의 안정성이 상황에 따라 갈릴 수 있습니다.",
       "aspect_keys": [
         "multiplayer"
       ],
       "stance": "negative",
       "consensus_level": "high",
-      "mention_count": 1542,
+      "mention_count": 1543,
       "evidence_quality_level": "guaranteed_fill",
       "evidence_candidate_snippets": [
         "크툴루의 눈이 너무 귀여워서 수상하게 보이는 눈 써서 소환하다가 볼따구 집어당기고 깨물다가 눈동자에 인중에 맞대서 비비고 쓰다듬고 물 주고 밥 주고 같이 놀아주고 또 쓰다듬고 뒤에 있는 핏줄을 하트 모양으로 만들고 올라 타서 아름답고 개성있는 커럽션 위에 산책 해주고 사지가 분해된 토끼의 머리랑 팔로 핑퐁 해주고 싶고 레몬 즙짜서 발라주고 지하에서 캔 금으로 장식 달아주고 뽀뽀 갈기고 데려가서 길들여가지고 입에 뼈다귀 달아줘서 여왕벌이랑 세상을 먹는 자한테 보여줘서 자랑하고 하트 크리스탈 잔뜩 먹여주고 구르는 바위로 좀비들한테 돌려 같이 볼링하고 킹 슬라임 위에서 같이 쉬고 옆집에 온 외눈사슴이랑 벳시랑 같이 술먹고 안주먹고 괴물 라자냐 먹고 택스쳐팩으로 모습도 바꿔주고 딸기쇼트케이크 먹이고 황금 별미 먹이고 또 볼따구 집어당기고 월 오브 플래시랑 또 닮아가지고 귀엽고 스파즈마티즘이랑 레티나이저랑 닮아서 더 귀여워서 또또 쓰다듬고 집어 던져서 연금술 탁자로 사랑의 포션, 신속 포션, 철피부 포션, 거인 포션 주고 코스프레 시켜주고 싶고 껴안아서 뽀뽀 마구마구 해주고 시아버지와 시어머니인 문로드랑 크툴루의 뇌한테 허락 받아서 해변가 앞에 떠밀려오는 낚시꾼 용암에 담궈 죽이고 크툴루의 눈에게 고백해서 다이아몬드 반지 주고 조개폰 주고 진정한 구리 단검 줘가지고 결혼식장에 뽀뽀해서 결혼하고 집 짓고 또또또 쓰다듬고 또 뽀뽀하고 또또 뽀뽀하고 페인터가 그린 액자 달고 행상인 죽여서 행상인 모자 주고 그 날이 왔을때 원한다면 !$를 잔뜩 해서 크툴루의 하수인 잔뜩 만들어주고 수상하게 웃는 눈 얻고 크툴루의 하수인들을 위해서 주민등록증 만들어주고 가족여행으로 밤하늘이 빛나는 오로라에 데려가서 모닥불에 마시멜로 구워서 마침 지나가던 얼음 슬라임이랑 기계공 죽여서 요리하고 가족들한테 나눠주고 사막에 가서 친구가 알려준 대로 개미귀신이랑 가족이랑 같이 사진 찍고 호박석 찾아서 도토리랑 조합해 농사 지어서 돈 벌다가 곰 만날때 벌벌 떠는 크툴루의 눈이랑 크툴루의 하수인들을 위해서 테라 블레이드로 잡고 결혼하기 전에 했었던 토끼 사지로 핑퐁 가족이랑 같이 하고 크툴루의 하수인들이 충분히 컸을때 학교에 데려가 혹시 무슨 일이라도 일어나는지 신경 써주고 어려워하는 문제 풀어주고 나도 못풀면 인터넷 검색해서 알려주고 장래는 피자집 사장 되든 옷가게 마네킹이 되든 범죄자가 되든 너무 잘못된 길만 아니면 어떻게 가는지 강요하지 않고 자유롭",
@@ -1532,11 +1698,11 @@
       ],
       "evidence_candidate_items": [
         {
-          "review_id": "compress-v3-negative-1-5-3640218677881416729",
+          "review_id": "compress-v3-negative-1-5-9000764062243809906",
           "text": "크툴루의 눈이 너무 귀여워서 수상하게 보이는 눈 써서 소환하다가 볼따구 집어당기고 깨물다가 눈동자에 인중에 맞대서 비비고 쓰다듬고 물 주고 밥 주고 같이 놀아주고 또 쓰다듬고 뒤에 있는 핏줄을 하트 모양으로 만들고 올라 타서 아름답고 개성있는 커럽션 위에 산책 해주고 사지가 분해된 토끼의 머리랑 팔로 핑퐁 해주고 싶고 레몬 즙짜서 발라주고 지하에서 캔 금으로 장식 달아주고 뽀뽀 갈기고 데려가서 길들여가지고 입에 뼈다귀 달아줘서 여왕벌이랑 세상을 먹는 자한테 보여줘서 자랑하고 하트 크리스탈 잔뜩 먹여주고 구르는 바위로 좀비들한테 돌려 같이 볼링하고 킹 슬라임 위에서 같이 쉬고 옆집에 온 외눈사슴이랑 벳시랑 같이 술먹고 안주먹고 괴물 라자냐 먹고 택스쳐팩으로 모습도 바꿔주고 딸기쇼트케이크 먹이고 황금 별미 먹이고 또 볼따구 집어당기고 월 오브 플래시랑 또 닮아가지고 귀엽고 스파즈마티즘이랑 레티나이저랑 닮아서 더 귀여워서 또또 쓰다듬고 집어 던져서 연금술 탁자로 사랑의 포션, 신속 포션, 철피부 포션, 거인 포션 주고 코스프레 시켜주고 싶고 껴안아서 뽀뽀 마구마구 해주고 시아버지와 시어머니인 문로드랑 크툴루의 뇌한테 허락 받아서 해변가 앞에 떠밀려오는 낚시꾼 용암에 담궈 죽이고 크툴루의 눈에게 고백해서 다이아몬드 반지 주고 조개폰 주고 진정한 구리 단검 줘가지고 결혼식장에 뽀뽀해서 결혼하고 집 짓고 또또또 쓰다듬고 또 뽀뽀하고 또또 뽀뽀하고 페인터가 그린 액자 달고 행상인 죽여서 행상인 모자 주고 그 날이 왔을때 원한다면 !$를 잔뜩 해서 크툴루의 하수인 잔뜩 만들어주고 수상하게 웃는 눈 얻고 크툴루의 하수인들을 위해서 주민등록증 만들어주고 가족여행으로 밤하늘이 빛나는 오로라에 데려가서 모닥불에 마시멜로 구워서 마침 지나가던 얼음 슬라임이랑 기계공 죽여서 요리하고 가족들한테 나눠주고 사막에 가서 친구가 알려준 대로 개미귀신이랑 가족이랑 같이 사진 찍고 호박석 찾아서 도토리랑 조합해 농사 지어서 돈 벌다가 곰 만날때 벌벌 떠는 크툴루의 눈이랑 크툴루의 하수인들을 위해서 테라 블레이드로 잡고 결혼하기 전에 했었던 토끼 사지로 핑퐁 가족이랑 같이 하고 크툴루의 하수인들이 충분히 컸을때 학교에 데려가 혹시 무슨 일이라도 일어나는지 신경 써주고 어려워하는 문제 풀어주고 나도 못풀면 인터넷 검색해서 알려주고 장래는 피자집 사장 되든 옷가게 마네킹이 되든 범죄자가 되든 너무 잘못된 길만 아니면 어떻게 가는지 강요하지 않고 자유롭"
         },
         {
-          "review_id": "compress-v3-negative-1-7-6395686737218363392",
+          "review_id": "compress-v3-negative-1-7-2958628334742427874",
           "text": "진짜 개빡치는게 게임 하는 방법도 ㅈㄴ 어렵고 ㅅㅂ 친구랑 멀티하는데 멀티방 안들어가져서 이차 화가났고 방법을 어찌저찌 찾았는데 들어가는 방법도 개어렵고 가지가지하네요. 이정도묜 옵데이트를 해서 방법을 쉽게 하던지 이게 지금 뭔지 모르겠네요;;;; 이런 게임은 처음입니다. 고객의 편의성은 개나 줘버린듯"
         }
       ]

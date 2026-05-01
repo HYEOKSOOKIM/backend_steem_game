@@ -238,8 +238,8 @@
     "fit_for": "초반 진입 장벽이나 조작 적응 여부를 중요하게 보는 플레이어는 사전 확인이 필요합니다.",
     "risks": "monetization 관련 이슈는 반복적으로 언급되지만 최근 급격한 악화 신호는 제한적입니다."
   },
-  "pipeline_run_id": "236850-20260427T033001Z",
-  "generated_at": "2026-04-27T03:32:09.905242+00:00",
+  "pipeline_run_id": "236850-20260430T100215Z",
+  "generated_at": "2026-04-30T10:02:52.423991+00:00",
   "source_review_count": 1539,
   "review_pages": "all",
   "fetched_pages": 17,
@@ -255,7 +255,7 @@
     "success": 50,
     "schema_invalid": 0,
     "low_confidence": 0,
-    "cache_hits": 0,
+    "cache_hits": 50,
     "fallback_used": 0
   },
   "report_material_refiner": {
@@ -270,7 +270,7 @@
       "success": 50,
       "schema_invalid": 0,
       "low_confidence": 0,
-      "cache_hits": 0,
+      "cache_hits": 50,
       "fallback_used": 0
     }
   }

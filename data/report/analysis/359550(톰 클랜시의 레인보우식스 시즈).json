@@ -8,22 +8,22 @@
   ],
   "issue_signals": {
     "balance": {
-      "mention_count": 249,
-      "negative_ratio": 0.4939759036144578,
+      "mention_count": 250,
+      "negative_ratio": 0.492,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9919678714859438,
+      "experienced_player_share": 0.992,
       "themes": [
         "밸런스 불만"
       ],
       "sample_reviews": [
-        "그래서 DMR 언제 너프 시킴? 방어팀이 갑자기 공격팀 총 들고 몸샷 2~3대 처 쏴서 죽이는데 이게 맞음? 항상 방어팀 기관당총\n아니면 샷건 줬잖아 그리고 서버는 감자싹 트면 바로 병신 서버 입갤 게임하는 도중에 갑자기 화면 멈추고 오우 크래쉬! 이쥐랄\n진짜 유비소프트 이 고질병 언제 고칠거임? 내가 보기에는 지구 멸망하기 5초전에 바꾸려다 멸망할듯 ㅇㅇ\n그리고 캅칸 개새끼야\n",
-        "예전 계정 까지 시간 합치면 500시간 정도 될거 같은데 예전엔 방패 개망겜 이였는데 지금은 밸런스도 잘맞고 재밋는듯"
+        "옛날에는 참 재미있었는데,,,,,톰아저씨 돌아가신뒤로는 게임이 맥아리가 없어짐....밸런스도 못잡고, 핵도 못잡고 \n그래도 쏘는맛은 확실히 있음",
+        "그래서 DMR 언제 너프 시킴? 방어팀이 갑자기 공격팀 총 들고 몸샷 2~3대 처 쏴서 죽이는데 이게 맞음? 항상 방어팀 기관당총\n아니면 샷건 줬잖아 그리고 서버는 감자싹 트면 바로 병신 서버 입갤 게임하는 도중에 갑자기 화면 멈추고 오우 크래쉬! 이쥐랄\n진짜 유비소프트 이 고질병 언제 고칠거임? 내가 보기에는 지구 멸망하기 5초전에 바꾸려다 멸망할듯 ㅇㅇ\n그리고 캅칸 개새끼야\n"
       ]
     },
     "bugs": {
       "mention_count": 838,
       "negative_ratio": 0.6050119331742243,
-      "recent_trend": "flat",
+      "recent_trend": "down",
       "experienced_player_share": 0.9797136038186157,
       "themes": [
         "일반 버그",
@@ -80,8 +80,8 @@
       ]
     },
     "customization": {
-      "mention_count": 91,
-      "negative_ratio": 0.4065934065934066,
+      "mention_count": 90,
+      "negative_ratio": 0.4,
       "recent_trend": "flat",
       "experienced_player_share": 1.0,
       "themes": [
@@ -95,10 +95,10 @@
       ]
     },
     "difficulty": {
-      "mention_count": 420,
-      "negative_ratio": 0.2261904761904762,
+      "mention_count": 419,
+      "negative_ratio": 0.22673031026252982,
       "recent_trend": "flat",
-      "experienced_player_share": 0.969047619047619,
+      "experienced_player_share": 0.9689737470167065,
       "themes": [
         "조작 / 규칙 학습 난이도",
         "난이도 / 진입장벽",
@@ -110,10 +110,10 @@
       ]
     },
     "gameplay": {
-      "mention_count": 145,
-      "negative_ratio": 0.2896551724137931,
+      "mention_count": 144,
+      "negative_ratio": 0.2847222222222222,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9655172413793104,
+      "experienced_player_share": 0.9652777777777778,
       "themes": [
         "전투 손맛 / 액션 호평",
         "빌드 / 무기 다양성",
@@ -178,25 +178,25 @@
       ]
     },
     "multiplayer": {
-      "mention_count": 1676,
-      "negative_ratio": 0.45346062052505964,
-      "recent_trend": "flat",
-      "experienced_player_share": 0.9844868735083532,
+      "mention_count": 1677,
+      "negative_ratio": 0.4525939177101968,
+      "recent_trend": "up",
+      "experienced_player_share": 0.9844961240310077,
       "themes": [
         "매칭 / 서버 문제",
         "부정행위 / 보안 이슈",
         "멀티플레이 경험"
       ],
       "sample_reviews": [
-        "계정 3개 합쳐서 2000시간 정도 했는데, 여전히 재미있습니다. 무료로 변경되며 뉴비 유입이 많아져서 예전보다 진입 장벽이 낮아진거 같아 좋습니다.\n\n\n\n\n\n그리고 시발 핵좀 그만쓰라고 쓸거면 쫌 사리면서 쓰던가 존나 대놓고 쓰네 짱개 새끼들\n",
-        "그래서 DMR 언제 너프 시킴? 방어팀이 갑자기 공격팀 총 들고 몸샷 2~3대 처 쏴서 죽이는데 이게 맞음? 항상 방어팀 기관당총\n아니면 샷건 줬잖아 그리고 서버는 감자싹 트면 바로 병신 서버 입갤 게임하는 도중에 갑자기 화면 멈추고 오우 크래쉬! 이쥐랄\n진짜 유비소프트 이 고질병 언제 고칠거임? 내가 보기에는 지구 멸망하기 5초전에 바꾸려다 멸망할듯 ㅇㅇ\n그리고 캅칸 개새끼야\n"
+        "아직 뉴비라 좀 어렵긴 한데, 친구랑 웃으면서 하기에는 나쁘지 않습니다",
+        "옛날에는 참 재미있었는데,,,,,톰아저씨 돌아가신뒤로는 게임이 맥아리가 없어짐....밸런스도 못잡고, 핵도 못잡고 \n그래도 쏘는맛은 확실히 있음"
       ]
     },
     "performance": {
-      "mention_count": 979,
-      "negative_ratio": 0.3585291113381001,
+      "mention_count": 978,
+      "negative_ratio": 0.3588957055214724,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9867211440245148,
+      "experienced_player_share": 0.9867075664621677,
       "themes": [
         "최적화 문제",
         "실행 불가 / 튕김",
@@ -208,8 +208,8 @@
       ]
     },
     "save_progression": {
-      "mention_count": 79,
-      "negative_ratio": 0.379746835443038,
+      "mention_count": 78,
+      "negative_ratio": 0.3717948717948718,
       "recent_trend": "flat",
       "experienced_player_share": 1.0,
       "themes": [
@@ -238,12 +238,12 @@
   "summary": {
     "what_players_like": "상대적으로 긍정 신호가 보이는 영역은 difficulty이며, 대표 테마는 조작 / 규칙 학습 난이도, 난이도 / 진입장벽입니다.",
     "what_players_dislike": "가장 자주 언급되는 불만 영역은 multiplayer이며, 대표 테마는 매칭 / 서버 문제, 부정행위 / 보안 이슈입니다.",
-    "recent_change": "최근 기간에는 특정 카테고리의 급격한 변화보다 전반적인 유지 신호가 보입니다.",
+    "recent_change": "최근 기간에는 multiplayer 관련 언급이 상대적으로 증가하는 흐름이 보입니다.",
     "fit_for": "초반 진입 장벽이나 조작 적응 여부를 중요하게 보는 플레이어는 사전 확인이 필요합니다.",
-    "risks": "multiplayer 관련 이슈는 반복적으로 언급되지만 최근 급격한 악화 신호는 제한적입니다."
+    "risks": "multiplayer 관련 불만이 최근 구간에서 상대적으로 증가하고 있어 추적이 필요합니다."
   },
-  "pipeline_run_id": "359550-20260427T061637Z",
-  "generated_at": "2026-04-27T06:19:00.371845+00:00",
+  "pipeline_run_id": "359550-20260430T094507Z",
+  "generated_at": "2026-04-30T09:47:15.156061+00:00",
   "source_review_count": 19997,
   "review_pages": "all",
   "fetched_pages": 200,
@@ -253,28 +253,28 @@
   "all_mode_page_cap": 200,
   "all_mode_cap_reached": true,
   "llm_stats": {
-    "considered": 11080,
-    "selected": 20,
-    "invoked": 20,
-    "success": 20,
+    "considered": 11077,
+    "selected": 50,
+    "invoked": 50,
+    "success": 50,
     "schema_invalid": 0,
     "low_confidence": 0,
-    "cache_hits": 0,
+    "cache_hits": 50,
     "fallback_used": 0
   },
   "report_material_refiner": {
     "enabled": true,
-    "max_llm_reviews": 20,
+    "max_llm_reviews": 50,
     "llm_min_confidence": 0.7,
-    "material_count": 20,
+    "material_count": 50,
     "stats": {
-      "considered": 11080,
-      "selected": 20,
-      "invoked": 20,
-      "success": 20,
+      "considered": 11077,
+      "selected": 50,
+      "invoked": 50,
+      "success": 50,
       "schema_invalid": 0,
       "low_confidence": 0,
-      "cache_hits": 0,
+      "cache_hits": 50,
       "fallback_used": 0
     }
   }

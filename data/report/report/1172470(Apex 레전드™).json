@@ -1,0 +1,893 @@
+{
+  "report_version": "v4-planned-sections",
+  "appid": 1172470,
+  "pipeline_run_id": "1172470-20260430T094207Z",
+  "generated_at": "2026-04-30T09:45:02.598803+00:00",
+  "source_review_count": 17946,
+  "included_review_count": 10562,
+  "min_report_review_count": 100,
+  "report_state": "ready",
+  "review_trend": {
+    "granularity": "month",
+    "metric": "positive_ratio",
+    "points": [
+      {
+        "month": "2020-11",
+        "positive_count": 1167,
+        "review_count": 1385,
+        "positive_ratio": 0.8426
+      },
+      {
+        "month": "2020-12",
+        "positive_count": 474,
+        "review_count": 555,
+        "positive_ratio": 0.8541
+      },
+      {
+        "month": "2021-01",
+        "positive_count": 350,
+        "review_count": 419,
+        "positive_ratio": 0.8353
+      },
+      {
+        "month": "2021-02",
+        "positive_count": 362,
+        "review_count": 474,
+        "positive_ratio": 0.7637
+      },
+      {
+        "month": "2021-03",
+        "positive_count": 332,
+        "review_count": 427,
+        "positive_ratio": 0.7775
+      },
+      {
+        "month": "2021-04",
+        "positive_count": 283,
+        "review_count": 364,
+        "positive_ratio": 0.7775
+      },
+      {
+        "month": "2021-05",
+        "positive_count": 486,
+        "review_count": 596,
+        "positive_ratio": 0.8154
+      },
+      {
+        "month": "2021-06",
+        "positive_count": 381,
+        "review_count": 479,
+        "positive_ratio": 0.7954
+      },
+      {
+        "month": "2021-07",
+        "positive_count": 398,
+        "review_count": 573,
+        "positive_ratio": 0.6946
+      },
+      {
+        "month": "2021-08",
+        "positive_count": 457,
+        "review_count": 576,
+        "positive_ratio": 0.7934
+      },
+      {
+        "month": "2021-09",
+        "positive_count": 329,
+        "review_count": 625,
+        "positive_ratio": 0.5264
+      },
+      {
+        "month": "2021-10",
+        "positive_count": 274,
+        "review_count": 368,
+        "positive_ratio": 0.7446
+      },
+      {
+        "month": "2021-11",
+        "positive_count": 394,
+        "review_count": 490,
+        "positive_ratio": 0.8041
+      },
+      {
+        "month": "2021-12",
+        "positive_count": 286,
+        "review_count": 364,
+        "positive_ratio": 0.7857
+      },
+      {
+        "month": "2022-01",
+        "positive_count": 332,
+        "review_count": 398,
+        "positive_ratio": 0.8342
+      },
+      {
+        "month": "2022-02",
+        "positive_count": 425,
+        "review_count": 528,
+        "positive_ratio": 0.8049
+      },
+      {
+        "month": "2022-03",
+        "positive_count": 308,
+        "review_count": 388,
+        "positive_ratio": 0.7938
+      },
+      {
+        "month": "2022-04",
+        "positive_count": 224,
+        "review_count": 286,
+        "positive_ratio": 0.7832
+      },
+      {
+        "month": "2022-05",
+        "positive_count": 299,
+        "review_count": 388,
+        "positive_ratio": 0.7706
+      },
+      {
+        "month": "2022-06",
+        "positive_count": 292,
+        "review_count": 398,
+        "positive_ratio": 0.7337
+      },
+      {
+        "month": "2022-07",
+        "positive_count": 266,
+        "review_count": 363,
+        "positive_ratio": 0.7328
+      },
+      {
+        "month": "2022-08",
+        "positive_count": 372,
+        "review_count": 464,
+        "positive_ratio": 0.8017
+      },
+      {
+        "month": "2022-09",
+        "positive_count": 246,
+        "review_count": 317,
+        "positive_ratio": 0.776
+      },
+      {
+        "month": "2022-10",
+        "positive_count": 173,
+        "review_count": 221,
+        "positive_ratio": 0.7828
+      },
+      {
+        "month": "2022-11",
+        "positive_count": 221,
+        "review_count": 336,
+        "positive_ratio": 0.6577
+      },
+      {
+        "month": "2022-12",
+        "positive_count": 176,
+        "review_count": 224,
+        "positive_ratio": 0.7857
+      },
+      {
+        "month": "2023-01",
+        "positive_count": 181,
+        "review_count": 258,
+        "positive_ratio": 0.7016
+      },
+      {
+        "month": "2023-02",
+        "positive_count": 214,
+        "review_count": 306,
+        "positive_ratio": 0.6993
+      },
+      {
+        "month": "2023-03",
+        "positive_count": 170,
+        "review_count": 224,
+        "positive_ratio": 0.7589
+      },
+      {
+        "month": "2023-04",
+        "positive_count": 131,
+        "review_count": 188,
+        "positive_ratio": 0.6968
+      },
+      {
+        "month": "2023-05",
+        "positive_count": 164,
+        "review_count": 232,
+        "positive_ratio": 0.7069
+      },
+      {
+        "month": "2023-06",
+        "positive_count": 134,
+        "review_count": 192,
+        "positive_ratio": 0.6979
+      },
+      {
+        "month": "2023-07",
+        "positive_count": 127,
+        "review_count": 182,
+        "positive_ratio": 0.6978
+      },
+      {
+        "month": "2023-08",
+        "positive_count": 127,
+        "review_count": 198,
+        "positive_ratio": 0.6414
+      },
+      {
+        "month": "2023-09",
+        "positive_count": 117,
+        "review_count": 157,
+        "positive_ratio": 0.7452
+      },
+      {
+        "month": "2023-10",
+        "positive_count": 109,
+        "review_count": 151,
+        "positive_ratio": 0.7219
+      },
+      {
+        "month": "2023-11",
+        "positive_count": 136,
+        "review_count": 215,
+        "positive_ratio": 0.6326
+      },
+      {
+        "month": "2023-12",
+        "positive_count": 71,
+        "review_count": 109,
+        "positive_ratio": 0.6514
+      },
+      {
+        "month": "2024-01",
+        "positive_count": 74,
+        "review_count": 117,
+        "positive_ratio": 0.6325
+      },
+      {
+        "month": "2024-02",
+        "positive_count": 145,
+        "review_count": 185,
+        "positive_ratio": 0.7838
+      },
+      {
+        "month": "2024-03",
+        "positive_count": 126,
+        "review_count": 169,
+        "positive_ratio": 0.7456
+      },
+      {
+        "month": "2024-04",
+        "positive_count": 86,
+        "review_count": 159,
+        "positive_ratio": 0.5409
+      },
+      {
+        "month": "2024-05",
+        "positive_count": 91,
+        "review_count": 130,
+        "positive_ratio": 0.7
+      },
+      {
+        "month": "2024-06",
+        "positive_count": 87,
+        "review_count": 131,
+        "positive_ratio": 0.6641
+      },
+      {
+        "month": "2024-07",
+        "positive_count": 92,
+        "review_count": 387,
+        "positive_ratio": 0.2377
+      },
+      {
+        "month": "2024-08",
+        "positive_count": 123,
+        "review_count": 440,
+        "positive_ratio": 0.2795
+      },
+      {
+        "month": "2024-09",
+        "positive_count": 78,
+        "review_count": 156,
+        "positive_ratio": 0.5
+      },
+      {
+        "month": "2024-10",
+        "positive_count": 47,
+        "review_count": 94,
+        "positive_ratio": 0.5
+      },
+      {
+        "month": "2024-11",
+        "positive_count": 62,
+        "review_count": 124,
+        "positive_ratio": 0.5
+      },
+      {
+        "month": "2024-12",
+        "positive_count": 47,
+        "review_count": 69,
+        "positive_ratio": 0.6812
+      },
+      {
+        "month": "2025-01",
+        "positive_count": 56,
+        "review_count": 130,
+        "positive_ratio": 0.4308
+      },
+      {
+        "month": "2025-02",
+        "positive_count": 60,
+        "review_count": 89,
+        "positive_ratio": 0.6742
+      },
+      {
+        "month": "2025-03",
+        "positive_count": 44,
+        "review_count": 66,
+        "positive_ratio": 0.6667
+      },
+      {
+        "month": "2025-04",
+        "positive_count": 38,
+        "review_count": 71,
+        "positive_ratio": 0.5352
+      },
+      {
+        "month": "2025-05",
+        "positive_count": 60,
+        "review_count": 94,
+        "positive_ratio": 0.6383
+      },
+      {
+        "month": "2025-06",
+        "positive_count": 57,
+        "review_count": 93,
+        "positive_ratio": 0.6129
+      },
+      {
+        "month": "2025-07",
+        "positive_count": 70,
+        "review_count": 106,
+        "positive_ratio": 0.6604
+      },
+      {
+        "month": "2025-08",
+        "positive_count": 82,
+        "review_count": 137,
+        "positive_ratio": 0.5985
+      },
+      {
+        "month": "2025-09",
+        "positive_count": 55,
+        "review_count": 82,
+        "positive_ratio": 0.6707
+      },
+      {
+        "month": "2025-10",
+        "positive_count": 56,
+        "review_count": 83,
+        "positive_ratio": 0.6747
+      },
+      {
+        "month": "2025-11",
+        "positive_count": 63,
+        "review_count": 82,
+        "positive_ratio": 0.7683
+      },
+      {
+        "month": "2025-12",
+        "positive_count": 41,
+        "review_count": 64,
+        "positive_ratio": 0.6406
+      },
+      {
+        "month": "2026-01",
+        "positive_count": 38,
+        "review_count": 66,
+        "positive_ratio": 0.5758
+      },
+      {
+        "month": "2026-02",
+        "positive_count": 66,
+        "review_count": 83,
+        "positive_ratio": 0.7952
+      },
+      {
+        "month": "2026-03",
+        "positive_count": 57,
+        "review_count": 77,
+        "positive_ratio": 0.7403
+      },
+      {
+        "month": "2026-04",
+        "positive_count": 32,
+        "review_count": 44,
+        "positive_ratio": 0.7273
+      }
+    ]
+  },
+  "game": {
+    "name": "Apex 레전드™",
+    "genres": [
+      "액션",
+      "어드벤처",
+      "무료 플레이"
+    ],
+    "price_model": "free_to_play",
+    "is_free": true,
+    "release_stage": "released",
+    "release_date_text": "2020년 11월 4일",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/5f9cd40d1507568651688af121d378dab35d3d35/header.jpg?t=1770753360",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/b2163cc2e8d366e26d8d463d178d86690d9a402e/capsule_231x87.jpg?t=1770753360",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/b2163cc2e8d366e26d8d463d178d86690d9a402e/capsule_184x69.jpg?t=1770753360",
+    "screenshots": [
+      {
+        "id": "0",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/d86d5fe798addd4ff7219938f891268affb1ea2d/ss_d86d5fe798addd4ff7219938f891268affb1ea2d.600x338.jpg?t=1770753360",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/d86d5fe798addd4ff7219938f891268affb1ea2d/ss_d86d5fe798addd4ff7219938f891268affb1ea2d.1920x1080.jpg?t=1770753360"
+      },
+      {
+        "id": "1",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/f786d0d1e567be0e5a801a62855970f9b6bae6fd/ss_f786d0d1e567be0e5a801a62855970f9b6bae6fd.600x338.jpg?t=1770753360",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/f786d0d1e567be0e5a801a62855970f9b6bae6fd/ss_f786d0d1e567be0e5a801a62855970f9b6bae6fd.1920x1080.jpg?t=1770753360"
+      },
+      {
+        "id": "2",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/c1f5eb613c365fc96f5d59dd69bd852793929f69/ss_c1f5eb613c365fc96f5d59dd69bd852793929f69.600x338.jpg?t=1770753360",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/c1f5eb613c365fc96f5d59dd69bd852793929f69/ss_c1f5eb613c365fc96f5d59dd69bd852793929f69.1920x1080.jpg?t=1770753360"
+      },
+      {
+        "id": "3",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/3424111e83c2adfc7e6c056573d5089c27fdc711/ss_3424111e83c2adfc7e6c056573d5089c27fdc711.600x338.jpg?t=1770753360",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/3424111e83c2adfc7e6c056573d5089c27fdc711/ss_3424111e83c2adfc7e6c056573d5089c27fdc711.1920x1080.jpg?t=1770753360"
+      },
+      {
+        "id": "4",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/339c1a98c4ae3a6d662e2766cad9660c3ca8f8aa/ss_339c1a98c4ae3a6d662e2766cad9660c3ca8f8aa.600x338.jpg?t=1770753360",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/339c1a98c4ae3a6d662e2766cad9660c3ca8f8aa/ss_339c1a98c4ae3a6d662e2766cad9660c3ca8f8aa.1920x1080.jpg?t=1770753360"
+      },
+      {
+        "id": "5",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/07975408cfe38c64a9dc60885908614488dd7ac0/ss_07975408cfe38c64a9dc60885908614488dd7ac0.600x338.jpg?t=1770753360",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/07975408cfe38c64a9dc60885908614488dd7ac0/ss_07975408cfe38c64a9dc60885908614488dd7ac0.1920x1080.jpg?t=1770753360"
+      },
+      {
+        "id": "6",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/7050e6270b93cce9ff0ed2d2f455ff63b2d4db1c/ss_7050e6270b93cce9ff0ed2d2f455ff63b2d4db1c.600x338.jpg?t=1770753360",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/7050e6270b93cce9ff0ed2d2f455ff63b2d4db1c/ss_7050e6270b93cce9ff0ed2d2f455ff63b2d4db1c.1920x1080.jpg?t=1770753360"
+      },
+      {
+        "id": "7",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/749581e184be808f7ab67018746940d040bace0a/ss_749581e184be808f7ab67018746940d040bace0a.600x338.jpg?t=1770753360",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/749581e184be808f7ab67018746940d040bace0a/ss_749581e184be808f7ab67018746940d040bace0a.1920x1080.jpg?t=1770753360"
+      }
+    ],
+    "movies": [
+      {
+        "id": "257283849",
+        "name": "Apex Legends: Breach Gameplay Trailer WW",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257283849/1cfaaeeab275f68399d523760b4653b1dd5ee1c8/movie_600x337.jpg?t=1770753354",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1172470/1441760315/ed6f420913ab7a4a6171c07cac4c5363fbb353b3/1770749344/hls_264_master.m3u8?t=1770753354",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1172470/1441760315/ed6f420913ab7a4a6171c07cac4c5363fbb353b3/1770749344/dash_h264.mpd?t=1770753354",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1172470/1441760315/ed6f420913ab7a4a6171c07cac4c5363fbb353b3/1770749344/dash_av1.mpd?t=1770753354",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1172470/1441760315/ed6f420913ab7a4a6171c07cac4c5363fbb353b3/1770749344/hls_264_master.m3u8?t=1770753354"
+      }
+    ],
+    "short_description": "Apex 레전드는 Respawn Entertainment에서 제작한 다양한 수상 경력을 자랑하는 무료 플레이 히어로 슈팅 게임입니다. 게임에 계속해서 추가되는 레전드 캐릭터들의 강력한 능력을 마스터하고 깊이 있는 전술적 분대 플레이, 새롭게 진화하는 게임플레이를 지닌 히어로 슈팅과 배틀 로얄의 혁신을 경험하세요.",
+    "steam_store_url": "https://store.steampowered.com/app/1172470",
+    "steam_recommendation_count": 1575,
+    "steam_review_score_desc": "Mostly Positive",
+    "steam_total_positive": 12922,
+    "steam_total_negative": 5024,
+    "steam_total_reviews": 17946,
+    "price_currency": null,
+    "price_current": null,
+    "price_original": null,
+    "price_current_formatted": null,
+    "price_original_formatted": null,
+    "price_discount_percent": null
+  },
+  "report_plan": {
+    "decision_anchor": {
+      "buy_recommendation": "try_lightly",
+      "primary_reason_ids": [
+        "risk_1",
+        "risk_2"
+      ],
+      "rationale_short": "무료이므로 큰 진입 비용 없이 먼저 짧게 플레이해 취향 적합성을 확인하기 좋습니다."
+    },
+    "section_blueprint": {
+      "strength_block_count": 3,
+      "risk_block_count": 3,
+      "evidence_per_block": 3
+    },
+    "theme_priorities": {
+      "strengths": [
+        {
+          "reason_id": "str_1",
+          "aspect": "gameplay",
+          "theme": "전투 손맛 / 액션 호평"
+        },
+        {
+          "reason_id": "str_2",
+          "aspect": "story",
+          "theme": "캐릭터 / 연출 인상"
+        },
+        {
+          "reason_id": "str_3",
+          "aspect": "customization",
+          "theme": "스킨 / 외형 요소"
+        }
+      ],
+      "risks": [
+        {
+          "reason_id": "risk_1",
+          "aspect": "multiplayer",
+          "theme": "매칭 / 서버 문제"
+        },
+        {
+          "reason_id": "risk_2",
+          "aspect": "performance",
+          "theme": "최적화 문제"
+        },
+        {
+          "reason_id": "risk_3",
+          "aspect": "bugs",
+          "theme": "일반 버그"
+        }
+      ]
+    }
+  },
+  "report_display": {
+    "headline": "사건과 인물의 여운이 오래 남는 경험은 분명한 강점이지만 긴 호흡의 진행 템포는 취향을 탈 수 있습니다.",
+    "buy_recommendation": "try_lightly",
+    "buy_timing_summary": "무료 게임이라 먼저 가볍게 플레이하며 취향에 맞는지 확인하기 좋습니다.",
+    "good_for": [
+      "맵을 돌아다니며 발견하는 재미를 중요하게 보는 플레이어",
+      "서사와 분위기에 오래 몰입하는 플레이어",
+      "세팅과 빌드를 바꿔가며 최적 해를 찾는 플레이어"
+    ],
+    "not_good_for": [
+      "매칭과 서버 상태 변화에 스트레스를 크게 받는 플레이어",
+      "프레임과 반응성에 민감한 플레이어",
+      "진행 중 오류나 끊김을 거의 허용하지 않는 플레이어"
+    ],
+    "top_strengths": [
+      {
+        "title": "사건과 인물이 오래 남는 서사 경험",
+        "summary": "사건과 인물의 여운이 길게 남아 세계를 천천히 체험하는 몰입감이 또렷합니다."
+      },
+      {
+        "title": "다채로운 캐릭터의 개성",
+        "summary": "각 레전드가 뚜렷한 특성과 스킬을 지녀 팀 전략과 조합의 재미가 살아 있어 플레이에 깊이를 더합니다."
+      },
+      {
+        "title": "협동 중심의 분대 플레이",
+        "summary": "핑 시스템과 부활 메커니즘으로 소통 부담을 줄이고 친구와 함께 협력하는 재미를 편안하게 경험할 수 있습니다."
+      }
+    ],
+    "top_risks": [
+      {
+        "title": "몰입을 끊는 기술 이슈",
+        "summary": "기술적인 끊김이나 거슬림이 길게 이어지면 서사와 장면의 몰입이 쉽게 흐트러질 수 있습니다."
+      },
+      {
+        "title": "핵과 부정행위가 빈번하게 발생한다",
+        "summary": "핵 사용자와 컨버터 등 부정 행위자가 많아 정상적인 경쟁이 어려워지고, 신고에도 불구하고 제재가 제대로 이루어지지 않아 스트레스를 유발합니다."
+      },
+      {
+        "title": "프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크와 잦은 버그",
+        "summary": "프레임 드랍, 렉, 사운드 오류 등 다양한 버그와 최적화 이슈가 플레이 흐름을 방해하며 몰입을 저해할 수 있습니다."
+      }
+    ],
+    "recent_state": {
+      "status": "declining",
+      "summary": "서버 문제와 핵 이슈로 인한 불편함이 지속되며 전반적인 플레이 경험이 나빠지고 있습니다."
+    }
+  },
+  "evidence_sections": {
+    "strengths": [
+      {
+        "block_id": "str_1",
+        "title": "탐험과 발견의 재미가 좋다는 반응",
+        "theme": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험",
+        "why_it_matters": "맵을 돌아다니며 발견하는 재미를 좋게 보는 반응이 많아 탐험 중심 플레이에 잘 맞습니다.",
+        "explanation": "맵을 돌아다니며 발견하는 재미를 좋게 보는 반응이 많아 탐험 중심 플레이에 잘 맞습니다.",
+        "aspect_keys": [
+          "gameplay"
+        ],
+        "stance": "positive",
+        "consensus_level": "high",
+        "mention_count": 756,
+        "evidence_quality_level": "strict",
+        "evidence_candidate_snippets": [
+          "아무리 에임연습 하고 무빙연습 해도 패드들 딸깍 한번에 대가리 터져서 녹아버리는 겜 그래도 타격감은 좋음 서버좀 제발 좋게 만들어줬으면 좋겠음",
+          "타격감과 순수재미는 총겜goat 반면에 유저와의기싸움을 포함한 운영이 이 세상 게임사가아님 joat라는말로도 부족 자신들의 실패는 유저잘못이고 자신들의 성공은 자기들 능력덕이라 생각하는놈들이니까 정상적인 운영은 없다고보시면됨",
+          "개인적으로 매우 재미있고 레전드 중에서 몇명 제외하고 밸런스도 잘 맞는 것 같고 무기도 특징들을 잘 활용하면 좋은 무기들도 많은 것 같습니다",
+          "아직 1000시간 밖에 안되지만 2.옵치,발로에서 팀에 대한 혐오가 그득그득하다 3. 아 하이퍼 fps를 좋아하면서 에임이 좋다 4. 벽을 느끼면 접는 게 아니라 카피 마렵다 5.근접무기 살 돈(20만원) 정도 게임에 쓸 수 있다. 이 정도만 충족한다면 에이펙스 당신도 할 수 있어요"
+        ],
+        "evidence_snippets": [
+          "아무리 에임연습 하고 무빙연습 해도 패드들 딸깍 한번에 대가리 터져서 녹아버리는 겜 그래도 타격감은 좋음 서버좀 제발 좋게 만들어줬으면 좋겠음",
+          "개인적으로 매우 재미있고 레전드 중에서 몇명 제외하고 밸런스도 잘 맞는 것 같고 무기도 특징들을 잘 활용하면 좋은 무기들도 많은 것 같습니다",
+          "아직 1000시간 밖에 안되지만 2. 옵치, 발로에서 팀에 대한 혐오가 그득그득하다 3. 아 하이퍼 fps를 좋아하면서 에임이 좋다 4. 벽을 느끼면 접는 게 아니라 카피 마렵다 5. 근접무기 살 돈(20만원) 정도 게임에 쓸 수 있다. 이 정도만 충족한다면 에이펙스 당신도 할 수 있어요"
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-positive-1-1-2649899729538637885",
+            "text": "아무리 에임연습 하고 무빙연습 해도 패드들 딸깍 한번에 대가리 터져서 녹아버리는 겜 그래도 타격감은 좋음 서버좀 제발 좋게 만들어줬으면 좋겠음"
+          },
+          {
+            "review_id": "compress-v3-positive-1-2-2305535100022959223",
+            "text": "타격감과 순수재미는 총겜goat 반면에 유저와의기싸움을 포함한 운영이 이 세상 게임사가아님 joat라는말로도 부족 자신들의 실패는 유저잘못이고 자신들의 성공은 자기들 능력덕이라 생각하는놈들이니까 정상적인 운영은 없다고보시면됨"
+          },
+          {
+            "review_id": "compress-v3-positive-1-3-5828689087198634399",
+            "text": "개인적으로 매우 재미있고 레전드 중에서 몇명 제외하고 밸런스도 잘 맞는 것 같고 무기도 특징들을 잘 활용하면 좋은 무기들도 많은 것 같습니다"
+          },
+          {
+            "review_id": "compress-v3-positive-1-4-5974186966738217863",
+            "text": "아직 1000시간 밖에 안되지만 2.옵치,발로에서 팀에 대한 혐오가 그득그득하다 3. 아 하이퍼 fps를 좋아하면서 에임이 좋다 4. 벽을 느끼면 접는 게 아니라 카피 마렵다 5.근접무기 살 돈(20만원) 정도 게임에 쓸 수 있다. 이 정도만 충족한다면 에이펙스 당신도 할 수 있어요"
+          }
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "block_id": "risk_1",
+        "title": "매칭과 서버 상태가 체감을 흔든다는 반응",
+        "theme": "매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크",
+        "why_it_matters": "매칭과 서버 상태를 문제로 보는 반응이 있어 한 판의 안정성이 상황에 따라 갈릴 수 있습니다.",
+        "explanation": "매칭과 서버 상태를 문제로 보는 반응이 있어 한 판의 안정성이 상황에 따라 갈릴 수 있습니다.",
+        "aspect_keys": [
+          "multiplayer"
+        ],
+        "stance": "negative",
+        "consensus_level": "high",
+        "mention_count": 3594,
+        "evidence_quality_level": "strict",
+        "evidence_candidate_snippets": [
+          "캐릭터는 못생겼고 서버는 지읒같고 팀이 답답해 속터질거같아도 같이할사람만 있으면 모든게 용납됨",
+          "랭크게임중 탈주하지도 않았는데 자동적으로 탈주되서 랭크 떨어짐 인터넷 이슈도 없었는데 서버 관리 좀 잘하자",
+          "오랜 시간 철새처럼 드문드문 돌아오며 느낀 점은 메타가 자주 바뀌어서 게임이 썩지 않는다는 점은 인정합니다. 매번 새로운 총기가 순환하며 티어가 변경되는 밸런스 조정으로 게임의 메타를 변경하는 것은 칭찬합니다. 그런데 문제는 유저들이 이미 고일 대로 고였다는 겁니다. 적당히 총 좀 쏜다는 실력으로는 명함도 못 내밉니다. 저도 어느정도 시간을 투자하며 탭스 연습을 해왔지만,기존 유저들의 인간의 한계를 시험하는 듯한 기괴한 보법과 무빙으로 농락당하다 보면 '내가 지금 뭘 하고 있나' 싶을 때가 많아요. 물리엔진을 무시하는 탭스 고수들과 여전한 핵쟁이들 사이에서 살아남아야 하는 환경이라, 더 이상 가벼운 마음으로 복귀하기엔 너무나 가혹한 게임이 되어버렸네요"
+        ],
+        "evidence_snippets": [
+          "캐릭터는 못생겼고 서버는 지읒같고 팀이 답답해 속터질거같아도 같이할사람만 있으면 모든게 용납됨",
+          "오랜 시간 철새처럼 드문드문 돌아오며 느낀 점은 메타가 자주 바뀌어서 게임이 썩지 않는다는 점은 인정합니다. 매번 새로운 총기가 순환하며 티어가 변경되는 밸런스 조정으로 게임의 메타를 변경하는 것은 칭찬합니다. 그런데 문제는 유저들이 이미 고일 대로 고였다는 겁니다. 적당히 총 좀 쏜다는 실력으로는 명함도 못 내밉니다. 저도 어느정도 시간을 투자하며 탭스 연습을 해왔지만, 기존 유저들의 인간의 한계를 시험하는 듯한 기괴한 보법과 무빙으로 농락당하다 보면 '내가 지금 뭘 하고 있나' 싶을 때가 많아요. 물리엔진을 무시하는 탭스 고수들과 여전한 핵쟁이들 사이에서 살아남아야 하는 환경이라, 더 이상 가벼운 마음으로 복귀하기엔 너무나 가혹한 게임이 되어버렸네요"
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-negative-1-1-95607789835529219",
+            "text": "캐릭터는 못생겼고 서버는 지읒같고 팀이 답답해 속터질거같아도 같이할사람만 있으면 모든게 용납됨"
+          },
+          {
+            "review_id": "compress-v3-negative-1-2-6905036667051093253",
+            "text": "랭크게임중 탈주하지도 않았는데 자동적으로 탈주되서 랭크 떨어짐 인터넷 이슈도 없었는데 서버 관리 좀 잘하자"
+          },
+          {
+            "review_id": "compress-v3-negative-1-3-1475302268953170855",
+            "text": "오랜 시간 철새처럼 드문드문 돌아오며 느낀 점은 메타가 자주 바뀌어서 게임이 썩지 않는다는 점은 인정합니다. 매번 새로운 총기가 순환하며 티어가 변경되는 밸런스 조정으로 게임의 메타를 변경하는 것은 칭찬합니다. 그런데 문제는 유저들이 이미 고일 대로 고였다는 겁니다. 적당히 총 좀 쏜다는 실력으로는 명함도 못 내밉니다. 저도 어느정도 시간을 투자하며 탭스 연습을 해왔지만,기존 유저들의 인간의 한계를 시험하는 듯한 기괴한 보법과 무빙으로 농락당하다 보면 '내가 지금 뭘 하고 있나' 싶을 때가 많아요. 물리엔진을 무시하는 탭스 고수들과 여전한 핵쟁이들 사이에서 살아남아야 하는 환경이라, 더 이상 가벼운 마음으로 복귀하기엔 너무나 가혹한 게임이 되어버렸네요"
+          }
+        ]
+      },
+      {
+        "block_id": "risk_2",
+        "title": "프레임과 반응성이 흔들린다는 반응",
+        "theme": "프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크",
+        "why_it_matters": "프레임과 반응성 문제를 지적하는 반응이 이어져 기술 안정성에 민감하면 거슬릴 수 있습니다.",
+        "explanation": "프레임과 반응성 문제를 지적하는 반응이 이어져 기술 안정성에 민감하면 거슬릴 수 있습니다.",
+        "aspect_keys": [
+          "performance"
+        ],
+        "stance": "negative",
+        "consensus_level": "high",
+        "mention_count": 1009,
+        "evidence_quality_level": "relaxed",
+        "evidence_candidate_snippets": [
+          "게임 자체는 재미있는데 진짜 서버가 ㅈㄹ임 서버문제로 팅겨도 내 잘못이라고 기권처리하고 맨날 중요한 시점에 렉 걸려서 그냥 죽고... 내 컴퓨터 사양이 좋은건 아니지만 차라리 그냥 화면이 깨지던가 해야지 맨날 팅기거나 그냥 멈춤",
+          "FPS게임에서 가장 중요한 핑이 존나 튀고 서버는 여전히 감자서버임. 병신겜",
+          "점프, 가만히 있는 거 못참는 사람을 위한 도파민 쩌는 하이퍼 fps게임 발로란트 지루해서 못하는 사람이라면 하셈",
+          "개쓰레기서버, FPS게임인데 말도안되는 에임어시, 디도스, 에임핵이랑ESP 관리 1도안함, 버그 존나많음, 소리가 중요한게임에서 사운드 다씹힘, 유저들의견 대다수 무시. 근데 꼴에 돈을 벌고싶어서 유료화부분에만 존나 신경씀 (30만원짜리 신화스킨 그마저도 다른겜에 비하면 씹 구데기) 솔직히 에이펙스 얘네 유저몇명이 빨아주니까 지들이 머라도 되는줄아나봄 진짜 머믿고 깝치냐 EA? 이대로면 겜 망한다는걸 아직도 인지 못하는게 대단하네 그냥 이겜 하지말라면 좀 하지마 ^^발 근데 이번 아킴보는 인정한다 개꿀잼이다;"
+        ],
+        "evidence_snippets": [
+          "게임 자체는 재미있는데 진짜 서버가 ㅈㄹ임 서버문제로 팅겨도 내 잘못이라고 기권처리하고 맨날 중요한 시점에 렉 걸려서 그냥 죽고... 내 컴퓨터 사양이 좋은건 아니지만 차라리 그냥 화면이 깨지던가 해야지 맨날 팅기거나 그냥 멈춤",
+          "점프, 가만히 있는 거 못참는 사람을 위한 도파민 쩌는 하이퍼 fps게임 발로란트 지루해서 못하는 사람이라면 하셈",
+          "개쓰레기서버, FPS게임인데 말도안되는 에임어시, 디도스, 에임핵이랑ESP 관리 1도안함, 버그 존나많음, 소리가 중요한게임에서 사운드 다씹힘, 유저들의견 대다수 무시. 근데 꼴에 돈을 벌고싶어서 유료화부분에만 존나 신경씀 (30만원짜리 신화스킨 그마저도 다른겜에 비하면 씹 구데기) 솔직히 에이펙스 얘네 유저몇명이 빨아주니까 지들이 머라도 되는줄아나봄 진짜 머믿고 깝치냐 EA? 이대로면 겜 망한다는걸 아직도 인지 못하는게 대단하네 그냥 이겜 하지말라면 좀 하지마 ^^발 근데 이번 아킴보는 인정한다 개꿀잼이다;"
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-negative-2-1-1369623770020625446",
+            "text": "게임 자체는 재미있는데 진짜 서버가 ㅈㄹ임 서버문제로 팅겨도 내 잘못이라고 기권처리하고 맨날 중요한 시점에 렉 걸려서 그냥 죽고... 내 컴퓨터 사양이 좋은건 아니지만 차라리 그냥 화면이 깨지던가 해야지 맨날 팅기거나 그냥 멈춤"
+          },
+          {
+            "review_id": "compress-v3-negative-2-2-193137376989301126",
+            "text": "FPS게임에서 가장 중요한 핑이 존나 튀고 서버는 여전히 감자서버임. 병신겜"
+          },
+          {
+            "review_id": "compress-v3-negative-2-3-8177800330407266812",
+            "text": "점프, 가만히 있는 거 못참는 사람을 위한 도파민 쩌는 하이퍼 fps게임 발로란트 지루해서 못하는 사람이라면 하셈"
+          },
+          {
+            "review_id": "compress-v3-negative-2-7-2514372008438185329",
+            "text": "개쓰레기서버, FPS게임인데 말도안되는 에임어시, 디도스, 에임핵이랑ESP 관리 1도안함, 버그 존나많음, 소리가 중요한게임에서 사운드 다씹힘, 유저들의견 대다수 무시. 근데 꼴에 돈을 벌고싶어서 유료화부분에만 존나 신경씀 (30만원짜리 신화스킨 그마저도 다른겜에 비하면 씹 구데기) 솔직히 에이펙스 얘네 유저몇명이 빨아주니까 지들이 머라도 되는줄아나봄 진짜 머믿고 깝치냐 EA? 이대로면 겜 망한다는걸 아직도 인지 못하는게 대단하네 그냥 이겜 하지말라면 좀 하지마 ^^발 근데 이번 아킴보는 인정한다 개꿀잼이다;"
+          }
+        ]
+      }
+    ]
+  },
+  "disclaimer": "여러 유저 리뷰를 바탕으로 정리했어요. 플레이 경험은 사람마다 다를 수 있어요.",
+  "headline": "사건과 인물의 여운이 오래 남는 경험은 분명한 강점이지만 긴 호흡의 진행 템포는 취향을 탈 수 있습니다.",
+  "buy_recommendation": "try_lightly",
+  "buy_timing_summary": "무료 게임이라 먼저 가볍게 플레이하며 취향에 맞는지 확인하기 좋습니다.",
+  "good_for": [
+    "맵을 돌아다니며 발견하는 재미를 중요하게 보는 플레이어",
+    "서사와 분위기에 오래 몰입하는 플레이어",
+    "세팅과 빌드를 바꿔가며 최적 해를 찾는 플레이어"
+  ],
+  "not_good_for": [
+    "매칭과 서버 상태 변화에 스트레스를 크게 받는 플레이어",
+    "프레임과 반응성에 민감한 플레이어",
+    "진행 중 오류나 끊김을 거의 허용하지 않는 플레이어"
+  ],
+  "top_strengths": [
+    {
+      "title": "사건과 인물이 오래 남는 서사 경험",
+      "summary": "사건과 인물의 여운이 길게 남아 세계를 천천히 체험하는 몰입감이 또렷합니다."
+    },
+    {
+      "title": "다채로운 캐릭터의 개성",
+      "summary": "각 레전드가 뚜렷한 특성과 스킬을 지녀 팀 전략과 조합의 재미가 살아 있어 플레이에 깊이를 더합니다."
+    },
+    {
+      "title": "협동 중심의 분대 플레이",
+      "summary": "핑 시스템과 부활 메커니즘으로 소통 부담을 줄이고 친구와 함께 협력하는 재미를 편안하게 경험할 수 있습니다."
+    }
+  ],
+  "top_risks": [
+    {
+      "title": "몰입을 끊는 기술 이슈",
+      "summary": "기술적인 끊김이나 거슬림이 길게 이어지면 서사와 장면의 몰입이 쉽게 흐트러질 수 있습니다."
+    },
+    {
+      "title": "핵과 부정행위가 빈번하게 발생한다",
+      "summary": "핵 사용자와 컨버터 등 부정 행위자가 많아 정상적인 경쟁이 어려워지고, 신고에도 불구하고 제재가 제대로 이루어지지 않아 스트레스를 유발합니다."
+    },
+    {
+      "title": "프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크와 잦은 버그",
+      "summary": "프레임 드랍, 렉, 사운드 오류 등 다양한 버그와 최적화 이슈가 플레이 흐름을 방해하며 몰입을 저해할 수 있습니다."
+    }
+  ],
+  "recent_state": {
+    "status": "declining",
+    "summary": "서버 문제와 핵 이슈로 인한 불편함이 지속되며 전반적인 플레이 경험이 나빠지고 있습니다."
+  },
+  "evidence_reviews": [
+    {
+      "block_id": "str_1",
+      "title": "탐험과 발견의 재미가 좋다는 반응",
+      "theme": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험",
+      "why_it_matters": "맵을 돌아다니며 발견하는 재미를 좋게 보는 반응이 많아 탐험 중심 플레이에 잘 맞습니다.",
+      "explanation": "맵을 돌아다니며 발견하는 재미를 좋게 보는 반응이 많아 탐험 중심 플레이에 잘 맞습니다.",
+      "aspect_keys": [
+        "gameplay"
+      ],
+      "stance": "positive",
+      "consensus_level": "high",
+      "mention_count": 756,
+      "evidence_quality_level": "strict",
+      "evidence_candidate_snippets": [
+        "아무리 에임연습 하고 무빙연습 해도 패드들 딸깍 한번에 대가리 터져서 녹아버리는 겜 그래도 타격감은 좋음 서버좀 제발 좋게 만들어줬으면 좋겠음",
+        "타격감과 순수재미는 총겜goat 반면에 유저와의기싸움을 포함한 운영이 이 세상 게임사가아님 joat라는말로도 부족 자신들의 실패는 유저잘못이고 자신들의 성공은 자기들 능력덕이라 생각하는놈들이니까 정상적인 운영은 없다고보시면됨",
+        "개인적으로 매우 재미있고 레전드 중에서 몇명 제외하고 밸런스도 잘 맞는 것 같고 무기도 특징들을 잘 활용하면 좋은 무기들도 많은 것 같습니다",
+        "아직 1000시간 밖에 안되지만 2.옵치,발로에서 팀에 대한 혐오가 그득그득하다 3. 아 하이퍼 fps를 좋아하면서 에임이 좋다 4. 벽을 느끼면 접는 게 아니라 카피 마렵다 5.근접무기 살 돈(20만원) 정도 게임에 쓸 수 있다. 이 정도만 충족한다면 에이펙스 당신도 할 수 있어요"
+      ],
+      "evidence_snippets": [
+        "아무리 에임연습 하고 무빙연습 해도 패드들 딸깍 한번에 대가리 터져서 녹아버리는 겜 그래도 타격감은 좋음 서버좀 제발 좋게 만들어줬으면 좋겠음",
+        "개인적으로 매우 재미있고 레전드 중에서 몇명 제외하고 밸런스도 잘 맞는 것 같고 무기도 특징들을 잘 활용하면 좋은 무기들도 많은 것 같습니다",
+        "아직 1000시간 밖에 안되지만 2. 옵치, 발로에서 팀에 대한 혐오가 그득그득하다 3. 아 하이퍼 fps를 좋아하면서 에임이 좋다 4. 벽을 느끼면 접는 게 아니라 카피 마렵다 5. 근접무기 살 돈(20만원) 정도 게임에 쓸 수 있다. 이 정도만 충족한다면 에이펙스 당신도 할 수 있어요"
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-positive-1-1-2649899729538637885",
+          "text": "아무리 에임연습 하고 무빙연습 해도 패드들 딸깍 한번에 대가리 터져서 녹아버리는 겜 그래도 타격감은 좋음 서버좀 제발 좋게 만들어줬으면 좋겠음"
+        },
+        {
+          "review_id": "compress-v3-positive-1-2-2305535100022959223",
+          "text": "타격감과 순수재미는 총겜goat 반면에 유저와의기싸움을 포함한 운영이 이 세상 게임사가아님 joat라는말로도 부족 자신들의 실패는 유저잘못이고 자신들의 성공은 자기들 능력덕이라 생각하는놈들이니까 정상적인 운영은 없다고보시면됨"
+        },
+        {
+          "review_id": "compress-v3-positive-1-3-5828689087198634399",
+          "text": "개인적으로 매우 재미있고 레전드 중에서 몇명 제외하고 밸런스도 잘 맞는 것 같고 무기도 특징들을 잘 활용하면 좋은 무기들도 많은 것 같습니다"
+        },
+        {
+          "review_id": "compress-v3-positive-1-4-5974186966738217863",
+          "text": "아직 1000시간 밖에 안되지만 2.옵치,발로에서 팀에 대한 혐오가 그득그득하다 3. 아 하이퍼 fps를 좋아하면서 에임이 좋다 4. 벽을 느끼면 접는 게 아니라 카피 마렵다 5.근접무기 살 돈(20만원) 정도 게임에 쓸 수 있다. 이 정도만 충족한다면 에이펙스 당신도 할 수 있어요"
+        }
+      ]
+    },
+    {
+      "block_id": "risk_1",
+      "title": "매칭과 서버 상태가 체감을 흔든다는 반응",
+      "theme": "매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크",
+      "why_it_matters": "매칭과 서버 상태를 문제로 보는 반응이 있어 한 판의 안정성이 상황에 따라 갈릴 수 있습니다.",
+      "explanation": "매칭과 서버 상태를 문제로 보는 반응이 있어 한 판의 안정성이 상황에 따라 갈릴 수 있습니다.",
+      "aspect_keys": [
+        "multiplayer"
+      ],
+      "stance": "negative",
+      "consensus_level": "high",
+      "mention_count": 3594,
+      "evidence_quality_level": "strict",
+      "evidence_candidate_snippets": [
+        "캐릭터는 못생겼고 서버는 지읒같고 팀이 답답해 속터질거같아도 같이할사람만 있으면 모든게 용납됨",
+        "랭크게임중 탈주하지도 않았는데 자동적으로 탈주되서 랭크 떨어짐 인터넷 이슈도 없었는데 서버 관리 좀 잘하자",
+        "오랜 시간 철새처럼 드문드문 돌아오며 느낀 점은 메타가 자주 바뀌어서 게임이 썩지 않는다는 점은 인정합니다. 매번 새로운 총기가 순환하며 티어가 변경되는 밸런스 조정으로 게임의 메타를 변경하는 것은 칭찬합니다. 그런데 문제는 유저들이 이미 고일 대로 고였다는 겁니다. 적당히 총 좀 쏜다는 실력으로는 명함도 못 내밉니다. 저도 어느정도 시간을 투자하며 탭스 연습을 해왔지만,기존 유저들의 인간의 한계를 시험하는 듯한 기괴한 보법과 무빙으로 농락당하다 보면 '내가 지금 뭘 하고 있나' 싶을 때가 많아요. 물리엔진을 무시하는 탭스 고수들과 여전한 핵쟁이들 사이에서 살아남아야 하는 환경이라, 더 이상 가벼운 마음으로 복귀하기엔 너무나 가혹한 게임이 되어버렸네요"
+      ],
+      "evidence_snippets": [
+        "캐릭터는 못생겼고 서버는 지읒같고 팀이 답답해 속터질거같아도 같이할사람만 있으면 모든게 용납됨",
+        "오랜 시간 철새처럼 드문드문 돌아오며 느낀 점은 메타가 자주 바뀌어서 게임이 썩지 않는다는 점은 인정합니다. 매번 새로운 총기가 순환하며 티어가 변경되는 밸런스 조정으로 게임의 메타를 변경하는 것은 칭찬합니다. 그런데 문제는 유저들이 이미 고일 대로 고였다는 겁니다. 적당히 총 좀 쏜다는 실력으로는 명함도 못 내밉니다. 저도 어느정도 시간을 투자하며 탭스 연습을 해왔지만, 기존 유저들의 인간의 한계를 시험하는 듯한 기괴한 보법과 무빙으로 농락당하다 보면 '내가 지금 뭘 하고 있나' 싶을 때가 많아요. 물리엔진을 무시하는 탭스 고수들과 여전한 핵쟁이들 사이에서 살아남아야 하는 환경이라, 더 이상 가벼운 마음으로 복귀하기엔 너무나 가혹한 게임이 되어버렸네요"
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-negative-1-1-95607789835529219",
+          "text": "캐릭터는 못생겼고 서버는 지읒같고 팀이 답답해 속터질거같아도 같이할사람만 있으면 모든게 용납됨"
+        },
+        {
+          "review_id": "compress-v3-negative-1-2-6905036667051093253",
+          "text": "랭크게임중 탈주하지도 않았는데 자동적으로 탈주되서 랭크 떨어짐 인터넷 이슈도 없었는데 서버 관리 좀 잘하자"
+        },
+        {
+          "review_id": "compress-v3-negative-1-3-1475302268953170855",
+          "text": "오랜 시간 철새처럼 드문드문 돌아오며 느낀 점은 메타가 자주 바뀌어서 게임이 썩지 않는다는 점은 인정합니다. 매번 새로운 총기가 순환하며 티어가 변경되는 밸런스 조정으로 게임의 메타를 변경하는 것은 칭찬합니다. 그런데 문제는 유저들이 이미 고일 대로 고였다는 겁니다. 적당히 총 좀 쏜다는 실력으로는 명함도 못 내밉니다. 저도 어느정도 시간을 투자하며 탭스 연습을 해왔지만,기존 유저들의 인간의 한계를 시험하는 듯한 기괴한 보법과 무빙으로 농락당하다 보면 '내가 지금 뭘 하고 있나' 싶을 때가 많아요. 물리엔진을 무시하는 탭스 고수들과 여전한 핵쟁이들 사이에서 살아남아야 하는 환경이라, 더 이상 가벼운 마음으로 복귀하기엔 너무나 가혹한 게임이 되어버렸네요"
+        }
+      ]
+    },
+    {
+      "block_id": "risk_2",
+      "title": "프레임과 반응성이 흔들린다는 반응",
+      "theme": "프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크",
+      "why_it_matters": "프레임과 반응성 문제를 지적하는 반응이 이어져 기술 안정성에 민감하면 거슬릴 수 있습니다.",
+      "explanation": "프레임과 반응성 문제를 지적하는 반응이 이어져 기술 안정성에 민감하면 거슬릴 수 있습니다.",
+      "aspect_keys": [
+        "performance"
+      ],
+      "stance": "negative",
+      "consensus_level": "high",
+      "mention_count": 1009,
+      "evidence_quality_level": "relaxed",
+      "evidence_candidate_snippets": [
+        "게임 자체는 재미있는데 진짜 서버가 ㅈㄹ임 서버문제로 팅겨도 내 잘못이라고 기권처리하고 맨날 중요한 시점에 렉 걸려서 그냥 죽고... 내 컴퓨터 사양이 좋은건 아니지만 차라리 그냥 화면이 깨지던가 해야지 맨날 팅기거나 그냥 멈춤",
+        "FPS게임에서 가장 중요한 핑이 존나 튀고 서버는 여전히 감자서버임. 병신겜",
+        "점프, 가만히 있는 거 못참는 사람을 위한 도파민 쩌는 하이퍼 fps게임 발로란트 지루해서 못하는 사람이라면 하셈",
+        "개쓰레기서버, FPS게임인데 말도안되는 에임어시, 디도스, 에임핵이랑ESP 관리 1도안함, 버그 존나많음, 소리가 중요한게임에서 사운드 다씹힘, 유저들의견 대다수 무시. 근데 꼴에 돈을 벌고싶어서 유료화부분에만 존나 신경씀 (30만원짜리 신화스킨 그마저도 다른겜에 비하면 씹 구데기) 솔직히 에이펙스 얘네 유저몇명이 빨아주니까 지들이 머라도 되는줄아나봄 진짜 머믿고 깝치냐 EA? 이대로면 겜 망한다는걸 아직도 인지 못하는게 대단하네 그냥 이겜 하지말라면 좀 하지마 ^^발 근데 이번 아킴보는 인정한다 개꿀잼이다;"
+      ],
+      "evidence_snippets": [
+        "게임 자체는 재미있는데 진짜 서버가 ㅈㄹ임 서버문제로 팅겨도 내 잘못이라고 기권처리하고 맨날 중요한 시점에 렉 걸려서 그냥 죽고... 내 컴퓨터 사양이 좋은건 아니지만 차라리 그냥 화면이 깨지던가 해야지 맨날 팅기거나 그냥 멈춤",
+        "점프, 가만히 있는 거 못참는 사람을 위한 도파민 쩌는 하이퍼 fps게임 발로란트 지루해서 못하는 사람이라면 하셈",
+        "개쓰레기서버, FPS게임인데 말도안되는 에임어시, 디도스, 에임핵이랑ESP 관리 1도안함, 버그 존나많음, 소리가 중요한게임에서 사운드 다씹힘, 유저들의견 대다수 무시. 근데 꼴에 돈을 벌고싶어서 유료화부분에만 존나 신경씀 (30만원짜리 신화스킨 그마저도 다른겜에 비하면 씹 구데기) 솔직히 에이펙스 얘네 유저몇명이 빨아주니까 지들이 머라도 되는줄아나봄 진짜 머믿고 깝치냐 EA? 이대로면 겜 망한다는걸 아직도 인지 못하는게 대단하네 그냥 이겜 하지말라면 좀 하지마 ^^발 근데 이번 아킴보는 인정한다 개꿀잼이다;"
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-negative-2-1-1369623770020625446",
+          "text": "게임 자체는 재미있는데 진짜 서버가 ㅈㄹ임 서버문제로 팅겨도 내 잘못이라고 기권처리하고 맨날 중요한 시점에 렉 걸려서 그냥 죽고... 내 컴퓨터 사양이 좋은건 아니지만 차라리 그냥 화면이 깨지던가 해야지 맨날 팅기거나 그냥 멈춤"
+        },
+        {
+          "review_id": "compress-v3-negative-2-2-193137376989301126",
+          "text": "FPS게임에서 가장 중요한 핑이 존나 튀고 서버는 여전히 감자서버임. 병신겜"
+        },
+        {
+          "review_id": "compress-v3-negative-2-3-8177800330407266812",
+          "text": "점프, 가만히 있는 거 못참는 사람을 위한 도파민 쩌는 하이퍼 fps게임 발로란트 지루해서 못하는 사람이라면 하셈"
+        },
+        {
+          "review_id": "compress-v3-negative-2-7-2514372008438185329",
+          "text": "개쓰레기서버, FPS게임인데 말도안되는 에임어시, 디도스, 에임핵이랑ESP 관리 1도안함, 버그 존나많음, 소리가 중요한게임에서 사운드 다씹힘, 유저들의견 대다수 무시. 근데 꼴에 돈을 벌고싶어서 유료화부분에만 존나 신경씀 (30만원짜리 신화스킨 그마저도 다른겜에 비하면 씹 구데기) 솔직히 에이펙스 얘네 유저몇명이 빨아주니까 지들이 머라도 되는줄아나봄 진짜 머믿고 깝치냐 EA? 이대로면 겜 망한다는걸 아직도 인지 못하는게 대단하네 그냥 이겜 하지말라면 좀 하지마 ^^발 근데 이번 아킴보는 인정한다 개꿀잼이다;"
+        }
+      ]
+    }
+  ]
+}

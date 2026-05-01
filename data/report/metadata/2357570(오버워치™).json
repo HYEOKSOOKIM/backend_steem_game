@@ -1,0 +1,135 @@
+{
+  "appid": 2357570,
+  "name": "오버워치™",
+  "name_en": "Overwatch®",
+  "name_ko": "오버워치™",
+  "genres": [
+    "액션",
+    "무료 플레이"
+  ],
+  "price_model": "free_to_play",
+  "release_stage": "released",
+  "release_date_text": "2023년 8월 10일",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/1f84e73b8095ab9f40b1bc2c81845330979afc09/header_alt_assets_20.jpg?t=1776189843",
+  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/f40730cf4defbd8f90d0f0662d7b263dd2915fe1/capsule_231x87_alt_assets_20.jpg?t=1776189843",
+  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/f40730cf4defbd8f90d0f0662d7b263dd2915fe1/capsule_184x69_alt_assets_20.jpg?t=1776189843",
+  "screenshots": [
+    {
+      "id": "0",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/2830b5babd473e7e76fa522d4c1858386d3acfb1/ss_2830b5babd473e7e76fa522d4c1858386d3acfb1.600x338.jpg?t=1776189843",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/2830b5babd473e7e76fa522d4c1858386d3acfb1/ss_2830b5babd473e7e76fa522d4c1858386d3acfb1.1920x1080.jpg?t=1776189843"
+    },
+    {
+      "id": "1",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/b17b61def60cb8b3f693cb3a6b80152f7963b04e/ss_b17b61def60cb8b3f693cb3a6b80152f7963b04e.600x338.jpg?t=1776189843",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/b17b61def60cb8b3f693cb3a6b80152f7963b04e/ss_b17b61def60cb8b3f693cb3a6b80152f7963b04e.1920x1080.jpg?t=1776189843"
+    },
+    {
+      "id": "2",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/78e99c6da684734a84fcd69aff1baa7b5fe996f6/ss_78e99c6da684734a84fcd69aff1baa7b5fe996f6.600x338.jpg?t=1776189843",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/78e99c6da684734a84fcd69aff1baa7b5fe996f6/ss_78e99c6da684734a84fcd69aff1baa7b5fe996f6.1920x1080.jpg?t=1776189843"
+    },
+    {
+      "id": "3",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/ec6de0364a1014e97ab05a7cad9f187be0bd494e/ss_ec6de0364a1014e97ab05a7cad9f187be0bd494e.600x338.jpg?t=1776189843",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/ec6de0364a1014e97ab05a7cad9f187be0bd494e/ss_ec6de0364a1014e97ab05a7cad9f187be0bd494e.1920x1080.jpg?t=1776189843"
+    },
+    {
+      "id": "4",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/fced44634f014d9f240c20191993d17608845a98/ss_fced44634f014d9f240c20191993d17608845a98.600x338.jpg?t=1776189843",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/fced44634f014d9f240c20191993d17608845a98/ss_fced44634f014d9f240c20191993d17608845a98.1920x1080.jpg?t=1776189843"
+    },
+    {
+      "id": "5",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/5bf1bef7045a75815f6dfc36f016c7cdf5e1fafd/ss_5bf1bef7045a75815f6dfc36f016c7cdf5e1fafd.600x338.jpg?t=1776189843",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/5bf1bef7045a75815f6dfc36f016c7cdf5e1fafd/ss_5bf1bef7045a75815f6dfc36f016c7cdf5e1fafd.1920x1080.jpg?t=1776189843"
+    },
+    {
+      "id": "6",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/532fc3e5be0c84c86607e08a0e14f27b4300af76/ss_532fc3e5be0c84c86607e08a0e14f27b4300af76.600x338.jpg?t=1776189843",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/532fc3e5be0c84c86607e08a0e14f27b4300af76/ss_532fc3e5be0c84c86607e08a0e14f27b4300af76.1920x1080.jpg?t=1776189843"
+    },
+    {
+      "id": "7",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/a9c53181f654194c16719cfcf083cc7ae93b01bb/ss_a9c53181f654194c16719cfcf083cc7ae93b01bb.600x338.jpg?t=1776189843",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/a9c53181f654194c16719cfcf083cc7ae93b01bb/ss_a9c53181f654194c16719cfcf083cc7ae93b01bb.1920x1080.jpg?t=1776189843"
+    },
+    {
+      "id": "8",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/064da9cfd175b47e30474a643e85e81ca3ee83cf/ss_064da9cfd175b47e30474a643e85e81ca3ee83cf.600x338.jpg?t=1776189843",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/064da9cfd175b47e30474a643e85e81ca3ee83cf/ss_064da9cfd175b47e30474a643e85e81ca3ee83cf.1920x1080.jpg?t=1776189843"
+    }
+  ],
+  "movies": [
+    {
+      "id": "257237420",
+      "name": "S22 Launch Trailer (koKR)",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257237420/d7fcfafbff68199497682ea707e660502f9f7cc8/movie_600x337.jpg?t=1776189580",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2357570/331768471/ecd6abba47c09814d3fb7a67dbcfb12522b14790/1775771394/hls_264_master.m3u8?t=1776189580",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2357570/331768471/ecd6abba47c09814d3fb7a67dbcfb12522b14790/1775771394/dash_h264.mpd?t=1776189580",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2357570/331768471/ecd6abba47c09814d3fb7a67dbcfb12522b14790/1775771394/dash_av1.mpd?t=1776189580",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/2357570/331768471/ecd6abba47c09814d3fb7a67dbcfb12522b14790/1775771394/hls_264_master.m3u8?t=1776189580"
+    },
+    {
+      "id": "257280465",
+      "name": "Sierra Hero Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257280465/b0ef36304ccf02a22167951a6692b19cc2d4280c/movie_600x337.jpg?t=1776189600",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2357570/499779757/53ac535387c69539ad611cf0cfdac260c22f6a56/1775861846/hls_264_master.m3u8?t=1776189600",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2357570/499779757/53ac535387c69539ad611cf0cfdac260c22f6a56/1775861846/dash_h264.mpd?t=1776189600",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2357570/499779757/53ac535387c69539ad611cf0cfdac260c22f6a56/1775861846/dash_av1.mpd?t=1776189600",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/2357570/499779757/53ac535387c69539ad611cf0cfdac260c22f6a56/1775861846/hls_264_master.m3u8?t=1776189600"
+    },
+    {
+      "id": "257217431",
+      "name": "Vendetta Hero Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257217431/e5831ac35db861bb1d5f0d2858d06b82215569c6/movie_600x337.jpg?t=1765306854",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2357570/2028689474/6a199cedc2e1b42a6c7edfa4371f19b163ea7610/1764040499/hls_264_master.m3u8?t=1765306854",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2357570/2028689474/6a199cedc2e1b42a6c7edfa4371f19b163ea7610/1764040499/dash_h264.mpd?t=1765306854",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2357570/2028689474/6a199cedc2e1b42a6c7edfa4371f19b163ea7610/1764040499/dash_av1.mpd?t=1765306854",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/2357570/2028689474/6a199cedc2e1b42a6c7edfa4371f19b163ea7610/1764040499/hls_264_master.m3u8?t=1765306854"
+    },
+    {
+      "id": "257188808",
+      "name": "Aqua Hero Trailer (ko)",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257188808/d72432ae8124670acd6f3ab6ff94a828723301f8/movie_600x337.jpg?t=1756231269",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2357570/578024387/cbee01548d92dcbdb3c113773d683f8c40f1367b/1756155911/hls_264_master.m3u8?t=1756231269",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2357570/578024387/cbee01548d92dcbdb3c113773d683f8c40f1367b/1756155911/dash_h264.mpd?t=1756231269",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2357570/578024387/cbee01548d92dcbdb3c113773d683f8c40f1367b/1756155911/dash_av1.mpd?t=1756231269",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/2357570/578024387/cbee01548d92dcbdb3c113773d683f8c40f1367b/1756155911/hls_264_master.m3u8?t=1756231269"
+    },
+    {
+      "id": "257011587",
+      "name": "Freja Hero Trailer (ko)",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257011587/a31aa03b8efc89689a00b679305b0489cc56fbad/movie_600x337.jpg?t=1748894510",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2357570/485350034/7027ba2a2aad6cc3a5cf4df6f0298086da639aa5/1750812793/hls_264_master.m3u8?t=1748894510",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2357570/485350034/7027ba2a2aad6cc3a5cf4df6f0298086da639aa5/1750812793/dash_h264.mpd?t=1748894510",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2357570/485350034/7027ba2a2aad6cc3a5cf4df6f0298086da639aa5/1750812793/dash_av1.mpd?t=1748894510",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/2357570/485350034/7027ba2a2aad6cc3a5cf4df6f0298086da639aa5/1750812793/hls_264_master.m3u8?t=1748894510"
+    }
+  ],
+  "short_description": "오버워치™, 쟁취할 가치가 있는 미래! 오버워치™는 희망적인 미래를 배경으로 펼쳐지며, 언제든지 열려 있고 끊임없이 진화하는 팀 기반 액션 무료 플레이 게임입니다. 플레이어는 5대5 또는 6대6 전장에서 난투를 벌이게 됩니다.",
+  "steam_store_url": "https://store.steampowered.com/app/2357570",
+  "steam_recommendation_count": 266,
+  "steam_review_score_desc": "Mixed",
+  "steam_total_positive": 2501,
+  "steam_total_negative": 2904,
+  "steam_total_reviews": 5405,
+  "price_currency": null,
+  "price_current": null,
+  "price_original": null,
+  "price_current_formatted": null,
+  "price_original_formatted": null,
+  "price_discount_percent": null,
+  "is_free": true,
+  "coming_soon": false
+}

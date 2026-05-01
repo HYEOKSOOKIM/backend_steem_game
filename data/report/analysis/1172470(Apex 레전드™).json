@@ -1,0 +1,281 @@
+{
+  "appid": 1172470,
+  "sample_size_tier": "large",
+  "trend_status": "ready",
+  "trend_reason": null,
+  "warnings": [
+    "이 결과는 수집된 한국어 리뷰 표본을 기준으로 합니다."
+  ],
+  "issue_signals": {
+    "balance": {
+      "mention_count": 231,
+      "negative_ratio": 0.47186147186147187,
+      "recent_trend": "flat",
+      "experienced_player_share": 0.987012987012987,
+      "themes": [
+        "밸런스 불만"
+      ],
+      "sample_reviews": [
+        "서버좀 고치라고\n패드 에임보정 삭제하라고\n(시어 버프좀해줘)",
+        "개인적으로 매우 재미있고 레전드 중에서 몇명 제외하고 밸런스도 잘 맞는 것 같고 무기도 특징들을 잘 활용하면 좋은 무기들도 많은 것 같습니다"
+      ]
+    },
+    "bugs": {
+      "mention_count": 620,
+      "negative_ratio": 0.7064516129032258,
+      "recent_trend": "flat",
+      "experienced_player_share": 0.8661290322580645,
+      "themes": [
+        "일반 버그",
+        "계정 / 제재 이슈",
+        "충돌 / 크래시"
+      ],
+      "sample_reviews": [
+        "버그망겜",
+        "짱깨한테 계정 털려서 스팀 계정까지 영정먹음\n그래도 게임은 재밌어서 다시왔다"
+      ]
+    },
+    "building_ux": {
+      "mention_count": 59,
+      "negative_ratio": 0.3050847457627119,
+      "recent_trend": "flat",
+      "experienced_player_share": 0.9491525423728814,
+      "themes": [
+        "건축 조작 불편",
+        "부지 / 구조 제약"
+      ],
+      "sample_reviews": [
+        "스타일리쉬한 베틀로얄로 쉴세 없이 전투는 즐거움이 있음.\n\n내가 너무 늙어버려 이제 할 수 없는 게임이 되어버림.....",
+        "게임은 오래전에 나온겜 치고는 재미있음, 그런데 좀 짜치는 부분이 많음, 특히 캐릭터패스를 팔아먹으면서 마지막 구간은 초보들은 깨지 못하게 세팅해놨음, 그렇다고 그걸 깨려면 랭크 시스템을 들어가야 하는데, 그것도 하루정도 해서는 절대 들어갈수 없는 구조로 만들어 놓음, 이런게 뭔가 게임이 짜치게 하는 기분을 만들어줌~ 뭔가 유저가 별로 없어서 잡아두려고 하는 듯한 느낌? 그래픽은 5090 5K로 돌리는데도 200프레임 넘게 잘 나옴 전투중 드랍도 별로 없음"
+      ]
+    },
+    "content_depth": {
+      "mention_count": 351,
+      "negative_ratio": 0.3903133903133903,
+      "recent_trend": "flat",
+      "experienced_player_share": 0.9715099715099715,
+      "themes": [
+        "반복 / 목적성 부족",
+        "콘텐츠 부족",
+        "중독성 / 시간순삭"
+      ],
+      "sample_reviews": [
+        "적 실드를 파괴했어\r\n놀아보자!!\r\n올~~~~~~~~~~~~~레이\r\n지금 나한테 총쏘는거야?\r\n당했어 상태가 안좋아..\r\n(탈주) 무한반복",
+        "아는 친구 3명에서 하면 시간 가는줄 몰름"
+      ]
+    },
+    "controls": {
+      "mention_count": 313,
+      "negative_ratio": 0.5718849840255591,
+      "recent_trend": "flat",
+      "experienced_player_share": 0.9744408945686901,
+      "themes": [
+        "조작감 문제",
+        "시점 / 멀미 이슈",
+        "UI / 입력 불편"
+      ],
+      "sample_reviews": [
+        "서버좀 고치라고\n패드 에임보정 삭제하라고\n(시어 버프좀해줘)",
+        "아무리 에임연습 하고 무빙연습 해도 패드들 딸깍 한번에 대가리 터져서 녹아버리는 겜\r\n그래도 타격감은 좋음\r\n서버좀 제발 좋게 만들어줬으면 좋겠음"
+      ]
+    },
+    "customization": {
+      "mention_count": 425,
+      "negative_ratio": 0.29411764705882354,
+      "recent_trend": "flat",
+      "experienced_player_share": 0.9835294117647059,
+      "themes": [
+        "스킨 / 외형 요소",
+        "커스터마이징 호평",
+        "헤어 / 의상 옵션 부족"
+      ],
+      "sample_reviews": [
+        "스킨 사지마라 난 말했다",
+        "업뎃하고 나락간 비운의 게임 \n아직도 좋아하고 가끔은 찾지만 이해할 수 없는 한가지\n스킨 퀄이나 디자인이 그게 최선? 옆집 비슷한 겜 따라해라 제발"
+      ]
+    },
+    "difficulty": {
+      "mention_count": 257,
+      "negative_ratio": 0.27626459143968873,
+      "recent_trend": "flat",
+      "experienced_player_share": 0.9377431906614786,
+      "themes": [
+        "난이도 / 진입장벽",
+        "조작 / 규칙 학습 난이도",
+        "튜토리얼 / 온보딩 부족"
+      ],
+      "sample_reviews": [
+        "너무어려움\n재미는있음",
+        "상위랭크에는 핵이 많다고 하는데, fps 즐겨하는 입장에선 입문한지 얼마 안된 지금은 엄청 재밌는 겜이라고 생각해요."
+      ]
+    },
+    "gameplay": {
+      "mention_count": 756,
+      "negative_ratio": 0.14153439153439154,
+      "recent_trend": "flat",
+      "experienced_player_share": 0.9682539682539683,
+      "themes": [
+        "전투 손맛 / 액션 호평",
+        "빌드 / 무기 다양성",
+        "탐험 / 월드 경험"
+      ],
+      "sample_reviews": [
+        "배그는 에펙미만이다",
+        "아무리 에임연습 하고 무빙연습 해도 패드들 딸깍 한번에 대가리 터져서 녹아버리는 겜\r\n그래도 타격감은 좋음\r\n서버좀 제발 좋게 만들어줬으면 좋겠음"
+      ]
+    },
+    "graphics": {
+      "mention_count": 97,
+      "negative_ratio": 0.2268041237113402,
+      "recent_trend": "flat",
+      "experienced_player_share": 0.9072164948453608,
+      "themes": [
+        "그래픽 / 비주얼 호평"
+      ],
+      "sample_reviews": [
+        "EA야 다른거 안 바랄께 제발 서버 연결만 시켜다오 그리고 다른 스킨 안내도 되니까 적어도 이 분위기만 끌고 가다오\n부탁이다 이젠 다른거 안바랄께 게임 추천도 해줄께 제에발 나에게 추억이자 유일하게 하는 게임인 에이펙스를 포기하지 말아다오\n이것도 타이탄폴 꼴 나면 나는 진짜 본사 앞에 가서 무릎 꿇고 시위할테니\n그렇게 알아라 EA",
+        "게임은 오래전에 나온겜 치고는 재미있음, 그런데 좀 짜치는 부분이 많음, 특히 캐릭터패스를 팔아먹으면서 마지막 구간은 초보들은 깨지 못하게 세팅해놨음, 그렇다고 그걸 깨려면 랭크 시스템을 들어가야 하는데, 그것도 하루정도 해서는 절대 들어갈수 없는 구조로 만들어 놓음, 이런게 뭔가 게임이 짜치게 하는 기분을 만들어줌~ 뭔가 유저가 별로 없어서 잡아두려고 하는 듯한 느낌? 그래픽은 5090 5K로 돌리는데도 200프레임 넘게 잘 나옴 전투중 드랍도 별로 없음"
+      ]
+    },
+    "localization": {
+      "mention_count": 49,
+      "negative_ratio": 0.1836734693877551,
+      "recent_trend": "flat",
+      "experienced_player_share": 0.8571428571428571,
+      "themes": [
+        "번역 / 현지화 이슈"
+      ],
+      "sample_reviews": [
+        "게임은 정말정말정말정말로 재밌고 정말로 귀한 풀더빙인데 뉴비 유입은 적을 수 밖에..\r\n그냥^패드썩은물의왼속오른손엄지매드무비에임어시스트뉴비손목비틀어버리다못해뽑아버리기^때문에\r\n그리고 신화무기 가격 겁나 빆싸개같",
+        "1. 캐릭터가 예쁘지않음.\r\n2. 외국인이 많아서 한국어로 소통하기가 힘듬.\r\n\r\n 그럼에도 이겜을 하는 이유 = 순수한 재미 GOAT"
+      ]
+    },
+    "mod_support": {
+      "mention_count": 69,
+      "negative_ratio": 0.391304347826087,
+      "recent_trend": "flat",
+      "experienced_player_share": 0.9420289855072463,
+      "themes": [
+        "모드 지원 / 호환 문제"
+      ],
+      "sample_reviews": [
+        "무료게임중 가장 재미있음. 다만 괴랄한 움직임을 하는 유저들이 많음. 움직임에 대한 진입장벽이 없잖아 있음.\r\n근데 라이트유저도 하면 되긴함. 트리오의 경우에는 팀빨로 1등 하기 쉽고, 배틀로얄이 아니더라도 데스매치나 컨트롤같은 라이트 모드가 있어서 재미있음.",
+        "친구들과 함께한다면 재밌습니다. 오버워치 배틀그라운드등 FPS류의 게임을 즐겨하신다면 이 게임을 그것의 상위호환버전의 게임일 것입니다. 게임진행속도는 다른 게임과 비교하기 힘들 정도로 빠릅니다. 빠른 상황 판단과 대처 능력을 가진자가 유리합니다. 여러가지 캐릭터들과 다양한 총기들 자신만의 플레이를 할 수 있는 이 게임 어떤가요? 호감이 생기지 않나요? 그럼 바로 친구에게 연락하여 이 게임을 즐겨보세요!!!"
+      ]
+    },
+    "monetization": {
+      "mention_count": 260,
+      "negative_ratio": 0.5115384615384615,
+      "recent_trend": "flat",
+      "experienced_player_share": 0.9692307692307692,
+      "themes": [
+        "가격 / 과금 불만",
+        "DLC / 확장팩 언급"
+      ],
+      "sample_reviews": [
+        "패스파인더 귀엽다.",
+        "마블히어로즈와 오버워치 + PUBG를 섞은 맛\n일본인 친구들이 확실히 많이한다\n패스파인더랑 까마귀만했었는데 \n캐릭터도 꽤 매력있어서 기억에 남는것같다\n취향이 잘 맞으면 재밌는 겜이겠지만\n좀 더 캐주얼하고 간단한 걸 좋아하는 이들에게는\n대체제가 많은 것 같다\n"
+      ]
+    },
+    "multiplayer": {
+      "mention_count": 3594,
+      "negative_ratio": 0.4705063995548136,
+      "recent_trend": "down",
+      "experienced_player_share": 0.9738452977184195,
+      "themes": [
+        "매칭 / 서버 문제",
+        "부정행위 / 보안 이슈",
+        "모드 / 큐 구성 이슈"
+      ],
+      "sample_reviews": [
+        "캐릭터는 못생겼고 서버는 지읒같고 팀이 답답해 속터질거같아도 같이할사람만 있으면 모든게 용납됨",
+        "서버좀 고치라고\n패드 에임보정 삭제하라고\n(시어 버프좀해줘)"
+      ]
+    },
+    "performance": {
+      "mention_count": 1009,
+      "negative_ratio": 0.3518334985133796,
+      "recent_trend": "flat",
+      "experienced_player_share": 0.9544103072348861,
+      "themes": [
+        "최적화 문제",
+        "로딩 / 발열 문제",
+        "실행 불가 / 튕김"
+      ],
+      "sample_reviews": [
+        "게임만 봤을때는 재밌는 하이퍼 FPS, 고인물이 너무많아 힘들지만 그래도 재밌음",
+        "아직 1000시간 밖에 안되지만    2.옵치,발로에서 팀에 대한 혐오가 그득그득하다 3. 아 하이퍼 fps를 좋아하면서 에임이 좋다   4. 벽을 느끼면 접는 게 아니라 카피 마렵다  5.근접무기 살 돈(20만원) 정도 게임에 쓸 수 있다.   이 정도만 충족한다면 에이펙스 당신도 할 수 있어요"
+      ]
+    },
+    "save_progression": {
+      "mention_count": 107,
+      "negative_ratio": 0.4205607476635514,
+      "recent_trend": "flat",
+      "experienced_player_share": 0.9065420560747663,
+      "themes": [
+        "저장 / 세이브 손실"
+      ],
+      "sample_reviews": [
+        "로드 투 랭크 조건이 안 보이는데 어케 하라고 만든 건지 모르겠음",
+        "저장공간 큰거뺴고 좋아여\r\n"
+      ]
+    },
+    "story": {
+      "mention_count": 442,
+      "negative_ratio": 0.2149321266968326,
+      "recent_trend": "up",
+      "experienced_player_share": 0.9728506787330317,
+      "themes": [
+        "캐릭터 / 연출 인상",
+        "스토리 / 서사 몰입"
+      ],
+      "sample_reviews": [
+        "캐릭터는 못생겼고 서버는 지읒같고 팀이 답답해 속터질거같아도 같이할사람만 있으면 모든게 용납됨",
+        "게임은 고일대로 고였고 캐릭터들은 돈 안쓰면 얻을 수 없는 수준으로 얻기가 힘듦\n다양한 캐릭터들을 해보며 자신에게 맞는 캐릭터를 찾기도 전에 접게됨"
+      ]
+    }
+  },
+  "summary": {
+    "what_players_like": "상대적으로 긍정 신호가 보이는 영역은 gameplay이며, 대표 테마는 전투 손맛 / 액션 호평, 빌드 / 무기 다양성입니다.",
+    "what_players_dislike": "가장 자주 언급되는 불만 영역은 multiplayer이며, 대표 테마는 매칭 / 서버 문제, 부정행위 / 보안 이슈입니다.",
+    "recent_change": "최근 기간에는 story 관련 언급이 상대적으로 증가하는 흐름이 보입니다.",
+    "fit_for": "초반 진입 장벽이나 조작 적응 여부를 중요하게 보는 플레이어는 사전 확인이 필요합니다.",
+    "risks": "multiplayer 관련 이슈는 반복적으로 언급되지만 최근 급격한 악화 신호는 제한적입니다."
+  },
+  "pipeline_run_id": "1172470-20260430T094207Z",
+  "generated_at": "2026-04-30T09:44:05.264761+00:00",
+  "source_review_count": 17946,
+  "review_pages": "all",
+  "fetched_pages": 181,
+  "fetched_review_count": 17946,
+  "fetch_timeout_seconds": 20,
+  "fetch_filter": "recent",
+  "all_mode_page_cap": 200,
+  "all_mode_cap_reached": false,
+  "llm_stats": {
+    "considered": 10562,
+    "selected": 50,
+    "invoked": 50,
+    "success": 50,
+    "schema_invalid": 0,
+    "low_confidence": 0,
+    "cache_hits": 50,
+    "fallback_used": 0
+  },
+  "report_material_refiner": {
+    "enabled": true,
+    "max_llm_reviews": 50,
+    "llm_min_confidence": 0.7,
+    "material_count": 50,
+    "stats": {
+      "considered": 10562,
+      "selected": 50,
+      "invoked": 50,
+      "success": 50,
+      "schema_invalid": 0,
+      "low_confidence": 0,
+      "cache_hits": 50,
+      "fallback_used": 0
+    }
+  }
+}

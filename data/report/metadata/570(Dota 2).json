@@ -1,6 +1,8 @@
 {
   "appid": 570,
   "name": "Dota 2",
+  "name_en": "Dota 2",
+  "name_ko": "Dota 2",
   "genres": [
     "액션",
     "전략",
@@ -12,13 +14,128 @@
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/header.jpg?t=1769535998",
   "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/capsule_231x87.jpg?t=1769535998",
   "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/capsule_184x69.jpg?t=1769535998",
+  "screenshots": [
+    {
+      "id": "0",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_ad8eee787704745ccdecdfde3a5cd2733704898d.600x338.jpg?t=1769535998",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_ad8eee787704745ccdecdfde3a5cd2733704898d.1920x1080.jpg?t=1769535998"
+    },
+    {
+      "id": "1",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_7ab506679d42bfc0c0e40639887176494e0466d9.600x338.jpg?t=1769535998",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_7ab506679d42bfc0c0e40639887176494e0466d9.1920x1080.jpg?t=1769535998"
+    },
+    {
+      "id": "2",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_c9118375a2400278590f29a3537769c986ef6e39.600x338.jpg?t=1769535998",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_c9118375a2400278590f29a3537769c986ef6e39.1920x1080.jpg?t=1769535998"
+    },
+    {
+      "id": "3",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_f9ebafedaf2d5cfb80ef1f74baa18eb08cad6494.600x338.jpg?t=1769535998",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_f9ebafedaf2d5cfb80ef1f74baa18eb08cad6494.1920x1080.jpg?t=1769535998"
+    },
+    {
+      "id": "4",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_27b6345f22243bd6b885cc64c5cda74e4bd9c3e8.600x338.jpg?t=1769535998",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_27b6345f22243bd6b885cc64c5cda74e4bd9c3e8.1920x1080.jpg?t=1769535998"
+    },
+    {
+      "id": "5",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_b33a65678dc71cc98df4890e22a89601ee56a918.600x338.jpg?t=1769535998",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_b33a65678dc71cc98df4890e22a89601ee56a918.1920x1080.jpg?t=1769535998"
+    },
+    {
+      "id": "6",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_d0f973ce376ca5b6c08e081cb035e86ced105fa9.600x338.jpg?t=1769535998",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_d0f973ce376ca5b6c08e081cb035e86ced105fa9.1920x1080.jpg?t=1769535998"
+    },
+    {
+      "id": "7",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_1f3b5f5ccf8b159294914c3fe028128a787304b6.600x338.jpg?t=1769535998",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_1f3b5f5ccf8b159294914c3fe028128a787304b6.1920x1080.jpg?t=1769535998"
+    },
+    {
+      "id": "8",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_e0a92f15a6631a8186df79182d0fe28b5e37d8cb.600x338.jpg?t=1769535998",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_e0a92f15a6631a8186df79182d0fe28b5e37d8cb.1920x1080.jpg?t=1769535998"
+    },
+    {
+      "id": "9",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_86d675fdc73ba10462abb8f5ece7791c5047072c.600x338.jpg?t=1769535998",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_86d675fdc73ba10462abb8f5ece7791c5047072c.1920x1080.jpg?t=1769535998"
+    }
+  ],
+  "movies": [
+    {
+      "id": "256692021",
+      "name": "Dota 2 - Join the Battle",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256692021/movie.293x165.jpg?t=1762820639",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/570/116737/313addee2092d0bd6f538d164610061ea8bbe79c/1749859757/hls_264_master.m3u8?t=1762820639",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/570/116737/313addee2092d0bd6f538d164610061ea8bbe79c/1749859757/dash_h264.mpd?t=1762820639",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/570/116737/313addee2092d0bd6f538d164610061ea8bbe79c/1749859757/dash_av1.mpd?t=1762820639",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/570/116737/313addee2092d0bd6f538d164610061ea8bbe79c/1749859757/hls_264_master.m3u8?t=1762820639"
+    },
+    {
+      "id": "256819789",
+      "name": "Dota 2 - Sizzle Reel",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256819789/movie.293x165.jpg?t=1762820641",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/570/343440/a4bddad5bacce0e8395f7458ef4d8d9bad3efca9/1749859790/hls_264_master.m3u8?t=1762820641",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/570/343440/a4bddad5bacce0e8395f7458ef4d8d9bad3efca9/1749859790/dash_h264.mpd?t=1762820641",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/570/343440/a4bddad5bacce0e8395f7458ef4d8d9bad3efca9/1749859790/dash_av1.mpd?t=1762820641",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/570/343440/a4bddad5bacce0e8395f7458ef4d8d9bad3efca9/1749859790/hls_264_master.m3u8?t=1762820641"
+    },
+    {
+      "id": "2028243",
+      "name": "Dota 2 - The Greeviling",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2028243/movie.293x165.jpg?t=1762820644",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/570/10127/a886b09aeea73e11d5c7305afa4e68698976808c/1749859753/hls_264_master.m3u8?t=1762820644",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/570/10127/a886b09aeea73e11d5c7305afa4e68698976808c/1749859753/dash_h264.mpd?t=1762820644",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/570/10127/a886b09aeea73e11d5c7305afa4e68698976808c/1749859753/dash_av1.mpd?t=1762820644",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/570/10127/a886b09aeea73e11d5c7305afa4e68698976808c/1749859753/hls_264_master.m3u8?t=1762820644"
+    },
+    {
+      "id": "81026",
+      "name": "Dota 2 Gamescom Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/81026/movie.293x165.jpg?t=1762820645",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/570/5608/1f6692ca2b124c7ebdbea6933d1503172d53efd1/1749859891/hls_264_master.m3u8?t=1762820645",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/570/5608/1f6692ca2b124c7ebdbea6933d1503172d53efd1/1749859891/dash_h264.mpd?t=1762820645",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/570/5608/1f6692ca2b124c7ebdbea6933d1503172d53efd1/1749859891/dash_av1.mpd?t=1762820645",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/570/5608/1f6692ca2b124c7ebdbea6933d1503172d53efd1/1749859891/hls_264_master.m3u8?t=1762820645"
+    },
+    {
+      "id": "2040252",
+      "name": "Dota 2 Reborn - Custom Games Are Here (Korean)",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2040252/movie.293x165.jpg?t=1762820651",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/570/38099/0ce25594f95c9368be0d418ec38ba013b83cdd9a/1749859756/hls_264_master.m3u8?t=1762820651",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/570/38099/0ce25594f95c9368be0d418ec38ba013b83cdd9a/1749859756/dash_h264.mpd?t=1762820651",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/570/38099/0ce25594f95c9368be0d418ec38ba013b83cdd9a/1749859756/dash_av1.mpd?t=1762820651",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/570/38099/0ce25594f95c9368be0d418ec38ba013b83cdd9a/1749859756/hls_264_master.m3u8?t=1762820651"
+    }
+  ],
   "short_description": "매일, 전 세계 수백 만의 플레이어가 백여 명의 도타 영웅 중 하나가 되어 전장에 뛰어듭니다. 10시간을 했든, 1,000시간을 했든 언제나 새롭게 느껴지는 무언가가 있습니다. 정기적인 업데이트로 게임플레이, 기능, 영웅이 끊임없이 진화하는 도타 2는 그 자체의 생명력으로 살아 숨 쉬는 게임입니다.",
   "steam_store_url": "https://store.steampowered.com/app/570",
-  "steam_recommendation_count": 14372,
+  "steam_recommendation_count": 14371,
   "steam_review_score_desc": "Mostly Positive",
-  "steam_total_positive": 3928,
+  "steam_total_positive": 3927,
   "steam_total_negative": 1238,
-  "steam_total_reviews": 5166,
+  "steam_total_reviews": 5165,
+  "price_currency": null,
+  "price_current": null,
+  "price_original": null,
+  "price_current_formatted": null,
+  "price_original_formatted": null,
+  "price_discount_percent": null,
   "is_free": true,
   "coming_soon": false
 }

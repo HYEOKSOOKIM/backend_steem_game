@@ -1,6 +1,8 @@
 {
   "appid": 359550,
   "name": "톰 클랜시의 레인보우식스 시즈",
+  "name_en": "Tom Clancy's Rainbow Six Siege",
+  "name_ko": "톰 클랜시의 레인보우식스 시즈",
   "genres": [
     "액션",
     "무료 플레이"
@@ -11,13 +13,106 @@
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/a424cb67a86be35b8d761784a3bdaa726f29c942/header_alt_assets_20_koreana.jpg?t=1775836354",
   "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/3ad79d225389a6de962633b54b26fa506b916594/capsule_231x87_alt_assets_20_koreana.jpg?t=1775836354",
   "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/3ad79d225389a6de962633b54b26fa506b916594/capsule_184x69_alt_assets_20_koreana.jpg?t=1775836354",
+  "screenshots": [
+    {
+      "id": "0",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/6fc7824bf53ef82c81304700ebb8708cc710cdf9/ss_6fc7824bf53ef82c81304700ebb8708cc710cdf9.600x338.jpg?t=1775836354",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/6fc7824bf53ef82c81304700ebb8708cc710cdf9/ss_6fc7824bf53ef82c81304700ebb8708cc710cdf9.1920x1080.jpg?t=1775836354"
+    },
+    {
+      "id": "1",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/2a3e21824e76d17fac4f917bd90234c73a02c930/ss_2a3e21824e76d17fac4f917bd90234c73a02c930.600x338.jpg?t=1775836354",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/2a3e21824e76d17fac4f917bd90234c73a02c930/ss_2a3e21824e76d17fac4f917bd90234c73a02c930.1920x1080.jpg?t=1775836354"
+    },
+    {
+      "id": "2",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/8363519296edec1c056176f25e20767da3e6e853/ss_8363519296edec1c056176f25e20767da3e6e853.600x338.jpg?t=1775836354",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/8363519296edec1c056176f25e20767da3e6e853/ss_8363519296edec1c056176f25e20767da3e6e853.1920x1080.jpg?t=1775836354"
+    },
+    {
+      "id": "3",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/5467c59d8651c801aab376432cb96f7a49803d7a/ss_5467c59d8651c801aab376432cb96f7a49803d7a.600x338.jpg?t=1775836354",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/5467c59d8651c801aab376432cb96f7a49803d7a/ss_5467c59d8651c801aab376432cb96f7a49803d7a.1920x1080.jpg?t=1775836354"
+    },
+    {
+      "id": "4",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/1ee529c1c835164b7a2949a8b52ce79016d45690/ss_1ee529c1c835164b7a2949a8b52ce79016d45690.600x338.jpg?t=1775836354",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/1ee529c1c835164b7a2949a8b52ce79016d45690/ss_1ee529c1c835164b7a2949a8b52ce79016d45690.1920x1080.jpg?t=1775836354"
+    },
+    {
+      "id": "5",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/2e76d6f8373d28a16d214d67565198fd2f729b69/ss_2e76d6f8373d28a16d214d67565198fd2f729b69.600x338.jpg?t=1775836354",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/2e76d6f8373d28a16d214d67565198fd2f729b69/ss_2e76d6f8373d28a16d214d67565198fd2f729b69.1920x1080.jpg?t=1775836354"
+    },
+    {
+      "id": "6",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/a53bff65f0f16fb38967d850e9fd0b0f9f8fa8d3/ss_a53bff65f0f16fb38967d850e9fd0b0f9f8fa8d3.600x338.jpg?t=1775836354",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/a53bff65f0f16fb38967d850e9fd0b0f9f8fa8d3/ss_a53bff65f0f16fb38967d850e9fd0b0f9f8fa8d3.1920x1080.jpg?t=1775836354"
+    },
+    {
+      "id": "7",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/9d09f2d6a272e97d5799d4d8442e291bfbada867/ss_9d09f2d6a272e97d5799d4d8442e291bfbada867.600x338.jpg?t=1775836354",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/9d09f2d6a272e97d5799d4d8442e291bfbada867/ss_9d09f2d6a272e97d5799d4d8442e291bfbada867.1920x1080.jpg?t=1775836354"
+    },
+    {
+      "id": "8",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/a1a188d43212080d22a3baf4bea2609f256c6f79/ss_a1a188d43212080d22a3baf4bea2609f256c6f79.600x338.jpg?t=1775836354",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/a1a188d43212080d22a3baf4bea2609f256c6f79/ss_a1a188d43212080d22a3baf4bea2609f256c6f79.1920x1080.jpg?t=1775836354"
+    },
+    {
+      "id": "9",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/cefbe91964e22a4c3fb71e68a248d57ebedbf4ab/ss_cefbe91964e22a4c3fb71e68a248d57ebedbf4ab.600x338.jpg?t=1775836354",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/cefbe91964e22a4c3fb71e68a248d57ebedbf4ab/ss_cefbe91964e22a4c3fb71e68a248d57ebedbf4ab.1920x1080.jpg?t=1775836354"
+    }
+  ],
+  "movies": [
+    {
+      "id": "257294623",
+      "name": "Y11S1 Solid Snake Reveal Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257294623/20e30e220bd82311837e437bc8a9a78e238d1a2c/movie_600x337.jpg?t=1772583319",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/359550/493051926/fc4e940ebc34b32928e8e921bae6ddbf37e4512c/1772064199/hls_264_master.m3u8?t=1772583319",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/359550/493051926/fc4e940ebc34b32928e8e921bae6ddbf37e4512c/1772064199/dash_h264.mpd?t=1772583319",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/359550/493051926/fc4e940ebc34b32928e8e921bae6ddbf37e4512c/1772064199/dash_av1.mpd?t=1772583319",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/359550/493051926/fc4e940ebc34b32928e8e921bae6ddbf37e4512c/1772064199/hls_264_master.m3u8?t=1772583319"
+    },
+    {
+      "id": "257295575",
+      "name": "Y11S1 Season Launch Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257295575/c135f3a57773256501157b573c8cdff2b96834d8/movie_600x337.jpg?t=1772583320",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/359550/433951187/6f75d75a9c11443057ba73926a17b42f8ed9e02f/1772210599/hls_264_master.m3u8?t=1772583320",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/359550/433951187/6f75d75a9c11443057ba73926a17b42f8ed9e02f/1772210599/dash_h264.mpd?t=1772583320",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/359550/433951187/6f75d75a9c11443057ba73926a17b42f8ed9e02f/1772210599/dash_av1.mpd?t=1772583320",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/359550/433951187/6f75d75a9c11443057ba73926a17b42f8ed9e02f/1772210599/hls_264_master.m3u8?t=1772583320"
+    },
+    {
+      "id": "257154992",
+      "name": "Launch Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257154992/e9a31a419d7f6003473b741a84ce360d33bd4e2a/movie_600x337.jpg?t=1772550015",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/359550/1500749829/69f64b8df8e9a4e24fe71be3205095a0b451daee/1772064301/hls_264_master.m3u8?t=1772550015",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/359550/1500749829/69f64b8df8e9a4e24fe71be3205095a0b451daee/1772064301/dash_h264.mpd?t=1772550015",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/359550/1500749829/69f64b8df8e9a4e24fe71be3205095a0b451daee/1772064301/dash_av1.mpd?t=1772550015",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/359550/1500749829/69f64b8df8e9a4e24fe71be3205095a0b451daee/1772064301/hls_264_master.m3u8?t=1772550015"
+    }
+  ],
   "short_description": "레인보우식스® 시즈는 뛰어난 전략과 기술이 승부를 좌우하는 전술적인 정예 팀 기반의 슈팅 게임입니다. 다양한 대원들과 함께 빠른 매치, 무계급, Dual Front 게임 모드를 프리 엑세스로 이용하십시오.",
   "steam_store_url": "https://store.steampowered.com/app/359550",
-  "steam_recommendation_count": 1239221,
+  "steam_recommendation_count": 1239454,
   "steam_review_score_desc": "Mostly Positive",
-  "steam_total_positive": 41883,
-  "steam_total_negative": 10681,
-  "steam_total_reviews": 52564,
+  "steam_total_positive": 41885,
+  "steam_total_negative": 10680,
+  "steam_total_reviews": 52565,
+  "price_currency": null,
+  "price_current": null,
+  "price_original": null,
+  "price_current_formatted": null,
+  "price_original_formatted": null,
+  "price_discount_percent": null,
   "is_free": true,
   "coming_soon": false
 }

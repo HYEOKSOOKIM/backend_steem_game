@@ -31,6 +31,8 @@ class GameMetadata:
 
     appid: int
     name: str | None = None
+    name_en: str | None = None
+    name_ko: str | None = None
     genres: list[str] = field(default_factory=list)
     price_model: str = "unknown"
     release_stage: str = "unknown"

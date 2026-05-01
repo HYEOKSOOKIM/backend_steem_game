@@ -1,0 +1,53 @@
+{
+  "appid": 2483190,
+  "sample_size_tier": "empty",
+  "trend_status": "ready",
+  "trend_reason": null,
+  "warnings": [
+    "이 결과는 수집된 한국어 리뷰 표본을 기준으로 합니다."
+  ],
+  "issue_signals": {},
+  "summary": {
+    "what_players_like": "현재 수집된 한국어 리뷰 기준으로 뚜렷한 강점 신호는 아직 부족합니다.",
+    "what_players_dislike": "현재 수집된 한국어 리뷰 기준으로 반복되는 불만 신호는 아직 확인되지 않았습니다.",
+    "recent_change": "최근 기간에는 특정 카테고리의 급격한 변화보다 전반적인 유지 신호가 보입니다.",
+    "fit_for": "현재 표본만으로 특정 플레이어 유형에 대한 적합성을 단정하기보다는 대표 리뷰를 함께 확인하는 편이 안전합니다.",
+    "risks": "현재 표본에서는 뚜렷한 운영 리스크가 반복적으로 드러나지 않습니다."
+  },
+  "pipeline_run_id": "2483190-20260430T092534Z",
+  "generated_at": "2026-04-30T09:25:36.045427+00:00",
+  "source_review_count": 0,
+  "review_pages": "all",
+  "fetched_pages": 1,
+  "fetched_review_count": 0,
+  "fetch_timeout_seconds": 20,
+  "fetch_filter": "recent",
+  "all_mode_page_cap": 200,
+  "all_mode_cap_reached": false,
+  "llm_stats": {
+    "considered": 0,
+    "selected": 0,
+    "invoked": 0,
+    "success": 0,
+    "schema_invalid": 0,
+    "low_confidence": 0,
+    "cache_hits": 0,
+    "fallback_used": 0
+  },
+  "report_material_refiner": {
+    "enabled": true,
+    "max_llm_reviews": 50,
+    "llm_min_confidence": 0.7,
+    "material_count": 0,
+    "stats": {
+      "considered": 0,
+      "selected": 0,
+      "invoked": 0,
+      "success": 0,
+      "schema_invalid": 0,
+      "low_confidence": 0,
+      "cache_hits": 0,
+      "fallback_used": 0
+    }
+  }
+}

@@ -1,0 +1,1320 @@
+{
+  "report_version": "v4-planned-sections",
+  "appid": 394360,
+  "pipeline_run_id": "394360-20260430T095934Z",
+  "generated_at": "2026-04-30T10:02:12.218168+00:00",
+  "source_review_count": 7324,
+  "included_review_count": 4604,
+  "min_report_review_count": 100,
+  "report_state": "ready",
+  "review_trend": {
+    "granularity": "month",
+    "metric": "positive_ratio",
+    "points": [
+      {
+        "month": "2016-06",
+        "positive_count": 16,
+        "review_count": 18,
+        "positive_ratio": 0.8889
+      },
+      {
+        "month": "2016-07",
+        "positive_count": 2,
+        "review_count": 2,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2016-08",
+        "positive_count": 10,
+        "review_count": 10,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2016-09",
+        "positive_count": 3,
+        "review_count": 4,
+        "positive_ratio": 0.75
+      },
+      {
+        "month": "2016-10",
+        "positive_count": 4,
+        "review_count": 4,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2016-11",
+        "positive_count": 12,
+        "review_count": 13,
+        "positive_ratio": 0.9231
+      },
+      {
+        "month": "2016-12",
+        "positive_count": 5,
+        "review_count": 7,
+        "positive_ratio": 0.7143
+      },
+      {
+        "month": "2017-01",
+        "positive_count": 9,
+        "review_count": 10,
+        "positive_ratio": 0.9
+      },
+      {
+        "month": "2017-02",
+        "positive_count": 12,
+        "review_count": 12,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2017-03",
+        "positive_count": 3,
+        "review_count": 4,
+        "positive_ratio": 0.75
+      },
+      {
+        "month": "2017-04",
+        "positive_count": 3,
+        "review_count": 3,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2017-05",
+        "positive_count": 1,
+        "review_count": 1,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2017-06",
+        "positive_count": 9,
+        "review_count": 16,
+        "positive_ratio": 0.5625
+      },
+      {
+        "month": "2017-07",
+        "positive_count": 13,
+        "review_count": 14,
+        "positive_ratio": 0.9286
+      },
+      {
+        "month": "2017-08",
+        "positive_count": 6,
+        "review_count": 9,
+        "positive_ratio": 0.6667
+      },
+      {
+        "month": "2017-09",
+        "positive_count": 17,
+        "review_count": 18,
+        "positive_ratio": 0.9444
+      },
+      {
+        "month": "2017-10",
+        "positive_count": 18,
+        "review_count": 20,
+        "positive_ratio": 0.9
+      },
+      {
+        "month": "2017-11",
+        "positive_count": 36,
+        "review_count": 44,
+        "positive_ratio": 0.8182
+      },
+      {
+        "month": "2017-12",
+        "positive_count": 21,
+        "review_count": 21,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2018-01",
+        "positive_count": 21,
+        "review_count": 22,
+        "positive_ratio": 0.9545
+      },
+      {
+        "month": "2018-02",
+        "positive_count": 21,
+        "review_count": 26,
+        "positive_ratio": 0.8077
+      },
+      {
+        "month": "2018-03",
+        "positive_count": 23,
+        "review_count": 26,
+        "positive_ratio": 0.8846
+      },
+      {
+        "month": "2018-04",
+        "positive_count": 9,
+        "review_count": 12,
+        "positive_ratio": 0.75
+      },
+      {
+        "month": "2018-05",
+        "positive_count": 12,
+        "review_count": 15,
+        "positive_ratio": 0.8
+      },
+      {
+        "month": "2018-06",
+        "positive_count": 20,
+        "review_count": 25,
+        "positive_ratio": 0.8
+      },
+      {
+        "month": "2018-07",
+        "positive_count": 13,
+        "review_count": 18,
+        "positive_ratio": 0.7222
+      },
+      {
+        "month": "2018-08",
+        "positive_count": 14,
+        "review_count": 16,
+        "positive_ratio": 0.875
+      },
+      {
+        "month": "2018-09",
+        "positive_count": 10,
+        "review_count": 13,
+        "positive_ratio": 0.7692
+      },
+      {
+        "month": "2018-10",
+        "positive_count": 12,
+        "review_count": 16,
+        "positive_ratio": 0.75
+      },
+      {
+        "month": "2018-11",
+        "positive_count": 55,
+        "review_count": 59,
+        "positive_ratio": 0.9322
+      },
+      {
+        "month": "2018-12",
+        "positive_count": 27,
+        "review_count": 32,
+        "positive_ratio": 0.8438
+      },
+      {
+        "month": "2019-01",
+        "positive_count": 24,
+        "review_count": 31,
+        "positive_ratio": 0.7742
+      },
+      {
+        "month": "2019-02",
+        "positive_count": 29,
+        "review_count": 37,
+        "positive_ratio": 0.7838
+      },
+      {
+        "month": "2019-03",
+        "positive_count": 25,
+        "review_count": 29,
+        "positive_ratio": 0.8621
+      },
+      {
+        "month": "2019-04",
+        "positive_count": 11,
+        "review_count": 12,
+        "positive_ratio": 0.9167
+      },
+      {
+        "month": "2019-05",
+        "positive_count": 13,
+        "review_count": 17,
+        "positive_ratio": 0.7647
+      },
+      {
+        "month": "2019-06",
+        "positive_count": 25,
+        "review_count": 31,
+        "positive_ratio": 0.8065
+      },
+      {
+        "month": "2019-07",
+        "positive_count": 37,
+        "review_count": 42,
+        "positive_ratio": 0.881
+      },
+      {
+        "month": "2019-08",
+        "positive_count": 22,
+        "review_count": 23,
+        "positive_ratio": 0.9565
+      },
+      {
+        "month": "2019-09",
+        "positive_count": 8,
+        "review_count": 10,
+        "positive_ratio": 0.8
+      },
+      {
+        "month": "2019-10",
+        "positive_count": 28,
+        "review_count": 30,
+        "positive_ratio": 0.9333
+      },
+      {
+        "month": "2019-11",
+        "positive_count": 124,
+        "review_count": 141,
+        "positive_ratio": 0.8794
+      },
+      {
+        "month": "2019-12",
+        "positive_count": 81,
+        "review_count": 93,
+        "positive_ratio": 0.871
+      },
+      {
+        "month": "2020-01",
+        "positive_count": 74,
+        "review_count": 85,
+        "positive_ratio": 0.8706
+      },
+      {
+        "month": "2020-02",
+        "positive_count": 62,
+        "review_count": 71,
+        "positive_ratio": 0.8732
+      },
+      {
+        "month": "2020-03",
+        "positive_count": 56,
+        "review_count": 60,
+        "positive_ratio": 0.9333
+      },
+      {
+        "month": "2020-04",
+        "positive_count": 34,
+        "review_count": 40,
+        "positive_ratio": 0.85
+      },
+      {
+        "month": "2020-05",
+        "positive_count": 48,
+        "review_count": 51,
+        "positive_ratio": 0.9412
+      },
+      {
+        "month": "2020-06",
+        "positive_count": 47,
+        "review_count": 48,
+        "positive_ratio": 0.9792
+      },
+      {
+        "month": "2020-07",
+        "positive_count": 53,
+        "review_count": 61,
+        "positive_ratio": 0.8689
+      },
+      {
+        "month": "2020-08",
+        "positive_count": 45,
+        "review_count": 46,
+        "positive_ratio": 0.9783
+      },
+      {
+        "month": "2020-09",
+        "positive_count": 45,
+        "review_count": 48,
+        "positive_ratio": 0.9375
+      },
+      {
+        "month": "2020-10",
+        "positive_count": 46,
+        "review_count": 54,
+        "positive_ratio": 0.8519
+      },
+      {
+        "month": "2020-11",
+        "positive_count": 87,
+        "review_count": 98,
+        "positive_ratio": 0.8878
+      },
+      {
+        "month": "2020-12",
+        "positive_count": 77,
+        "review_count": 87,
+        "positive_ratio": 0.8851
+      },
+      {
+        "month": "2021-01",
+        "positive_count": 52,
+        "review_count": 67,
+        "positive_ratio": 0.7761
+      },
+      {
+        "month": "2021-02",
+        "positive_count": 53,
+        "review_count": 59,
+        "positive_ratio": 0.8983
+      },
+      {
+        "month": "2021-03",
+        "positive_count": 62,
+        "review_count": 71,
+        "positive_ratio": 0.8732
+      },
+      {
+        "month": "2021-04",
+        "positive_count": 60,
+        "review_count": 62,
+        "positive_ratio": 0.9677
+      },
+      {
+        "month": "2021-05",
+        "positive_count": 70,
+        "review_count": 79,
+        "positive_ratio": 0.8861
+      },
+      {
+        "month": "2021-06",
+        "positive_count": 75,
+        "review_count": 79,
+        "positive_ratio": 0.9494
+      },
+      {
+        "month": "2021-07",
+        "positive_count": 87,
+        "review_count": 96,
+        "positive_ratio": 0.9062
+      },
+      {
+        "month": "2021-08",
+        "positive_count": 84,
+        "review_count": 89,
+        "positive_ratio": 0.9438
+      },
+      {
+        "month": "2021-09",
+        "positive_count": 115,
+        "review_count": 126,
+        "positive_ratio": 0.9127
+      },
+      {
+        "month": "2021-10",
+        "positive_count": 82,
+        "review_count": 89,
+        "positive_ratio": 0.9213
+      },
+      {
+        "month": "2021-11",
+        "positive_count": 129,
+        "review_count": 140,
+        "positive_ratio": 0.9214
+      },
+      {
+        "month": "2021-12",
+        "positive_count": 101,
+        "review_count": 112,
+        "positive_ratio": 0.9018
+      },
+      {
+        "month": "2022-01",
+        "positive_count": 128,
+        "review_count": 145,
+        "positive_ratio": 0.8828
+      },
+      {
+        "month": "2022-02",
+        "positive_count": 109,
+        "review_count": 130,
+        "positive_ratio": 0.8385
+      },
+      {
+        "month": "2022-03",
+        "positive_count": 91,
+        "review_count": 107,
+        "positive_ratio": 0.8505
+      },
+      {
+        "month": "2022-04",
+        "positive_count": 66,
+        "review_count": 71,
+        "positive_ratio": 0.9296
+      },
+      {
+        "month": "2022-05",
+        "positive_count": 75,
+        "review_count": 82,
+        "positive_ratio": 0.9146
+      },
+      {
+        "month": "2022-06",
+        "positive_count": 87,
+        "review_count": 98,
+        "positive_ratio": 0.8878
+      },
+      {
+        "month": "2022-07",
+        "positive_count": 101,
+        "review_count": 117,
+        "positive_ratio": 0.8632
+      },
+      {
+        "month": "2022-08",
+        "positive_count": 94,
+        "review_count": 103,
+        "positive_ratio": 0.9126
+      },
+      {
+        "month": "2022-09",
+        "positive_count": 102,
+        "review_count": 117,
+        "positive_ratio": 0.8718
+      },
+      {
+        "month": "2022-10",
+        "positive_count": 116,
+        "review_count": 134,
+        "positive_ratio": 0.8657
+      },
+      {
+        "month": "2022-11",
+        "positive_count": 85,
+        "review_count": 99,
+        "positive_ratio": 0.8586
+      },
+      {
+        "month": "2022-12",
+        "positive_count": 80,
+        "review_count": 100,
+        "positive_ratio": 0.8
+      },
+      {
+        "month": "2023-01",
+        "positive_count": 123,
+        "review_count": 140,
+        "positive_ratio": 0.8786
+      },
+      {
+        "month": "2023-02",
+        "positive_count": 81,
+        "review_count": 95,
+        "positive_ratio": 0.8526
+      },
+      {
+        "month": "2023-03",
+        "positive_count": 69,
+        "review_count": 73,
+        "positive_ratio": 0.9452
+      },
+      {
+        "month": "2023-04",
+        "positive_count": 49,
+        "review_count": 56,
+        "positive_ratio": 0.875
+      },
+      {
+        "month": "2023-05",
+        "positive_count": 76,
+        "review_count": 83,
+        "positive_ratio": 0.9157
+      },
+      {
+        "month": "2023-06",
+        "positive_count": 49,
+        "review_count": 55,
+        "positive_ratio": 0.8909
+      },
+      {
+        "month": "2023-07",
+        "positive_count": 91,
+        "review_count": 97,
+        "positive_ratio": 0.9381
+      },
+      {
+        "month": "2023-08",
+        "positive_count": 69,
+        "review_count": 78,
+        "positive_ratio": 0.8846
+      },
+      {
+        "month": "2023-09",
+        "positive_count": 64,
+        "review_count": 71,
+        "positive_ratio": 0.9014
+      },
+      {
+        "month": "2023-10",
+        "positive_count": 86,
+        "review_count": 101,
+        "positive_ratio": 0.8515
+      },
+      {
+        "month": "2023-11",
+        "positive_count": 78,
+        "review_count": 86,
+        "positive_ratio": 0.907
+      },
+      {
+        "month": "2023-12",
+        "positive_count": 76,
+        "review_count": 83,
+        "positive_ratio": 0.9157
+      },
+      {
+        "month": "2024-01",
+        "positive_count": 82,
+        "review_count": 90,
+        "positive_ratio": 0.9111
+      },
+      {
+        "month": "2024-02",
+        "positive_count": 61,
+        "review_count": 63,
+        "positive_ratio": 0.9683
+      },
+      {
+        "month": "2024-03",
+        "positive_count": 91,
+        "review_count": 112,
+        "positive_ratio": 0.8125
+      },
+      {
+        "month": "2024-04",
+        "positive_count": 104,
+        "review_count": 122,
+        "positive_ratio": 0.8525
+      },
+      {
+        "month": "2024-05",
+        "positive_count": 97,
+        "review_count": 104,
+        "positive_ratio": 0.9327
+      },
+      {
+        "month": "2024-06",
+        "positive_count": 73,
+        "review_count": 80,
+        "positive_ratio": 0.9125
+      },
+      {
+        "month": "2024-07",
+        "positive_count": 86,
+        "review_count": 100,
+        "positive_ratio": 0.86
+      },
+      {
+        "month": "2024-08",
+        "positive_count": 86,
+        "review_count": 97,
+        "positive_ratio": 0.8866
+      },
+      {
+        "month": "2024-09",
+        "positive_count": 47,
+        "review_count": 49,
+        "positive_ratio": 0.9592
+      },
+      {
+        "month": "2024-10",
+        "positive_count": 79,
+        "review_count": 85,
+        "positive_ratio": 0.9294
+      },
+      {
+        "month": "2024-11",
+        "positive_count": 97,
+        "review_count": 105,
+        "positive_ratio": 0.9238
+      },
+      {
+        "month": "2024-12",
+        "positive_count": 86,
+        "review_count": 92,
+        "positive_ratio": 0.9348
+      },
+      {
+        "month": "2025-01",
+        "positive_count": 83,
+        "review_count": 96,
+        "positive_ratio": 0.8646
+      },
+      {
+        "month": "2025-02",
+        "positive_count": 32,
+        "review_count": 35,
+        "positive_ratio": 0.9143
+      },
+      {
+        "month": "2025-03",
+        "positive_count": 11,
+        "review_count": 15,
+        "positive_ratio": 0.7333
+      },
+      {
+        "month": "2025-04",
+        "positive_count": 53,
+        "review_count": 64,
+        "positive_ratio": 0.8281
+      },
+      {
+        "month": "2025-05",
+        "positive_count": 62,
+        "review_count": 69,
+        "positive_ratio": 0.8986
+      },
+      {
+        "month": "2025-06",
+        "positive_count": 60,
+        "review_count": 73,
+        "positive_ratio": 0.8219
+      },
+      {
+        "month": "2025-07",
+        "positive_count": 66,
+        "review_count": 75,
+        "positive_ratio": 0.88
+      },
+      {
+        "month": "2025-08",
+        "positive_count": 62,
+        "review_count": 73,
+        "positive_ratio": 0.8493
+      },
+      {
+        "month": "2025-09",
+        "positive_count": 34,
+        "review_count": 41,
+        "positive_ratio": 0.8293
+      },
+      {
+        "month": "2025-10",
+        "positive_count": 68,
+        "review_count": 71,
+        "positive_ratio": 0.9577
+      },
+      {
+        "month": "2025-11",
+        "positive_count": 94,
+        "review_count": 103,
+        "positive_ratio": 0.9126
+      },
+      {
+        "month": "2025-12",
+        "positive_count": 74,
+        "review_count": 90,
+        "positive_ratio": 0.8222
+      },
+      {
+        "month": "2026-01",
+        "positive_count": 72,
+        "review_count": 87,
+        "positive_ratio": 0.8276
+      },
+      {
+        "month": "2026-02",
+        "positive_count": 54,
+        "review_count": 64,
+        "positive_ratio": 0.8438
+      },
+      {
+        "month": "2026-03",
+        "positive_count": 56,
+        "review_count": 65,
+        "positive_ratio": 0.8615
+      },
+      {
+        "month": "2026-04",
+        "positive_count": 52,
+        "review_count": 59,
+        "positive_ratio": 0.8814
+      }
+    ]
+  },
+  "game": {
+    "name": "Hearts of Iron IV",
+    "genres": [
+      "시뮬레이션",
+      "전략"
+    ],
+    "price_model": "paid",
+    "is_free": false,
+    "release_stage": "released",
+    "release_date_text": "2016년 6월 6일",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/67bbd0057627fc2244793bcdd09260c2539499cf/header.jpg?t=1776862899",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/08a0a8f6c28071017611aa39b835c193a27f2518/capsule_231x87.jpg?t=1776862899",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/08a0a8f6c28071017611aa39b835c193a27f2518/capsule_184x69.jpg?t=1776862899",
+    "screenshots": [
+      {
+        "id": "0",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/ss_242abc1c2ca21f7d8694ba8d9239d8944217b29f.600x338.jpg?t=1776862899",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/ss_242abc1c2ca21f7d8694ba8d9239d8944217b29f.1920x1080.jpg?t=1776862899"
+      },
+      {
+        "id": "1",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/ss_679ae0d56f3a3b33591262839588c4b1dc6bef12.600x338.jpg?t=1776862899",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/ss_679ae0d56f3a3b33591262839588c4b1dc6bef12.1920x1080.jpg?t=1776862899"
+      },
+      {
+        "id": "2",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/ss_ebcec59e821aa1ee43c6d047eaef4e846af99358.600x338.jpg?t=1776862899",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/ss_ebcec59e821aa1ee43c6d047eaef4e846af99358.1920x1080.jpg?t=1776862899"
+      },
+      {
+        "id": "3",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/ss_fc239db7ed07e8ec4e6440cd0c6ced88a955d90e.600x338.jpg?t=1776862899",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/ss_fc239db7ed07e8ec4e6440cd0c6ced88a955d90e.1920x1080.jpg?t=1776862899"
+      },
+      {
+        "id": "4",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/ss_c7916f607a289830f424daebe3e2f281afbb456b.600x338.jpg?t=1776862899",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/ss_c7916f607a289830f424daebe3e2f281afbb456b.1920x1080.jpg?t=1776862899"
+      },
+      {
+        "id": "5",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/ss_f07f7ebc18d5e6a9692ec748a4f203fe0c748feb.600x338.jpg?t=1776862899",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/ss_f07f7ebc18d5e6a9692ec748a4f203fe0c748feb.1920x1080.jpg?t=1776862899"
+      }
+    ],
+    "movies": [
+      {
+        "id": "257012977",
+        "name": "Hearts of Iron IV - Trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257012977/movie.293x165.jpg?t=1712235668",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/394360/682731/bd7bbea629ccbef568dd3c4d8552ba6e05b3c0ed/1750525316/hls_264_master.m3u8?t=1712235668",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/394360/682731/bd7bbea629ccbef568dd3c4d8552ba6e05b3c0ed/1750525316/dash_h264.mpd?t=1712235668",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/394360/682731/bd7bbea629ccbef568dd3c4d8552ba6e05b3c0ed/1750525316/dash_av1.mpd?t=1712235668",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/394360/682731/bd7bbea629ccbef568dd3c4d8552ba6e05b3c0ed/1750525316/hls_264_master.m3u8?t=1712235668"
+      }
+    ],
+    "short_description": "Victory is at your fingertips! Your ability to lead your nation is your supreme weapon, the strategy game Hearts of Iron IV lets you take command of any nation in World War II; the most engaging conflict in world history.",
+    "steam_store_url": "https://store.steampowered.com/app/394360",
+    "steam_recommendation_count": 272690,
+    "steam_review_score_desc": "Very Positive",
+    "steam_total_positive": 6476,
+    "steam_total_negative": 849,
+    "steam_total_reviews": 7325,
+    "price_currency": "KRW",
+    "price_current": 5500000,
+    "price_original": 5500000,
+    "price_current_formatted": "₩ 55,000",
+    "price_original_formatted": null,
+    "price_discount_percent": 0
+  },
+  "report_plan": {
+    "decision_anchor": {
+      "buy_recommendation": "buy_now",
+      "primary_reason_ids": [
+        "risk_1",
+        "risk_2"
+      ],
+      "rationale_short": "최근 후기 흐름에서 체감 불편이 크게 늘지 않아 지금 시작해도 부담이 낮은 편입니다."
+    },
+    "section_blueprint": {
+      "strength_block_count": 3,
+      "risk_block_count": 3,
+      "evidence_per_block": 3
+    },
+    "theme_priorities": {
+      "strengths": [
+        {
+          "reason_id": "str_1",
+          "aspect": "gameplay",
+          "theme": "전투 손맛 / 액션 호평"
+        }
+      ],
+      "risks": [
+        {
+          "reason_id": "risk_1",
+          "aspect": "monetization",
+          "theme": "가격 / 과금 불만"
+        },
+        {
+          "reason_id": "risk_2",
+          "aspect": "mod_support",
+          "theme": "모드 지원 / 호환 문제"
+        },
+        {
+          "reason_id": "risk_3",
+          "aspect": "content_depth",
+          "theme": "콘텐츠 부족"
+        }
+      ]
+    }
+  },
+  "report_display": {
+    "headline": "전술과 운영 판단의 깊이를 즐기는 플레이어에게 지금 바로 추천합니다.",
+    "buy_recommendation": "buy_now",
+    "buy_timing_summary": "최근 후기에서 큰 불편함이 없으니 부담 없이 시작해 보세요.",
+    "good_for": [
+      "전술과 운영 판단을 오래 다듬는 플레이어"
+    ],
+    "not_good_for": [
+      "비용 대비 만족을 꼼꼼하게 따지는 플레이어",
+      "같은 흐름이 길어지면 피로를 크게 느끼는 플레이어",
+      "처음부터 빠르게 적응하고 뛰어들고 싶은 플레이어"
+    ],
+    "top_strengths": [
+      {
+        "title": "전략의 깊이와 복잡성",
+        "summary": "국가의 모든 군사, 정치, 경제적 요소를 세밀하게 관리하며 전쟁을 지휘하는 경험이 매우 몰입감 있습니다."
+      },
+      {
+        "title": "방대한 역사적 시나리오",
+        "summary": "2차 세계대전의 다양한 역사적 루트와 대체 역사를 자유롭게 탐험하며 자신만의 역사를 만들어 갈 수 있습니다."
+      },
+      {
+        "title": "풍부한 모드와 커스터마이징",
+        "summary": "다양한 모드가 지원되어 게임의 재미와 확장성을 높여 주며, 플레이어의 취향에 맞게 게임을 즐길 수 있습니다."
+      }
+    ],
+    "top_risks": [
+      {
+        "title": "과도한 DLC 비용 부담",
+        "summary": "게임 플레이에 필수적인 요소들이 DLC로 나뉘어 있어, 모든 콘텐츠를 즐기려면 높은 비용 지출이 불가피합니다."
+      },
+      {
+        "title": "초보자 진입 장벽과 학습 난이도",
+        "summary": "복잡한 시스템과 부족한 튜토리얼로 인해 처음 접하는 플레이어가 게임을 익히고 적응하는 데 많은 시간이 필요합니다."
+      },
+      {
+        "title": "최적화 및 멀티플레이 불안정",
+        "summary": "후반부 렉과 멀티플레이 서버의 불안정으로 인해 원활한 플레이가 어렵고, 잦은 버그와 크래시가 발생할 수 있습니다."
+      }
+    ],
+    "recent_state": {
+      "status": "mixed",
+      "summary": "전략과 전쟁의 깊이는 인정받지만, 과도한 DLC와 최적화 문제로 불편함이 여전한 상황입니다."
+    }
+  },
+  "evidence_sections": {
+    "strengths": [
+      {
+        "block_id": "str_1",
+        "title": "전술과 운영 판단의 재미가 크다는 반응",
+        "theme": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험",
+        "why_it_matters": "전술과 운영 판단의 재미를 말하는 반응이 많아 오래 다듬는 플레이와 잘 맞습니다.",
+        "explanation": "전술과 운영 판단의 재미를 말하는 반응이 많아 오래 다듬는 플레이와 잘 맞습니다.",
+        "aspect_keys": [
+          "gameplay"
+        ],
+        "stance": "positive",
+        "consensus_level": "medium",
+        "mention_count": 164,
+        "evidence_quality_level": "guaranteed_fill",
+        "evidence_candidate_snippets": [
+          "DLC 가격 내려라 C8 영국같은 넘들아",
+          "지도 좋아 근데 왜 업데이트를 DLC로 하는지..?",
+          "너무 재밌게 즐기고 있는 뉴비인데 디엘씨 가격이 미친것 같음... 할인 좀 많이 해주세요",
+          "DLC 그만 만들고 후속작 좀 만들어라 똥내 나서 못하겠네",
+          "한번 빠져들면 시간이 녹아내리네요...창작마당까지도 다양하게 올라와있어서 저녁부터 다음날 아침까지 5시까지 한적이 수도 없이 많습니다. WW2 전략게임을 좋아하신다면 추천드립니다.",
+          "DLC 없으면 못하는 게임, 아니 모드 구동기. 근데 왜 재밌냐고",
+          "500시간 이상부턴 모드밖에 안함.",
+          "초반에 어렵긴 한데 중후반 가면 존나 재밌음 할인할때 사는거 추천"
+        ],
+        "evidence_snippets": [
+          "DLC 없으면 못하는 게임, 아니 모드 구동기. 근데 왜 재밌냐고",
+          "한번 빠져들면 시간이 녹아내리네요... 창작마당까지도 다양하게 올라와있어서 저녁부터 다음날 아침까지 5시까지 한적이 수도 없이 많습니다. WW2 전략게임을 좋아하신다면 추천드립니다.",
+          "너무 재밌게 즐기고 있는 뉴비인데 디엘씨 가격이 미친것 같음... 할인 좀 많이 해주세요"
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-positive-1-1-158561579264759865",
+            "text": "DLC 가격 내려라 C8 영국같은 넘들아"
+          },
+          {
+            "review_id": "compress-v3-positive-1-2-819134582980639612",
+            "text": "지도 좋아 근데 왜 업데이트를 DLC로 하는지..?"
+          },
+          {
+            "review_id": "compress-v3-positive-1-3-7396216812967214478",
+            "text": "너무 재밌게 즐기고 있는 뉴비인데 디엘씨 가격이 미친것 같음... 할인 좀 많이 해주세요"
+          },
+          {
+            "review_id": "compress-v3-positive-1-4-8629482531061545573",
+            "text": "DLC 그만 만들고 후속작 좀 만들어라 똥내 나서 못하겠네"
+          },
+          {
+            "review_id": "compress-v3-positive-1-5-6396736164485028187",
+            "text": "한번 빠져들면 시간이 녹아내리네요...창작마당까지도 다양하게 올라와있어서 저녁부터 다음날 아침까지 5시까지 한적이 수도 없이 많습니다. WW2 전략게임을 좋아하신다면 추천드립니다."
+          },
+          {
+            "review_id": "compress-v3-positive-1-6-46458395555656938",
+            "text": "DLC 없으면 못하는 게임, 아니 모드 구동기. 근데 왜 재밌냐고"
+          },
+          {
+            "review_id": "compress-v3-positive-1-7-1726173641381873421",
+            "text": "500시간 이상부턴 모드밖에 안함."
+          },
+          {
+            "review_id": "compress-v3-positive-1-8-4013412563309902241",
+            "text": "초반에 어렵긴 한데 중후반 가면 존나 재밌음 할인할때 사는거 추천"
+          }
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "block_id": "risk_1",
+        "title": "가격 대비 만족이 갈린다는 반응",
+        "theme": "가격 대비 만족도가 갈려 구매 타이밍을 따져봐야 하는 포인트",
+        "why_it_matters": "가격 대비 만족을 지적하는 반응이 있어 비용 대비 만족을 꼼꼼히 보면 고민이 필요할 수 있습니다.",
+        "explanation": "가격 대비 만족을 지적하는 반응이 있어 비용 대비 만족을 꼼꼼히 보면 고민이 필요할 수 있습니다.",
+        "aspect_keys": [
+          "monetization"
+        ],
+        "stance": "negative",
+        "consensus_level": "high",
+        "mention_count": 829,
+        "evidence_quality_level": "relaxed",
+        "evidence_candidate_snippets": [
+          "이 게임을 정말 좋아하는 입장에서 말해보자면, 이 게임은 그 누구한테도 추천해주고 싶지 않은 개 쓰레기 똥 bbi웅신 겜이다. 가장 먼저 말해야할 부분은 DLC팔이를 굉장히 역하게 해댄다. 그동안 살아오면서 수많은 게임회사를 봤지만 이만큼 노골적으로 DLC 팔이를 해쳐먹겠다를 아주 '노골적으로' 표현하고 실행하는 회사는 이 회사가 유일하다. 기본적으로 게임 자체도 비싼데 게임의 필수DLC까지 사려면 10만원은 가볍게 넘길 뿐더러, 최근 DLC를 제외하면 거의 게임 플레이에 핵심이 되는 요소들이 많기 때문에 안사고 플레이를 하는건 굉장히 비추천하고 그렇다고 몇십만원주고 DLC를 풀 구매 때리는것도 정신 나간 짓이라고 본다. 진짜 싸가지 없는건 DLC요소 자체가 굉장히 일반 업데이트에서 해줄법한 요소들이 많은데 꾸역꾸역 DLC 만들고 2만원이 넘는 금액에 파는꼬라지를 보면 있는정 없는정 다 떨어져나간다. 위의 심각한 DLC팔이와 연계되는점이 DLC파는건 진짜 없는거 다 끌어모아서 출시하면서 정작 게임 안의 요소는 겜안분 투성이며, 최적화는 내가 게임을 샀을때 시절과 비슷하게 땅이 쳐박혔다는점이다. 이 게임이 기본적으로 깊어질 요소가 굉장히 많은데 그에 비해 게임AI와 난이도는 돈이 안되는지 내가 게임을 살때와 동일하게 바보같다는점도 화나고, 이건 뭐 창작마당으로 커버가 된다고 쳐도 최적화 문제는 이 게임 태어났을때부터 꾸준히 제시되왔던 문젠데 진짜 거짓말 하나도 안하고 이 게임은 내가 샀을때부터 현재까지 최적화가 전~혀 나아지지 않았다. 멀티는 게임 나온지 몇년이 쳐 지났는데 아직도 존나 불안정하고, 컴퓨터 사양이 얼마나 되든 렉걸릴 상황에서는 5배속도 돌아가지 않는다. 최근 업데이트는 더 정떨어지는데, 이 게임이 명색이 2차 세계대전 시뮬레이션인데, 2차 세계대전 주요국들을 당연히 더 지원해주고, 보강해줘야하는데 이 BBI웅신같은 회사들은 DLC팔이에 미쳐서 역사고증마져 집어던지고 미국보다 강한 남미, 뭔 억지로 만드는 태평양 제국 필리핀 이딴거나 출시하면서 기본적인 강대국인 영국,미국,프랑스는 몇년째 업데이트 없이 버려져있는 실정이다. 게임이 이렇다보니 밸런스가 맞을리도 없고 석유보다 석탄이 중요하게 작용하고, 독일이 연합국보다 풍족하게 사는 어지러운 밸런스도 그냥 무시깐채로 방치하고있는 상황이다.",
+          "진짜 버그를 만들지 말던가 크래시를 내지 말던가 뭔 업데이트를 dlc로 함? 진짜 패독이 패독했다",
+          "무료로 바꾼 dlc 돈 안 돌려주냐",
+          "튜토리얼에서 조차 기초를 가르쳐주지 않음 살다살다 게임 기초를 위키에서 배우라고 위임하는 게임은 처음 그 위키도 DLC 최신판 있는 유저 기준으로 적혀있어서 dlc하나도 없으면 이해하기 어려운 부분 존재함 하는것:지도에서 병사 움직이기 , 땅밀기 . 내가 ww2 역사에 있다기보단 워게임 돌리는 것에 더 가까움 당시 역사가 어땠는지 느끼고 싶으면 차라리 영화 1편 책 1편 더 읽는게 나을 지경 이딴걸 DLC 20개가 넘게 쪼개서 판다고 ? 심즈가 니네보다 덜할지경 심즈는 게임이라도 돌릴수있지",
+          "비추 이유 1. 패치를 돈 주고 사라고 배째라 하는 놈들이다. 2. 버그 픽스는 밍기적밍기적댄다. 3. 하츠 오브 아이언 4 전담 부서가 존재하는지 궁금할 정도로 1년에 한 번 수준으로 패치한다. 4. 패치를 돈 주고 사면 어느새 일부 혹은 전부가 바닐라에 편입되어있다. 이건 75% 할인할 때 사는 게 무조건 정답. 50% 할인도 폭리 취하는 것일 뿐이니 75% 할인할 때만 사는 게 무조건 정답. 역시 유로파4 스텔라리스에서 장사질하는 애들 답다. 스킨 팩 DLC 등등을 포함한 유로파4의 현재 전체 가격은 40만원에 육박한다.",
+          "오늘 3주년 기념 영상이 유튜브에 올라온 것을 보고 늦게나마 평가를 쓰게 되었습니다. 3년 동안 내놓은 DLC만 4개인 현재 게임의 상태는 여전히 미완성인 상태입니다. 자동차로 비유해드리면 비싼 자동차를 돈을 주고 샀는데 엔진도 없고 유리창도 없고 기름도 없고 타이어 바퀴 4개도 없는 상태의 자동차를 구매 하는 것과 다름없습니다. 그리고는 지금 현재 타이어 4개에 추가 비용을 내서 달아준것에 감사해야 하고 기뻐해야하는 상황입니다. 3년 동안 타이어 4개를 겨우 추가해줬습니다. 그것도 내 돈주고 옵션으로 추가해서 말입니다. 정말이지 날강도가 따로 없습니다. 패러독스는 절대로 완제품을 판매하지 않습니다. 멀티를 할 것이 아니라면 불법 다운로드를 권장합니다.",
+          "최대의 발목은 한국어 빅토리아3에 모든 DLC를 구입한 나이지만 이건 차마 아직 구입안한 DLC에 손이 안가는건 언어의 장벽을 어쩔수가 없다. 개인적인 한국어 패치가 어딘가에 올라와 있다지만 그거 찿는것을 유저가 하는것이랑 제작사에서 알아서 해주는게 같을수는 없는법"
+        ],
+        "evidence_snippets": [
+          "비추 이유 1. 패치를 돈 주고 사라고 배째라 하는 놈들이다. 2. 버그 픽스는 밍기적밍기적댄다. 3. 하츠 오브 아이언 4 전담 부서가 존재하는지 궁금할 정도로 1년에 한 번 수준으로 패치한다. 4. 패치를 돈 주고 사면 어느새 일부 혹은 전부가 바닐라에 편입되어있다. 이건 75% 할인할 때 사는 게 무조건 정답. 50% 할인도 폭리 취하는 것일 뿐이니 75% 할인할 때만 사는 게 무조건 정답. 역시 유로파4 스텔라리스에서 장사질하는 애들 답다. 스킨 팩 DLC 등등을 포함한 유로파4의 현재 전체 가격은 40만원에 육박한다.",
+          "진짜 버그를 만들지 말던가 크래시를 내지 말던가 뭔 업데이트를 dlc로 함? 진짜 패독이 패독했다",
+          "이 게임을 정말 좋아하는 입장에서 말해보자면, 이 게임은 그 누구한테도 추천해주고 싶지 않은 개 쓰레기 똥 bbi웅신 겜이다. 가장 먼저 말해야할 부분은 DLC팔이를 굉장히 역하게 해댄다. 그동안 살아오면서 수많은 게임회사를 봤지만 이만큼 노골적으로 DLC 팔이를 해쳐먹겠다를 아주 '노골적으로' 표현하고 실행하는 회사는 이 회사가 유일하다. 기본적으로 게임 자체도 비싼데 게임의 필수DLC까지 사려면 10만원은 가볍게 넘길 뿐더러, 최근 DLC를 제외하면 거의 게임 플레이에 핵심이 되는 요소들이 많기 때문에 안사고 플레이를 하는건 굉장히 비추천하고 그렇다고 몇십만원주고 DLC를 풀 구매 때리는것도 정신 나간 짓이라고 본다. 진짜 싸가지 없는건 DLC요소 자체가 굉장히 일반 업데이트에서 해줄법한 요소들이 많은데 꾸역꾸역 DLC 만들고 2만원이 넘는 금액에 파는꼬라지를 보면 있는정 없는정 다 떨어져나간다. 위의 심각한 DLC팔이와 연계되는점이 DLC파는건 진짜 없는거 다 끌어모아서 출시하면서 정작 게임 안의 요소는 겜안분 투성이며, 최적화는 내가 게임을 샀을때 시절과 비슷하게 땅이 쳐박혔다는점이다. 이 게임이 기본적으로 깊어질 요소가 굉장히 많은데 그에 비해 게임AI와 난이도는 돈이 안되는지 내가 게임을 살때와 동일하게 바보같다는점도 화나고, 이건 뭐 창작마당으로 커버가 된다고 쳐도 최적화 문제는 이 게임 태어났을때부터 꾸준히 제시되왔던 문젠데 진짜 거짓말 하나도 안하고 이 게임은 내가 샀을때부터 현재까지 최적화가 전~혀 나아지지 않았다. 멀티는 게임 나온지 몇년이 쳐 지났는데 아직도 존나 불안정하고, 컴퓨터 사양이 얼마나 되든 렉걸릴 상황에서는 5배속도 돌아가지 않는다. 최근 업데이트는 더 정떨어지는데, 이 게임이 명색이 2차 세계대전 시뮬레이션인데, 2차 세계대전 주요국들을 당연히 더 지원해주고, 보강해줘야하는데 이 BBI웅신같은 회사들은 DLC팔이에 미쳐서 역사고증마져 집어던지고 미국보다 강한 남미, 뭔 억지로 만드는 태평양 제국 필리핀 이딴거나 출시하면서 기본적인 강대국인 영국, 미국, 프랑스는 몇년째 업데이트 없이 버려져있는 실정이다. 게임이 이렇다보니 밸런스가 맞을리도 없고 석유보다 석탄이 중요하게 작용하고, 독일이 연합국보다 풍족하게 사는 어지러운 밸런스도 그냥 무시깐채로 방치하고있는 상황이다."
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-negative-1-1-5489414280768193486",
+            "text": "이 게임을 정말 좋아하는 입장에서 말해보자면, 이 게임은 그 누구한테도 추천해주고 싶지 않은 개 쓰레기 똥 bbi웅신 겜이다. 가장 먼저 말해야할 부분은 DLC팔이를 굉장히 역하게 해댄다. 그동안 살아오면서 수많은 게임회사를 봤지만 이만큼 노골적으로 DLC 팔이를 해쳐먹겠다를 아주 '노골적으로' 표현하고 실행하는 회사는 이 회사가 유일하다. 기본적으로 게임 자체도 비싼데 게임의 필수DLC까지 사려면 10만원은 가볍게 넘길 뿐더러, 최근 DLC를 제외하면 거의 게임 플레이에 핵심이 되는 요소들이 많기 때문에 안사고 플레이를 하는건 굉장히 비추천하고 그렇다고 몇십만원주고 DLC를 풀 구매 때리는것도 정신 나간 짓이라고 본다. 진짜 싸가지 없는건 DLC요소 자체가 굉장히 일반 업데이트에서 해줄법한 요소들이 많은데 꾸역꾸역 DLC 만들고 2만원이 넘는 금액에 파는꼬라지를 보면 있는정 없는정 다 떨어져나간다. 위의 심각한 DLC팔이와 연계되는점이 DLC파는건 진짜 없는거 다 끌어모아서 출시하면서 정작 게임 안의 요소는 겜안분 투성이며, 최적화는 내가 게임을 샀을때 시절과 비슷하게 땅이 쳐박혔다는점이다. 이 게임이 기본적으로 깊어질 요소가 굉장히 많은데 그에 비해 게임AI와 난이도는 돈이 안되는지 내가 게임을 살때와 동일하게 바보같다는점도 화나고, 이건 뭐 창작마당으로 커버가 된다고 쳐도 최적화 문제는 이 게임 태어났을때부터 꾸준히 제시되왔던 문젠데 진짜 거짓말 하나도 안하고 이 게임은 내가 샀을때부터 현재까지 최적화가 전~혀 나아지지 않았다. 멀티는 게임 나온지 몇년이 쳐 지났는데 아직도 존나 불안정하고, 컴퓨터 사양이 얼마나 되든 렉걸릴 상황에서는 5배속도 돌아가지 않는다. 최근 업데이트는 더 정떨어지는데, 이 게임이 명색이 2차 세계대전 시뮬레이션인데, 2차 세계대전 주요국들을 당연히 더 지원해주고, 보강해줘야하는데 이 BBI웅신같은 회사들은 DLC팔이에 미쳐서 역사고증마져 집어던지고 미국보다 강한 남미, 뭔 억지로 만드는 태평양 제국 필리핀 이딴거나 출시하면서 기본적인 강대국인 영국,미국,프랑스는 몇년째 업데이트 없이 버려져있는 실정이다. 게임이 이렇다보니 밸런스가 맞을리도 없고 석유보다 석탄이 중요하게 작용하고, 독일이 연합국보다 풍족하게 사는 어지러운 밸런스도 그냥 무시깐채로 방치하고있는 상황이다."
+          },
+          {
+            "review_id": "compress-v3-negative-1-2-4608373612574654348",
+            "text": "진짜 버그를 만들지 말던가 크래시를 내지 말던가 뭔 업데이트를 dlc로 함? 진짜 패독이 패독했다"
+          },
+          {
+            "review_id": "compress-v3-negative-1-3-5382558998472311604",
+            "text": "무료로 바꾼 dlc 돈 안 돌려주냐"
+          },
+          {
+            "review_id": "compress-v3-negative-1-4-4142458549022524914",
+            "text": "튜토리얼에서 조차 기초를 가르쳐주지 않음 살다살다 게임 기초를 위키에서 배우라고 위임하는 게임은 처음 그 위키도 DLC 최신판 있는 유저 기준으로 적혀있어서 dlc하나도 없으면 이해하기 어려운 부분 존재함 하는것:지도에서 병사 움직이기 , 땅밀기 . 내가 ww2 역사에 있다기보단 워게임 돌리는 것에 더 가까움 당시 역사가 어땠는지 느끼고 싶으면 차라리 영화 1편 책 1편 더 읽는게 나을 지경 이딴걸 DLC 20개가 넘게 쪼개서 판다고 ? 심즈가 니네보다 덜할지경 심즈는 게임이라도 돌릴수있지"
+          },
+          {
+            "review_id": "compress-v3-negative-1-6-1152671521540518433",
+            "text": "비추 이유 1. 패치를 돈 주고 사라고 배째라 하는 놈들이다. 2. 버그 픽스는 밍기적밍기적댄다. 3. 하츠 오브 아이언 4 전담 부서가 존재하는지 궁금할 정도로 1년에 한 번 수준으로 패치한다. 4. 패치를 돈 주고 사면 어느새 일부 혹은 전부가 바닐라에 편입되어있다. 이건 75% 할인할 때 사는 게 무조건 정답. 50% 할인도 폭리 취하는 것일 뿐이니 75% 할인할 때만 사는 게 무조건 정답. 역시 유로파4 스텔라리스에서 장사질하는 애들 답다. 스킨 팩 DLC 등등을 포함한 유로파4의 현재 전체 가격은 40만원에 육박한다."
+          },
+          {
+            "review_id": "compress-v3-negative-1-7-3937637253081972424",
+            "text": "오늘 3주년 기념 영상이 유튜브에 올라온 것을 보고 늦게나마 평가를 쓰게 되었습니다. 3년 동안 내놓은 DLC만 4개인 현재 게임의 상태는 여전히 미완성인 상태입니다. 자동차로 비유해드리면 비싼 자동차를 돈을 주고 샀는데 엔진도 없고 유리창도 없고 기름도 없고 타이어 바퀴 4개도 없는 상태의 자동차를 구매 하는 것과 다름없습니다. 그리고는 지금 현재 타이어 4개에 추가 비용을 내서 달아준것에 감사해야 하고 기뻐해야하는 상황입니다. 3년 동안 타이어 4개를 겨우 추가해줬습니다. 그것도 내 돈주고 옵션으로 추가해서 말입니다. 정말이지 날강도가 따로 없습니다. 패러독스는 절대로 완제품을 판매하지 않습니다. 멀티를 할 것이 아니라면 불법 다운로드를 권장합니다."
+          },
+          {
+            "review_id": "compress-v3-negative-1-8-471776145967858625",
+            "text": "최대의 발목은 한국어 빅토리아3에 모든 DLC를 구입한 나이지만 이건 차마 아직 구입안한 DLC에 손이 안가는건 언어의 장벽을 어쩔수가 없다. 개인적인 한국어 패치가 어딘가에 올라와 있다지만 그거 찿는것을 유저가 하는것이랑 제작사에서 알아서 해주는게 같을수는 없는법"
+          }
+        ]
+      },
+      {
+        "block_id": "risk_2",
+        "title": "오류와 끊김이 흐름을 끊는다는 반응",
+        "theme": "모드 지원 / 호환 문제",
+        "why_it_matters": "오류와 끊김을 지적하는 반응이 이어져 흐름이 끊기는 상황은 감수할 필요가 있습니다.",
+        "explanation": "오류와 끊김을 지적하는 반응이 이어져 흐름이 끊기는 상황은 감수할 필요가 있습니다.",
+        "aspect_keys": [
+          "mod_support"
+        ],
+        "stance": "negative",
+        "consensus_level": "high",
+        "mention_count": 361,
+        "evidence_quality_level": "strict",
+        "evidence_candidate_snippets": [
+          "업데이트 되면 모드 다잠기고 수시로 튕기는 똥겜입니다",
+          "엇?! 한글이 일부가 깨져서 한글모드 새로 찾으려고 들어왔는데.. 한글화 되었네?!!!!!! 불편함이 없어졌습니다!!!! 수송기도 못 만들고 있었는데, 연구화면 옆으로 스크롤 넘기면 수송기 연구 부분 있습니다! 빅토리아3 하느라 이건 오리지널만!!",
+          "왜 만듬 모드 도안돼고 버그 망겜 꺼저라"
+        ],
+        "evidence_snippets": [
+          "엇?! 한글이 일부가 깨져서 한글모드 새로 찾으려고 들어왔는데.. 한글화 되었네?!!!!!! 불편함이 없어졌습니다!!!! 수송기도 못 만들고 있었는데, 연구화면 옆으로 스크롤 넘기면 수송기 연구 부분 있습니다! 빅토리아3 하느라 이건 오리지널만!!",
+          "왜 만듬 모드 도안돼고 버그 망겜 꺼저라"
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-negative-2-2-9036960071238182105",
+            "text": "업데이트 되면 모드 다잠기고 수시로 튕기는 똥겜입니다"
+          },
+          {
+            "review_id": "compress-v3-negative-2-3-2066770299742168755",
+            "text": "엇?! 한글이 일부가 깨져서 한글모드 새로 찾으려고 들어왔는데.. 한글화 되었네?!!!!!! 불편함이 없어졌습니다!!!! 수송기도 못 만들고 있었는데, 연구화면 옆으로 스크롤 넘기면 수송기 연구 부분 있습니다! 빅토리아3 하느라 이건 오리지널만!!"
+          },
+          {
+            "review_id": "compress-v3-negative-2-4-337379727326822290",
+            "text": "왜 만듬 모드 도안돼고 버그 망겜 꺼저라"
+          }
+        ]
+      },
+      {
+        "block_id": "risk_3",
+        "title": "반복감이 피로로 이어진다는 반응",
+        "theme": "플레이 시간이 누적될수록 새로움이 빨리 소진될 수 있는 리스크",
+        "why_it_matters": "반복감이 피로로 이어진다는 반응이 있어 새로움이 빨리 줄어드는 구간은 감수해야 할 수 있습니다.",
+        "explanation": "반복감이 피로로 이어진다는 반응이 있어 새로움이 빨리 줄어드는 구간은 감수해야 할 수 있습니다.",
+        "aspect_keys": [
+          "content_depth"
+        ],
+        "stance": "negative",
+        "consensus_level": "high",
+        "mention_count": 359,
+        "evidence_quality_level": "relaxed",
+        "evidence_candidate_snippets": [
+          "내 컴은 똥컴이 아니라고.... 후반만 되면 렉걸리는건....",
+          "업데이트 되면 모드 다잠기고 수시로 튕기는 똥겜입니다"
+        ],
+        "evidence_snippets": [
+          "내 컴은 똥컴이 아니라고.... 후반만 되면 렉걸리는건....",
+          "업데이트 되면 모드 다잠기고 수시로 튕기는 똥겜입니다"
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-negative-3-2-9063027631353508860",
+            "text": "내 컴은 똥컴이 아니라고.... 후반만 되면 렉걸리는건...."
+          },
+          {
+            "review_id": "compress-v3-negative-3-4-9036960071238182105",
+            "text": "업데이트 되면 모드 다잠기고 수시로 튕기는 똥겜입니다"
+          }
+        ]
+      }
+    ]
+  },
+  "disclaimer": "여러 유저 리뷰를 바탕으로 정리했어요. 플레이 경험은 사람마다 다를 수 있어요.",
+  "headline": "전술과 운영 판단의 깊이를 즐기는 플레이어에게 지금 바로 추천합니다.",
+  "buy_recommendation": "buy_now",
+  "buy_timing_summary": "최근 후기에서 큰 불편함이 없으니 부담 없이 시작해 보세요.",
+  "good_for": [
+    "전술과 운영 판단을 오래 다듬는 플레이어"
+  ],
+  "not_good_for": [
+    "비용 대비 만족을 꼼꼼하게 따지는 플레이어",
+    "같은 흐름이 길어지면 피로를 크게 느끼는 플레이어",
+    "처음부터 빠르게 적응하고 뛰어들고 싶은 플레이어"
+  ],
+  "top_strengths": [
+    {
+      "title": "전략의 깊이와 복잡성",
+      "summary": "국가의 모든 군사, 정치, 경제적 요소를 세밀하게 관리하며 전쟁을 지휘하는 경험이 매우 몰입감 있습니다."
+    },
+    {
+      "title": "방대한 역사적 시나리오",
+      "summary": "2차 세계대전의 다양한 역사적 루트와 대체 역사를 자유롭게 탐험하며 자신만의 역사를 만들어 갈 수 있습니다."
+    },
+    {
+      "title": "풍부한 모드와 커스터마이징",
+      "summary": "다양한 모드가 지원되어 게임의 재미와 확장성을 높여 주며, 플레이어의 취향에 맞게 게임을 즐길 수 있습니다."
+    }
+  ],
+  "top_risks": [
+    {
+      "title": "과도한 DLC 비용 부담",
+      "summary": "게임 플레이에 필수적인 요소들이 DLC로 나뉘어 있어, 모든 콘텐츠를 즐기려면 높은 비용 지출이 불가피합니다."
+    },
+    {
+      "title": "초보자 진입 장벽과 학습 난이도",
+      "summary": "복잡한 시스템과 부족한 튜토리얼로 인해 처음 접하는 플레이어가 게임을 익히고 적응하는 데 많은 시간이 필요합니다."
+    },
+    {
+      "title": "최적화 및 멀티플레이 불안정",
+      "summary": "후반부 렉과 멀티플레이 서버의 불안정으로 인해 원활한 플레이가 어렵고, 잦은 버그와 크래시가 발생할 수 있습니다."
+    }
+  ],
+  "recent_state": {
+    "status": "mixed",
+    "summary": "전략과 전쟁의 깊이는 인정받지만, 과도한 DLC와 최적화 문제로 불편함이 여전한 상황입니다."
+  },
+  "evidence_reviews": [
+    {
+      "block_id": "str_1",
+      "title": "전술과 운영 판단의 재미가 크다는 반응",
+      "theme": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험",
+      "why_it_matters": "전술과 운영 판단의 재미를 말하는 반응이 많아 오래 다듬는 플레이와 잘 맞습니다.",
+      "explanation": "전술과 운영 판단의 재미를 말하는 반응이 많아 오래 다듬는 플레이와 잘 맞습니다.",
+      "aspect_keys": [
+        "gameplay"
+      ],
+      "stance": "positive",
+      "consensus_level": "medium",
+      "mention_count": 164,
+      "evidence_quality_level": "guaranteed_fill",
+      "evidence_candidate_snippets": [
+        "DLC 가격 내려라 C8 영국같은 넘들아",
+        "지도 좋아 근데 왜 업데이트를 DLC로 하는지..?",
+        "너무 재밌게 즐기고 있는 뉴비인데 디엘씨 가격이 미친것 같음... 할인 좀 많이 해주세요",
+        "DLC 그만 만들고 후속작 좀 만들어라 똥내 나서 못하겠네",
+        "한번 빠져들면 시간이 녹아내리네요...창작마당까지도 다양하게 올라와있어서 저녁부터 다음날 아침까지 5시까지 한적이 수도 없이 많습니다. WW2 전략게임을 좋아하신다면 추천드립니다.",
+        "DLC 없으면 못하는 게임, 아니 모드 구동기. 근데 왜 재밌냐고",
+        "500시간 이상부턴 모드밖에 안함.",
+        "초반에 어렵긴 한데 중후반 가면 존나 재밌음 할인할때 사는거 추천"
+      ],
+      "evidence_snippets": [
+        "DLC 없으면 못하는 게임, 아니 모드 구동기. 근데 왜 재밌냐고",
+        "한번 빠져들면 시간이 녹아내리네요... 창작마당까지도 다양하게 올라와있어서 저녁부터 다음날 아침까지 5시까지 한적이 수도 없이 많습니다. WW2 전략게임을 좋아하신다면 추천드립니다.",
+        "너무 재밌게 즐기고 있는 뉴비인데 디엘씨 가격이 미친것 같음... 할인 좀 많이 해주세요"
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-positive-1-1-158561579264759865",
+          "text": "DLC 가격 내려라 C8 영국같은 넘들아"
+        },
+        {
+          "review_id": "compress-v3-positive-1-2-819134582980639612",
+          "text": "지도 좋아 근데 왜 업데이트를 DLC로 하는지..?"
+        },
+        {
+          "review_id": "compress-v3-positive-1-3-7396216812967214478",
+          "text": "너무 재밌게 즐기고 있는 뉴비인데 디엘씨 가격이 미친것 같음... 할인 좀 많이 해주세요"
+        },
+        {
+          "review_id": "compress-v3-positive-1-4-8629482531061545573",
+          "text": "DLC 그만 만들고 후속작 좀 만들어라 똥내 나서 못하겠네"
+        },
+        {
+          "review_id": "compress-v3-positive-1-5-6396736164485028187",
+          "text": "한번 빠져들면 시간이 녹아내리네요...창작마당까지도 다양하게 올라와있어서 저녁부터 다음날 아침까지 5시까지 한적이 수도 없이 많습니다. WW2 전략게임을 좋아하신다면 추천드립니다."
+        },
+        {
+          "review_id": "compress-v3-positive-1-6-46458395555656938",
+          "text": "DLC 없으면 못하는 게임, 아니 모드 구동기. 근데 왜 재밌냐고"
+        },
+        {
+          "review_id": "compress-v3-positive-1-7-1726173641381873421",
+          "text": "500시간 이상부턴 모드밖에 안함."
+        },
+        {
+          "review_id": "compress-v3-positive-1-8-4013412563309902241",
+          "text": "초반에 어렵긴 한데 중후반 가면 존나 재밌음 할인할때 사는거 추천"
+        }
+      ]
+    },
+    {
+      "block_id": "risk_1",
+      "title": "가격 대비 만족이 갈린다는 반응",
+      "theme": "가격 대비 만족도가 갈려 구매 타이밍을 따져봐야 하는 포인트",
+      "why_it_matters": "가격 대비 만족을 지적하는 반응이 있어 비용 대비 만족을 꼼꼼히 보면 고민이 필요할 수 있습니다.",
+      "explanation": "가격 대비 만족을 지적하는 반응이 있어 비용 대비 만족을 꼼꼼히 보면 고민이 필요할 수 있습니다.",
+      "aspect_keys": [
+        "monetization"
+      ],
+      "stance": "negative",
+      "consensus_level": "high",
+      "mention_count": 829,
+      "evidence_quality_level": "relaxed",
+      "evidence_candidate_snippets": [
+        "이 게임을 정말 좋아하는 입장에서 말해보자면, 이 게임은 그 누구한테도 추천해주고 싶지 않은 개 쓰레기 똥 bbi웅신 겜이다. 가장 먼저 말해야할 부분은 DLC팔이를 굉장히 역하게 해댄다. 그동안 살아오면서 수많은 게임회사를 봤지만 이만큼 노골적으로 DLC 팔이를 해쳐먹겠다를 아주 '노골적으로' 표현하고 실행하는 회사는 이 회사가 유일하다. 기본적으로 게임 자체도 비싼데 게임의 필수DLC까지 사려면 10만원은 가볍게 넘길 뿐더러, 최근 DLC를 제외하면 거의 게임 플레이에 핵심이 되는 요소들이 많기 때문에 안사고 플레이를 하는건 굉장히 비추천하고 그렇다고 몇십만원주고 DLC를 풀 구매 때리는것도 정신 나간 짓이라고 본다. 진짜 싸가지 없는건 DLC요소 자체가 굉장히 일반 업데이트에서 해줄법한 요소들이 많은데 꾸역꾸역 DLC 만들고 2만원이 넘는 금액에 파는꼬라지를 보면 있는정 없는정 다 떨어져나간다. 위의 심각한 DLC팔이와 연계되는점이 DLC파는건 진짜 없는거 다 끌어모아서 출시하면서 정작 게임 안의 요소는 겜안분 투성이며, 최적화는 내가 게임을 샀을때 시절과 비슷하게 땅이 쳐박혔다는점이다. 이 게임이 기본적으로 깊어질 요소가 굉장히 많은데 그에 비해 게임AI와 난이도는 돈이 안되는지 내가 게임을 살때와 동일하게 바보같다는점도 화나고, 이건 뭐 창작마당으로 커버가 된다고 쳐도 최적화 문제는 이 게임 태어났을때부터 꾸준히 제시되왔던 문젠데 진짜 거짓말 하나도 안하고 이 게임은 내가 샀을때부터 현재까지 최적화가 전~혀 나아지지 않았다. 멀티는 게임 나온지 몇년이 쳐 지났는데 아직도 존나 불안정하고, 컴퓨터 사양이 얼마나 되든 렉걸릴 상황에서는 5배속도 돌아가지 않는다. 최근 업데이트는 더 정떨어지는데, 이 게임이 명색이 2차 세계대전 시뮬레이션인데, 2차 세계대전 주요국들을 당연히 더 지원해주고, 보강해줘야하는데 이 BBI웅신같은 회사들은 DLC팔이에 미쳐서 역사고증마져 집어던지고 미국보다 강한 남미, 뭔 억지로 만드는 태평양 제국 필리핀 이딴거나 출시하면서 기본적인 강대국인 영국,미국,프랑스는 몇년째 업데이트 없이 버려져있는 실정이다. 게임이 이렇다보니 밸런스가 맞을리도 없고 석유보다 석탄이 중요하게 작용하고, 독일이 연합국보다 풍족하게 사는 어지러운 밸런스도 그냥 무시깐채로 방치하고있는 상황이다.",
+        "진짜 버그를 만들지 말던가 크래시를 내지 말던가 뭔 업데이트를 dlc로 함? 진짜 패독이 패독했다",
+        "무료로 바꾼 dlc 돈 안 돌려주냐",
+        "튜토리얼에서 조차 기초를 가르쳐주지 않음 살다살다 게임 기초를 위키에서 배우라고 위임하는 게임은 처음 그 위키도 DLC 최신판 있는 유저 기준으로 적혀있어서 dlc하나도 없으면 이해하기 어려운 부분 존재함 하는것:지도에서 병사 움직이기 , 땅밀기 . 내가 ww2 역사에 있다기보단 워게임 돌리는 것에 더 가까움 당시 역사가 어땠는지 느끼고 싶으면 차라리 영화 1편 책 1편 더 읽는게 나을 지경 이딴걸 DLC 20개가 넘게 쪼개서 판다고 ? 심즈가 니네보다 덜할지경 심즈는 게임이라도 돌릴수있지",
+        "비추 이유 1. 패치를 돈 주고 사라고 배째라 하는 놈들이다. 2. 버그 픽스는 밍기적밍기적댄다. 3. 하츠 오브 아이언 4 전담 부서가 존재하는지 궁금할 정도로 1년에 한 번 수준으로 패치한다. 4. 패치를 돈 주고 사면 어느새 일부 혹은 전부가 바닐라에 편입되어있다. 이건 75% 할인할 때 사는 게 무조건 정답. 50% 할인도 폭리 취하는 것일 뿐이니 75% 할인할 때만 사는 게 무조건 정답. 역시 유로파4 스텔라리스에서 장사질하는 애들 답다. 스킨 팩 DLC 등등을 포함한 유로파4의 현재 전체 가격은 40만원에 육박한다.",
+        "오늘 3주년 기념 영상이 유튜브에 올라온 것을 보고 늦게나마 평가를 쓰게 되었습니다. 3년 동안 내놓은 DLC만 4개인 현재 게임의 상태는 여전히 미완성인 상태입니다. 자동차로 비유해드리면 비싼 자동차를 돈을 주고 샀는데 엔진도 없고 유리창도 없고 기름도 없고 타이어 바퀴 4개도 없는 상태의 자동차를 구매 하는 것과 다름없습니다. 그리고는 지금 현재 타이어 4개에 추가 비용을 내서 달아준것에 감사해야 하고 기뻐해야하는 상황입니다. 3년 동안 타이어 4개를 겨우 추가해줬습니다. 그것도 내 돈주고 옵션으로 추가해서 말입니다. 정말이지 날강도가 따로 없습니다. 패러독스는 절대로 완제품을 판매하지 않습니다. 멀티를 할 것이 아니라면 불법 다운로드를 권장합니다.",
+        "최대의 발목은 한국어 빅토리아3에 모든 DLC를 구입한 나이지만 이건 차마 아직 구입안한 DLC에 손이 안가는건 언어의 장벽을 어쩔수가 없다. 개인적인 한국어 패치가 어딘가에 올라와 있다지만 그거 찿는것을 유저가 하는것이랑 제작사에서 알아서 해주는게 같을수는 없는법"
+      ],
+      "evidence_snippets": [
+        "비추 이유 1. 패치를 돈 주고 사라고 배째라 하는 놈들이다. 2. 버그 픽스는 밍기적밍기적댄다. 3. 하츠 오브 아이언 4 전담 부서가 존재하는지 궁금할 정도로 1년에 한 번 수준으로 패치한다. 4. 패치를 돈 주고 사면 어느새 일부 혹은 전부가 바닐라에 편입되어있다. 이건 75% 할인할 때 사는 게 무조건 정답. 50% 할인도 폭리 취하는 것일 뿐이니 75% 할인할 때만 사는 게 무조건 정답. 역시 유로파4 스텔라리스에서 장사질하는 애들 답다. 스킨 팩 DLC 등등을 포함한 유로파4의 현재 전체 가격은 40만원에 육박한다.",
+        "진짜 버그를 만들지 말던가 크래시를 내지 말던가 뭔 업데이트를 dlc로 함? 진짜 패독이 패독했다",
+        "이 게임을 정말 좋아하는 입장에서 말해보자면, 이 게임은 그 누구한테도 추천해주고 싶지 않은 개 쓰레기 똥 bbi웅신 겜이다. 가장 먼저 말해야할 부분은 DLC팔이를 굉장히 역하게 해댄다. 그동안 살아오면서 수많은 게임회사를 봤지만 이만큼 노골적으로 DLC 팔이를 해쳐먹겠다를 아주 '노골적으로' 표현하고 실행하는 회사는 이 회사가 유일하다. 기본적으로 게임 자체도 비싼데 게임의 필수DLC까지 사려면 10만원은 가볍게 넘길 뿐더러, 최근 DLC를 제외하면 거의 게임 플레이에 핵심이 되는 요소들이 많기 때문에 안사고 플레이를 하는건 굉장히 비추천하고 그렇다고 몇십만원주고 DLC를 풀 구매 때리는것도 정신 나간 짓이라고 본다. 진짜 싸가지 없는건 DLC요소 자체가 굉장히 일반 업데이트에서 해줄법한 요소들이 많은데 꾸역꾸역 DLC 만들고 2만원이 넘는 금액에 파는꼬라지를 보면 있는정 없는정 다 떨어져나간다. 위의 심각한 DLC팔이와 연계되는점이 DLC파는건 진짜 없는거 다 끌어모아서 출시하면서 정작 게임 안의 요소는 겜안분 투성이며, 최적화는 내가 게임을 샀을때 시절과 비슷하게 땅이 쳐박혔다는점이다. 이 게임이 기본적으로 깊어질 요소가 굉장히 많은데 그에 비해 게임AI와 난이도는 돈이 안되는지 내가 게임을 살때와 동일하게 바보같다는점도 화나고, 이건 뭐 창작마당으로 커버가 된다고 쳐도 최적화 문제는 이 게임 태어났을때부터 꾸준히 제시되왔던 문젠데 진짜 거짓말 하나도 안하고 이 게임은 내가 샀을때부터 현재까지 최적화가 전~혀 나아지지 않았다. 멀티는 게임 나온지 몇년이 쳐 지났는데 아직도 존나 불안정하고, 컴퓨터 사양이 얼마나 되든 렉걸릴 상황에서는 5배속도 돌아가지 않는다. 최근 업데이트는 더 정떨어지는데, 이 게임이 명색이 2차 세계대전 시뮬레이션인데, 2차 세계대전 주요국들을 당연히 더 지원해주고, 보강해줘야하는데 이 BBI웅신같은 회사들은 DLC팔이에 미쳐서 역사고증마져 집어던지고 미국보다 강한 남미, 뭔 억지로 만드는 태평양 제국 필리핀 이딴거나 출시하면서 기본적인 강대국인 영국, 미국, 프랑스는 몇년째 업데이트 없이 버려져있는 실정이다. 게임이 이렇다보니 밸런스가 맞을리도 없고 석유보다 석탄이 중요하게 작용하고, 독일이 연합국보다 풍족하게 사는 어지러운 밸런스도 그냥 무시깐채로 방치하고있는 상황이다."
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-negative-1-1-5489414280768193486",
+          "text": "이 게임을 정말 좋아하는 입장에서 말해보자면, 이 게임은 그 누구한테도 추천해주고 싶지 않은 개 쓰레기 똥 bbi웅신 겜이다. 가장 먼저 말해야할 부분은 DLC팔이를 굉장히 역하게 해댄다. 그동안 살아오면서 수많은 게임회사를 봤지만 이만큼 노골적으로 DLC 팔이를 해쳐먹겠다를 아주 '노골적으로' 표현하고 실행하는 회사는 이 회사가 유일하다. 기본적으로 게임 자체도 비싼데 게임의 필수DLC까지 사려면 10만원은 가볍게 넘길 뿐더러, 최근 DLC를 제외하면 거의 게임 플레이에 핵심이 되는 요소들이 많기 때문에 안사고 플레이를 하는건 굉장히 비추천하고 그렇다고 몇십만원주고 DLC를 풀 구매 때리는것도 정신 나간 짓이라고 본다. 진짜 싸가지 없는건 DLC요소 자체가 굉장히 일반 업데이트에서 해줄법한 요소들이 많은데 꾸역꾸역 DLC 만들고 2만원이 넘는 금액에 파는꼬라지를 보면 있는정 없는정 다 떨어져나간다. 위의 심각한 DLC팔이와 연계되는점이 DLC파는건 진짜 없는거 다 끌어모아서 출시하면서 정작 게임 안의 요소는 겜안분 투성이며, 최적화는 내가 게임을 샀을때 시절과 비슷하게 땅이 쳐박혔다는점이다. 이 게임이 기본적으로 깊어질 요소가 굉장히 많은데 그에 비해 게임AI와 난이도는 돈이 안되는지 내가 게임을 살때와 동일하게 바보같다는점도 화나고, 이건 뭐 창작마당으로 커버가 된다고 쳐도 최적화 문제는 이 게임 태어났을때부터 꾸준히 제시되왔던 문젠데 진짜 거짓말 하나도 안하고 이 게임은 내가 샀을때부터 현재까지 최적화가 전~혀 나아지지 않았다. 멀티는 게임 나온지 몇년이 쳐 지났는데 아직도 존나 불안정하고, 컴퓨터 사양이 얼마나 되든 렉걸릴 상황에서는 5배속도 돌아가지 않는다. 최근 업데이트는 더 정떨어지는데, 이 게임이 명색이 2차 세계대전 시뮬레이션인데, 2차 세계대전 주요국들을 당연히 더 지원해주고, 보강해줘야하는데 이 BBI웅신같은 회사들은 DLC팔이에 미쳐서 역사고증마져 집어던지고 미국보다 강한 남미, 뭔 억지로 만드는 태평양 제국 필리핀 이딴거나 출시하면서 기본적인 강대국인 영국,미국,프랑스는 몇년째 업데이트 없이 버려져있는 실정이다. 게임이 이렇다보니 밸런스가 맞을리도 없고 석유보다 석탄이 중요하게 작용하고, 독일이 연합국보다 풍족하게 사는 어지러운 밸런스도 그냥 무시깐채로 방치하고있는 상황이다."
+        },
+        {
+          "review_id": "compress-v3-negative-1-2-4608373612574654348",
+          "text": "진짜 버그를 만들지 말던가 크래시를 내지 말던가 뭔 업데이트를 dlc로 함? 진짜 패독이 패독했다"
+        },
+        {
+          "review_id": "compress-v3-negative-1-3-5382558998472311604",
+          "text": "무료로 바꾼 dlc 돈 안 돌려주냐"
+        },
+        {
+          "review_id": "compress-v3-negative-1-4-4142458549022524914",
+          "text": "튜토리얼에서 조차 기초를 가르쳐주지 않음 살다살다 게임 기초를 위키에서 배우라고 위임하는 게임은 처음 그 위키도 DLC 최신판 있는 유저 기준으로 적혀있어서 dlc하나도 없으면 이해하기 어려운 부분 존재함 하는것:지도에서 병사 움직이기 , 땅밀기 . 내가 ww2 역사에 있다기보단 워게임 돌리는 것에 더 가까움 당시 역사가 어땠는지 느끼고 싶으면 차라리 영화 1편 책 1편 더 읽는게 나을 지경 이딴걸 DLC 20개가 넘게 쪼개서 판다고 ? 심즈가 니네보다 덜할지경 심즈는 게임이라도 돌릴수있지"
+        },
+        {
+          "review_id": "compress-v3-negative-1-6-1152671521540518433",
+          "text": "비추 이유 1. 패치를 돈 주고 사라고 배째라 하는 놈들이다. 2. 버그 픽스는 밍기적밍기적댄다. 3. 하츠 오브 아이언 4 전담 부서가 존재하는지 궁금할 정도로 1년에 한 번 수준으로 패치한다. 4. 패치를 돈 주고 사면 어느새 일부 혹은 전부가 바닐라에 편입되어있다. 이건 75% 할인할 때 사는 게 무조건 정답. 50% 할인도 폭리 취하는 것일 뿐이니 75% 할인할 때만 사는 게 무조건 정답. 역시 유로파4 스텔라리스에서 장사질하는 애들 답다. 스킨 팩 DLC 등등을 포함한 유로파4의 현재 전체 가격은 40만원에 육박한다."
+        },
+        {
+          "review_id": "compress-v3-negative-1-7-3937637253081972424",
+          "text": "오늘 3주년 기념 영상이 유튜브에 올라온 것을 보고 늦게나마 평가를 쓰게 되었습니다. 3년 동안 내놓은 DLC만 4개인 현재 게임의 상태는 여전히 미완성인 상태입니다. 자동차로 비유해드리면 비싼 자동차를 돈을 주고 샀는데 엔진도 없고 유리창도 없고 기름도 없고 타이어 바퀴 4개도 없는 상태의 자동차를 구매 하는 것과 다름없습니다. 그리고는 지금 현재 타이어 4개에 추가 비용을 내서 달아준것에 감사해야 하고 기뻐해야하는 상황입니다. 3년 동안 타이어 4개를 겨우 추가해줬습니다. 그것도 내 돈주고 옵션으로 추가해서 말입니다. 정말이지 날강도가 따로 없습니다. 패러독스는 절대로 완제품을 판매하지 않습니다. 멀티를 할 것이 아니라면 불법 다운로드를 권장합니다."
+        },
+        {
+          "review_id": "compress-v3-negative-1-8-471776145967858625",
+          "text": "최대의 발목은 한국어 빅토리아3에 모든 DLC를 구입한 나이지만 이건 차마 아직 구입안한 DLC에 손이 안가는건 언어의 장벽을 어쩔수가 없다. 개인적인 한국어 패치가 어딘가에 올라와 있다지만 그거 찿는것을 유저가 하는것이랑 제작사에서 알아서 해주는게 같을수는 없는법"
+        }
+      ]
+    },
+    {
+      "block_id": "risk_2",
+      "title": "오류와 끊김이 흐름을 끊는다는 반응",
+      "theme": "모드 지원 / 호환 문제",
+      "why_it_matters": "오류와 끊김을 지적하는 반응이 이어져 흐름이 끊기는 상황은 감수할 필요가 있습니다.",
+      "explanation": "오류와 끊김을 지적하는 반응이 이어져 흐름이 끊기는 상황은 감수할 필요가 있습니다.",
+      "aspect_keys": [
+        "mod_support"
+      ],
+      "stance": "negative",
+      "consensus_level": "high",
+      "mention_count": 361,
+      "evidence_quality_level": "strict",
+      "evidence_candidate_snippets": [
+        "업데이트 되면 모드 다잠기고 수시로 튕기는 똥겜입니다",
+        "엇?! 한글이 일부가 깨져서 한글모드 새로 찾으려고 들어왔는데.. 한글화 되었네?!!!!!! 불편함이 없어졌습니다!!!! 수송기도 못 만들고 있었는데, 연구화면 옆으로 스크롤 넘기면 수송기 연구 부분 있습니다! 빅토리아3 하느라 이건 오리지널만!!",
+        "왜 만듬 모드 도안돼고 버그 망겜 꺼저라"
+      ],
+      "evidence_snippets": [
+        "엇?! 한글이 일부가 깨져서 한글모드 새로 찾으려고 들어왔는데.. 한글화 되었네?!!!!!! 불편함이 없어졌습니다!!!! 수송기도 못 만들고 있었는데, 연구화면 옆으로 스크롤 넘기면 수송기 연구 부분 있습니다! 빅토리아3 하느라 이건 오리지널만!!",
+        "왜 만듬 모드 도안돼고 버그 망겜 꺼저라"
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-negative-2-2-9036960071238182105",
+          "text": "업데이트 되면 모드 다잠기고 수시로 튕기는 똥겜입니다"
+        },
+        {
+          "review_id": "compress-v3-negative-2-3-2066770299742168755",
+          "text": "엇?! 한글이 일부가 깨져서 한글모드 새로 찾으려고 들어왔는데.. 한글화 되었네?!!!!!! 불편함이 없어졌습니다!!!! 수송기도 못 만들고 있었는데, 연구화면 옆으로 스크롤 넘기면 수송기 연구 부분 있습니다! 빅토리아3 하느라 이건 오리지널만!!"
+        },
+        {
+          "review_id": "compress-v3-negative-2-4-337379727326822290",
+          "text": "왜 만듬 모드 도안돼고 버그 망겜 꺼저라"
+        }
+      ]
+    },
+    {
+      "block_id": "risk_3",
+      "title": "반복감이 피로로 이어진다는 반응",
+      "theme": "플레이 시간이 누적될수록 새로움이 빨리 소진될 수 있는 리스크",
+      "why_it_matters": "반복감이 피로로 이어진다는 반응이 있어 새로움이 빨리 줄어드는 구간은 감수해야 할 수 있습니다.",
+      "explanation": "반복감이 피로로 이어진다는 반응이 있어 새로움이 빨리 줄어드는 구간은 감수해야 할 수 있습니다.",
+      "aspect_keys": [
+        "content_depth"
+      ],
+      "stance": "negative",
+      "consensus_level": "high",
+      "mention_count": 359,
+      "evidence_quality_level": "relaxed",
+      "evidence_candidate_snippets": [
+        "내 컴은 똥컴이 아니라고.... 후반만 되면 렉걸리는건....",
+        "업데이트 되면 모드 다잠기고 수시로 튕기는 똥겜입니다"
+      ],
+      "evidence_snippets": [
+        "내 컴은 똥컴이 아니라고.... 후반만 되면 렉걸리는건....",
+        "업데이트 되면 모드 다잠기고 수시로 튕기는 똥겜입니다"
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-negative-3-2-9063027631353508860",
+          "text": "내 컴은 똥컴이 아니라고.... 후반만 되면 렉걸리는건...."
+        },
+        {
+          "review_id": "compress-v3-negative-3-4-9036960071238182105",
+          "text": "업데이트 되면 모드 다잠기고 수시로 튕기는 똥겜입니다"
+        }
+      ]
+    }
+  ]
+}

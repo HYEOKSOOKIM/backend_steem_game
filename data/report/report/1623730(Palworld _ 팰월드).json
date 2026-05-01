@@ -1,0 +1,820 @@
+{
+  "report_version": "v4-planned-sections",
+  "appid": 1623730,
+  "pipeline_run_id": "1623730-20260430T091838Z",
+  "generated_at": "2026-04-30T09:21:17.493145+00:00",
+  "source_review_count": 19999,
+  "included_review_count": 11290,
+  "min_report_review_count": 100,
+  "report_state": "ready",
+  "review_trend": {
+    "granularity": "month",
+    "metric": "positive_ratio",
+    "points": [
+      {
+        "month": "2024-01",
+        "positive_count": 5155,
+        "review_count": 5314,
+        "positive_ratio": 0.9701
+      },
+      {
+        "month": "2024-02",
+        "positive_count": 6102,
+        "review_count": 6431,
+        "positive_ratio": 0.9488
+      },
+      {
+        "month": "2024-03",
+        "positive_count": 1018,
+        "review_count": 1103,
+        "positive_ratio": 0.9229
+      },
+      {
+        "month": "2024-04",
+        "positive_count": 492,
+        "review_count": 525,
+        "positive_ratio": 0.9371
+      },
+      {
+        "month": "2024-05",
+        "positive_count": 284,
+        "review_count": 304,
+        "positive_ratio": 0.9342
+      },
+      {
+        "month": "2024-06",
+        "positive_count": 262,
+        "review_count": 285,
+        "positive_ratio": 0.9193
+      },
+      {
+        "month": "2024-07",
+        "positive_count": 487,
+        "review_count": 528,
+        "positive_ratio": 0.9223
+      },
+      {
+        "month": "2024-08",
+        "positive_count": 287,
+        "review_count": 305,
+        "positive_ratio": 0.941
+      },
+      {
+        "month": "2024-09",
+        "positive_count": 225,
+        "review_count": 247,
+        "positive_ratio": 0.9109
+      },
+      {
+        "month": "2024-10",
+        "positive_count": 160,
+        "review_count": 172,
+        "positive_ratio": 0.9302
+      },
+      {
+        "month": "2024-11",
+        "positive_count": 293,
+        "review_count": 311,
+        "positive_ratio": 0.9421
+      },
+      {
+        "month": "2024-12",
+        "positive_count": 415,
+        "review_count": 438,
+        "positive_ratio": 0.9475
+      },
+      {
+        "month": "2025-01",
+        "positive_count": 638,
+        "review_count": 674,
+        "positive_ratio": 0.9466
+      },
+      {
+        "month": "2025-02",
+        "positive_count": 468,
+        "review_count": 497,
+        "positive_ratio": 0.9416
+      },
+      {
+        "month": "2025-03",
+        "positive_count": 286,
+        "review_count": 301,
+        "positive_ratio": 0.9502
+      },
+      {
+        "month": "2025-04",
+        "positive_count": 160,
+        "review_count": 174,
+        "positive_ratio": 0.9195
+      },
+      {
+        "month": "2025-05",
+        "positive_count": 160,
+        "review_count": 177,
+        "positive_ratio": 0.904
+      },
+      {
+        "month": "2025-06",
+        "positive_count": 174,
+        "review_count": 187,
+        "positive_ratio": 0.9305
+      },
+      {
+        "month": "2025-07",
+        "positive_count": 234,
+        "review_count": 250,
+        "positive_ratio": 0.936
+      },
+      {
+        "month": "2025-08",
+        "positive_count": 182,
+        "review_count": 199,
+        "positive_ratio": 0.9146
+      },
+      {
+        "month": "2025-09",
+        "positive_count": 146,
+        "review_count": 152,
+        "positive_ratio": 0.9605
+      },
+      {
+        "month": "2025-10",
+        "positive_count": 232,
+        "review_count": 246,
+        "positive_ratio": 0.9431
+      },
+      {
+        "month": "2025-11",
+        "positive_count": 180,
+        "review_count": 192,
+        "positive_ratio": 0.9375
+      },
+      {
+        "month": "2025-12",
+        "positive_count": 197,
+        "review_count": 208,
+        "positive_ratio": 0.9471
+      },
+      {
+        "month": "2026-01",
+        "positive_count": 230,
+        "review_count": 248,
+        "positive_ratio": 0.9274
+      },
+      {
+        "month": "2026-02",
+        "positive_count": 216,
+        "review_count": 228,
+        "positive_ratio": 0.9474
+      },
+      {
+        "month": "2026-03",
+        "positive_count": 163,
+        "review_count": 171,
+        "positive_ratio": 0.9532
+      },
+      {
+        "month": "2026-04",
+        "positive_count": 131,
+        "review_count": 132,
+        "positive_ratio": 0.9924
+      }
+    ]
+  },
+  "game": {
+    "name": "Palworld / 팰월드",
+    "genres": [
+      "액션",
+      "어드벤처",
+      "인디",
+      "RPG",
+      "앞서 해보기"
+    ],
+    "price_model": "paid",
+    "is_free": false,
+    "release_stage": "early_access",
+    "release_date_text": "2024년 1월 18일",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/058bd87dc17a7179e07c446aa64d0574ca43ab9d/header.jpg?t=1773936597",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/4f823e476ad290ad4f19763e7d800723df422dfa/capsule_231x87.jpg?t=1773936597",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/4f823e476ad290ad4f19763e7d800723df422dfa/capsule_184x69.jpg?t=1773936597",
+    "screenshots": [
+      {
+        "id": "0",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_f81b7c4f20be3b99f76a1415c4cdb9b444c99b97.600x338.jpg?t=1773936597",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_f81b7c4f20be3b99f76a1415c4cdb9b444c99b97.1920x1080.jpg?t=1773936597"
+      },
+      {
+        "id": "1",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_a9fa84f0c21bc536f00925ab4586e8c4f587c2b7.600x338.jpg?t=1773936597",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_a9fa84f0c21bc536f00925ab4586e8c4f587c2b7.1920x1080.jpg?t=1773936597"
+      },
+      {
+        "id": "2",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_b3cea7c9f04a67d784d4c6a0c157a11d6268b189.600x338.jpg?t=1773936597",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_b3cea7c9f04a67d784d4c6a0c157a11d6268b189.1920x1080.jpg?t=1773936597"
+      },
+      {
+        "id": "3",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_06e27c15c7b4b10233c937b887cf6a6925c83009.600x338.jpg?t=1773936597",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_06e27c15c7b4b10233c937b887cf6a6925c83009.1920x1080.jpg?t=1773936597"
+      },
+      {
+        "id": "4",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_0c8cbc20442b948c91b02d9e1b41bf0638a07c08.600x338.jpg?t=1773936597",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_0c8cbc20442b948c91b02d9e1b41bf0638a07c08.1920x1080.jpg?t=1773936597"
+      },
+      {
+        "id": "5",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_a99fba5536acde781bd863cb3555c10b5b96c0ae.600x338.jpg?t=1773936597",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_a99fba5536acde781bd863cb3555c10b5b96c0ae.1920x1080.jpg?t=1773936597"
+      },
+      {
+        "id": "6",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_1e47bb8bbfaaaf3282bfb5d253378832b55c4e56.600x338.jpg?t=1773936597",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_1e47bb8bbfaaaf3282bfb5d253378832b55c4e56.1920x1080.jpg?t=1773936597"
+      },
+      {
+        "id": "7",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_6ce0960860f1009b7d10ba225ead4cc377286115.600x338.jpg?t=1773936597",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_6ce0960860f1009b7d10ba225ead4cc377286115.1920x1080.jpg?t=1773936597"
+      },
+      {
+        "id": "8",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_39fc644a464b4df4348ddba1e78274513a152e86.600x338.jpg?t=1773936597",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_39fc644a464b4df4348ddba1e78274513a152e86.1920x1080.jpg?t=1773936597"
+      },
+      {
+        "id": "9",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_b7165373da28ac0088fb89c6444aa2de6dd68bca.600x338.jpg?t=1773936597",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_b7165373da28ac0088fb89c6444aa2de6dd68bca.1920x1080.jpg?t=1773936597"
+      },
+      {
+        "id": "10",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_4c403dcd22f20a11524269c71f9feec96085a762.600x338.jpg?t=1773936597",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_4c403dcd22f20a11524269c71f9feec96085a762.1920x1080.jpg?t=1773936597"
+      },
+      {
+        "id": "11",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_c512fb42986a5438ea5ef3c5fda901428b2717d0.600x338.jpg?t=1773936597",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_c512fb42986a5438ea5ef3c5fda901428b2717d0.1920x1080.jpg?t=1773936597"
+      },
+      {
+        "id": "12",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_0e8191de3d7cbcd0c3f1350712f4c08f39ad7360.600x338.jpg?t=1773936597",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_0e8191de3d7cbcd0c3f1350712f4c08f39ad7360.1920x1080.jpg?t=1773936597"
+      },
+      {
+        "id": "13",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_43ed640c916ec689981a74f0818e5b9c77204d1c.600x338.jpg?t=1773936597",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_43ed640c916ec689981a74f0818e5b9c77204d1c.1920x1080.jpg?t=1773936597"
+      },
+      {
+        "id": "14",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_c6a8e8dc8640ebd1409b1e72fe6e9db7d1c1d57a.600x338.jpg?t=1773936597",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_c6a8e8dc8640ebd1409b1e72fe6e9db7d1c1d57a.1920x1080.jpg?t=1773936597"
+      },
+      {
+        "id": "15",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_22508261f9d361c8dda95e8adc54292ad085e8e1.600x338.jpg?t=1773936597",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_22508261f9d361c8dda95e8adc54292ad085e8e1.1920x1080.jpg?t=1773936597"
+      },
+      {
+        "id": "16",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_83afcc8fbdd3eaa9f9d165f2748438c837697cf8.600x338.jpg?t=1773936597",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_83afcc8fbdd3eaa9f9d165f2748438c837697cf8.1920x1080.jpg?t=1773936597"
+      },
+      {
+        "id": "17",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_1e6f7cf3c58086df2a3e9b13a988c2681d372b2d.600x338.jpg?t=1773936597",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_1e6f7cf3c58086df2a3e9b13a988c2681d372b2d.1920x1080.jpg?t=1773936597"
+      },
+      {
+        "id": "18",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_eb977f87934660f2489b7c7254d0597f7295dda6.600x338.jpg?t=1773936597",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_eb977f87934660f2489b7c7254d0597f7295dda6.1920x1080.jpg?t=1773936597"
+      },
+      {
+        "id": "19",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_27258f5e9161bbffe37393e3b6752ad3bc1233c1.600x338.jpg?t=1773936597",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_27258f5e9161bbffe37393e3b6752ad3bc1233c1.1920x1080.jpg?t=1773936597"
+      },
+      {
+        "id": "20",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_cf527d8bf54155b3248fa4b8faa98c0beb5ace78.600x338.jpg?t=1773936597",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_cf527d8bf54155b3248fa4b8faa98c0beb5ace78.1920x1080.jpg?t=1773936597"
+      },
+      {
+        "id": "21",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_bfcd7841f6ffb97d660c7fd59384bf884ff29277.600x338.jpg?t=1773936597",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_bfcd7841f6ffb97d660c7fd59384bf884ff29277.1920x1080.jpg?t=1773936597"
+      },
+      {
+        "id": "22",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_510facc1a2137ce7b23b5ddf3020ba592f7c219f.600x338.jpg?t=1773936597",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_510facc1a2137ce7b23b5ddf3020ba592f7c219f.1920x1080.jpg?t=1773936597"
+      },
+      {
+        "id": "23",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_2f757762ccaf1eb73150b6bc4746c60ac789620d.600x338.jpg?t=1773936597",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_2f757762ccaf1eb73150b6bc4746c60ac789620d.1920x1080.jpg?t=1773936597"
+      },
+      {
+        "id": "24",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_15dc4745d8adce7760cebbc709add652733fc879.600x338.jpg?t=1773936597",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_15dc4745d8adce7760cebbc709add652733fc879.1920x1080.jpg?t=1773936597"
+      },
+      {
+        "id": "25",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_a1776c54619eb6ce36ce94aba808147f7fbb86c7.600x338.jpg?t=1773936597",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_a1776c54619eb6ce36ce94aba808147f7fbb86c7.1920x1080.jpg?t=1773936597"
+      },
+      {
+        "id": "26",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_d48e09d0d23fef2b35e59d8c0caa4b7cf74cd48c.600x338.jpg?t=1773936597",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_d48e09d0d23fef2b35e59d8c0caa4b7cf74cd48c.1920x1080.jpg?t=1773936597"
+      },
+      {
+        "id": "27",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_494f7882674e5d893ca68750ef461f789a24af93.600x338.jpg?t=1773936597",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_494f7882674e5d893ca68750ef461f789a24af93.1920x1080.jpg?t=1773936597"
+      },
+      {
+        "id": "28",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_88c603ab6cd66c229d3283d312a50d14e3e4c77c.600x338.jpg?t=1773936597",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_88c603ab6cd66c229d3283d312a50d14e3e4c77c.1920x1080.jpg?t=1773936597"
+      }
+    ],
+    "movies": [
+      {
+        "id": "257251173",
+        "name": "HomeSweetHome Update Trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257251173/e003d7f1c9a598394e20c6b1b416836b944739b6/movie_600x337.jpg?t=1765946111",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1623730/1468980435/a9fa32ad1a1c432d89b07ac9da9bee6de0bb0054/1765943351/hls_264_master.m3u8?t=1765946111",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1623730/1468980435/a9fa32ad1a1c432d89b07ac9da9bee6de0bb0054/1765943351/dash_h264.mpd?t=1765946111",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1623730/1468980435/a9fa32ad1a1c432d89b07ac9da9bee6de0bb0054/1765943351/dash_av1.mpd?t=1765946111",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1623730/1468980435/a9fa32ad1a1c432d89b07ac9da9bee6de0bb0054/1765943351/hls_264_master.m3u8?t=1765946111"
+      },
+      {
+        "id": "257063169",
+        "name": "Launch Trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257063169/084395342751e9a744618965356e900873d6c193/movie_600x337.jpg?t=1728458616",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1623730/768837/5e54f7d3b933b9502af38e537eb0194ea59b2f5d/1750714359/hls_264_master.m3u8?t=1728458616",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1623730/768837/5e54f7d3b933b9502af38e537eb0194ea59b2f5d/1750714359/dash_h264.mpd?t=1728458616",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1623730/768837/5e54f7d3b933b9502af38e537eb0194ea59b2f5d/1750714359/dash_av1.mpd?t=1728458616",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1623730/768837/5e54f7d3b933b9502af38e537eb0194ea59b2f5d/1750714359/hls_264_master.m3u8?t=1728458616"
+      },
+      {
+        "id": "257251180",
+        "name": "ULTRAKILL Collaboration Update Trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257251180/c59a1e2872a4f18973d1ad3f020be41d8338df45/movie_600x337.jpg?t=1765946112",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1623730/1650163623/c2756f6081e07a1b01e2b6ee3ebcc50e4f220512/1765944104/hls_264_master.m3u8?t=1765946112",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1623730/1650163623/c2756f6081e07a1b01e2b6ee3ebcc50e4f220512/1765944104/dash_h264.mpd?t=1765946112",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1623730/1650163623/c2756f6081e07a1b01e2b6ee3ebcc50e4f220512/1765944104/dash_av1.mpd?t=1765946112",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1623730/1650163623/c2756f6081e07a1b01e2b6ee3ebcc50e4f220512/1765944104/hls_264_master.m3u8?t=1765946112"
+      },
+      {
+        "id": "257161157",
+        "name": "Tides of Terraria Update Gameplay Trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257161157/cc767bd10cc47563631ab24e71ed811ac2f4d4e0/movie_600x337.jpg?t=1752129517",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1623730/113039709/3b5ebaedd8250085a582f5078ba2f873d868f6ed/1750822061/hls_264_master.m3u8?t=1752129517",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1623730/113039709/3b5ebaedd8250085a582f5078ba2f873d868f6ed/1750822061/dash_h264.mpd?t=1752129517",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1623730/113039709/3b5ebaedd8250085a582f5078ba2f873d868f6ed/1750822061/dash_av1.mpd?t=1752129517",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1623730/113039709/3b5ebaedd8250085a582f5078ba2f873d868f6ed/1750822061/hls_264_master.m3u8?t=1752129517"
+      },
+      {
+        "id": "257161175",
+        "name": "Tides of Terraria Update Animated Trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257161175/a12b3e9f2221dac87bef2c8ed96396ba1b29f0fd/movie_600x337.jpg?t=1752129520",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1623730/2054858553/d98e0331eca85c894786a7ab23410ac6e23c9f53/1750825249/hls_264_master.m3u8?t=1752129520",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1623730/2054858553/d98e0331eca85c894786a7ab23410ac6e23c9f53/1750825249/dash_h264.mpd?t=1752129520",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1623730/2054858553/d98e0331eca85c894786a7ab23410ac6e23c9f53/1750825249/dash_av1.mpd?t=1752129520",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1623730/2054858553/d98e0331eca85c894786a7ab23410ac6e23c9f53/1750825249/hls_264_master.m3u8?t=1752129520"
+      },
+      {
+        "id": "257116171",
+        "name": "Crossplay Update Trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257116171/020d45e20977a67f130f3dba3775bdbba6f67f8d/movie_600x337.jpg?t=1742355752",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1623730/853877/0b3541567a390e2ea8de35a042312d70252b99fd/1750713071/hls_264_master.m3u8?t=1742355752",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1623730/853877/0b3541567a390e2ea8de35a042312d70252b99fd/1750713071/dash_h264.mpd?t=1742355752",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1623730/853877/0b3541567a390e2ea8de35a042312d70252b99fd/1750713071/dash_av1.mpd?t=1742355752",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1623730/853877/0b3541567a390e2ea8de35a042312d70252b99fd/1750713071/hls_264_master.m3u8?t=1742355752"
+      },
+      {
+        "id": "257084290",
+        "name": "Feybreak Update Gameplay Trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257084290/d2034ce374c86510a85b80461871c25e31d733f2/movie_600x337.jpg?t=1734923381",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1623730/803622/efb8664ba990a6e3e7283c3ca580a633db0857a1/1750713071/hls_264_master.m3u8?t=1734923381",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1623730/803622/efb8664ba990a6e3e7283c3ca580a633db0857a1/1750713071/dash_h264.mpd?t=1734923381",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1623730/803622/efb8664ba990a6e3e7283c3ca580a633db0857a1/1750713071/dash_av1.mpd?t=1734923381",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1623730/803622/efb8664ba990a6e3e7283c3ca580a633db0857a1/1750713071/hls_264_master.m3u8?t=1734923381"
+      },
+      {
+        "id": "257081688",
+        "name": "Feybreak Update Trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257081688/d0587b8499f16e5b11bf31b40567d67bee2c4a7a/movie_600x337.jpg?t=1734057263",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1623730/799437/c72c385ef4d87edb6fa06154d6779149a201d517/1750713055/hls_264_master.m3u8?t=1734057263",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1623730/799437/c72c385ef4d87edb6fa06154d6779149a201d517/1750713055/dash_h264.mpd?t=1734057263",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1623730/799437/c72c385ef4d87edb6fa06154d6779149a201d517/1750713055/dash_av1.mpd?t=1734057263",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1623730/799437/c72c385ef4d87edb6fa06154d6779149a201d517/1750713055/hls_264_master.m3u8?t=1734057263"
+      },
+      {
+        "id": "257034169",
+        "name": "Sakurajima Update Trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257034169/movie.293x165.jpg?t=1728458620",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1623730/719243/57058b338fc07dbd2ed0ba42430f1a5be234893b/1750713045/hls_264_master.m3u8?t=1728458620",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1623730/719243/57058b338fc07dbd2ed0ba42430f1a5be234893b/1750713045/dash_h264.mpd?t=1728458620",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1623730/719243/57058b338fc07dbd2ed0ba42430f1a5be234893b/1750713045/dash_av1.mpd?t=1728458620",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1623730/719243/57058b338fc07dbd2ed0ba42430f1a5be234893b/1750713045/hls_264_master.m3u8?t=1728458620"
+      }
+    ],
+    "short_description": "드넓은 세계에 서식하는 신비한 생물 &quot;팰&quot;을 수집하여 전투, 건축, 농업에 투입하거나 공장에서 일을 시키는 등, 전에 없던 새로운 체험을 선사하는 멀티 지원 오픈월드 서바이벌 크래프트 게임입니다.",
+    "steam_store_url": "https://store.steampowered.com/app/1623730",
+    "steam_recommendation_count": 353890,
+    "steam_review_score_desc": "Overwhelmingly Positive",
+    "steam_total_positive": 20607,
+    "steam_total_negative": 1070,
+    "steam_total_reviews": 21677,
+    "price_currency": "KRW",
+    "price_current": 3200000,
+    "price_original": 3200000,
+    "price_current_formatted": "₩ 32,000",
+    "price_original_formatted": null,
+    "price_discount_percent": 0
+  },
+  "report_plan": {
+    "decision_anchor": {
+      "buy_recommendation": "buy_now",
+      "primary_reason_ids": [
+        "content_depth",
+        "gameplay"
+      ],
+      "rationale_short": "게임의 콘텐츠 볼륨과 다양한 플레이 방식이 매우 매력적이며, 가격 대비 만족도가 높습니다."
+    },
+    "section_blueprint": {
+      "strength_block_count": 3,
+      "risk_block_count": 3,
+      "evidence_per_block": 3
+    },
+    "theme_priorities": {
+      "strengths": [
+        {
+          "reason_id": "content_depth",
+          "aspect": "content_depth",
+          "theme": "콘텐츠 볼륨"
+        },
+        {
+          "reason_id": "gameplay",
+          "aspect": "gameplay",
+          "theme": "전투/핵심 플레이"
+        },
+        {
+          "reason_id": "multiplayer",
+          "aspect": "multiplayer",
+          "theme": "멀티플레이 경험"
+        }
+      ],
+      "risks": [
+        {
+          "reason_id": "bugs",
+          "aspect": "bugs",
+          "theme": "일반 버그"
+        },
+        {
+          "reason_id": "performance",
+          "aspect": "performance",
+          "theme": "최적화 문제"
+        },
+        {
+          "reason_id": "monetization",
+          "aspect": "monetization",
+          "theme": "가격 / 과금 불만"
+        }
+      ]
+    }
+  },
+  "report_display": {
+    "headline": "팰월드는 방대한 콘텐츠와 다양한 플레이 방식이 매력적입니다.",
+    "buy_recommendation": "buy_now",
+    "buy_timing_summary": "초반의 재미와 자유도가 뛰어나며, 멀티플레이로 즐기면 더욱 재미있습니다. 다만 후반부의 노가다와 반복 요소는 호불호가 갈릴 수 있습니다.",
+    "good_for": [
+      "자동화 라인을 다듬으며 효율을 올리는 플레이어",
+      "생명체 수집과 육성을 즐기는 플레이어",
+      "멀티플레이를 선호하는 유저"
+    ],
+    "not_good_for": [
+      "진행 중 오류나 끊김을 거의 허용하지 않는 플레이어",
+      "복잡한 동선과 관리 피로에 민감한 플레이어",
+      "비용 대비 만족을 꼼꼼하게 따지는 플레이어"
+    ],
+    "top_strengths": [
+      {
+        "title": "풍부한 콘텐츠 볼륨",
+        "summary": "탐험, 수집, 제작, 자동화 등 다양한 즐길 거리가 많아 시간 가는 줄 모르고 몰입할 수 있습니다."
+      },
+      {
+        "title": "다양한 플레이 스타일",
+        "summary": "전투, 건축, 농업, 멀티플레이 등 원하는 방식으로 게임을 즐기며 자신만의 경험을 쌓을 수 있습니다."
+      },
+      {
+        "title": "독창적인 몬스터 활용",
+        "summary": "팰을 전투뿐 아니라 노동과 생산에 활용하는 독특한 시스템이 신선하고 재미를 더해 줍니다."
+      }
+    ],
+    "top_risks": [
+      {
+        "title": "잦은 버그와 불안정한 플레이",
+        "summary": "버그로 인해 팰이 멈추거나 낙사하는 등 진행에 지장이 크고, 게임 내 여러 오류가 몰입을 방해합니다."
+      },
+      {
+        "title": "지속적인 노가다와 반복적인 피로",
+        "summary": "후반부로 갈수록 자원 파밍과 교배 노가다가 심해져 지루함과 피로가 누적되며 플레이 의욕이 떨어집니다."
+      },
+      {
+        "title": "프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크와 성능 저하",
+        "summary": "낮은 프레임과 잦은 렉, 튕김 현상으로 쾌적한 플레이가 어려워 장시간 플레이에 부담이 됩니다."
+      }
+    ],
+    "recent_state": {
+      "status": "mixed",
+      "summary": "팰월드는 방대한 콘텐츠와 다양한 플레이 방식이 매력적이라는 평가가 많지만, 반복 노가다와 버그, 최적화 문제로 인해 후반부에 피로감을 느끼는 의견도 공존합니다."
+    }
+  },
+  "evidence_sections": {
+    "strengths": [
+      {
+        "block_id": "str_1",
+        "title": "자동화와 병목 해소의 재미가 분명하다는 반응",
+        "theme": "자동화 라인",
+        "why_it_matters": "자동화와 효율 설계를 좋게 보는 반응이 많아 병목을 풀고 확장하는 과정이 핵심 재미로 읽힙니다.",
+        "explanation": "자동화와 효율 설계를 좋게 보는 반응이 많아 병목을 풀고 확장하는 과정이 핵심 재미로 읽힙니다.",
+        "aspect_keys": [
+          "content_depth",
+          "gameplay"
+        ],
+        "stance": "positive",
+        "consensus_level": "high",
+        "mention_count": 2737,
+        "evidence_quality_level": "relaxed",
+        "evidence_candidate_snippets": [
+          "사람마다 호불호가 갈릴수 있겠지만 처음엔 불호쪽이지만 막상 하다보니 콘텐츠가 많아 재미가 있어서 호쪽으로 기울었어요. 이 게임은 난이도를 조절 할수 있어서 어렵게 하거나 커스텀으로 빠른 성장해 부담이 없다고 생각합니다. 무엇보다 팰들을 타보고 팰을 이용해서 무기도 쓸수 있다는게 신기했네요. 다만, 하다보면 팰들 타고 다니다가 끼어버리거나 필드에 팰이 나무위에 있는 버그가 많습니다. 또한 거점에서 노동하고 있는 한 마리의 팰이 땅 밑에서 자꾸 낙사하고 있는등의 버그가 있습니다. 자신만의 건물 짓는것을 좋아하거나 귀여운 팰들을 수집하거나 팰들을 노동시키고 싶다면추천 드립니다.",
+          "취향이 아닐것 같아+쓰리디 멀미있어 구매후 방치하던 게임인데, 테라리아 코어키퍼등의 오픈월드, 탐험 업글 게임 좋아하면 적극 추천 드립니다 쓰리디멀미 잔잔하게 오긴하는데 천천히 하니까 적응해서 할만했어요 마지막 탑보스 전인 후반 LV50~65까지 레벨링이 좀 지루한 부분이 있고 마지막 레이드 보스 제노드란을 죽이려 시도했는데 1트 실패 후 메인펠 영혼, 응축 노가다&스킬파밍 + 거점 공격력 방어력 연구+샤키드풀응축x3버프 + 최종 주괴 코랄리움 부스터건&+3방어장비+음식, 물약 파밍 하는데 정말 미칠듯 너무...지루해서 중간에 현타 후 마지막 제노드란 레이드 스킵하고 끝내려다 그냥 도전했는데 2트에 잡았네요 첫 펠이 커다란 희귀 도로롱이였는데 마지막 레이드까지 쭉 키워서 레이드 클리어까지 버티고 살아있는 모습을 보니 뿌듯합니다 아쉬운점은 미니맵이 없는 부분 스토리 퀘스트가 없는(잘안보이는)부분 (여행자 카드가 있긴한데 굳이 열어서 읽지 않음) 후반 노가다로인한 지루함 입니다"
+        ],
+        "evidence_snippets": [
+          "사람마다 호불호가 갈릴수 있겠지만 처음엔 불호쪽이지만 막상 하다보니 콘텐츠가 많아 재미가 있어서 호쪽으로 기울었어요. 이 게임은 난이도를 조절 할수 있어서 어렵게 하거나 커스텀으로 빠른 성장해 부담이 없다고 생각합니다. 무엇보다 팰들을 타보고 팰을 이용해서 무기도 쓸수 있다는게 신기했네요. 다만, 하다보면 팰들 타고 다니다가 끼어버리거나 필드에 팰이 나무위에 있는 버그가 많습니다. 또한 거점에서 노동하고 있는 한 마리의 팰이 땅 밑에서 자꾸 낙사하고 있는등의 버그가 있습니다. 자신만의 건물 짓는것을 좋아하거나 귀여운 팰들을 수집하거나 팰들을 노동시키고 싶다면추천 드립니다.",
+          "취향이 아닐것 같아+쓰리디 멀미있어 구매후 방치하던 게임인데, 테라리아 코어키퍼등의 오픈월드, 탐험 업글 게임 좋아하면 적극 추천 드립니다 쓰리디멀미 잔잔하게 오긴하는데 천천히 하니까 적응해서 할만했어요 마지막 탑보스 전인 후반 LV50~65까지 레벨링이 좀 지루한 부분이 있고 마지막 레이드 보스 제노드란을 죽이려 시도했는데 1트 실패 후 메인펠 영혼, 응축 노가다&스킬파밍 + 거점 공격력 방어력 연구+샤키드풀응축x3버프 + 최종 주괴 코랄리움 부스터건&+3방어장비+음식, 물약 파밍 하는데 정말 미칠듯 너무... 지루해서 중간에 현타 후 마지막 제노드란 레이드 스킵하고 끝내려다 그냥 도전했는데 2트에 잡았네요 첫 펠이 커다란 희귀 도로롱이였는데 마지막 레이드까지 쭉 키워서 레이드 클리어까지 버티고 살아있는 모습을 보니 뿌듯합니다 아쉬운점은 미니맵이 없는 부분 스토리 퀘스트가 없는(잘안보이는)부분 (여행자 카드가 있긴한데 굳이 열어서 읽지 않음) 후반 노가다로인한 지루함 입니다"
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-positive-1-7-4285524438555578102",
+            "text": "사람마다 호불호가 갈릴수 있겠지만 처음엔 불호쪽이지만 막상 하다보니 콘텐츠가 많아 재미가 있어서 호쪽으로 기울었어요. 이 게임은 난이도를 조절 할수 있어서 어렵게 하거나 커스텀으로 빠른 성장해 부담이 없다고 생각합니다. 무엇보다 팰들을 타보고 팰을 이용해서 무기도 쓸수 있다는게 신기했네요. 다만, 하다보면 팰들 타고 다니다가 끼어버리거나 필드에 팰이 나무위에 있는 버그가 많습니다. 또한 거점에서 노동하고 있는 한 마리의 팰이 땅 밑에서 자꾸 낙사하고 있는등의 버그가 있습니다. 자신만의 건물 짓는것을 좋아하거나 귀여운 팰들을 수집하거나 팰들을 노동시키고 싶다면추천 드립니다."
+          },
+          {
+            "review_id": "compress-v3-positive-1-8-2812294722763216249",
+            "text": "취향이 아닐것 같아+쓰리디 멀미있어 구매후 방치하던 게임인데, 테라리아 코어키퍼등의 오픈월드, 탐험 업글 게임 좋아하면 적극 추천 드립니다 쓰리디멀미 잔잔하게 오긴하는데 천천히 하니까 적응해서 할만했어요 마지막 탑보스 전인 후반 LV50~65까지 레벨링이 좀 지루한 부분이 있고 마지막 레이드 보스 제노드란을 죽이려 시도했는데 1트 실패 후 메인펠 영혼, 응축 노가다&스킬파밍 + 거점 공격력 방어력 연구+샤키드풀응축x3버프 + 최종 주괴 코랄리움 부스터건&+3방어장비+음식, 물약 파밍 하는데 정말 미칠듯 너무...지루해서 중간에 현타 후 마지막 제노드란 레이드 스킵하고 끝내려다 그냥 도전했는데 2트에 잡았네요 첫 펠이 커다란 희귀 도로롱이였는데 마지막 레이드까지 쭉 키워서 레이드 클리어까지 버티고 살아있는 모습을 보니 뿌듯합니다 아쉬운점은 미니맵이 없는 부분 스토리 퀘스트가 없는(잘안보이는)부분 (여행자 카드가 있긴한데 굳이 열어서 읽지 않음) 후반 노가다로인한 지루함 입니다"
+          }
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "block_id": "risk_1",
+        "title": "복잡한 동선",
+        "theme": "복잡한 동선",
+        "why_it_matters": "매칭과 서버 상태를 문제로 보는 반응이 있어 한 판의 안정성이 상황에 따라 갈릴 수 있습니다.",
+        "explanation": "매칭과 서버 상태를 문제로 보는 반응이 있어 한 판의 안정성이 상황에 따라 갈릴 수 있습니다.",
+        "aspect_keys": [
+          "multiplayer"
+        ],
+        "stance": "negative",
+        "consensus_level": "high",
+        "mention_count": 946,
+        "evidence_quality_level": "strict",
+        "evidence_candidate_snippets": [
+          "멀티 플래이가 안됨 어제 멀티 플래이했었는데 지금은 안됌",
+          "잘하고 있는데 ㅗ애 갑자기 멀티 플래이가 안되지는지 궁금합니다. EOS 로그인 타임 아웃이라고 하면서 멀티 플레이가 되지 않습니다"
+        ],
+        "evidence_snippets": [
+          "잘하고 있는데 ㅗ애 갑자기 멀티 플래이가 안되지는지 궁금합니다. EOS 로그인 타임 아웃이라고 하면서 멀티 플레이가 되지 않습니다",
+          "멀티 플래이가 안됨 어제 멀티 플래이했었는데 지금은 안됌"
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-negative-1-1-3275565382080306565",
+            "text": "멀티 플래이가 안됨 어제 멀티 플래이했었는데 지금은 안됌"
+          },
+          {
+            "review_id": "compress-v3-negative-1-2-1869588031856548704",
+            "text": "잘하고 있는데 ㅗ애 갑자기 멀티 플래이가 안되지는지 궁금합니다. EOS 로그인 타임 아웃이라고 하면서 멀티 플레이가 되지 않습니다"
+          }
+        ]
+      },
+      {
+        "block_id": "risk_2",
+        "title": "오류와 끊김이 흐름을 끊는다는 반응",
+        "theme": "예상치 못한 오류가 플레이 리듬을 끊을 수 있는 리스크",
+        "why_it_matters": "오류와 끊김을 지적하는 반응이 이어져 흐름이 끊기는 상황은 감수할 필요가 있습니다.",
+        "explanation": "오류와 끊김을 지적하는 반응이 이어져 흐름이 끊기는 상황은 감수할 필요가 있습니다.",
+        "aspect_keys": [
+          "bugs"
+        ],
+        "stance": "negative",
+        "consensus_level": "high",
+        "mention_count": 876,
+        "evidence_quality_level": "strict",
+        "evidence_candidate_snippets": [
+          "일하던 팰들이 굳는 버그 때문에 못 하겠어요",
+          "이건 퍼먹어도 퍼먹어도 끝이없냐 팰 작업 버그만 꾸준히 잘 고쳐봐라",
+          "버그 많고 핑 높고 랙 걸리고 오류가 많아 재미가 없다"
+        ],
+        "evidence_snippets": [
+          "일하던 팰들이 굳는 버그 때문에 못 하겠어요",
+          "버그 많고 핑 높고 랙 걸리고 오류가 많아 재미가 없다",
+          "이건 퍼먹어도 퍼먹어도 끝이없냐 팰 작업 버그만 꾸준히 잘 고쳐봐라"
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-negative-2-1-2455597643505712739",
+            "text": "일하던 팰들이 굳는 버그 때문에 못 하겠어요"
+          },
+          {
+            "review_id": "compress-v3-negative-2-2-1233599936550117651",
+            "text": "이건 퍼먹어도 퍼먹어도 끝이없냐 팰 작업 버그만 꾸준히 잘 고쳐봐라"
+          },
+          {
+            "review_id": "compress-v3-negative-2-3-7511520663178668563",
+            "text": "버그 많고 핑 높고 랙 걸리고 오류가 많아 재미가 없다"
+          }
+        ]
+      }
+    ]
+  },
+  "disclaimer": "여러 유저 리뷰를 바탕으로 정리했어요. 플레이 경험은 사람마다 다를 수 있어요.",
+  "headline": "팰월드는 방대한 콘텐츠와 다양한 플레이 방식이 매력적입니다.",
+  "buy_recommendation": "buy_now",
+  "buy_timing_summary": "초반의 재미와 자유도가 뛰어나며, 멀티플레이로 즐기면 더욱 재미있습니다. 다만 후반부의 노가다와 반복 요소는 호불호가 갈릴 수 있습니다.",
+  "good_for": [
+    "자동화 라인을 다듬으며 효율을 올리는 플레이어",
+    "생명체 수집과 육성을 즐기는 플레이어",
+    "멀티플레이를 선호하는 유저"
+  ],
+  "not_good_for": [
+    "진행 중 오류나 끊김을 거의 허용하지 않는 플레이어",
+    "복잡한 동선과 관리 피로에 민감한 플레이어",
+    "비용 대비 만족을 꼼꼼하게 따지는 플레이어"
+  ],
+  "top_strengths": [
+    {
+      "title": "풍부한 콘텐츠 볼륨",
+      "summary": "탐험, 수집, 제작, 자동화 등 다양한 즐길 거리가 많아 시간 가는 줄 모르고 몰입할 수 있습니다."
+    },
+    {
+      "title": "다양한 플레이 스타일",
+      "summary": "전투, 건축, 농업, 멀티플레이 등 원하는 방식으로 게임을 즐기며 자신만의 경험을 쌓을 수 있습니다."
+    },
+    {
+      "title": "독창적인 몬스터 활용",
+      "summary": "팰을 전투뿐 아니라 노동과 생산에 활용하는 독특한 시스템이 신선하고 재미를 더해 줍니다."
+    }
+  ],
+  "top_risks": [
+    {
+      "title": "잦은 버그와 불안정한 플레이",
+      "summary": "버그로 인해 팰이 멈추거나 낙사하는 등 진행에 지장이 크고, 게임 내 여러 오류가 몰입을 방해합니다."
+    },
+    {
+      "title": "지속적인 노가다와 반복적인 피로",
+      "summary": "후반부로 갈수록 자원 파밍과 교배 노가다가 심해져 지루함과 피로가 누적되며 플레이 의욕이 떨어집니다."
+    },
+    {
+      "title": "프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크와 성능 저하",
+      "summary": "낮은 프레임과 잦은 렉, 튕김 현상으로 쾌적한 플레이가 어려워 장시간 플레이에 부담이 됩니다."
+    }
+  ],
+  "recent_state": {
+    "status": "mixed",
+    "summary": "팰월드는 방대한 콘텐츠와 다양한 플레이 방식이 매력적이라는 평가가 많지만, 반복 노가다와 버그, 최적화 문제로 인해 후반부에 피로감을 느끼는 의견도 공존합니다."
+  },
+  "evidence_reviews": [
+    {
+      "block_id": "str_1",
+      "title": "자동화와 병목 해소의 재미가 분명하다는 반응",
+      "theme": "자동화 라인",
+      "why_it_matters": "자동화와 효율 설계를 좋게 보는 반응이 많아 병목을 풀고 확장하는 과정이 핵심 재미로 읽힙니다.",
+      "explanation": "자동화와 효율 설계를 좋게 보는 반응이 많아 병목을 풀고 확장하는 과정이 핵심 재미로 읽힙니다.",
+      "aspect_keys": [
+        "content_depth",
+        "gameplay"
+      ],
+      "stance": "positive",
+      "consensus_level": "high",
+      "mention_count": 2737,
+      "evidence_quality_level": "relaxed",
+      "evidence_candidate_snippets": [
+        "사람마다 호불호가 갈릴수 있겠지만 처음엔 불호쪽이지만 막상 하다보니 콘텐츠가 많아 재미가 있어서 호쪽으로 기울었어요. 이 게임은 난이도를 조절 할수 있어서 어렵게 하거나 커스텀으로 빠른 성장해 부담이 없다고 생각합니다. 무엇보다 팰들을 타보고 팰을 이용해서 무기도 쓸수 있다는게 신기했네요. 다만, 하다보면 팰들 타고 다니다가 끼어버리거나 필드에 팰이 나무위에 있는 버그가 많습니다. 또한 거점에서 노동하고 있는 한 마리의 팰이 땅 밑에서 자꾸 낙사하고 있는등의 버그가 있습니다. 자신만의 건물 짓는것을 좋아하거나 귀여운 팰들을 수집하거나 팰들을 노동시키고 싶다면추천 드립니다.",
+        "취향이 아닐것 같아+쓰리디 멀미있어 구매후 방치하던 게임인데, 테라리아 코어키퍼등의 오픈월드, 탐험 업글 게임 좋아하면 적극 추천 드립니다 쓰리디멀미 잔잔하게 오긴하는데 천천히 하니까 적응해서 할만했어요 마지막 탑보스 전인 후반 LV50~65까지 레벨링이 좀 지루한 부분이 있고 마지막 레이드 보스 제노드란을 죽이려 시도했는데 1트 실패 후 메인펠 영혼, 응축 노가다&스킬파밍 + 거점 공격력 방어력 연구+샤키드풀응축x3버프 + 최종 주괴 코랄리움 부스터건&+3방어장비+음식, 물약 파밍 하는데 정말 미칠듯 너무...지루해서 중간에 현타 후 마지막 제노드란 레이드 스킵하고 끝내려다 그냥 도전했는데 2트에 잡았네요 첫 펠이 커다란 희귀 도로롱이였는데 마지막 레이드까지 쭉 키워서 레이드 클리어까지 버티고 살아있는 모습을 보니 뿌듯합니다 아쉬운점은 미니맵이 없는 부분 스토리 퀘스트가 없는(잘안보이는)부분 (여행자 카드가 있긴한데 굳이 열어서 읽지 않음) 후반 노가다로인한 지루함 입니다"
+      ],
+      "evidence_snippets": [
+        "사람마다 호불호가 갈릴수 있겠지만 처음엔 불호쪽이지만 막상 하다보니 콘텐츠가 많아 재미가 있어서 호쪽으로 기울었어요. 이 게임은 난이도를 조절 할수 있어서 어렵게 하거나 커스텀으로 빠른 성장해 부담이 없다고 생각합니다. 무엇보다 팰들을 타보고 팰을 이용해서 무기도 쓸수 있다는게 신기했네요. 다만, 하다보면 팰들 타고 다니다가 끼어버리거나 필드에 팰이 나무위에 있는 버그가 많습니다. 또한 거점에서 노동하고 있는 한 마리의 팰이 땅 밑에서 자꾸 낙사하고 있는등의 버그가 있습니다. 자신만의 건물 짓는것을 좋아하거나 귀여운 팰들을 수집하거나 팰들을 노동시키고 싶다면추천 드립니다.",
+        "취향이 아닐것 같아+쓰리디 멀미있어 구매후 방치하던 게임인데, 테라리아 코어키퍼등의 오픈월드, 탐험 업글 게임 좋아하면 적극 추천 드립니다 쓰리디멀미 잔잔하게 오긴하는데 천천히 하니까 적응해서 할만했어요 마지막 탑보스 전인 후반 LV50~65까지 레벨링이 좀 지루한 부분이 있고 마지막 레이드 보스 제노드란을 죽이려 시도했는데 1트 실패 후 메인펠 영혼, 응축 노가다&스킬파밍 + 거점 공격력 방어력 연구+샤키드풀응축x3버프 + 최종 주괴 코랄리움 부스터건&+3방어장비+음식, 물약 파밍 하는데 정말 미칠듯 너무... 지루해서 중간에 현타 후 마지막 제노드란 레이드 스킵하고 끝내려다 그냥 도전했는데 2트에 잡았네요 첫 펠이 커다란 희귀 도로롱이였는데 마지막 레이드까지 쭉 키워서 레이드 클리어까지 버티고 살아있는 모습을 보니 뿌듯합니다 아쉬운점은 미니맵이 없는 부분 스토리 퀘스트가 없는(잘안보이는)부분 (여행자 카드가 있긴한데 굳이 열어서 읽지 않음) 후반 노가다로인한 지루함 입니다"
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-positive-1-7-4285524438555578102",
+          "text": "사람마다 호불호가 갈릴수 있겠지만 처음엔 불호쪽이지만 막상 하다보니 콘텐츠가 많아 재미가 있어서 호쪽으로 기울었어요. 이 게임은 난이도를 조절 할수 있어서 어렵게 하거나 커스텀으로 빠른 성장해 부담이 없다고 생각합니다. 무엇보다 팰들을 타보고 팰을 이용해서 무기도 쓸수 있다는게 신기했네요. 다만, 하다보면 팰들 타고 다니다가 끼어버리거나 필드에 팰이 나무위에 있는 버그가 많습니다. 또한 거점에서 노동하고 있는 한 마리의 팰이 땅 밑에서 자꾸 낙사하고 있는등의 버그가 있습니다. 자신만의 건물 짓는것을 좋아하거나 귀여운 팰들을 수집하거나 팰들을 노동시키고 싶다면추천 드립니다."
+        },
+        {
+          "review_id": "compress-v3-positive-1-8-2812294722763216249",
+          "text": "취향이 아닐것 같아+쓰리디 멀미있어 구매후 방치하던 게임인데, 테라리아 코어키퍼등의 오픈월드, 탐험 업글 게임 좋아하면 적극 추천 드립니다 쓰리디멀미 잔잔하게 오긴하는데 천천히 하니까 적응해서 할만했어요 마지막 탑보스 전인 후반 LV50~65까지 레벨링이 좀 지루한 부분이 있고 마지막 레이드 보스 제노드란을 죽이려 시도했는데 1트 실패 후 메인펠 영혼, 응축 노가다&스킬파밍 + 거점 공격력 방어력 연구+샤키드풀응축x3버프 + 최종 주괴 코랄리움 부스터건&+3방어장비+음식, 물약 파밍 하는데 정말 미칠듯 너무...지루해서 중간에 현타 후 마지막 제노드란 레이드 스킵하고 끝내려다 그냥 도전했는데 2트에 잡았네요 첫 펠이 커다란 희귀 도로롱이였는데 마지막 레이드까지 쭉 키워서 레이드 클리어까지 버티고 살아있는 모습을 보니 뿌듯합니다 아쉬운점은 미니맵이 없는 부분 스토리 퀘스트가 없는(잘안보이는)부분 (여행자 카드가 있긴한데 굳이 열어서 읽지 않음) 후반 노가다로인한 지루함 입니다"
+        }
+      ]
+    },
+    {
+      "block_id": "risk_1",
+      "title": "복잡한 동선",
+      "theme": "복잡한 동선",
+      "why_it_matters": "매칭과 서버 상태를 문제로 보는 반응이 있어 한 판의 안정성이 상황에 따라 갈릴 수 있습니다.",
+      "explanation": "매칭과 서버 상태를 문제로 보는 반응이 있어 한 판의 안정성이 상황에 따라 갈릴 수 있습니다.",
+      "aspect_keys": [
+        "multiplayer"
+      ],
+      "stance": "negative",
+      "consensus_level": "high",
+      "mention_count": 946,
+      "evidence_quality_level": "strict",
+      "evidence_candidate_snippets": [
+        "멀티 플래이가 안됨 어제 멀티 플래이했었는데 지금은 안됌",
+        "잘하고 있는데 ㅗ애 갑자기 멀티 플래이가 안되지는지 궁금합니다. EOS 로그인 타임 아웃이라고 하면서 멀티 플레이가 되지 않습니다"
+      ],
+      "evidence_snippets": [
+        "잘하고 있는데 ㅗ애 갑자기 멀티 플래이가 안되지는지 궁금합니다. EOS 로그인 타임 아웃이라고 하면서 멀티 플레이가 되지 않습니다",
+        "멀티 플래이가 안됨 어제 멀티 플래이했었는데 지금은 안됌"
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-negative-1-1-3275565382080306565",
+          "text": "멀티 플래이가 안됨 어제 멀티 플래이했었는데 지금은 안됌"
+        },
+        {
+          "review_id": "compress-v3-negative-1-2-1869588031856548704",
+          "text": "잘하고 있는데 ㅗ애 갑자기 멀티 플래이가 안되지는지 궁금합니다. EOS 로그인 타임 아웃이라고 하면서 멀티 플레이가 되지 않습니다"
+        }
+      ]
+    },
+    {
+      "block_id": "risk_2",
+      "title": "오류와 끊김이 흐름을 끊는다는 반응",
+      "theme": "예상치 못한 오류가 플레이 리듬을 끊을 수 있는 리스크",
+      "why_it_matters": "오류와 끊김을 지적하는 반응이 이어져 흐름이 끊기는 상황은 감수할 필요가 있습니다.",
+      "explanation": "오류와 끊김을 지적하는 반응이 이어져 흐름이 끊기는 상황은 감수할 필요가 있습니다.",
+      "aspect_keys": [
+        "bugs"
+      ],
+      "stance": "negative",
+      "consensus_level": "high",
+      "mention_count": 876,
+      "evidence_quality_level": "strict",
+      "evidence_candidate_snippets": [
+        "일하던 팰들이 굳는 버그 때문에 못 하겠어요",
+        "이건 퍼먹어도 퍼먹어도 끝이없냐 팰 작업 버그만 꾸준히 잘 고쳐봐라",
+        "버그 많고 핑 높고 랙 걸리고 오류가 많아 재미가 없다"
+      ],
+      "evidence_snippets": [
+        "일하던 팰들이 굳는 버그 때문에 못 하겠어요",
+        "버그 많고 핑 높고 랙 걸리고 오류가 많아 재미가 없다",
+        "이건 퍼먹어도 퍼먹어도 끝이없냐 팰 작업 버그만 꾸준히 잘 고쳐봐라"
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-negative-2-1-2455597643505712739",
+          "text": "일하던 팰들이 굳는 버그 때문에 못 하겠어요"
+        },
+        {
+          "review_id": "compress-v3-negative-2-2-1233599936550117651",
+          "text": "이건 퍼먹어도 퍼먹어도 끝이없냐 팰 작업 버그만 꾸준히 잘 고쳐봐라"
+        },
+        {
+          "review_id": "compress-v3-negative-2-3-7511520663178668563",
+          "text": "버그 많고 핑 높고 랙 걸리고 오류가 많아 재미가 없다"
+        }
+      ]
+    }
+  ]
+}

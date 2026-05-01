@@ -1,0 +1,83 @@
+{
+  "appid": 2000950,
+  "name": "Call of Duty®: Modern Warfare®",
+  "name_en": "Call of Duty®: Modern Warfare®",
+  "name_ko": "Call of Duty®: Modern Warfare®",
+  "genres": [
+    "액션"
+  ],
+  "price_model": "paid",
+  "release_stage": "released",
+  "release_date_text": "2023년 3월 8일",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2000950/header.jpg?t=1776876020",
+  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2000950/capsule_231x87.jpg?t=1776876020",
+  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2000950/capsule_184x69.jpg?t=1776876020",
+  "screenshots": [
+    {
+      "id": "0",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2000950/ss_9cd9585e9eed5acb963d3462c594cfce341e6b64.600x338.jpg?t=1776876020",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2000950/ss_9cd9585e9eed5acb963d3462c594cfce341e6b64.1920x1080.jpg?t=1776876020"
+    },
+    {
+      "id": "1",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2000950/ss_aa043742143d678b18c27c6035c23ea8a1c26544.600x338.jpg?t=1776876020",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2000950/ss_aa043742143d678b18c27c6035c23ea8a1c26544.1920x1080.jpg?t=1776876020"
+    },
+    {
+      "id": "2",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2000950/ss_8cfeab83b903aeb2939481f4ed932aa01d879434.600x338.jpg?t=1776876020",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2000950/ss_8cfeab83b903aeb2939481f4ed932aa01d879434.1920x1080.jpg?t=1776876020"
+    },
+    {
+      "id": "3",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2000950/ss_c15d3bbc88fb942c72663e89cb6e0e23aad6cec3.600x338.jpg?t=1776876020",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2000950/ss_c15d3bbc88fb942c72663e89cb6e0e23aad6cec3.1920x1080.jpg?t=1776876020"
+    },
+    {
+      "id": "4",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2000950/ss_ffb62483729a5c8f3aff1d1cb29da6562f947750.600x338.jpg?t=1776876020",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2000950/ss_ffb62483729a5c8f3aff1d1cb29da6562f947750.1920x1080.jpg?t=1776876020"
+    },
+    {
+      "id": "5",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2000950/ss_ed37af44db653a624c9b5a4006458d3e8d8f571c.600x338.jpg?t=1776876020",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2000950/ss_ed37af44db653a624c9b5a4006458d3e8d8f571c.1920x1080.jpg?t=1776876020"
+    },
+    {
+      "id": "6",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2000950/ss_f1c0a80e5b46c6f17ba3050ca352859b52531a7d.600x338.jpg?t=1776876020",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2000950/ss_f1c0a80e5b46c6f17ba3050ca352859b52531a7d.1920x1080.jpg?t=1776876020"
+    },
+    {
+      "id": "7",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2000950/ss_5e04b4e328be7b06feae4529e22a8d2b6a4e2cb1.600x338.jpg?t=1776876020",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2000950/ss_5e04b4e328be7b06feae4529e22a8d2b6a4e2cb1.1920x1080.jpg?t=1776876020"
+    },
+    {
+      "id": "8",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2000950/ss_3d5fb90e469152f730352774719887c5dd71625c.600x338.jpg?t=1776876020",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2000950/ss_3d5fb90e469152f730352774719887c5dd71625c.1920x1080.jpg?t=1776876020"
+    },
+    {
+      "id": "9",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2000950/ss_408a95fefe1220e66ec7ba959a0dee43f950cebc.600x338.jpg?t=1776876020",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2000950/ss_408a95fefe1220e66ec7ba959a0dee43f950cebc.1920x1080.jpg?t=1776876020"
+    }
+  ],
+  "movies": [],
+  "short_description": "다양한 스펙 옵스 챌린지와 혼합된 멀티플레이어 맵 및 모드가 있는 최고의 온라인 게임에서 열광적인 캠페인을 경험하거나 팀을 구성하십시오.",
+  "steam_store_url": "https://store.steampowered.com/app/2000950",
+  "steam_recommendation_count": 38371,
+  "steam_review_score_desc": "Mostly Positive",
+  "steam_total_positive": 791,
+  "steam_total_negative": 307,
+  "steam_total_reviews": 1098,
+  "price_currency": "KRW",
+  "price_current": 8390000,
+  "price_original": 8390000,
+  "price_current_formatted": "₩ 83,900",
+  "price_original_formatted": null,
+  "price_discount_percent": 0,
+  "is_free": false,
+  "coming_soon": false
+}

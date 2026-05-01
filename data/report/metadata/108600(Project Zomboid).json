@@ -1,0 +1,103 @@
+{
+  "appid": 108600,
+  "name": "Project Zomboid",
+  "name_en": "Project Zomboid",
+  "name_ko": "Project Zomboid",
+  "genres": [
+    "인디",
+    "RPG",
+    "시뮬레이션",
+    "앞서 해보기"
+  ],
+  "price_model": "paid",
+  "release_stage": "early_access",
+  "release_date_text": "2013년 11월 8일",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg?t=1777298596",
+  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/capsule_231x87.jpg?t=1777298596",
+  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/capsule_184x69.jpg?t=1777298596",
+  "screenshots": [
+    {
+      "id": "0",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_d4a0f78dc94273c7f0eedc186569efc091387066.600x338.jpg?t=1777298596",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_d4a0f78dc94273c7f0eedc186569efc091387066.1920x1080.jpg?t=1777298596"
+    },
+    {
+      "id": "1",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_eca8be032b3f5508bf5bea74cfbc823a4df047ce.600x338.jpg?t=1777298596",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_eca8be032b3f5508bf5bea74cfbc823a4df047ce.1920x1080.jpg?t=1777298596"
+    },
+    {
+      "id": "2",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_7300ecc70342b6fcbdf39b6f9ff4c408066f8fc2.600x338.jpg?t=1777298596",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_7300ecc70342b6fcbdf39b6f9ff4c408066f8fc2.1920x1080.jpg?t=1777298596"
+    },
+    {
+      "id": "3",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_eb1862af5109e4658e2538d897cbd16b87ad1818.600x338.jpg?t=1777298596",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_eb1862af5109e4658e2538d897cbd16b87ad1818.1920x1080.jpg?t=1777298596"
+    },
+    {
+      "id": "4",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_3b21d79855804e2a73468328a8fd18df0d238a2a.600x338.jpg?t=1777298596",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_3b21d79855804e2a73468328a8fd18df0d238a2a.1920x1080.jpg?t=1777298596"
+    },
+    {
+      "id": "5",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_0dc0cb896202ecfa344a0af981b695f2349317e1.600x338.jpg?t=1777298596",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_0dc0cb896202ecfa344a0af981b695f2349317e1.1920x1080.jpg?t=1777298596"
+    },
+    {
+      "id": "6",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_bb426e3c51a76f0605cef625094a9fbc7efad73a.600x338.jpg?t=1777298596",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_bb426e3c51a76f0605cef625094a9fbc7efad73a.1920x1080.jpg?t=1777298596"
+    },
+    {
+      "id": "7",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_507e952789822b69868d768e1e4476946f37b1fb.600x338.jpg?t=1777298596",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_507e952789822b69868d768e1e4476946f37b1fb.1920x1080.jpg?t=1777298596"
+    },
+    {
+      "id": "8",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_3eee93607a530e8a5b857bae596f4109539dfd35.600x338.jpg?t=1777298596",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_3eee93607a530e8a5b857bae596f4109539dfd35.1920x1080.jpg?t=1777298596"
+    },
+    {
+      "id": "9",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_d80677c526a1c9494a7147189e52fbf438f0a9ca.600x338.jpg?t=1777298596",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_d80677c526a1c9494a7147189e52fbf438f0a9ca.1920x1080.jpg?t=1777298596"
+    },
+    {
+      "id": "10",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_327eac804820daf1554e7ee9c64eeeb3053eda40.600x338.jpg?t=1777298596",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_327eac804820daf1554e7ee9c64eeeb3053eda40.1920x1080.jpg?t=1777298596"
+    }
+  ],
+  "movies": [
+    {
+      "id": "256865885",
+      "name": "41 Zomboid Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256865885/movie.293x165.jpg?t=1639992657",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/108600/426104/f029a1d7650463eb614db80fef79dd2aba95c7b8/1750498549/hls_264_master.m3u8?t=1639992657",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/108600/426104/f029a1d7650463eb614db80fef79dd2aba95c7b8/1750498549/dash_h264.mpd?t=1639992657",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/108600/426104/f029a1d7650463eb614db80fef79dd2aba95c7b8/1750498549/dash_av1.mpd?t=1639992657",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/108600/426104/f029a1d7650463eb614db80fef79dd2aba95c7b8/1750498549/hls_264_master.m3u8?t=1639992657"
+    }
+  ],
+  "short_description": "Project Zomboid is the ultimate in zombie survival. Alone or in MP: you loot, build, craft, fight, farm and fish in a struggle to survive. A hardcore RPG skillset, a vast map, massively customisable sandbox and a cute tutorial raccoon await the unwary. So how will you die? All it takes is a bite..",
+  "steam_store_url": "https://store.steampowered.com/app/108600",
+  "steam_recommendation_count": 338881,
+  "steam_review_score_desc": "Very Positive",
+  "steam_total_positive": 10586,
+  "steam_total_negative": 1404,
+  "steam_total_reviews": 11990,
+  "price_currency": "KRW",
+  "price_current": 2150000,
+  "price_original": 2150000,
+  "price_current_formatted": "₩ 21,500",
+  "price_original_formatted": null,
+  "price_discount_percent": 0,
+  "is_free": false,
+  "coming_soon": false
+}

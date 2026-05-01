@@ -21,10 +21,10 @@
       ]
     },
     "bugs": {
-      "mention_count": 331,
-      "negative_ratio": 0.3867069486404834,
+      "mention_count": 332,
+      "negative_ratio": 0.3855421686746988,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9758308157099698,
+      "experienced_player_share": 0.9759036144578314,
       "themes": [
         "일반 버그",
         "계정 / 제재 이슈",
@@ -50,10 +50,10 @@
       ]
     },
     "content_depth": {
-      "mention_count": 1211,
-      "negative_ratio": 0.15524360033030554,
+      "mention_count": 1210,
+      "negative_ratio": 0.15537190082644628,
       "recent_trend": "down",
-      "experienced_player_share": 0.9876135425268373,
+      "experienced_player_share": 0.987603305785124,
       "themes": [
         "콘텐츠 부족",
         "반복 / 목적성 부족",
@@ -151,10 +151,10 @@
       ]
     },
     "mod_support": {
-      "mention_count": 150,
-      "negative_ratio": 0.10666666666666667,
+      "mention_count": 149,
+      "negative_ratio": 0.10738255033557047,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9866666666666667,
+      "experienced_player_share": 0.9865771812080537,
       "themes": [
         "모드 지원 / 호환 문제"
       ],
@@ -178,10 +178,10 @@
       ]
     },
     "multiplayer": {
-      "mention_count": 434,
-      "negative_ratio": 0.1497695852534562,
+      "mention_count": 435,
+      "negative_ratio": 0.14942528735632185,
       "recent_trend": "flat",
-      "experienced_player_share": 0.9631336405529954,
+      "experienced_player_share": 0.9632183908045977,
       "themes": [
         "멀티플레이 경험",
         "매칭 / 서버 문제",
@@ -193,18 +193,18 @@
       ]
     },
     "performance": {
-      "mention_count": 934,
-      "negative_ratio": 0.11241970021413276,
+      "mention_count": 936,
+      "negative_ratio": 0.11217948717948718,
       "recent_trend": "flat",
-      "experienced_player_share": 0.974304068522484,
+      "experienced_player_share": 0.9743589743589743,
       "themes": [
         "최적화 문제",
         "로딩 / 발열 문제",
         "실행 불가 / 튕김"
       ],
       "sample_reviews": [
-        "플레이 타임 3,500시간\n인생 게임이었던것 \n\n처음 시작했을땐 무료 게임답지 않은 뛰어난 그래픽과 찰진 타격감, 그리고 많은 콘텐츠에 매료되어 ㅈㄴ 시간박으면서 했지만...  근본적으로는 끝없는 반복 노가다의 연속이라 시간 낭비가 심하고 지루함 \n\n하지만 신기하게도 워프레임을 대체할 게임이 없어서 자꾸만 생각남\n비슷하다는 데가, 퍼디도 해봤지만 워프레임 특유의 그 맛을 채워주진 못했음 \n\n그러니깐 DE님 \n제바ㅏㅏㅏㅏㄹ 앞으로 하지 말라는짓 안할테니깐 제발 밴 좀 풀어주세요",
-        "베타시절부터 지금까지 봐온 워프레임이란 게임은 무슨 업뎃을 하나 아쉽고 실망스러움\n아너리아 수집안함 그냥 게임 접속해서 점프 몇번하다 끄는게임."
+        "여성형 워프레임들 죄다 꼴리게 생긺,,,,,",
+        "플레이 타임 3,500시간\n인생 게임이었던것 \n\n처음 시작했을땐 무료 게임답지 않은 뛰어난 그래픽과 찰진 타격감, 그리고 많은 콘텐츠에 매료되어 ㅈㄴ 시간박으면서 했지만...  근본적으로는 끝없는 반복 노가다의 연속이라 시간 낭비가 심하고 지루함 \n\n하지만 신기하게도 워프레임을 대체할 게임이 없어서 자꾸만 생각남\n비슷하다는 데가, 퍼디도 해봤지만 워프레임 특유의 그 맛을 채워주진 못했음 \n\n그러니깐 DE님 \n제바ㅏㅏㅏㅏㄹ 앞으로 하지 말라는짓 안할테니깐 제발 밴 좀 풀어주세요"
       ]
     },
     "save_progression": {
@@ -242,8 +242,8 @@
     "fit_for": "초반 진입 장벽이나 조작 적응 여부를 중요하게 보는 플레이어는 사전 확인이 필요합니다.",
     "risks": "content_depth 관련 이슈는 반복적으로 언급되지만 최근 급격한 악화 신호는 제한적입니다."
   },
-  "pipeline_run_id": "230410-20260428T011235Z",
-  "generated_at": "2026-04-28T01:15:27.879210+00:00",
+  "pipeline_run_id": "230410-20260430T092815Z",
+  "generated_at": "2026-04-30T09:29:28.780629+00:00",
   "source_review_count": 11109,
   "review_pages": "all",
   "fetched_pages": 113,
@@ -253,13 +253,13 @@
   "all_mode_page_cap": 200,
   "all_mode_cap_reached": false,
   "llm_stats": {
-    "considered": 7657,
+    "considered": 7658,
     "selected": 50,
     "invoked": 50,
     "success": 50,
     "schema_invalid": 0,
     "low_confidence": 0,
-    "cache_hits": 0,
+    "cache_hits": 50,
     "fallback_used": 0
   },
   "report_material_refiner": {
@@ -268,13 +268,13 @@
     "llm_min_confidence": 0.7,
     "material_count": 50,
     "stats": {
-      "considered": 7657,
+      "considered": 7658,
       "selected": 50,
       "invoked": 50,
       "success": 50,
       "schema_invalid": 0,
       "low_confidence": 0,
-      "cache_hits": 0,
+      "cache_hits": 50,
       "fallback_used": 0
     }
   }

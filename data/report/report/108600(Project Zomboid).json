@@ -1,0 +1,1454 @@
+{
+  "report_version": "v4-planned-sections",
+  "appid": 108600,
+  "pipeline_run_id": "108600-20260430T100735Z",
+  "generated_at": "2026-04-30T10:10:17.049218+00:00",
+  "source_review_count": 11989,
+  "included_review_count": 7899,
+  "min_report_review_count": 100,
+  "report_state": "ready",
+  "review_trend": {
+    "granularity": "month",
+    "metric": "positive_ratio",
+    "points": [
+      {
+        "month": "2013-11",
+        "positive_count": 4,
+        "review_count": 6,
+        "positive_ratio": 0.6667
+      },
+      {
+        "month": "2013-12",
+        "positive_count": 9,
+        "review_count": 9,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2014-01",
+        "positive_count": 5,
+        "review_count": 7,
+        "positive_ratio": 0.7143
+      },
+      {
+        "month": "2014-02",
+        "positive_count": 11,
+        "review_count": 11,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2014-03",
+        "positive_count": 25,
+        "review_count": 27,
+        "positive_ratio": 0.9259
+      },
+      {
+        "month": "2014-04",
+        "positive_count": 3,
+        "review_count": 4,
+        "positive_ratio": 0.75
+      },
+      {
+        "month": "2014-05",
+        "positive_count": 12,
+        "review_count": 12,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2014-06",
+        "positive_count": 15,
+        "review_count": 20,
+        "positive_ratio": 0.75
+      },
+      {
+        "month": "2014-07",
+        "positive_count": 10,
+        "review_count": 11,
+        "positive_ratio": 0.9091
+      },
+      {
+        "month": "2014-08",
+        "positive_count": 3,
+        "review_count": 4,
+        "positive_ratio": 0.75
+      },
+      {
+        "month": "2014-09",
+        "positive_count": 5,
+        "review_count": 8,
+        "positive_ratio": 0.625
+      },
+      {
+        "month": "2014-10",
+        "positive_count": 8,
+        "review_count": 10,
+        "positive_ratio": 0.8
+      },
+      {
+        "month": "2014-11",
+        "positive_count": 5,
+        "review_count": 5,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2014-12",
+        "positive_count": 7,
+        "review_count": 8,
+        "positive_ratio": 0.875
+      },
+      {
+        "month": "2015-01",
+        "positive_count": 8,
+        "review_count": 11,
+        "positive_ratio": 0.7273
+      },
+      {
+        "month": "2015-02",
+        "positive_count": 11,
+        "review_count": 11,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2015-03",
+        "positive_count": 11,
+        "review_count": 12,
+        "positive_ratio": 0.9167
+      },
+      {
+        "month": "2015-04",
+        "positive_count": 1,
+        "review_count": 1,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2015-05",
+        "positive_count": 2,
+        "review_count": 2,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2015-06",
+        "positive_count": 9,
+        "review_count": 12,
+        "positive_ratio": 0.75
+      },
+      {
+        "month": "2015-07",
+        "positive_count": 1,
+        "review_count": 2,
+        "positive_ratio": 0.5
+      },
+      {
+        "month": "2015-08",
+        "positive_count": 7,
+        "review_count": 8,
+        "positive_ratio": 0.875
+      },
+      {
+        "month": "2015-10",
+        "positive_count": 10,
+        "review_count": 12,
+        "positive_ratio": 0.8333
+      },
+      {
+        "month": "2015-11",
+        "positive_count": 8,
+        "review_count": 8,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2015-12",
+        "positive_count": 10,
+        "review_count": 13,
+        "positive_ratio": 0.7692
+      },
+      {
+        "month": "2016-01",
+        "positive_count": 6,
+        "review_count": 9,
+        "positive_ratio": 0.6667
+      },
+      {
+        "month": "2016-02",
+        "positive_count": 8,
+        "review_count": 11,
+        "positive_ratio": 0.7273
+      },
+      {
+        "month": "2016-03",
+        "positive_count": 5,
+        "review_count": 7,
+        "positive_ratio": 0.7143
+      },
+      {
+        "month": "2016-04",
+        "positive_count": 8,
+        "review_count": 8,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2016-05",
+        "positive_count": 4,
+        "review_count": 8,
+        "positive_ratio": 0.5
+      },
+      {
+        "month": "2016-06",
+        "positive_count": 5,
+        "review_count": 5,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2016-07",
+        "positive_count": 5,
+        "review_count": 5,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2016-08",
+        "positive_count": 3,
+        "review_count": 4,
+        "positive_ratio": 0.75
+      },
+      {
+        "month": "2016-09",
+        "positive_count": 3,
+        "review_count": 5,
+        "positive_ratio": 0.6
+      },
+      {
+        "month": "2016-10",
+        "positive_count": 2,
+        "review_count": 4,
+        "positive_ratio": 0.5
+      },
+      {
+        "month": "2016-11",
+        "positive_count": 16,
+        "review_count": 18,
+        "positive_ratio": 0.8889
+      },
+      {
+        "month": "2016-12",
+        "positive_count": 7,
+        "review_count": 7,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2017-01",
+        "positive_count": 9,
+        "review_count": 13,
+        "positive_ratio": 0.6923
+      },
+      {
+        "month": "2017-02",
+        "positive_count": 4,
+        "review_count": 8,
+        "positive_ratio": 0.5
+      },
+      {
+        "month": "2017-03",
+        "positive_count": 1,
+        "review_count": 5,
+        "positive_ratio": 0.2
+      },
+      {
+        "month": "2017-04",
+        "positive_count": 3,
+        "review_count": 4,
+        "positive_ratio": 0.75
+      },
+      {
+        "month": "2017-05",
+        "positive_count": 5,
+        "review_count": 6,
+        "positive_ratio": 0.8333
+      },
+      {
+        "month": "2017-06",
+        "positive_count": 6,
+        "review_count": 10,
+        "positive_ratio": 0.6
+      },
+      {
+        "month": "2017-07",
+        "positive_count": 7,
+        "review_count": 10,
+        "positive_ratio": 0.7
+      },
+      {
+        "month": "2017-08",
+        "positive_count": 6,
+        "review_count": 9,
+        "positive_ratio": 0.6667
+      },
+      {
+        "month": "2017-09",
+        "positive_count": 6,
+        "review_count": 8,
+        "positive_ratio": 0.75
+      },
+      {
+        "month": "2017-10",
+        "positive_count": 5,
+        "review_count": 8,
+        "positive_ratio": 0.625
+      },
+      {
+        "month": "2017-11",
+        "positive_count": 12,
+        "review_count": 13,
+        "positive_ratio": 0.9231
+      },
+      {
+        "month": "2017-12",
+        "positive_count": 8,
+        "review_count": 10,
+        "positive_ratio": 0.8
+      },
+      {
+        "month": "2018-01",
+        "positive_count": 5,
+        "review_count": 8,
+        "positive_ratio": 0.625
+      },
+      {
+        "month": "2018-02",
+        "positive_count": 2,
+        "review_count": 2,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2018-03",
+        "positive_count": 8,
+        "review_count": 14,
+        "positive_ratio": 0.5714
+      },
+      {
+        "month": "2018-04",
+        "positive_count": 2,
+        "review_count": 4,
+        "positive_ratio": 0.5
+      },
+      {
+        "month": "2018-05",
+        "positive_count": 2,
+        "review_count": 4,
+        "positive_ratio": 0.5
+      },
+      {
+        "month": "2018-06",
+        "positive_count": 8,
+        "review_count": 15,
+        "positive_ratio": 0.5333
+      },
+      {
+        "month": "2018-07",
+        "positive_count": 4,
+        "review_count": 6,
+        "positive_ratio": 0.6667
+      },
+      {
+        "month": "2018-08",
+        "positive_count": 1,
+        "review_count": 3,
+        "positive_ratio": 0.3333
+      },
+      {
+        "month": "2018-09",
+        "positive_count": 2,
+        "review_count": 4,
+        "positive_ratio": 0.5
+      },
+      {
+        "month": "2018-10",
+        "positive_count": 6,
+        "review_count": 7,
+        "positive_ratio": 0.8571
+      },
+      {
+        "month": "2018-11",
+        "positive_count": 10,
+        "review_count": 11,
+        "positive_ratio": 0.9091
+      },
+      {
+        "month": "2018-12",
+        "positive_count": 6,
+        "review_count": 7,
+        "positive_ratio": 0.8571
+      },
+      {
+        "month": "2019-01",
+        "positive_count": 5,
+        "review_count": 5,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2019-02",
+        "positive_count": 10,
+        "review_count": 10,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2019-03",
+        "positive_count": 4,
+        "review_count": 4,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2019-04",
+        "positive_count": 4,
+        "review_count": 5,
+        "positive_ratio": 0.8
+      },
+      {
+        "month": "2019-05",
+        "positive_count": 7,
+        "review_count": 7,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2019-06",
+        "positive_count": 5,
+        "review_count": 6,
+        "positive_ratio": 0.8333
+      },
+      {
+        "month": "2019-07",
+        "positive_count": 10,
+        "review_count": 14,
+        "positive_ratio": 0.7143
+      },
+      {
+        "month": "2019-08",
+        "positive_count": 3,
+        "review_count": 4,
+        "positive_ratio": 0.75
+      },
+      {
+        "month": "2019-09",
+        "positive_count": 1,
+        "review_count": 1,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2019-10",
+        "positive_count": 6,
+        "review_count": 8,
+        "positive_ratio": 0.75
+      },
+      {
+        "month": "2019-11",
+        "positive_count": 16,
+        "review_count": 17,
+        "positive_ratio": 0.9412
+      },
+      {
+        "month": "2019-12",
+        "positive_count": 12,
+        "review_count": 13,
+        "positive_ratio": 0.9231
+      },
+      {
+        "month": "2020-01",
+        "positive_count": 28,
+        "review_count": 34,
+        "positive_ratio": 0.8235
+      },
+      {
+        "month": "2020-02",
+        "positive_count": 10,
+        "review_count": 13,
+        "positive_ratio": 0.7692
+      },
+      {
+        "month": "2020-03",
+        "positive_count": 5,
+        "review_count": 8,
+        "positive_ratio": 0.625
+      },
+      {
+        "month": "2020-04",
+        "positive_count": 5,
+        "review_count": 8,
+        "positive_ratio": 0.625
+      },
+      {
+        "month": "2020-05",
+        "positive_count": 17,
+        "review_count": 18,
+        "positive_ratio": 0.9444
+      },
+      {
+        "month": "2020-06",
+        "positive_count": 6,
+        "review_count": 9,
+        "positive_ratio": 0.6667
+      },
+      {
+        "month": "2020-07",
+        "positive_count": 8,
+        "review_count": 9,
+        "positive_ratio": 0.8889
+      },
+      {
+        "month": "2020-08",
+        "positive_count": 10,
+        "review_count": 11,
+        "positive_ratio": 0.9091
+      },
+      {
+        "month": "2020-09",
+        "positive_count": 12,
+        "review_count": 15,
+        "positive_ratio": 0.8
+      },
+      {
+        "month": "2020-10",
+        "positive_count": 13,
+        "review_count": 16,
+        "positive_ratio": 0.8125
+      },
+      {
+        "month": "2020-11",
+        "positive_count": 25,
+        "review_count": 28,
+        "positive_ratio": 0.8929
+      },
+      {
+        "month": "2020-12",
+        "positive_count": 14,
+        "review_count": 16,
+        "positive_ratio": 0.875
+      },
+      {
+        "month": "2021-01",
+        "positive_count": 11,
+        "review_count": 12,
+        "positive_ratio": 0.9167
+      },
+      {
+        "month": "2021-02",
+        "positive_count": 15,
+        "review_count": 18,
+        "positive_ratio": 0.8333
+      },
+      {
+        "month": "2021-03",
+        "positive_count": 13,
+        "review_count": 15,
+        "positive_ratio": 0.8667
+      },
+      {
+        "month": "2021-04",
+        "positive_count": 9,
+        "review_count": 14,
+        "positive_ratio": 0.6429
+      },
+      {
+        "month": "2021-05",
+        "positive_count": 36,
+        "review_count": 41,
+        "positive_ratio": 0.878
+      },
+      {
+        "month": "2021-06",
+        "positive_count": 22,
+        "review_count": 26,
+        "positive_ratio": 0.8462
+      },
+      {
+        "month": "2021-07",
+        "positive_count": 23,
+        "review_count": 26,
+        "positive_ratio": 0.8846
+      },
+      {
+        "month": "2021-08",
+        "positive_count": 101,
+        "review_count": 111,
+        "positive_ratio": 0.9099
+      },
+      {
+        "month": "2021-09",
+        "positive_count": 271,
+        "review_count": 346,
+        "positive_ratio": 0.7832
+      },
+      {
+        "month": "2021-10",
+        "positive_count": 107,
+        "review_count": 124,
+        "positive_ratio": 0.8629
+      },
+      {
+        "month": "2021-11",
+        "positive_count": 90,
+        "review_count": 104,
+        "positive_ratio": 0.8654
+      },
+      {
+        "month": "2021-12",
+        "positive_count": 123,
+        "review_count": 141,
+        "positive_ratio": 0.8723
+      },
+      {
+        "month": "2022-01",
+        "positive_count": 156,
+        "review_count": 175,
+        "positive_ratio": 0.8914
+      },
+      {
+        "month": "2022-02",
+        "positive_count": 134,
+        "review_count": 144,
+        "positive_ratio": 0.9306
+      },
+      {
+        "month": "2022-03",
+        "positive_count": 120,
+        "review_count": 133,
+        "positive_ratio": 0.9023
+      },
+      {
+        "month": "2022-04",
+        "positive_count": 74,
+        "review_count": 82,
+        "positive_ratio": 0.9024
+      },
+      {
+        "month": "2022-05",
+        "positive_count": 69,
+        "review_count": 79,
+        "positive_ratio": 0.8734
+      },
+      {
+        "month": "2022-06",
+        "positive_count": 69,
+        "review_count": 78,
+        "positive_ratio": 0.8846
+      },
+      {
+        "month": "2022-07",
+        "positive_count": 107,
+        "review_count": 120,
+        "positive_ratio": 0.8917
+      },
+      {
+        "month": "2022-08",
+        "positive_count": 144,
+        "review_count": 158,
+        "positive_ratio": 0.9114
+      },
+      {
+        "month": "2022-09",
+        "positive_count": 143,
+        "review_count": 163,
+        "positive_ratio": 0.8773
+      },
+      {
+        "month": "2022-10",
+        "positive_count": 149,
+        "review_count": 168,
+        "positive_ratio": 0.8869
+      },
+      {
+        "month": "2022-11",
+        "positive_count": 263,
+        "review_count": 295,
+        "positive_ratio": 0.8915
+      },
+      {
+        "month": "2022-12",
+        "positive_count": 707,
+        "review_count": 782,
+        "positive_ratio": 0.9041
+      },
+      {
+        "month": "2023-01",
+        "positive_count": 600,
+        "review_count": 660,
+        "positive_ratio": 0.9091
+      },
+      {
+        "month": "2023-02",
+        "positive_count": 408,
+        "review_count": 451,
+        "positive_ratio": 0.9047
+      },
+      {
+        "month": "2023-03",
+        "positive_count": 220,
+        "review_count": 239,
+        "positive_ratio": 0.9205
+      },
+      {
+        "month": "2023-04",
+        "positive_count": 125,
+        "review_count": 136,
+        "positive_ratio": 0.9191
+      },
+      {
+        "month": "2023-05",
+        "positive_count": 143,
+        "review_count": 157,
+        "positive_ratio": 0.9108
+      },
+      {
+        "month": "2023-06",
+        "positive_count": 136,
+        "review_count": 143,
+        "positive_ratio": 0.951
+      },
+      {
+        "month": "2023-07",
+        "positive_count": 185,
+        "review_count": 200,
+        "positive_ratio": 0.925
+      },
+      {
+        "month": "2023-08",
+        "positive_count": 148,
+        "review_count": 162,
+        "positive_ratio": 0.9136
+      },
+      {
+        "month": "2023-09",
+        "positive_count": 195,
+        "review_count": 217,
+        "positive_ratio": 0.8986
+      },
+      {
+        "month": "2023-10",
+        "positive_count": 224,
+        "review_count": 252,
+        "positive_ratio": 0.8889
+      },
+      {
+        "month": "2023-11",
+        "positive_count": 260,
+        "review_count": 293,
+        "positive_ratio": 0.8874
+      },
+      {
+        "month": "2023-12",
+        "positive_count": 208,
+        "review_count": 235,
+        "positive_ratio": 0.8851
+      },
+      {
+        "month": "2024-01",
+        "positive_count": 191,
+        "review_count": 208,
+        "positive_ratio": 0.9183
+      },
+      {
+        "month": "2024-02",
+        "positive_count": 123,
+        "review_count": 145,
+        "positive_ratio": 0.8483
+      },
+      {
+        "month": "2024-03",
+        "positive_count": 118,
+        "review_count": 134,
+        "positive_ratio": 0.8806
+      },
+      {
+        "month": "2024-04",
+        "positive_count": 83,
+        "review_count": 93,
+        "positive_ratio": 0.8925
+      },
+      {
+        "month": "2024-05",
+        "positive_count": 102,
+        "review_count": 116,
+        "positive_ratio": 0.8793
+      },
+      {
+        "month": "2024-06",
+        "positive_count": 99,
+        "review_count": 114,
+        "positive_ratio": 0.8684
+      },
+      {
+        "month": "2024-07",
+        "positive_count": 161,
+        "review_count": 191,
+        "positive_ratio": 0.8429
+      },
+      {
+        "month": "2024-08",
+        "positive_count": 172,
+        "review_count": 187,
+        "positive_ratio": 0.9198
+      },
+      {
+        "month": "2024-09",
+        "positive_count": 201,
+        "review_count": 225,
+        "positive_ratio": 0.8933
+      },
+      {
+        "month": "2024-10",
+        "positive_count": 193,
+        "review_count": 214,
+        "positive_ratio": 0.9019
+      },
+      {
+        "month": "2024-11",
+        "positive_count": 268,
+        "review_count": 295,
+        "positive_ratio": 0.9085
+      },
+      {
+        "month": "2024-12",
+        "positive_count": 244,
+        "review_count": 277,
+        "positive_ratio": 0.8809
+      },
+      {
+        "month": "2025-01",
+        "positive_count": 238,
+        "review_count": 259,
+        "positive_ratio": 0.9189
+      },
+      {
+        "month": "2025-02",
+        "positive_count": 190,
+        "review_count": 208,
+        "positive_ratio": 0.9135
+      },
+      {
+        "month": "2025-03",
+        "positive_count": 136,
+        "review_count": 158,
+        "positive_ratio": 0.8608
+      },
+      {
+        "month": "2025-04",
+        "positive_count": 113,
+        "review_count": 125,
+        "positive_ratio": 0.904
+      },
+      {
+        "month": "2025-05",
+        "positive_count": 109,
+        "review_count": 123,
+        "positive_ratio": 0.8862
+      },
+      {
+        "month": "2025-06",
+        "positive_count": 141,
+        "review_count": 164,
+        "positive_ratio": 0.8598
+      },
+      {
+        "month": "2025-07",
+        "positive_count": 150,
+        "review_count": 166,
+        "positive_ratio": 0.9036
+      },
+      {
+        "month": "2025-08",
+        "positive_count": 131,
+        "review_count": 154,
+        "positive_ratio": 0.8506
+      },
+      {
+        "month": "2025-09",
+        "positive_count": 107,
+        "review_count": 122,
+        "positive_ratio": 0.877
+      },
+      {
+        "month": "2025-10",
+        "positive_count": 134,
+        "review_count": 157,
+        "positive_ratio": 0.8535
+      },
+      {
+        "month": "2025-11",
+        "positive_count": 125,
+        "review_count": 140,
+        "positive_ratio": 0.8929
+      },
+      {
+        "month": "2025-12",
+        "positive_count": 135,
+        "review_count": 162,
+        "positive_ratio": 0.8333
+      },
+      {
+        "month": "2026-01",
+        "positive_count": 135,
+        "review_count": 164,
+        "positive_ratio": 0.8232
+      },
+      {
+        "month": "2026-02",
+        "positive_count": 148,
+        "review_count": 175,
+        "positive_ratio": 0.8457
+      },
+      {
+        "month": "2026-03",
+        "positive_count": 127,
+        "review_count": 143,
+        "positive_ratio": 0.8881
+      },
+      {
+        "month": "2026-04",
+        "positive_count": 66,
+        "review_count": 77,
+        "positive_ratio": 0.8571
+      }
+    ]
+  },
+  "game": {
+    "name": "Project Zomboid",
+    "genres": [
+      "인디",
+      "RPG",
+      "시뮬레이션",
+      "앞서 해보기"
+    ],
+    "price_model": "paid",
+    "is_free": false,
+    "release_stage": "early_access",
+    "release_date_text": "2013년 11월 8일",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg?t=1777298596",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/capsule_231x87.jpg?t=1777298596",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/capsule_184x69.jpg?t=1777298596",
+    "screenshots": [
+      {
+        "id": "0",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_d4a0f78dc94273c7f0eedc186569efc091387066.600x338.jpg?t=1777298596",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_d4a0f78dc94273c7f0eedc186569efc091387066.1920x1080.jpg?t=1777298596"
+      },
+      {
+        "id": "1",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_eca8be032b3f5508bf5bea74cfbc823a4df047ce.600x338.jpg?t=1777298596",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_eca8be032b3f5508bf5bea74cfbc823a4df047ce.1920x1080.jpg?t=1777298596"
+      },
+      {
+        "id": "2",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_7300ecc70342b6fcbdf39b6f9ff4c408066f8fc2.600x338.jpg?t=1777298596",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_7300ecc70342b6fcbdf39b6f9ff4c408066f8fc2.1920x1080.jpg?t=1777298596"
+      },
+      {
+        "id": "3",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_eb1862af5109e4658e2538d897cbd16b87ad1818.600x338.jpg?t=1777298596",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_eb1862af5109e4658e2538d897cbd16b87ad1818.1920x1080.jpg?t=1777298596"
+      },
+      {
+        "id": "4",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_3b21d79855804e2a73468328a8fd18df0d238a2a.600x338.jpg?t=1777298596",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_3b21d79855804e2a73468328a8fd18df0d238a2a.1920x1080.jpg?t=1777298596"
+      },
+      {
+        "id": "5",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_0dc0cb896202ecfa344a0af981b695f2349317e1.600x338.jpg?t=1777298596",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_0dc0cb896202ecfa344a0af981b695f2349317e1.1920x1080.jpg?t=1777298596"
+      },
+      {
+        "id": "6",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_bb426e3c51a76f0605cef625094a9fbc7efad73a.600x338.jpg?t=1777298596",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_bb426e3c51a76f0605cef625094a9fbc7efad73a.1920x1080.jpg?t=1777298596"
+      },
+      {
+        "id": "7",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_507e952789822b69868d768e1e4476946f37b1fb.600x338.jpg?t=1777298596",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_507e952789822b69868d768e1e4476946f37b1fb.1920x1080.jpg?t=1777298596"
+      },
+      {
+        "id": "8",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_3eee93607a530e8a5b857bae596f4109539dfd35.600x338.jpg?t=1777298596",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_3eee93607a530e8a5b857bae596f4109539dfd35.1920x1080.jpg?t=1777298596"
+      },
+      {
+        "id": "9",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_d80677c526a1c9494a7147189e52fbf438f0a9ca.600x338.jpg?t=1777298596",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_d80677c526a1c9494a7147189e52fbf438f0a9ca.1920x1080.jpg?t=1777298596"
+      },
+      {
+        "id": "10",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_327eac804820daf1554e7ee9c64eeeb3053eda40.600x338.jpg?t=1777298596",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/ss_327eac804820daf1554e7ee9c64eeeb3053eda40.1920x1080.jpg?t=1777298596"
+      }
+    ],
+    "movies": [
+      {
+        "id": "256865885",
+        "name": "41 Zomboid Trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256865885/movie.293x165.jpg?t=1639992657",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/108600/426104/f029a1d7650463eb614db80fef79dd2aba95c7b8/1750498549/hls_264_master.m3u8?t=1639992657",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/108600/426104/f029a1d7650463eb614db80fef79dd2aba95c7b8/1750498549/dash_h264.mpd?t=1639992657",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/108600/426104/f029a1d7650463eb614db80fef79dd2aba95c7b8/1750498549/dash_av1.mpd?t=1639992657",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/108600/426104/f029a1d7650463eb614db80fef79dd2aba95c7b8/1750498549/hls_264_master.m3u8?t=1639992657"
+      }
+    ],
+    "short_description": "Project Zomboid is the ultimate in zombie survival. Alone or in MP: you loot, build, craft, fight, farm and fish in a struggle to survive. A hardcore RPG skillset, a vast map, massively customisable sandbox and a cute tutorial raccoon await the unwary. So how will you die? All it takes is a bite..",
+    "steam_store_url": "https://store.steampowered.com/app/108600",
+    "steam_recommendation_count": 338881,
+    "steam_review_score_desc": "Very Positive",
+    "steam_total_positive": 10586,
+    "steam_total_negative": 1404,
+    "steam_total_reviews": 11990,
+    "price_currency": "KRW",
+    "price_current": 2150000,
+    "price_original": 2150000,
+    "price_current_formatted": "₩ 21,500",
+    "price_original_formatted": null,
+    "price_discount_percent": 0
+  },
+  "report_plan": {
+    "decision_anchor": {
+      "buy_recommendation": "buy_now",
+      "primary_reason_ids": [
+        "risk_1",
+        "risk_2"
+      ],
+      "rationale_short": "최근 후기 흐름에서 체감 불편이 크게 늘지 않아 지금 시작해도 부담이 낮은 편입니다."
+    },
+    "section_blueprint": {
+      "strength_block_count": 3,
+      "risk_block_count": 3,
+      "evidence_per_block": 3
+    },
+    "theme_priorities": {
+      "strengths": [
+        {
+          "reason_id": "str_1",
+          "aspect": "gameplay",
+          "theme": "빌드 / 무기 다양성"
+        },
+        {
+          "reason_id": "str_2",
+          "aspect": "story",
+          "theme": "스토리 / 서사 몰입"
+        }
+      ],
+      "risks": [
+        {
+          "reason_id": "risk_1",
+          "aspect": "multiplayer",
+          "theme": "매칭 / 서버 문제"
+        },
+        {
+          "reason_id": "risk_2",
+          "aspect": "mod_support",
+          "theme": "모드 지원 / 호환 문제"
+        },
+        {
+          "reason_id": "risk_3",
+          "aspect": "content_depth",
+          "theme": "콘텐츠 부족"
+        }
+      ]
+    }
+  },
+  "report_display": {
+    "headline": "장비 파밍과 성장 루프 체감이 좋아 지금 바로 시작해도 만족도가 높은 편입니다.",
+    "buy_recommendation": "buy_now",
+    "buy_timing_summary": "최근 후기 흐름에서 체감 불편이 크게 늘지 않아 지금 시작해도 부담이 낮은 편입니다.",
+    "good_for": [
+      "장비와 빌드를 오래 다듬는 플레이어",
+      "세계관과 맥락을 스스로 읽어가는 플레이어"
+    ],
+    "not_good_for": [
+      "같은 흐름이 길어지면 피로를 크게 느끼는 플레이어",
+      "처음부터 빠르게 적응하고 뛰어들고 싶은 플레이어",
+      "매칭과 서버 상태 변화에 스트레스를 크게 받는 플레이어"
+    ],
+    "top_strengths": [
+      {
+        "title": "풍부한 빌드와 무기 선택지",
+        "summary": "다양한 모드와 창작 마당 덕분에 자신만의 플레이 스타일에 맞춰 무기와 빌드를 자유롭게 구성할 수 있어 매번 새로운 전략을 시도하는 재미가 있습니다."
+      },
+      {
+        "title": "몰입감이 높은 서바이벌 경험",
+        "summary": "높은 현실성을 바탕으로 한 세밀한 생존 요소와 긴장감 넘치는 좀비 AI가 플레이어를 끊임없이 긴장시키며, 직접 만들어가는 스토리와 세계관에 깊이 빠져들게 합니다."
+      },
+      {
+        "title": "협동과 역할 분담이 돋보이는 멀티플레이",
+        "summary": "친구들과 함께 거점을 지키고 역할을 나누며 생존하는 과정에서 팀워크의 재미를 느낄 수 있어 혼자보다 훨씬 풍성한 플레이 경험을 제공합니다."
+      }
+    ],
+    "top_risks": [
+      {
+        "title": "불안정한 멀티플레이 환경",
+        "summary": "공식 서버가 없어 개인 사설 서버에 의존해야 하며, 서버 운영자의 임의 초기화로 쌓은 노력이 사라질 수 있습니다."
+      },
+      {
+        "title": "높은 진입 장벽과 불친절한 튜토리얼",
+        "summary": "복잡한 조작법과 부족한 안내로 초보자가 적응하기 어렵고, 반복적인 죽음과 학습이 필요해 피로감을 느낄 수 있습니다."
+      },
+      {
+        "title": "모드 의존과 호환성 문제",
+        "summary": "기본 콘텐츠와 편의성이 부족해 모드에 크게 의존하며, 모드 충돌과 업데이트 시 호환성 문제로 불편함이 발생합니다."
+      }
+    ],
+    "recent_state": {
+      "status": "declining",
+      "summary": "최근 멀티플레이와 콘텐츠 관련 불편함이 늘어나며 전반적인 게임 경험에 아쉬움이 커지고 있습니다."
+    }
+  },
+  "evidence_sections": {
+    "strengths": [
+      {
+        "block_id": "str_1",
+        "title": "장비 파밍과 성장 루프가 오래 붙잡는다는 반응",
+        "theme": "빌드 / 무기 다양성",
+        "why_it_matters": "장비 파밍과 성장 루프를 좋게 보는 반응이 많아 반복 임무 속에서 강해지는 구조를 즐기면 잘 맞습니다.",
+        "explanation": "장비 파밍과 성장 루프를 좋게 보는 반응이 많아 반복 임무 속에서 강해지는 구조를 즐기면 잘 맞습니다.",
+        "aspect_keys": [
+          "gameplay"
+        ],
+        "stance": "positive",
+        "consensus_level": "high",
+        "mention_count": 499,
+        "evidence_quality_level": "guaranteed_fill",
+        "evidence_candidate_snippets": [
+          "창작마당이라는걸 처음 알게해준게임 다양한 모드를 깔면서 하다보면 모드충돌 날때마다 개빡침을 느끼지만 기도메타로 모든 모드가 적용이 돼서 게임이 시작됐을때 오는 쾌감은 단연코 원탑임 또한 총기모드를 깔았다가 막상 총기류가 너무 많고 관리도 힘들어서 아 그냥 잘 줘팰수 있는 무기가 필요하다 싶으면 카타나 모드를 깔아서 해라 카타나 하나로 이 세상의 모든 좀비를 오체분시 시켜서 뭉쳐다가 원피스를 만들수도 있으니 한때 내 세상의 모든것이였다",
+          "지금까지 스팀게임중 가장 오랜시간 즐기고 있습니다. 처음 적응하는 기간은 필요하지만 즐기기 시작하면 많은 창작마당 모드를 통해서 다양한 스타일로 게임을 즐길수있습니다. 42빌드도 빨리 안정화되어서 즐기고싶네요"
+        ],
+        "evidence_snippets": [
+          "지금까지 스팀게임중 가장 오랜시간 즐기고 있습니다. 처음 적응하는 기간은 필요하지만 즐기기 시작하면 많은 창작마당 모드를 통해서 다양한 스타일로 게임을 즐길수있습니다. 42빌드도 빨리 안정화되어서 즐기고싶네요",
+          "창작마당이라는걸 처음 알게해준게임 다양한 모드를 깔면서 하다보면 모드충돌 날때마다 개빡침을 느끼지만 기도메타로 모든 모드가 적용이 돼서 게임이 시작됐을때 오는 쾌감은 단연코 원탑임 또한 총기모드를 깔았다가 막상 총기류가 너무 많고 관리도 힘들어서 아 그냥 잘 줘팰수 있는 무기가 필요하다 싶으면 카타나 모드를 깔아서 해라 카타나 하나로 이 세상의 모든 좀비를 오체분시 시켜서 뭉쳐다가 원피스를 만들수도 있으니 한때 내 세상의 모든것이였다"
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-positive-1-5-1576994541674343393",
+            "text": "창작마당이라는걸 처음 알게해준게임 다양한 모드를 깔면서 하다보면 모드충돌 날때마다 개빡침을 느끼지만 기도메타로 모든 모드가 적용이 돼서 게임이 시작됐을때 오는 쾌감은 단연코 원탑임 또한 총기모드를 깔았다가 막상 총기류가 너무 많고 관리도 힘들어서 아 그냥 잘 줘팰수 있는 무기가 필요하다 싶으면 카타나 모드를 깔아서 해라 카타나 하나로 이 세상의 모든 좀비를 오체분시 시켜서 뭉쳐다가 원피스를 만들수도 있으니 한때 내 세상의 모든것이였다"
+          },
+          {
+            "review_id": "compress-v3-positive-1-7-7434448514433015056",
+            "text": "지금까지 스팀게임중 가장 오랜시간 즐기고 있습니다. 처음 적응하는 기간은 필요하지만 즐기기 시작하면 많은 창작마당 모드를 통해서 다양한 스타일로 게임을 즐길수있습니다. 42빌드도 빨리 안정화되어서 즐기고싶네요"
+          }
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "block_id": "risk_1",
+        "title": "매칭과 서버 상태가 체감을 흔든다는 반응",
+        "theme": "매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크",
+        "why_it_matters": "매칭과 서버 상태를 문제로 보는 반응이 있어 한 판의 안정성이 상황에 따라 갈릴 수 있습니다.",
+        "explanation": "매칭과 서버 상태를 문제로 보는 반응이 있어 한 판의 안정성이 상황에 따라 갈릴 수 있습니다.",
+        "aspect_keys": [
+          "multiplayer"
+        ],
+        "stance": "negative",
+        "consensus_level": "high",
+        "mention_count": 1414,
+        "evidence_quality_level": "strict",
+        "evidence_candidate_snippets": [
+          "앰히 시팔 모드 잘못하면 줄줄이 서버 터지는 미친겜 의지있어야 모드쓰고 서버연다 바닐라로 할생각없고 의지박약이면 존나비추",
+          "아니 게임나온지가 도대체 몇년째인데 아직도 최적화가 안되서 맨날 서버 튕기게 만든거임? 이정도면 ㅅㅂ 환불을해 개빡치게하지말고 진짜 업데이트도 내가 눌러줘야되는 개 거지같은게임 한 100년뒤에 정식출시하면 그때 사세요^^~",
+          "게임 설치하고 모드 호환성 다 따져서 어캐 멀티 서버 열어서 이제 지인들이랑 한 1주했다? 그럼 이제 뭐 바뀌지도 않는 버전 업뎃 딸깍 한번에 서버 다 날려버리는 아주 씨발년들임 걍"
+        ],
+        "evidence_snippets": [
+          "아니 게임나온지가 도대체 몇년째인데 아직도 최적화가 안되서 맨날 서버 튕기게 만든거임? 이정도면 ㅅㅂ 환불을해 개빡치게하지말고 진짜 업데이트도 내가 눌러줘야되는 개 거지같은게임 한 100년뒤에 정식출시하면 그때 사세요^^~",
+          "앰히 시팔 모드 잘못하면 줄줄이 서버 터지는 미친겜 의지있어야 모드쓰고 서버연다 바닐라로 할생각없고 의지박약이면 존나비추",
+          "게임 설치하고 모드 호환성 다 따져서 어캐 멀티 서버 열어서 이제 지인들이랑 한 1주했다? 그럼 이제 뭐 바뀌지도 않는 버전 업뎃 딸깍 한번에 서버 다 날려버리는 아주 씨발년들임 걍"
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-negative-1-1-5736155329660037456",
+            "text": "앰히 시팔 모드 잘못하면 줄줄이 서버 터지는 미친겜 의지있어야 모드쓰고 서버연다 바닐라로 할생각없고 의지박약이면 존나비추"
+          },
+          {
+            "review_id": "compress-v3-negative-1-2-4822240217797149132",
+            "text": "아니 게임나온지가 도대체 몇년째인데 아직도 최적화가 안되서 맨날 서버 튕기게 만든거임? 이정도면 ㅅㅂ 환불을해 개빡치게하지말고 진짜 업데이트도 내가 눌러줘야되는 개 거지같은게임 한 100년뒤에 정식출시하면 그때 사세요^^~"
+          },
+          {
+            "review_id": "compress-v3-negative-1-3-6835927516348340528",
+            "text": "게임 설치하고 모드 호환성 다 따져서 어캐 멀티 서버 열어서 이제 지인들이랑 한 1주했다? 그럼 이제 뭐 바뀌지도 않는 버전 업뎃 딸깍 한번에 서버 다 날려버리는 아주 씨발년들임 걍"
+          }
+        ]
+      },
+      {
+        "block_id": "risk_2",
+        "title": "오류와 끊김이 흐름을 끊는다는 반응",
+        "theme": "모드 지원 / 호환 문제",
+        "why_it_matters": "오류와 끊김을 지적하는 반응이 이어져 흐름이 끊기는 상황은 감수할 필요가 있습니다.",
+        "explanation": "오류와 끊김을 지적하는 반응이 이어져 흐름이 끊기는 상황은 감수할 필요가 있습니다.",
+        "aspect_keys": [
+          "mod_support"
+        ],
+        "stance": "negative",
+        "consensus_level": "high",
+        "mention_count": 1356,
+        "evidence_quality_level": "strict",
+        "evidence_candidate_snippets": [
+          "최적화는 개나 줘버린 좀보이드 순정은 컨텐츠나 편의성이 적어 모드구독이 반필수인데 방대한 양의 모드를 추가해버리는 순간 모드설정과의 최적화 싸움이 시작됨 노잼으로 렉없이 순정으로 즐기냐 유잼으로 프레임드랍을 견디며 모드를 즐기냐의 이지선다였음 난 그럼에도 게임의 질 자체를 끌어올리는 모드들이 많아 제미나이에 최적화를 물어물어 즐겁게 게임을 했었다...",
+          "불편하고 어려움. 모드 없이 바닐라 플레이는 비추. 유저가 모드로 완성 시킨 게임. 취향만 맞다면 이만한 게임도 없어요.",
+          "갑자기 삘받으면 밤새도록 파밍하는 내자신을 발견함 모드없이하다가 무게로 고통받기 싫어서 모드 깔았는데 문제하나가 해결되면 다른문제가 계속생겨서 모드를 계속 깔게됨 근데 또 막 이것저것 모드깔기엔 도움받으면서 깨는것같아서 자기만의 적절한 선을 만들고 거기까진 넘지말자 다짐함 이걸 반복함....^^ 그리고 제발 우울해하지말자...물도 아까마셧잖아...밥먹었잖아!!!!ㅠㅠㅠ"
+        ],
+        "evidence_snippets": [
+          "불편하고 어려움. 모드 없이 바닐라 플레이는 비추. 유저가 모드로 완성 시킨 게임. 취향만 맞다면 이만한 게임도 없어요.",
+          "최적화는 개나 줘버린 좀보이드 순정은 컨텐츠나 편의성이 적어 모드구독이 반필수인데 방대한 양의 모드를 추가해버리는 순간 모드설정과의 최적화 싸움이 시작됨 노잼으로 렉없이 순정으로 즐기냐 유잼으로 프레임드랍을 견디며 모드를 즐기냐의 이지선다였음 난 그럼에도 게임의 질 자체를 끌어올리는 모드들이 많아 제미나이에 최적화를 물어물어 즐겁게 게임을 했었다...",
+          "갑자기 삘받으면 밤새도록 파밍하는 내자신을 발견함 모드없이하다가 무게로 고통받기 싫어서 모드 깔았는데 문제하나가 해결되면 다른문제가 계속생겨서 모드를 계속 깔게됨 근데 또 막 이것저것 모드깔기엔 도움받으면서 깨는것같아서 자기만의 적절한 선을 만들고 거기까진 넘지말자 다짐함 이걸 반복함....^^ 그리고 제발 우울해하지말자... 물도 아까마셧잖아... 밥먹었잖아!!!!ㅠㅠㅠ"
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-negative-2-1-8130043728921328472",
+            "text": "최적화는 개나 줘버린 좀보이드 순정은 컨텐츠나 편의성이 적어 모드구독이 반필수인데 방대한 양의 모드를 추가해버리는 순간 모드설정과의 최적화 싸움이 시작됨 노잼으로 렉없이 순정으로 즐기냐 유잼으로 프레임드랍을 견디며 모드를 즐기냐의 이지선다였음 난 그럼에도 게임의 질 자체를 끌어올리는 모드들이 많아 제미나이에 최적화를 물어물어 즐겁게 게임을 했었다..."
+          },
+          {
+            "review_id": "compress-v3-negative-2-2-6101076401137428780",
+            "text": "불편하고 어려움. 모드 없이 바닐라 플레이는 비추. 유저가 모드로 완성 시킨 게임. 취향만 맞다면 이만한 게임도 없어요."
+          },
+          {
+            "review_id": "compress-v3-negative-2-3-247608754401430804",
+            "text": "갑자기 삘받으면 밤새도록 파밍하는 내자신을 발견함 모드없이하다가 무게로 고통받기 싫어서 모드 깔았는데 문제하나가 해결되면 다른문제가 계속생겨서 모드를 계속 깔게됨 근데 또 막 이것저것 모드깔기엔 도움받으면서 깨는것같아서 자기만의 적절한 선을 만들고 거기까진 넘지말자 다짐함 이걸 반복함....^^ 그리고 제발 우울해하지말자...물도 아까마셧잖아...밥먹었잖아!!!!ㅠㅠㅠ"
+          }
+        ]
+      },
+      {
+        "block_id": "risk_3",
+        "title": "반복감이 피로로 이어진다는 반응",
+        "theme": "플레이 시간이 누적될수록 새로움이 빨리 소진될 수 있는 리스크",
+        "why_it_matters": "반복감이 피로로 이어진다는 반응이 있어 새로움이 빨리 줄어드는 구간은 감수해야 할 수 있습니다.",
+        "explanation": "반복감이 피로로 이어진다는 반응이 있어 새로움이 빨리 줄어드는 구간은 감수해야 할 수 있습니다.",
+        "aspect_keys": [
+          "content_depth"
+        ],
+        "stance": "negative",
+        "consensus_level": "high",
+        "mention_count": 915,
+        "evidence_quality_level": "relaxed",
+        "evidence_candidate_snippets": [
+          "아니 세이브 두번 터짐 장난깜? 업뎃할때마다 이러고있네 업뎃했다고할때마다 세이브 뒤졌을까봐 개쫄리는 겜은 처음이다",
+          "좀비쇡히들 창문뚫고 들어오는거 짜증남 그리고 뭔 좀비개좊차오고있는데 심심함지루함 우울증상태 오는거 레전드어이 x 반지랑 목걸이 잘 보이지도않는거 스잘데기없이 그래픽구현해놓은거 개웃김..",
+          "\"내다 버린 13년\" \"현재진행형으로 10년 넘게 얼리 액세스인 기형학적인 인디 게임\" \"유저들이 좀보 신봉자밖에 없는 사이비 종교같은 게임\" 게임자체만 보자면 개발기간이 긴 만큼 현재 샌드박스 좀비생존 게임에서는 가장 독보적인 게임 이지만, 그건 게임 자체만 봤을때 얘기 고 전체적으로 보자면 이 정도로 병신 게임이 있나 싶은 좆병신게임입니다. 일단 개발기간은 현재진행형으로 2026년 기준 13년째 이고 지금도 정식 출시 하지못한 얼리 액세스 게임 인대 이게 뭔 뜻이냐? 그 좆병신 니키타 호로새끼가 잡고 있는 앰뒤 타르코프도 정식출시까지 8년 이였는대, 이 핵폐기물은 13년 이나 지났는대 아직도 얼리 액세스 라는 점 그러면 13년 동안 기다리는 보람이 있냐? 겠냐고 시발 ㅋㅋㅋ 존나 많은 버그 , 좆박은 밸런스 , 유저들과의 기싸움 , 애미없는 개발철학 , 그에따른 선택적 현실 고증 , 13년 된 게임 주제에 엔딩 조차 구현되어있지 않은 좆병신 게임내 구조와 컨텐츠들 , 펀딩 먹튀들도 부랄 탁 치고 감탄할만한 게임 개발 속도 , 리버사이드에 인디스톤 애미와 함께 묻혀버린 게임 최적화 등 이 모든게 13년 동안 함께 하고 있는 종합 종양 암 덩어리 그 자체인 게임 입니다 큰 문제 점들을 콕 찝어 단축해서 말한게 저 정도 이고 보는 것만으로도 개좆같은 기분이지만, 여기까지 왔으면 길거리에 개똥 같은 이 게임을 한번 스팀 리뷰 막대기로 찔러 봐야 하지 않겠습니까? 1. 무적의 \"얼리 액세스\" \"샌드박스\" 양대산맥 방패 이 게임에서 알파이자 오메가인 가장 큰 문제점인대 저게 뭔 뜻이냐? 간단한 예로 \"게임이 좆박았어? 어~ 얼리 액세스야 아닥하고 참고 해~ ㅋㅋ\" \"게임 밸런스 좆박고 선택적 현실성 그리고 애미뒤진 개발철학으로 좆같아? 어~ 샌드박스 게임이니까 지랄하지말고 좆같으면 니가 알아서 조절해~ ㅋㅋ\" 이걸로 모든 비판을 다 돌려막는 진짜 워썬더 안톤 씹련과 타르코프 니키타 앰뒤련 그리고 여타 다른 애미리스한 게임 그리고 그 게임 운영자들과 어깨를 나란히 할 수 있게 끔한 제일 큰 좆같은 점 그자체 제일 큰 문제는 저걸 팬덤 즉 좀보 빠돌이들과 좀보 유저 대부분이 대가리에 저 사상에 깊게 박혀있어서 아무도 저게 얼마나 비정상적인지 심각한지 모른다는 것 입니다. 게임이 좆박아서 좆박은 부분을 지적하거나 비판하면 그 사람이 이상한 사람 취급받는 병신나라 속 정상인 상황이 되어버립니다. 한마디로 뭐다?",
+          "게임이 나온지 13년 됐는데 아직도 얼리 액세스고 메인 컨텐츠가 없음. 세계만 만들었고 NPC도 없으며 플레이어한테 아무런 목적을 부여 안 해줌. 나는 전설이다처럼 혼자 좀비 있는 세상 돌아다니는 게 전부. 거기다가 업데이트를 할 때마다 모드 호환성을 박살내서 모드로 단점을 덮지도 못함. WASD=이동 E키=창문 열기 E꾹=창문, 담 넘어가기 쉬프트+E키=창문 커튼 조작 컨트롤+마우스 좌클릭=공격 스페이스바=밀기 Z=차 좌석 선택하기 V=상호작용 선택하기"
+        ],
+        "evidence_snippets": [
+          "좀비쇡히들 창문뚫고 들어오는거 짜증남 그리고 뭔 좀비개좊차오고있는데 심심함지루함 우울증상태 오는거 레전드어이 x 반지랑 목걸이 잘 보이지도않는거 스잘데기없이 그래픽구현해놓은거 개웃김..",
+          "\"내다 버린 13년\" \"현재진행형으로 10년 넘게 얼리 액세스인 기형학적인 인디 게임\" \"유저들이 좀보 신봉자밖에 없는 사이비 종교같은 게임\" 게임자체만 보자면 개발기간이 긴 만큼 현재 샌드박스 좀비생존 게임에서는 가장 독보적인 게임 이지만, 그건 게임 자체만 봤을때 얘기 고 전체적으로 보자면 이 정도로 병신 게임이 있나 싶은 좆병신게임입니다. 일단 개발기간은 현재진행형으로 2026년 기준 13년째 이고 지금도 정식 출시 하지못한 얼리 액세스 게임 인대 이게 뭔 뜻이냐? 그 좆병신 니키타 호로새끼가 잡고 있는 앰뒤 타르코프도 정식출시까지 8년 이였는대, 이 핵폐기물은 13년 이나 지났는대 아직도 얼리 액세스 라는 점 그러면 13년 동안 기다리는 보람이 있냐? 겠냐고 시발 ㅋㅋㅋ 존나 많은 버그, 좆박은 밸런스, 유저들과의 기싸움, 애미없는 개발철학, 그에따른 선택적 현실 고증, 13년 된 게임 주제에 엔딩 조차 구현되어있지 않은 좆병신 게임내 구조와 컨텐츠들, 펀딩 먹튀들도 부랄 탁 치고 감탄할만한 게임 개발 속도, 리버사이드에 인디스톤 애미와 함께 묻혀버린 게임 최적화 등 이 모든게 13년 동안 함께 하고 있는 종합 종양 암 덩어리 그 자체인 게임 입니다 큰 문제 점들을 콕 찝어 단축해서 말한게 저 정도 이고 보는 것만으로도 개좆같은 기분이지만, 여기까지 왔으면 길거리에 개똥 같은 이 게임을 한번 스팀 리뷰 막대기로 찔러 봐야 하지 않겠습니까? 1. 무적의 \"얼리 액세스\" \"샌드박스\" 양대산맥 방패 이 게임에서 알파이자 오메가인 가장 큰 문제점인대 저게 뭔 뜻이냐? 간단한 예로 \"게임이 좆박았어? 어~ 얼리 액세스야 아닥하고 참고 해~ ㅋㅋ\" \"게임 밸런스 좆박고 선택적 현실성 그리고 애미뒤진 개발철학으로 좆같아? 어~ 샌드박스 게임이니까 지랄하지말고 좆같으면 니가 알아서 조절해~ ㅋㅋ\" 이걸로 모든 비판을 다 돌려막는 진짜 워썬더 안톤 씹련과 타르코프 니키타 앰뒤련 그리고 여타 다른 애미리스한 게임 그리고 그 게임 운영자들과 어깨를 나란히 할 수 있게 끔한 제일 큰 좆같은 점 그자체 제일 큰 문제는 저걸 팬덤 즉 좀보 빠돌이들과 좀보 유저 대부분이 대가리에 저 사상에 깊게 박혀있어서 아무도 저게 얼마나 비정상적인지 심각한지 모른다는 것 입니다. 게임이 좆박아서 좆박은 부분을 지적하거나 비판하면 그 사람이 이상한 사람 취급받는 병신나라 속 정상인 상황이 되어버립니다. 한마디로 뭐다?"
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-negative-3-3-5724649446665641679",
+            "text": "아니 세이브 두번 터짐 장난깜? 업뎃할때마다 이러고있네 업뎃했다고할때마다 세이브 뒤졌을까봐 개쫄리는 겜은 처음이다"
+          },
+          {
+            "review_id": "compress-v3-negative-3-4-773771779496554405",
+            "text": "좀비쇡히들 창문뚫고 들어오는거 짜증남 그리고 뭔 좀비개좊차오고있는데 심심함지루함 우울증상태 오는거 레전드어이 x 반지랑 목걸이 잘 보이지도않는거 스잘데기없이 그래픽구현해놓은거 개웃김.."
+          },
+          {
+            "review_id": "compress-v3-negative-3-6-926051722480138794",
+            "text": "\"내다 버린 13년\" \"현재진행형으로 10년 넘게 얼리 액세스인 기형학적인 인디 게임\" \"유저들이 좀보 신봉자밖에 없는 사이비 종교같은 게임\" 게임자체만 보자면 개발기간이 긴 만큼 현재 샌드박스 좀비생존 게임에서는 가장 독보적인 게임 이지만, 그건 게임 자체만 봤을때 얘기 고 전체적으로 보자면 이 정도로 병신 게임이 있나 싶은 좆병신게임입니다. 일단 개발기간은 현재진행형으로 2026년 기준 13년째 이고 지금도 정식 출시 하지못한 얼리 액세스 게임 인대 이게 뭔 뜻이냐? 그 좆병신 니키타 호로새끼가 잡고 있는 앰뒤 타르코프도 정식출시까지 8년 이였는대, 이 핵폐기물은 13년 이나 지났는대 아직도 얼리 액세스 라는 점 그러면 13년 동안 기다리는 보람이 있냐? 겠냐고 시발 ㅋㅋㅋ 존나 많은 버그 , 좆박은 밸런스 , 유저들과의 기싸움 , 애미없는 개발철학 , 그에따른 선택적 현실 고증 , 13년 된 게임 주제에 엔딩 조차 구현되어있지 않은 좆병신 게임내 구조와 컨텐츠들 , 펀딩 먹튀들도 부랄 탁 치고 감탄할만한 게임 개발 속도 , 리버사이드에 인디스톤 애미와 함께 묻혀버린 게임 최적화 등 이 모든게 13년 동안 함께 하고 있는 종합 종양 암 덩어리 그 자체인 게임 입니다 큰 문제 점들을 콕 찝어 단축해서 말한게 저 정도 이고 보는 것만으로도 개좆같은 기분이지만, 여기까지 왔으면 길거리에 개똥 같은 이 게임을 한번 스팀 리뷰 막대기로 찔러 봐야 하지 않겠습니까? 1. 무적의 \"얼리 액세스\" \"샌드박스\" 양대산맥 방패 이 게임에서 알파이자 오메가인 가장 큰 문제점인대 저게 뭔 뜻이냐? 간단한 예로 \"게임이 좆박았어? 어~ 얼리 액세스야 아닥하고 참고 해~ ㅋㅋ\" \"게임 밸런스 좆박고 선택적 현실성 그리고 애미뒤진 개발철학으로 좆같아? 어~ 샌드박스 게임이니까 지랄하지말고 좆같으면 니가 알아서 조절해~ ㅋㅋ\" 이걸로 모든 비판을 다 돌려막는 진짜 워썬더 안톤 씹련과 타르코프 니키타 앰뒤련 그리고 여타 다른 애미리스한 게임 그리고 그 게임 운영자들과 어깨를 나란히 할 수 있게 끔한 제일 큰 좆같은 점 그자체 제일 큰 문제는 저걸 팬덤 즉 좀보 빠돌이들과 좀보 유저 대부분이 대가리에 저 사상에 깊게 박혀있어서 아무도 저게 얼마나 비정상적인지 심각한지 모른다는 것 입니다. 게임이 좆박아서 좆박은 부분을 지적하거나 비판하면 그 사람이 이상한 사람 취급받는 병신나라 속 정상인 상황이 되어버립니다. 한마디로 뭐다?"
+          },
+          {
+            "review_id": "compress-v3-negative-3-8-352400379024826474",
+            "text": "게임이 나온지 13년 됐는데 아직도 얼리 액세스고 메인 컨텐츠가 없음. 세계만 만들었고 NPC도 없으며 플레이어한테 아무런 목적을 부여 안 해줌. 나는 전설이다처럼 혼자 좀비 있는 세상 돌아다니는 게 전부. 거기다가 업데이트를 할 때마다 모드 호환성을 박살내서 모드로 단점을 덮지도 못함. WASD=이동 E키=창문 열기 E꾹=창문, 담 넘어가기 쉬프트+E키=창문 커튼 조작 컨트롤+마우스 좌클릭=공격 스페이스바=밀기 Z=차 좌석 선택하기 V=상호작용 선택하기"
+          }
+        ]
+      }
+    ]
+  },
+  "disclaimer": "여러 유저 리뷰를 바탕으로 정리했어요. 플레이 경험은 사람마다 다를 수 있어요.",
+  "headline": "장비 파밍과 성장 루프 체감이 좋아 지금 바로 시작해도 만족도가 높은 편입니다.",
+  "buy_recommendation": "buy_now",
+  "buy_timing_summary": "최근 후기 흐름에서 체감 불편이 크게 늘지 않아 지금 시작해도 부담이 낮은 편입니다.",
+  "good_for": [
+    "장비와 빌드를 오래 다듬는 플레이어",
+    "세계관과 맥락을 스스로 읽어가는 플레이어"
+  ],
+  "not_good_for": [
+    "같은 흐름이 길어지면 피로를 크게 느끼는 플레이어",
+    "처음부터 빠르게 적응하고 뛰어들고 싶은 플레이어",
+    "매칭과 서버 상태 변화에 스트레스를 크게 받는 플레이어"
+  ],
+  "top_strengths": [
+    {
+      "title": "풍부한 빌드와 무기 선택지",
+      "summary": "다양한 모드와 창작 마당 덕분에 자신만의 플레이 스타일에 맞춰 무기와 빌드를 자유롭게 구성할 수 있어 매번 새로운 전략을 시도하는 재미가 있습니다."
+    },
+    {
+      "title": "몰입감이 높은 서바이벌 경험",
+      "summary": "높은 현실성을 바탕으로 한 세밀한 생존 요소와 긴장감 넘치는 좀비 AI가 플레이어를 끊임없이 긴장시키며, 직접 만들어가는 스토리와 세계관에 깊이 빠져들게 합니다."
+    },
+    {
+      "title": "협동과 역할 분담이 돋보이는 멀티플레이",
+      "summary": "친구들과 함께 거점을 지키고 역할을 나누며 생존하는 과정에서 팀워크의 재미를 느낄 수 있어 혼자보다 훨씬 풍성한 플레이 경험을 제공합니다."
+    }
+  ],
+  "top_risks": [
+    {
+      "title": "불안정한 멀티플레이 환경",
+      "summary": "공식 서버가 없어 개인 사설 서버에 의존해야 하며, 서버 운영자의 임의 초기화로 쌓은 노력이 사라질 수 있습니다."
+    },
+    {
+      "title": "높은 진입 장벽과 불친절한 튜토리얼",
+      "summary": "복잡한 조작법과 부족한 안내로 초보자가 적응하기 어렵고, 반복적인 죽음과 학습이 필요해 피로감을 느낄 수 있습니다."
+    },
+    {
+      "title": "모드 의존과 호환성 문제",
+      "summary": "기본 콘텐츠와 편의성이 부족해 모드에 크게 의존하며, 모드 충돌과 업데이트 시 호환성 문제로 불편함이 발생합니다."
+    }
+  ],
+  "recent_state": {
+    "status": "declining",
+    "summary": "최근 멀티플레이와 콘텐츠 관련 불편함이 늘어나며 전반적인 게임 경험에 아쉬움이 커지고 있습니다."
+  },
+  "evidence_reviews": [
+    {
+      "block_id": "str_1",
+      "title": "장비 파밍과 성장 루프가 오래 붙잡는다는 반응",
+      "theme": "빌드 / 무기 다양성",
+      "why_it_matters": "장비 파밍과 성장 루프를 좋게 보는 반응이 많아 반복 임무 속에서 강해지는 구조를 즐기면 잘 맞습니다.",
+      "explanation": "장비 파밍과 성장 루프를 좋게 보는 반응이 많아 반복 임무 속에서 강해지는 구조를 즐기면 잘 맞습니다.",
+      "aspect_keys": [
+        "gameplay"
+      ],
+      "stance": "positive",
+      "consensus_level": "high",
+      "mention_count": 499,
+      "evidence_quality_level": "guaranteed_fill",
+      "evidence_candidate_snippets": [
+        "창작마당이라는걸 처음 알게해준게임 다양한 모드를 깔면서 하다보면 모드충돌 날때마다 개빡침을 느끼지만 기도메타로 모든 모드가 적용이 돼서 게임이 시작됐을때 오는 쾌감은 단연코 원탑임 또한 총기모드를 깔았다가 막상 총기류가 너무 많고 관리도 힘들어서 아 그냥 잘 줘팰수 있는 무기가 필요하다 싶으면 카타나 모드를 깔아서 해라 카타나 하나로 이 세상의 모든 좀비를 오체분시 시켜서 뭉쳐다가 원피스를 만들수도 있으니 한때 내 세상의 모든것이였다",
+        "지금까지 스팀게임중 가장 오랜시간 즐기고 있습니다. 처음 적응하는 기간은 필요하지만 즐기기 시작하면 많은 창작마당 모드를 통해서 다양한 스타일로 게임을 즐길수있습니다. 42빌드도 빨리 안정화되어서 즐기고싶네요"
+      ],
+      "evidence_snippets": [
+        "지금까지 스팀게임중 가장 오랜시간 즐기고 있습니다. 처음 적응하는 기간은 필요하지만 즐기기 시작하면 많은 창작마당 모드를 통해서 다양한 스타일로 게임을 즐길수있습니다. 42빌드도 빨리 안정화되어서 즐기고싶네요",
+        "창작마당이라는걸 처음 알게해준게임 다양한 모드를 깔면서 하다보면 모드충돌 날때마다 개빡침을 느끼지만 기도메타로 모든 모드가 적용이 돼서 게임이 시작됐을때 오는 쾌감은 단연코 원탑임 또한 총기모드를 깔았다가 막상 총기류가 너무 많고 관리도 힘들어서 아 그냥 잘 줘팰수 있는 무기가 필요하다 싶으면 카타나 모드를 깔아서 해라 카타나 하나로 이 세상의 모든 좀비를 오체분시 시켜서 뭉쳐다가 원피스를 만들수도 있으니 한때 내 세상의 모든것이였다"
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-positive-1-5-1576994541674343393",
+          "text": "창작마당이라는걸 처음 알게해준게임 다양한 모드를 깔면서 하다보면 모드충돌 날때마다 개빡침을 느끼지만 기도메타로 모든 모드가 적용이 돼서 게임이 시작됐을때 오는 쾌감은 단연코 원탑임 또한 총기모드를 깔았다가 막상 총기류가 너무 많고 관리도 힘들어서 아 그냥 잘 줘팰수 있는 무기가 필요하다 싶으면 카타나 모드를 깔아서 해라 카타나 하나로 이 세상의 모든 좀비를 오체분시 시켜서 뭉쳐다가 원피스를 만들수도 있으니 한때 내 세상의 모든것이였다"
+        },
+        {
+          "review_id": "compress-v3-positive-1-7-7434448514433015056",
+          "text": "지금까지 스팀게임중 가장 오랜시간 즐기고 있습니다. 처음 적응하는 기간은 필요하지만 즐기기 시작하면 많은 창작마당 모드를 통해서 다양한 스타일로 게임을 즐길수있습니다. 42빌드도 빨리 안정화되어서 즐기고싶네요"
+        }
+      ]
+    },
+    {
+      "block_id": "risk_1",
+      "title": "매칭과 서버 상태가 체감을 흔든다는 반응",
+      "theme": "매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크",
+      "why_it_matters": "매칭과 서버 상태를 문제로 보는 반응이 있어 한 판의 안정성이 상황에 따라 갈릴 수 있습니다.",
+      "explanation": "매칭과 서버 상태를 문제로 보는 반응이 있어 한 판의 안정성이 상황에 따라 갈릴 수 있습니다.",
+      "aspect_keys": [
+        "multiplayer"
+      ],
+      "stance": "negative",
+      "consensus_level": "high",
+      "mention_count": 1414,
+      "evidence_quality_level": "strict",
+      "evidence_candidate_snippets": [
+        "앰히 시팔 모드 잘못하면 줄줄이 서버 터지는 미친겜 의지있어야 모드쓰고 서버연다 바닐라로 할생각없고 의지박약이면 존나비추",
+        "아니 게임나온지가 도대체 몇년째인데 아직도 최적화가 안되서 맨날 서버 튕기게 만든거임? 이정도면 ㅅㅂ 환불을해 개빡치게하지말고 진짜 업데이트도 내가 눌러줘야되는 개 거지같은게임 한 100년뒤에 정식출시하면 그때 사세요^^~",
+        "게임 설치하고 모드 호환성 다 따져서 어캐 멀티 서버 열어서 이제 지인들이랑 한 1주했다? 그럼 이제 뭐 바뀌지도 않는 버전 업뎃 딸깍 한번에 서버 다 날려버리는 아주 씨발년들임 걍"
+      ],
+      "evidence_snippets": [
+        "아니 게임나온지가 도대체 몇년째인데 아직도 최적화가 안되서 맨날 서버 튕기게 만든거임? 이정도면 ㅅㅂ 환불을해 개빡치게하지말고 진짜 업데이트도 내가 눌러줘야되는 개 거지같은게임 한 100년뒤에 정식출시하면 그때 사세요^^~",
+        "앰히 시팔 모드 잘못하면 줄줄이 서버 터지는 미친겜 의지있어야 모드쓰고 서버연다 바닐라로 할생각없고 의지박약이면 존나비추",
+        "게임 설치하고 모드 호환성 다 따져서 어캐 멀티 서버 열어서 이제 지인들이랑 한 1주했다? 그럼 이제 뭐 바뀌지도 않는 버전 업뎃 딸깍 한번에 서버 다 날려버리는 아주 씨발년들임 걍"
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-negative-1-1-5736155329660037456",
+          "text": "앰히 시팔 모드 잘못하면 줄줄이 서버 터지는 미친겜 의지있어야 모드쓰고 서버연다 바닐라로 할생각없고 의지박약이면 존나비추"
+        },
+        {
+          "review_id": "compress-v3-negative-1-2-4822240217797149132",
+          "text": "아니 게임나온지가 도대체 몇년째인데 아직도 최적화가 안되서 맨날 서버 튕기게 만든거임? 이정도면 ㅅㅂ 환불을해 개빡치게하지말고 진짜 업데이트도 내가 눌러줘야되는 개 거지같은게임 한 100년뒤에 정식출시하면 그때 사세요^^~"
+        },
+        {
+          "review_id": "compress-v3-negative-1-3-6835927516348340528",
+          "text": "게임 설치하고 모드 호환성 다 따져서 어캐 멀티 서버 열어서 이제 지인들이랑 한 1주했다? 그럼 이제 뭐 바뀌지도 않는 버전 업뎃 딸깍 한번에 서버 다 날려버리는 아주 씨발년들임 걍"
+        }
+      ]
+    },
+    {
+      "block_id": "risk_2",
+      "title": "오류와 끊김이 흐름을 끊는다는 반응",
+      "theme": "모드 지원 / 호환 문제",
+      "why_it_matters": "오류와 끊김을 지적하는 반응이 이어져 흐름이 끊기는 상황은 감수할 필요가 있습니다.",
+      "explanation": "오류와 끊김을 지적하는 반응이 이어져 흐름이 끊기는 상황은 감수할 필요가 있습니다.",
+      "aspect_keys": [
+        "mod_support"
+      ],
+      "stance": "negative",
+      "consensus_level": "high",
+      "mention_count": 1356,
+      "evidence_quality_level": "strict",
+      "evidence_candidate_snippets": [
+        "최적화는 개나 줘버린 좀보이드 순정은 컨텐츠나 편의성이 적어 모드구독이 반필수인데 방대한 양의 모드를 추가해버리는 순간 모드설정과의 최적화 싸움이 시작됨 노잼으로 렉없이 순정으로 즐기냐 유잼으로 프레임드랍을 견디며 모드를 즐기냐의 이지선다였음 난 그럼에도 게임의 질 자체를 끌어올리는 모드들이 많아 제미나이에 최적화를 물어물어 즐겁게 게임을 했었다...",
+        "불편하고 어려움. 모드 없이 바닐라 플레이는 비추. 유저가 모드로 완성 시킨 게임. 취향만 맞다면 이만한 게임도 없어요.",
+        "갑자기 삘받으면 밤새도록 파밍하는 내자신을 발견함 모드없이하다가 무게로 고통받기 싫어서 모드 깔았는데 문제하나가 해결되면 다른문제가 계속생겨서 모드를 계속 깔게됨 근데 또 막 이것저것 모드깔기엔 도움받으면서 깨는것같아서 자기만의 적절한 선을 만들고 거기까진 넘지말자 다짐함 이걸 반복함....^^ 그리고 제발 우울해하지말자...물도 아까마셧잖아...밥먹었잖아!!!!ㅠㅠㅠ"
+      ],
+      "evidence_snippets": [
+        "불편하고 어려움. 모드 없이 바닐라 플레이는 비추. 유저가 모드로 완성 시킨 게임. 취향만 맞다면 이만한 게임도 없어요.",
+        "최적화는 개나 줘버린 좀보이드 순정은 컨텐츠나 편의성이 적어 모드구독이 반필수인데 방대한 양의 모드를 추가해버리는 순간 모드설정과의 최적화 싸움이 시작됨 노잼으로 렉없이 순정으로 즐기냐 유잼으로 프레임드랍을 견디며 모드를 즐기냐의 이지선다였음 난 그럼에도 게임의 질 자체를 끌어올리는 모드들이 많아 제미나이에 최적화를 물어물어 즐겁게 게임을 했었다...",
+        "갑자기 삘받으면 밤새도록 파밍하는 내자신을 발견함 모드없이하다가 무게로 고통받기 싫어서 모드 깔았는데 문제하나가 해결되면 다른문제가 계속생겨서 모드를 계속 깔게됨 근데 또 막 이것저것 모드깔기엔 도움받으면서 깨는것같아서 자기만의 적절한 선을 만들고 거기까진 넘지말자 다짐함 이걸 반복함....^^ 그리고 제발 우울해하지말자... 물도 아까마셧잖아... 밥먹었잖아!!!!ㅠㅠㅠ"
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-negative-2-1-8130043728921328472",
+          "text": "최적화는 개나 줘버린 좀보이드 순정은 컨텐츠나 편의성이 적어 모드구독이 반필수인데 방대한 양의 모드를 추가해버리는 순간 모드설정과의 최적화 싸움이 시작됨 노잼으로 렉없이 순정으로 즐기냐 유잼으로 프레임드랍을 견디며 모드를 즐기냐의 이지선다였음 난 그럼에도 게임의 질 자체를 끌어올리는 모드들이 많아 제미나이에 최적화를 물어물어 즐겁게 게임을 했었다..."
+        },
+        {
+          "review_id": "compress-v3-negative-2-2-6101076401137428780",
+          "text": "불편하고 어려움. 모드 없이 바닐라 플레이는 비추. 유저가 모드로 완성 시킨 게임. 취향만 맞다면 이만한 게임도 없어요."
+        },
+        {
+          "review_id": "compress-v3-negative-2-3-247608754401430804",
+          "text": "갑자기 삘받으면 밤새도록 파밍하는 내자신을 발견함 모드없이하다가 무게로 고통받기 싫어서 모드 깔았는데 문제하나가 해결되면 다른문제가 계속생겨서 모드를 계속 깔게됨 근데 또 막 이것저것 모드깔기엔 도움받으면서 깨는것같아서 자기만의 적절한 선을 만들고 거기까진 넘지말자 다짐함 이걸 반복함....^^ 그리고 제발 우울해하지말자...물도 아까마셧잖아...밥먹었잖아!!!!ㅠㅠㅠ"
+        }
+      ]
+    },
+    {
+      "block_id": "risk_3",
+      "title": "반복감이 피로로 이어진다는 반응",
+      "theme": "플레이 시간이 누적될수록 새로움이 빨리 소진될 수 있는 리스크",
+      "why_it_matters": "반복감이 피로로 이어진다는 반응이 있어 새로움이 빨리 줄어드는 구간은 감수해야 할 수 있습니다.",
+      "explanation": "반복감이 피로로 이어진다는 반응이 있어 새로움이 빨리 줄어드는 구간은 감수해야 할 수 있습니다.",
+      "aspect_keys": [
+        "content_depth"
+      ],
+      "stance": "negative",
+      "consensus_level": "high",
+      "mention_count": 915,
+      "evidence_quality_level": "relaxed",
+      "evidence_candidate_snippets": [
+        "아니 세이브 두번 터짐 장난깜? 업뎃할때마다 이러고있네 업뎃했다고할때마다 세이브 뒤졌을까봐 개쫄리는 겜은 처음이다",
+        "좀비쇡히들 창문뚫고 들어오는거 짜증남 그리고 뭔 좀비개좊차오고있는데 심심함지루함 우울증상태 오는거 레전드어이 x 반지랑 목걸이 잘 보이지도않는거 스잘데기없이 그래픽구현해놓은거 개웃김..",
+        "\"내다 버린 13년\" \"현재진행형으로 10년 넘게 얼리 액세스인 기형학적인 인디 게임\" \"유저들이 좀보 신봉자밖에 없는 사이비 종교같은 게임\" 게임자체만 보자면 개발기간이 긴 만큼 현재 샌드박스 좀비생존 게임에서는 가장 독보적인 게임 이지만, 그건 게임 자체만 봤을때 얘기 고 전체적으로 보자면 이 정도로 병신 게임이 있나 싶은 좆병신게임입니다. 일단 개발기간은 현재진행형으로 2026년 기준 13년째 이고 지금도 정식 출시 하지못한 얼리 액세스 게임 인대 이게 뭔 뜻이냐? 그 좆병신 니키타 호로새끼가 잡고 있는 앰뒤 타르코프도 정식출시까지 8년 이였는대, 이 핵폐기물은 13년 이나 지났는대 아직도 얼리 액세스 라는 점 그러면 13년 동안 기다리는 보람이 있냐? 겠냐고 시발 ㅋㅋㅋ 존나 많은 버그 , 좆박은 밸런스 , 유저들과의 기싸움 , 애미없는 개발철학 , 그에따른 선택적 현실 고증 , 13년 된 게임 주제에 엔딩 조차 구현되어있지 않은 좆병신 게임내 구조와 컨텐츠들 , 펀딩 먹튀들도 부랄 탁 치고 감탄할만한 게임 개발 속도 , 리버사이드에 인디스톤 애미와 함께 묻혀버린 게임 최적화 등 이 모든게 13년 동안 함께 하고 있는 종합 종양 암 덩어리 그 자체인 게임 입니다 큰 문제 점들을 콕 찝어 단축해서 말한게 저 정도 이고 보는 것만으로도 개좆같은 기분이지만, 여기까지 왔으면 길거리에 개똥 같은 이 게임을 한번 스팀 리뷰 막대기로 찔러 봐야 하지 않겠습니까? 1. 무적의 \"얼리 액세스\" \"샌드박스\" 양대산맥 방패 이 게임에서 알파이자 오메가인 가장 큰 문제점인대 저게 뭔 뜻이냐? 간단한 예로 \"게임이 좆박았어? 어~ 얼리 액세스야 아닥하고 참고 해~ ㅋㅋ\" \"게임 밸런스 좆박고 선택적 현실성 그리고 애미뒤진 개발철학으로 좆같아? 어~ 샌드박스 게임이니까 지랄하지말고 좆같으면 니가 알아서 조절해~ ㅋㅋ\" 이걸로 모든 비판을 다 돌려막는 진짜 워썬더 안톤 씹련과 타르코프 니키타 앰뒤련 그리고 여타 다른 애미리스한 게임 그리고 그 게임 운영자들과 어깨를 나란히 할 수 있게 끔한 제일 큰 좆같은 점 그자체 제일 큰 문제는 저걸 팬덤 즉 좀보 빠돌이들과 좀보 유저 대부분이 대가리에 저 사상에 깊게 박혀있어서 아무도 저게 얼마나 비정상적인지 심각한지 모른다는 것 입니다. 게임이 좆박아서 좆박은 부분을 지적하거나 비판하면 그 사람이 이상한 사람 취급받는 병신나라 속 정상인 상황이 되어버립니다. 한마디로 뭐다?",
+        "게임이 나온지 13년 됐는데 아직도 얼리 액세스고 메인 컨텐츠가 없음. 세계만 만들었고 NPC도 없으며 플레이어한테 아무런 목적을 부여 안 해줌. 나는 전설이다처럼 혼자 좀비 있는 세상 돌아다니는 게 전부. 거기다가 업데이트를 할 때마다 모드 호환성을 박살내서 모드로 단점을 덮지도 못함. WASD=이동 E키=창문 열기 E꾹=창문, 담 넘어가기 쉬프트+E키=창문 커튼 조작 컨트롤+마우스 좌클릭=공격 스페이스바=밀기 Z=차 좌석 선택하기 V=상호작용 선택하기"
+      ],
+      "evidence_snippets": [
+        "좀비쇡히들 창문뚫고 들어오는거 짜증남 그리고 뭔 좀비개좊차오고있는데 심심함지루함 우울증상태 오는거 레전드어이 x 반지랑 목걸이 잘 보이지도않는거 스잘데기없이 그래픽구현해놓은거 개웃김..",
+        "\"내다 버린 13년\" \"현재진행형으로 10년 넘게 얼리 액세스인 기형학적인 인디 게임\" \"유저들이 좀보 신봉자밖에 없는 사이비 종교같은 게임\" 게임자체만 보자면 개발기간이 긴 만큼 현재 샌드박스 좀비생존 게임에서는 가장 독보적인 게임 이지만, 그건 게임 자체만 봤을때 얘기 고 전체적으로 보자면 이 정도로 병신 게임이 있나 싶은 좆병신게임입니다. 일단 개발기간은 현재진행형으로 2026년 기준 13년째 이고 지금도 정식 출시 하지못한 얼리 액세스 게임 인대 이게 뭔 뜻이냐? 그 좆병신 니키타 호로새끼가 잡고 있는 앰뒤 타르코프도 정식출시까지 8년 이였는대, 이 핵폐기물은 13년 이나 지났는대 아직도 얼리 액세스 라는 점 그러면 13년 동안 기다리는 보람이 있냐? 겠냐고 시발 ㅋㅋㅋ 존나 많은 버그, 좆박은 밸런스, 유저들과의 기싸움, 애미없는 개발철학, 그에따른 선택적 현실 고증, 13년 된 게임 주제에 엔딩 조차 구현되어있지 않은 좆병신 게임내 구조와 컨텐츠들, 펀딩 먹튀들도 부랄 탁 치고 감탄할만한 게임 개발 속도, 리버사이드에 인디스톤 애미와 함께 묻혀버린 게임 최적화 등 이 모든게 13년 동안 함께 하고 있는 종합 종양 암 덩어리 그 자체인 게임 입니다 큰 문제 점들을 콕 찝어 단축해서 말한게 저 정도 이고 보는 것만으로도 개좆같은 기분이지만, 여기까지 왔으면 길거리에 개똥 같은 이 게임을 한번 스팀 리뷰 막대기로 찔러 봐야 하지 않겠습니까? 1. 무적의 \"얼리 액세스\" \"샌드박스\" 양대산맥 방패 이 게임에서 알파이자 오메가인 가장 큰 문제점인대 저게 뭔 뜻이냐? 간단한 예로 \"게임이 좆박았어? 어~ 얼리 액세스야 아닥하고 참고 해~ ㅋㅋ\" \"게임 밸런스 좆박고 선택적 현실성 그리고 애미뒤진 개발철학으로 좆같아? 어~ 샌드박스 게임이니까 지랄하지말고 좆같으면 니가 알아서 조절해~ ㅋㅋ\" 이걸로 모든 비판을 다 돌려막는 진짜 워썬더 안톤 씹련과 타르코프 니키타 앰뒤련 그리고 여타 다른 애미리스한 게임 그리고 그 게임 운영자들과 어깨를 나란히 할 수 있게 끔한 제일 큰 좆같은 점 그자체 제일 큰 문제는 저걸 팬덤 즉 좀보 빠돌이들과 좀보 유저 대부분이 대가리에 저 사상에 깊게 박혀있어서 아무도 저게 얼마나 비정상적인지 심각한지 모른다는 것 입니다. 게임이 좆박아서 좆박은 부분을 지적하거나 비판하면 그 사람이 이상한 사람 취급받는 병신나라 속 정상인 상황이 되어버립니다. 한마디로 뭐다?"
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-negative-3-3-5724649446665641679",
+          "text": "아니 세이브 두번 터짐 장난깜? 업뎃할때마다 이러고있네 업뎃했다고할때마다 세이브 뒤졌을까봐 개쫄리는 겜은 처음이다"
+        },
+        {
+          "review_id": "compress-v3-negative-3-4-773771779496554405",
+          "text": "좀비쇡히들 창문뚫고 들어오는거 짜증남 그리고 뭔 좀비개좊차오고있는데 심심함지루함 우울증상태 오는거 레전드어이 x 반지랑 목걸이 잘 보이지도않는거 스잘데기없이 그래픽구현해놓은거 개웃김.."
+        },
+        {
+          "review_id": "compress-v3-negative-3-6-926051722480138794",
+          "text": "\"내다 버린 13년\" \"현재진행형으로 10년 넘게 얼리 액세스인 기형학적인 인디 게임\" \"유저들이 좀보 신봉자밖에 없는 사이비 종교같은 게임\" 게임자체만 보자면 개발기간이 긴 만큼 현재 샌드박스 좀비생존 게임에서는 가장 독보적인 게임 이지만, 그건 게임 자체만 봤을때 얘기 고 전체적으로 보자면 이 정도로 병신 게임이 있나 싶은 좆병신게임입니다. 일단 개발기간은 현재진행형으로 2026년 기준 13년째 이고 지금도 정식 출시 하지못한 얼리 액세스 게임 인대 이게 뭔 뜻이냐? 그 좆병신 니키타 호로새끼가 잡고 있는 앰뒤 타르코프도 정식출시까지 8년 이였는대, 이 핵폐기물은 13년 이나 지났는대 아직도 얼리 액세스 라는 점 그러면 13년 동안 기다리는 보람이 있냐? 겠냐고 시발 ㅋㅋㅋ 존나 많은 버그 , 좆박은 밸런스 , 유저들과의 기싸움 , 애미없는 개발철학 , 그에따른 선택적 현실 고증 , 13년 된 게임 주제에 엔딩 조차 구현되어있지 않은 좆병신 게임내 구조와 컨텐츠들 , 펀딩 먹튀들도 부랄 탁 치고 감탄할만한 게임 개발 속도 , 리버사이드에 인디스톤 애미와 함께 묻혀버린 게임 최적화 등 이 모든게 13년 동안 함께 하고 있는 종합 종양 암 덩어리 그 자체인 게임 입니다 큰 문제 점들을 콕 찝어 단축해서 말한게 저 정도 이고 보는 것만으로도 개좆같은 기분이지만, 여기까지 왔으면 길거리에 개똥 같은 이 게임을 한번 스팀 리뷰 막대기로 찔러 봐야 하지 않겠습니까? 1. 무적의 \"얼리 액세스\" \"샌드박스\" 양대산맥 방패 이 게임에서 알파이자 오메가인 가장 큰 문제점인대 저게 뭔 뜻이냐? 간단한 예로 \"게임이 좆박았어? 어~ 얼리 액세스야 아닥하고 참고 해~ ㅋㅋ\" \"게임 밸런스 좆박고 선택적 현실성 그리고 애미뒤진 개발철학으로 좆같아? 어~ 샌드박스 게임이니까 지랄하지말고 좆같으면 니가 알아서 조절해~ ㅋㅋ\" 이걸로 모든 비판을 다 돌려막는 진짜 워썬더 안톤 씹련과 타르코프 니키타 앰뒤련 그리고 여타 다른 애미리스한 게임 그리고 그 게임 운영자들과 어깨를 나란히 할 수 있게 끔한 제일 큰 좆같은 점 그자체 제일 큰 문제는 저걸 팬덤 즉 좀보 빠돌이들과 좀보 유저 대부분이 대가리에 저 사상에 깊게 박혀있어서 아무도 저게 얼마나 비정상적인지 심각한지 모른다는 것 입니다. 게임이 좆박아서 좆박은 부분을 지적하거나 비판하면 그 사람이 이상한 사람 취급받는 병신나라 속 정상인 상황이 되어버립니다. 한마디로 뭐다?"
+        },
+        {
+          "review_id": "compress-v3-negative-3-8-352400379024826474",
+          "text": "게임이 나온지 13년 됐는데 아직도 얼리 액세스고 메인 컨텐츠가 없음. 세계만 만들었고 NPC도 없으며 플레이어한테 아무런 목적을 부여 안 해줌. 나는 전설이다처럼 혼자 좀비 있는 세상 돌아다니는 게 전부. 거기다가 업데이트를 할 때마다 모드 호환성을 박살내서 모드로 단점을 덮지도 못함. WASD=이동 E키=창문 열기 E꾹=창문, 담 넘어가기 쉬프트+E키=창문 커튼 조작 컨트롤+마우스 좌클릭=공격 스페이스바=밀기 Z=차 좌석 선택하기 V=상호작용 선택하기"
+        }
+      ]
+    }
+  ]
+}

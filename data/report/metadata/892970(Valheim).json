@@ -1,6 +1,8 @@
 {
   "appid": 892970,
   "name": "Valheim",
+  "name_en": "Valheim",
+  "name_ko": "Valheim",
   "genres": [
     "액션",
     "어드벤처",
@@ -14,13 +16,190 @@
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/de0bdcf6c008c508a79d8e75eb91fc67f4bebd5d/header.jpg?t=1765967243",
   "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/3b25991b8a19244cfd979a2766e7490cc7894e09/capsule_231x87.jpg?t=1765967243",
   "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/3b25991b8a19244cfd979a2766e7490cc7894e09/capsule_184x69.jpg?t=1765967243",
+  "screenshots": [
+    {
+      "id": "0",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_a600a7d4ca954543e22f571a9629521a13f82143.600x338.jpg?t=1765967243",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_a600a7d4ca954543e22f571a9629521a13f82143.1920x1080.jpg?t=1765967243"
+    },
+    {
+      "id": "1",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_cd0262c5abf8a90ee5e1059acafc5a92b6be0e73.600x338.jpg?t=1765967243",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_cd0262c5abf8a90ee5e1059acafc5a92b6be0e73.1920x1080.jpg?t=1765967243"
+    },
+    {
+      "id": "2",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_3db385fc1223914dadb199ac8682683a8c59454e.600x338.jpg?t=1765967243",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_3db385fc1223914dadb199ac8682683a8c59454e.1920x1080.jpg?t=1765967243"
+    },
+    {
+      "id": "3",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_6032c9336c6cf9c1ebc914cedf022b38e97fd271.600x338.jpg?t=1765967243",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_6032c9336c6cf9c1ebc914cedf022b38e97fd271.1920x1080.jpg?t=1765967243"
+    },
+    {
+      "id": "4",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_f6cbfeea728d557fa9f483685fea3205f08f5d9e.600x338.jpg?t=1765967243",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_f6cbfeea728d557fa9f483685fea3205f08f5d9e.1920x1080.jpg?t=1765967243"
+    },
+    {
+      "id": "5",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_551f06a43b72609d7ca3cd63e93c58e949d58384.600x338.jpg?t=1765967243",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_551f06a43b72609d7ca3cd63e93c58e949d58384.1920x1080.jpg?t=1765967243"
+    },
+    {
+      "id": "6",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_f4ea4f0f93cc8b38042f6d5916413da185ec221c.600x338.jpg?t=1765967243",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_f4ea4f0f93cc8b38042f6d5916413da185ec221c.1920x1080.jpg?t=1765967243"
+    },
+    {
+      "id": "7",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_553301e2432883e9f026fe1dd0e91d7a8886d6f1.600x338.jpg?t=1765967243",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_553301e2432883e9f026fe1dd0e91d7a8886d6f1.1920x1080.jpg?t=1765967243"
+    },
+    {
+      "id": "8",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_9b4abc60696de192c40064364a1395ad5074e5c3.600x338.jpg?t=1765967243",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_9b4abc60696de192c40064364a1395ad5074e5c3.1920x1080.jpg?t=1765967243"
+    },
+    {
+      "id": "9",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_15a86a1c4175f9392127265735c177a91535de65.600x338.jpg?t=1765967243",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_15a86a1c4175f9392127265735c177a91535de65.1920x1080.jpg?t=1765967243"
+    },
+    {
+      "id": "10",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_ad81cc7ced8585ad344ba50e9d0b4bf9c597e62e.600x338.jpg?t=1765967243",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_ad81cc7ced8585ad344ba50e9d0b4bf9c597e62e.1920x1080.jpg?t=1765967243"
+    },
+    {
+      "id": "11",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_4ba939a383dc363c14e6cb7995322f39a5a26b07.600x338.jpg?t=1765967243",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_4ba939a383dc363c14e6cb7995322f39a5a26b07.1920x1080.jpg?t=1765967243"
+    },
+    {
+      "id": "12",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_988d92f03856895ef73a636ad20c2951086b865c.600x338.jpg?t=1765967243",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_988d92f03856895ef73a636ad20c2951086b865c.1920x1080.jpg?t=1765967243"
+    },
+    {
+      "id": "13",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_8db2e5f40b64e105c7174b3d3679fce6d7a04d20.600x338.jpg?t=1765967243",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_8db2e5f40b64e105c7174b3d3679fce6d7a04d20.1920x1080.jpg?t=1765967243"
+    },
+    {
+      "id": "14",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_b3c171e257dd1a3173254b1b61a7995dec204df4.600x338.jpg?t=1765967243",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_b3c171e257dd1a3173254b1b61a7995dec204df4.1920x1080.jpg?t=1765967243"
+    },
+    {
+      "id": "15",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_64ae63dcfde6612266cf72884132fa144908b777.600x338.jpg?t=1765967243",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_64ae63dcfde6612266cf72884132fa144908b777.1920x1080.jpg?t=1765967243"
+    },
+    {
+      "id": "16",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_0c218f8040f1d7850baff4ff4e3109942388ac98.600x338.jpg?t=1765967243",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_0c218f8040f1d7850baff4ff4e3109942388ac98.1920x1080.jpg?t=1765967243"
+    },
+    {
+      "id": "17",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_e79d3106549c1269a14888f2095e4c667643c3ad.600x338.jpg?t=1765967243",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_e79d3106549c1269a14888f2095e4c667643c3ad.1920x1080.jpg?t=1765967243"
+    }
+  ],
+  "movies": [
+    {
+      "id": "257023147",
+      "name": "Ashlands Animated Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257023147/movie.293x165.jpg?t=1715688262",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/892970/700057/92243856917a479ef44b4ab22d3378a272c6fffc/1750594091/hls_264_master.m3u8?t=1715688262",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/892970/700057/92243856917a479ef44b4ab22d3378a272c6fffc/1750594091/dash_h264.mpd?t=1715688262",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/892970/700057/92243856917a479ef44b4ab22d3378a272c6fffc/1750594091/dash_av1.mpd?t=1715688262",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/892970/700057/92243856917a479ef44b4ab22d3378a272c6fffc/1750594091/hls_264_master.m3u8?t=1715688262"
+    },
+    {
+      "id": "257017624",
+      "name": "Ashlands Gameplay Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257017624/movie.293x165.jpg?t=1713783864",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/892970/690390/d72844d76fc153a859f5f9be77c5b3edb3b2b89f/1750594074/hls_264_master.m3u8?t=1713783864",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/892970/690390/d72844d76fc153a859f5f9be77c5b3edb3b2b89f/1750594074/dash_h264.mpd?t=1713783864",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/892970/690390/d72844d76fc153a859f5f9be77c5b3edb3b2b89f/1750594074/dash_av1.mpd?t=1713783864",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/892970/690390/d72844d76fc153a859f5f9be77c5b3edb3b2b89f/1750594074/hls_264_master.m3u8?t=1713783864"
+    },
+    {
+      "id": "256919598",
+      "name": "Mistlands Gameplay Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256919598/movie.293x165.jpg?t=1670328406",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/892970/519670/86e103a5d064fec1944deba945aabbb77099e877/1750594068/hls_264_master.m3u8?t=1670328406",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/892970/519670/86e103a5d064fec1944deba945aabbb77099e877/1750594068/dash_h264.mpd?t=1670328406",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/892970/519670/86e103a5d064fec1944deba945aabbb77099e877/1750594068/dash_av1.mpd?t=1670328406",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/892970/519670/86e103a5d064fec1944deba945aabbb77099e877/1750594068/hls_264_master.m3u8?t=1670328406"
+    },
+    {
+      "id": "256820008",
+      "name": "Early Access Launch Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256820008/movie.293x165.jpg?t=1612278985",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/892970/343833/29b59654b58ce6153f88c9d00200f78793f59323/1750594040/hls_264_master.m3u8?t=1612278985",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/892970/343833/29b59654b58ce6153f88c9d00200f78793f59323/1750594040/dash_h264.mpd?t=1612278985",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/892970/343833/29b59654b58ce6153f88c9d00200f78793f59323/1750594040/dash_av1.mpd?t=1612278985",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/892970/343833/29b59654b58ce6153f88c9d00200f78793f59323/1750594040/hls_264_master.m3u8?t=1612278985"
+    },
+    {
+      "id": "256919597",
+      "name": "Mistlands Animated trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256919597/movie.293x165.jpg?t=1670328411",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/892970/519666/7c43b29816e1ddfd923185f048b5676f69943d79/1750594068/hls_264_master.m3u8?t=1670328411",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/892970/519666/7c43b29816e1ddfd923185f048b5676f69943d79/1750594068/dash_h264.mpd?t=1670328411",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/892970/519666/7c43b29816e1ddfd923185f048b5676f69943d79/1750594068/dash_av1.mpd?t=1670328411",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/892970/519666/7c43b29816e1ddfd923185f048b5676f69943d79/1750594068/hls_264_master.m3u8?t=1670328411"
+    },
+    {
+      "id": "256863747",
+      "name": "Hearth & Home Animated Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256863747/movie.293x165.jpg?t=1715688266",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/892970/422769/3140449b4695a04a8fbdfd90680723458c935bcf/1750594060/hls_264_master.m3u8?t=1715688266",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/892970/422769/3140449b4695a04a8fbdfd90680723458c935bcf/1750594060/dash_h264.mpd?t=1715688266",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/892970/422769/3140449b4695a04a8fbdfd90680723458c935bcf/1750594060/dash_av1.mpd?t=1715688266",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/892970/422769/3140449b4695a04a8fbdfd90680723458c935bcf/1750594060/hls_264_master.m3u8?t=1715688266"
+    },
+    {
+      "id": "256851823",
+      "name": "Hearth & Home Gameplay Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256851823/movie.293x165.jpg?t=1715688270",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/892970/401761/429c130b298d4f58bef31c97ccaeed0a6052ead9/1750594057/hls_264_master.m3u8?t=1715688270",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/892970/401761/429c130b298d4f58bef31c97ccaeed0a6052ead9/1750594057/dash_h264.mpd?t=1715688270",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/892970/401761/429c130b298d4f58bef31c97ccaeed0a6052ead9/1750594057/dash_av1.mpd?t=1715688270",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/892970/401761/429c130b298d4f58bef31c97ccaeed0a6052ead9/1750594057/hls_264_master.m3u8?t=1715688270"
+    }
+  ],
   "short_description": "북구 신화와 바이킹 문화에 기반한 판타지 세계를 배경으로 펼쳐지는 생존 및 탐험 게임.",
   "steam_store_url": "https://store.steampowered.com/app/892970",
-  "steam_recommendation_count": 450729,
+  "steam_recommendation_count": 450968,
   "steam_review_score_desc": "Very Positive",
-  "steam_total_positive": 6994,
-  "steam_total_negative": 563,
-  "steam_total_reviews": 7557,
+  "steam_total_positive": 6998,
+  "steam_total_negative": 562,
+  "steam_total_reviews": 7560,
+  "price_currency": "KRW",
+  "price_current": 1100000,
+  "price_original": 2200000,
+  "price_current_formatted": "₩ 11,000",
+  "price_original_formatted": "₩ 22,000",
+  "price_discount_percent": 50,
   "is_free": false,
   "coming_soon": false
 }

@@ -1,6 +1,8 @@
 {
   "appid": 440,
   "name": "Team Fortress 2",
+  "name_en": "Team Fortress 2",
+  "name_ko": "Team Fortress 2",
   "genres": [
     "액션",
     "무료 플레이"
@@ -11,13 +13,285 @@
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/header.jpg?t=1757348372",
   "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/capsule_231x87.jpg?t=1757348372",
   "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/capsule_184x69.jpg?t=1757348372",
+  "screenshots": [
+    {
+      "id": "0",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/ss_ea21f7bbf4f79bada4554df5108d04b6889d3453.600x338.jpg?t=1757348372",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/ss_ea21f7bbf4f79bada4554df5108d04b6889d3453.1920x1080.jpg?t=1757348372"
+    },
+    {
+      "id": "1",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/ss_e3aedb2ab36bba8cfe611b1e0eaa807e4bb2d742.600x338.jpg?t=1757348372",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/ss_e3aedb2ab36bba8cfe611b1e0eaa807e4bb2d742.1920x1080.jpg?t=1757348372"
+    },
+    {
+      "id": "2",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/ss_ee24a769dc1d81dcbd7b250d16530394adee4264.600x338.jpg?t=1757348372",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/ss_ee24a769dc1d81dcbd7b250d16530394adee4264.1920x1080.jpg?t=1757348372"
+    },
+    {
+      "id": "3",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/ss_9faaa506d91bf19dbb398e0c06a684b337f85f91.600x338.jpg?t=1757348372",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/ss_9faaa506d91bf19dbb398e0c06a684b337f85f91.1920x1080.jpg?t=1757348372"
+    },
+    {
+      "id": "4",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/ss_7de978f22a7059151c31d0488dc57c5c7703c48b.600x338.jpg?t=1757348372",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/ss_7de978f22a7059151c31d0488dc57c5c7703c48b.1920x1080.jpg?t=1757348372"
+    },
+    {
+      "id": "5",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/ss_e79f2490af3247b4b0f8d412d437b72c321cfe3b.600x338.jpg?t=1757348372",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/ss_e79f2490af3247b4b0f8d412d437b72c321cfe3b.1920x1080.jpg?t=1757348372"
+    },
+    {
+      "id": "6",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/ss_8f28c75172e3d08e65222725202b82f58bfe7df7.600x338.jpg?t=1757348372",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/ss_8f28c75172e3d08e65222725202b82f58bfe7df7.1920x1080.jpg?t=1757348372"
+    },
+    {
+      "id": "7",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/0000002574.600x338.jpg?t=1757348372",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/0000002574.1920x1080.jpg?t=1757348372"
+    },
+    {
+      "id": "8",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/0000002575.600x338.jpg?t=1757348372",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/0000002575.1920x1080.jpg?t=1757348372"
+    },
+    {
+      "id": "9",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/0000002576.600x338.jpg?t=1757348372",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/0000002576.1920x1080.jpg?t=1757348372"
+    },
+    {
+      "id": "10",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/0000002577.600x338.jpg?t=1757348372",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/0000002577.1920x1080.jpg?t=1757348372"
+    },
+    {
+      "id": "11",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/0000002578.600x338.jpg?t=1757348372",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/0000002578.1920x1080.jpg?t=1757348372"
+    },
+    {
+      "id": "12",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/0000002579.600x338.jpg?t=1757348372",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/0000002579.1920x1080.jpg?t=1757348372"
+    },
+    {
+      "id": "13",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/0000002580.600x338.jpg?t=1757348372",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/0000002580.1920x1080.jpg?t=1757348372"
+    },
+    {
+      "id": "14",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/0000002581.600x338.jpg?t=1757348372",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/0000002581.1920x1080.jpg?t=1757348372"
+    }
+  ],
+  "movies": [
+    {
+      "id": "256698790",
+      "name": "Jungle Inferno",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256698790/movie.293x165.jpg?t=1682961253",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/440/129304/a9d97ffaf28cac468369400c12abe442a7b688b2/1749861261/hls_264_master.m3u8?t=1682961253",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/440/129304/a9d97ffaf28cac468369400c12abe442a7b688b2/1749861261/dash_h264.mpd?t=1682961253",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/440/129304/a9d97ffaf28cac468369400c12abe442a7b688b2/1749861261/dash_av1.mpd?t=1682961253",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/440/129304/a9d97ffaf28cac468369400c12abe442a7b688b2/1749861261/hls_264_master.m3u8?t=1682961253"
+    },
+    {
+      "id": "931",
+      "name": "Team Fortress 2 Trailer 2",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/931/movie.jpg?t=1682961246",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/440/393/c904e24c94bdea912a900a3210da17e2d7d64fe9/1749861208/hls_264_master.m3u8?t=1682961246",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/440/393/c904e24c94bdea912a900a3210da17e2d7d64fe9/1749861208/dash_h264.mpd?t=1682961246",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/440/393/c904e24c94bdea912a900a3210da17e2d7d64fe9/1749861208/dash_av1.mpd?t=1682961246",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/440/393/c904e24c94bdea912a900a3210da17e2d7d64fe9/1749861208/hls_264_master.m3u8?t=1682961246"
+    },
+    {
+      "id": "2030252",
+      "name": "Mann vs. Machine - The Sound of Medicine",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2030252/movie.293x165.jpg?t=1682961260",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/440/15532/067441b3fb41b75e0293c99aef6ae9bbb3a9fa79/1749861261/hls_264_master.m3u8?t=1682961260",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/440/15532/067441b3fb41b75e0293c99aef6ae9bbb3a9fa79/1749861261/dash_h264.mpd?t=1682961260",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/440/15532/067441b3fb41b75e0293c99aef6ae9bbb3a9fa79/1749861261/dash_av1.mpd?t=1682961260",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/440/15532/067441b3fb41b75e0293c99aef6ae9bbb3a9fa79/1749861261/hls_264_master.m3u8?t=1682961260"
+    },
+    {
+      "id": "81943",
+      "name": "Mann vs Machine_Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/81943/movie.293x165.jpg?t=1682961267",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/440/8728/9f6212e66778d59b79fdb8ba0da36592b15c0524/1749861261/hls_264_master.m3u8?t=1682961267",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/440/8728/9f6212e66778d59b79fdb8ba0da36592b15c0524/1749861261/dash_h264.mpd?t=1682961267",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/440/8728/9f6212e66778d59b79fdb8ba0da36592b15c0524/1749861261/dash_av1.mpd?t=1682961267",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/440/8728/9f6212e66778d59b79fdb8ba0da36592b15c0524/1749861261/hls_264_master.m3u8?t=1682961267"
+    },
+    {
+      "id": "81800",
+      "name": "Meet the Pyro - TF2",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/81800/movie.293x165.jpg?t=1682961275",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/440/8042/e45b0680102774b5cbb2267485902f82cf22cb81/1749861261/hls_264_master.m3u8?t=1682961275",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/440/8042/e45b0680102774b5cbb2267485902f82cf22cb81/1749861261/dash_h264.mpd?t=1682961275",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/440/8042/e45b0680102774b5cbb2267485902f82cf22cb81/1749861261/dash_av1.mpd?t=1682961275",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/440/8042/e45b0680102774b5cbb2267485902f82cf22cb81/1749861261/hls_264_master.m3u8?t=1682961275"
+    },
+    {
+      "id": "80923",
+      "name": "Team Fortress 2: Meet The Medic",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/80923/movie.293x165.jpg?t=1682961282",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/440/5315/34a447d612add6cf1efb2bc08bec63ae3ec0c65b/1749861261/hls_264_master.m3u8?t=1682961282",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/440/5315/34a447d612add6cf1efb2bc08bec63ae3ec0c65b/1749861261/dash_h264.mpd?t=1682961282",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/440/5315/34a447d612add6cf1efb2bc08bec63ae3ec0c65b/1749861261/dash_av1.mpd?t=1682961282",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/440/5315/34a447d612add6cf1efb2bc08bec63ae3ec0c65b/1749861261/hls_264_master.m3u8?t=1682961282"
+    },
+    {
+      "id": "80924",
+      "name": "Team Fortress 2 Free to Play",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/80924/movie.293x165.jpg?t=1682961289",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/440/5317/b6350222ba223e970f35b60b99d241ad1eb88a4a/1749861261/hls_264_master.m3u8?t=1682961289",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/440/5317/b6350222ba223e970f35b60b99d241ad1eb88a4a/1749861261/dash_h264.mpd?t=1682961289",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/440/5317/b6350222ba223e970f35b60b99d241ad1eb88a4a/1749861261/dash_av1.mpd?t=1682961289",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/440/5317/b6350222ba223e970f35b60b99d241ad1eb88a4a/1749861261/hls_264_master.m3u8?t=1682961289"
+    },
+    {
+      "id": "5734",
+      "name": "TF2 Mac Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5734/movie.293x165.jpg?t=1682961296",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/440/3657/38c00dc446deb086e0bf0e37dced7b322b2be179/1749861257/hls_264_master.m3u8?t=1682961296",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/440/3657/38c00dc446deb086e0bf0e37dced7b322b2be179/1749861257/dash_h264.mpd?t=1682961296",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/440/3657/38c00dc446deb086e0bf0e37dced7b322b2be179/1749861257/dash_av1.mpd?t=1682961296",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/440/3657/38c00dc446deb086e0bf0e37dced7b322b2be179/1749861257/hls_264_master.m3u8?t=1682961296"
+    },
+    {
+      "id": "923",
+      "name": "Team Fortress 2 Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/923/movie.jpg?t=1682961303",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/440/337/73d48cf3822ec20542eae592e36e42a80e287156/1749861207/hls_264_master.m3u8?t=1682961303",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/440/337/73d48cf3822ec20542eae592e36e42a80e287156/1749861207/dash_h264.mpd?t=1682961303",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/440/337/73d48cf3822ec20542eae592e36e42a80e287156/1749861207/dash_av1.mpd?t=1682961303",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/440/337/73d48cf3822ec20542eae592e36e42a80e287156/1749861207/hls_264_master.m3u8?t=1682961303"
+    },
+    {
+      "id": "960",
+      "name": "Team Fortress 2: Meet the Heavy",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/960/movie.jpg?t=1682961310",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/440/618/4582926c6061a224556bf6a984d270e15137ed3a/1749861208/hls_264_master.m3u8?t=1682961310",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/440/618/4582926c6061a224556bf6a984d270e15137ed3a/1749861208/dash_h264.mpd?t=1682961310",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/440/618/4582926c6061a224556bf6a984d270e15137ed3a/1749861208/dash_av1.mpd?t=1682961310",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/440/618/4582926c6061a224556bf6a984d270e15137ed3a/1749861208/hls_264_master.m3u8?t=1682961310"
+    },
+    {
+      "id": "985",
+      "name": "Team Fortress 2: Meet the Soldier (English)",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/985/movie.jpg?t=1682961318",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/440/772/d18f06225ffe63bc2a32866f96c9a540c0d3c0a3/1749861209/hls_264_master.m3u8?t=1682961318",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/440/772/d18f06225ffe63bc2a32866f96c9a540c0d3c0a3/1749861209/dash_h264.mpd?t=1682961318",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/440/772/d18f06225ffe63bc2a32866f96c9a540c0d3c0a3/1749861209/dash_av1.mpd?t=1682961318",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/440/772/d18f06225ffe63bc2a32866f96c9a540c0d3c0a3/1749861209/hls_264_master.m3u8?t=1682961318"
+    },
+    {
+      "id": "987",
+      "name": "Team Fortress 2: Meet the Engineer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/987/movie.jpg?t=1682961325",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/440/797/9dc70246e050342cbacaffb9662c7a1d3176b829/1749861212/hls_264_master.m3u8?t=1682961325",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/440/797/9dc70246e050342cbacaffb9662c7a1d3176b829/1749861212/dash_h264.mpd?t=1682961325",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/440/797/9dc70246e050342cbacaffb9662c7a1d3176b829/1749861212/dash_av1.mpd?t=1682961325",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/440/797/9dc70246e050342cbacaffb9662c7a1d3176b829/1749861212/hls_264_master.m3u8?t=1682961325"
+    },
+    {
+      "id": "997",
+      "name": "Team Fortress 2: Meet the Demoman",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/997/movie.jpg?t=1682961340",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/440/840/bc4fcc2db331bbd1072f7602ebf1458c7efd642d/1749861212/hls_264_master.m3u8?t=1682961340",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/440/840/bc4fcc2db331bbd1072f7602ebf1458c7efd642d/1749861212/dash_h264.mpd?t=1682961340",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/440/840/bc4fcc2db331bbd1072f7602ebf1458c7efd642d/1749861212/dash_av1.mpd?t=1682961340",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/440/840/bc4fcc2db331bbd1072f7602ebf1458c7efd642d/1749861212/hls_264_master.m3u8?t=1682961340"
+    },
+    {
+      "id": "5032",
+      "name": "Team Fortress 2: Meet the Scout (English)",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5032/movie.jpg?t=1682961362",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/440/1039/daf37ed6e825e0778d4aced69887364a2cbaf899/1749861212/hls_264_master.m3u8?t=1682961362",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/440/1039/daf37ed6e825e0778d4aced69887364a2cbaf899/1749861212/dash_h264.mpd?t=1682961362",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/440/1039/daf37ed6e825e0778d4aced69887364a2cbaf899/1749861212/dash_av1.mpd?t=1682961362",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/440/1039/daf37ed6e825e0778d4aced69887364a2cbaf899/1749861212/hls_264_master.m3u8?t=1682961362"
+    },
+    {
+      "id": "5051",
+      "name": "Team Fortress 2: Meet the Sniper",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5051/movie.293x165.jpg?t=1682961398",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/440/1147/f85ffc0d4fb811b628e67f3e13f62f2b4010200a/1749861247/hls_264_master.m3u8?t=1682961398",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/440/1147/f85ffc0d4fb811b628e67f3e13f62f2b4010200a/1749861247/dash_h264.mpd?t=1682961398",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/440/1147/f85ffc0d4fb811b628e67f3e13f62f2b4010200a/1749861247/dash_av1.mpd?t=1682961398",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/440/1147/f85ffc0d4fb811b628e67f3e13f62f2b4010200a/1749861247/hls_264_master.m3u8?t=1682961398"
+    },
+    {
+      "id": "5073",
+      "name": "Team Fortress 2: Meet the Sandvich",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5073/movie.jpg?t=1682961450",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/440/1263/dee0914b228d28ac72b94cbbe9055c1d20328297/1749861247/hls_264_master.m3u8?t=1682961450",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/440/1263/dee0914b228d28ac72b94cbbe9055c1d20328297/1749861247/dash_h264.mpd?t=1682961450",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/440/1263/dee0914b228d28ac72b94cbbe9055c1d20328297/1749861247/dash_av1.mpd?t=1682961450",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/440/1263/dee0914b228d28ac72b94cbbe9055c1d20328297/1749861247/hls_264_master.m3u8?t=1682961450"
+    },
+    {
+      "id": "5260",
+      "name": "Team Fortress 2: Meet the Spy",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5260/movie.293x165.jpg?t=1682961477",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/440/1970/cff2e5d153164aeba36757d0d801f9e2ac97dcfc/1749861404/hls_264_master.m3u8?t=1682961477",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/440/1970/cff2e5d153164aeba36757d0d801f9e2ac97dcfc/1749861404/dash_h264.mpd?t=1682961477",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/440/1970/cff2e5d153164aeba36757d0d801f9e2ac97dcfc/1749861404/dash_av1.mpd?t=1682961477",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/440/1970/cff2e5d153164aeba36757d0d801f9e2ac97dcfc/1749861404/hls_264_master.m3u8?t=1682961477"
+    }
+  ],
   "short_description": "다양한 전술적 능력과 뚜렷한 개성을 갖춘 9가지 병과의 캐릭터를 플레이하세요. 끊임없이 업데이트되는 새로운 게임 모드, 맵, 장비 그리고 가장 중요한 모자까지 지금 바로 즐겨보세요!",
   "steam_store_url": "https://store.steampowered.com/app/440",
-  "steam_recommendation_count": 46752,
+  "steam_recommendation_count": 46766,
   "steam_review_score_desc": "Very Positive",
-  "steam_total_positive": 12121,
-  "steam_total_negative": 1567,
-  "steam_total_reviews": 13688,
+  "steam_total_positive": 12120,
+  "steam_total_negative": 1566,
+  "steam_total_reviews": 13686,
+  "price_currency": null,
+  "price_current": null,
+  "price_original": null,
+  "price_current_formatted": null,
+  "price_original_formatted": null,
+  "price_discount_percent": null,
   "is_free": true,
   "coming_soon": false
 }

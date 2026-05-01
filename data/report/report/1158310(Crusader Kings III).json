@@ -1,8 +1,8 @@
 {
   "report_version": "v4-planned-sections",
   "appid": 1158310,
-  "pipeline_run_id": "1158310-20260427T065026Z",
-  "generated_at": "2026-04-27T06:52:54.358021+00:00",
+  "pipeline_run_id": "1158310-20260430T100355Z",
+  "generated_at": "2026-04-30T10:05:47.025112+00:00",
   "source_review_count": 3660,
   "included_review_count": 2512,
   "min_report_review_count": 100,
@@ -435,13 +435,126 @@
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/26512f9fd71590fe280dc7172665d88c20b92a7a/header_alt_assets_15_koreana.jpg?t=1776764652",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/77aa6949129ebac3f9cd21dd4d2efe05a59330b4/capsule_231x87_alt_assets_15_koreana.jpg?t=1776764652",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/77aa6949129ebac3f9cd21dd4d2efe05a59330b4/capsule_184x69_alt_assets_15_koreana.jpg?t=1776764652",
+    "screenshots": [
+      {
+        "id": "0",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/addd6bec0b1afb02a24be1ed08991d79ea8fe86a/ss_addd6bec0b1afb02a24be1ed08991d79ea8fe86a.600x338.jpg?t=1776764652",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/addd6bec0b1afb02a24be1ed08991d79ea8fe86a/ss_addd6bec0b1afb02a24be1ed08991d79ea8fe86a.1920x1080.jpg?t=1776764652"
+      },
+      {
+        "id": "1",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/1ac444deae721a595e8043786d86a992166b0ee0/ss_1ac444deae721a595e8043786d86a992166b0ee0.600x338.jpg?t=1776764652",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/1ac444deae721a595e8043786d86a992166b0ee0/ss_1ac444deae721a595e8043786d86a992166b0ee0.1920x1080.jpg?t=1776764652"
+      },
+      {
+        "id": "2",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/632d85ce9147a63f9eb13fc0db7b2a97686deadc/ss_632d85ce9147a63f9eb13fc0db7b2a97686deadc.600x338.jpg?t=1776764652",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/632d85ce9147a63f9eb13fc0db7b2a97686deadc/ss_632d85ce9147a63f9eb13fc0db7b2a97686deadc.1920x1080.jpg?t=1776764652"
+      },
+      {
+        "id": "3",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/439b0cb4f8bf1fba52885b32578378003ddca3a6/ss_439b0cb4f8bf1fba52885b32578378003ddca3a6.600x338.jpg?t=1776764652",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/439b0cb4f8bf1fba52885b32578378003ddca3a6/ss_439b0cb4f8bf1fba52885b32578378003ddca3a6.1920x1080.jpg?t=1776764652"
+      },
+      {
+        "id": "4",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/bbb3fa629e29080e82a122bbd45a3f5eed713c83/ss_bbb3fa629e29080e82a122bbd45a3f5eed713c83.600x338.jpg?t=1776764652",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/bbb3fa629e29080e82a122bbd45a3f5eed713c83/ss_bbb3fa629e29080e82a122bbd45a3f5eed713c83.1920x1080.jpg?t=1776764652"
+      },
+      {
+        "id": "5",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/a307c6ce9611faa01f264610d386df4b4c9fb34d/ss_a307c6ce9611faa01f264610d386df4b4c9fb34d.600x338.jpg?t=1776764652",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/a307c6ce9611faa01f264610d386df4b4c9fb34d/ss_a307c6ce9611faa01f264610d386df4b4c9fb34d.1920x1080.jpg?t=1776764652"
+      },
+      {
+        "id": "6",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/b40a53526f506cf2c6f1f22868f91dca34d049c3/ss_b40a53526f506cf2c6f1f22868f91dca34d049c3.600x338.jpg?t=1776764652",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/b40a53526f506cf2c6f1f22868f91dca34d049c3/ss_b40a53526f506cf2c6f1f22868f91dca34d049c3.1920x1080.jpg?t=1776764652"
+      },
+      {
+        "id": "7",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/563094df54cc603ce9136996c999cff1addecceb/ss_563094df54cc603ce9136996c999cff1addecceb.600x338.jpg?t=1776764652",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/563094df54cc603ce9136996c999cff1addecceb/ss_563094df54cc603ce9136996c999cff1addecceb.1920x1080.jpg?t=1776764652"
+      },
+      {
+        "id": "8",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/e867721a88fec4db325f5efcfbe8a70cb49891f0/ss_e867721a88fec4db325f5efcfbe8a70cb49891f0.600x338.jpg?t=1776764652",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/e867721a88fec4db325f5efcfbe8a70cb49891f0/ss_e867721a88fec4db325f5efcfbe8a70cb49891f0.1920x1080.jpg?t=1776764652"
+      },
+      {
+        "id": "9",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/6aee3709273ddd53a8157201d116983032db4ecc/ss_6aee3709273ddd53a8157201d116983032db4ecc.600x338.jpg?t=1776764652",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/6aee3709273ddd53a8157201d116983032db4ecc/ss_6aee3709273ddd53a8157201d116983032db4ecc.1920x1080.jpg?t=1776764652"
+      },
+      {
+        "id": "10",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/285f0d4a2fcc8b0cf86ede090192671e87acaa15/ss_285f0d4a2fcc8b0cf86ede090192671e87acaa15.600x338.jpg?t=1776764652",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/285f0d4a2fcc8b0cf86ede090192671e87acaa15/ss_285f0d4a2fcc8b0cf86ede090192671e87acaa15.1920x1080.jpg?t=1776764652"
+      },
+      {
+        "id": "11",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/b9be6cab51a5fdf8b54e9acdf13f4271549aa57f/ss_b9be6cab51a5fdf8b54e9acdf13f4271549aa57f.600x338.jpg?t=1776764652",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/b9be6cab51a5fdf8b54e9acdf13f4271549aa57f/ss_b9be6cab51a5fdf8b54e9acdf13f4271549aa57f.1920x1080.jpg?t=1776764652"
+      },
+      {
+        "id": "12",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/aae9febf93b47695bca5c87e528a2d1bc80e6f55/ss_aae9febf93b47695bca5c87e528a2d1bc80e6f55.600x338.jpg?t=1776764652",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/aae9febf93b47695bca5c87e528a2d1bc80e6f55/ss_aae9febf93b47695bca5c87e528a2d1bc80e6f55.1920x1080.jpg?t=1776764652"
+      },
+      {
+        "id": "13",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/04257d86f50420d846da8f5235b82d9f07a532b3/ss_04257d86f50420d846da8f5235b82d9f07a532b3.600x338.jpg?t=1776764652",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/04257d86f50420d846da8f5235b82d9f07a532b3/ss_04257d86f50420d846da8f5235b82d9f07a532b3.1920x1080.jpg?t=1776764652"
+      }
+    ],
+    "movies": [
+      {
+        "id": "257057629",
+        "name": "Crusader Kings III - Gameplay Trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257057629/movie.293x165.jpg?t=1727193628",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1158310/759975/7cc72dfe9418c56944f7b91f1030374be3a971ea/1750630363/hls_264_master.m3u8?t=1727193628",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1158310/759975/7cc72dfe9418c56944f7b91f1030374be3a971ea/1750630363/dash_h264.mpd?t=1727193628",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1158310/759975/7cc72dfe9418c56944f7b91f1030374be3a971ea/1750630363/dash_av1.mpd?t=1727193628",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1158310/759975/7cc72dfe9418c56944f7b91f1030374be3a971ea/1750630363/hls_264_master.m3u8?t=1727193628"
+      },
+      {
+        "id": "257057619",
+        "name": "Crusader Kings III - Release Trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257057619/movie.293x165.jpg?t=1727193633",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1158310/759963/31c74513b57fb0626bc7ab3d2915172debfb681f/1750630346/hls_264_master.m3u8?t=1727193633",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1158310/759963/31c74513b57fb0626bc7ab3d2915172debfb681f/1750630346/dash_h264.mpd?t=1727193633",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1158310/759963/31c74513b57fb0626bc7ab3d2915172debfb681f/1750630346/dash_av1.mpd?t=1727193633",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1158310/759963/31c74513b57fb0626bc7ab3d2915172debfb681f/1750630346/hls_264_master.m3u8?t=1727193633"
+      },
+      {
+        "id": "257014334",
+        "name": "Crusader Kings III - Story Trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257014334/movie.293x165.jpg?t=1712656227",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1158310/684841/d3cb11c1ae7849ddd9622f200e71f7f96c7cc807/1750630297/hls_264_master.m3u8?t=1712656227",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1158310/684841/d3cb11c1ae7849ddd9622f200e71f7f96c7cc807/1750630297/dash_h264.mpd?t=1712656227",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1158310/684841/d3cb11c1ae7849ddd9622f200e71f7f96c7cc807/1750630297/dash_av1.mpd?t=1712656227",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1158310/684841/d3cb11c1ae7849ddd9622f200e71f7f96c7cc807/1750630297/hls_264_master.m3u8?t=1712656227"
+      }
+    ],
     "short_description": "사랑하고, 싸우고, 계략을 세우고, 위대함을 쟁취하세요. Crusader Kings III의 마구 뻗어 나가는 대전략 게임에서 귀족 가문의 유산을 결정하세요. 풍부하고 개성 넘치는 중세 시대 시뮬레이션 속 왕조 혈통을 이어나가는 이곳에서, 죽음은 단지 시작일 뿐입니다.",
     "steam_store_url": "https://store.steampowered.com/app/1158310",
-    "steam_recommendation_count": 93280,
+    "steam_recommendation_count": 93377,
     "steam_review_score_desc": "Very Positive",
     "steam_total_positive": 3408,
     "steam_total_negative": 253,
-    "steam_total_reviews": 3661
+    "steam_total_reviews": 3661,
+    "price_currency": "KRW",
+    "price_current": 1650000,
+    "price_original": 5500000,
+    "price_current_formatted": "₩ 16,500",
+    "price_original_formatted": "₩ 55,000",
+    "price_discount_percent": 70
   },
   "report_plan": {
     "decision_anchor": {
@@ -450,7 +563,7 @@
         "risk_1",
         "risk_2"
       ],
-      "rationale_short": "가격 대비 만족의 편차와 불편을 감수해야 할 수 있어 가격 메리트가 있는 시점이 더 낫습니다."
+      "rationale_short": "게임의 콘텐츠와 최적화 문제로 인해 현재 구매를 보류하는 것이 좋습니다."
     },
     "section_blueprint": {
       "strength_block_count": 3,
@@ -488,20 +601,20 @@
         },
         {
           "reason_id": "risk_3",
-          "aspect": "mod_support",
-          "theme": "모드 지원 / 호환 문제"
+          "aspect": "performance",
+          "theme": "최적화 문제"
         }
       ]
     }
   },
   "report_display": {
-    "headline": "플레이 흐름의 안정감 경험은 분명한 강점입니다. 다만 가격 대비 만족의 편차 때문에 할인 시점에 시작하는 편이 더 안전합니다.",
-    "buy_recommendation": "wait",
-    "buy_timing_summary": "가격 대비 만족의 편차와 불편을 감수해야 할 수 있어 가격 메리트가 있는 시점이 더 낫습니다.",
+    "headline": "플레이 흐름은 안정적이나 가격 대비 만족도는 아쉬워 할인 시점 구매를 권장합니다.",
+    "buy_recommendation": "buy_on_sale",
+    "buy_timing_summary": "가격 대비 만족도가 변수여서 할인할 때 시작하는 것이 더 안전합니다.",
     "good_for": [
       "플레이 흐름이 점점 또렷해지는 재미를 좋아하는 플레이어",
       "전술과 운영 판단을 오래 다듬는 플레이어",
-      "세계관과 맥락을 스스로 읽어가는 재미를 좋아하는 플레이어"
+      "세계관과 맥락을 스스로 읽어가는 플레이어"
     ],
     "not_good_for": [
       "비용 대비 만족을 꼼꼼하게 따지는 플레이어",
@@ -510,35 +623,35 @@
     ],
     "top_strengths": [
       {
-        "title": "플레이 흐름이 점점 또렷해지는 재미",
-        "summary": "기본 흐름이 안정적으로 자리 잡아 익숙해질수록 재미 포인트가 더 분명해집니다."
+        "title": "깊이 있는 가문 경영 경험",
+        "summary": "복잡한 중세 봉건 사회에서 가문을 키우고 승계하는 과정이 현실감 있게 구현되어 몰입감이 뛰어납니다."
       },
       {
-        "title": "전술과 운영 판단의 깊이",
-        "summary": "전술과 운영 판단이 계속 이어져 생각하면서 오래 붙잡기 좋은 구조입니다."
+        "title": "풍부한 선택과 서사 창출",
+        "summary": "수많은 선택지와 다양한 플레이 스타일 덕분에 매번 새로운 이야기를 만들어 내는 재미가 있습니다."
       },
       {
-        "title": "탐험과 세계 해석이 이어지는 몰입 경험",
-        "summary": "탐험과 단서 해석이 맞물려 스스로 세계를 읽어가는 재미가 분명합니다."
+        "title": "높은 난이도와 도전성",
+        "summary": "진입 장벽이 높아 어렵지만, 이를 극복하며 전략과 운영을 직접 다듬는 재미가 깊게 느껴집니다."
       }
     ],
     "top_risks": [
       {
-        "title": "가격 대비 만족이 갈릴 수 있는 부분",
-        "summary": "가격 부담이 크면 기대만큼 만족하지 못했다는 반응이 나올 수 있습니다."
+        "title": "지속되는 DLC 과금 부담",
+        "summary": "게임 본편만으로는 부족하다는 평가가 많아 DLC 구매가 필수가 되어 경제적 부담이 클 수 있습니다."
       },
       {
-        "title": "플레이 시간이 누적될수록 새로움이 빨리 소진될 수 있는 리스크",
-        "summary": "익숙해진 뒤에는 새로움보다 반복감이 먼저 느껴질 수 있습니다."
+        "title": "콘텐츠 반복과 깊이 부족하다",
+        "summary": "초반에는 흥미롭지만 시간이 지날수록 비슷한 이벤트와 반복 플레이가 지루함을 유발할 수 있습니다."
       },
       {
-        "title": "프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크",
-        "summary": "프레임과 반응성이 흔들리면 조작 감각이 무너져 답답하게 느껴질 수 있습니다."
+        "title": "심각한 최적화와 안정성 문제",
+        "summary": "후반부로 갈수록 렉과 튕김 현상이 잦아져 플레이 흐름이 자주 끊기고 스트레스를 받을 수 있습니다."
       }
     ],
     "recent_state": {
       "status": "mixed",
-      "summary": "좋았다는 반응과 아쉽다는 반응이 함께 보여 평가가 갈리는 편입니다."
+      "summary": "중세 가문 경영과 서사 몰입은 뛰어나지만, 콘텐츠 부족과 최적화 문제로 아쉬움이 공존하는 상황입니다."
     }
   },
   "evidence_sections": {
@@ -547,8 +660,8 @@
         "block_id": "str_1",
         "title": "플레이 흐름이 안정적으로 잡힌다는 반응",
         "theme": "난이도 / 진입장벽",
-        "why_it_matters": "플레이 흐름이 자연스럽게 자리 잡는다는 반응이 많아, 익숙해질수록 재미가 선명해지는 쪽에 잘 맞습니다.",
-        "explanation": "플레이 흐름이 자연스럽게 자리 잡는다는 반응이 많아, 익숙해질수록 재미가 선명해지는 쪽에 잘 맞습니다.",
+        "why_it_matters": "플레이 흐름이 안정적으로 잡힌다는 반응이 많아 익숙해질수록 리듬을 타기 좋은 편입니다.",
+        "explanation": "플레이 흐름이 안정적으로 잡힌다는 반응이 많아 익숙해질수록 리듬을 타기 좋은 편입니다.",
         "aspect_keys": [
           "difficulty"
         ],
@@ -568,25 +681,25 @@
         ],
         "evidence_candidate_items": [
           {
-            "review_id": "compress-v3-positive-1-1-4615477866167368544",
+            "review_id": "compress-v3-positive-1-1-2089213007872770313",
             "text": "1. 이게임은 텍스트를 기반으로 하는 게임입니다. 책 읽기 싫어 하시는 분들은 바로 나가주세요 2. 본인이 스스로 똑똑해지고 전략, 모책, 암기 등 머리 쓰는걸 하고싶다. 추천합니다. 3. 튜토리얼은 UI 사용법만 나와있으니 유튜브를 통해서 꼭 학습하고 진행을 권장합니다. 4. 해당 게임은 별도의 공부가 필요합니다. 공부 싫어 하시면 도망치십쇼. 5. 내가 생각하는 전략이 통했을 때의 도파민 하나 보고 하는 게임입니다. 6. 직장인들은 2번째 출근 느낌입니다. ..... (도망쳐)"
           },
           {
-            "review_id": "compress-v3-positive-1-2-3870829635641428606",
+            "review_id": "compress-v3-positive-1-2-4491515009422538905",
             "text": "잠깐 해봤는데 재밌네요^^ 다들 호이가 라이트한점이 매력이라고 하는데 튜토리얼 차이인지 저는 크킹이 입문이 훨신 쉬운 것 같아요 ㅎㅎ"
           },
           {
-            "review_id": "compress-v3-positive-1-3-7055231095219302164",
+            "review_id": "compress-v3-positive-1-3-4959617453623694415",
             "text": "100시간 넘게 플레이했지만 아직도 어떻게 게임을 플레이해야 하는지 이해하기 어렵다고 느낄 정도로 난이도가 있는 게임입니다. 하지만 그런 어려움을 겪는 과정 자체에서 큰 재미를 찾을 수 있었습니다. 중세 시대를 배경으로 하는 시뮬레이션 게임을 하고 싶다면 강력히 추천합니다."
           }
         ]
       },
       {
         "block_id": "str_2",
-        "title": "전술과 운영 판단이 오래 재미를 만든다는 반응",
+        "title": "전술과 운영 판단의 재미가 크다는 반응",
         "theme": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험",
-        "why_it_matters": "운영과 전술 판단의 재미를 말하는 반응이 많아, 생각하면서 오래 즐기는 플레이에 잘 맞습니다.",
-        "explanation": "운영과 전술 판단의 재미를 말하는 반응이 많아, 생각하면서 오래 즐기는 플레이에 잘 맞습니다.",
+        "why_it_matters": "전술과 운영 판단의 재미를 말하는 반응이 많아 오래 다듬는 플레이와 잘 맞습니다.",
+        "explanation": "전술과 운영 판단의 재미를 말하는 반응이 많아 오래 다듬는 플레이와 잘 맞습니다.",
         "aspect_keys": [
           "gameplay"
         ],
@@ -604,11 +717,11 @@
         ],
         "evidence_candidate_items": [
           {
-            "review_id": "compress-v3-positive-2-1-5596321942436556533",
+            "review_id": "compress-v3-positive-2-1-8894395964968464880",
             "text": "복잡하지만 재밌어요 전투가 짜증나지만.. ( ≧∀≦)ノ"
           },
           {
-            "review_id": "compress-v3-positive-2-5-864078969427257431",
+            "review_id": "compress-v3-positive-2-5-699452973534627302",
             "text": "재밌는데 자동 전투 답도 없으니 속도 1로 직접 컨트롤 하세요 동맹도 직접 공격은 잘안하는거 같고 내 병력쪽에 붙으려고 해서 병력 분할 해서 공격할려는 곳에 동맹 끌고 가는게 나음 뭐랄까 봉건제 그런거 뭐 어려우면 칸 dlc 사서 유목정 해도 나쁘지 않음 그걸로 테무진 세계 정복 해보는 것도 dlc는 벗과 적인가 그거는 비추고 royal court, Tours & Tournaments, Northern Lords, Roads to Power 정도를 추천함 로얄 에디션 추천하는데 다이렉트 게임즈에서 세일할때 ㄱㄱ"
           }
         ]
@@ -619,8 +732,8 @@
         "block_id": "risk_1",
         "title": "가격 대비 만족이 갈린다는 반응",
         "theme": "가격 대비 만족도가 갈려 구매 타이밍을 따져봐야 하는 포인트",
-        "why_it_matters": "가격 부담을 지적하는 반응이 있어, 비용 대비 만족에 민감하면 판단이 갈릴 수 있습니다.",
-        "explanation": "가격 부담을 지적하는 반응이 있어, 비용 대비 만족에 민감하면 판단이 갈릴 수 있습니다.",
+        "why_it_matters": "가격 대비 만족을 지적하는 반응이 있어 비용 대비 만족을 꼼꼼히 보면 고민이 필요할 수 있습니다.",
+        "explanation": "가격 대비 만족을 지적하는 반응이 있어 비용 대비 만족을 꼼꼼히 보면 고민이 필요할 수 있습니다.",
         "aspect_keys": [
           "monetization"
         ],
@@ -643,41 +756,41 @@
         ],
         "evidence_candidate_items": [
           {
-            "review_id": "compress-v3-negative-1-1-2357995075414587287",
+            "review_id": "compress-v3-negative-1-1-8125002451649625681",
             "text": "dlc가 뭔 게임 하나 가격이냐 개같은 게임"
           },
           {
-            "review_id": "compress-v3-negative-1-2-2469742950816002010",
+            "review_id": "compress-v3-negative-1-2-5742166663724077873",
             "text": "첫 실행하고 15분정도 기다렸는데 '게임 초기 설정 중...' 화면에서 진행되질 않음. 바로 환불요청함."
           },
           {
-            "review_id": "compress-v3-negative-1-3-3958525853258071767",
+            "review_id": "compress-v3-negative-1-3-7044115411100279264",
             "text": "DLC 출시 될 때 마다 버그가 1+1으로 딸려오는 개혜자겜 패러독스는 코딩 동아리가 맞다."
           },
           {
-            "review_id": "compress-v3-negative-1-4-1672991754501931663",
+            "review_id": "compress-v3-negative-1-4-5778416636886377783",
             "text": "솔직히 제값 못한다고 본다. 이 700시간 하면서 느낀건 부족한 편의성과 DLC쪼개팔기가 선을 넘었다는 것이다."
           },
           {
-            "review_id": "compress-v3-negative-1-5-4443244767018095911",
+            "review_id": "compress-v3-negative-1-5-1659735079741343896",
             "text": "업데이트가 너무 느리고 dlc 나올 때마다 버그 있어도 방치하고 안 고침 게다가 개발자들이 친목질만 하고 지들 비판하면 삭제하고 탄압하기 바쁨 빅토리아3 발매전까지 서로 다른 팀이라 빅토3 개발 안했다고 해놓곤 나중에 최근까지 빅토랑 같은 팀이라고 밝혀서 통수침 (내용추가) 23년 1월 18일 크킹3 관짝에 처박힘 22년에 친구 와 적이라는 컨텐츠 텅텅빈 dlc 발매해서 확팩 개발한다고 대충 만든줄 알았는데 이걸 만드는데 몇개월 썼다는 발언 + 올해 나올 확팩이 올해 초가 아니라 올해 말일 가능성이 높아짐 다른 패독팀에 비해 일을 안하니 다렉에서 로열 에디션만 사고 겜 버릴꺼 아니면 사지마셈 dlc 팔이 겜인데 dlc를 안내는 미친겜임"
           },
           {
-            "review_id": "compress-v3-negative-1-7-1361818772028642626",
+            "review_id": "compress-v3-negative-1-6-2627782235043279465",
             "text": "가면갈수록 개적화된 패치와 업데이트로 인해 크래시나 먹통이 점점 늘고있음. 게임 저장하다가 먹통되고 게임 로딩하다가 먹통되고.... 그렇다고해서 뭐 컨텐츠나 dlc가 혜자인것도 아니고 해서 가면갈수록 기대가 없어진다. 패러독스 빠돌이여서 지금까지 호구처럼 dlc하나하나 다 사주고 플레이해오고하는짓을 했지, 아니였으면 당장 집어치웠을거다."
           },
           {
-            "review_id": "compress-v3-negative-1-8-2766658144299329688",
+            "review_id": "compress-v3-negative-1-7-7653639116948867200",
             "text": "본판 자체는 잘 만든 게임임이 분명함 전작과 비교할 때 훨씬 직관적이고 세련된 인터페이스와 화려한 그래픽 이것만으로도 전작처럼 다양한 컨텐츠와 디테일을 추후 나올 DLC들로 채워넣기만 한다면 장밋빛 미래가 보장된 듯 보였으나 그 이후 수 년이 지나는 동안 지금까지 보여준 모습들을 보면 게임 초창기 시스템이 단조롭고 컨텐츠에 디테일과 상상력이 부족했던 게 단순히 게임 초기라서 그랬던 게 아니라 개발팀의 능력 부족 때문이었던 듯 추가되는 DLC 하나하나 다 그 자체의 완성도도 부족한데 서로 어우러지지 못하고 따로 놀면서 분명 할 거리가 늘어나긴 했지만 게임 경험이 새롭고 풍부해지기보다는 귀찮고 불쾌해지기만 하는 상황이 반복됨 말로는 추후에 다 보완해줄 것처럼 당근을 흔들어대는데 그냥 말뿐이고 지금까지 지켜본 바로는 그냥 한 번 팔고 나면 나몰라라임 초창기부터 이야기가 많았던 전투 같은 기본 시스템은 건드려도 DLC로 출시할 수도 없고 수익이 나는 부분이 아니라 우선순위가 밀린다고 지들 입으로 실토하기도 함"
           }
         ]
       },
       {
         "block_id": "risk_2",
-        "title": "반복감 때문에 동기 유지가 어렵다는 반응",
+        "title": "반복감이 피로로 이어진다는 반응",
         "theme": "플레이 시간이 누적될수록 새로움이 빨리 소진될 수 있는 리스크",
-        "why_it_matters": "반복감이 피로로 이어진다는 반응이 있어, 새로움이 빨리 줄어드는 구간은 감수해야 할 수 있습니다.",
-        "explanation": "반복감이 피로로 이어진다는 반응이 있어, 새로움이 빨리 줄어드는 구간은 감수해야 할 수 있습니다.",
+        "why_it_matters": "반복감이 피로로 이어진다는 반응이 있어 새로움이 빨리 줄어드는 구간은 감수해야 할 수 있습니다.",
+        "explanation": "반복감이 피로로 이어진다는 반응이 있어 새로움이 빨리 줄어드는 구간은 감수해야 할 수 있습니다.",
         "aspect_keys": [
           "content_depth"
         ],
@@ -695,11 +808,11 @@
         ],
         "evidence_candidate_items": [
           {
-            "review_id": "compress-v3-negative-2-1-8274720916120034258",
+            "review_id": "compress-v3-negative-2-1-8322280532976897375",
             "text": "어느정도 하다보면 매우 반복적이 되버리는데 이만한 게임 대체제가 없는거 같음.. 최적화나 좀 잘 해주지 컴터 터지겠음"
           },
           {
-            "review_id": "compress-v3-negative-2-7-2766658144299329688",
+            "review_id": "compress-v3-negative-2-7-7653639116948867200",
             "text": "본판 자체는 잘 만든 게임임이 분명함 전작과 비교할 때 훨씬 직관적이고 세련된 인터페이스와 화려한 그래픽 이것만으로도 전작처럼 다양한 컨텐츠와 디테일을 추후 나올 DLC들로 채워넣기만 한다면 장밋빛 미래가 보장된 듯 보였으나 그 이후 수 년이 지나는 동안 지금까지 보여준 모습들을 보면 게임 초창기 시스템이 단조롭고 컨텐츠에 디테일과 상상력이 부족했던 게 단순히 게임 초기라서 그랬던 게 아니라 개발팀의 능력 부족 때문이었던 듯 추가되는 DLC 하나하나 다 그 자체의 완성도도 부족한데 서로 어우러지지 못하고 따로 놀면서 분명 할 거리가 늘어나긴 했지만 게임 경험이 새롭고 풍부해지기보다는 귀찮고 불쾌해지기만 하는 상황이 반복됨 말로는 추후에 다 보완해줄 것처럼 당근을 흔들어대는데 그냥 말뿐이고 지금까지 지켜본 바로는 그냥 한 번 팔고 나면 나몰라라임 초창기부터 이야기가 많았던 전투 같은 기본 시스템은 건드려도 DLC로 출시할 수도 없고 수익이 나는 부분이 아니라 우선순위가 밀린다고 지들 입으로 실토하기도 함"
           }
         ]
@@ -707,13 +820,13 @@
     ]
   },
   "disclaimer": "여러 유저 리뷰를 바탕으로 정리했어요. 플레이 경험은 사람마다 다를 수 있어요.",
-  "headline": "플레이 흐름의 안정감 경험은 분명한 강점입니다. 다만 가격 대비 만족의 편차 때문에 할인 시점에 시작하는 편이 더 안전합니다.",
-  "buy_recommendation": "wait",
-  "buy_timing_summary": "가격 대비 만족의 편차와 불편을 감수해야 할 수 있어 가격 메리트가 있는 시점이 더 낫습니다.",
+  "headline": "플레이 흐름은 안정적이나 가격 대비 만족도는 아쉬워 할인 시점 구매를 권장합니다.",
+  "buy_recommendation": "buy_on_sale",
+  "buy_timing_summary": "가격 대비 만족도가 변수여서 할인할 때 시작하는 것이 더 안전합니다.",
   "good_for": [
     "플레이 흐름이 점점 또렷해지는 재미를 좋아하는 플레이어",
     "전술과 운영 판단을 오래 다듬는 플레이어",
-    "세계관과 맥락을 스스로 읽어가는 재미를 좋아하는 플레이어"
+    "세계관과 맥락을 스스로 읽어가는 플레이어"
   ],
   "not_good_for": [
     "비용 대비 만족을 꼼꼼하게 따지는 플레이어",
@@ -722,43 +835,43 @@
   ],
   "top_strengths": [
     {
-      "title": "플레이 흐름이 점점 또렷해지는 재미",
-      "summary": "기본 흐름이 안정적으로 자리 잡아 익숙해질수록 재미 포인트가 더 분명해집니다."
+      "title": "깊이 있는 가문 경영 경험",
+      "summary": "복잡한 중세 봉건 사회에서 가문을 키우고 승계하는 과정이 현실감 있게 구현되어 몰입감이 뛰어납니다."
     },
     {
-      "title": "전술과 운영 판단의 깊이",
-      "summary": "전술과 운영 판단이 계속 이어져 생각하면서 오래 붙잡기 좋은 구조입니다."
+      "title": "풍부한 선택과 서사 창출",
+      "summary": "수많은 선택지와 다양한 플레이 스타일 덕분에 매번 새로운 이야기를 만들어 내는 재미가 있습니다."
     },
     {
-      "title": "탐험과 세계 해석이 이어지는 몰입 경험",
-      "summary": "탐험과 단서 해석이 맞물려 스스로 세계를 읽어가는 재미가 분명합니다."
+      "title": "높은 난이도와 도전성",
+      "summary": "진입 장벽이 높아 어렵지만, 이를 극복하며 전략과 운영을 직접 다듬는 재미가 깊게 느껴집니다."
     }
   ],
   "top_risks": [
     {
-      "title": "가격 대비 만족이 갈릴 수 있는 부분",
-      "summary": "가격 부담이 크면 기대만큼 만족하지 못했다는 반응이 나올 수 있습니다."
+      "title": "지속되는 DLC 과금 부담",
+      "summary": "게임 본편만으로는 부족하다는 평가가 많아 DLC 구매가 필수가 되어 경제적 부담이 클 수 있습니다."
     },
     {
-      "title": "플레이 시간이 누적될수록 새로움이 빨리 소진될 수 있는 리스크",
-      "summary": "익숙해진 뒤에는 새로움보다 반복감이 먼저 느껴질 수 있습니다."
+      "title": "콘텐츠 반복과 깊이 부족하다",
+      "summary": "초반에는 흥미롭지만 시간이 지날수록 비슷한 이벤트와 반복 플레이가 지루함을 유발할 수 있습니다."
     },
     {
-      "title": "프레임 저하나 끊김으로 전투/이동 흐름이 깨질 수 있는 리스크",
-      "summary": "프레임과 반응성이 흔들리면 조작 감각이 무너져 답답하게 느껴질 수 있습니다."
+      "title": "심각한 최적화와 안정성 문제",
+      "summary": "후반부로 갈수록 렉과 튕김 현상이 잦아져 플레이 흐름이 자주 끊기고 스트레스를 받을 수 있습니다."
     }
   ],
   "recent_state": {
     "status": "mixed",
-    "summary": "좋았다는 반응과 아쉽다는 반응이 함께 보여 평가가 갈리는 편입니다."
+    "summary": "중세 가문 경영과 서사 몰입은 뛰어나지만, 콘텐츠 부족과 최적화 문제로 아쉬움이 공존하는 상황입니다."
   },
   "evidence_reviews": [
     {
       "block_id": "str_1",
       "title": "플레이 흐름이 안정적으로 잡힌다는 반응",
       "theme": "난이도 / 진입장벽",
-      "why_it_matters": "플레이 흐름이 자연스럽게 자리 잡는다는 반응이 많아, 익숙해질수록 재미가 선명해지는 쪽에 잘 맞습니다.",
-      "explanation": "플레이 흐름이 자연스럽게 자리 잡는다는 반응이 많아, 익숙해질수록 재미가 선명해지는 쪽에 잘 맞습니다.",
+      "why_it_matters": "플레이 흐름이 안정적으로 잡힌다는 반응이 많아 익숙해질수록 리듬을 타기 좋은 편입니다.",
+      "explanation": "플레이 흐름이 안정적으로 잡힌다는 반응이 많아 익숙해질수록 리듬을 타기 좋은 편입니다.",
       "aspect_keys": [
         "difficulty"
       ],
@@ -778,25 +891,25 @@
       ],
       "evidence_candidate_items": [
         {
-          "review_id": "compress-v3-positive-1-1-4615477866167368544",
+          "review_id": "compress-v3-positive-1-1-2089213007872770313",
           "text": "1. 이게임은 텍스트를 기반으로 하는 게임입니다. 책 읽기 싫어 하시는 분들은 바로 나가주세요 2. 본인이 스스로 똑똑해지고 전략, 모책, 암기 등 머리 쓰는걸 하고싶다. 추천합니다. 3. 튜토리얼은 UI 사용법만 나와있으니 유튜브를 통해서 꼭 학습하고 진행을 권장합니다. 4. 해당 게임은 별도의 공부가 필요합니다. 공부 싫어 하시면 도망치십쇼. 5. 내가 생각하는 전략이 통했을 때의 도파민 하나 보고 하는 게임입니다. 6. 직장인들은 2번째 출근 느낌입니다. ..... (도망쳐)"
         },
         {
-          "review_id": "compress-v3-positive-1-2-3870829635641428606",
+          "review_id": "compress-v3-positive-1-2-4491515009422538905",
           "text": "잠깐 해봤는데 재밌네요^^ 다들 호이가 라이트한점이 매력이라고 하는데 튜토리얼 차이인지 저는 크킹이 입문이 훨신 쉬운 것 같아요 ㅎㅎ"
         },
         {
-          "review_id": "compress-v3-positive-1-3-7055231095219302164",
+          "review_id": "compress-v3-positive-1-3-4959617453623694415",
           "text": "100시간 넘게 플레이했지만 아직도 어떻게 게임을 플레이해야 하는지 이해하기 어렵다고 느낄 정도로 난이도가 있는 게임입니다. 하지만 그런 어려움을 겪는 과정 자체에서 큰 재미를 찾을 수 있었습니다. 중세 시대를 배경으로 하는 시뮬레이션 게임을 하고 싶다면 강력히 추천합니다."
         }
       ]
     },
     {
       "block_id": "str_2",
-      "title": "전술과 운영 판단이 오래 재미를 만든다는 반응",
+      "title": "전술과 운영 판단의 재미가 크다는 반응",
       "theme": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험",
-      "why_it_matters": "운영과 전술 판단의 재미를 말하는 반응이 많아, 생각하면서 오래 즐기는 플레이에 잘 맞습니다.",
-      "explanation": "운영과 전술 판단의 재미를 말하는 반응이 많아, 생각하면서 오래 즐기는 플레이에 잘 맞습니다.",
+      "why_it_matters": "전술과 운영 판단의 재미를 말하는 반응이 많아 오래 다듬는 플레이와 잘 맞습니다.",
+      "explanation": "전술과 운영 판단의 재미를 말하는 반응이 많아 오래 다듬는 플레이와 잘 맞습니다.",
       "aspect_keys": [
         "gameplay"
       ],
@@ -814,11 +927,11 @@
       ],
       "evidence_candidate_items": [
         {
-          "review_id": "compress-v3-positive-2-1-5596321942436556533",
+          "review_id": "compress-v3-positive-2-1-8894395964968464880",
           "text": "복잡하지만 재밌어요 전투가 짜증나지만.. ( ≧∀≦)ノ"
         },
         {
-          "review_id": "compress-v3-positive-2-5-864078969427257431",
+          "review_id": "compress-v3-positive-2-5-699452973534627302",
           "text": "재밌는데 자동 전투 답도 없으니 속도 1로 직접 컨트롤 하세요 동맹도 직접 공격은 잘안하는거 같고 내 병력쪽에 붙으려고 해서 병력 분할 해서 공격할려는 곳에 동맹 끌고 가는게 나음 뭐랄까 봉건제 그런거 뭐 어려우면 칸 dlc 사서 유목정 해도 나쁘지 않음 그걸로 테무진 세계 정복 해보는 것도 dlc는 벗과 적인가 그거는 비추고 royal court, Tours & Tournaments, Northern Lords, Roads to Power 정도를 추천함 로얄 에디션 추천하는데 다이렉트 게임즈에서 세일할때 ㄱㄱ"
         }
       ]
@@ -827,8 +940,8 @@
       "block_id": "risk_1",
       "title": "가격 대비 만족이 갈린다는 반응",
       "theme": "가격 대비 만족도가 갈려 구매 타이밍을 따져봐야 하는 포인트",
-      "why_it_matters": "가격 부담을 지적하는 반응이 있어, 비용 대비 만족에 민감하면 판단이 갈릴 수 있습니다.",
-      "explanation": "가격 부담을 지적하는 반응이 있어, 비용 대비 만족에 민감하면 판단이 갈릴 수 있습니다.",
+      "why_it_matters": "가격 대비 만족을 지적하는 반응이 있어 비용 대비 만족을 꼼꼼히 보면 고민이 필요할 수 있습니다.",
+      "explanation": "가격 대비 만족을 지적하는 반응이 있어 비용 대비 만족을 꼼꼼히 보면 고민이 필요할 수 있습니다.",
       "aspect_keys": [
         "monetization"
       ],
@@ -851,41 +964,41 @@
       ],
       "evidence_candidate_items": [
         {
-          "review_id": "compress-v3-negative-1-1-2357995075414587287",
+          "review_id": "compress-v3-negative-1-1-8125002451649625681",
           "text": "dlc가 뭔 게임 하나 가격이냐 개같은 게임"
         },
         {
-          "review_id": "compress-v3-negative-1-2-2469742950816002010",
+          "review_id": "compress-v3-negative-1-2-5742166663724077873",
           "text": "첫 실행하고 15분정도 기다렸는데 '게임 초기 설정 중...' 화면에서 진행되질 않음. 바로 환불요청함."
         },
         {
-          "review_id": "compress-v3-negative-1-3-3958525853258071767",
+          "review_id": "compress-v3-negative-1-3-7044115411100279264",
           "text": "DLC 출시 될 때 마다 버그가 1+1으로 딸려오는 개혜자겜 패러독스는 코딩 동아리가 맞다."
         },
         {
-          "review_id": "compress-v3-negative-1-4-1672991754501931663",
+          "review_id": "compress-v3-negative-1-4-5778416636886377783",
           "text": "솔직히 제값 못한다고 본다. 이 700시간 하면서 느낀건 부족한 편의성과 DLC쪼개팔기가 선을 넘었다는 것이다."
         },
         {
-          "review_id": "compress-v3-negative-1-5-4443244767018095911",
+          "review_id": "compress-v3-negative-1-5-1659735079741343896",
           "text": "업데이트가 너무 느리고 dlc 나올 때마다 버그 있어도 방치하고 안 고침 게다가 개발자들이 친목질만 하고 지들 비판하면 삭제하고 탄압하기 바쁨 빅토리아3 발매전까지 서로 다른 팀이라 빅토3 개발 안했다고 해놓곤 나중에 최근까지 빅토랑 같은 팀이라고 밝혀서 통수침 (내용추가) 23년 1월 18일 크킹3 관짝에 처박힘 22년에 친구 와 적이라는 컨텐츠 텅텅빈 dlc 발매해서 확팩 개발한다고 대충 만든줄 알았는데 이걸 만드는데 몇개월 썼다는 발언 + 올해 나올 확팩이 올해 초가 아니라 올해 말일 가능성이 높아짐 다른 패독팀에 비해 일을 안하니 다렉에서 로열 에디션만 사고 겜 버릴꺼 아니면 사지마셈 dlc 팔이 겜인데 dlc를 안내는 미친겜임"
         },
         {
-          "review_id": "compress-v3-negative-1-7-1361818772028642626",
+          "review_id": "compress-v3-negative-1-6-2627782235043279465",
           "text": "가면갈수록 개적화된 패치와 업데이트로 인해 크래시나 먹통이 점점 늘고있음. 게임 저장하다가 먹통되고 게임 로딩하다가 먹통되고.... 그렇다고해서 뭐 컨텐츠나 dlc가 혜자인것도 아니고 해서 가면갈수록 기대가 없어진다. 패러독스 빠돌이여서 지금까지 호구처럼 dlc하나하나 다 사주고 플레이해오고하는짓을 했지, 아니였으면 당장 집어치웠을거다."
         },
         {
-          "review_id": "compress-v3-negative-1-8-2766658144299329688",
+          "review_id": "compress-v3-negative-1-7-7653639116948867200",
           "text": "본판 자체는 잘 만든 게임임이 분명함 전작과 비교할 때 훨씬 직관적이고 세련된 인터페이스와 화려한 그래픽 이것만으로도 전작처럼 다양한 컨텐츠와 디테일을 추후 나올 DLC들로 채워넣기만 한다면 장밋빛 미래가 보장된 듯 보였으나 그 이후 수 년이 지나는 동안 지금까지 보여준 모습들을 보면 게임 초창기 시스템이 단조롭고 컨텐츠에 디테일과 상상력이 부족했던 게 단순히 게임 초기라서 그랬던 게 아니라 개발팀의 능력 부족 때문이었던 듯 추가되는 DLC 하나하나 다 그 자체의 완성도도 부족한데 서로 어우러지지 못하고 따로 놀면서 분명 할 거리가 늘어나긴 했지만 게임 경험이 새롭고 풍부해지기보다는 귀찮고 불쾌해지기만 하는 상황이 반복됨 말로는 추후에 다 보완해줄 것처럼 당근을 흔들어대는데 그냥 말뿐이고 지금까지 지켜본 바로는 그냥 한 번 팔고 나면 나몰라라임 초창기부터 이야기가 많았던 전투 같은 기본 시스템은 건드려도 DLC로 출시할 수도 없고 수익이 나는 부분이 아니라 우선순위가 밀린다고 지들 입으로 실토하기도 함"
         }
       ]
     },
     {
       "block_id": "risk_2",
-      "title": "반복감 때문에 동기 유지가 어렵다는 반응",
+      "title": "반복감이 피로로 이어진다는 반응",
       "theme": "플레이 시간이 누적될수록 새로움이 빨리 소진될 수 있는 리스크",
-      "why_it_matters": "반복감이 피로로 이어진다는 반응이 있어, 새로움이 빨리 줄어드는 구간은 감수해야 할 수 있습니다.",
-      "explanation": "반복감이 피로로 이어진다는 반응이 있어, 새로움이 빨리 줄어드는 구간은 감수해야 할 수 있습니다.",
+      "why_it_matters": "반복감이 피로로 이어진다는 반응이 있어 새로움이 빨리 줄어드는 구간은 감수해야 할 수 있습니다.",
+      "explanation": "반복감이 피로로 이어진다는 반응이 있어 새로움이 빨리 줄어드는 구간은 감수해야 할 수 있습니다.",
       "aspect_keys": [
         "content_depth"
       ],
@@ -903,11 +1016,11 @@
       ],
       "evidence_candidate_items": [
         {
-          "review_id": "compress-v3-negative-2-1-8274720916120034258",
+          "review_id": "compress-v3-negative-2-1-8322280532976897375",
           "text": "어느정도 하다보면 매우 반복적이 되버리는데 이만한 게임 대체제가 없는거 같음.. 최적화나 좀 잘 해주지 컴터 터지겠음"
         },
         {
-          "review_id": "compress-v3-negative-2-7-2766658144299329688",
+          "review_id": "compress-v3-negative-2-7-7653639116948867200",
           "text": "본판 자체는 잘 만든 게임임이 분명함 전작과 비교할 때 훨씬 직관적이고 세련된 인터페이스와 화려한 그래픽 이것만으로도 전작처럼 다양한 컨텐츠와 디테일을 추후 나올 DLC들로 채워넣기만 한다면 장밋빛 미래가 보장된 듯 보였으나 그 이후 수 년이 지나는 동안 지금까지 보여준 모습들을 보면 게임 초창기 시스템이 단조롭고 컨텐츠에 디테일과 상상력이 부족했던 게 단순히 게임 초기라서 그랬던 게 아니라 개발팀의 능력 부족 때문이었던 듯 추가되는 DLC 하나하나 다 그 자체의 완성도도 부족한데 서로 어우러지지 못하고 따로 놀면서 분명 할 거리가 늘어나긴 했지만 게임 경험이 새롭고 풍부해지기보다는 귀찮고 불쾌해지기만 하는 상황이 반복됨 말로는 추후에 다 보완해줄 것처럼 당근을 흔들어대는데 그냥 말뿐이고 지금까지 지켜본 바로는 그냥 한 번 팔고 나면 나몰라라임 초창기부터 이야기가 많았던 전투 같은 기본 시스템은 건드려도 DLC로 출시할 수도 없고 수익이 나는 부분이 아니라 우선순위가 밀린다고 지들 입으로 실토하기도 함"
         }
       ]

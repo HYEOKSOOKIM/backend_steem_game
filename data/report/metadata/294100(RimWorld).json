@@ -1,6 +1,8 @@
 {
   "appid": 294100,
   "name": "RimWorld",
+  "name_en": "RimWorld",
+  "name_ko": "RimWorld",
   "genres": [
     "인디",
     "시뮬레이션",
@@ -12,13 +14,84 @@
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/76e0613b8197327299d5dbabb0a7fd7828a689a2/header.jpg?t=1776194377",
   "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/a805ac5e3ceb54a2d7d3e1c1049907f1ef8bbb89/capsule_231x87.jpg?t=1776194377",
   "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/a805ac5e3ceb54a2d7d3e1c1049907f1ef8bbb89/capsule_184x69.jpg?t=1776194377",
+  "screenshots": [
+    {
+      "id": "0",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/80e383ef19353058791efe17a6485849246c9c17/ss_80e383ef19353058791efe17a6485849246c9c17.600x338.jpg?t=1776194377",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/80e383ef19353058791efe17a6485849246c9c17/ss_80e383ef19353058791efe17a6485849246c9c17.1920x1080.jpg?t=1776194377"
+    },
+    {
+      "id": "1",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/a6158c5cef23ac8157b37dd3eb17f3c2d2649e93/ss_a6158c5cef23ac8157b37dd3eb17f3c2d2649e93.600x338.jpg?t=1776194377",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/a6158c5cef23ac8157b37dd3eb17f3c2d2649e93/ss_a6158c5cef23ac8157b37dd3eb17f3c2d2649e93.1920x1080.jpg?t=1776194377"
+    },
+    {
+      "id": "2",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/1e3a2734b23daaa4eb60ea33dd87806aa65e0c8f/ss_1e3a2734b23daaa4eb60ea33dd87806aa65e0c8f.600x338.jpg?t=1776194377",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/1e3a2734b23daaa4eb60ea33dd87806aa65e0c8f/ss_1e3a2734b23daaa4eb60ea33dd87806aa65e0c8f.1920x1080.jpg?t=1776194377"
+    },
+    {
+      "id": "3",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/57c3e8d556d47bb5ad048699643528aefc652aa6/ss_57c3e8d556d47bb5ad048699643528aefc652aa6.600x338.jpg?t=1776194377",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/57c3e8d556d47bb5ad048699643528aefc652aa6/ss_57c3e8d556d47bb5ad048699643528aefc652aa6.1920x1080.jpg?t=1776194377"
+    },
+    {
+      "id": "4",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/59a1400eff99e2b620d623d3d76a02c1592a72e7/ss_59a1400eff99e2b620d623d3d76a02c1592a72e7.600x338.jpg?t=1776194377",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/59a1400eff99e2b620d623d3d76a02c1592a72e7/ss_59a1400eff99e2b620d623d3d76a02c1592a72e7.1920x1080.jpg?t=1776194377"
+    },
+    {
+      "id": "5",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/71f1f380e10d46e7355469b93ec60dcd81af03c6/ss_71f1f380e10d46e7355469b93ec60dcd81af03c6.600x338.jpg?t=1776194377",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/71f1f380e10d46e7355469b93ec60dcd81af03c6/ss_71f1f380e10d46e7355469b93ec60dcd81af03c6.1920x1080.jpg?t=1776194377"
+    },
+    {
+      "id": "6",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/698ad21bff61006f31650270446d68cd1073c770/ss_698ad21bff61006f31650270446d68cd1073c770.600x338.jpg?t=1776194377",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/698ad21bff61006f31650270446d68cd1073c770/ss_698ad21bff61006f31650270446d68cd1073c770.1920x1080.jpg?t=1776194377"
+    },
+    {
+      "id": "7",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/b509c42ec00bde9422e7a87cab7c8bb1b884915f/ss_b509c42ec00bde9422e7a87cab7c8bb1b884915f.600x338.jpg?t=1776194377",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/b509c42ec00bde9422e7a87cab7c8bb1b884915f/ss_b509c42ec00bde9422e7a87cab7c8bb1b884915f.1920x1080.jpg?t=1776194377"
+    },
+    {
+      "id": "8",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/788bf7f8f71014b2be28b3dfa11405a06a7fb49e/ss_788bf7f8f71014b2be28b3dfa11405a06a7fb49e.600x338.jpg?t=1776194377",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/788bf7f8f71014b2be28b3dfa11405a06a7fb49e/ss_788bf7f8f71014b2be28b3dfa11405a06a7fb49e.1920x1080.jpg?t=1776194377"
+    },
+    {
+      "id": "9",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/8dfed1fd659a608f3556bfccaaf9ef49bf594222/ss_8dfed1fd659a608f3556bfccaaf9ef49bf594222.600x338.jpg?t=1776194377",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/8dfed1fd659a608f3556bfccaaf9ef49bf594222/ss_8dfed1fd659a608f3556bfccaaf9ef49bf594222.1920x1080.jpg?t=1776194377"
+    }
+  ],
+  "movies": [
+    {
+      "id": "256731486",
+      "name": "Launch trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256731486/movie.293x165.jpg?t=1539788136",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/294100/189193/b88a55b0c4df1e292fa85455c5157a31ad1da17c/1750502942/hls_264_master.m3u8?t=1539788136",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/294100/189193/b88a55b0c4df1e292fa85455c5157a31ad1da17c/1750502942/dash_h264.mpd?t=1539788136",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/294100/189193/b88a55b0c4df1e292fa85455c5157a31ad1da17c/1750502942/dash_av1.mpd?t=1539788136",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/294100/189193/b88a55b0c4df1e292fa85455c5157a31ad1da17c/1750502942/hls_264_master.m3u8?t=1539788136"
+    }
+  ],
   "short_description": "지능형 AI 이야기꾼이 주도하는 공상과학 정착지 시뮬레이터입니다. 심리, 생태, 총격전과 근접전, 날씨, 기후, 외교, 사람 사이의 관계, 예술, 의학, 무역, 그 외 많은 것들을 시뮬레이션하여 이야기를 생성합니다.",
   "steam_store_url": "https://store.steampowered.com/app/294100",
-  "steam_recommendation_count": 201688,
+  "steam_recommendation_count": 201853,
   "steam_review_score_desc": "Overwhelmingly Positive",
-  "steam_total_positive": 7810,
+  "steam_total_positive": 7825,
   "steam_total_negative": 153,
-  "steam_total_reviews": 7963,
+  "steam_total_reviews": 7978,
+  "price_currency": "KRW",
+  "price_current": 3750000,
+  "price_original": 3750000,
+  "price_current_formatted": "₩ 37,500",
+  "price_original_formatted": null,
+  "price_discount_percent": 0,
   "is_free": false,
   "coming_soon": false
 }

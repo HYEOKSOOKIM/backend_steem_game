@@ -1,0 +1,87 @@
+{
+  "appid": 1172470,
+  "name": "Apex 레전드™",
+  "name_en": "Apex Legends™",
+  "name_ko": "Apex 레전드™",
+  "genres": [
+    "액션",
+    "어드벤처",
+    "무료 플레이"
+  ],
+  "price_model": "free_to_play",
+  "release_stage": "released",
+  "release_date_text": "2020년 11월 4일",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/5f9cd40d1507568651688af121d378dab35d3d35/header.jpg?t=1770753360",
+  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/b2163cc2e8d366e26d8d463d178d86690d9a402e/capsule_231x87.jpg?t=1770753360",
+  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/b2163cc2e8d366e26d8d463d178d86690d9a402e/capsule_184x69.jpg?t=1770753360",
+  "screenshots": [
+    {
+      "id": "0",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/d86d5fe798addd4ff7219938f891268affb1ea2d/ss_d86d5fe798addd4ff7219938f891268affb1ea2d.600x338.jpg?t=1770753360",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/d86d5fe798addd4ff7219938f891268affb1ea2d/ss_d86d5fe798addd4ff7219938f891268affb1ea2d.1920x1080.jpg?t=1770753360"
+    },
+    {
+      "id": "1",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/f786d0d1e567be0e5a801a62855970f9b6bae6fd/ss_f786d0d1e567be0e5a801a62855970f9b6bae6fd.600x338.jpg?t=1770753360",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/f786d0d1e567be0e5a801a62855970f9b6bae6fd/ss_f786d0d1e567be0e5a801a62855970f9b6bae6fd.1920x1080.jpg?t=1770753360"
+    },
+    {
+      "id": "2",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/c1f5eb613c365fc96f5d59dd69bd852793929f69/ss_c1f5eb613c365fc96f5d59dd69bd852793929f69.600x338.jpg?t=1770753360",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/c1f5eb613c365fc96f5d59dd69bd852793929f69/ss_c1f5eb613c365fc96f5d59dd69bd852793929f69.1920x1080.jpg?t=1770753360"
+    },
+    {
+      "id": "3",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/3424111e83c2adfc7e6c056573d5089c27fdc711/ss_3424111e83c2adfc7e6c056573d5089c27fdc711.600x338.jpg?t=1770753360",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/3424111e83c2adfc7e6c056573d5089c27fdc711/ss_3424111e83c2adfc7e6c056573d5089c27fdc711.1920x1080.jpg?t=1770753360"
+    },
+    {
+      "id": "4",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/339c1a98c4ae3a6d662e2766cad9660c3ca8f8aa/ss_339c1a98c4ae3a6d662e2766cad9660c3ca8f8aa.600x338.jpg?t=1770753360",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/339c1a98c4ae3a6d662e2766cad9660c3ca8f8aa/ss_339c1a98c4ae3a6d662e2766cad9660c3ca8f8aa.1920x1080.jpg?t=1770753360"
+    },
+    {
+      "id": "5",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/07975408cfe38c64a9dc60885908614488dd7ac0/ss_07975408cfe38c64a9dc60885908614488dd7ac0.600x338.jpg?t=1770753360",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/07975408cfe38c64a9dc60885908614488dd7ac0/ss_07975408cfe38c64a9dc60885908614488dd7ac0.1920x1080.jpg?t=1770753360"
+    },
+    {
+      "id": "6",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/7050e6270b93cce9ff0ed2d2f455ff63b2d4db1c/ss_7050e6270b93cce9ff0ed2d2f455ff63b2d4db1c.600x338.jpg?t=1770753360",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/7050e6270b93cce9ff0ed2d2f455ff63b2d4db1c/ss_7050e6270b93cce9ff0ed2d2f455ff63b2d4db1c.1920x1080.jpg?t=1770753360"
+    },
+    {
+      "id": "7",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/749581e184be808f7ab67018746940d040bace0a/ss_749581e184be808f7ab67018746940d040bace0a.600x338.jpg?t=1770753360",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/749581e184be808f7ab67018746940d040bace0a/ss_749581e184be808f7ab67018746940d040bace0a.1920x1080.jpg?t=1770753360"
+    }
+  ],
+  "movies": [
+    {
+      "id": "257283849",
+      "name": "Apex Legends: Breach Gameplay Trailer WW",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257283849/1cfaaeeab275f68399d523760b4653b1dd5ee1c8/movie_600x337.jpg?t=1770753354",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1172470/1441760315/ed6f420913ab7a4a6171c07cac4c5363fbb353b3/1770749344/hls_264_master.m3u8?t=1770753354",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1172470/1441760315/ed6f420913ab7a4a6171c07cac4c5363fbb353b3/1770749344/dash_h264.mpd?t=1770753354",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1172470/1441760315/ed6f420913ab7a4a6171c07cac4c5363fbb353b3/1770749344/dash_av1.mpd?t=1770753354",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/1172470/1441760315/ed6f420913ab7a4a6171c07cac4c5363fbb353b3/1770749344/hls_264_master.m3u8?t=1770753354"
+    }
+  ],
+  "short_description": "Apex 레전드는 Respawn Entertainment에서 제작한 다양한 수상 경력을 자랑하는 무료 플레이 히어로 슈팅 게임입니다. 게임에 계속해서 추가되는 레전드 캐릭터들의 강력한 능력을 마스터하고 깊이 있는 전술적 분대 플레이, 새롭게 진화하는 게임플레이를 지닌 히어로 슈팅과 배틀 로얄의 혁신을 경험하세요.",
+  "steam_store_url": "https://store.steampowered.com/app/1172470",
+  "steam_recommendation_count": 1575,
+  "steam_review_score_desc": "Mostly Positive",
+  "steam_total_positive": 12922,
+  "steam_total_negative": 5024,
+  "steam_total_reviews": 17946,
+  "price_currency": null,
+  "price_current": null,
+  "price_original": null,
+  "price_current_formatted": null,
+  "price_original_formatted": null,
+  "price_discount_percent": null,
+  "is_free": true,
+  "coming_soon": false
+}

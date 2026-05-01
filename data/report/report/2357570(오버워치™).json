@@ -1,0 +1,552 @@
+{
+  "report_version": "v4-planned-sections",
+  "appid": 2357570,
+  "pipeline_run_id": "2357570-20260430T095023Z",
+  "generated_at": "2026-04-30T09:52:11.486276+00:00",
+  "source_review_count": 5402,
+  "included_review_count": 3123,
+  "min_report_review_count": 100,
+  "report_state": "ready",
+  "review_trend": {
+    "granularity": "month",
+    "metric": "positive_ratio",
+    "points": [
+      {
+        "month": "2023-08",
+        "positive_count": 156,
+        "review_count": 1194,
+        "positive_ratio": 0.1307
+      },
+      {
+        "month": "2023-09",
+        "positive_count": 31,
+        "review_count": 150,
+        "positive_ratio": 0.2067
+      },
+      {
+        "month": "2023-10",
+        "positive_count": 38,
+        "review_count": 128,
+        "positive_ratio": 0.2969
+      },
+      {
+        "month": "2023-11",
+        "positive_count": 82,
+        "review_count": 162,
+        "positive_ratio": 0.5062
+      },
+      {
+        "month": "2023-12",
+        "positive_count": 45,
+        "review_count": 104,
+        "positive_ratio": 0.4327
+      },
+      {
+        "month": "2024-01",
+        "positive_count": 53,
+        "review_count": 95,
+        "positive_ratio": 0.5579
+      },
+      {
+        "month": "2024-02",
+        "positive_count": 64,
+        "review_count": 127,
+        "positive_ratio": 0.5039
+      },
+      {
+        "month": "2024-03",
+        "positive_count": 50,
+        "review_count": 94,
+        "positive_ratio": 0.5319
+      },
+      {
+        "month": "2024-04",
+        "positive_count": 57,
+        "review_count": 113,
+        "positive_ratio": 0.5044
+      },
+      {
+        "month": "2024-05",
+        "positive_count": 53,
+        "review_count": 113,
+        "positive_ratio": 0.469
+      },
+      {
+        "month": "2024-06",
+        "positive_count": 38,
+        "review_count": 107,
+        "positive_ratio": 0.3551
+      },
+      {
+        "month": "2024-07",
+        "positive_count": 60,
+        "review_count": 115,
+        "positive_ratio": 0.5217
+      },
+      {
+        "month": "2024-08",
+        "positive_count": 82,
+        "review_count": 145,
+        "positive_ratio": 0.5655
+      },
+      {
+        "month": "2024-09",
+        "positive_count": 65,
+        "review_count": 118,
+        "positive_ratio": 0.5508
+      },
+      {
+        "month": "2024-10",
+        "positive_count": 102,
+        "review_count": 169,
+        "positive_ratio": 0.6036
+      },
+      {
+        "month": "2024-11",
+        "positive_count": 87,
+        "review_count": 137,
+        "positive_ratio": 0.635
+      },
+      {
+        "month": "2024-12",
+        "positive_count": 73,
+        "review_count": 119,
+        "positive_ratio": 0.6134
+      },
+      {
+        "month": "2025-01",
+        "positive_count": 81,
+        "review_count": 136,
+        "positive_ratio": 0.5956
+      },
+      {
+        "month": "2025-02",
+        "positive_count": 96,
+        "review_count": 170,
+        "positive_ratio": 0.5647
+      },
+      {
+        "month": "2025-03",
+        "positive_count": 94,
+        "review_count": 143,
+        "positive_ratio": 0.6573
+      },
+      {
+        "month": "2025-04",
+        "positive_count": 71,
+        "review_count": 113,
+        "positive_ratio": 0.6283
+      },
+      {
+        "month": "2025-05",
+        "positive_count": 77,
+        "review_count": 139,
+        "positive_ratio": 0.554
+      },
+      {
+        "month": "2025-06",
+        "positive_count": 51,
+        "review_count": 85,
+        "positive_ratio": 0.6
+      },
+      {
+        "month": "2025-07",
+        "positive_count": 51,
+        "review_count": 108,
+        "positive_ratio": 0.4722
+      },
+      {
+        "month": "2025-08",
+        "positive_count": 73,
+        "review_count": 132,
+        "positive_ratio": 0.553
+      },
+      {
+        "month": "2025-09",
+        "positive_count": 54,
+        "review_count": 88,
+        "positive_ratio": 0.6136
+      },
+      {
+        "month": "2025-10",
+        "positive_count": 60,
+        "review_count": 102,
+        "positive_ratio": 0.5882
+      },
+      {
+        "month": "2025-11",
+        "positive_count": 54,
+        "review_count": 76,
+        "positive_ratio": 0.7105
+      },
+      {
+        "month": "2025-12",
+        "positive_count": 71,
+        "review_count": 121,
+        "positive_ratio": 0.5868
+      },
+      {
+        "month": "2026-01",
+        "positive_count": 88,
+        "review_count": 138,
+        "positive_ratio": 0.6377
+      },
+      {
+        "month": "2026-02",
+        "positive_count": 224,
+        "review_count": 333,
+        "positive_ratio": 0.6727
+      },
+      {
+        "month": "2026-03",
+        "positive_count": 119,
+        "review_count": 184,
+        "positive_ratio": 0.6467
+      },
+      {
+        "month": "2026-04",
+        "positive_count": 99,
+        "review_count": 144,
+        "positive_ratio": 0.6875
+      }
+    ]
+  },
+  "game": {
+    "name": "오버워치™",
+    "genres": [
+      "액션",
+      "무료 플레이"
+    ],
+    "price_model": "free_to_play",
+    "is_free": true,
+    "release_stage": "released",
+    "release_date_text": "2023년 8월 10일",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/1f84e73b8095ab9f40b1bc2c81845330979afc09/header_alt_assets_20.jpg?t=1776189843",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/f40730cf4defbd8f90d0f0662d7b263dd2915fe1/capsule_231x87_alt_assets_20.jpg?t=1776189843",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/f40730cf4defbd8f90d0f0662d7b263dd2915fe1/capsule_184x69_alt_assets_20.jpg?t=1776189843",
+    "screenshots": [
+      {
+        "id": "0",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/2830b5babd473e7e76fa522d4c1858386d3acfb1/ss_2830b5babd473e7e76fa522d4c1858386d3acfb1.600x338.jpg?t=1776189843",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/2830b5babd473e7e76fa522d4c1858386d3acfb1/ss_2830b5babd473e7e76fa522d4c1858386d3acfb1.1920x1080.jpg?t=1776189843"
+      },
+      {
+        "id": "1",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/b17b61def60cb8b3f693cb3a6b80152f7963b04e/ss_b17b61def60cb8b3f693cb3a6b80152f7963b04e.600x338.jpg?t=1776189843",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/b17b61def60cb8b3f693cb3a6b80152f7963b04e/ss_b17b61def60cb8b3f693cb3a6b80152f7963b04e.1920x1080.jpg?t=1776189843"
+      },
+      {
+        "id": "2",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/78e99c6da684734a84fcd69aff1baa7b5fe996f6/ss_78e99c6da684734a84fcd69aff1baa7b5fe996f6.600x338.jpg?t=1776189843",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/78e99c6da684734a84fcd69aff1baa7b5fe996f6/ss_78e99c6da684734a84fcd69aff1baa7b5fe996f6.1920x1080.jpg?t=1776189843"
+      },
+      {
+        "id": "3",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/ec6de0364a1014e97ab05a7cad9f187be0bd494e/ss_ec6de0364a1014e97ab05a7cad9f187be0bd494e.600x338.jpg?t=1776189843",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/ec6de0364a1014e97ab05a7cad9f187be0bd494e/ss_ec6de0364a1014e97ab05a7cad9f187be0bd494e.1920x1080.jpg?t=1776189843"
+      },
+      {
+        "id": "4",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/fced44634f014d9f240c20191993d17608845a98/ss_fced44634f014d9f240c20191993d17608845a98.600x338.jpg?t=1776189843",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/fced44634f014d9f240c20191993d17608845a98/ss_fced44634f014d9f240c20191993d17608845a98.1920x1080.jpg?t=1776189843"
+      },
+      {
+        "id": "5",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/5bf1bef7045a75815f6dfc36f016c7cdf5e1fafd/ss_5bf1bef7045a75815f6dfc36f016c7cdf5e1fafd.600x338.jpg?t=1776189843",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/5bf1bef7045a75815f6dfc36f016c7cdf5e1fafd/ss_5bf1bef7045a75815f6dfc36f016c7cdf5e1fafd.1920x1080.jpg?t=1776189843"
+      },
+      {
+        "id": "6",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/532fc3e5be0c84c86607e08a0e14f27b4300af76/ss_532fc3e5be0c84c86607e08a0e14f27b4300af76.600x338.jpg?t=1776189843",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/532fc3e5be0c84c86607e08a0e14f27b4300af76/ss_532fc3e5be0c84c86607e08a0e14f27b4300af76.1920x1080.jpg?t=1776189843"
+      },
+      {
+        "id": "7",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/a9c53181f654194c16719cfcf083cc7ae93b01bb/ss_a9c53181f654194c16719cfcf083cc7ae93b01bb.600x338.jpg?t=1776189843",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/a9c53181f654194c16719cfcf083cc7ae93b01bb/ss_a9c53181f654194c16719cfcf083cc7ae93b01bb.1920x1080.jpg?t=1776189843"
+      },
+      {
+        "id": "8",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/064da9cfd175b47e30474a643e85e81ca3ee83cf/ss_064da9cfd175b47e30474a643e85e81ca3ee83cf.600x338.jpg?t=1776189843",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/064da9cfd175b47e30474a643e85e81ca3ee83cf/ss_064da9cfd175b47e30474a643e85e81ca3ee83cf.1920x1080.jpg?t=1776189843"
+      }
+    ],
+    "movies": [
+      {
+        "id": "257237420",
+        "name": "S22 Launch Trailer (koKR)",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257237420/d7fcfafbff68199497682ea707e660502f9f7cc8/movie_600x337.jpg?t=1776189580",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2357570/331768471/ecd6abba47c09814d3fb7a67dbcfb12522b14790/1775771394/hls_264_master.m3u8?t=1776189580",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2357570/331768471/ecd6abba47c09814d3fb7a67dbcfb12522b14790/1775771394/dash_h264.mpd?t=1776189580",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2357570/331768471/ecd6abba47c09814d3fb7a67dbcfb12522b14790/1775771394/dash_av1.mpd?t=1776189580",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/2357570/331768471/ecd6abba47c09814d3fb7a67dbcfb12522b14790/1775771394/hls_264_master.m3u8?t=1776189580"
+      },
+      {
+        "id": "257280465",
+        "name": "Sierra Hero Trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257280465/b0ef36304ccf02a22167951a6692b19cc2d4280c/movie_600x337.jpg?t=1776189600",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2357570/499779757/53ac535387c69539ad611cf0cfdac260c22f6a56/1775861846/hls_264_master.m3u8?t=1776189600",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2357570/499779757/53ac535387c69539ad611cf0cfdac260c22f6a56/1775861846/dash_h264.mpd?t=1776189600",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2357570/499779757/53ac535387c69539ad611cf0cfdac260c22f6a56/1775861846/dash_av1.mpd?t=1776189600",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/2357570/499779757/53ac535387c69539ad611cf0cfdac260c22f6a56/1775861846/hls_264_master.m3u8?t=1776189600"
+      },
+      {
+        "id": "257217431",
+        "name": "Vendetta Hero Trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257217431/e5831ac35db861bb1d5f0d2858d06b82215569c6/movie_600x337.jpg?t=1765306854",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2357570/2028689474/6a199cedc2e1b42a6c7edfa4371f19b163ea7610/1764040499/hls_264_master.m3u8?t=1765306854",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2357570/2028689474/6a199cedc2e1b42a6c7edfa4371f19b163ea7610/1764040499/dash_h264.mpd?t=1765306854",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2357570/2028689474/6a199cedc2e1b42a6c7edfa4371f19b163ea7610/1764040499/dash_av1.mpd?t=1765306854",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/2357570/2028689474/6a199cedc2e1b42a6c7edfa4371f19b163ea7610/1764040499/hls_264_master.m3u8?t=1765306854"
+      },
+      {
+        "id": "257188808",
+        "name": "Aqua Hero Trailer (ko)",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257188808/d72432ae8124670acd6f3ab6ff94a828723301f8/movie_600x337.jpg?t=1756231269",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2357570/578024387/cbee01548d92dcbdb3c113773d683f8c40f1367b/1756155911/hls_264_master.m3u8?t=1756231269",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2357570/578024387/cbee01548d92dcbdb3c113773d683f8c40f1367b/1756155911/dash_h264.mpd?t=1756231269",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2357570/578024387/cbee01548d92dcbdb3c113773d683f8c40f1367b/1756155911/dash_av1.mpd?t=1756231269",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/2357570/578024387/cbee01548d92dcbdb3c113773d683f8c40f1367b/1756155911/hls_264_master.m3u8?t=1756231269"
+      },
+      {
+        "id": "257011587",
+        "name": "Freja Hero Trailer (ko)",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257011587/a31aa03b8efc89689a00b679305b0489cc56fbad/movie_600x337.jpg?t=1748894510",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2357570/485350034/7027ba2a2aad6cc3a5cf4df6f0298086da639aa5/1750812793/hls_264_master.m3u8?t=1748894510",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2357570/485350034/7027ba2a2aad6cc3a5cf4df6f0298086da639aa5/1750812793/dash_h264.mpd?t=1748894510",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2357570/485350034/7027ba2a2aad6cc3a5cf4df6f0298086da639aa5/1750812793/dash_av1.mpd?t=1748894510",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/2357570/485350034/7027ba2a2aad6cc3a5cf4df6f0298086da639aa5/1750812793/hls_264_master.m3u8?t=1748894510"
+      }
+    ],
+    "short_description": "오버워치™, 쟁취할 가치가 있는 미래! 오버워치™는 희망적인 미래를 배경으로 펼쳐지며, 언제든지 열려 있고 끊임없이 진화하는 팀 기반 액션 무료 플레이 게임입니다. 플레이어는 5대5 또는 6대6 전장에서 난투를 벌이게 됩니다.",
+    "steam_store_url": "https://store.steampowered.com/app/2357570",
+    "steam_recommendation_count": 266,
+    "steam_review_score_desc": "Mixed",
+    "steam_total_positive": 2501,
+    "steam_total_negative": 2904,
+    "steam_total_reviews": 5405,
+    "price_currency": null,
+    "price_current": null,
+    "price_original": null,
+    "price_current_formatted": null,
+    "price_original_formatted": null,
+    "price_discount_percent": null
+  },
+  "report_plan": {
+    "decision_anchor": {
+      "buy_recommendation": "not_recommended",
+      "primary_reason_ids": [
+        "risk_1",
+        "risk_2"
+      ],
+      "rationale_short": "매칭과 서버 상태 변화 문제가 플레이 몰입을 크게 깨울 수 있어, 당장은 관망이 더 안전합니다."
+    },
+    "section_blueprint": {
+      "strength_block_count": 0,
+      "risk_block_count": 3,
+      "evidence_per_block": 3
+    },
+    "theme_priorities": {
+      "strengths": [],
+      "risks": [
+        {
+          "reason_id": "risk_1",
+          "aspect": "multiplayer",
+          "theme": "매칭 / 서버 문제"
+        },
+        {
+          "reason_id": "risk_2",
+          "aspect": "balance",
+          "theme": "밸런스 불만"
+        },
+        {
+          "reason_id": "risk_3",
+          "aspect": "bugs",
+          "theme": "일반 버그"
+        }
+      ]
+    }
+  },
+  "report_display": {
+    "headline": "매칭과 서버 문제로 인해 플레이 경험이 불안정합니다.",
+    "buy_recommendation": "free_play_recommended",
+    "buy_timing_summary": "무료 게임이므로 부담 없이 플레이해 보고, 서버 안정화와 밸런스 개선 상황을 지켜보는 것을 권장합니다.",
+    "good_for": [
+      "플레이 흐름이 점점 또렷해지는 재미를 좋아하는 플레이어"
+    ],
+    "not_good_for": [
+      "매칭과 서버 상태 변화에 스트레스를 크게 받는 플레이어",
+      "진행 중 오류나 끊김을 거의 허용하지 않는 플레이어",
+      "밸런스 변화에 민감하게 반응하는 플레이어"
+    ],
+    "top_strengths": [
+      {
+        "title": "팀워크 중심의 협동 플레이",
+        "summary": "각 역할군이 뚜렷해 협력할수록 성취감이 크고, 전략적 조합을 맞추는 재미가 뛰어납니다."
+      },
+      {
+        "title": "개성 넘치는 영웅 디자인",
+        "summary": "다양한 스킬과 배경 스토리를 가진 영웅들이 여러 플레이 스타일을 경험하게 해줍니다."
+      },
+      {
+        "title": "빠른 템포와 몰입감",
+        "summary": "한 판이 짧고 전투가 속도감 있어 긴장감 넘치며, 역전의 재미도 풍부해 몰입하기 좋습니다."
+      }
+    ],
+    "top_risks": [
+      {
+        "title": "불안정한 매칭과 서버 상태",
+        "summary": "매칭이 자주 조작되거나 불균형하게 잡혀 연패와 스트레스가 반복됩니다. 서버 불안정으로 핑 튐과 랙이 잦아 게임 흐름이 끊기기 쉽습니다."
+      },
+      {
+        "title": "심각한 밸런스 문제와 메타 강요",
+        "summary": "특정 영웅과 역할 간 성능 차이가 커서 원하는 플레이를 하기 어렵고, 메타에 따라 강제된 영웅 선택이 반복되는 피로감이 큽니다."
+      },
+      {
+        "title": "악성 유저와 운영 문제",
+        "summary": "핵과 부계정, 트롤링이 만연하며 신고 시스템과 제재가 제대로 작동하지 않아 쾌적한 플레이 환경이 유지되기 어렵습니다."
+      }
+    ],
+    "recent_state": {
+      "status": "declining",
+      "summary": "매칭과 서버 문제, 밸런스 불만, 버그 이슈가 계속되며 플레이에 큰 불편함을 주고 있습니다."
+    }
+  },
+  "evidence_sections": {
+    "strengths": [],
+    "risks": [
+      {
+        "block_id": "risk_1",
+        "title": "매칭과 서버 상태가 체감을 흔든다는 반응",
+        "theme": "매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크",
+        "why_it_matters": "매칭과 서버 상태를 문제로 보는 반응이 있어 한 판의 안정성이 상황에 따라 갈릴 수 있습니다.",
+        "explanation": "매칭과 서버 상태를 문제로 보는 반응이 있어 한 판의 안정성이 상황에 따라 갈릴 수 있습니다.",
+        "aspect_keys": [
+          "multiplayer"
+        ],
+        "stance": "negative",
+        "consensus_level": "high",
+        "mention_count": 552,
+        "evidence_quality_level": "strict",
+        "evidence_candidate_snippets": [
+          "탈출은 지능순 경쟁게임에 매칭주작이있는거 자체가 답이없음",
+          "이 시이이이ㅣㅣㅣㅣㅣ발 팀 매칭조작인지 이상한 애들만 잡히네",
+          "두 달 된 탱 유저인데 접습니다 처참한 유저 수준과 게임을 하지 않는 사람들이 했다고 생각되는 밸런스 패치, 매칭 주작, 길어질까 여기에는 적지 않는 심각한 여러 문제들.. 첫 한 달가량은 일반 게임을 하며 숙련도를 키웠고 최근 근 한 달 동안 경쟁점을 하며 게임에 대한 문제점들에 눈이 뜨기 시작했습니다. 현재 모든 역할 티어는 플레고 주로 플레이 하는 탱은 미숙한 첫 배치로 인해 실버 4를 찍었지만 플레 2 후반까지 올렸습니다. 다이아를 목표로 했지만 경쟁점을 마친 어느 날 갑자기 현타가 오더군요 기분을 달래려 간만에 일반 게임을 돌렸지만 여기에서도 보이는 온갖 악의가 담긴 비방과 욕설, 정치질. 경쟁전이 아닌 일반전에서도 이러고 있는 것을 보고 그 이후로 게임에 정이 떨어졌는지 게임을 이겨도 전혀 즐겁지도 않고 내가 왜 이 게임을 해야 하는지에 대한 의문만 갈수록 커지더니 결국에는 접게 되었습니다. 목표인 다이아까지 3판만 이기면 돼지만 게임에 흥미를 잃은 지금 실력이 쇠퇴되었고 무엇보다 다이아를 달기 전에 반드시 연패할 모습이 보여 여기서 굳이 더 스트레스를 받아 가며 게임을 이어가기 싫기에 오버워치 여정을 여기서 마칩니다. 혹자 누구는 스트레스를 받기 싫으면 경쟁전 말고 일반 게임을 하면 되지 않느냐라고 할 수 있지만 경쟁전이 5판 중에 4판이 우리 팀이나 상대팀에서 온갖 욕설과 정에 치질이 난무하다면 일반 게임은 5판 중에 두세판 정도로 생각보다 비중이 높습니다 저는 경쟁을 주로 하다 보니 소통을 위해 채팅과 팀보이스를 켜두었지만 채팅으로 인한 스트레스를 받지 않고 싶으면 팀채팅과 경기채팅, 팀보이스를 끄고 플레이 하시면 됩니다. 저도 뉴비일 때도 그렇고 처음 하는 거의 모든 사람들은 딜러로 시작을 합니다. 처음 하면 게임이 어떻게 되어있는지 모르고 대부분의 영웅들은 숙련도가 필요하기에 접근하기 쉬운 영웅이 있는 역할이 딜러이기 때문이죠 이 글을 읽는 사람이 있을지는 모르겠지만 게임에 대해 빨리 알아가고 싶으시다면 탱커를 해보세요 싫더라도 오버워치란 게임을 알 수밖에 없습니다."
+        ],
+        "evidence_snippets": [
+          "두 달 된 탱 유저인데 접습니다 처참한 유저 수준과 게임을 하지 않는 사람들이 했다고 생각되는 밸런스 패치, 매칭 주작, 길어질까 여기에는 적지 않는 심각한 여러 문제들.. 첫 한 달가량은 일반 게임을 하며 숙련도를 키웠고 최근 근 한 달 동안 경쟁점을 하며 게임에 대한 문제점들에 눈이 뜨기 시작했습니다. 현재 모든 역할 티어는 플레고 주로 플레이 하는 탱은 미숙한 첫 배치로 인해 실버 4를 찍었지만 플레 2 후반까지 올렸습니다. 다이아를 목표로 했지만 경쟁점을 마친 어느 날 갑자기 현타가 오더군요 기분을 달래려 간만에 일반 게임을 돌렸지만 여기에서도 보이는 온갖 악의가 담긴 비방과 욕설, 정치질. 경쟁전이 아닌 일반전에서도 이러고 있는 것을 보고 그 이후로 게임에 정이 떨어졌는지 게임을 이겨도 전혀 즐겁지도 않고 내가 왜 이 게임을 해야 하는지에 대한 의문만 갈수록 커지더니 결국에는 접게 되었습니다. 목표인 다이아까지 3판만 이기면 돼지만 게임에 흥미를 잃은 지금 실력이 쇠퇴되었고 무엇보다 다이아를 달기 전에 반드시 연패할 모습이 보여 여기서 굳이 더 스트레스를 받아 가며 게임을 이어가기 싫기에 오버워치 여정을 여기서 마칩니다. 혹자 누구는 스트레스를 받기 싫으면 경쟁전 말고 일반 게임을 하면 되지 않느냐라고 할 수 있지만 경쟁전이 5판 중에 4판이 우리 팀이나 상대팀에서 온갖 욕설과 정에 치질이 난무하다면 일반 게임은 5판 중에 두세판 정도로 생각보다 비중이 높습니다 저는 경쟁을 주로 하다 보니 소통을 위해 채팅과 팀보이스를 켜두었지만 채팅으로 인한 스트레스를 받지 않고 싶으면 팀채팅과 경기채팅, 팀보이스를 끄고 플레이 하시면 됩니다. 저도 뉴비일 때도 그렇고 처음 하는 거의 모든 사람들은 딜러로 시작을 합니다. 처음 하면 게임이 어떻게 되어있는지 모르고 대부분의 영웅들은 숙련도가 필요하기에 접근하기 쉬운 영웅이 있는 역할이 딜러이기 때문이죠 이 글을 읽는 사람이 있을지는 모르겠지만 게임에 대해 빨리 알아가고 싶으시다면 탱커를 해보세요 싫더라도 오버워치란 게임을 알 수밖에 없습니다.",
+          "이 시이이이ㅣㅣㅣㅣㅣ발 팀 매칭조작인지 이상한 애들만 잡히네",
+          "탈출은 지능순 경쟁게임에 매칭주작이있는거 자체가 답이없음"
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-negative-1-1-7763249444354088769",
+            "text": "탈출은 지능순 경쟁게임에 매칭주작이있는거 자체가 답이없음"
+          },
+          {
+            "review_id": "compress-v3-negative-1-2-4798639285732674413",
+            "text": "이 시이이이ㅣㅣㅣㅣㅣ발 팀 매칭조작인지 이상한 애들만 잡히네"
+          },
+          {
+            "review_id": "compress-v3-negative-1-3-7673245024233504785",
+            "text": "두 달 된 탱 유저인데 접습니다 처참한 유저 수준과 게임을 하지 않는 사람들이 했다고 생각되는 밸런스 패치, 매칭 주작, 길어질까 여기에는 적지 않는 심각한 여러 문제들.. 첫 한 달가량은 일반 게임을 하며 숙련도를 키웠고 최근 근 한 달 동안 경쟁점을 하며 게임에 대한 문제점들에 눈이 뜨기 시작했습니다. 현재 모든 역할 티어는 플레고 주로 플레이 하는 탱은 미숙한 첫 배치로 인해 실버 4를 찍었지만 플레 2 후반까지 올렸습니다. 다이아를 목표로 했지만 경쟁점을 마친 어느 날 갑자기 현타가 오더군요 기분을 달래려 간만에 일반 게임을 돌렸지만 여기에서도 보이는 온갖 악의가 담긴 비방과 욕설, 정치질. 경쟁전이 아닌 일반전에서도 이러고 있는 것을 보고 그 이후로 게임에 정이 떨어졌는지 게임을 이겨도 전혀 즐겁지도 않고 내가 왜 이 게임을 해야 하는지에 대한 의문만 갈수록 커지더니 결국에는 접게 되었습니다. 목표인 다이아까지 3판만 이기면 돼지만 게임에 흥미를 잃은 지금 실력이 쇠퇴되었고 무엇보다 다이아를 달기 전에 반드시 연패할 모습이 보여 여기서 굳이 더 스트레스를 받아 가며 게임을 이어가기 싫기에 오버워치 여정을 여기서 마칩니다. 혹자 누구는 스트레스를 받기 싫으면 경쟁전 말고 일반 게임을 하면 되지 않느냐라고 할 수 있지만 경쟁전이 5판 중에 4판이 우리 팀이나 상대팀에서 온갖 욕설과 정에 치질이 난무하다면 일반 게임은 5판 중에 두세판 정도로 생각보다 비중이 높습니다 저는 경쟁을 주로 하다 보니 소통을 위해 채팅과 팀보이스를 켜두었지만 채팅으로 인한 스트레스를 받지 않고 싶으면 팀채팅과 경기채팅, 팀보이스를 끄고 플레이 하시면 됩니다. 저도 뉴비일 때도 그렇고 처음 하는 거의 모든 사람들은 딜러로 시작을 합니다. 처음 하면 게임이 어떻게 되어있는지 모르고 대부분의 영웅들은 숙련도가 필요하기에 접근하기 쉬운 영웅이 있는 역할이 딜러이기 때문이죠 이 글을 읽는 사람이 있을지는 모르겠지만 게임에 대해 빨리 알아가고 싶으시다면 탱커를 해보세요 싫더라도 오버워치란 게임을 알 수밖에 없습니다."
+          }
+        ]
+      }
+    ]
+  },
+  "disclaimer": "여러 유저 리뷰를 바탕으로 정리했어요. 플레이 경험은 사람마다 다를 수 있어요.",
+  "headline": "매칭과 서버 문제로 인해 플레이 경험이 불안정합니다.",
+  "buy_recommendation": "free_play_recommended",
+  "buy_timing_summary": "무료 게임이므로 부담 없이 플레이해 보고, 서버 안정화와 밸런스 개선 상황을 지켜보는 것을 권장합니다.",
+  "good_for": [
+    "플레이 흐름이 점점 또렷해지는 재미를 좋아하는 플레이어"
+  ],
+  "not_good_for": [
+    "매칭과 서버 상태 변화에 스트레스를 크게 받는 플레이어",
+    "진행 중 오류나 끊김을 거의 허용하지 않는 플레이어",
+    "밸런스 변화에 민감하게 반응하는 플레이어"
+  ],
+  "top_strengths": [
+    {
+      "title": "팀워크 중심의 협동 플레이",
+      "summary": "각 역할군이 뚜렷해 협력할수록 성취감이 크고, 전략적 조합을 맞추는 재미가 뛰어납니다."
+    },
+    {
+      "title": "개성 넘치는 영웅 디자인",
+      "summary": "다양한 스킬과 배경 스토리를 가진 영웅들이 여러 플레이 스타일을 경험하게 해줍니다."
+    },
+    {
+      "title": "빠른 템포와 몰입감",
+      "summary": "한 판이 짧고 전투가 속도감 있어 긴장감 넘치며, 역전의 재미도 풍부해 몰입하기 좋습니다."
+    }
+  ],
+  "top_risks": [
+    {
+      "title": "불안정한 매칭과 서버 상태",
+      "summary": "매칭이 자주 조작되거나 불균형하게 잡혀 연패와 스트레스가 반복됩니다. 서버 불안정으로 핑 튐과 랙이 잦아 게임 흐름이 끊기기 쉽습니다."
+    },
+    {
+      "title": "심각한 밸런스 문제와 메타 강요",
+      "summary": "특정 영웅과 역할 간 성능 차이가 커서 원하는 플레이를 하기 어렵고, 메타에 따라 강제된 영웅 선택이 반복되는 피로감이 큽니다."
+    },
+    {
+      "title": "악성 유저와 운영 문제",
+      "summary": "핵과 부계정, 트롤링이 만연하며 신고 시스템과 제재가 제대로 작동하지 않아 쾌적한 플레이 환경이 유지되기 어렵습니다."
+    }
+  ],
+  "recent_state": {
+    "status": "declining",
+    "summary": "매칭과 서버 문제, 밸런스 불만, 버그 이슈가 계속되며 플레이에 큰 불편함을 주고 있습니다."
+  },
+  "evidence_reviews": [
+    {
+      "block_id": "risk_1",
+      "title": "매칭과 서버 상태가 체감을 흔든다는 반응",
+      "theme": "매칭 대기나 서버 상태에 따라 체감 품질이 흔들릴 수 있는 리스크",
+      "why_it_matters": "매칭과 서버 상태를 문제로 보는 반응이 있어 한 판의 안정성이 상황에 따라 갈릴 수 있습니다.",
+      "explanation": "매칭과 서버 상태를 문제로 보는 반응이 있어 한 판의 안정성이 상황에 따라 갈릴 수 있습니다.",
+      "aspect_keys": [
+        "multiplayer"
+      ],
+      "stance": "negative",
+      "consensus_level": "high",
+      "mention_count": 552,
+      "evidence_quality_level": "strict",
+      "evidence_candidate_snippets": [
+        "탈출은 지능순 경쟁게임에 매칭주작이있는거 자체가 답이없음",
+        "이 시이이이ㅣㅣㅣㅣㅣ발 팀 매칭조작인지 이상한 애들만 잡히네",
+        "두 달 된 탱 유저인데 접습니다 처참한 유저 수준과 게임을 하지 않는 사람들이 했다고 생각되는 밸런스 패치, 매칭 주작, 길어질까 여기에는 적지 않는 심각한 여러 문제들.. 첫 한 달가량은 일반 게임을 하며 숙련도를 키웠고 최근 근 한 달 동안 경쟁점을 하며 게임에 대한 문제점들에 눈이 뜨기 시작했습니다. 현재 모든 역할 티어는 플레고 주로 플레이 하는 탱은 미숙한 첫 배치로 인해 실버 4를 찍었지만 플레 2 후반까지 올렸습니다. 다이아를 목표로 했지만 경쟁점을 마친 어느 날 갑자기 현타가 오더군요 기분을 달래려 간만에 일반 게임을 돌렸지만 여기에서도 보이는 온갖 악의가 담긴 비방과 욕설, 정치질. 경쟁전이 아닌 일반전에서도 이러고 있는 것을 보고 그 이후로 게임에 정이 떨어졌는지 게임을 이겨도 전혀 즐겁지도 않고 내가 왜 이 게임을 해야 하는지에 대한 의문만 갈수록 커지더니 결국에는 접게 되었습니다. 목표인 다이아까지 3판만 이기면 돼지만 게임에 흥미를 잃은 지금 실력이 쇠퇴되었고 무엇보다 다이아를 달기 전에 반드시 연패할 모습이 보여 여기서 굳이 더 스트레스를 받아 가며 게임을 이어가기 싫기에 오버워치 여정을 여기서 마칩니다. 혹자 누구는 스트레스를 받기 싫으면 경쟁전 말고 일반 게임을 하면 되지 않느냐라고 할 수 있지만 경쟁전이 5판 중에 4판이 우리 팀이나 상대팀에서 온갖 욕설과 정에 치질이 난무하다면 일반 게임은 5판 중에 두세판 정도로 생각보다 비중이 높습니다 저는 경쟁을 주로 하다 보니 소통을 위해 채팅과 팀보이스를 켜두었지만 채팅으로 인한 스트레스를 받지 않고 싶으면 팀채팅과 경기채팅, 팀보이스를 끄고 플레이 하시면 됩니다. 저도 뉴비일 때도 그렇고 처음 하는 거의 모든 사람들은 딜러로 시작을 합니다. 처음 하면 게임이 어떻게 되어있는지 모르고 대부분의 영웅들은 숙련도가 필요하기에 접근하기 쉬운 영웅이 있는 역할이 딜러이기 때문이죠 이 글을 읽는 사람이 있을지는 모르겠지만 게임에 대해 빨리 알아가고 싶으시다면 탱커를 해보세요 싫더라도 오버워치란 게임을 알 수밖에 없습니다."
+      ],
+      "evidence_snippets": [
+        "두 달 된 탱 유저인데 접습니다 처참한 유저 수준과 게임을 하지 않는 사람들이 했다고 생각되는 밸런스 패치, 매칭 주작, 길어질까 여기에는 적지 않는 심각한 여러 문제들.. 첫 한 달가량은 일반 게임을 하며 숙련도를 키웠고 최근 근 한 달 동안 경쟁점을 하며 게임에 대한 문제점들에 눈이 뜨기 시작했습니다. 현재 모든 역할 티어는 플레고 주로 플레이 하는 탱은 미숙한 첫 배치로 인해 실버 4를 찍었지만 플레 2 후반까지 올렸습니다. 다이아를 목표로 했지만 경쟁점을 마친 어느 날 갑자기 현타가 오더군요 기분을 달래려 간만에 일반 게임을 돌렸지만 여기에서도 보이는 온갖 악의가 담긴 비방과 욕설, 정치질. 경쟁전이 아닌 일반전에서도 이러고 있는 것을 보고 그 이후로 게임에 정이 떨어졌는지 게임을 이겨도 전혀 즐겁지도 않고 내가 왜 이 게임을 해야 하는지에 대한 의문만 갈수록 커지더니 결국에는 접게 되었습니다. 목표인 다이아까지 3판만 이기면 돼지만 게임에 흥미를 잃은 지금 실력이 쇠퇴되었고 무엇보다 다이아를 달기 전에 반드시 연패할 모습이 보여 여기서 굳이 더 스트레스를 받아 가며 게임을 이어가기 싫기에 오버워치 여정을 여기서 마칩니다. 혹자 누구는 스트레스를 받기 싫으면 경쟁전 말고 일반 게임을 하면 되지 않느냐라고 할 수 있지만 경쟁전이 5판 중에 4판이 우리 팀이나 상대팀에서 온갖 욕설과 정에 치질이 난무하다면 일반 게임은 5판 중에 두세판 정도로 생각보다 비중이 높습니다 저는 경쟁을 주로 하다 보니 소통을 위해 채팅과 팀보이스를 켜두었지만 채팅으로 인한 스트레스를 받지 않고 싶으면 팀채팅과 경기채팅, 팀보이스를 끄고 플레이 하시면 됩니다. 저도 뉴비일 때도 그렇고 처음 하는 거의 모든 사람들은 딜러로 시작을 합니다. 처음 하면 게임이 어떻게 되어있는지 모르고 대부분의 영웅들은 숙련도가 필요하기에 접근하기 쉬운 영웅이 있는 역할이 딜러이기 때문이죠 이 글을 읽는 사람이 있을지는 모르겠지만 게임에 대해 빨리 알아가고 싶으시다면 탱커를 해보세요 싫더라도 오버워치란 게임을 알 수밖에 없습니다.",
+        "이 시이이이ㅣㅣㅣㅣㅣ발 팀 매칭조작인지 이상한 애들만 잡히네",
+        "탈출은 지능순 경쟁게임에 매칭주작이있는거 자체가 답이없음"
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-negative-1-1-7763249444354088769",
+          "text": "탈출은 지능순 경쟁게임에 매칭주작이있는거 자체가 답이없음"
+        },
+        {
+          "review_id": "compress-v3-negative-1-2-4798639285732674413",
+          "text": "이 시이이이ㅣㅣㅣㅣㅣ발 팀 매칭조작인지 이상한 애들만 잡히네"
+        },
+        {
+          "review_id": "compress-v3-negative-1-3-7673245024233504785",
+          "text": "두 달 된 탱 유저인데 접습니다 처참한 유저 수준과 게임을 하지 않는 사람들이 했다고 생각되는 밸런스 패치, 매칭 주작, 길어질까 여기에는 적지 않는 심각한 여러 문제들.. 첫 한 달가량은 일반 게임을 하며 숙련도를 키웠고 최근 근 한 달 동안 경쟁점을 하며 게임에 대한 문제점들에 눈이 뜨기 시작했습니다. 현재 모든 역할 티어는 플레고 주로 플레이 하는 탱은 미숙한 첫 배치로 인해 실버 4를 찍었지만 플레 2 후반까지 올렸습니다. 다이아를 목표로 했지만 경쟁점을 마친 어느 날 갑자기 현타가 오더군요 기분을 달래려 간만에 일반 게임을 돌렸지만 여기에서도 보이는 온갖 악의가 담긴 비방과 욕설, 정치질. 경쟁전이 아닌 일반전에서도 이러고 있는 것을 보고 그 이후로 게임에 정이 떨어졌는지 게임을 이겨도 전혀 즐겁지도 않고 내가 왜 이 게임을 해야 하는지에 대한 의문만 갈수록 커지더니 결국에는 접게 되었습니다. 목표인 다이아까지 3판만 이기면 돼지만 게임에 흥미를 잃은 지금 실력이 쇠퇴되었고 무엇보다 다이아를 달기 전에 반드시 연패할 모습이 보여 여기서 굳이 더 스트레스를 받아 가며 게임을 이어가기 싫기에 오버워치 여정을 여기서 마칩니다. 혹자 누구는 스트레스를 받기 싫으면 경쟁전 말고 일반 게임을 하면 되지 않느냐라고 할 수 있지만 경쟁전이 5판 중에 4판이 우리 팀이나 상대팀에서 온갖 욕설과 정에 치질이 난무하다면 일반 게임은 5판 중에 두세판 정도로 생각보다 비중이 높습니다 저는 경쟁을 주로 하다 보니 소통을 위해 채팅과 팀보이스를 켜두었지만 채팅으로 인한 스트레스를 받지 않고 싶으면 팀채팅과 경기채팅, 팀보이스를 끄고 플레이 하시면 됩니다. 저도 뉴비일 때도 그렇고 처음 하는 거의 모든 사람들은 딜러로 시작을 합니다. 처음 하면 게임이 어떻게 되어있는지 모르고 대부분의 영웅들은 숙련도가 필요하기에 접근하기 쉬운 영웅이 있는 역할이 딜러이기 때문이죠 이 글을 읽는 사람이 있을지는 모르겠지만 게임에 대해 빨리 알아가고 싶으시다면 탱커를 해보세요 싫더라도 오버워치란 게임을 알 수밖에 없습니다."
+        }
+      ]
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 {
   "report_version": "v4-planned-sections",
   "appid": 814380,
-  "pipeline_run_id": "814380-20260427T064301Z",
-  "generated_at": "2026-04-27T06:46:35.182814+00:00",
-  "source_review_count": 10710,
-  "included_review_count": 7461,
+  "pipeline_run_id": "814380-20260430T092559Z",
+  "generated_at": "2026-04-30T09:28:10.938817+00:00",
+  "source_review_count": 10711,
+  "included_review_count": 7463,
   "min_report_review_count": 100,
   "report_state": "ready",
   "review_trend": {
@@ -523,9 +523,9 @@
       },
       {
         "month": "2026-04",
-        "positive_count": 54,
-        "review_count": 60,
-        "positive_ratio": 0.9
+        "positive_count": 55,
+        "review_count": 61,
+        "positive_ratio": 0.9016
       }
     ]
   },
@@ -542,13 +542,125 @@
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/header.jpg?t=1762888662",
     "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/capsule_231x87.jpg?t=1762888662",
     "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/capsule_184x69.jpg?t=1762888662",
+    "screenshots": [
+      {
+        "id": "0",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/ss_0f7b0f8ed9ffc49aba26f9328caa9a1d59ad60f0.600x338.jpg?t=1762888662",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/ss_0f7b0f8ed9ffc49aba26f9328caa9a1d59ad60f0.1920x1080.jpg?t=1762888662"
+      },
+      {
+        "id": "1",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/ss_2685dd844a2a523b6c7ec207d46a538db6a908cd.600x338.jpg?t=1762888662",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/ss_2685dd844a2a523b6c7ec207d46a538db6a908cd.1920x1080.jpg?t=1762888662"
+      },
+      {
+        "id": "2",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/ss_15f0e9982621aed44900215ad283811af0779b1d.600x338.jpg?t=1762888662",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/ss_15f0e9982621aed44900215ad283811af0779b1d.1920x1080.jpg?t=1762888662"
+      },
+      {
+        "id": "3",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/ss_1e6f5540866a5564d65df915c22fe1e57e336a6f.600x338.jpg?t=1762888662",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/ss_1e6f5540866a5564d65df915c22fe1e57e336a6f.1920x1080.jpg?t=1762888662"
+      },
+      {
+        "id": "4",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/ss_3d6b38c382c0eafb02dc90d22f33fd292e4e5cf3.600x338.jpg?t=1762888662",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/ss_3d6b38c382c0eafb02dc90d22f33fd292e4e5cf3.1920x1080.jpg?t=1762888662"
+      }
+    ],
+    "movies": [
+      {
+        "id": "256806899",
+        "name": "Sekiro™: Shadows Die Twice - Game of the Year Edition",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256806899/movie.293x165.jpg?t=1603837979",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/814380/322401/63cf1fdf9c16536f04b08a5b1939909f7a99a340/1750586450/hls_264_master.m3u8?t=1603837979",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/814380/322401/63cf1fdf9c16536f04b08a5b1939909f7a99a340/1750586450/dash_h264.mpd?t=1603837979",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/814380/322401/63cf1fdf9c16536f04b08a5b1939909f7a99a340/1750586450/dash_av1.mpd?t=1603837979",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/814380/322401/63cf1fdf9c16536f04b08a5b1939909f7a99a340/1750586450/hls_264_master.m3u8?t=1603837979"
+      },
+      {
+        "id": "256770769",
+        "name": "Sekiro: Shadows Die Twice - Accolades Trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256770769/movie.293x165.jpg?t=1576898083",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/814380/258713/980f4296ce65afd30dae955677b95c54fb7f0aa5/1750586418/hls_264_master.m3u8?t=1576898083",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/814380/258713/980f4296ce65afd30dae955677b95c54fb7f0aa5/1750586418/dash_h264.mpd?t=1576898083",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/814380/258713/980f4296ce65afd30dae955677b95c54fb7f0aa5/1750586418/dash_av1.mpd?t=1576898083",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/814380/258713/980f4296ce65afd30dae955677b95c54fb7f0aa5/1750586418/hls_264_master.m3u8?t=1576898083"
+      },
+      {
+        "id": "256745700",
+        "name": "Sekiro: Shadows Die Twice - Gameplay 101 Trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256745700/movie.293x165.jpg?t=1553549458",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/814380/214066/8028d7d95132f516fe298ed58b88905e2a33757c/1750586397/hls_264_master.m3u8?t=1553549458",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/814380/214066/8028d7d95132f516fe298ed58b88905e2a33757c/1750586397/dash_h264.mpd?t=1553549458",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/814380/214066/8028d7d95132f516fe298ed58b88905e2a33757c/1750586397/dash_av1.mpd?t=1553549458",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/814380/214066/8028d7d95132f516fe298ed58b88905e2a33757c/1750586397/hls_264_master.m3u8?t=1553549458"
+      },
+      {
+        "id": "256745081",
+        "name": "Sekiro: Shadows Die Twice - Launch Trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256745081/movie.293x165.jpg?t=1553549470",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/814380/212986/8ba6fe8bdcdc79872f903015b5d52e1121c1fdee/1750586380/hls_264_master.m3u8?t=1553549470",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/814380/212986/8ba6fe8bdcdc79872f903015b5d52e1121c1fdee/1750586380/dash_h264.mpd?t=1553549470",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/814380/212986/8ba6fe8bdcdc79872f903015b5d52e1121c1fdee/1750586380/dash_av1.mpd?t=1553549470",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/814380/212986/8ba6fe8bdcdc79872f903015b5d52e1121c1fdee/1750586380/hls_264_master.m3u8?t=1553549470"
+      },
+      {
+        "id": "256742445",
+        "name": "Sekiro: Shadows Die Twice - Story Trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256742445/movie.293x165.jpg?t=1553550374",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/814380/208296/626c8f3fa4310e48981ed9642700c23fe18bfc6b/1750586375/hls_264_master.m3u8?t=1553550374",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/814380/208296/626c8f3fa4310e48981ed9642700c23fe18bfc6b/1750586375/dash_h264.mpd?t=1553550374",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/814380/208296/626c8f3fa4310e48981ed9642700c23fe18bfc6b/1750586375/dash_av1.mpd?t=1553550374",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/814380/208296/626c8f3fa4310e48981ed9642700c23fe18bfc6b/1750586375/hls_264_master.m3u8?t=1553550374"
+      },
+      {
+        "id": "256729567",
+        "name": "Sekiro: Shadows Die Twice - TGS Trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256729567/movie.293x165.jpg?t=1553549495",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/814380/185727/d2ba3d91663b45dccc2a39daa4ba58ade28dc19b/1750586361/hls_264_master.m3u8?t=1553549495",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/814380/185727/d2ba3d91663b45dccc2a39daa4ba58ade28dc19b/1750586361/dash_h264.mpd?t=1553549495",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/814380/185727/d2ba3d91663b45dccc2a39daa4ba58ade28dc19b/1750586361/dash_av1.mpd?t=1553549495",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/814380/185727/d2ba3d91663b45dccc2a39daa4ba58ade28dc19b/1750586361/hls_264_master.m3u8?t=1553549495"
+      },
+      {
+        "id": "256724898",
+        "name": "Sekiro: Shadows Die Twice - Reveal Trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256724898/movie.293x165.jpg?t=1553099552",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/814380/177655/9624840b4a264feb3cfd8fc8957e72aa9fab9978/1750586355/hls_264_master.m3u8?t=1553099552",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/814380/177655/9624840b4a264feb3cfd8fc8957e72aa9fab9978/1750586355/dash_h264.mpd?t=1553099552",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/814380/177655/9624840b4a264feb3cfd8fc8957e72aa9fab9978/1750586355/dash_av1.mpd?t=1553099552",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/814380/177655/9624840b4a264feb3cfd8fc8957e72aa9fab9978/1750586355/hls_264_master.m3u8?t=1553099552"
+      }
+    ],
     "short_description": "Dark Souls 시리즈를 개발한 FromSoftware의 새로운 어드벤처에서 복수를 향한 자신만의 길을 개척해보십시오. 복수하십시오. 명예를 회복하십시오. 무사답게 싸우십시오.",
     "steam_store_url": "https://store.steampowered.com/app/814380",
-    "steam_recommendation_count": 252986,
+    "steam_recommendation_count": 253108,
     "steam_review_score_desc": "Overwhelmingly Positive",
-    "steam_total_positive": 10181,
-    "steam_total_negative": 529,
-    "steam_total_reviews": 10710
+    "steam_total_positive": 10184,
+    "steam_total_negative": 530,
+    "steam_total_reviews": 10714,
+    "price_currency": "KRW",
+    "price_current": 7500000,
+    "price_original": 7500000,
+    "price_current_formatted": "₩ 75,000",
+    "price_original_formatted": null,
+    "price_discount_percent": 0
   },
   "report_plan": {
     "decision_anchor": {
@@ -597,61 +709,66 @@
     }
   },
   "report_display": {
-    "headline": "탐험과 자유도 체감이 좋아 지금 바로 시작해도 만족도가 높은 편입니다.",
+    "headline": "탐험과 전투의 긴장감이 살아 있는 명작, 지금 바로 도전해 보세요.",
     "buy_recommendation": "buy_now",
-    "buy_timing_summary": "최근 후기 흐름에서 체감 불편이 크게 늘지 않아 지금 시작해도 부담이 낮은 편입니다.",
+    "buy_timing_summary": "최근 후기에서 큰 불편함이 없고, 지금 시작해도 부담이 적습니다.",
     "good_for": [
-      "맵을 돌아다니며 발견하는 재미를 중요하게 보는 플레이어",
-      "세계관과 맥락을 스스로 읽어가는 재미를 좋아하는 플레이어",
-      "플레이 흐름이 점점 또렷해지는 재미를 좋아하는 플레이어"
+      "탐험과 발견을 즐기는 플레이어",
+      "스토리와 세계관에 몰입하는 유저",
+      "도전과 성취감을 추구하는 액션 게임 팬"
     ],
     "not_good_for": [
-      "비용 대비 만족을 꼼꼼하게 따지는 플레이어",
-      "조작과 인터페이스 적응 스트레스를 크게 받는 플레이어"
+      "높은 난이도에 부담을 느끼는 플레이어",
+      "조작과 인터페이스 적응에 스트레스 받는 유저",
+      "가격 대비 콘텐츠를 꼼꼼히 따지는 분"
     ],
     "top_strengths": [
       {
-        "title": "발견이 이어지는 탐험 경험",
-        "summary": "이동하고 발견하는 과정 자체가 재미를 만들어 탐험 비중이 높은 플레이에 맞습니다."
+        "title": "보스 패턴을 익히며 돌파하는 성취감",
+        "summary": "실패를 거듭하며 패턴을 읽고 결국 돌파하는 과정이 강한 긴장감과 성취감으로 이어집니다."
       },
       {
-        "title": "탐험과 세계 해석이 이어지는 몰입 경험",
-        "summary": "탐험과 단서 해석이 맞물려 스스로 세계를 읽어가는 재미가 분명합니다."
+        "title": "유연한 전투와 은신 플레이",
+        "summary": "닌자 의수와 갈고리를 활용한 빠른 이동과 암습으로 자신만의 전투 방식을 선택할 수 있어 몰입감이 높습니다."
       },
       {
-        "title": "플레이 흐름이 점점 또렷해지는 재미",
-        "summary": "기본 흐름이 안정적으로 자리 잡아 익숙해질수록 재미 포인트가 더 분명해집니다."
+        "title": "탄탄한 스토리와 몰입감이",
+        "summary": "일본 센고쿠 시대를 배경으로 한 매력적인 세계관과 몰입도 높은 연출이 게임 경험을 풍부하게 만듭니다."
       }
     ],
     "top_risks": [
       {
-        "title": "가격 대비 만족이 갈릴 수 있는 부분",
-        "summary": "가격 부담이 크면 기대만큼 만족하지 못했다는 반응이 나올 수 있습니다."
+        "title": "높은 난이도와 반복적인 도전 피로",
+        "summary": "보스전의 빠른 공격과 복잡한 패턴으로 인해 많은 집중력과 반복 플레이가 필요해 쉽게 지치고 포기할 수 있습니다."
       },
       {
-        "title": "조작감 문제",
-        "summary": "조작과 인터페이스 적응에 시간이 걸리면 재미보다 답답함이 먼저 올 수 있습니다."
+        "title": "불편한 조작과 카메라 문제",
+        "summary": "락온 시스템의 불안정과 카메라 시점 변화로 인해 전투 중 의도치 않은 상황이 발생해 답답함과 스트레스를 유발합니다."
+      },
+      {
+        "title": "길 찾기와 탐험의 불친절함",
+        "summary": "복잡하고 직관적이지 않은 맵 구조와 숨겨진 경로로 인해 길을 찾는 데 어려움을 겪으며 플레이 흐름이 끊길 수 있습니다."
       }
     ],
     "recent_state": {
-      "status": "improving",
-      "summary": "불편이 줄었다는 후기가 늘어 전반적인 분위기가 나아지는 편입니다."
+      "status": "declining",
+      "summary": "최근 이용자들은 전투의 손맛과 서사 몰입을 인정하면서도 난이도와 조작 문제, 가격 부담에 대한 불만이 늘어나고 있습니다."
     }
   },
   "evidence_sections": {
     "strengths": [
       {
         "block_id": "str_1",
-        "title": "탐험하며 발견하는 재미가 크다는 반응",
+        "title": "탐험과 발견의 재미가 좋다는 반응",
         "theme": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험",
-        "why_it_matters": "탐험과 발견 그 자체를 좋게 보는 반응이 많아, 돌아다니며 찾는 플레이를 좋아하면 잘 맞습니다.",
-        "explanation": "탐험과 발견 그 자체를 좋게 보는 반응이 많아, 돌아다니며 찾는 플레이를 좋아하면 잘 맞습니다.",
+        "why_it_matters": "맵을 돌아다니며 발견하는 재미를 좋게 보는 반응이 많아 탐험 중심 플레이에 잘 맞습니다.",
+        "explanation": "맵을 돌아다니며 발견하는 재미를 좋게 보는 반응이 많아 탐험 중심 플레이에 잘 맞습니다.",
         "aspect_keys": [
           "gameplay"
         ],
         "stance": "positive",
         "consensus_level": "high",
-        "mention_count": 2043,
+        "mention_count": 2045,
         "evidence_quality_level": "strict",
         "evidence_candidate_snippets": [
           "전투가 이렇게 재밌는 게임은 처음임. 첫 소울류 게임인데 1대1이면 몇십 번 죽어도 캐릭터 성장 없이 결국은 깰 수 있다는 것을 느끼게 해준 적절한 보스 선생님들 감사합니다",
@@ -666,29 +783,29 @@
         ],
         "evidence_candidate_items": [
           {
-            "review_id": "compress-v3-positive-1-1-7288892849472719900",
+            "review_id": "compress-v3-positive-1-1-4001626192205849226",
             "text": "전투가 이렇게 재밌는 게임은 처음임. 첫 소울류 게임인데 1대1이면 몇십 번 죽어도 캐릭터 성장 없이 결국은 깰 수 있다는 것을 느끼게 해준 적절한 보스 선생님들 감사합니다"
           },
           {
-            "review_id": "compress-v3-positive-1-2-2047599733895059893",
+            "review_id": "compress-v3-positive-1-2-2838792485129479872",
             "text": "액션 게임하면 절대로 빠지면 안된다고 생각하는 게임"
           },
           {
-            "review_id": "compress-v3-positive-1-3-3353343973177015900",
+            "review_id": "compress-v3-positive-1-3-5678253620395188823",
             "text": "전투 재미있긴한데 뭔가 리듬게임 하는기분 (장비도 없어서 더욱) 나머진 없어요"
           },
           {
-            "review_id": "compress-v3-positive-1-4-4021244546985045113",
+            "review_id": "compress-v3-positive-1-4-6835129507345562250",
             "text": "여타 다른 프롬 게임들보다 분량이 적은 대신, 전투 시스템과 캐릭터 한명 한명의 디테일에 집중한 게임이라고 표현하고 싶다. 스토리도 깔끔 담백하고 복잡하지 않아서 다크소울 같은 게임보다는 그래도 더 쉽게 이해하고 몰입 할 수 있다. 한마디로 세키로는 뭐랄까... 정말 독특하고 좋은 경험이었지만, 다신 하고 싶지 않은 그런 느낌? 내가 하기엔 너무 어렵다.... 그래도 겜돌이라면 꼭 한번 쯤은 시도해 보라고 추천 하고픈 게임이다...!"
           }
         ]
       },
       {
         "block_id": "str_2",
-        "title": "플레이 흐름이 안정적으로 잡힌다는 반응",
+        "title": "난이도 / 진입장벽",
         "theme": "난이도 / 진입장벽",
-        "why_it_matters": "플레이 흐름이 자연스럽게 자리 잡는다는 반응이 많아, 익숙해질수록 재미가 선명해지는 쪽에 잘 맞습니다.",
-        "explanation": "플레이 흐름이 자연스럽게 자리 잡는다는 반응이 많아, 익숙해질수록 재미가 선명해지는 쪽에 잘 맞습니다.",
+        "why_it_matters": "플레이 흐름이 안정적으로 잡힌다는 반응이 많아 익숙해질수록 리듬을 타기 좋은 편입니다.",
+        "explanation": "플레이 흐름이 안정적으로 잡힌다는 반응이 많아 익숙해질수록 리듬을 타기 좋은 편입니다.",
         "aspect_keys": [
           "difficulty"
         ],
@@ -703,26 +820,58 @@
           "난이도 존ㄴㄴㄴㄴ나 어려움. 근데 익숙해지면 소울류랑 비교도 안되게 쉬움. 진짜임 길찾기<----이 새끼가 제일 악질임. 뛰었는데 갈고리에 / 표시 떠서 떨어지면 기분 더럽고 애매하게 거리 안닿는것도 짜증나고 애초에 갈고리 거는 포인트 자체가 가시성이 엄청 떨어짐. 근데 그거 감안해도 갓겜임. 그냥 갓겜임 이런 게임 다시 안나옴"
         ],
         "evidence_snippets": [
-          "프롬게임 입문할때 가장 좋은게임이라고 생각함, 액션, 연출, 재미, 스토리 뭐하나 빠지지 않음.",
-          "난이도 존ㄴㄴㄴㄴ나 어려움. 근데 익숙해지면 소울류랑 비교도 안되게 쉬움. 진짜임 길찾기<----이 새끼가 제일 악질임. 뛰었는데 갈고리에 / 표시 떠서 떨어지면 기분 더럽고 애매하게 거리 안닿는것도 짜증나고 애초에 갈고리 거는 포인트 자체가 가시성이 엄청 떨어짐. 근데 그거 감안해도 갓겜임. 그냥 갓겜임 이런 게임 다시 안나옴",
-          "이 게임으로 처음 소울류 입문했음 진짜 공략 보고 꼼수써서 간신히 보스잡고 힘들고 스트레스 개받으면서 겜함 소울게임 좋아하면 추천 해본적도없고 안좋아하면 비추 마지막 보스 못 깨고 겜 접엇다 후..."
+          "다른 소울이랑 다르게 달리기같은게 무한이라서 스킵이 너무 쉽고 보스전 패턴파악도 쉽고 초보들이 하기에 좋은 소울류 같음 도전과제 완료하기까지 다른 소울류 절반밖에 안걸림",
+          "이 게임으로 처음 소울류 입문했음 진짜 공략 보고 꼼수써서 간신히 보스잡고 힘들고 스트레스 개받으면서 겜함 소울게임 좋아하면 추천 해본적도없고 안좋아하면 비추 마지막 보스 못 깨고 겜 접엇다 후...",
+          "난이도 존ㄴㄴㄴㄴ나 어려움. 근데 익숙해지면 소울류랑 비교도 안되게 쉬움. 진짜임 길찾기<----이 새끼가 제일 악질임. 뛰었는데 갈고리에 / 표시 떠서 떨어지면 기분 더럽고 애매하게 거리 안닿는것도 짜증나고 애초에 갈고리 거는 포인트 자체가 가시성이 엄청 떨어짐. 근데 그거 감안해도 갓겜임. 그냥 갓겜임 이런 게임 다시 안나옴"
         ],
         "evidence_candidate_items": [
           {
-            "review_id": "compress-v3-positive-2-1-5932496892559916807",
+            "review_id": "compress-v3-positive-2-1-5667130059532955276",
             "text": "프롬게임 입문할때 가장 좋은게임이라고 생각함, 액션, 연출, 재미, 스토리 뭐하나 빠지지 않음."
           },
           {
-            "review_id": "compress-v3-positive-2-2-5863684202568938916",
+            "review_id": "compress-v3-positive-2-2-7992575827354475662",
             "text": "이 게임으로 처음 소울류 입문했음 진짜 공략 보고 꼼수써서 간신히 보스잡고 힘들고 스트레스 개받으면서 겜함 소울게임 좋아하면 추천 해본적도없고 안좋아하면 비추 마지막 보스 못 깨고 겜 접엇다 후..."
           },
           {
-            "review_id": "compress-v3-positive-2-3-5512837561936243959",
+            "review_id": "compress-v3-positive-2-3-4940628707303394307",
             "text": "다른 소울이랑 다르게 달리기같은게 무한이라서 스킵이 너무 쉽고 보스전 패턴파악도 쉽고 초보들이 하기에 좋은 소울류 같음 도전과제 완료하기까지 다른 소울류 절반밖에 안걸림"
           },
           {
-            "review_id": "compress-v3-positive-2-4-3115736862720626313",
+            "review_id": "compress-v3-positive-2-4-8539020474690340032",
             "text": "난이도 존ㄴㄴㄴㄴ나 어려움. 근데 익숙해지면 소울류랑 비교도 안되게 쉬움. 진짜임 길찾기<----이 새끼가 제일 악질임. 뛰었는데 갈고리에 / 표시 떠서 떨어지면 기분 더럽고 애매하게 거리 안닿는것도 짜증나고 애초에 갈고리 거는 포인트 자체가 가시성이 엄청 떨어짐. 근데 그거 감안해도 갓겜임. 그냥 갓겜임 이런 게임 다시 안나옴"
+          }
+        ]
+      },
+      {
+        "block_id": "str_3",
+        "title": "탐험과 맥락 해석의 재미가 있다는 반응",
+        "theme": "세계관과 연출 덕분에 플레이를 계속하게 되는 몰입 경험",
+        "why_it_matters": "세계의 단서와 맥락을 읽어가는 재미를 좋게 보는 반응이 많아 서서히 몰입하는 플레이와 잘 맞습니다.",
+        "explanation": "세계의 단서와 맥락을 읽어가는 재미를 좋게 보는 반응이 많아 서서히 몰입하는 플레이와 잘 맞습니다.",
+        "aspect_keys": [
+          "story"
+        ],
+        "stance": "positive",
+        "consensus_level": "high",
+        "mention_count": 569,
+        "evidence_quality_level": "strict",
+        "evidence_candidate_snippets": [
+          "프롬게임 입문할때 가장 좋은게임이라고 생각함, 액션, 연출, 재미, 스토리 뭐하나 빠지지 않음.",
+          "소울시리즈나 엘든링은 중세 유럽 + 기독교 세계를 통해 스토리를 풀어냈다면 세키로는 센고쿠 시대 + 불교 세계를 통해 스토리를 전달해 준 것이 인상적이었다. 기술적 액션성은 당연히 말 할 것도 없이 최고"
+        ],
+        "evidence_snippets": [
+          "프롬게임 입문할때 가장 좋은게임이라고 생각함, 액션, 연출, 재미, 스토리 뭐하나 빠지지 않음.",
+          "소울시리즈나 엘든링은 중세 유럽 + 기독교 세계를 통해 스토리를 풀어냈다면 세키로는 센고쿠 시대 + 불교 세계를 통해 스토리를 전달해 준 것이 인상적이었다. 기술적 액션성은 당연히 말 할 것도 없이 최고"
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-positive-3-3-5667130059532955276",
+            "text": "프롬게임 입문할때 가장 좋은게임이라고 생각함, 액션, 연출, 재미, 스토리 뭐하나 빠지지 않음."
+          },
+          {
+            "review_id": "compress-v3-positive-3-4-276970864114853686",
+            "text": "소울시리즈나 엘든링은 중세 유럽 + 기독교 세계를 통해 스토리를 풀어냈다면 세키로는 센고쿠 시대 + 불교 세계를 통해 스토리를 전달해 준 것이 인상적이었다. 기술적 액션성은 당연히 말 할 것도 없이 최고"
           }
         ]
       }
@@ -730,10 +879,10 @@
     "risks": [
       {
         "block_id": "risk_1",
-        "title": "가격 대비 만족이 갈린다는 반응",
+        "title": "가격 대비 만족도가 갈려 구매 타이밍을 따져봐야 하는 포인트",
         "theme": "가격 대비 만족도가 갈려 구매 타이밍을 따져봐야 하는 포인트",
-        "why_it_matters": "가격 부담을 지적하는 반응이 있어, 비용 대비 만족에 민감하면 판단이 갈릴 수 있습니다.",
-        "explanation": "가격 부담을 지적하는 반응이 있어, 비용 대비 만족에 민감하면 판단이 갈릴 수 있습니다.",
+        "why_it_matters": "가격 대비 만족을 지적하는 반응이 있어 비용 대비 만족을 꼼꼼히 보면 고민이 필요할 수 있습니다.",
+        "explanation": "가격 대비 만족을 지적하는 반응이 있어 비용 대비 만족을 꼼꼼히 보면 고민이 필요할 수 있습니다.",
         "aspect_keys": [
           "monetization"
         ],
@@ -751,11 +900,11 @@
         ],
         "evidence_candidate_items": [
           {
-            "review_id": "compress-v3-negative-1-6-1835545522142025912",
+            "review_id": "compress-v3-negative-1-6-5595166909133957271",
             "text": "인생 게임중 하나였는데 이후 프롬의 행보를 보니 지탄받아 마땅해 보입니다. 가격을 한 번 올리더니 그새 또 올려서 이젠 75,000원 까지 되었네요. 점점 미친놈이 돼가는군요."
           },
           {
-            "review_id": "compress-v3-negative-1-7-5750186463581842055",
+            "review_id": "compress-v3-negative-1-7-882131376571237579",
             "text": "스토리, 기억상실 설정이라지만 정말 아~무 설명이 없다. 여차저차 네임드까지 와도 아무 설명이 없고 다짜고짜 싸운다. 물론 기억상실이 후반에 떡밥을 푸니 의도적이라고 할 수 있겠지만 난이도가 뒤지게 어려우면 스토리 뽕이라도 줘서 동기를 줘야할 것 아닌가. 혹자는 이걸 인생에 빗대어 해석하던데, 한치 앞도 모르고 힘든 인생이라도 열심히 살다보면 의미와 결실을 맺을 수 있다나 뭐라나. 정말 인생에 준할 난이도라면 나는 현생에 그 노력을 쓰겠다. 적당히 해야지 현생보다 더 짜증나게 만들면 어쩌자는건가. 조작, 2명 이상 상대할 때 포커싱 개지랄이 난다. 공격 딜레이를 잘 재서 공격해야 하는데 그냥 존나 부자연스럽고 납득이 안된다. 60 프레임 똥쓰레기라 더 안좋게 느껴진다. 물리엔진이랑 묶어놨는지 모드로 프레임 풀면 오히려 더 이상해지는데 그냥 개발자랑 콘솔 경영진 뒤통수 존나 치고 싶다. 콘솔따라 이 게임 가격도 개창렬이다. 콘솔은 게임 산업의 적폐다 무조건 불매다. 연출, 그냥 60프레임 똥쓰레기라 다 어색해보인다. 특히 피격, 타격 모션과 효과는 모바일 게임이 생각났다. 그리고 어드벤쳐 게임이라던데 그냥 어이가 없었다. 단순히 길을 숨겨놓기만 한다고 어드벤쳐는 아니라고 생각한다. 아우터 와일즈는 와 개발자 천재다, 기발하다, 왜 이걸 몰랐지 하며 깨달음을 주는데 이 븅신게임은 아 저기로 가라는거야? 진짜 마조히스트 새끼들 존나 쪼잔하네 이런 느낌이다. 전혀 참신하지도 않고 그 과정에서 깨닫는 것도 없고 그냥 순수한 고통의 일환이다. 악마새끼들. 결론, 무슨 수양하는 것도 아니고 뇌 비우고 스트레스 받는 븅신게임이다. 스님한테 시켜야 할 게임."
           }
         ]
@@ -763,59 +912,64 @@
     ]
   },
   "disclaimer": "여러 유저 리뷰를 바탕으로 정리했어요. 플레이 경험은 사람마다 다를 수 있어요.",
-  "headline": "탐험과 자유도 체감이 좋아 지금 바로 시작해도 만족도가 높은 편입니다.",
+  "headline": "탐험과 전투의 긴장감이 살아 있는 명작, 지금 바로 도전해 보세요.",
   "buy_recommendation": "buy_now",
-  "buy_timing_summary": "최근 후기 흐름에서 체감 불편이 크게 늘지 않아 지금 시작해도 부담이 낮은 편입니다.",
+  "buy_timing_summary": "최근 후기에서 큰 불편함이 없고, 지금 시작해도 부담이 적습니다.",
   "good_for": [
-    "맵을 돌아다니며 발견하는 재미를 중요하게 보는 플레이어",
-    "세계관과 맥락을 스스로 읽어가는 재미를 좋아하는 플레이어",
-    "플레이 흐름이 점점 또렷해지는 재미를 좋아하는 플레이어"
+    "탐험과 발견을 즐기는 플레이어",
+    "스토리와 세계관에 몰입하는 유저",
+    "도전과 성취감을 추구하는 액션 게임 팬"
   ],
   "not_good_for": [
-    "비용 대비 만족을 꼼꼼하게 따지는 플레이어",
-    "조작과 인터페이스 적응 스트레스를 크게 받는 플레이어"
+    "높은 난이도에 부담을 느끼는 플레이어",
+    "조작과 인터페이스 적응에 스트레스 받는 유저",
+    "가격 대비 콘텐츠를 꼼꼼히 따지는 분"
   ],
   "top_strengths": [
     {
-      "title": "발견이 이어지는 탐험 경험",
-      "summary": "이동하고 발견하는 과정 자체가 재미를 만들어 탐험 비중이 높은 플레이에 맞습니다."
+      "title": "보스 패턴을 익히며 돌파하는 성취감",
+      "summary": "실패를 거듭하며 패턴을 읽고 결국 돌파하는 과정이 강한 긴장감과 성취감으로 이어집니다."
     },
     {
-      "title": "탐험과 세계 해석이 이어지는 몰입 경험",
-      "summary": "탐험과 단서 해석이 맞물려 스스로 세계를 읽어가는 재미가 분명합니다."
+      "title": "유연한 전투와 은신 플레이",
+      "summary": "닌자 의수와 갈고리를 활용한 빠른 이동과 암습으로 자신만의 전투 방식을 선택할 수 있어 몰입감이 높습니다."
     },
     {
-      "title": "플레이 흐름이 점점 또렷해지는 재미",
-      "summary": "기본 흐름이 안정적으로 자리 잡아 익숙해질수록 재미 포인트가 더 분명해집니다."
+      "title": "탄탄한 스토리와 몰입감이",
+      "summary": "일본 센고쿠 시대를 배경으로 한 매력적인 세계관과 몰입도 높은 연출이 게임 경험을 풍부하게 만듭니다."
     }
   ],
   "top_risks": [
     {
-      "title": "가격 대비 만족이 갈릴 수 있는 부분",
-      "summary": "가격 부담이 크면 기대만큼 만족하지 못했다는 반응이 나올 수 있습니다."
+      "title": "높은 난이도와 반복적인 도전 피로",
+      "summary": "보스전의 빠른 공격과 복잡한 패턴으로 인해 많은 집중력과 반복 플레이가 필요해 쉽게 지치고 포기할 수 있습니다."
     },
     {
-      "title": "조작감 문제",
-      "summary": "조작과 인터페이스 적응에 시간이 걸리면 재미보다 답답함이 먼저 올 수 있습니다."
+      "title": "불편한 조작과 카메라 문제",
+      "summary": "락온 시스템의 불안정과 카메라 시점 변화로 인해 전투 중 의도치 않은 상황이 발생해 답답함과 스트레스를 유발합니다."
+    },
+    {
+      "title": "길 찾기와 탐험의 불친절함",
+      "summary": "복잡하고 직관적이지 않은 맵 구조와 숨겨진 경로로 인해 길을 찾는 데 어려움을 겪으며 플레이 흐름이 끊길 수 있습니다."
     }
   ],
   "recent_state": {
-    "status": "improving",
-    "summary": "불편이 줄었다는 후기가 늘어 전반적인 분위기가 나아지는 편입니다."
+    "status": "declining",
+    "summary": "최근 이용자들은 전투의 손맛과 서사 몰입을 인정하면서도 난이도와 조작 문제, 가격 부담에 대한 불만이 늘어나고 있습니다."
   },
   "evidence_reviews": [
     {
       "block_id": "str_1",
-      "title": "탐험하며 발견하는 재미가 크다는 반응",
+      "title": "탐험과 발견의 재미가 좋다는 반응",
       "theme": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험",
-      "why_it_matters": "탐험과 발견 그 자체를 좋게 보는 반응이 많아, 돌아다니며 찾는 플레이를 좋아하면 잘 맞습니다.",
-      "explanation": "탐험과 발견 그 자체를 좋게 보는 반응이 많아, 돌아다니며 찾는 플레이를 좋아하면 잘 맞습니다.",
+      "why_it_matters": "맵을 돌아다니며 발견하는 재미를 좋게 보는 반응이 많아 탐험 중심 플레이에 잘 맞습니다.",
+      "explanation": "맵을 돌아다니며 발견하는 재미를 좋게 보는 반응이 많아 탐험 중심 플레이에 잘 맞습니다.",
       "aspect_keys": [
         "gameplay"
       ],
       "stance": "positive",
       "consensus_level": "high",
-      "mention_count": 2043,
+      "mention_count": 2045,
       "evidence_quality_level": "strict",
       "evidence_candidate_snippets": [
         "전투가 이렇게 재밌는 게임은 처음임. 첫 소울류 게임인데 1대1이면 몇십 번 죽어도 캐릭터 성장 없이 결국은 깰 수 있다는 것을 느끼게 해준 적절한 보스 선생님들 감사합니다",
@@ -830,29 +984,29 @@
       ],
       "evidence_candidate_items": [
         {
-          "review_id": "compress-v3-positive-1-1-7288892849472719900",
+          "review_id": "compress-v3-positive-1-1-4001626192205849226",
           "text": "전투가 이렇게 재밌는 게임은 처음임. 첫 소울류 게임인데 1대1이면 몇십 번 죽어도 캐릭터 성장 없이 결국은 깰 수 있다는 것을 느끼게 해준 적절한 보스 선생님들 감사합니다"
         },
         {
-          "review_id": "compress-v3-positive-1-2-2047599733895059893",
+          "review_id": "compress-v3-positive-1-2-2838792485129479872",
           "text": "액션 게임하면 절대로 빠지면 안된다고 생각하는 게임"
         },
         {
-          "review_id": "compress-v3-positive-1-3-3353343973177015900",
+          "review_id": "compress-v3-positive-1-3-5678253620395188823",
           "text": "전투 재미있긴한데 뭔가 리듬게임 하는기분 (장비도 없어서 더욱) 나머진 없어요"
         },
         {
-          "review_id": "compress-v3-positive-1-4-4021244546985045113",
+          "review_id": "compress-v3-positive-1-4-6835129507345562250",
           "text": "여타 다른 프롬 게임들보다 분량이 적은 대신, 전투 시스템과 캐릭터 한명 한명의 디테일에 집중한 게임이라고 표현하고 싶다. 스토리도 깔끔 담백하고 복잡하지 않아서 다크소울 같은 게임보다는 그래도 더 쉽게 이해하고 몰입 할 수 있다. 한마디로 세키로는 뭐랄까... 정말 독특하고 좋은 경험이었지만, 다신 하고 싶지 않은 그런 느낌? 내가 하기엔 너무 어렵다.... 그래도 겜돌이라면 꼭 한번 쯤은 시도해 보라고 추천 하고픈 게임이다...!"
         }
       ]
     },
     {
       "block_id": "str_2",
-      "title": "플레이 흐름이 안정적으로 잡힌다는 반응",
+      "title": "난이도 / 진입장벽",
       "theme": "난이도 / 진입장벽",
-      "why_it_matters": "플레이 흐름이 자연스럽게 자리 잡는다는 반응이 많아, 익숙해질수록 재미가 선명해지는 쪽에 잘 맞습니다.",
-      "explanation": "플레이 흐름이 자연스럽게 자리 잡는다는 반응이 많아, 익숙해질수록 재미가 선명해지는 쪽에 잘 맞습니다.",
+      "why_it_matters": "플레이 흐름이 안정적으로 잡힌다는 반응이 많아 익숙해질수록 리듬을 타기 좋은 편입니다.",
+      "explanation": "플레이 흐름이 안정적으로 잡힌다는 반응이 많아 익숙해질수록 리듬을 타기 좋은 편입니다.",
       "aspect_keys": [
         "difficulty"
       ],
@@ -867,35 +1021,67 @@
         "난이도 존ㄴㄴㄴㄴ나 어려움. 근데 익숙해지면 소울류랑 비교도 안되게 쉬움. 진짜임 길찾기<----이 새끼가 제일 악질임. 뛰었는데 갈고리에 / 표시 떠서 떨어지면 기분 더럽고 애매하게 거리 안닿는것도 짜증나고 애초에 갈고리 거는 포인트 자체가 가시성이 엄청 떨어짐. 근데 그거 감안해도 갓겜임. 그냥 갓겜임 이런 게임 다시 안나옴"
       ],
       "evidence_snippets": [
-        "프롬게임 입문할때 가장 좋은게임이라고 생각함, 액션, 연출, 재미, 스토리 뭐하나 빠지지 않음.",
-        "난이도 존ㄴㄴㄴㄴ나 어려움. 근데 익숙해지면 소울류랑 비교도 안되게 쉬움. 진짜임 길찾기<----이 새끼가 제일 악질임. 뛰었는데 갈고리에 / 표시 떠서 떨어지면 기분 더럽고 애매하게 거리 안닿는것도 짜증나고 애초에 갈고리 거는 포인트 자체가 가시성이 엄청 떨어짐. 근데 그거 감안해도 갓겜임. 그냥 갓겜임 이런 게임 다시 안나옴",
-        "이 게임으로 처음 소울류 입문했음 진짜 공략 보고 꼼수써서 간신히 보스잡고 힘들고 스트레스 개받으면서 겜함 소울게임 좋아하면 추천 해본적도없고 안좋아하면 비추 마지막 보스 못 깨고 겜 접엇다 후..."
+        "다른 소울이랑 다르게 달리기같은게 무한이라서 스킵이 너무 쉽고 보스전 패턴파악도 쉽고 초보들이 하기에 좋은 소울류 같음 도전과제 완료하기까지 다른 소울류 절반밖에 안걸림",
+        "이 게임으로 처음 소울류 입문했음 진짜 공략 보고 꼼수써서 간신히 보스잡고 힘들고 스트레스 개받으면서 겜함 소울게임 좋아하면 추천 해본적도없고 안좋아하면 비추 마지막 보스 못 깨고 겜 접엇다 후...",
+        "난이도 존ㄴㄴㄴㄴ나 어려움. 근데 익숙해지면 소울류랑 비교도 안되게 쉬움. 진짜임 길찾기<----이 새끼가 제일 악질임. 뛰었는데 갈고리에 / 표시 떠서 떨어지면 기분 더럽고 애매하게 거리 안닿는것도 짜증나고 애초에 갈고리 거는 포인트 자체가 가시성이 엄청 떨어짐. 근데 그거 감안해도 갓겜임. 그냥 갓겜임 이런 게임 다시 안나옴"
       ],
       "evidence_candidate_items": [
         {
-          "review_id": "compress-v3-positive-2-1-5932496892559916807",
+          "review_id": "compress-v3-positive-2-1-5667130059532955276",
           "text": "프롬게임 입문할때 가장 좋은게임이라고 생각함, 액션, 연출, 재미, 스토리 뭐하나 빠지지 않음."
         },
         {
-          "review_id": "compress-v3-positive-2-2-5863684202568938916",
+          "review_id": "compress-v3-positive-2-2-7992575827354475662",
           "text": "이 게임으로 처음 소울류 입문했음 진짜 공략 보고 꼼수써서 간신히 보스잡고 힘들고 스트레스 개받으면서 겜함 소울게임 좋아하면 추천 해본적도없고 안좋아하면 비추 마지막 보스 못 깨고 겜 접엇다 후..."
         },
         {
-          "review_id": "compress-v3-positive-2-3-5512837561936243959",
+          "review_id": "compress-v3-positive-2-3-4940628707303394307",
           "text": "다른 소울이랑 다르게 달리기같은게 무한이라서 스킵이 너무 쉽고 보스전 패턴파악도 쉽고 초보들이 하기에 좋은 소울류 같음 도전과제 완료하기까지 다른 소울류 절반밖에 안걸림"
         },
         {
-          "review_id": "compress-v3-positive-2-4-3115736862720626313",
+          "review_id": "compress-v3-positive-2-4-8539020474690340032",
           "text": "난이도 존ㄴㄴㄴㄴ나 어려움. 근데 익숙해지면 소울류랑 비교도 안되게 쉬움. 진짜임 길찾기<----이 새끼가 제일 악질임. 뛰었는데 갈고리에 / 표시 떠서 떨어지면 기분 더럽고 애매하게 거리 안닿는것도 짜증나고 애초에 갈고리 거는 포인트 자체가 가시성이 엄청 떨어짐. 근데 그거 감안해도 갓겜임. 그냥 갓겜임 이런 게임 다시 안나옴"
         }
       ]
     },
     {
+      "block_id": "str_3",
+      "title": "탐험과 맥락 해석의 재미가 있다는 반응",
+      "theme": "세계관과 연출 덕분에 플레이를 계속하게 되는 몰입 경험",
+      "why_it_matters": "세계의 단서와 맥락을 읽어가는 재미를 좋게 보는 반응이 많아 서서히 몰입하는 플레이와 잘 맞습니다.",
+      "explanation": "세계의 단서와 맥락을 읽어가는 재미를 좋게 보는 반응이 많아 서서히 몰입하는 플레이와 잘 맞습니다.",
+      "aspect_keys": [
+        "story"
+      ],
+      "stance": "positive",
+      "consensus_level": "high",
+      "mention_count": 569,
+      "evidence_quality_level": "strict",
+      "evidence_candidate_snippets": [
+        "프롬게임 입문할때 가장 좋은게임이라고 생각함, 액션, 연출, 재미, 스토리 뭐하나 빠지지 않음.",
+        "소울시리즈나 엘든링은 중세 유럽 + 기독교 세계를 통해 스토리를 풀어냈다면 세키로는 센고쿠 시대 + 불교 세계를 통해 스토리를 전달해 준 것이 인상적이었다. 기술적 액션성은 당연히 말 할 것도 없이 최고"
+      ],
+      "evidence_snippets": [
+        "프롬게임 입문할때 가장 좋은게임이라고 생각함, 액션, 연출, 재미, 스토리 뭐하나 빠지지 않음.",
+        "소울시리즈나 엘든링은 중세 유럽 + 기독교 세계를 통해 스토리를 풀어냈다면 세키로는 센고쿠 시대 + 불교 세계를 통해 스토리를 전달해 준 것이 인상적이었다. 기술적 액션성은 당연히 말 할 것도 없이 최고"
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-positive-3-3-5667130059532955276",
+          "text": "프롬게임 입문할때 가장 좋은게임이라고 생각함, 액션, 연출, 재미, 스토리 뭐하나 빠지지 않음."
+        },
+        {
+          "review_id": "compress-v3-positive-3-4-276970864114853686",
+          "text": "소울시리즈나 엘든링은 중세 유럽 + 기독교 세계를 통해 스토리를 풀어냈다면 세키로는 센고쿠 시대 + 불교 세계를 통해 스토리를 전달해 준 것이 인상적이었다. 기술적 액션성은 당연히 말 할 것도 없이 최고"
+        }
+      ]
+    },
+    {
       "block_id": "risk_1",
-      "title": "가격 대비 만족이 갈린다는 반응",
+      "title": "가격 대비 만족도가 갈려 구매 타이밍을 따져봐야 하는 포인트",
       "theme": "가격 대비 만족도가 갈려 구매 타이밍을 따져봐야 하는 포인트",
-      "why_it_matters": "가격 부담을 지적하는 반응이 있어, 비용 대비 만족에 민감하면 판단이 갈릴 수 있습니다.",
-      "explanation": "가격 부담을 지적하는 반응이 있어, 비용 대비 만족에 민감하면 판단이 갈릴 수 있습니다.",
+      "why_it_matters": "가격 대비 만족을 지적하는 반응이 있어 비용 대비 만족을 꼼꼼히 보면 고민이 필요할 수 있습니다.",
+      "explanation": "가격 대비 만족을 지적하는 반응이 있어 비용 대비 만족을 꼼꼼히 보면 고민이 필요할 수 있습니다.",
       "aspect_keys": [
         "monetization"
       ],
@@ -913,11 +1099,11 @@
       ],
       "evidence_candidate_items": [
         {
-          "review_id": "compress-v3-negative-1-6-1835545522142025912",
+          "review_id": "compress-v3-negative-1-6-5595166909133957271",
           "text": "인생 게임중 하나였는데 이후 프롬의 행보를 보니 지탄받아 마땅해 보입니다. 가격을 한 번 올리더니 그새 또 올려서 이젠 75,000원 까지 되었네요. 점점 미친놈이 돼가는군요."
         },
         {
-          "review_id": "compress-v3-negative-1-7-5750186463581842055",
+          "review_id": "compress-v3-negative-1-7-882131376571237579",
           "text": "스토리, 기억상실 설정이라지만 정말 아~무 설명이 없다. 여차저차 네임드까지 와도 아무 설명이 없고 다짜고짜 싸운다. 물론 기억상실이 후반에 떡밥을 푸니 의도적이라고 할 수 있겠지만 난이도가 뒤지게 어려우면 스토리 뽕이라도 줘서 동기를 줘야할 것 아닌가. 혹자는 이걸 인생에 빗대어 해석하던데, 한치 앞도 모르고 힘든 인생이라도 열심히 살다보면 의미와 결실을 맺을 수 있다나 뭐라나. 정말 인생에 준할 난이도라면 나는 현생에 그 노력을 쓰겠다. 적당히 해야지 현생보다 더 짜증나게 만들면 어쩌자는건가. 조작, 2명 이상 상대할 때 포커싱 개지랄이 난다. 공격 딜레이를 잘 재서 공격해야 하는데 그냥 존나 부자연스럽고 납득이 안된다. 60 프레임 똥쓰레기라 더 안좋게 느껴진다. 물리엔진이랑 묶어놨는지 모드로 프레임 풀면 오히려 더 이상해지는데 그냥 개발자랑 콘솔 경영진 뒤통수 존나 치고 싶다. 콘솔따라 이 게임 가격도 개창렬이다. 콘솔은 게임 산업의 적폐다 무조건 불매다. 연출, 그냥 60프레임 똥쓰레기라 다 어색해보인다. 특히 피격, 타격 모션과 효과는 모바일 게임이 생각났다. 그리고 어드벤쳐 게임이라던데 그냥 어이가 없었다. 단순히 길을 숨겨놓기만 한다고 어드벤쳐는 아니라고 생각한다. 아우터 와일즈는 와 개발자 천재다, 기발하다, 왜 이걸 몰랐지 하며 깨달음을 주는데 이 븅신게임은 아 저기로 가라는거야? 진짜 마조히스트 새끼들 존나 쪼잔하네 이런 느낌이다. 전혀 참신하지도 않고 그 과정에서 깨닫는 것도 없고 그냥 순수한 고통의 일환이다. 악마새끼들. 결론, 무슨 수양하는 것도 아니고 뇌 비우고 스트레스 받는 븅신게임이다. 스님한테 시켜야 할 게임."
         }
       ]

@@ -1,0 +1,1083 @@
+{
+  "report_version": "v4-planned-sections",
+  "appid": 1086940,
+  "pipeline_run_id": "1086940-20260430T070625Z",
+  "generated_at": "2026-04-30T07:09:25.541337+00:00",
+  "source_review_count": 16128,
+  "included_review_count": 10417,
+  "min_report_review_count": 100,
+  "report_state": "ready",
+  "review_trend": {
+    "granularity": "month",
+    "metric": "positive_ratio",
+    "points": [
+      {
+        "month": "2020-10",
+        "positive_count": 70,
+        "review_count": 71,
+        "positive_ratio": 0.9859
+      },
+      {
+        "month": "2020-11",
+        "positive_count": 19,
+        "review_count": 19,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2020-12",
+        "positive_count": 2,
+        "review_count": 4,
+        "positive_ratio": 0.5
+      },
+      {
+        "month": "2021-01",
+        "positive_count": 5,
+        "review_count": 5,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2021-02",
+        "positive_count": 9,
+        "review_count": 9,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2021-03",
+        "positive_count": 6,
+        "review_count": 6,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2021-04",
+        "positive_count": 3,
+        "review_count": 3,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2021-05",
+        "positive_count": 2,
+        "review_count": 2,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2021-06",
+        "positive_count": 2,
+        "review_count": 2,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2021-07",
+        "positive_count": 3,
+        "review_count": 3,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2021-08",
+        "positive_count": 4,
+        "review_count": 5,
+        "positive_ratio": 0.8
+      },
+      {
+        "month": "2021-09",
+        "positive_count": 1,
+        "review_count": 1,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2021-10",
+        "positive_count": 8,
+        "review_count": 8,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2021-11",
+        "positive_count": 3,
+        "review_count": 3,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2021-12",
+        "positive_count": 5,
+        "review_count": 5,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2022-01",
+        "positive_count": 1,
+        "review_count": 1,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2022-02",
+        "positive_count": 1,
+        "review_count": 1,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2022-03",
+        "positive_count": 3,
+        "review_count": 3,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2022-04",
+        "positive_count": 6,
+        "review_count": 6,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2022-05",
+        "positive_count": 2,
+        "review_count": 4,
+        "positive_ratio": 0.5
+      },
+      {
+        "month": "2022-06",
+        "positive_count": 1,
+        "review_count": 1,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2022-07",
+        "positive_count": 3,
+        "review_count": 5,
+        "positive_ratio": 0.6
+      },
+      {
+        "month": "2022-08",
+        "positive_count": 2,
+        "review_count": 3,
+        "positive_ratio": 0.6667
+      },
+      {
+        "month": "2022-09",
+        "positive_count": 1,
+        "review_count": 2,
+        "positive_ratio": 0.5
+      },
+      {
+        "month": "2022-10",
+        "positive_count": 3,
+        "review_count": 3,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2022-12",
+        "positive_count": 8,
+        "review_count": 8,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2023-01",
+        "positive_count": 4,
+        "review_count": 5,
+        "positive_ratio": 0.8
+      },
+      {
+        "month": "2023-02",
+        "positive_count": 6,
+        "review_count": 6,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2023-03",
+        "positive_count": 4,
+        "review_count": 4,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2023-04",
+        "positive_count": 7,
+        "review_count": 8,
+        "positive_ratio": 0.875
+      },
+      {
+        "month": "2023-05",
+        "positive_count": 6,
+        "review_count": 7,
+        "positive_ratio": 0.8571
+      },
+      {
+        "month": "2023-06",
+        "positive_count": 5,
+        "review_count": 5,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2023-07",
+        "positive_count": 37,
+        "review_count": 37,
+        "positive_ratio": 1.0
+      },
+      {
+        "month": "2023-08",
+        "positive_count": 2509,
+        "review_count": 2556,
+        "positive_ratio": 0.9816
+      },
+      {
+        "month": "2023-09",
+        "positive_count": 1404,
+        "review_count": 1430,
+        "positive_ratio": 0.9818
+      },
+      {
+        "month": "2023-10",
+        "positive_count": 663,
+        "review_count": 674,
+        "positive_ratio": 0.9837
+      },
+      {
+        "month": "2023-11",
+        "positive_count": 811,
+        "review_count": 817,
+        "positive_ratio": 0.9927
+      },
+      {
+        "month": "2023-12",
+        "positive_count": 1563,
+        "review_count": 1602,
+        "positive_ratio": 0.9757
+      },
+      {
+        "month": "2024-01",
+        "positive_count": 1275,
+        "review_count": 1309,
+        "positive_ratio": 0.974
+      },
+      {
+        "month": "2024-02",
+        "positive_count": 646,
+        "review_count": 664,
+        "positive_ratio": 0.9729
+      },
+      {
+        "month": "2024-03",
+        "positive_count": 520,
+        "review_count": 545,
+        "positive_ratio": 0.9541
+      },
+      {
+        "month": "2024-04",
+        "positive_count": 330,
+        "review_count": 339,
+        "positive_ratio": 0.9735
+      },
+      {
+        "month": "2024-05",
+        "positive_count": 306,
+        "review_count": 317,
+        "positive_ratio": 0.9653
+      },
+      {
+        "month": "2024-06",
+        "positive_count": 259,
+        "review_count": 265,
+        "positive_ratio": 0.9774
+      },
+      {
+        "month": "2024-07",
+        "positive_count": 375,
+        "review_count": 389,
+        "positive_ratio": 0.964
+      },
+      {
+        "month": "2024-08",
+        "positive_count": 238,
+        "review_count": 249,
+        "positive_ratio": 0.9558
+      },
+      {
+        "month": "2024-09",
+        "positive_count": 301,
+        "review_count": 311,
+        "positive_ratio": 0.9678
+      },
+      {
+        "month": "2024-10",
+        "positive_count": 219,
+        "review_count": 227,
+        "positive_ratio": 0.9648
+      },
+      {
+        "month": "2024-11",
+        "positive_count": 395,
+        "review_count": 400,
+        "positive_ratio": 0.9875
+      },
+      {
+        "month": "2024-12",
+        "positive_count": 402,
+        "review_count": 410,
+        "positive_ratio": 0.9805
+      },
+      {
+        "month": "2025-01",
+        "positive_count": 286,
+        "review_count": 299,
+        "positive_ratio": 0.9565
+      },
+      {
+        "month": "2025-02",
+        "positive_count": 231,
+        "review_count": 239,
+        "positive_ratio": 0.9665
+      },
+      {
+        "month": "2025-03",
+        "positive_count": 208,
+        "review_count": 215,
+        "positive_ratio": 0.9674
+      },
+      {
+        "month": "2025-04",
+        "positive_count": 256,
+        "review_count": 266,
+        "positive_ratio": 0.9624
+      },
+      {
+        "month": "2025-05",
+        "positive_count": 211,
+        "review_count": 220,
+        "positive_ratio": 0.9591
+      },
+      {
+        "month": "2025-06",
+        "positive_count": 184,
+        "review_count": 197,
+        "positive_ratio": 0.934
+      },
+      {
+        "month": "2025-07",
+        "positive_count": 182,
+        "review_count": 188,
+        "positive_ratio": 0.9681
+      },
+      {
+        "month": "2025-08",
+        "positive_count": 204,
+        "review_count": 209,
+        "positive_ratio": 0.9761
+      },
+      {
+        "month": "2025-09",
+        "positive_count": 206,
+        "review_count": 217,
+        "positive_ratio": 0.9493
+      },
+      {
+        "month": "2025-10",
+        "positive_count": 211,
+        "review_count": 223,
+        "positive_ratio": 0.9462
+      },
+      {
+        "month": "2025-11",
+        "positive_count": 199,
+        "review_count": 202,
+        "positive_ratio": 0.9851
+      },
+      {
+        "month": "2025-12",
+        "positive_count": 143,
+        "review_count": 153,
+        "positive_ratio": 0.9346
+      },
+      {
+        "month": "2026-01",
+        "positive_count": 222,
+        "review_count": 247,
+        "positive_ratio": 0.8988
+      },
+      {
+        "month": "2026-02",
+        "positive_count": 180,
+        "review_count": 185,
+        "positive_ratio": 0.973
+      },
+      {
+        "month": "2026-03",
+        "positive_count": 172,
+        "review_count": 183,
+        "positive_ratio": 0.9399
+      },
+      {
+        "month": "2026-04",
+        "positive_count": 120,
+        "review_count": 126,
+        "positive_ratio": 0.9524
+      }
+    ]
+  },
+  "game": {
+    "name": "Baldur's Gate 3",
+    "genres": [
+      "어드벤처",
+      "RPG",
+      "전략"
+    ],
+    "price_model": "paid",
+    "is_free": false,
+    "release_stage": "released",
+    "release_date_text": "2023년 8월 3일",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/48a2fcbda8565bb45025e98fd8ebde8a7203f6a0/header.jpg?t=1777363040",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/3dd81008e9c385caf68152450c22353f6a8abec9/capsule_231x87.jpg?t=1777363040",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/3dd81008e9c385caf68152450c22353f6a8abec9/capsule_184x69.jpg?t=1777363040",
+    "screenshots": [
+      {
+        "id": "0",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_c73bc54415178c07fef85f54ee26621728c77504.600x338.jpg?t=1777363040",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_c73bc54415178c07fef85f54ee26621728c77504.1920x1080.jpg?t=1777363040"
+      },
+      {
+        "id": "1",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_73d93bea842b93914d966622104dcb8c0f42972b.600x338.jpg?t=1777363040",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_73d93bea842b93914d966622104dcb8c0f42972b.1920x1080.jpg?t=1777363040"
+      },
+      {
+        "id": "2",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_cf936d31061b58e98e0c646aee00e6030c410cda.600x338.jpg?t=1777363040",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_cf936d31061b58e98e0c646aee00e6030c410cda.1920x1080.jpg?t=1777363040"
+      },
+      {
+        "id": "3",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_b6a6ee6e046426d08ceea7a4506a1b5f44181543.600x338.jpg?t=1777363040",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_b6a6ee6e046426d08ceea7a4506a1b5f44181543.1920x1080.jpg?t=1777363040"
+      },
+      {
+        "id": "4",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_6b8faba0f6831a406ce015648958da9612d14dbb.600x338.jpg?t=1777363040",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_6b8faba0f6831a406ce015648958da9612d14dbb.1920x1080.jpg?t=1777363040"
+      },
+      {
+        "id": "5",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_8fc5eba770b4a1639b31666908bdd2bbc1aa2ae4.600x338.jpg?t=1777363040",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_8fc5eba770b4a1639b31666908bdd2bbc1aa2ae4.1920x1080.jpg?t=1777363040"
+      },
+      {
+        "id": "6",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_31c13d137706fb4d9a4210513274a3ed9c3c7c96.600x338.jpg?t=1777363040",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_31c13d137706fb4d9a4210513274a3ed9c3c7c96.1920x1080.jpg?t=1777363040"
+      },
+      {
+        "id": "7",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_0efa1a469a37beeb4fd0cb8e16dc99bd36357dc4.600x338.jpg?t=1777363040",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_0efa1a469a37beeb4fd0cb8e16dc99bd36357dc4.1920x1080.jpg?t=1777363040"
+      },
+      {
+        "id": "8",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_387896248b42a15239a9256844b3e4bff72fbc2a.600x338.jpg?t=1777363040",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_387896248b42a15239a9256844b3e4bff72fbc2a.1920x1080.jpg?t=1777363040"
+      },
+      {
+        "id": "9",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_44d30da9c3e4622b46f2978e89bda0515856eaf4.600x338.jpg?t=1777363040",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_44d30da9c3e4622b46f2978e89bda0515856eaf4.1920x1080.jpg?t=1777363040"
+      },
+      {
+        "id": "10",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_f8c7fcdeccbfe77e3fad33330a464fed30f781f0.600x338.jpg?t=1777363040",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_f8c7fcdeccbfe77e3fad33330a464fed30f781f0.1920x1080.jpg?t=1777363040"
+      },
+      {
+        "id": "11",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_332cd26db210d4b10df744485ecf0a9b3f2e9024.600x338.jpg?t=1777363040",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_332cd26db210d4b10df744485ecf0a9b3f2e9024.1920x1080.jpg?t=1777363040"
+      },
+      {
+        "id": "12",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_b9f6f2d2ac2b7b2fe63d776e8e13c24b481a7b19.600x338.jpg?t=1777363040",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_b9f6f2d2ac2b7b2fe63d776e8e13c24b481a7b19.1920x1080.jpg?t=1777363040"
+      },
+      {
+        "id": "13",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_2c576a8e563e3338826268f172c9032c84366d16.600x338.jpg?t=1777363040",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_2c576a8e563e3338826268f172c9032c84366d16.1920x1080.jpg?t=1777363040"
+      },
+      {
+        "id": "14",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_d0b50351676da10c5403ec904cf7582636e65346.600x338.jpg?t=1777363040",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_d0b50351676da10c5403ec904cf7582636e65346.1920x1080.jpg?t=1777363040"
+      },
+      {
+        "id": "15",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_74d11c230ebb44ff9a69b4533a7333551d5bfc6c.600x338.jpg?t=1777363040",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_74d11c230ebb44ff9a69b4533a7333551d5bfc6c.1920x1080.jpg?t=1777363040"
+      },
+      {
+        "id": "16",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_1c3ff278ac430948dc31efeb1f7d2bb0466a1493.600x338.jpg?t=1777363040",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_1c3ff278ac430948dc31efeb1f7d2bb0466a1493.1920x1080.jpg?t=1777363040"
+      },
+      {
+        "id": "17",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_49168eeefdfb6e6030a5aed3fd7c1a83da870a9f.600x338.jpg?t=1777363040",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_49168eeefdfb6e6030a5aed3fd7c1a83da870a9f.1920x1080.jpg?t=1777363040"
+      },
+      {
+        "id": "18",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_3cc4e8cfcfb8a91d19d96f631f076d252ba2c0c4.600x338.jpg?t=1777363040",
+        "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_3cc4e8cfcfb8a91d19d96f631f076d252ba2c0c4.1920x1080.jpg?t=1777363040"
+      }
+    ],
+    "movies": [
+      {
+        "id": "256987424",
+        "name": "Baldur's Gate 3 - Accolades Trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256987424/movie.293x165.jpg?t=1702007645",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1086940/637951/59ca25b847b0e471638d1e2474acf71b068d57f0/1750615003/hls_264_master.m3u8?t=1702007645",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1086940/637951/59ca25b847b0e471638d1e2474acf71b068d57f0/1750615003/dash_h264.mpd?t=1702007645",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1086940/637951/59ca25b847b0e471638d1e2474acf71b068d57f0/1750615003/dash_av1.mpd?t=1702007645",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1086940/637951/59ca25b847b0e471638d1e2474acf71b068d57f0/1750615003/hls_264_master.m3u8?t=1702007645"
+      },
+      {
+        "id": "256961600",
+        "name": "Baldur's Gate 3 - Launch Trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256961600/movie.293x165.jpg?t=1695393579",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1086940/593544/008e33be9c000c5fdb38e630f13b1d5917d4561d/1750615002/hls_264_master.m3u8?t=1695393579",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1086940/593544/008e33be9c000c5fdb38e630f13b1d5917d4561d/1750615002/dash_h264.mpd?t=1695393579",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1086940/593544/008e33be9c000c5fdb38e630f13b1d5917d4561d/1750615002/dash_av1.mpd?t=1695393579",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1086940/593544/008e33be9c000c5fdb38e630f13b1d5917d4561d/1750615002/hls_264_master.m3u8?t=1695393579"
+      },
+      {
+        "id": "256957679",
+        "name": "Baldur's Gate 3 - Release Teaser",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256957679/movie.293x165.jpg?t=1692294107",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1086940/586640/b3d5692dc27af2874f96d23ff281523f26bd5476/1750614981/hls_264_master.m3u8?t=1692294107",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1086940/586640/b3d5692dc27af2874f96d23ff281523f26bd5476/1750614981/dash_h264.mpd?t=1692294107",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1086940/586640/b3d5692dc27af2874f96d23ff281523f26bd5476/1750614981/dash_av1.mpd?t=1692294107",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1086940/586640/b3d5692dc27af2874f96d23ff281523f26bd5476/1750614981/hls_264_master.m3u8?t=1692294107"
+      },
+      {
+        "id": "256952190",
+        "name": "Baldur's Gate 3 - First Look at the City",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256952190/movie.293x165.jpg?t=1692294111",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1086940/577019/052954500a03f7bfb69c9abf7c2969e00833b569/1750614972/hls_264_master.m3u8?t=1692294111",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1086940/577019/052954500a03f7bfb69c9abf7c2969e00833b569/1750614972/dash_h264.mpd?t=1692294111",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1086940/577019/052954500a03f7bfb69c9abf7c2969e00833b569/1750614972/dash_av1.mpd?t=1692294111",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1086940/577019/052954500a03f7bfb69c9abf7c2969e00833b569/1750614972/hls_264_master.m3u8?t=1692294111"
+      },
+      {
+        "id": "256932354",
+        "name": "Baldur's Gate 3 - Release Date Reveal Trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256932354/movie.293x165.jpg?t=1692294115",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1086940/542118/27157a92e289b26416759be7b45bdfcf159dfd49/1750614949/hls_264_master.m3u8?t=1692294115",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1086940/542118/27157a92e289b26416759be7b45bdfcf159dfd49/1750614949/dash_h264.mpd?t=1692294115",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1086940/542118/27157a92e289b26416759be7b45bdfcf159dfd49/1750614949/dash_av1.mpd?t=1692294115",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1086940/542118/27157a92e289b26416759be7b45bdfcf159dfd49/1750614949/hls_264_master.m3u8?t=1692294115"
+      },
+      {
+        "id": "256920587",
+        "name": "Baldur's Gate 3 - The Game Awards Trailer",
+        "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256920587/movie.293x165.jpg?t=1692294120",
+        "mp4": "",
+        "webm": "",
+        "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1086940/521182/53c2be911d121fc8ebda8bc9183e0fb55dbd53b7/1750614929/hls_264_master.m3u8?t=1692294120",
+        "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1086940/521182/53c2be911d121fc8ebda8bc9183e0fb55dbd53b7/1750614929/dash_h264.mpd?t=1692294120",
+        "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1086940/521182/53c2be911d121fc8ebda8bc9183e0fb55dbd53b7/1750614929/dash_av1.mpd?t=1692294120",
+        "url": "https://video.akamai.steamstatic.com/store_trailers/1086940/521182/53c2be911d121fc8ebda8bc9183e0fb55dbd53b7/1750614929/hls_264_master.m3u8?t=1692294120"
+      }
+    ],
+    "short_description": "Baldur’s Gate 3 is a story-rich, party-based RPG set in the universe of Dungeons &amp; Dragons, where your choices shape a tale of fellowship and betrayal, survival and sacrifice, and the lure of absolute power.",
+    "steam_store_url": "https://store.steampowered.com/app/1086940",
+    "steam_recommendation_count": 736367,
+    "steam_review_score_desc": "Overwhelmingly Positive",
+    "steam_total_positive": 15673,
+    "steam_total_negative": 455,
+    "steam_total_reviews": 16128,
+    "price_currency": "KRW",
+    "price_current": 6600000,
+    "price_original": 6600000,
+    "price_current_formatted": "₩ 66,000",
+    "price_original_formatted": null,
+    "price_discount_percent": 0
+  },
+  "report_plan": {
+    "decision_anchor": {
+      "buy_recommendation": "buy_now",
+      "primary_reason_ids": [
+        "str_1",
+        "risk_1"
+      ],
+      "rationale_short": "전투와 스토리의 몰입감이 뛰어나며, 다양한 선택지와 캐릭터의 서사가 잘 구성되어 있어 RPG 팬들에게 강력하게 추천합니다."
+    },
+    "section_blueprint": {
+      "strength_block_count": 3,
+      "risk_block_count": 3,
+      "evidence_per_block": 3
+    },
+    "theme_priorities": {
+      "strengths": [
+        {
+          "reason_id": "str_1",
+          "aspect": "gameplay",
+          "theme": "전투 손맛 / 액션 호평"
+        },
+        {
+          "reason_id": "str_2",
+          "aspect": "story",
+          "theme": "스토리 / 서사 몰입"
+        },
+        {
+          "reason_id": "str_3",
+          "aspect": "content_depth",
+          "theme": "중독성 / 시간순삭"
+        }
+      ],
+      "risks": [
+        {
+          "reason_id": "risk_1",
+          "aspect": "bugs",
+          "theme": "일반 버그"
+        },
+        {
+          "reason_id": "risk_2",
+          "aspect": "difficulty",
+          "theme": "진입 난이도"
+        },
+        {
+          "reason_id": "risk_3",
+          "aspect": "multiplayer",
+          "theme": "멀티플레이 경험"
+        }
+      ]
+    }
+  },
+  "report_display": {
+    "headline": "전투와 스토리의 몰입감이 뛰어나지만, 버그와 최적화 문제로 할인 시점에 구매를 권장합니다.",
+    "buy_recommendation": "buy_on_sale",
+    "buy_timing_summary": "버그와 끊김이 있어 불편할 수 있으니, 가격 메리트가 있는 할인 시기에 시작하는 것이 좋습니다.",
+    "good_for": [
+      "플레이 흐름이 점점 또렷해지는 재미를 좋아하는 플레이어",
+      "전술과 운영 판단을 오래 다듬는 플레이어",
+      "세계관과 맥락을 스스로 읽어가는 플레이어"
+    ],
+    "not_good_for": [
+      "진행 중 오류나 끊김을 거의 허용하지 않는 플레이어"
+    ],
+    "top_strengths": [
+      {
+        "title": "몰입감이 뛰어난 서사 경험",
+        "summary": "다양한 선택지와 깊이 있는 캐릭터 서사가 플레이어를 이야기 속으로 자연스럽게 끌어들여 RPG 팬들에게 큰 만족감을 줍니다."
+      },
+      {
+        "title": "전략적 재미를 살린 턴제 전투",
+        "summary": "지형과 환경을 활용하는 전술적 전투가 단조롭지 않고, 각 전투마다 새로운 전략을 고민하는 재미가 쏠쏠합니다."
+      },
+      {
+        "title": "방대한 콘텐츠와 자유도",
+        "summary": "광활한 월드와 풍부한 이벤트, 상호작용이 플레이어의 선택에 따라 다양하게 펼쳐져 반복 플레이에도 신선함을 유지합니다."
+      }
+    ],
+    "top_risks": [
+      {
+        "title": "진행 방해 버그",
+        "summary": "퀘스트 트리거 오류와 진행 막힘 현상으로 중요한 보상을 놓치거나 강제 분량 스킵이 발생해 플레이 흐름이 크게 방해받습니다."
+      },
+      {
+        "title": "복잡한 전투와 높은 진입 장벽",
+        "summary": "초반 전투가 어렵고 주사위 운에 좌우되는 경우가 많아 적응하기 힘들며, 복잡한 룰과 기믹 활용이 부담스러워 피로감을 느낄 수 있습니다."
+      },
+      {
+        "title": "멀티플레이의 불안정성",
+        "summary": "멀티플레이 중 무한 로딩, 튕김, 진행 불가 등 심각한 버그가 자주 발생해 원활한 협동 플레이가 어렵습니다."
+      }
+    ],
+    "recent_state": {
+      "status": "mixed",
+      "summary": "전투와 스토리의 깊이와 자유도가 뛰어나지만, 버그와 최적화 문제로 플레이 경험이 다소 불편하다는 평가가 공존합니다."
+    }
+  },
+  "evidence_sections": {
+    "strengths": [
+      {
+        "block_id": "str_1",
+        "title": "전술과 운영 판단의 재미가 크다는 반응",
+        "theme": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험",
+        "why_it_matters": "전술과 운영 판단의 재미를 말하는 반응이 많아 오래 다듬는 플레이와 잘 맞습니다.",
+        "explanation": "전술과 운영 판단의 재미를 말하는 반응이 많아 오래 다듬는 플레이와 잘 맞습니다.",
+        "aspect_keys": [
+          "gameplay"
+        ],
+        "stance": "positive",
+        "consensus_level": "high",
+        "mention_count": 1629,
+        "evidence_quality_level": "strict",
+        "evidence_candidate_snippets": [
+          "주변에서 명작이라고 호들갑 떨어서 이 악물고 안하고 있다가 우연히 해봤는데 발더스 3가 인생 게임이 되어버렸네요! 전투, 스토리, 더빙, 동료들과의 관계까지 모든 요소들을 재밌게 즐길 수 있었습니다. 게임을 진행하면서 스토리 분기점이 너무 많아서 어떤 선택을 해야할지 애먹긴 했지만 나만의 스토리를 만들어 나가는 맛이 있었습니다. 스토리 완성도도 높아서 이렇게 몰입하고 서브퀘스트까지 전부 찾아가면서 플레이 한 게임은 발더스가 처음이네요~ 전투 방식도 재밌고 엔딩도 독특합니다. 안 하신 분들은 꼭 하세요! 두 번 하세요! 2회차는 다른 루트로 진행하려고 하는데 벌써 기대됩니다. 단점은... 1. 잡템이 너무 많고 캐릭터마다 무게 제한이 있어서 아이템 정리가 힘들네요. 스토리 진행하면서 정리하는 시간이 꽤 길었습니다. 제 방도 이렇게까지는 정리 안하는데.. 2. 기능이 너무 많아서 패드로는 조작이 힘드네요. 맵 둘러보는 기능이 없어서 그냥 포기하고 마우스로 플레이 했습니다. 소파에 누워서 편하게 플레이 했으면 좋았을텐데 이건 좀 아쉽습니다. 근데 단점의 거의 없습니다. 위에 있는 단점들 재미로 전부 커버됩니다. 리메이크 만든다고 시간 질질끌다가 파트로 쪼개 팔면서 돈만 밝히고 플스에서만 판매하겠다는 플랫폼 약속도 안지키고 10년넘게 실망만 시키던 모 게임사와는 다르게 하나의 게임으로 유저에게 컨텐츠를 한개라도 더 제공하겠다는 마음이 느껴져서 감동 먹었습니다. 솔직히, 이런 RPG게임을 다시 만날 수 있을 지가 의문이네요. 라리안 감사합니다~",
+          "발더스 게이트 3는 단순히 잘 만든 RPG를 넘어, 선택이라는 요소가 실제로 의미를 갖는 드문 작품이다. 플레이어의 결정 하나하나가 세계와 캐릭터에 영향을 주며, 그 결과가 자연스럽게 이어지는 구조는 상당히 인상적이다. 전투는 턴제임에도 불구하고 지형과 상호작용을 적극 활용하게 만들어 단조로움을 피했고, 전략적 깊이 또한 충분하다. 동료 캐릭터들은 단순한 조력자가 아니라 각자의 서사를 가진 존재로 기능하며, 관계의 변화가 플레이 경험에 직접적인 영향을 준다. 다만 초반 진입 장벽과 다소 느린 전개는 호불호가 갈릴 수 있다. 그럼에도 불구하고 이 작품은 RPG 장르가 어디까지 확장될 수 있는지를 보여주는 사례에 가깝다. 깊이 있는 서사와 높은 자유도를 원하는 플레이어라면 충분히 만족할 가능성이 높다. 전체적으로 완성도와 밀도 모두에서 높은 평가를 받을 만한 작품이다.",
+          "무슨 말이 필요한가 그냥 갓겜 그 자체이다 압도적으로 긍정적인건 다 이유가 있다 재미있는 스토리 턴제 전투지만 지루하지 않음 제돈주고 사도 아깝지가 않은 게임 본인에 인생겜이라고 할만큼 아깝지 않은 시간이었다 무조건 사라"
+        ],
+        "evidence_snippets": [
+          "무슨 말가 필요한가 그냥 갓겜 그 자체이다 압도적으로 긍정적인건 다 이유가 있다 재미있는 스토리 턴제 전투지만 지루하지 않음 제돈주고 사도 아깝지가 않은 게임 본인에 인생겜이라고 할만큼 아깝지 않은 시간이었다 무조건 사라",
+          "발더스 게이트 3는 단순히 잘 만든 RPG를 넘어, 선택이라는 요소가 실제로 의미를 갖는 드문 작품이다. 플레이어의 결정 하나하나가 세계와 캐릭터에 영향을 주며, 그 결과가 자연스럽게 이어지는 구조는 상당히 인상적이다. 전투는 턴제임에도 불구하고 지형과 상호작용을 적극 활용하게 만들어 단조로움을 피했고, 전략적 깊이 또한 충분하다. 동료 캐릭터들은 단순한 조력자가 아니라 각자의 서사를 가진 존재로 기능하며, 관계의 변화가 플레이 경험에 직접적인 영향을 준다. 다만 초반 진입 장벽과 다소 느린 전개는 호불호가 갈릴 수 있다. 그럼에도 불구하고 이 작품은 RPG 장르가 어디까지 확장될 수 있는지를 보여주는 사례에 가깝다. 깊이 있는 서사와 높은 자유도를 원하는 플레이어라면 충분히 만족할 가능성이 높다. 전체적으로 완성도와 밀도 모두에서 높은 평가를 받을 만한 작품이다.",
+          "주변에서 명작이라고 호들갑 떨어서 이 악물고 안하고 있다가 우연히 해봤는데 발더스 3가 인생 게임이 되어버렸네요! 전투, 스토리, 더빙, 동료들과의 관계까지 모든 요소들을 재밌게 즐길 수 있었습니다. 게임을 진행하면서 스토리 분기점이 너무 많아서 어떤 선택을 해야할지 애먹긴 했지만 나만의 스토리를 만들어 나가는 맛이 있었습니다. 스토리 완성도도 높아서 이렇게 몰입하고 서브퀘스트까지 전부 찾아가면서 플레이 한 게임은 발더스가 처음이네요~ 전투 방식도 재밌고 엔딩도 독특합니다. 안 하신 분들은 꼭 하세요! 두 번 하세요! 2회차는 다른 루트로 진행하려고 하는데 벌써 기대됩니다. 단점은... 1. 잡템이 너무 많고 캐릭터마다 무게 제한이 있어서 아이템 정리가 힘들네요. 스토리 진행하면서 정리하는 시간이 꽤 길었습니다. 제 방도 이렇게까지는 정리 안하는데.. 2. 기능이 너무 많아서 패드로는 조작이 힘드네요. 맵 둘러보는 기능이 없어서 그냥 포기하고 마우스로 플레이 했습니다. 소파에 누워서 편하게 플레이 했으면 좋았을텐데 이건 좀 아쉽습니다. 근데 단점의 거의 없습니다. 위에 있는 단점들 재미로 전부 커버됩니다. 리메이크 만든다고 시간 질질끌다가 파트로 쪼개 팔면서 돈만 밝히고 플스에서만 판매하겠다는 플랫폼 약속도 안지키고 10년넘게 실망만 시키던 모 게임사와는 다르게 하나의 게임으로 유저에게 컨텐츠를 한개라도 더 제공하겠다는 마음이 느껴져서 감동 먹었습니다. 솔직히, 이런 RPG게임을 다시 만날 수 있을 지가 의문이네요. 라리안 감사합니다~"
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-positive-1-1-5152058983389309084",
+            "text": "주변에서 명작이라고 호들갑 떨어서 이 악물고 안하고 있다가 우연히 해봤는데 발더스 3가 인생 게임이 되어버렸네요! 전투, 스토리, 더빙, 동료들과의 관계까지 모든 요소들을 재밌게 즐길 수 있었습니다. 게임을 진행하면서 스토리 분기점이 너무 많아서 어떤 선택을 해야할지 애먹긴 했지만 나만의 스토리를 만들어 나가는 맛이 있었습니다. 스토리 완성도도 높아서 이렇게 몰입하고 서브퀘스트까지 전부 찾아가면서 플레이 한 게임은 발더스가 처음이네요~ 전투 방식도 재밌고 엔딩도 독특합니다. 안 하신 분들은 꼭 하세요! 두 번 하세요! 2회차는 다른 루트로 진행하려고 하는데 벌써 기대됩니다. 단점은... 1. 잡템이 너무 많고 캐릭터마다 무게 제한이 있어서 아이템 정리가 힘들네요. 스토리 진행하면서 정리하는 시간이 꽤 길었습니다. 제 방도 이렇게까지는 정리 안하는데.. 2. 기능이 너무 많아서 패드로는 조작이 힘드네요. 맵 둘러보는 기능이 없어서 그냥 포기하고 마우스로 플레이 했습니다. 소파에 누워서 편하게 플레이 했으면 좋았을텐데 이건 좀 아쉽습니다. 근데 단점의 거의 없습니다. 위에 있는 단점들 재미로 전부 커버됩니다. 리메이크 만든다고 시간 질질끌다가 파트로 쪼개 팔면서 돈만 밝히고 플스에서만 판매하겠다는 플랫폼 약속도 안지키고 10년넘게 실망만 시키던 모 게임사와는 다르게 하나의 게임으로 유저에게 컨텐츠를 한개라도 더 제공하겠다는 마음이 느껴져서 감동 먹었습니다. 솔직히, 이런 RPG게임을 다시 만날 수 있을 지가 의문이네요. 라리안 감사합니다~"
+          },
+          {
+            "review_id": "compress-v3-positive-1-2-8216373624960108732",
+            "text": "발더스 게이트 3는 단순히 잘 만든 RPG를 넘어, 선택이라는 요소가 실제로 의미를 갖는 드문 작품이다. 플레이어의 결정 하나하나가 세계와 캐릭터에 영향을 주며, 그 결과가 자연스럽게 이어지는 구조는 상당히 인상적이다. 전투는 턴제임에도 불구하고 지형과 상호작용을 적극 활용하게 만들어 단조로움을 피했고, 전략적 깊이 또한 충분하다. 동료 캐릭터들은 단순한 조력자가 아니라 각자의 서사를 가진 존재로 기능하며, 관계의 변화가 플레이 경험에 직접적인 영향을 준다. 다만 초반 진입 장벽과 다소 느린 전개는 호불호가 갈릴 수 있다. 그럼에도 불구하고 이 작품은 RPG 장르가 어디까지 확장될 수 있는지를 보여주는 사례에 가깝다. 깊이 있는 서사와 높은 자유도를 원하는 플레이어라면 충분히 만족할 가능성이 높다. 전체적으로 완성도와 밀도 모두에서 높은 평가를 받을 만한 작품이다."
+          },
+          {
+            "review_id": "compress-v3-positive-1-3-111021106855227297",
+            "text": "무슨 말이 필요한가 그냥 갓겜 그 자체이다 압도적으로 긍정적인건 다 이유가 있다 재미있는 스토리 턴제 전투지만 지루하지 않음 제돈주고 사도 아깝지가 않은 게임 본인에 인생겜이라고 할만큼 아깝지 않은 시간이었다 무조건 사라"
+          }
+        ]
+      },
+      {
+        "block_id": "str_2",
+        "title": "탐험과 맥락 해석의 재미가 있다는 반응",
+        "theme": "세계관과 연출 덕분에 플레이를 계속하게 되는 몰입 경험",
+        "why_it_matters": "세계의 단서와 맥락을 읽어가는 재미를 좋게 보는 반응이 많아 서서히 몰입하는 플레이와 잘 맞습니다.",
+        "explanation": "세계의 단서와 맥락을 읽어가는 재미를 좋게 보는 반응이 많아 서서히 몰입하는 플레이와 잘 맞습니다.",
+        "aspect_keys": [
+          "story"
+        ],
+        "stance": "positive",
+        "consensus_level": "high",
+        "mention_count": 1474,
+        "evidence_quality_level": "strict",
+        "evidence_candidate_snippets": [
+          "아주 오래전 네버윈터나이트2를 d&d룰도 모른 채 어떻게 어떻게 엔딩까지 봤었지만 이야기의 재미는 거의 느끼지 못했었다. 뒤늦게 패치 8까지 이뤄진 발더스게이트3를 이제야 하고 있다. 개발진들의 위트와 집념, 이렇게까지 한다고? 싶은 집요함이 온갖 곳에서 느껴진다. 한글화가 무척 좋아 드디어 이야기를 제대로 따라가고 있다. 모험의 맛이 참 좋다. 정답이 없는 게임이라는 걸 알면서도 모든 아이템을 이잡듯 뒤지는 내 모습이 좀 한심하게 느껴지기도 한다. 빠른 저장을 습관적으로 하고는 있지만 불러오기는 거의 하지 않고 있다. 아이템의 기능이나 주문을 확인하는 용도로만 세이브/로드를 활용할 뿐 전투가 망하거나 선택이 마음에 들지 않아도 꾹 참고 진행하고 있다. 그래도 이야기는 흘러간다. 그래. 그래도 이야기는 흘러간다. 내 선택이 멍청했든 지혜로웠든, 이야기는 흘러가기 마련이다. 공략이나 빌드는 전혀 보지 않고 하려다가 아무래도 d&d 5판 룰을 이해하지 못하고 진행하는 건 너무한 것 같아 제미나이의 도움을 받아 내 캐릭터와 동료 캐릭터의 스탯을 다시 설정해보니 지금껏 얼마나 멍청하게 진행했는지 허망하기도 했다. 그러다 그런 엉망진창인 상태로 2막 중반까지 어떻게든 왔다는 걸 깨달았다. 최적화와 민맥싱도 즐거움의 요소지만, 어중간하고 직업 특성에도 하나도 맞지 않고 주문도 중구난방으로 되었어도 이야기는 흘러간다. 몇 번 죽기도 하고 전멸도 해봤지만 한 손에 꼽는 정도다. 전투 한 번 한 번에 1-2시간을 소비하게 되는 것이 지치기도 하지만 목숨을 건 전투라면 어쩔 수 없다. 경험이 쌓이고 요령도 생기고 능력치와 주문의 상성에 이해가 쌓이기 시작하면서 긴장을 풀고 다니다가 두드려 맞기도 한다. 라리안 스튜디오는 참 멋진 세계를 만들었다. 감탄이 멈추지 않는다. 모험을 멈추고 싶지가 않다.",
+          "턴제에 익숙하지 않은사람은 초반엔 어려울수있음 적응되면 이거만한 게임이 없어요 그리고 고수님들 조만간 2막스토리 모드 큰거 오니까 넥서스 확인해보세요"
+        ],
+        "evidence_snippets": [
+          "아주 오래전 네버윈터나이트2를 d&d룰도 모른 채 어떻게 어떻게 엔딩까지 봤었지만 이야기의 재미는 거의 느끼지 못했었다. 뒤늦게 패치 8까지 이뤄진 발더스게이트3를 이제야 하고 있다. 개발진들의 위트와 집념, 이렇게까지 한다고? 싶은 집요함이 온갖 곳에서 느껴진다. 한글화가 무척 좋아 드디어 이야기를 제대로 따라가고 있다. 모험의 맛이 참 좋다. 정답이 없는 게임이라는 걸 알면서도 모든 아이템을 이잡듯 뒤지는 내 모습이 좀 한심하게 느껴지기도 한다. 빠른 저장을 습관적으로 하고는 있지만 불러오기는 거의 하지 않고 있다. 아이템의 기능이나 주문을 확인하는 용도로만 세이브/로드를 활용할 뿐 전투가 망하거나 선택이 마음에 들지 않아도 꾹 참고 진행하고 있다. 그래도 이야기는 흘러간다. 그래. 그래도 이야기는 흘러간다. 내 선택이 멍청했든 지혜로웠든, 이야기는 흘러가기 마련이다. 공략이나 빌드는 전혀 보지 않고 하려다가 아무래도 d&d 5판 룰을 이해하지 못하고 진행하는 건 너무한 것 같아 제미나이의 도움을 받아 내 캐릭터와 동료 캐릭터의 스탯을 다시 설정해보니 지금껏 얼마나 멍청하게 진행했는지 허망하기도 했다. 그러다 그런 엉망진창인 상태로 2막 중반까지 어떻게든 왔다는 걸 깨달았다. 최적화와 민맥싱도 즐거움의 요소지만, 어중간하고 직업 특성에도 하나도 맞지 않고 주문도 중구난방으로 되었어도 이야기는 흘러간다. 몇 번 죽기도 하고 전멸도 해봤지만 한 손에 꼽는 정도다. 전투 한 번 한 번에 1-2시간을 소비하게 되는 것이 지치기도 하지만 목숨을 건 전투라면 어쩔 수 없다. 경험이 쌓이고 요령도 생기고 능력치와 주문의 상성에 이해가 쌓이기 시작하면서 긴장을 풀고 다니다가 두드려 맞기도 한다. 라리안 스튜디오는 참 멋진 세계를 만들었다. 감탄이 멈추지 않는다. 모험을 멈추고 싶지가 않다.",
+          "턴제에 익숙하지 않은사람은 초반엔 어려울수있음 적응되면 이거만한 게임이 없어요 그리고 고수님들 조만간 2막스토리 모드 큰거 오니까 넥서스 확인해보세요"
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-positive-2-1-8690237647833017103",
+            "text": "아주 오래전 네버윈터나이트2를 d&d룰도 모른 채 어떻게 어떻게 엔딩까지 봤었지만 이야기의 재미는 거의 느끼지 못했었다. 뒤늦게 패치 8까지 이뤄진 발더스게이트3를 이제야 하고 있다. 개발진들의 위트와 집념, 이렇게까지 한다고? 싶은 집요함이 온갖 곳에서 느껴진다. 한글화가 무척 좋아 드디어 이야기를 제대로 따라가고 있다. 모험의 맛이 참 좋다. 정답이 없는 게임이라는 걸 알면서도 모든 아이템을 이잡듯 뒤지는 내 모습이 좀 한심하게 느껴지기도 한다. 빠른 저장을 습관적으로 하고는 있지만 불러오기는 거의 하지 않고 있다. 아이템의 기능이나 주문을 확인하는 용도로만 세이브/로드를 활용할 뿐 전투가 망하거나 선택이 마음에 들지 않아도 꾹 참고 진행하고 있다. 그래도 이야기는 흘러간다. 그래. 그래도 이야기는 흘러간다. 내 선택이 멍청했든 지혜로웠든, 이야기는 흘러가기 마련이다. 공략이나 빌드는 전혀 보지 않고 하려다가 아무래도 d&d 5판 룰을 이해하지 못하고 진행하는 건 너무한 것 같아 제미나이의 도움을 받아 내 캐릭터와 동료 캐릭터의 스탯을 다시 설정해보니 지금껏 얼마나 멍청하게 진행했는지 허망하기도 했다. 그러다 그런 엉망진창인 상태로 2막 중반까지 어떻게든 왔다는 걸 깨달았다. 최적화와 민맥싱도 즐거움의 요소지만, 어중간하고 직업 특성에도 하나도 맞지 않고 주문도 중구난방으로 되었어도 이야기는 흘러간다. 몇 번 죽기도 하고 전멸도 해봤지만 한 손에 꼽는 정도다. 전투 한 번 한 번에 1-2시간을 소비하게 되는 것이 지치기도 하지만 목숨을 건 전투라면 어쩔 수 없다. 경험이 쌓이고 요령도 생기고 능력치와 주문의 상성에 이해가 쌓이기 시작하면서 긴장을 풀고 다니다가 두드려 맞기도 한다. 라리안 스튜디오는 참 멋진 세계를 만들었다. 감탄이 멈추지 않는다. 모험을 멈추고 싶지가 않다."
+          },
+          {
+            "review_id": "compress-v3-positive-2-3-7014146841733491561",
+            "text": "턴제에 익숙하지 않은사람은 초반엔 어려울수있음 적응되면 이거만한 게임이 없어요 그리고 고수님들 조만간 2막스토리 모드 큰거 오니까 넥서스 확인해보세요"
+          }
+        ]
+      },
+      {
+        "block_id": "str_3",
+        "title": "전술과 운영 판단의 재미가 크다는 반응이 있다.",
+        "theme": "중독성 / 시간순삭",
+        "why_it_matters": "전술과 운영 판단의 재미를 말하는 반응이 많아 오래 다듬는 플레이와 잘 맞습니다.",
+        "explanation": "전술과 운영 판단의 재미를 말하는 반응이 많아 오래 다듬는 플레이와 잘 맞습니다.",
+        "aspect_keys": [
+          "content_depth"
+        ],
+        "stance": "positive",
+        "consensus_level": "high",
+        "mention_count": 791,
+        "evidence_quality_level": "relaxed",
+        "evidence_candidate_snippets": [
+          "갓겜! 볼륨이 엄청나구요, 선택지도 엄청 다양해서 계속 새로운 걸 발견하는 게 꿀잼입니당 막판에는 보스를 원콤 내버릴 정도로 성장한 캐릭터를 보는 맛도 있구요! 새로운 상황 속에서 전략을 구상하는 것도 재밌습니다! 즐길 컨텐츠는 엄청 많지만 그만큼 피로도 누적도 상당합니다 하루에 몇 시간을 해도 모든 퀘스트를 깨려면 일주일 이상은 걸릴 정도입니다.. 기나긴 대서사시를 마치니 몸이 엄청 피로하네요... 우리가 발더스 게이트를 지켰다! 야호! 이런 류의 TRPG 게임이 또 나왔으면 좋겠네요! 왕추천합니다!",
+          "내 인생겜.. 내가 지금까지 플레이 했던 게임들 중 1등이라 단언할 수 있는 게임.. 겜생중 처음으로 3회차를 도전한 게임.. 진짜 게임 완성도가.. 미쳤다고 생각함.. 우선 난이도에 대해 설명부터 해줌. 다른 겜들이랑 난이도 기준이 살짝 다름. - 탐험가(쉬움): 진짜 너무 쉬움. 메인 퀘스트만 진행하고 싶다는 사람에게 추천함. - 균형(보통): 어려움. 메인 퀘스트만 진행할수가 없음. 반 필수적으로 부가 퀘스트를 진행해야 함(레벨, 템파밍 필요), 탐험가 난이도와의 차이가 매우 큼. - 전술가(어려움): 지인짜 어려움. 필수적인 부가 퀘스트, 경험치 파밍, 템 파밍이 필요. 하지만, 좋은 빌드를 가지고 간다면 쉬워짐. 난이도의 차이는 특정 선택지를 선택하여 진행할 가능성의 차이 + 딜량 + 동료의 체력 증가 + 적의 체력 감소 등등 많은 요소가 관여 됨. 일반 게임들은 보통난이도로 하더라도 메인 퀘스트만 진행이고, 부가퀘스트는 선택인 부분이 많은데, 이 게임은 보통난이도부터 부가퀘스트가 반 필수적으로 해야함. 대신, 이 게임 자체가 부가퀘스트가 자동적으로 하게끔 설계? 구현 되어있음. 귀찮더라도 부가퀘스트가 메인퀘스트에 이어지는 경우가 많으니 하는것을 추천. 여기에서의 부가퀘스트는 메인퀘스트의 떡밥 느낌으로 적용되니 하는것을 추천. 물론 아예 관련없는 부가퀘스트도 많음. 퀘스트에 대한 이야기가 많은데 그런 이유가 있음. 이 게임은 \"스토리\"게임임. 글 많은 것을 못보겠다거나 자신이 스토리를 보지 않는 스타일이다 하면 구매하는 것을 고려해야함. 내가 선택한 선택지로 인해 결정되는 이야기와 엔딩, 그렇게 만들어지는 하나의 발더스게이트3의 스토리를 보는 재미가 이 게임의 50%이상을 차지한다고 생각함. 하지만, 스토리를 보지 않는 사람이 한다면.. 나는 말리고 싶음. 재밌는게, \"나는 이렇게 플레이 했는데 다른 사람은 어떻게 플레이 했지?\" 가 됨. 먼저 플레이 해보고 다른 스트리머들이 플레이 한 영상을 보면 진짜 양상이 아예 다를거임. 그런 재미도 있고, 특정 선택지가 있을때 다른 사람이었으면 어떻게 했을까? 하면서 봐도 재밌음. 나는 같이 플레이 한 사람이 있어서 같이 화면공유 하면서 킥킥 대면서 봤음 ㅋㅋ 공략과 관련해서 좀 얘기 하고 싶음. 이 게임은 공략을 보면서 플레이 하면 매우 쉬워짐. 나는 스스로 동료를 편성하고, 그 동료들의 클래스, 레벨에 따르는 다양한 기능을 보면서 빌드를 짜봤으면 좋겠음."
+        ],
+        "evidence_snippets": [
+          "갓겜! 볼륨이 엄청나구요, 선택지도 엄청 다양해서 계속 새로운 걸 발견하는 게 꿀잼입니당 막판에는 보스를 원콤 내버릴 정도로 성장한 캐릭터를 보는 맛도 있구요! 새로운 상황 속에서 전략을 구상하는 것도 재밌습니다! 즐길 컨텐츠는 엄청 많지만 그만큼 피로도 누적도 상당합니다 하루에 몇 시간을 해도 모든 퀘스트를 깨려면 일주일 이상은 걸릴 정도입니다.. 기나긴 대서사시를 마치니 몸이 엄청 피로하네요... 우리가 발더스 게이트를 지켰다! 야호! 이런 류의 TRPG 게임이 또 나왔으면 좋겠네요! 왕추천합니다!",
+          "내 인생겜.. 내가 지금까지 플레이 했던 게임들 중 1등이라 단언할 수 있는 게임.. 겜생중 처음으로 3회차를 도전한 게임.. 진짜 게임 완성도가.. 미쳤다고 생각함.. 우선 난이도에 대해 설명부터 해줌. 다른 겜들이랑 난이도 기준이 살짝 다름. - 탐험가(쉬움): 진짜 너무 쉬움. 메인 퀘스트만 진행하고 싶다는 사람에게 추천함. - 균형(보통): 어려움. 메인 퀘스트만 진행할수가 없음. 반 필수적으로 부가 퀘스트를 진행해야 함(레벨, 템파밍 필요), 탐험가 난이도와의 차이가 매우 큼. - 전술가(어려움): 지인짜 어려움. 필수적인 부가 퀘스트, 경험치 파밍, 템 파밍가 필요. 하지만, 좋은 빌드를 가지고 간다면 쉬워짐. 난이도의 차이는 특정 선택지를 선택하여 진행할 가능성의 차이 + 딜량 + 동료의 체력 증가 + 적의 체력 감소 등등 많은 요소가 관여 됨. 일반 게임들은 보통난이도로 하더라도 메인 퀘스트만 진행이고, 부가퀘스트는 선택인 부분이 많은데, 이 게임은 보통난이도부터 부가퀘스트가 반 필수적으로 해야함. 대신, 이 게임 자체가 부가퀘스트가 자동적으로 하게끔 설계? 구현 되어있음. 귀찮더라도 부가퀘스트가 메인퀘스트에 이어지는 경우가 많으니 하는것을 추천. 여기에서의 부가퀘스트는 메인퀘스트의 떡밥 느낌으로 적용되니 하는것을 추천. 물론 아예 관련없는 부가퀘스트도 많음. 퀘스트에 대한 이야기가 많은데 그런 이유가 있음. 이 게임은 \"스토리\"게임임. 글 많은 것을 못보겠다거나 자신이 스토리를 보지 않는 스타일이다 하면 구매하는 것을 고려해야함. 내가 선택한 선택지로 인해 결정되는 이야기와 엔딩, 그렇게 만들어지는 하나의 발더스게이트3의 스토리를 보는 재미가 이 게임의 50%이상을 차지한다고 생각함. 하지만, 스토리를 보지 않는 사람이 한다면.. 나는 말리고 싶음. 재밌는게, \"나는 이렇게 플레이 했는데 다른 사람은 어떻게 플레이 했지?\" 가 됨. 먼저 플레이 해보고 다른 스트리머들이 플레이 한 영상을 보면 진짜 양상이 아예 다를거임. 그런 재미도 있고, 특정 선택지가 있을때 다른 사람이었으면 어떻게 했을까? 하면서 봐도 재밌음. 나는 같이 플레이 한 사람이 있어서 같이 화면공유 하면서 킥킥 대면서 봤음 ㅋㅋ 공략과 관련해서 좀 얘기 하고 싶음. 이 게임은 공략을 보면서 플레이 하면 매우 쉬워짐. 나는 스스로 동료를 편성하고, 그 동료들의 클래스, 레벨에 따르는 다양한 기능을 보면서 빌드를 짜봤으면 좋겠음."
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-positive-3-1-3098382982218902595",
+            "text": "갓겜! 볼륨이 엄청나구요, 선택지도 엄청 다양해서 계속 새로운 걸 발견하는 게 꿀잼입니당 막판에는 보스를 원콤 내버릴 정도로 성장한 캐릭터를 보는 맛도 있구요! 새로운 상황 속에서 전략을 구상하는 것도 재밌습니다! 즐길 컨텐츠는 엄청 많지만 그만큼 피로도 누적도 상당합니다 하루에 몇 시간을 해도 모든 퀘스트를 깨려면 일주일 이상은 걸릴 정도입니다.. 기나긴 대서사시를 마치니 몸이 엄청 피로하네요... 우리가 발더스 게이트를 지켰다! 야호! 이런 류의 TRPG 게임이 또 나왔으면 좋겠네요! 왕추천합니다!"
+          },
+          {
+            "review_id": "compress-v3-positive-3-8-8437948346490037788",
+            "text": "내 인생겜.. 내가 지금까지 플레이 했던 게임들 중 1등이라 단언할 수 있는 게임.. 겜생중 처음으로 3회차를 도전한 게임.. 진짜 게임 완성도가.. 미쳤다고 생각함.. 우선 난이도에 대해 설명부터 해줌. 다른 겜들이랑 난이도 기준이 살짝 다름. - 탐험가(쉬움): 진짜 너무 쉬움. 메인 퀘스트만 진행하고 싶다는 사람에게 추천함. - 균형(보통): 어려움. 메인 퀘스트만 진행할수가 없음. 반 필수적으로 부가 퀘스트를 진행해야 함(레벨, 템파밍 필요), 탐험가 난이도와의 차이가 매우 큼. - 전술가(어려움): 지인짜 어려움. 필수적인 부가 퀘스트, 경험치 파밍, 템 파밍이 필요. 하지만, 좋은 빌드를 가지고 간다면 쉬워짐. 난이도의 차이는 특정 선택지를 선택하여 진행할 가능성의 차이 + 딜량 + 동료의 체력 증가 + 적의 체력 감소 등등 많은 요소가 관여 됨. 일반 게임들은 보통난이도로 하더라도 메인 퀘스트만 진행이고, 부가퀘스트는 선택인 부분이 많은데, 이 게임은 보통난이도부터 부가퀘스트가 반 필수적으로 해야함. 대신, 이 게임 자체가 부가퀘스트가 자동적으로 하게끔 설계? 구현 되어있음. 귀찮더라도 부가퀘스트가 메인퀘스트에 이어지는 경우가 많으니 하는것을 추천. 여기에서의 부가퀘스트는 메인퀘스트의 떡밥 느낌으로 적용되니 하는것을 추천. 물론 아예 관련없는 부가퀘스트도 많음. 퀘스트에 대한 이야기가 많은데 그런 이유가 있음. 이 게임은 \"스토리\"게임임. 글 많은 것을 못보겠다거나 자신이 스토리를 보지 않는 스타일이다 하면 구매하는 것을 고려해야함. 내가 선택한 선택지로 인해 결정되는 이야기와 엔딩, 그렇게 만들어지는 하나의 발더스게이트3의 스토리를 보는 재미가 이 게임의 50%이상을 차지한다고 생각함. 하지만, 스토리를 보지 않는 사람이 한다면.. 나는 말리고 싶음. 재밌는게, \"나는 이렇게 플레이 했는데 다른 사람은 어떻게 플레이 했지?\" 가 됨. 먼저 플레이 해보고 다른 스트리머들이 플레이 한 영상을 보면 진짜 양상이 아예 다를거임. 그런 재미도 있고, 특정 선택지가 있을때 다른 사람이었으면 어떻게 했을까? 하면서 봐도 재밌음. 나는 같이 플레이 한 사람이 있어서 같이 화면공유 하면서 킥킥 대면서 봤음 ㅋㅋ 공략과 관련해서 좀 얘기 하고 싶음. 이 게임은 공략을 보면서 플레이 하면 매우 쉬워짐. 나는 스스로 동료를 편성하고, 그 동료들의 클래스, 레벨에 따르는 다양한 기능을 보면서 빌드를 짜봤으면 좋겠음."
+          }
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "block_id": "risk_1",
+        "title": "오류와 끊김이 흐름을 끊는다는 반응",
+        "theme": "예상치 못한 오류가 플레이 리듬을 끊을 수 있는 리스크",
+        "why_it_matters": "오류와 끊김을 지적하는 반응이 이어져 흐름이 끊기는 상황은 감수할 필요가 있습니다.",
+        "explanation": "오류와 끊김을 지적하는 반응이 이어져 흐름이 끊기는 상황은 감수할 필요가 있습니다.",
+        "aspect_keys": [
+          "bugs"
+        ],
+        "stance": "negative",
+        "consensus_level": "medium",
+        "mention_count": 367,
+        "evidence_quality_level": "guaranteed_fill",
+        "evidence_candidate_snippets": [
+          "바닐라 기준 몇몇 퀘스트 트리거 오작동이나 진행 막힘 버그 제외하면 스토리 몰빵형이 취향이면 정말 잘맞는 겜이지만 하필 버그 터지는 퀘스트가 고유급 보상(예시: 아울베어 새끼) 관련된게 있는게 좀 크고.. 공략없이 순서 없이 무지성으로 진행하다보면 잘못하다가 강제 분량 스킵이라는 함정이 발동하는 불상사가 생긴다.. 솔직히 이런점 때문에 순수하게 rpg로 즐기기에는 rpg로써 전투 관련 분량이 메인은 아니고 곁들인 느낌이랄까.. 꼬우면 다회차이긴 한데..게임 특성상 플레이어가 조금만 꼼꼼해도 상당히 불쾌한 골짜기가 생기는 상황이 많다.. 성격 안맞으면 진행 방식상 개인차겠지만 시간적 부담이나 정말 2회차도 부담스러워서 안하고 싶어진다.. 생각보다 선택 강요로 인한 퀘스트 보상 문제는 문제될 경우가 버그 터지는거 말고는 원하는 스토리 흐름 빼고는 딱히 문제될거는 없는데.. 아 여튼... 전투 관련으로써 순수하게 재미가 너무 없는게 저렙(4렙 이하)때는 함정같은 기믹활용 안하면 진행이 좀 어렵다는거 빼고는 딜 비중이 중반까지도 폭발물 원툴이 효율이 너무 좋다 보니 대부분의 캐릭터의 클래스 개성은 전투면에서 느끼기에는 좀 중반부 이후나 되어야 느낌이 온달까.. 별도로 자체적 장르 특성상 스토리 감상같은거 딱히 중요하게 여기지도 않고 여튼 전투면에서 정해진 분량과 까다로운 룰+ 기믹 활용 등으로 뇌지컬로 커버하는 걸 즐기는 타입이 아니라면 정말 가격대비 비추하고 싶은 겜이다.(평가에 비해 개인적으로 해골물) 긴휴식 요구 자원이 모자르는것도 아니고 오히려 자주하라고 넘치는데 겜 전체적 시스템 부담감 때문인지 심리적 자극 요인이 있어 긴휴식하기가 너무 귀찮고 부담스러운게 웃음벨.. 하.. 모드로 커버칠수 있는건 많지만.. 여튼 본인은 1회차 시작부터 뭣같은 버그 자꾸 터져서 겜 할맛 뚝떨어짐.. 몇몇 퀘스트는 버그인지 아닌지 내용 갱신이 안되는 부분때문에 겜 자체가 좀 불친절한게 있어서..(아울베어 새끼 못 얻는건 솔직히 미련이 컸음= db 코드 건드리면 된다는데 그게 귀찮기도하고 잠재적으로 뭔 부작용 터질지 모르니 걍 안함 ) 여튼 1회차상 시간 투자에 비해 생각만큼 즐기지 못한 불편한점들이 많이 느껴져서..매력은 철철넘치는 겜인데 개인적으로 아쉬운 명작..",
+          "겜이 탐험요소가 너무많은데 길찾기 힘들고 스킬 최적화 어케시켜야할지도 모르겠음 너무 중구난방임.. 이게왜 전설이지",
+          "이런 류 처음하는 사람에겐 호불호 갈릴 수도 있음. 카메라 무빙도 좀 불편하고 이동 속도도 좀 답답한데 턴제 전투식이라 전투마다 시간이 오래 소모됨 짜바리들이랑 싸워도 오래 걸려서 호불호 좀 갈릴 듯.",
+          "1차진입장벽 개빻은 외모의 양키센스 캐릭터들 2차진입장벽 내 게임시간보다 5배 긴 적들 이동시간 3차진입장벽 적이 날 때릴땐 샤프슈터 내가 적을때릴땐 빗나감! 치명적인 실수! 3차진입장벽 못넘고 폐사함 ㅈㅈ",
+          "하나의 캐릭터, 주인공으로 이야기를 풀어나가는 것이 내 취향임을 다시금 확인하게 되는 시간이었음.",
+          "다양한 선택지만큼 빈 칸으로 남은 공허한 서사.",
+          "분명 지루한 게임이었는데... 스며들었다??? 한번키면 하루 10시간 그냥 해버리네 미친게임",
+          "이 게임을 하고 알았다. 게임하다 졸린 것은 내가 피곤해서가 아니라 게임이 지루해서 였음을."
+        ],
+        "evidence_snippets": [
+          "바닐라 기준 몇몇 퀘스트 트리거 오작동이나 진행 막힘 버그 제외하면 스토리 몰빵형이 취향이면 정말 잘맞는 겜이지만 하필 버그 터지는 퀘스트가 고유급 보상(예시: 아울베어 새끼) 관련된게 있는게 좀 크고.. 공략없이 순서 없이 무지성으로 진행하다보면 잘못하다가 강제 분량 스킵이라는 함정이 발동하는 불상사가 생긴다.. 솔직히 이런점 때문에 순수하게 rpg로 즐기기에는 rpg로써 전투 관련 분량이 메인은 아니고 곁들인 느낌이랄까.. 꼬우면 다회차이긴 한데.. 게임 특성상 플레이어가 조금만 꼼꼼해도 상당히 불쾌한 골짜기가 생기는 상황이 많다.. 성격 안맞으면 진행 방식상 개인차겠지만 시간적 부담이나 정말 2회차도 부담스러워서 안하고 싶어진다.. 생각보다 선택 강요로 인한 퀘스트 보상 문제는 문제될 경우가 버그 터지는거 말고는 원하는 스토리 흐름 빼고는 딱히 문제될거는 없는데.. 아 여튼... 전투 관련으로써 순수하게 재미가 너무 없는게 저렙(4렙 이하)때는 함정같은 기믹활용 안하면 진행이 좀 어렵다는거 빼고는 딜 비중이 중반까지도 폭발물 원툴이 효율이 너무 좋다 보니 대부분의 캐릭터의 클래스 개성은 전투면에서 느끼기에는 좀 중반부 이후나 되어야 느낌이 온달까.. 별도로 자체적 장르 특성상 스토리 감상같은거 딱히 중요하게 여기지도 않고 여튼 전투면에서 정해진 분량과 까다로운 룰+ 기믹 활용 등으로 뇌지컬로 커버하는 걸 즐기는 타입이 아니라면 정말 가격대비 비추하고 싶은 겜이다.(평가에 비해 개인적으로 해골물) 긴휴식 요구 자원이 모자르는것도 아니고 오히려 자주하라고 넘치는데 겜 전체적 시스템 부담감 때문인지 심리적 자극 요인이 있어 긴휴식하기가 너무 귀찮고 부담스러운게 웃음벨.. 하.. 모드로 커버칠수 있는건 많지만.. 여튼 본인은 1회차 시작부터 뭣같은 버그 자꾸 터져서 겜 할맛 뚝떨어짐.. 몇몇 퀘스트는 버그인지 아닌지 내용 갱신이 안되는 부분때문에 겜 자체가 좀 불친절한게 있어서..(아울베어 새끼 못 얻는건 솔직히 미련이 컸음= db 코드 건드리면 된다는데 그게 귀찮기도하고 잠재적으로 뭔 부작용 터질지 모르니 걍 안함 ) 여튼 1회차상 시간 투자에 비해 생각만큼 즐기지 못한 불편한점들이 많이 느껴져서.. 매력은 철철넘치는 겜인데 개인적으로 아쉬운 명작..",
+          "이 게임을 하고 알았다. 게임하다 졸린 것은 내가 피곤해서가 아니라 게임이 지루해서 였음을.",
+          "겜이 탐험요소가 너무많은데 길찾기 힘들고 스킬 최적화 어케시켜야할지도 모르겠음 너무 중구난방임.. 이게왜 전설이지"
+        ],
+        "evidence_candidate_items": [
+          {
+            "review_id": "compress-v3-negative-1-1-4655338807464786353",
+            "text": "바닐라 기준 몇몇 퀘스트 트리거 오작동이나 진행 막힘 버그 제외하면 스토리 몰빵형이 취향이면 정말 잘맞는 겜이지만 하필 버그 터지는 퀘스트가 고유급 보상(예시: 아울베어 새끼) 관련된게 있는게 좀 크고.. 공략없이 순서 없이 무지성으로 진행하다보면 잘못하다가 강제 분량 스킵이라는 함정이 발동하는 불상사가 생긴다.. 솔직히 이런점 때문에 순수하게 rpg로 즐기기에는 rpg로써 전투 관련 분량이 메인은 아니고 곁들인 느낌이랄까.. 꼬우면 다회차이긴 한데..게임 특성상 플레이어가 조금만 꼼꼼해도 상당히 불쾌한 골짜기가 생기는 상황이 많다.. 성격 안맞으면 진행 방식상 개인차겠지만 시간적 부담이나 정말 2회차도 부담스러워서 안하고 싶어진다.. 생각보다 선택 강요로 인한 퀘스트 보상 문제는 문제될 경우가 버그 터지는거 말고는 원하는 스토리 흐름 빼고는 딱히 문제될거는 없는데.. 아 여튼... 전투 관련으로써 순수하게 재미가 너무 없는게 저렙(4렙 이하)때는 함정같은 기믹활용 안하면 진행이 좀 어렵다는거 빼고는 딜 비중이 중반까지도 폭발물 원툴이 효율이 너무 좋다 보니 대부분의 캐릭터의 클래스 개성은 전투면에서 느끼기에는 좀 중반부 이후나 되어야 느낌이 온달까.. 별도로 자체적 장르 특성상 스토리 감상같은거 딱히 중요하게 여기지도 않고 여튼 전투면에서 정해진 분량과 까다로운 룰+ 기믹 활용 등으로 뇌지컬로 커버하는 걸 즐기는 타입이 아니라면 정말 가격대비 비추하고 싶은 겜이다.(평가에 비해 개인적으로 해골물) 긴휴식 요구 자원이 모자르는것도 아니고 오히려 자주하라고 넘치는데 겜 전체적 시스템 부담감 때문인지 심리적 자극 요인이 있어 긴휴식하기가 너무 귀찮고 부담스러운게 웃음벨.. 하.. 모드로 커버칠수 있는건 많지만.. 여튼 본인은 1회차 시작부터 뭣같은 버그 자꾸 터져서 겜 할맛 뚝떨어짐.. 몇몇 퀘스트는 버그인지 아닌지 내용 갱신이 안되는 부분때문에 겜 자체가 좀 불친절한게 있어서..(아울베어 새끼 못 얻는건 솔직히 미련이 컸음= db 코드 건드리면 된다는데 그게 귀찮기도하고 잠재적으로 뭔 부작용 터질지 모르니 걍 안함 ) 여튼 1회차상 시간 투자에 비해 생각만큼 즐기지 못한 불편한점들이 많이 느껴져서..매력은 철철넘치는 겜인데 개인적으로 아쉬운 명작.."
+          },
+          {
+            "review_id": "compress-v3-negative-1-2-8038275501661126912",
+            "text": "겜이 탐험요소가 너무많은데 길찾기 힘들고 스킬 최적화 어케시켜야할지도 모르겠음 너무 중구난방임.. 이게왜 전설이지"
+          },
+          {
+            "review_id": "compress-v3-negative-1-3-6932623818574191492",
+            "text": "이런 류 처음하는 사람에겐 호불호 갈릴 수도 있음. 카메라 무빙도 좀 불편하고 이동 속도도 좀 답답한데 턴제 전투식이라 전투마다 시간이 오래 소모됨 짜바리들이랑 싸워도 오래 걸려서 호불호 좀 갈릴 듯."
+          },
+          {
+            "review_id": "compress-v3-negative-1-4-5506182446835906690",
+            "text": "1차진입장벽 개빻은 외모의 양키센스 캐릭터들 2차진입장벽 내 게임시간보다 5배 긴 적들 이동시간 3차진입장벽 적이 날 때릴땐 샤프슈터 내가 적을때릴땐 빗나감! 치명적인 실수! 3차진입장벽 못넘고 폐사함 ㅈㅈ"
+          },
+          {
+            "review_id": "compress-v3-negative-1-5-445369040810121058",
+            "text": "하나의 캐릭터, 주인공으로 이야기를 풀어나가는 것이 내 취향임을 다시금 확인하게 되는 시간이었음."
+          },
+          {
+            "review_id": "compress-v3-negative-1-6-4808334280562983323",
+            "text": "다양한 선택지만큼 빈 칸으로 남은 공허한 서사."
+          },
+          {
+            "review_id": "compress-v3-negative-1-7-8460639267593179662",
+            "text": "분명 지루한 게임이었는데... 스며들었다??? 한번키면 하루 10시간 그냥 해버리네 미친게임"
+          },
+          {
+            "review_id": "compress-v3-negative-1-8-7149398407355771167",
+            "text": "이 게임을 하고 알았다. 게임하다 졸린 것은 내가 피곤해서가 아니라 게임이 지루해서 였음을."
+          }
+        ]
+      }
+    ]
+  },
+  "disclaimer": "여러 유저 리뷰를 바탕으로 정리했어요. 플레이 경험은 사람마다 다를 수 있어요.",
+  "headline": "전투와 스토리의 몰입감이 뛰어나지만, 버그와 최적화 문제로 할인 시점에 구매를 권장합니다.",
+  "buy_recommendation": "buy_on_sale",
+  "buy_timing_summary": "버그와 끊김이 있어 불편할 수 있으니, 가격 메리트가 있는 할인 시기에 시작하는 것이 좋습니다.",
+  "good_for": [
+    "플레이 흐름이 점점 또렷해지는 재미를 좋아하는 플레이어",
+    "전술과 운영 판단을 오래 다듬는 플레이어",
+    "세계관과 맥락을 스스로 읽어가는 플레이어"
+  ],
+  "not_good_for": [
+    "진행 중 오류나 끊김을 거의 허용하지 않는 플레이어"
+  ],
+  "top_strengths": [
+    {
+      "title": "몰입감이 뛰어난 서사 경험",
+      "summary": "다양한 선택지와 깊이 있는 캐릭터 서사가 플레이어를 이야기 속으로 자연스럽게 끌어들여 RPG 팬들에게 큰 만족감을 줍니다."
+    },
+    {
+      "title": "전략적 재미를 살린 턴제 전투",
+      "summary": "지형과 환경을 활용하는 전술적 전투가 단조롭지 않고, 각 전투마다 새로운 전략을 고민하는 재미가 쏠쏠합니다."
+    },
+    {
+      "title": "방대한 콘텐츠와 자유도",
+      "summary": "광활한 월드와 풍부한 이벤트, 상호작용이 플레이어의 선택에 따라 다양하게 펼쳐져 반복 플레이에도 신선함을 유지합니다."
+    }
+  ],
+  "top_risks": [
+    {
+      "title": "진행 방해 버그",
+      "summary": "퀘스트 트리거 오류와 진행 막힘 현상으로 중요한 보상을 놓치거나 강제 분량 스킵이 발생해 플레이 흐름이 크게 방해받습니다."
+    },
+    {
+      "title": "복잡한 전투와 높은 진입 장벽",
+      "summary": "초반 전투가 어렵고 주사위 운에 좌우되는 경우가 많아 적응하기 힘들며, 복잡한 룰과 기믹 활용이 부담스러워 피로감을 느낄 수 있습니다."
+    },
+    {
+      "title": "멀티플레이의 불안정성",
+      "summary": "멀티플레이 중 무한 로딩, 튕김, 진행 불가 등 심각한 버그가 자주 발생해 원활한 협동 플레이가 어렵습니다."
+    }
+  ],
+  "recent_state": {
+    "status": "mixed",
+    "summary": "전투와 스토리의 깊이와 자유도가 뛰어나지만, 버그와 최적화 문제로 플레이 경험이 다소 불편하다는 평가가 공존합니다."
+  },
+  "evidence_reviews": [
+    {
+      "block_id": "str_1",
+      "title": "전술과 운영 판단의 재미가 크다는 반응",
+      "theme": "전투가 반복될수록 손에 붙고 몰입이 올라가는 액션 경험",
+      "why_it_matters": "전술과 운영 판단의 재미를 말하는 반응이 많아 오래 다듬는 플레이와 잘 맞습니다.",
+      "explanation": "전술과 운영 판단의 재미를 말하는 반응이 많아 오래 다듬는 플레이와 잘 맞습니다.",
+      "aspect_keys": [
+        "gameplay"
+      ],
+      "stance": "positive",
+      "consensus_level": "high",
+      "mention_count": 1629,
+      "evidence_quality_level": "strict",
+      "evidence_candidate_snippets": [
+        "주변에서 명작이라고 호들갑 떨어서 이 악물고 안하고 있다가 우연히 해봤는데 발더스 3가 인생 게임이 되어버렸네요! 전투, 스토리, 더빙, 동료들과의 관계까지 모든 요소들을 재밌게 즐길 수 있었습니다. 게임을 진행하면서 스토리 분기점이 너무 많아서 어떤 선택을 해야할지 애먹긴 했지만 나만의 스토리를 만들어 나가는 맛이 있었습니다. 스토리 완성도도 높아서 이렇게 몰입하고 서브퀘스트까지 전부 찾아가면서 플레이 한 게임은 발더스가 처음이네요~ 전투 방식도 재밌고 엔딩도 독특합니다. 안 하신 분들은 꼭 하세요! 두 번 하세요! 2회차는 다른 루트로 진행하려고 하는데 벌써 기대됩니다. 단점은... 1. 잡템이 너무 많고 캐릭터마다 무게 제한이 있어서 아이템 정리가 힘들네요. 스토리 진행하면서 정리하는 시간이 꽤 길었습니다. 제 방도 이렇게까지는 정리 안하는데.. 2. 기능이 너무 많아서 패드로는 조작이 힘드네요. 맵 둘러보는 기능이 없어서 그냥 포기하고 마우스로 플레이 했습니다. 소파에 누워서 편하게 플레이 했으면 좋았을텐데 이건 좀 아쉽습니다. 근데 단점의 거의 없습니다. 위에 있는 단점들 재미로 전부 커버됩니다. 리메이크 만든다고 시간 질질끌다가 파트로 쪼개 팔면서 돈만 밝히고 플스에서만 판매하겠다는 플랫폼 약속도 안지키고 10년넘게 실망만 시키던 모 게임사와는 다르게 하나의 게임으로 유저에게 컨텐츠를 한개라도 더 제공하겠다는 마음이 느껴져서 감동 먹었습니다. 솔직히, 이런 RPG게임을 다시 만날 수 있을 지가 의문이네요. 라리안 감사합니다~",
+        "발더스 게이트 3는 단순히 잘 만든 RPG를 넘어, 선택이라는 요소가 실제로 의미를 갖는 드문 작품이다. 플레이어의 결정 하나하나가 세계와 캐릭터에 영향을 주며, 그 결과가 자연스럽게 이어지는 구조는 상당히 인상적이다. 전투는 턴제임에도 불구하고 지형과 상호작용을 적극 활용하게 만들어 단조로움을 피했고, 전략적 깊이 또한 충분하다. 동료 캐릭터들은 단순한 조력자가 아니라 각자의 서사를 가진 존재로 기능하며, 관계의 변화가 플레이 경험에 직접적인 영향을 준다. 다만 초반 진입 장벽과 다소 느린 전개는 호불호가 갈릴 수 있다. 그럼에도 불구하고 이 작품은 RPG 장르가 어디까지 확장될 수 있는지를 보여주는 사례에 가깝다. 깊이 있는 서사와 높은 자유도를 원하는 플레이어라면 충분히 만족할 가능성이 높다. 전체적으로 완성도와 밀도 모두에서 높은 평가를 받을 만한 작품이다.",
+        "무슨 말이 필요한가 그냥 갓겜 그 자체이다 압도적으로 긍정적인건 다 이유가 있다 재미있는 스토리 턴제 전투지만 지루하지 않음 제돈주고 사도 아깝지가 않은 게임 본인에 인생겜이라고 할만큼 아깝지 않은 시간이었다 무조건 사라"
+      ],
+      "evidence_snippets": [
+        "무슨 말가 필요한가 그냥 갓겜 그 자체이다 압도적으로 긍정적인건 다 이유가 있다 재미있는 스토리 턴제 전투지만 지루하지 않음 제돈주고 사도 아깝지가 않은 게임 본인에 인생겜이라고 할만큼 아깝지 않은 시간이었다 무조건 사라",
+        "발더스 게이트 3는 단순히 잘 만든 RPG를 넘어, 선택이라는 요소가 실제로 의미를 갖는 드문 작품이다. 플레이어의 결정 하나하나가 세계와 캐릭터에 영향을 주며, 그 결과가 자연스럽게 이어지는 구조는 상당히 인상적이다. 전투는 턴제임에도 불구하고 지형과 상호작용을 적극 활용하게 만들어 단조로움을 피했고, 전략적 깊이 또한 충분하다. 동료 캐릭터들은 단순한 조력자가 아니라 각자의 서사를 가진 존재로 기능하며, 관계의 변화가 플레이 경험에 직접적인 영향을 준다. 다만 초반 진입 장벽과 다소 느린 전개는 호불호가 갈릴 수 있다. 그럼에도 불구하고 이 작품은 RPG 장르가 어디까지 확장될 수 있는지를 보여주는 사례에 가깝다. 깊이 있는 서사와 높은 자유도를 원하는 플레이어라면 충분히 만족할 가능성이 높다. 전체적으로 완성도와 밀도 모두에서 높은 평가를 받을 만한 작품이다.",
+        "주변에서 명작이라고 호들갑 떨어서 이 악물고 안하고 있다가 우연히 해봤는데 발더스 3가 인생 게임이 되어버렸네요! 전투, 스토리, 더빙, 동료들과의 관계까지 모든 요소들을 재밌게 즐길 수 있었습니다. 게임을 진행하면서 스토리 분기점이 너무 많아서 어떤 선택을 해야할지 애먹긴 했지만 나만의 스토리를 만들어 나가는 맛이 있었습니다. 스토리 완성도도 높아서 이렇게 몰입하고 서브퀘스트까지 전부 찾아가면서 플레이 한 게임은 발더스가 처음이네요~ 전투 방식도 재밌고 엔딩도 독특합니다. 안 하신 분들은 꼭 하세요! 두 번 하세요! 2회차는 다른 루트로 진행하려고 하는데 벌써 기대됩니다. 단점은... 1. 잡템이 너무 많고 캐릭터마다 무게 제한이 있어서 아이템 정리가 힘들네요. 스토리 진행하면서 정리하는 시간이 꽤 길었습니다. 제 방도 이렇게까지는 정리 안하는데.. 2. 기능이 너무 많아서 패드로는 조작이 힘드네요. 맵 둘러보는 기능이 없어서 그냥 포기하고 마우스로 플레이 했습니다. 소파에 누워서 편하게 플레이 했으면 좋았을텐데 이건 좀 아쉽습니다. 근데 단점의 거의 없습니다. 위에 있는 단점들 재미로 전부 커버됩니다. 리메이크 만든다고 시간 질질끌다가 파트로 쪼개 팔면서 돈만 밝히고 플스에서만 판매하겠다는 플랫폼 약속도 안지키고 10년넘게 실망만 시키던 모 게임사와는 다르게 하나의 게임으로 유저에게 컨텐츠를 한개라도 더 제공하겠다는 마음이 느껴져서 감동 먹었습니다. 솔직히, 이런 RPG게임을 다시 만날 수 있을 지가 의문이네요. 라리안 감사합니다~"
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-positive-1-1-5152058983389309084",
+          "text": "주변에서 명작이라고 호들갑 떨어서 이 악물고 안하고 있다가 우연히 해봤는데 발더스 3가 인생 게임이 되어버렸네요! 전투, 스토리, 더빙, 동료들과의 관계까지 모든 요소들을 재밌게 즐길 수 있었습니다. 게임을 진행하면서 스토리 분기점이 너무 많아서 어떤 선택을 해야할지 애먹긴 했지만 나만의 스토리를 만들어 나가는 맛이 있었습니다. 스토리 완성도도 높아서 이렇게 몰입하고 서브퀘스트까지 전부 찾아가면서 플레이 한 게임은 발더스가 처음이네요~ 전투 방식도 재밌고 엔딩도 독특합니다. 안 하신 분들은 꼭 하세요! 두 번 하세요! 2회차는 다른 루트로 진행하려고 하는데 벌써 기대됩니다. 단점은... 1. 잡템이 너무 많고 캐릭터마다 무게 제한이 있어서 아이템 정리가 힘들네요. 스토리 진행하면서 정리하는 시간이 꽤 길었습니다. 제 방도 이렇게까지는 정리 안하는데.. 2. 기능이 너무 많아서 패드로는 조작이 힘드네요. 맵 둘러보는 기능이 없어서 그냥 포기하고 마우스로 플레이 했습니다. 소파에 누워서 편하게 플레이 했으면 좋았을텐데 이건 좀 아쉽습니다. 근데 단점의 거의 없습니다. 위에 있는 단점들 재미로 전부 커버됩니다. 리메이크 만든다고 시간 질질끌다가 파트로 쪼개 팔면서 돈만 밝히고 플스에서만 판매하겠다는 플랫폼 약속도 안지키고 10년넘게 실망만 시키던 모 게임사와는 다르게 하나의 게임으로 유저에게 컨텐츠를 한개라도 더 제공하겠다는 마음이 느껴져서 감동 먹었습니다. 솔직히, 이런 RPG게임을 다시 만날 수 있을 지가 의문이네요. 라리안 감사합니다~"
+        },
+        {
+          "review_id": "compress-v3-positive-1-2-8216373624960108732",
+          "text": "발더스 게이트 3는 단순히 잘 만든 RPG를 넘어, 선택이라는 요소가 실제로 의미를 갖는 드문 작품이다. 플레이어의 결정 하나하나가 세계와 캐릭터에 영향을 주며, 그 결과가 자연스럽게 이어지는 구조는 상당히 인상적이다. 전투는 턴제임에도 불구하고 지형과 상호작용을 적극 활용하게 만들어 단조로움을 피했고, 전략적 깊이 또한 충분하다. 동료 캐릭터들은 단순한 조력자가 아니라 각자의 서사를 가진 존재로 기능하며, 관계의 변화가 플레이 경험에 직접적인 영향을 준다. 다만 초반 진입 장벽과 다소 느린 전개는 호불호가 갈릴 수 있다. 그럼에도 불구하고 이 작품은 RPG 장르가 어디까지 확장될 수 있는지를 보여주는 사례에 가깝다. 깊이 있는 서사와 높은 자유도를 원하는 플레이어라면 충분히 만족할 가능성이 높다. 전체적으로 완성도와 밀도 모두에서 높은 평가를 받을 만한 작품이다."
+        },
+        {
+          "review_id": "compress-v3-positive-1-3-111021106855227297",
+          "text": "무슨 말이 필요한가 그냥 갓겜 그 자체이다 압도적으로 긍정적인건 다 이유가 있다 재미있는 스토리 턴제 전투지만 지루하지 않음 제돈주고 사도 아깝지가 않은 게임 본인에 인생겜이라고 할만큼 아깝지 않은 시간이었다 무조건 사라"
+        }
+      ]
+    },
+    {
+      "block_id": "str_2",
+      "title": "탐험과 맥락 해석의 재미가 있다는 반응",
+      "theme": "세계관과 연출 덕분에 플레이를 계속하게 되는 몰입 경험",
+      "why_it_matters": "세계의 단서와 맥락을 읽어가는 재미를 좋게 보는 반응이 많아 서서히 몰입하는 플레이와 잘 맞습니다.",
+      "explanation": "세계의 단서와 맥락을 읽어가는 재미를 좋게 보는 반응이 많아 서서히 몰입하는 플레이와 잘 맞습니다.",
+      "aspect_keys": [
+        "story"
+      ],
+      "stance": "positive",
+      "consensus_level": "high",
+      "mention_count": 1474,
+      "evidence_quality_level": "strict",
+      "evidence_candidate_snippets": [
+        "아주 오래전 네버윈터나이트2를 d&d룰도 모른 채 어떻게 어떻게 엔딩까지 봤었지만 이야기의 재미는 거의 느끼지 못했었다. 뒤늦게 패치 8까지 이뤄진 발더스게이트3를 이제야 하고 있다. 개발진들의 위트와 집념, 이렇게까지 한다고? 싶은 집요함이 온갖 곳에서 느껴진다. 한글화가 무척 좋아 드디어 이야기를 제대로 따라가고 있다. 모험의 맛이 참 좋다. 정답이 없는 게임이라는 걸 알면서도 모든 아이템을 이잡듯 뒤지는 내 모습이 좀 한심하게 느껴지기도 한다. 빠른 저장을 습관적으로 하고는 있지만 불러오기는 거의 하지 않고 있다. 아이템의 기능이나 주문을 확인하는 용도로만 세이브/로드를 활용할 뿐 전투가 망하거나 선택이 마음에 들지 않아도 꾹 참고 진행하고 있다. 그래도 이야기는 흘러간다. 그래. 그래도 이야기는 흘러간다. 내 선택이 멍청했든 지혜로웠든, 이야기는 흘러가기 마련이다. 공략이나 빌드는 전혀 보지 않고 하려다가 아무래도 d&d 5판 룰을 이해하지 못하고 진행하는 건 너무한 것 같아 제미나이의 도움을 받아 내 캐릭터와 동료 캐릭터의 스탯을 다시 설정해보니 지금껏 얼마나 멍청하게 진행했는지 허망하기도 했다. 그러다 그런 엉망진창인 상태로 2막 중반까지 어떻게든 왔다는 걸 깨달았다. 최적화와 민맥싱도 즐거움의 요소지만, 어중간하고 직업 특성에도 하나도 맞지 않고 주문도 중구난방으로 되었어도 이야기는 흘러간다. 몇 번 죽기도 하고 전멸도 해봤지만 한 손에 꼽는 정도다. 전투 한 번 한 번에 1-2시간을 소비하게 되는 것이 지치기도 하지만 목숨을 건 전투라면 어쩔 수 없다. 경험이 쌓이고 요령도 생기고 능력치와 주문의 상성에 이해가 쌓이기 시작하면서 긴장을 풀고 다니다가 두드려 맞기도 한다. 라리안 스튜디오는 참 멋진 세계를 만들었다. 감탄이 멈추지 않는다. 모험을 멈추고 싶지가 않다.",
+        "턴제에 익숙하지 않은사람은 초반엔 어려울수있음 적응되면 이거만한 게임이 없어요 그리고 고수님들 조만간 2막스토리 모드 큰거 오니까 넥서스 확인해보세요"
+      ],
+      "evidence_snippets": [
+        "아주 오래전 네버윈터나이트2를 d&d룰도 모른 채 어떻게 어떻게 엔딩까지 봤었지만 이야기의 재미는 거의 느끼지 못했었다. 뒤늦게 패치 8까지 이뤄진 발더스게이트3를 이제야 하고 있다. 개발진들의 위트와 집념, 이렇게까지 한다고? 싶은 집요함이 온갖 곳에서 느껴진다. 한글화가 무척 좋아 드디어 이야기를 제대로 따라가고 있다. 모험의 맛이 참 좋다. 정답이 없는 게임이라는 걸 알면서도 모든 아이템을 이잡듯 뒤지는 내 모습이 좀 한심하게 느껴지기도 한다. 빠른 저장을 습관적으로 하고는 있지만 불러오기는 거의 하지 않고 있다. 아이템의 기능이나 주문을 확인하는 용도로만 세이브/로드를 활용할 뿐 전투가 망하거나 선택이 마음에 들지 않아도 꾹 참고 진행하고 있다. 그래도 이야기는 흘러간다. 그래. 그래도 이야기는 흘러간다. 내 선택이 멍청했든 지혜로웠든, 이야기는 흘러가기 마련이다. 공략이나 빌드는 전혀 보지 않고 하려다가 아무래도 d&d 5판 룰을 이해하지 못하고 진행하는 건 너무한 것 같아 제미나이의 도움을 받아 내 캐릭터와 동료 캐릭터의 스탯을 다시 설정해보니 지금껏 얼마나 멍청하게 진행했는지 허망하기도 했다. 그러다 그런 엉망진창인 상태로 2막 중반까지 어떻게든 왔다는 걸 깨달았다. 최적화와 민맥싱도 즐거움의 요소지만, 어중간하고 직업 특성에도 하나도 맞지 않고 주문도 중구난방으로 되었어도 이야기는 흘러간다. 몇 번 죽기도 하고 전멸도 해봤지만 한 손에 꼽는 정도다. 전투 한 번 한 번에 1-2시간을 소비하게 되는 것이 지치기도 하지만 목숨을 건 전투라면 어쩔 수 없다. 경험이 쌓이고 요령도 생기고 능력치와 주문의 상성에 이해가 쌓이기 시작하면서 긴장을 풀고 다니다가 두드려 맞기도 한다. 라리안 스튜디오는 참 멋진 세계를 만들었다. 감탄이 멈추지 않는다. 모험을 멈추고 싶지가 않다.",
+        "턴제에 익숙하지 않은사람은 초반엔 어려울수있음 적응되면 이거만한 게임이 없어요 그리고 고수님들 조만간 2막스토리 모드 큰거 오니까 넥서스 확인해보세요"
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-positive-2-1-8690237647833017103",
+          "text": "아주 오래전 네버윈터나이트2를 d&d룰도 모른 채 어떻게 어떻게 엔딩까지 봤었지만 이야기의 재미는 거의 느끼지 못했었다. 뒤늦게 패치 8까지 이뤄진 발더스게이트3를 이제야 하고 있다. 개발진들의 위트와 집념, 이렇게까지 한다고? 싶은 집요함이 온갖 곳에서 느껴진다. 한글화가 무척 좋아 드디어 이야기를 제대로 따라가고 있다. 모험의 맛이 참 좋다. 정답이 없는 게임이라는 걸 알면서도 모든 아이템을 이잡듯 뒤지는 내 모습이 좀 한심하게 느껴지기도 한다. 빠른 저장을 습관적으로 하고는 있지만 불러오기는 거의 하지 않고 있다. 아이템의 기능이나 주문을 확인하는 용도로만 세이브/로드를 활용할 뿐 전투가 망하거나 선택이 마음에 들지 않아도 꾹 참고 진행하고 있다. 그래도 이야기는 흘러간다. 그래. 그래도 이야기는 흘러간다. 내 선택이 멍청했든 지혜로웠든, 이야기는 흘러가기 마련이다. 공략이나 빌드는 전혀 보지 않고 하려다가 아무래도 d&d 5판 룰을 이해하지 못하고 진행하는 건 너무한 것 같아 제미나이의 도움을 받아 내 캐릭터와 동료 캐릭터의 스탯을 다시 설정해보니 지금껏 얼마나 멍청하게 진행했는지 허망하기도 했다. 그러다 그런 엉망진창인 상태로 2막 중반까지 어떻게든 왔다는 걸 깨달았다. 최적화와 민맥싱도 즐거움의 요소지만, 어중간하고 직업 특성에도 하나도 맞지 않고 주문도 중구난방으로 되었어도 이야기는 흘러간다. 몇 번 죽기도 하고 전멸도 해봤지만 한 손에 꼽는 정도다. 전투 한 번 한 번에 1-2시간을 소비하게 되는 것이 지치기도 하지만 목숨을 건 전투라면 어쩔 수 없다. 경험이 쌓이고 요령도 생기고 능력치와 주문의 상성에 이해가 쌓이기 시작하면서 긴장을 풀고 다니다가 두드려 맞기도 한다. 라리안 스튜디오는 참 멋진 세계를 만들었다. 감탄이 멈추지 않는다. 모험을 멈추고 싶지가 않다."
+        },
+        {
+          "review_id": "compress-v3-positive-2-3-7014146841733491561",
+          "text": "턴제에 익숙하지 않은사람은 초반엔 어려울수있음 적응되면 이거만한 게임이 없어요 그리고 고수님들 조만간 2막스토리 모드 큰거 오니까 넥서스 확인해보세요"
+        }
+      ]
+    },
+    {
+      "block_id": "str_3",
+      "title": "전술과 운영 판단의 재미가 크다는 반응이 있다.",
+      "theme": "중독성 / 시간순삭",
+      "why_it_matters": "전술과 운영 판단의 재미를 말하는 반응이 많아 오래 다듬는 플레이와 잘 맞습니다.",
+      "explanation": "전술과 운영 판단의 재미를 말하는 반응이 많아 오래 다듬는 플레이와 잘 맞습니다.",
+      "aspect_keys": [
+        "content_depth"
+      ],
+      "stance": "positive",
+      "consensus_level": "high",
+      "mention_count": 791,
+      "evidence_quality_level": "relaxed",
+      "evidence_candidate_snippets": [
+        "갓겜! 볼륨이 엄청나구요, 선택지도 엄청 다양해서 계속 새로운 걸 발견하는 게 꿀잼입니당 막판에는 보스를 원콤 내버릴 정도로 성장한 캐릭터를 보는 맛도 있구요! 새로운 상황 속에서 전략을 구상하는 것도 재밌습니다! 즐길 컨텐츠는 엄청 많지만 그만큼 피로도 누적도 상당합니다 하루에 몇 시간을 해도 모든 퀘스트를 깨려면 일주일 이상은 걸릴 정도입니다.. 기나긴 대서사시를 마치니 몸이 엄청 피로하네요... 우리가 발더스 게이트를 지켰다! 야호! 이런 류의 TRPG 게임이 또 나왔으면 좋겠네요! 왕추천합니다!",
+        "내 인생겜.. 내가 지금까지 플레이 했던 게임들 중 1등이라 단언할 수 있는 게임.. 겜생중 처음으로 3회차를 도전한 게임.. 진짜 게임 완성도가.. 미쳤다고 생각함.. 우선 난이도에 대해 설명부터 해줌. 다른 겜들이랑 난이도 기준이 살짝 다름. - 탐험가(쉬움): 진짜 너무 쉬움. 메인 퀘스트만 진행하고 싶다는 사람에게 추천함. - 균형(보통): 어려움. 메인 퀘스트만 진행할수가 없음. 반 필수적으로 부가 퀘스트를 진행해야 함(레벨, 템파밍 필요), 탐험가 난이도와의 차이가 매우 큼. - 전술가(어려움): 지인짜 어려움. 필수적인 부가 퀘스트, 경험치 파밍, 템 파밍이 필요. 하지만, 좋은 빌드를 가지고 간다면 쉬워짐. 난이도의 차이는 특정 선택지를 선택하여 진행할 가능성의 차이 + 딜량 + 동료의 체력 증가 + 적의 체력 감소 등등 많은 요소가 관여 됨. 일반 게임들은 보통난이도로 하더라도 메인 퀘스트만 진행이고, 부가퀘스트는 선택인 부분이 많은데, 이 게임은 보통난이도부터 부가퀘스트가 반 필수적으로 해야함. 대신, 이 게임 자체가 부가퀘스트가 자동적으로 하게끔 설계? 구현 되어있음. 귀찮더라도 부가퀘스트가 메인퀘스트에 이어지는 경우가 많으니 하는것을 추천. 여기에서의 부가퀘스트는 메인퀘스트의 떡밥 느낌으로 적용되니 하는것을 추천. 물론 아예 관련없는 부가퀘스트도 많음. 퀘스트에 대한 이야기가 많은데 그런 이유가 있음. 이 게임은 \"스토리\"게임임. 글 많은 것을 못보겠다거나 자신이 스토리를 보지 않는 스타일이다 하면 구매하는 것을 고려해야함. 내가 선택한 선택지로 인해 결정되는 이야기와 엔딩, 그렇게 만들어지는 하나의 발더스게이트3의 스토리를 보는 재미가 이 게임의 50%이상을 차지한다고 생각함. 하지만, 스토리를 보지 않는 사람이 한다면.. 나는 말리고 싶음. 재밌는게, \"나는 이렇게 플레이 했는데 다른 사람은 어떻게 플레이 했지?\" 가 됨. 먼저 플레이 해보고 다른 스트리머들이 플레이 한 영상을 보면 진짜 양상이 아예 다를거임. 그런 재미도 있고, 특정 선택지가 있을때 다른 사람이었으면 어떻게 했을까? 하면서 봐도 재밌음. 나는 같이 플레이 한 사람이 있어서 같이 화면공유 하면서 킥킥 대면서 봤음 ㅋㅋ 공략과 관련해서 좀 얘기 하고 싶음. 이 게임은 공략을 보면서 플레이 하면 매우 쉬워짐. 나는 스스로 동료를 편성하고, 그 동료들의 클래스, 레벨에 따르는 다양한 기능을 보면서 빌드를 짜봤으면 좋겠음."
+      ],
+      "evidence_snippets": [
+        "갓겜! 볼륨이 엄청나구요, 선택지도 엄청 다양해서 계속 새로운 걸 발견하는 게 꿀잼입니당 막판에는 보스를 원콤 내버릴 정도로 성장한 캐릭터를 보는 맛도 있구요! 새로운 상황 속에서 전략을 구상하는 것도 재밌습니다! 즐길 컨텐츠는 엄청 많지만 그만큼 피로도 누적도 상당합니다 하루에 몇 시간을 해도 모든 퀘스트를 깨려면 일주일 이상은 걸릴 정도입니다.. 기나긴 대서사시를 마치니 몸이 엄청 피로하네요... 우리가 발더스 게이트를 지켰다! 야호! 이런 류의 TRPG 게임이 또 나왔으면 좋겠네요! 왕추천합니다!",
+        "내 인생겜.. 내가 지금까지 플레이 했던 게임들 중 1등이라 단언할 수 있는 게임.. 겜생중 처음으로 3회차를 도전한 게임.. 진짜 게임 완성도가.. 미쳤다고 생각함.. 우선 난이도에 대해 설명부터 해줌. 다른 겜들이랑 난이도 기준이 살짝 다름. - 탐험가(쉬움): 진짜 너무 쉬움. 메인 퀘스트만 진행하고 싶다는 사람에게 추천함. - 균형(보통): 어려움. 메인 퀘스트만 진행할수가 없음. 반 필수적으로 부가 퀘스트를 진행해야 함(레벨, 템파밍 필요), 탐험가 난이도와의 차이가 매우 큼. - 전술가(어려움): 지인짜 어려움. 필수적인 부가 퀘스트, 경험치 파밍, 템 파밍가 필요. 하지만, 좋은 빌드를 가지고 간다면 쉬워짐. 난이도의 차이는 특정 선택지를 선택하여 진행할 가능성의 차이 + 딜량 + 동료의 체력 증가 + 적의 체력 감소 등등 많은 요소가 관여 됨. 일반 게임들은 보통난이도로 하더라도 메인 퀘스트만 진행이고, 부가퀘스트는 선택인 부분이 많은데, 이 게임은 보통난이도부터 부가퀘스트가 반 필수적으로 해야함. 대신, 이 게임 자체가 부가퀘스트가 자동적으로 하게끔 설계? 구현 되어있음. 귀찮더라도 부가퀘스트가 메인퀘스트에 이어지는 경우가 많으니 하는것을 추천. 여기에서의 부가퀘스트는 메인퀘스트의 떡밥 느낌으로 적용되니 하는것을 추천. 물론 아예 관련없는 부가퀘스트도 많음. 퀘스트에 대한 이야기가 많은데 그런 이유가 있음. 이 게임은 \"스토리\"게임임. 글 많은 것을 못보겠다거나 자신이 스토리를 보지 않는 스타일이다 하면 구매하는 것을 고려해야함. 내가 선택한 선택지로 인해 결정되는 이야기와 엔딩, 그렇게 만들어지는 하나의 발더스게이트3의 스토리를 보는 재미가 이 게임의 50%이상을 차지한다고 생각함. 하지만, 스토리를 보지 않는 사람이 한다면.. 나는 말리고 싶음. 재밌는게, \"나는 이렇게 플레이 했는데 다른 사람은 어떻게 플레이 했지?\" 가 됨. 먼저 플레이 해보고 다른 스트리머들이 플레이 한 영상을 보면 진짜 양상이 아예 다를거임. 그런 재미도 있고, 특정 선택지가 있을때 다른 사람이었으면 어떻게 했을까? 하면서 봐도 재밌음. 나는 같이 플레이 한 사람이 있어서 같이 화면공유 하면서 킥킥 대면서 봤음 ㅋㅋ 공략과 관련해서 좀 얘기 하고 싶음. 이 게임은 공략을 보면서 플레이 하면 매우 쉬워짐. 나는 스스로 동료를 편성하고, 그 동료들의 클래스, 레벨에 따르는 다양한 기능을 보면서 빌드를 짜봤으면 좋겠음."
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-positive-3-1-3098382982218902595",
+          "text": "갓겜! 볼륨이 엄청나구요, 선택지도 엄청 다양해서 계속 새로운 걸 발견하는 게 꿀잼입니당 막판에는 보스를 원콤 내버릴 정도로 성장한 캐릭터를 보는 맛도 있구요! 새로운 상황 속에서 전략을 구상하는 것도 재밌습니다! 즐길 컨텐츠는 엄청 많지만 그만큼 피로도 누적도 상당합니다 하루에 몇 시간을 해도 모든 퀘스트를 깨려면 일주일 이상은 걸릴 정도입니다.. 기나긴 대서사시를 마치니 몸이 엄청 피로하네요... 우리가 발더스 게이트를 지켰다! 야호! 이런 류의 TRPG 게임이 또 나왔으면 좋겠네요! 왕추천합니다!"
+        },
+        {
+          "review_id": "compress-v3-positive-3-8-8437948346490037788",
+          "text": "내 인생겜.. 내가 지금까지 플레이 했던 게임들 중 1등이라 단언할 수 있는 게임.. 겜생중 처음으로 3회차를 도전한 게임.. 진짜 게임 완성도가.. 미쳤다고 생각함.. 우선 난이도에 대해 설명부터 해줌. 다른 겜들이랑 난이도 기준이 살짝 다름. - 탐험가(쉬움): 진짜 너무 쉬움. 메인 퀘스트만 진행하고 싶다는 사람에게 추천함. - 균형(보통): 어려움. 메인 퀘스트만 진행할수가 없음. 반 필수적으로 부가 퀘스트를 진행해야 함(레벨, 템파밍 필요), 탐험가 난이도와의 차이가 매우 큼. - 전술가(어려움): 지인짜 어려움. 필수적인 부가 퀘스트, 경험치 파밍, 템 파밍이 필요. 하지만, 좋은 빌드를 가지고 간다면 쉬워짐. 난이도의 차이는 특정 선택지를 선택하여 진행할 가능성의 차이 + 딜량 + 동료의 체력 증가 + 적의 체력 감소 등등 많은 요소가 관여 됨. 일반 게임들은 보통난이도로 하더라도 메인 퀘스트만 진행이고, 부가퀘스트는 선택인 부분이 많은데, 이 게임은 보통난이도부터 부가퀘스트가 반 필수적으로 해야함. 대신, 이 게임 자체가 부가퀘스트가 자동적으로 하게끔 설계? 구현 되어있음. 귀찮더라도 부가퀘스트가 메인퀘스트에 이어지는 경우가 많으니 하는것을 추천. 여기에서의 부가퀘스트는 메인퀘스트의 떡밥 느낌으로 적용되니 하는것을 추천. 물론 아예 관련없는 부가퀘스트도 많음. 퀘스트에 대한 이야기가 많은데 그런 이유가 있음. 이 게임은 \"스토리\"게임임. 글 많은 것을 못보겠다거나 자신이 스토리를 보지 않는 스타일이다 하면 구매하는 것을 고려해야함. 내가 선택한 선택지로 인해 결정되는 이야기와 엔딩, 그렇게 만들어지는 하나의 발더스게이트3의 스토리를 보는 재미가 이 게임의 50%이상을 차지한다고 생각함. 하지만, 스토리를 보지 않는 사람이 한다면.. 나는 말리고 싶음. 재밌는게, \"나는 이렇게 플레이 했는데 다른 사람은 어떻게 플레이 했지?\" 가 됨. 먼저 플레이 해보고 다른 스트리머들이 플레이 한 영상을 보면 진짜 양상이 아예 다를거임. 그런 재미도 있고, 특정 선택지가 있을때 다른 사람이었으면 어떻게 했을까? 하면서 봐도 재밌음. 나는 같이 플레이 한 사람이 있어서 같이 화면공유 하면서 킥킥 대면서 봤음 ㅋㅋ 공략과 관련해서 좀 얘기 하고 싶음. 이 게임은 공략을 보면서 플레이 하면 매우 쉬워짐. 나는 스스로 동료를 편성하고, 그 동료들의 클래스, 레벨에 따르는 다양한 기능을 보면서 빌드를 짜봤으면 좋겠음."
+        }
+      ]
+    },
+    {
+      "block_id": "risk_1",
+      "title": "오류와 끊김이 흐름을 끊는다는 반응",
+      "theme": "예상치 못한 오류가 플레이 리듬을 끊을 수 있는 리스크",
+      "why_it_matters": "오류와 끊김을 지적하는 반응이 이어져 흐름이 끊기는 상황은 감수할 필요가 있습니다.",
+      "explanation": "오류와 끊김을 지적하는 반응이 이어져 흐름이 끊기는 상황은 감수할 필요가 있습니다.",
+      "aspect_keys": [
+        "bugs"
+      ],
+      "stance": "negative",
+      "consensus_level": "medium",
+      "mention_count": 367,
+      "evidence_quality_level": "guaranteed_fill",
+      "evidence_candidate_snippets": [
+        "바닐라 기준 몇몇 퀘스트 트리거 오작동이나 진행 막힘 버그 제외하면 스토리 몰빵형이 취향이면 정말 잘맞는 겜이지만 하필 버그 터지는 퀘스트가 고유급 보상(예시: 아울베어 새끼) 관련된게 있는게 좀 크고.. 공략없이 순서 없이 무지성으로 진행하다보면 잘못하다가 강제 분량 스킵이라는 함정이 발동하는 불상사가 생긴다.. 솔직히 이런점 때문에 순수하게 rpg로 즐기기에는 rpg로써 전투 관련 분량이 메인은 아니고 곁들인 느낌이랄까.. 꼬우면 다회차이긴 한데..게임 특성상 플레이어가 조금만 꼼꼼해도 상당히 불쾌한 골짜기가 생기는 상황이 많다.. 성격 안맞으면 진행 방식상 개인차겠지만 시간적 부담이나 정말 2회차도 부담스러워서 안하고 싶어진다.. 생각보다 선택 강요로 인한 퀘스트 보상 문제는 문제될 경우가 버그 터지는거 말고는 원하는 스토리 흐름 빼고는 딱히 문제될거는 없는데.. 아 여튼... 전투 관련으로써 순수하게 재미가 너무 없는게 저렙(4렙 이하)때는 함정같은 기믹활용 안하면 진행이 좀 어렵다는거 빼고는 딜 비중이 중반까지도 폭발물 원툴이 효율이 너무 좋다 보니 대부분의 캐릭터의 클래스 개성은 전투면에서 느끼기에는 좀 중반부 이후나 되어야 느낌이 온달까.. 별도로 자체적 장르 특성상 스토리 감상같은거 딱히 중요하게 여기지도 않고 여튼 전투면에서 정해진 분량과 까다로운 룰+ 기믹 활용 등으로 뇌지컬로 커버하는 걸 즐기는 타입이 아니라면 정말 가격대비 비추하고 싶은 겜이다.(평가에 비해 개인적으로 해골물) 긴휴식 요구 자원이 모자르는것도 아니고 오히려 자주하라고 넘치는데 겜 전체적 시스템 부담감 때문인지 심리적 자극 요인이 있어 긴휴식하기가 너무 귀찮고 부담스러운게 웃음벨.. 하.. 모드로 커버칠수 있는건 많지만.. 여튼 본인은 1회차 시작부터 뭣같은 버그 자꾸 터져서 겜 할맛 뚝떨어짐.. 몇몇 퀘스트는 버그인지 아닌지 내용 갱신이 안되는 부분때문에 겜 자체가 좀 불친절한게 있어서..(아울베어 새끼 못 얻는건 솔직히 미련이 컸음= db 코드 건드리면 된다는데 그게 귀찮기도하고 잠재적으로 뭔 부작용 터질지 모르니 걍 안함 ) 여튼 1회차상 시간 투자에 비해 생각만큼 즐기지 못한 불편한점들이 많이 느껴져서..매력은 철철넘치는 겜인데 개인적으로 아쉬운 명작..",
+        "겜이 탐험요소가 너무많은데 길찾기 힘들고 스킬 최적화 어케시켜야할지도 모르겠음 너무 중구난방임.. 이게왜 전설이지",
+        "이런 류 처음하는 사람에겐 호불호 갈릴 수도 있음. 카메라 무빙도 좀 불편하고 이동 속도도 좀 답답한데 턴제 전투식이라 전투마다 시간이 오래 소모됨 짜바리들이랑 싸워도 오래 걸려서 호불호 좀 갈릴 듯.",
+        "1차진입장벽 개빻은 외모의 양키센스 캐릭터들 2차진입장벽 내 게임시간보다 5배 긴 적들 이동시간 3차진입장벽 적이 날 때릴땐 샤프슈터 내가 적을때릴땐 빗나감! 치명적인 실수! 3차진입장벽 못넘고 폐사함 ㅈㅈ",
+        "하나의 캐릭터, 주인공으로 이야기를 풀어나가는 것이 내 취향임을 다시금 확인하게 되는 시간이었음.",
+        "다양한 선택지만큼 빈 칸으로 남은 공허한 서사.",
+        "분명 지루한 게임이었는데... 스며들었다??? 한번키면 하루 10시간 그냥 해버리네 미친게임",
+        "이 게임을 하고 알았다. 게임하다 졸린 것은 내가 피곤해서가 아니라 게임이 지루해서 였음을."
+      ],
+      "evidence_snippets": [
+        "바닐라 기준 몇몇 퀘스트 트리거 오작동이나 진행 막힘 버그 제외하면 스토리 몰빵형이 취향이면 정말 잘맞는 겜이지만 하필 버그 터지는 퀘스트가 고유급 보상(예시: 아울베어 새끼) 관련된게 있는게 좀 크고.. 공략없이 순서 없이 무지성으로 진행하다보면 잘못하다가 강제 분량 스킵이라는 함정이 발동하는 불상사가 생긴다.. 솔직히 이런점 때문에 순수하게 rpg로 즐기기에는 rpg로써 전투 관련 분량이 메인은 아니고 곁들인 느낌이랄까.. 꼬우면 다회차이긴 한데.. 게임 특성상 플레이어가 조금만 꼼꼼해도 상당히 불쾌한 골짜기가 생기는 상황이 많다.. 성격 안맞으면 진행 방식상 개인차겠지만 시간적 부담이나 정말 2회차도 부담스러워서 안하고 싶어진다.. 생각보다 선택 강요로 인한 퀘스트 보상 문제는 문제될 경우가 버그 터지는거 말고는 원하는 스토리 흐름 빼고는 딱히 문제될거는 없는데.. 아 여튼... 전투 관련으로써 순수하게 재미가 너무 없는게 저렙(4렙 이하)때는 함정같은 기믹활용 안하면 진행이 좀 어렵다는거 빼고는 딜 비중이 중반까지도 폭발물 원툴이 효율이 너무 좋다 보니 대부분의 캐릭터의 클래스 개성은 전투면에서 느끼기에는 좀 중반부 이후나 되어야 느낌이 온달까.. 별도로 자체적 장르 특성상 스토리 감상같은거 딱히 중요하게 여기지도 않고 여튼 전투면에서 정해진 분량과 까다로운 룰+ 기믹 활용 등으로 뇌지컬로 커버하는 걸 즐기는 타입이 아니라면 정말 가격대비 비추하고 싶은 겜이다.(평가에 비해 개인적으로 해골물) 긴휴식 요구 자원이 모자르는것도 아니고 오히려 자주하라고 넘치는데 겜 전체적 시스템 부담감 때문인지 심리적 자극 요인이 있어 긴휴식하기가 너무 귀찮고 부담스러운게 웃음벨.. 하.. 모드로 커버칠수 있는건 많지만.. 여튼 본인은 1회차 시작부터 뭣같은 버그 자꾸 터져서 겜 할맛 뚝떨어짐.. 몇몇 퀘스트는 버그인지 아닌지 내용 갱신이 안되는 부분때문에 겜 자체가 좀 불친절한게 있어서..(아울베어 새끼 못 얻는건 솔직히 미련이 컸음= db 코드 건드리면 된다는데 그게 귀찮기도하고 잠재적으로 뭔 부작용 터질지 모르니 걍 안함 ) 여튼 1회차상 시간 투자에 비해 생각만큼 즐기지 못한 불편한점들이 많이 느껴져서.. 매력은 철철넘치는 겜인데 개인적으로 아쉬운 명작..",
+        "이 게임을 하고 알았다. 게임하다 졸린 것은 내가 피곤해서가 아니라 게임이 지루해서 였음을.",
+        "겜이 탐험요소가 너무많은데 길찾기 힘들고 스킬 최적화 어케시켜야할지도 모르겠음 너무 중구난방임.. 이게왜 전설이지"
+      ],
+      "evidence_candidate_items": [
+        {
+          "review_id": "compress-v3-negative-1-1-4655338807464786353",
+          "text": "바닐라 기준 몇몇 퀘스트 트리거 오작동이나 진행 막힘 버그 제외하면 스토리 몰빵형이 취향이면 정말 잘맞는 겜이지만 하필 버그 터지는 퀘스트가 고유급 보상(예시: 아울베어 새끼) 관련된게 있는게 좀 크고.. 공략없이 순서 없이 무지성으로 진행하다보면 잘못하다가 강제 분량 스킵이라는 함정이 발동하는 불상사가 생긴다.. 솔직히 이런점 때문에 순수하게 rpg로 즐기기에는 rpg로써 전투 관련 분량이 메인은 아니고 곁들인 느낌이랄까.. 꼬우면 다회차이긴 한데..게임 특성상 플레이어가 조금만 꼼꼼해도 상당히 불쾌한 골짜기가 생기는 상황이 많다.. 성격 안맞으면 진행 방식상 개인차겠지만 시간적 부담이나 정말 2회차도 부담스러워서 안하고 싶어진다.. 생각보다 선택 강요로 인한 퀘스트 보상 문제는 문제될 경우가 버그 터지는거 말고는 원하는 스토리 흐름 빼고는 딱히 문제될거는 없는데.. 아 여튼... 전투 관련으로써 순수하게 재미가 너무 없는게 저렙(4렙 이하)때는 함정같은 기믹활용 안하면 진행이 좀 어렵다는거 빼고는 딜 비중이 중반까지도 폭발물 원툴이 효율이 너무 좋다 보니 대부분의 캐릭터의 클래스 개성은 전투면에서 느끼기에는 좀 중반부 이후나 되어야 느낌이 온달까.. 별도로 자체적 장르 특성상 스토리 감상같은거 딱히 중요하게 여기지도 않고 여튼 전투면에서 정해진 분량과 까다로운 룰+ 기믹 활용 등으로 뇌지컬로 커버하는 걸 즐기는 타입이 아니라면 정말 가격대비 비추하고 싶은 겜이다.(평가에 비해 개인적으로 해골물) 긴휴식 요구 자원이 모자르는것도 아니고 오히려 자주하라고 넘치는데 겜 전체적 시스템 부담감 때문인지 심리적 자극 요인이 있어 긴휴식하기가 너무 귀찮고 부담스러운게 웃음벨.. 하.. 모드로 커버칠수 있는건 많지만.. 여튼 본인은 1회차 시작부터 뭣같은 버그 자꾸 터져서 겜 할맛 뚝떨어짐.. 몇몇 퀘스트는 버그인지 아닌지 내용 갱신이 안되는 부분때문에 겜 자체가 좀 불친절한게 있어서..(아울베어 새끼 못 얻는건 솔직히 미련이 컸음= db 코드 건드리면 된다는데 그게 귀찮기도하고 잠재적으로 뭔 부작용 터질지 모르니 걍 안함 ) 여튼 1회차상 시간 투자에 비해 생각만큼 즐기지 못한 불편한점들이 많이 느껴져서..매력은 철철넘치는 겜인데 개인적으로 아쉬운 명작.."
+        },
+        {
+          "review_id": "compress-v3-negative-1-2-8038275501661126912",
+          "text": "겜이 탐험요소가 너무많은데 길찾기 힘들고 스킬 최적화 어케시켜야할지도 모르겠음 너무 중구난방임.. 이게왜 전설이지"
+        },
+        {
+          "review_id": "compress-v3-negative-1-3-6932623818574191492",
+          "text": "이런 류 처음하는 사람에겐 호불호 갈릴 수도 있음. 카메라 무빙도 좀 불편하고 이동 속도도 좀 답답한데 턴제 전투식이라 전투마다 시간이 오래 소모됨 짜바리들이랑 싸워도 오래 걸려서 호불호 좀 갈릴 듯."
+        },
+        {
+          "review_id": "compress-v3-negative-1-4-5506182446835906690",
+          "text": "1차진입장벽 개빻은 외모의 양키센스 캐릭터들 2차진입장벽 내 게임시간보다 5배 긴 적들 이동시간 3차진입장벽 적이 날 때릴땐 샤프슈터 내가 적을때릴땐 빗나감! 치명적인 실수! 3차진입장벽 못넘고 폐사함 ㅈㅈ"
+        },
+        {
+          "review_id": "compress-v3-negative-1-5-445369040810121058",
+          "text": "하나의 캐릭터, 주인공으로 이야기를 풀어나가는 것이 내 취향임을 다시금 확인하게 되는 시간이었음."
+        },
+        {
+          "review_id": "compress-v3-negative-1-6-4808334280562983323",
+          "text": "다양한 선택지만큼 빈 칸으로 남은 공허한 서사."
+        },
+        {
+          "review_id": "compress-v3-negative-1-7-8460639267593179662",
+          "text": "분명 지루한 게임이었는데... 스며들었다??? 한번키면 하루 10시간 그냥 해버리네 미친게임"
+        },
+        {
+          "review_id": "compress-v3-negative-1-8-7149398407355771167",
+          "text": "이 게임을 하고 알았다. 게임하다 졸린 것은 내가 피곤해서가 아니라 게임이 지루해서 였음을."
+        }
+      ]
+    }
+  ]
+}

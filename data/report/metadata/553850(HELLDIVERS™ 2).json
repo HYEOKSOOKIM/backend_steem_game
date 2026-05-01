@@ -1,6 +1,8 @@
 {
   "appid": 553850,
   "name": "HELLDIVERS™ 2",
+  "name_en": "HELLDIVERS™ 2",
+  "name_ko": "HELLDIVERS™ 2",
   "genres": [
     "액션"
   ],
@@ -10,13 +12,138 @@
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/c30971376c20594452d25bb1d7d6346961bbeefa/header_koreana.jpg?t=1770747641",
   "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/809895eaaca3d12a1c2b69c3aca4e356590b30da/capsule_231x87_koreana.jpg?t=1770747641",
   "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/809895eaaca3d12a1c2b69c3aca4e356590b30da/capsule_184x69_koreana.jpg?t=1770747641",
+  "screenshots": [
+    {
+      "id": "0",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/ss_0c79f56fc7be1bd0102f2ca1c92c8f0900daf4fb.600x338.jpg?t=1770747641",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/ss_0c79f56fc7be1bd0102f2ca1c92c8f0900daf4fb.1920x1080.jpg?t=1770747641"
+    },
+    {
+      "id": "1",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/ss_33e684e9cb2517af1599f0ca2b57d65ee82c2e51.600x338.jpg?t=1770747641",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/ss_33e684e9cb2517af1599f0ca2b57d65ee82c2e51.1920x1080.jpg?t=1770747641"
+    },
+    {
+      "id": "2",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/ss_8949ed7dd24a02d5ea13b08fc5c04fab400dc4bd.600x338.jpg?t=1770747641",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/ss_8949ed7dd24a02d5ea13b08fc5c04fab400dc4bd.1920x1080.jpg?t=1770747641"
+    },
+    {
+      "id": "3",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/ss_50afbbc4d811c38fe9f64c1fc8d7eb9d9da6d24c.600x338.jpg?t=1770747641",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/ss_50afbbc4d811c38fe9f64c1fc8d7eb9d9da6d24c.1920x1080.jpg?t=1770747641"
+    },
+    {
+      "id": "4",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/ss_cb276fe9f0b09683bdbc496f82b405dbe0ffa1f1.600x338.jpg?t=1770747641",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/ss_cb276fe9f0b09683bdbc496f82b405dbe0ffa1f1.1920x1080.jpg?t=1770747641"
+    },
+    {
+      "id": "5",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/ss_d0ac3830833a68d19d4a97c70aef0fba20bf0761.600x338.jpg?t=1770747641",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/ss_d0ac3830833a68d19d4a97c70aef0fba20bf0761.1920x1080.jpg?t=1770747641"
+    },
+    {
+      "id": "6",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/ss_3b08a991443164a65f84f1bd9f1363e6c2ec4581.600x338.jpg?t=1770747641",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/ss_3b08a991443164a65f84f1bd9f1363e6c2ec4581.1920x1080.jpg?t=1770747641"
+    },
+    {
+      "id": "7",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/ss_8f4af550ecbee08abb616b12cbb3896174dce153.600x338.jpg?t=1770747641",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/ss_8f4af550ecbee08abb616b12cbb3896174dce153.1920x1080.jpg?t=1770747641"
+    },
+    {
+      "id": "8",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/ss_3d075daf49e21731cd768ee2ea3adf63857f798c.600x338.jpg?t=1770747641",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/ss_3d075daf49e21731cd768ee2ea3adf63857f798c.1920x1080.jpg?t=1770747641"
+    },
+    {
+      "id": "9",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/ss_bed14617fc317c2d2b59fdc4d8c4f29b8ddf7ed2.600x338.jpg?t=1770747641",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/ss_bed14617fc317c2d2b59fdc4d8c4f29b8ddf7ed2.1920x1080.jpg?t=1770747641"
+    },
+    {
+      "id": "10",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/ss_e45cb071779848564b3d2dcd7c3d38b7bd81cf9c.600x338.jpg?t=1770747641",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/ss_e45cb071779848564b3d2dcd7c3d38b7bd81cf9c.1920x1080.jpg?t=1770747641"
+    },
+    {
+      "id": "11",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/ss_5dde7ea6922800dfece2a3a319cb68e4f6f67949.600x338.jpg?t=1770747641",
+      "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/ss_5dde7ea6922800dfece2a3a319cb68e4f6f67949.1920x1080.jpg?t=1770747641"
+    }
+  ],
+  "movies": [
+    {
+      "id": "257283767",
+      "name": "Machinery of Oppression",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257283767/74530448c79959adc9a08e6e2107de2d79591230/movie_600x337.jpg?t=1770747639",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/553850/1282619189/bcb2ef87a4fc81c55e55bd5b088159331a6b5de6/1770740902/hls_264_master.m3u8?t=1770747639",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/553850/1282619189/bcb2ef87a4fc81c55e55bd5b088159331a6b5de6/1770740902/dash_h264.mpd?t=1770747639",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/553850/1282619189/bcb2ef87a4fc81c55e55bd5b088159331a6b5de6/1770740902/dash_av1.mpd?t=1770747639",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/553850/1282619189/bcb2ef87a4fc81c55e55bd5b088159331a6b5de6/1770740902/hls_264_master.m3u8?t=1770747639"
+    },
+    {
+      "id": "257193419",
+      "name": "Into the Unjust (KR-KO)",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257193419/90c62d01ab0f6621cf332f6cde497ee0cdcc896d/movie_600x337.jpg?t=1757033540",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/553850/1000254002/55281b8d916348dd194c085e8dba0e9df2cf19af/1757029128/hls_264_master.m3u8?t=1757033540",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/553850/1000254002/55281b8d916348dd194c085e8dba0e9df2cf19af/1757029128/dash_h264.mpd?t=1757033540",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/553850/1000254002/55281b8d916348dd194c085e8dba0e9df2cf19af/1757029128/dash_av1.mpd?t=1757033540",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/553850/1000254002/55281b8d916348dd194c085e8dba0e9df2cf19af/1757029128/hls_264_master.m3u8?t=1757033540"
+    },
+    {
+      "id": "256994373",
+      "name": "Launch Trailer (US-EN)",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256994373/movie.293x165.jpg?t=1756923474",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/553850/650713/095c6d5ae33c146b807f4394fa3010847aec1c1e/1750550195/hls_264_master.m3u8?t=1756923474",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/553850/650713/095c6d5ae33c146b807f4394fa3010847aec1c1e/1750550195/dash_h264.mpd?t=1756923474",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/553850/650713/095c6d5ae33c146b807f4394fa3010847aec1c1e/1750550195/dash_av1.mpd?t=1756923474",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/553850/650713/095c6d5ae33c146b807f4394fa3010847aec1c1e/1750550195/hls_264_master.m3u8?t=1756923474"
+    },
+    {
+      "id": "256992403",
+      "name": "PC Trailer (US-EN)",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256992403/movie.293x165.jpg?t=1736451730",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/553850/646934/aadc3791b619905f24fab23a9896015c1cb5a628/1750550851/hls_264_master.m3u8?t=1736451730",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/553850/646934/aadc3791b619905f24fab23a9896015c1cb5a628/1750550851/dash_h264.mpd?t=1736451730",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/553850/646934/aadc3791b619905f24fab23a9896015c1cb5a628/1750550851/dash_av1.mpd?t=1736451730",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/553850/646934/aadc3791b619905f24fab23a9896015c1cb5a628/1750550851/hls_264_master.m3u8?t=1736451730"
+    },
+    {
+      "id": "256957675",
+      "name": "Co-op & Combat Trailer (US-EN)",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256957675/movie.293x165.jpg?t=1691444486",
+      "mp4": "",
+      "webm": "",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/553850/586622/3bec9e0e2b094162eabe087ca13ff91da51ea120/1750550136/hls_264_master.m3u8?t=1691444486",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/553850/586622/3bec9e0e2b094162eabe087ca13ff91da51ea120/1750550136/dash_h264.mpd?t=1691444486",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/553850/586622/3bec9e0e2b094162eabe087ca13ff91da51ea120/1750550136/dash_av1.mpd?t=1691444486",
+      "url": "https://video.akamai.steamstatic.com/store_trailers/553850/586622/3bec9e0e2b094162eabe087ca13ff91da51ea120/1750550136/hls_264_master.m3u8?t=1691444486"
+    }
+  ],
   "short_description": "은하계 최고의 공격 부대. 빠르고, 정신없고, 격렬한 3인칭 슈팅 게임에서 헬다이버가 되어 적대적인 은하계 전역을 누비며 자유를 위해 싸우세요.",
   "steam_store_url": "https://store.steampowered.com/app/553850",
-  "steam_recommendation_count": 815077,
+  "steam_recommendation_count": 818824,
   "steam_review_score_desc": "Mixed",
-  "steam_total_positive": 9582,
-  "steam_total_negative": 8414,
-  "steam_total_reviews": 17996,
+  "steam_total_positive": 9433,
+  "steam_total_negative": 8805,
+  "steam_total_reviews": 18238,
+  "price_currency": "KRW",
+  "price_current": 4480000,
+  "price_original": 4480000,
+  "price_current_formatted": "₩ 44,800",
+  "price_original_formatted": null,
+  "price_discount_percent": 0,
   "is_free": false,
   "coming_soon": false
 }
