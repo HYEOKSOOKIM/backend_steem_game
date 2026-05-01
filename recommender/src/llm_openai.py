@@ -1,7 +1,9 @@
 ﻿from __future__ import annotations
 
 import json
+import os
 import re
+import threading
 import time
 from typing import Any
 
@@ -10,6 +12,8 @@ from openai import OpenAI
 
 JSON_RE = re.compile(r"\{.*\}", re.DOTALL)
 ARRAY_RE = re.compile(r"\[.*\]", re.DOTALL)
+_LLM_CONCURRENCY = max(1, min(6, int((os.getenv("LLM_MAX_CONCURRENCY") or "2").strip() or "2")))
+_LLM_SEMAPHORE = threading.BoundedSemaphore(_LLM_CONCURRENCY)
 
 
 class OpenAILLM:
@@ -30,14 +34,15 @@ class OpenAILLM:
         last_exc: Exception | None = None
         for attempt in range(3):
             try:
-                resp = self.client.chat.completions.create(
-                    model=self.model,
-                    temperature=0,
-                    messages=[
-                        {"role": "system", "content": system},
-                        {"role": "user", "content": user},
-                    ],
-                )
+                with _LLM_SEMAPHORE:
+                    resp = self.client.chat.completions.create(
+                        model=self.model,
+                        temperature=0,
+                        messages=[
+                            {"role": "system", "content": system},
+                            {"role": "user", "content": user},
+                        ],
+                    )
                 msg = resp.choices[0].message.content or ""
                 return msg.strip()
             except Exception as exc:
@@ -49,7 +54,10 @@ class OpenAILLM:
                     except Exception:
                         pass
                 if attempt < 2:
-                    time.sleep(0.35 * (attempt + 1))
+                    if "429" in msg or "rate limit" in msg or "timeout" in msg:
+                        time.sleep(0.9 * (attempt + 1))
+                    else:
+                        time.sleep(0.35 * (attempt + 1))
                     continue
         err_name = type(last_exc).__name__ if last_exc is not None else "UnknownError"
         self.errors.append(f"chat: {err_name}: {last_exc}")
@@ -202,7 +210,8 @@ class OpenAILLM:
         joined = "\n".join(f"- {r}" for r in reviews[:5])
         system = (
             "한국어로만 답하고 주어진 리뷰를 1~3개의 짧은 근거 문장으로 요약하라. "
-            "질문과 관련된 내용만 포함하고 JSON 배열만 반환하라."
+            "질문과 관련된 내용만 포함하고 JSON 배열만 반환하라. "
+            "반드시 존댓말만 사용하라. 반말은 사용하지 마라."
         )
         user = f"질문: {query}\n게임: {game_name}\n리뷰:\n{joined}"
         raw = self._chat(system, user)
@@ -225,7 +234,8 @@ class OpenAILLM:
         joined = "\n".join(f"- {x}" for x in evidence_lines[:3])
         system = (
             "한국어로만 답하고 과장 없이 2문장 이내로 추천 이유를 작성하라. "
-            "반드시 제공된 근거 리뷰만 기반으로 작성하라."
+            "반드시 제공된 근거 리뷰만 기반으로 작성하라. "
+            "반드시 존댓말만 사용하라. 반말은 사용하지 마라."
         )
         user = (
             f"질문: {query}\n"
@@ -254,6 +264,7 @@ class OpenAILLM:
             "Rules:\n"
             "- summaries: 질문과 관련된 핵심 근거 1~3개(제공된 리뷰 기반)\n"
             "- reason: 과장 없이 2문장 이내 추천 이유\n"
+            "- 반드시 존댓말만 사용하고 반말은 사용하지 말 것\n"
             "- 추천 이유에서 '부합하지 않', '적합하지 않', '추천하지 않', '비추천' 같은 부정 판정 문구를 쓰지 말 것\n"
             "- '다르지만' 같은 완곡 연결은 가능하나 최종 결론은 추천 근거 중심으로 작성할 것\n"
             "- 제공된 리뷰 근거 밖의 사실은 만들지 말 것\n"
@@ -296,6 +307,7 @@ class OpenAILLM:
         system = (
             "한국어로만 답하고 한 줄 평 1문장만 작성하라.\n"
             "규칙:\n"
+            "- 반드시 존댓말만 사용하고 반말은 사용하지 말 것\n"
             "- 추천 이유를 반영할 것\n"
             "- 부정 의견이 있으면 완곡하게 단점/주의점을 함께 언급할 것\n"
             "- 과장/허위 금지, 45자 이내 권장\n"
